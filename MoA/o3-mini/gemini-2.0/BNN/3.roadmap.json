@@ -1,0 +1,75 @@
+[
+    {
+        "id": "P1",
+        "phase": "Phase 1: User Registration",
+        "feature_list": [
+            "Farmer account creation",
+            "Bank account verification for authenticity"
+        ],
+        "estimatedTime": 14,
+        "startTime": "2024-07-12",
+        "endTime": "2024-07-25",
+        "dependencies": []
+    },
+    {
+        "id": "P2",
+        "phase": "Phase 2: Product Listing",
+        "feature_list": [
+            "Product posting by farmers",
+            "Detailed product descriptions",
+            "Product image uploads",
+            "Pricing information",
+            "Additional product details"
+        ],
+        "estimatedTime": 21,
+        "startTime": "2024-07-26",
+        "endTime": "2024-08-15",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P3",
+        "phase": "Phase 3: Online Sales",
+        "feature_list": [
+            "Basic e-commerce transactions",
+            "Online product search",
+            "Product comparison",
+            "Online purchasing"
+        ],
+        "estimatedTime": 14,
+        "startTime": "2024-08-16",
+        "endTime": "2024-08-30",
+        "dependencies": [
+            "P2"
+        ]
+    },
+    {
+        "id": "P4",
+        "phase": "Phase 4: Payment Processing",
+        "feature_list": [
+            "Secure online payment systems",
+            "Farmer earnings disbursement"
+        ],
+        "estimatedTime": 14,
+        "startTime": "2024-08-31",
+        "endTime": "2024-09-13",
+        "dependencies": [
+            "P3"
+        ]
+    },
+    {
+        "id": "P5",
+        "phase": "Phase 5: Shipping Integration",
+        "feature_list": [
+            "Home delivery arrangement",
+            "Integrated shipping solutions"
+        ],
+        "estimatedTime": 14,
+        "startTime": "2024-09-14",
+        "endTime": "2024-09-27",
+        "dependencies": [
+            "P4"
+        ]
+    }
+]

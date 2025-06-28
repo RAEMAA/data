@@ -1,0 +1,303 @@
+[
+  {
+    "category": "User Registration",
+    "features": [
+      {
+        "featureName": "Farmer Registration",
+        "flow": "1) Farmer initiates registration by clicking 'Register' on the homepage. 2) Farmer completes the Registration Form with personal details (name, phone, address), government-issued ID, and bank account information. Real-time format validation occurs (e.g., phone number structure). 3) System sends data to the bank’s API for live verification of account ownership and ID match. 4a) If approved: System auto-generates an account, sends a welcome email/SMS, and redirects to the Confirmation Screen with login prompts and dashboard access. 4b) If rejected: Farmer is redirected to the Verification Status Screen with error specifics (e.g., 'ID mismatch') and editable fields for corrections. 5) Approved farmers gain immediate access to their dashboard to list products.",
+        "screens": [
+          "Registration Form: Includes input fields with inline validation and error messaging.",
+          "Verification Status Screen: Displays API processing status (spinner), approval/rejection results, and actionable feedback for rejected cases.",
+          "Confirmation Screen: Provides success messaging, login options, and quick-access links to profile setup/product listing tools."
+        ]
+      },
+      {
+        "featureName": "User Registration, Profile Management, and Purchase History Access",
+        "flow": "1. **Registration**: Farmer/Buyer navigates to the Registration Screen, selects their role, and provides name, email, phone number, and password. Farmers confirm they possess a valid bank account. 2. **OTP Verification**: System sends a verification code via SMS/email; user enters it on the OTP Verification Screen. 3. **Profile Creation**: Post-verification, Farmers input bank details, farm location, and certification documents (e.g., organic farming certificates). Buyers add shipping addresses and preferred payment methods (e.g., bank transfer, e-wallet). 4. **Dashboard Access**: Users access the Dashboard Screen, displaying purchase history, product listings (for farmers), and profile settings. 5. **Purchase History**: Users click 'Purchase History' to view transactions sorted by date. Farmers see sales data (buyer name, payment status, date); buyers see product name, seller, delivery status, and total cost. 6. **Transaction Details**: Selecting a transaction opens the Purchase Details Screen with itemized costs, shipping tracking numbers, dispute resolution buttons, and invoice download options.",
+        "screens": [
+          "Registration Screen: Role selection (Farmer/Buyer), basic details input, and bank account confirmation checkbox for farmers.",
+          "OTP Verification Screen: Field for entering 6-digit code and timer for resend functionality.",
+          "Profile Creation Screen: Farmers: bank account form (account number, bank name), farm location map pinning, document upload. Buyers: address form, payment method dropdown.",
+          "Dashboard Screen: Role-specific widgets (e.g., 'List New Product' for farmers, 'Browse Products' for buyers), quick-access menu.",
+          "Purchase History Screen: Filterable table (date range, transaction status) with expandable rows for summary.",
+          "Purchase Details Screen: Full transaction metadata, tracking integration (carrier API), and action buttons (request refund, contact support, download invoice)."
+        ]
+      },
+      "{\"featureName\": \"Multi-Factor Authentication (MFA) Setup\", \"flow\": \"1. Registration Completion Trigger: After a user (farmer/buyer) completes basic registration, the system automatically redirects them to the MFA setup prompt. 2. Method Selection: User selects either SMS (for phone number linked during registration) or email (registered email) as their MFA method. 3. Code Verification: System sends a 6-digit code via the selected method; user enters the code on the verification screen within 2 minutes. 4. Backup Code Generation: After successful verification, system generates 10 one-time backup codes. User is prompted to download or print these codes; optional 'Skip for Now' button with a reminder to complete this later via profile settings.\", \"screens\": [\"MFA Enrollment Screen: Displays MFA setup prompt with toggle options for SMS/email, a 'Continue' button, and a brief explanation of MFA benefits.\", \"Code Verification Screen: Includes a field for entering the 6-digit code, a 'Resend Code' option, and a timer display. Validation occurs in real-time.\", \"Backup Code Display Screen: Shows generated backup codes in a scrollable box, with 'Download PDF', 'Print', and 'Done' buttons. Includes a warning about secure storage.\"]}}"
+    ]
+  },
+  {
+    "category": "Product Management",
+    "features": [
+      {
+        "featureName": "Farmer Registration & Product Listing",
+        "flow": "1. Farmer navigates to registration page (Farmer Role).\n2. Farmer enters personal details (name, phone, address) and bank account information for payouts.\n3. System verifies bank details via API and sends SMS confirmation code.\n4. Farmer logs in, accesses dashboard, and selects 'Create New Listing'.\n5. Farmer chooses product category (e.g., Rice, Fruits, Fish) from a hierarchical menu.\n6. Farmer fills product details (title, description, quantity, harvest date), uploads images, and sets price per unit.\n7. System auto-suggests regional pricing averages based on existing listings.\n8. Farmer submits listing for moderation; system confirms submission and provides tracking ID.\n9. Approved listing goes live on marketplace with 'Pending Sale' status.",
+        "screens": [
+          "Registration Form: Collects farmer's personal and banking details with real-time validation",
+          "Verification Screen: Displays SMS code entry field and resend option",
+          "Dashboard: Central hub with 'Create Listing', 'Active Listings', and 'Sales History' buttons",
+          "Category Selection Interface: Expandable tree menu for agricultural product types",
+          "Product Submission Form: Input fields for metadata, drag-and-drop image upload, and price comparison widget",
+          "Listing Confirmation Screen: Summarizes submitted details and provides tracking ID",
+          "Approval Status Screen: Tells farmer whether listing is live, pending, or requires edits"
+        ]
+      },
+      {
+        "featureName": "Real-Time Inventory Tracking",
+        "flow": "1. [Farmer] Navigates to login screen and enters credentials. [System] Authenticates user via email/phone + 2FA. 2. [Farmer] Selects 'Inventory Dashboard' from main menu. [System] Displays real-time stock levels, sales trends, and pending alerts. 3. [Farmer] Clicks 'Manual Update' to adjust stock (e.g., post-harvest additions/spoilage write-offs). [System] Validates input and updates inventory database. 4. [System] Automatically deducts stock quantities when orders are confirmed via sales transactions. 5. [System] Triggers low-stock alerts (in-app notifications/SMS) when inventory falls below farmer-set thresholds. 6. [System] Syncs updated inventory data with logistics partners to adjust delivery schedules and resource allocation.",
+        "screens": [
+          "Login Screen: Farmer authentication with 2FA options",
+          "Inventory Dashboard: Overview of stock levels, sales-linked graphs, and quick-action buttons",
+          "Manual Stock Update Form: Input fields for product selection, quantity adjustment, and reason logging",
+          "Sales-Linked Inventory History: Timeline showing automatic deductions per transaction",
+          "Alerts Center: Customizable threshold settings and notification history",
+          "Logistics Sync Status: Visibility into inventory-linked delivery schedules and partner updates"
+        ]
+      },
+      {
+        "featureName": "Dynamic Pricing Management",
+        "flow": "1. Farmer authenticates via web/mobile app (Role: Farmer). 2. Accesses 'Pricing Tools' through dashboard quick actions. 3. Views live market data overlays showing regional price averages, competitor rates, and demand trends. 4. Configures base pricing rules through toggle-enabled templates (fixed/variable pricing). 5. Adjusts regional modifiers using map-based interface with province-specific markup sliders. 6. Sets bulk discount tiers (e.g., 10-50 units: 5% off, 50+ units: 12% off). 7. Triggers real-time simulation showing price competitiveness score and revenue projections. 8. Reviews automated compliance checks for minimum price thresholds. 9. Finalizes changes with two-factor authentication confirmation.",
+        "screens": [
+          "Pricing Intelligence Dashboard: Interactive Vietnam map with province boundaries (Leaflet.js integration), heatmap layer showing regional price averages (green=low to red=high), side-by-side competitor price tables with vendor/distance filters, line chart for 12-month trend forecasts. Includes live API-fed price data on hover, bar charts comparing user-set prices vs averages, and demand trend sparklines.",
+          "Rule Configuration Wizard: Template carousel with 3 presets (fixed, demand-based variable, hybrid), category dropdown for perishable goods, seasonal adjustment sliders (monsoon/dry season), bulk discount matrix grid. Examples: Fixed (base + 8% margin), Variable (±15% based on demand), Hybrid (fixed base + 5% bonus for >100km orders).",
+          "Simulation Preview Panel: Radial gauge for price competitiveness score (0-100), side-by-side bar charts (old vs new prices), 30-day revenue projection line graph, traffic light system for visibility ranking changes.",
+          "Audit & Compliance Screen: Red/Green status badges for provincial minimum prices, expandable regulation cards with legal text, automated threshold checker using Vietnam MOA's API, historical change log with version comparison slider."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Order System",
+    "features": [
+      {
+        "featureName": "Bulk Cart Functionality",
+        "flow": "1. [Buyer] Add multiple items to bulk cart via 'Add to Bulk Cart' buttons on product listings or search results. 2. [System] Auto-apply seller-defined tiered discounts (e.g., '5% off for 20-50 units, 10% off for 51+ units'). 3. [Buyer] Navigate to Bulk Cart Overview to review aggregated items, quantities, applied discounts, and cumulative totals. 4. [Buyer] Select 'Edit Quantities' to modify bulk order via Quantity Editor screen with real-time discount/total updates. 5. [Buyer] Confirm order via Bulk Order Confirmation screen with final pricing, shipping cost breakdown, and payment options. 6. [Seller] Access Discount Management screen in Seller Dashboard to configure tiered discounts (min/max quantities + percentage) for individual products.",
+        "screens": [
+          "Bulk Cart Overview - Displays all bulk-added items with thumbnail images, base prices, quantity tiers, applied discounts, and subtotal per item. Includes 'Edit' and 'Proceed to Checkout' CTAs.",
+          "Quantity Editor Screen - Interactive interface with quantity sliders/input fields per item. Shows dynamic updates: discount eligibility indicators (e.g., '10% unlocked at 50 units'), total savings, and order subtotal.",
+          "Bulk Order Confirmation Screen - Final review with collapsible sections for price breakdown (base total, discounts, shipping fees, taxes). Integrated payment gateway options and bulk shipping address selector.",
+          "Discount Management Screen (Seller) - Table-based interface for sellers to create/update tiered discount rules per product. Includes validation for non-overlapping quantity ranges and preview of buyer pricing."
+        ]
+      },
+      {
+        "featureName": "Order Status Tracking",
+        "flow": "1. [Buyer] Receives **Order Confirmation** screen post-payment with summary and estimated timeline. 2. [Seller] Marks order as **Processing** in their Order Management screen (packaging/quality check). 3. [Seller] Updates status to **Shipped** and triggers automated notification to buyer. 4. [Logistics] Inputs real-time **In-Transit Updates** (e.g., GPS coordinates, delays) via Logistics Dashboard. 5. [Buyer] Views **Delivery Confirmation** screen with digital receipt and option to rate products. 6. [Buyer/Seller] Initiates return via **Return Request Screen** (if applicable), triggering a return label and pickup coordination.",
+        "screens": [
+          "Order Status Dashboard (Buyer): Visual timeline with status bubbles (e.g., 'Shipped', 'In Transit'), estimated delivery date, and contact support button.",
+          "Order Detail Screen (Buyer/Seller): Displays product list, payment summary, shipping address, and interactive status history.",
+          "Shipping Tracking Map (Buyer): Real-time map overlay with delivery route and current carrier location (integrated with third-party logistics APIs).",
+          "Notification Center (All Roles): Push/SMS alerts for status changes (e.g., 'Your rice order is out for delivery'), with deep links to relevant screens.",
+          "Return Management Screen (Seller): Lists return requests, reasons (e.g., 'Damaged packaging'), and approval/rejection options with comment fields.",
+          "Logistics Update Interface (Logistics Team): Form for updating delivery milestones, uploading proof-of-delivery photos, and flagging delays."
+        ]
+      },
+      {
+        "featureName": "Automated Delivery Scheduling & Tracking",
+        "flow": "1. **Order Placement (Customer)**: Customer adds products to cart and proceeds to checkout. 2. **Urgency Assessment (System)**: Algorithm evaluates farmer's geolocation and product shelf life (prioritizing fish/dairy with 12hr windows vs grains with 7-day windows). 3. **Capacity Calculation (System)**: Integrates logistics partner availability (max 50 orders/day), vehicle capacity (200kg/vehicle), and delivery radius (max 60km radius from farmer). 4. **Dynamic Slot Generation (System)**: Generates time slots using perishability score (1-5 scale) - highly perishable items get 2hr delivery windows, others 4hr. 5. **Slot Selection (Customer)**: Customer views color-coded slots (red=full, amber=limited capacity, green=available) on interactive map with ETA estimates. 6. **Route Optimization (System)**: Assigns order to logistics partner with shortest route using real-time traffic data. 7. **Dispatch Coordination (Logistics Team)**: Partners receive batch orders with AI-optimized routes through mobile app. 8. **OTP Verification (Customer/Farmer)**: QR code scanned at pickup/delivery points triggers automated payment settlement within 2hrs.",
+        "screens": [
+          "Order Summary Screen: Final cart review with shipping cost estimator and perishability alerts.",
+          "Delivery Priority Matrix Screen: (Internal) Displays perishability scores and delivery radius overlaps for system validation.",
+          "Slot Generator Dashboard: (Internal) Logistics managers override automated slots during peak demand.",
+          "Interactive Delivery Map: Customer views driver’s live location with alternative route suggestions during delays.",
+          "Batch Order Interface: Logistics partners see grouped deliveries by region with weight distribution metrics.",
+          "Validation History Screen: Farmers access timestamped OTP/QRs with customer signatures for dispute resolution."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Payment Gateway",
+    "features": [
+      {
+        "featureName": "Secure Escrow Payment System",
+        "flow": "1. [Buyer] Selects escrow payment option during checkout. 2. [System] Calculates escrow hold duration based on estimated shipping time + 24h inspection period. 3. [Buyer] Confirms bank transfer to escrow pool account with farmer-specific virtual account number. 4. [System] Locks item inventory and notifies seller to package goods within 48h. 5. [Seller] Scans QR code on logistics waybill to auto-update tracking data. 6. [Buyer] Receives SMS/app notification upon delivery; inspects goods quality against listing photos. 7. [System] Auto-releases funds to seller after 24h unless buyer initiates dispute. 8. [Dispute] Either party uploads timestamped geo-located photos/videos of damaged goods or quantity mismatch. 9. [System] Freezes funds and prioritizes disputes where perishable goods are involved. 10. [Moderator] Reviews evidence chain, consults regional agricultural quality standards, and mediates refund percentages.",
+        "screens": [
+          "Escrow Terms Screen: Displays escrow fees, inspection timeframe, and regional shipping time estimates before payment commitment.",
+          "Virtual Account Assignment Screen: Shows unique escrow account number and payment deadline countdown for bank transfers.",
+          "Escrow Timeline Tracker: Visualizes stages (payment received, goods packaged, in transit, under inspection) with expected dates.",
+          "Goods Inspection Checklist: Prepopulated list based on product category (e.g., moisture levels for rice, bruising thresholds for fruit).",
+          "Dispute Evidence Capture: Camera-first interface with auto-timestamp/geotag overlay and side-by-side comparison with original listing.",
+          "Moderator Decision Console: Displays escrow transaction history, evidence gallery, and dropdown menu with standardized resolution options."
+        ]
+      },
+      {
+        "featureName": "Multiple Currency Support",
+        "flow": "1. **Buyer/Seller Account Setup (Role: Buyer/Seller):** Rural farmers (sellers) set VND as default base currency during registration, while buyers (local/regional) select preferred currency. 2. **Product Listing (Role: Seller):** Farmers input prices in VND - system auto-converts to 3 key regional currencies (USD, EUR, CNY) using Vietnam forex rates. Conversion rates locked at listing time for price stability. 3. **Product Browsing (Role: Buyer):** Buyers see prices in their selected currency with original VND value in parentheses to emphasize local authenticity. 4. **Checkout (Role: Buyer):** Total calculated in buyer's currency with agricultural-specific conversion fee (0.5%) disclosed. Rate validity timestamped to prevent disputes. 5. **Payment Settlement (Role: System):** Converted amount sent to seller's VND account within 24hrs. Export-oriented sellers can request partial foreign currency retention (requires KYC). 6. **Post-Transaction (Role: Both):** Invoices show both currencies + village-level tax breakdowns to comply with Vietnam’s agricultural export regulations.",
+        "screens": [
+          "Farm Registration Currency Lock Screen: Auto-sets VND with disabled currency editing for rural seller accounts.",
+          "Regional Buyer Currency Selector: Prominent currency toggle in header for cross-border buyers.",
+          "Farmer's Price Anchoring Interface: Shows VND as primary price with converted values in subdued colors to prevent confusion.",
+          "Harvest-Time Rate Freeze Dialog: Allows sellers to lock conversion rates during peak harvest seasons (30-90 day periods).",
+          "Agricultural Conversion Fee Calculator: Breaks down 0.5% fee as 'Rural Digitalization Surcharge' per government partnerships.",
+          "Export Seller Currency Retention Dashboard: Advanced interface for certified export farmers to manage foreign currency allocations.",
+          "Village Tax Compliance Invoice: Auto-generates commune-specific tax rows in both currencies for auditing."
+        ]
+      },
+      {
+        "featureName": "Transaction Dispute Resolution",
+        "flow": "1. **Dispute Initiation (Buyer):** Buyer navigates to order history, selects disputed transaction, and clicks 'Raise Dispute'. 2. **Payment Evidence Submission (Buyer):** Buyer fills dispute form with payment transaction ID, attaches payment evidence (bank statements, gateway receipts), and submits. 3. **Automated Fund Hold:** Payment gateway API freezes transaction funds. Seller receives in-app notification/email with payment freeze alert. 4. **Seller Response (Seller):** Seller responds within 72 hours via dashboard: accepts fault (triggers automated refund via gateway API) or contests claim with payment proofs (gateway logs, delivery confirmation). 5. **Gateway Reconciliation Check (System):** Platform cross-checks seller/buyer claims against payment gateway transaction logs. 6. **Admin Mediation (Admin):** If unresolved, admin reviews payment gateway logs, fund status, and evidence via resolution interface. 7. **Binding Resolution:** Admin enforces refund (full/partial via API), replacement order, or rejection. System automatically processes approved refunds through gateway integration. 8. **Escalation to Payment Provider:** If disputed beyond platform authority, case and API logs are packaged for third-party payment provider review. 9. **Closure/Appeal:** Both parties receive resolution summary with gateway transaction references. Appeals require new payment evidence and trigger re-evaluation with gateway log comparisons.",
+        "screens": [
+          "Dispute Submission Form: Includes payment transaction ID field, bank statement upload, and gateway receipt attachment for payment-specific evidence.",
+          "Dispute Confirmation Screen: Shows real-time payment freeze status with gateway reference ID and expected resolution timeline.",
+          "Dispute Dashboard: Role-specific view displaying held funds status, payment gateway logs, and action buttons (submit refund offer, escalate to provider).",
+          "Resolution Proposal Screen (Seller): Interface to submit gateway transaction logs as counter-evidence or approve refunds via API integration.",
+          "Admin Resolution Interface: Central panel with payment gateway reconciliation tools, API refund sliders, and side-by-side evidence comparison against gateway logs.",
+          "Resolution Summary Screen: Details refund amount processed via gateway API, admin comments, and escalation portal access for unresolved cases.",
+          "Gateway Reconciliation Dashboard: Displays variances between platform records and payment gateway logs for audit purposes.",
+          "Refund Automation Interface: Admin tool to execute API-driven refunds with pre-filled gateway transaction IDs and amount validation.",
+          "Payment Escalation Portal: Packaged dispute evidence + gateway API logs for third-party payment provider review."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Review Mechanism",
+    "features": [
+      {
+        "featureName": "Farmer Rating System",
+        "flow": "1. [Buyer] Post-Purchase Invitation: Trigger automated notification (email/SMS/in-app) 24hrs after order delivery with direct link to rating interface. 2. [Buyer] Rating Submission: Display 5-star scale (1=poor, 5=excellent), optional 500-character review field, and submission confirmation modal. 3. [Admin] Moderation Check: Auto-flag reviews with profanity (using keyword filter), display pending reviews in moderation queue with farmer/buyer context. 4. [System] Approval & Visibility: Publish approved reviews within 1hr of approval. Calculate weighted average rating (recent reviews weighted 20% higher). 5. [Farmer] Profile Management: Display lifetime average (e.g., 4.3★), monthly breakdown (August: 4.5★ from 12 reviews), and sorting/filtering by date/rating. 6. [Farmer] Dispute Resolution: Enable 'Report Review' button with dropdown reasons (Inaccurate, Offensive, Other) and 200-character explanation field.",
+        "screens": [
+          "Rating Submission Screen: Mobile-first design with animated star selector, character counter for review field, and GDPR-compliant data usage disclaimer.",
+          "Public Farmer Profile Screen: Hero section with large rating display (e.g., '4.3★ | 86 reviews'), review cards showing buyer name/region, purchase date, and verified purchase badge.",
+          "Admin Moderation Panel: Grid view with bulk actions, sentiment analysis score preview (0-100% positive), and audit trail tracking moderator ID/timestamp.",
+          "Farmer Analytics Dashboard: Interactive line chart (6-month rating trend), comparison to regional averages, and top improvement tags (e.g., 'Packaging mentioned in 18% of 3★ reviews').",
+          "In-App Notification System: Badge counter for new reviews/dispute updates, expandable cards showing review snippets, and quick-action buttons for common responses."
+        ]
+      },
+      [
+        {
+          "featureName": "Purchase Verification Check",
+          "flow": "1. [Customer] Navigates to 'Write Review' on product page. 2. [System] Cross-references user ID with completed transactions in sales database. 3a. Verified: Display verification badge on review draft. 3b. Unverified: Show error prompt explaining requirement to purchase item first. 4. [System] Logs verification status with timestamp.",
+          "screens": [
+            "Review Submission Screen (with verification status header)",
+            "Purchase Verification Error Modal"
+          ]
+        },
+        {
+          "featureName": "Rating Selection",
+          "flow": "1. [Customer] Selects rating using star buttons (1-5). 2. [System] Animates star fill color change on hover/selection. 3. Stores rating in session storage until submission. 4. [System] Validates rating presence before review submission.",
+          "screens": ["Rating Selection Panel (inline component)"]
+        },
+        {
+          "featureName": "Review Composition",
+          "flow": "1. [Customer] Writes review in text editor with live preview. 2. [System] Sanitizes input using OWASP guidelines. 3. Auto-saves draft every 30s to localStorage. 4. Character counter shows 2000/2000 remaining. 5. [Customer] Submits with 'Post Review' CTA.",
+          "screens": [
+            "Review Editor Screen (rich text toolbar)",
+            "Draft Recovery Banner"
+          ]
+        },
+        {
+          "featureName": "Media Upload",
+          "flow": "1. [Customer] Attaches farm product photos/videos via drag-and-drop. 2. [System] Compresses images >10MB using sharp.js. 3. Generates thumbnail grid with delete buttons. 4. Validates file types against allowlist. 5. Encrypts media at rest using AES-256.",
+          "screens": [
+            "Media Upload Widget (drag-drop zone)",
+            "Media Preview Carousel"
+          ]
+        },
+        {
+          "featureName": "Moderation Queue",
+          "flow": "1. [Admin] Filters reviews by toxicity score threshold (≥70% flagged). 2. Views original media attachments and sanitized text. 3. Tags violations: 'Fake Review'/'Inappropriate Content'/'Off-Topic'. 4. Submits decision with audit trail. 5. [System] Notifies user via email upon rejection.",
+          "screens": [
+            "Moderation Dashboard (priority queue view)",
+            "Review Audit Detail Page"
+          ]
+        },
+        {
+          "featureName": "Display Logic",
+          "flow": "1. [System] Renders approved reviews with verified purchase badge. 2. Sorts by 'Most Helpful' using (upvotes ÷ total views) algorithm. 3. Highlights reviews from same farming region. 4. Shows seasonal tags during harvest months. 5. Lazy-loads media carousel.",
+          "screens": [
+            "Product Review Feed (paginated list)",
+            "Review Card (with region badge)",
+            "Seasonal Highlight Overlay"
+          ]
+        },
+        {
+          "featureName": "Multi-Axis Quality Rating",
+          "flow": "1. [Customer] Selects 'Rate Quality' on post-purchase screen. 2. [System] Displays Quality Metric Selector with 4 axes: Crop Freshness (1-5 stars), Packaging Integrity (Yes/No), Delivery Condition (Damaged/Intact), Accuracy vs. Description (% match). 3. [Customer] Submits ratings; system calculates weighted score using farmer-set priorities. 4. [System] Triggers farmer notification if overall score < 3/5.",
+          "screens": [
+            "Quality Metric Selector (interactive grid)",
+            "Quality Score Summary Modal"
+          ]
+        },
+        {
+          "featureName": "Farmer Response Workflow",
+          "flow": "1. [Farmer] Receives push notification/SMS for low-quality reviews. 2. [Farmer] Accesses Rebuttal Interface from seller dashboard. 3. [System] Shows original customer media with EXIF timestamps and geolocation. 4. [Farmer] Uploads counter-evidence (pre-shipment photos/videos) or selects standardized apology templates. 5. [System] Flags review as 'Under Dispute' and publishes farmer response after admin review.",
+          "screens": [
+            "Farmer Rebuttal Interface (evidence uploader)",
+            "Dispute Status Tracker"
+          ]
+        },
+        {
+          "featureName": "Quality Summary Dashboard",
+          "flow": "1. [Admin/Buyer] Views Product Quality Overview screen. 2. [System] Renders comparative radar charts showing regional averages vs individual seller scores. 3. Drill-down shows timestamped customer reviews with farmer responses. 4. [Admin] Generates PDF/CSV reports for cooperative quality certifications. 5. [System] Identifies frequent issues using NLP analysis on review text clusters.",
+          "screens": [
+            "Product Quality Overview (analytics dashboard)",
+            "Quality Trend Heatmap (time-based)"
+          ]
+        }
+      ],
+      {
+        "featureName": "Verified Purchase Badges",
+        "flow": "1. Farmer/Customer navigates to a purchased product's page via 'Order History' or direct link. 2. User clicks 'Write a Review' button (visible only for delivered orders). 3. System triggers backend validation: cross-checks user ID, product ID, and order status ('delivered') via BNN's transaction database. 4. If validated: User is redirected to 'Review Submission Page' with pre-filled product details. 5. User submits review (1-5 stars), text (Vietnamese language support), and optional images of received goods. 6. System attaches 'Verified Purchase' badge and publishes review. 7. Review appears under 'Product Review Display' with badge priority. If not validated: Pop-up error ('Chỉ có thể đánh giá sản phẩm sau khi nhận hàng' / 'Review available only after confirmed purchase') blocks submission.",
+        "screens": [
+          "Review Submission Page: Form with star rating slider, text field (character limit: 500), image upload (max 3 photos), and 'Preview Badge' section showing 'Đã Xác Nhận Mua Hàng' label. Includes submission rules in Vietnamese.",
+          "Product Review Display: Grid showing reviews sorted by verified status first. Badge appears as green checkmark + text. Users can filter by 'Verified Only' or sort by date/rating.",
+          "Backend Purchase Validation Logic: Integration layer between review subsystem and BNN's order management system. Automated cron job syncs delivery confirmations from logistics partners (e.g., GHN, GHTK) to validate eligibility."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Communication",
+    "features": [
+      {
+        "featureName": "Real-Time Messaging",
+        "flow": "1. **Initiate Chat** (Customer): On Product Detail Screen, click 'Message Seller' to open Chat Screen with auto-injected product context (ID, title, price). 2. **Send Message** (Customer): Compose inquiry (free text or auto-suggested FAQs like 'Minimum order quantity?', 'Organic certification?') with optional image attachments. 3. **Notification** (Farmer): System triggers priority badge (urgent/standard) based on keywords (e.g., 'defective', 'payment issue') in Notification Center. 4. **Reply** (Farmer): Type response in Chat Screen with integrated order/product data visibility (e.g., 'Your order #1234 will ship tomorrow'). 5. **Post-Purchase Coordination** (Either Role): From Order Details Screen, click 'Contact' to auto-link messages to specific order/payment/shipping records. 6. **Thread Management**: Archive/resolve threads in Messages Inbox; unresolved chats escalate after 72h via farmer dashboard alerts.",
+        "screens": [
+          "Product Detail Screen: Floating 'Message Seller' CTA button with persistent availability during browsing.",
+          "Chat Screen: Split-view interface showing message history (timestamped), product/order context panel (read-only), and rich-text editor with emoji/attachment support.",
+          "Messages Inbox Screen: Tabs for 'Active', 'Resolved', and 'Flagged' threads; bulk actions (mark read/archive) and seller response time metrics.",
+          "Notification Center: Expandable overlay with message snippets, quick-reply shortcuts, and priority filtering.",
+          "Order Details Screen: Context-aware 'Contact' button that pre-fills order metadata in new messages.",
+          "Seller Dashboard: 'Message Analytics' widget showing response rates, common query tags, and unresolved thread count."
+        ]
+      },
+      {
+        "featureName": "Regional Announcement System",
+        "flow": "1. **Admin authentication**: Platform administrator logs in via secure credentials. 2. **Announcement initiation**: Navigates to Announcement Dashboard and selects 'Create New' button. 3. **Content creation**: Uses rich text editor to craft messages with localized agricultural terminology (e.g., 'thu hoạch lúa' for rice harvest). Attaches media like weather radar images or regional price comparison charts. 4. **Audience targeting**: Filters recipients by (a) Role: Farmer clusters (seller-side) or Buyer coalitions (purchaser groups), (b) Geography: Pinpoints Mekong Delta/Southern Highlands via interactive map layers. 5. **Temporal optimization**: Schedules announcements using harvest/off-season calendars to avoid market saturation. 6. **Cross-device validation**: Previews layout across low-bandwidth mobile devices common in rural areas. 7. **Multi-channel distribution**: Simultaneously triggers (a) In-app banners, (b) SMS blasts for users without smartphones, (c) Partner bank payment receipt integrations. 8. **Post-delivery analytics**: Tracks buyer/farmer response rates with drill-downs per commune/district to measure impact on transaction volumes.",
+        "screens": [
+          "Role-Based Access Gateway: Secure login with 2FA for admin personnel.",
+          "Announcement Dashboard: Grid view of scheduled/active/completed announcements with status filters.",
+          "Localized Content Builder: WYSIWYG editor with preloaded agricultural term glossary and regional dialect options.",
+          "Geo-Targeting Interface: Layered map displaying farmer density (heatmap) and buyer distribution (cluster markers).",
+          "Temporal Scheduler: Drag-and-drop timeline showing existing market promotions/logistics alerts to prevent conflicts.",
+          "Bandwidth Simulator: Preview pane emulating 3G/Low-End Device rendering for accessibility testing.",
+          "Cross-Channel Monitor: Real-time dashboard showing SMS delivery rates, app notification opens, and payment system acknowledgments."
+        ]
+      },
+      [
+        {
+          "featureName": "Real-Time Transaction Notifications",
+          "flow": "1. **Buyer places order**: Buyer selects products, confirms order/payment. System sends order confirmation via SMS + in-app notification to buyer and new order alert to seller. 2. **Payment verification**: System validates payment via bank API. Notifies buyer (receipt via SMS/in-app) and seller (funds reserved in escrow with SMS confirmation). 3. **Inventory check**: Seller confirms stock availability. If unavailable, system alerts buyer via SMS/in-app with alternative options. 4. **Logistics handoff**: Seller triggers shipping request. System notifies buyer with carrier details (SMS + in-app map link) and seller with pickup ETA (in-app). 5. **Delivery tracking**: Logistics API updates status at each checkpoint. Buyer receives in-app map tracking with SMS milestone alerts; seller sees delivery progress via in-app dashboard. 6. **Transaction closure**: On delivery confirmation, system releases payment to seller (SMS/in-app confirmation) and prompts buyer for feedback via in-app form with SMS reminder.",
+          "screens": [
+            "Unified Notification Inbox - Chronological list with color-coded categories (blue=payment, green=shipping, orange=alert) and SMS reply integration",
+            "Escrow Status Screen - Seller-facing view of payment hold details with expected release date and SMS confirmation button",
+            "Inventory Reconciliation Screen - Auto-highlights stock discrepancies between order and warehouse data with SMS alert customization",
+            "Carrier Selection Modal - Seller chooses preferred logistics partner with rate/timing comparison and SMS rate alerts",
+            "Live Tracking Overlay - Interactive map with delivery progress, driver contact button, and SMS sharing option"
+          ]
+        },
+        {
+          "featureName": "Automated Reminders for Pending Actions",
+          "flow": "1. **Unpaid order detection**: System flags orders without payment after 1hr. 2. **Escalation sequence**: 24hr reminder (SMS), 48hr reminder (SMS+in-app banner), 72hr order cancellation alert (SMS/in-app modal). 3. **Seller action monitoring**: Triggers reminders for unconfirmed shipments every 6hrs via SMS/in-app after 12hr post-order. 4. **Delivery exception handling**: Auto-detects delayed shipments via carrier API, suggests alternate routes to seller via SMS/in-app decision prompts. 5. **Post-completion follow-up**: Sends buyer review template via in-app/SMS 24hr post-delivery with product photo upload capability.",
+          "screens": [
+            "Reminder Audit Log - Shows all scheduled/sent reminders with SMS/in-app channel tags and user response status",
+            "Escalation Rules Configuration - Allows sellers to set custom SMS grace periods per product category and in-app timing",
+            "Delay Resolution Center - Collaborative interface with SMS chat integration for buyers/sellers to approve shipment changes",
+            "Feedback Template Builder - Customizable review forms with SMS/in-app distribution options and multimedia attachments"
+          ]
+        }
+      ]
+    ]
+  }
+]

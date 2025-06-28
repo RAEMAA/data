@@ -1,0 +1,194 @@
+[
+  {
+    "category": "User Personal Space",
+    "features": [
+      {
+        "featureName": "Profile customization",
+        "flow": "Step 1: User logs into DSN and enters their personal space (User). Step 2: User navigates to the Profile section via the main navigation or sidebar (User). Step 3: The system displays the Profile Overview Screen with current details (System). Step 4: User clicks on the 'Customize Profile' or 'Edit Profile' button to begin editing (User). Step 5: The system loads the Edit Profile Screen where users can modify text fields (System). Step 6: User selects the option to update their profile picture, triggering the Avatar Customization Screen (User). Step 7: User uploads a new photo or selects an avatar from available options (User). Step 8: User edits personal details such as bio, display name, and interests on the Edit Profile Screen (User). Step 9: User selects a preferred theme by navigating to the Theme Selection Screen to personalize background colors and fonts (User). Step 10: The system provides a Preview/Confirmation Screen displaying all changes for review (System). Step 11: User confirms and saves the updates (User), after which the system updates the profile and returns the user to the Profile Overview Screen with refreshed details (System).",
+        "screens": [
+          "Profile Overview Screen: Displays the current profile information and a button to customize the profile.",
+          "Edit Profile Screen: Provides editable fields for bio, display name, and other personal details.",
+          "Avatar Customization Screen: Allows users to upload a new profile picture or choose an avatar from a pre-defined list.",
+          "Theme Selection Screen: Offers options to select background colors, themes, and font styles for the profile.",
+          "Privacy Settings Screen: (Optional) Enables users to configure visibility and privacy options.",
+          "Preview/Confirmation Screen: Shows a summary of all changes before finalizing the update."
+        ]
+      },
+      {
+        "featureName": "Personal Dashboard",
+        "flow": "1. User logs in using credentials; the system authenticates and redirects the user to the Personal Dashboard. (Roles: User, System)\n2. The dashboard loads with a personalized welcome message, recent posts feed, notifications summary, friend activity, and trending topics relevant to the user. (Role: System)\n3. User navigates the dashboard: views the feed, clicks on a post for detailed view, or selects a menu option to create a new post. (Role: User)\n4. On clicking 'New Post', the system opens the Post Composition Screen where the user can draft and attach media to the post. (Roles: User, System)\n5. When a user selects an individual post from the feed, the system transitions to a Detailed Post View Screen providing full post details and engagement options like commenting and liking. (Roles: User, System)\n6. User accesses the Notification Screen by clicking the notifications icon to review comments, likes, and friend requests. (Roles: User, System)\n7. The dashboard also provides access to the Profile Settings Screen, allowing users to update personal information, privacy settings, and account preferences. (Roles: User, System)\n8. Throughout these steps, contextual tooltips and help sections guide the user, ensuring a seamless interactive experience. (Role: System)",
+        "screens": [
+          "Dashboard Home Screen: Displays an overview including the feed, notifications, and navigation menu.",
+          "Post Composition Screen: Enables the creation and submission of new posts with options for text, images, or videos.",
+          "Detailed Post View Screen: Shows an in-depth view of a selected post with all interaction options.",
+          "Notification Screen: Lists all the user’s notifications such as likes, comments, and friend requests.",
+          "Profile Settings Screen: Provides a dedicated area for users to update their personal information and manage privacy settings."
+        ]
+      },
+      {
+        "featureName": "Secure account management",
+        "flow": "Step 1: Personal Space Registration Initiation - The user accesses DSN's personalized registration page designed to not only capture credentials but also initiate the creation of a personal space. Role: User, System.\nStep 2: Detailed Profile and Credential Submission - The user inputs essential details (email, password, username, and optional avatar/design elements) to link their personal space with secure account credentials. Role: User, System.\nStep 3: Email/Phone Verification - The system sends a verification code or link; the user confirms ownership via the DSN Email Verification Screen. Role: User, System.\nStep 4: Two-Factor Authentication (Optional DSN Enhancement) - On first login, the user is prompted to set up 2FA using SMS or an authenticator app, integrated with DSN security recommendations, further personalizing their secure space. Role: User, System.\nStep 5: Personalized Secure Login - The user accesses the DSN Login Screen featuring personalized greetings and reminders from their personal space; the system authenticates the credentials and applies additional security measures (like CAPTCHA when needed). Role: User, System.\nStep 6: Password Recovery & Security Questions - If credentials are forgotten, the user initiates a password reset via the DSN Password Reset Screen; security questions and recovery emails/phone verification ensure account integrity. Role: User, System.\nStep 7: DSN Personal Account Settings & Security Monitoring - The user navigates to the Account Settings Screen to update their space details, manage linked accounts, configure notifications, and review recent security alerts integrated within their personal dashboard. Role: User, System.\nStep 8: Activity & Security Log Review - The system provides a dedicated Security Alerts/Activity Screen that displays login history and security logs directly within the personal space for continuous monitoring. Role: User, System.",
+        "screens": [
+          "DSN Registration Screen: Collects user credentials and personal space customization details (avatar, tagline) during initial sign-up.",
+          "DSN Email Verification Screen: Prompts users to input the verification code or follow a confirmation link, ensuring account ownership.",
+          "DSN Personalized Login Screen: Provides a secure login interface with a personalized welcome message and DSN branding.",
+          "DSN Password Reset Screen: Facilitates secure recovery of account access with guided instructions and security questions.",
+          "DSN Two-Factor Authentication Setup Screen: Guides the user through the configuration of an extra layer of security (2FA) for safer access.",
+          "DSN Account Settings Screen: Allows users to manage their personal space, update profile information, link social accounts, and adjust security preferences.",
+          "DSN Security Alerts & Activity Screen: Displays logs of security events, login attempts, and alerts, ensuring users can monitor their account activity."
+        ]
+      },
+      "{\"featureName\": \"Activity Log\", \"flow\": \"1. User logs into DSN (Role: Registered User). 2. User navigates to their profile or dashboard and selects the \\\"Activity Log\\\" tab. 3. The system retrieves the user\\'s activity history and displays it on the Main Activity Log Display screen (Role: System). 4. The user reviews the list and clicks the filter icon to refine the displayed results (Role: Registered User). 5. The system opens the Filter Options screen where the user can select criteria such as date range, activity type, or keyword (Role: System). 6. The user applies the filters; the system processes the request and updates the activity log display accordingly (Roles: Registered User and System). 7. The user selects a specific activity entry to view detailed information, prompting the system to open the Detailed Activity View screen (Roles: Registered User and System). 8. If no activities match the selected filters, the system displays a No Activity Placeholder screen indicating that there are no results (Role: System). 9. In the event of a system or network error, an Error Screen is shown with troubleshooting options and a retry button (Role: System).\", \"screens\": [\"Main Activity Log Display: Presents a chronological list of user activities with brief details and timestamps.\", \"Filter Options Screen: Allows users to apply filters such as date, activity type, or keyword to narrow down activity entries.\", \"Detailed Activity View: Provides an in-depth view of a selected activity, including detailed descriptions, timestamps, and metadata.\", \"No Activity Placeholder Screen: Informs the user when there are no matching activities to display based on the selected filters.\", \"Error Screen: Displays error messages and provides options for retrying the request or contacting support.\"]}"
+    ]
+  },
+  {
+    "category": "Creative Expression",
+    "features": [
+      "{\"featureName\": \"Content creation tools\", \"flow\": \"Step 1: The user logs into DSN and navigates to their personal dashboard. (User Role: Content Creator)\\\nStep 2: User clicks the \\\"Create Post\\\" button available on the dashboard. (User Role: Content Creator)\\\nStep 3: The system displays the Content Creation Screen with options to add text, images, videos, or other media. (User Role: System)\\\nStep 4: The user selects a media type and begins drafting their post using integrated tools and templates suited for creative expression. (User Role: Content Creator)\\\nStep 5: The user utilizes edit and formatting options to refine content; save drafts or preview the post in a dedicated Preview Screen. (User Role: Content Creator)\\\nStep 6: The user navigates to the Content Settings Screen to configure privacy levels, add hashtags, and tag topics relevant to community interests. (User Role: Content Creator)\\\nStep 7: On submission, the post is sent for a brief automated review, with a Moderator optionally reviewing if flagged or if advanced moderation is enabled. (User Roles: System and Moderator)\\\nStep 8: The post is successfully published on the community feed and notifications are sent to followers. (User Role: System)\", \"screens\": [\"Dashboard Screen: A central hub where users view activity and access tools including the initiation of content creation.\", \"Content Creation Screen: The main interface where users draft their posts, integrate media elements, and apply formatting.\", \"Preview Screen: Allows users to preview the final appearance of their posts before publishing.\", \"Content Settings Screen: Enables configuration of privacy options, topic tags, and other metadata to refine post visibility.\", \"Confirmation Screen: Displays the success message of content submission along with options to share or further edit the post.\"]}",
+      {
+        "featureName": "Design templates",
+        "flow": "Step 1: User logs into DSN using secure credentials. (Role: End-User)\nStep 2: User navigates to the Creative Expression section from the dashboard.\nStep 3: User selects the 'Design Templates' option to view available design options.\nStep 4: The system displays a listing of template options with thumbnail previews. (Role: System)\nStep 5: User selects a desired template to view detailed preview and customization options.\nStep 6: In the Template Preview Screen, the user can see an enlarged view and a brief description of the template. (Role: End-User)\nStep 7: User proceeds to the Template Customization Screen where they customize elements such as color schemes, fonts, and layouts using a drag-and-drop interface. (Role: End-User)\nStep 8: The customized template is previewed in real-time, and the user can make further adjustments if needed. (Role: System)\nStep 9: Once satisfied, the user confirms the changes, and the system processes the final design update. (Role: System)\nStep 10: A confirmation message is displayed on the Success/Feedback Screen, and the updated design template is saved within the user’s profile or creative portfolio. (Role: End-User, System)",
+        "screens": [
+          "Login Screen: Allows the user to securely input credentials to access DSN.",
+          "Dashboard Screen: Serves as the central hub for navigation, including access to Creative Expression features.",
+          "Design Templates Listing Screen: Displays a grid or list view of all available design templates with short descriptions and thumbnails.",
+          "Template Preview Screen: Provides a detailed view of the selected template along with customization options.",
+          "Template Customization Screen: Offers a drag-and-drop interface for modifying design elements such as colors, fonts, and layout, along with real-time preview.",
+          "Template Confirmation Screen: Summarizes the changes made and asks the user to confirm the final design.",
+          "Success/Feedback Screen: Notifies the user of a successful save or indicates errors if encountered during the process."
+        ]
+      },
+      {
+        "featureName": "Media uploads",
+        "flow": "1. User initiates the media upload by clicking the 'Upload' button on the personal dashboard. (User)\n2. The system displays an upload modal comprising drag-and-drop and file selection options along with guidelines on allowed file types and sizes. (System)\n3. User selects a media file (image or video) from their device. (User)\n4. The system renders a preview of the chosen media along with fields for adding a caption, tags, and selecting privacy settings. (System, User)\n5. User reviews the preview, enters additional details, and confirms the upload. (User)\n6. The system validates the file type and size, then begins the upload process showing a progress indicator. (System)\n7. Upon successful upload, the system displays a confirmation message along with the updated media gallery containing the new upload. (System, User)\n8. Optionally, moderators or automated systems review flagged content or upload issues and notify the user if further action is required. (Moderator, System)",
+        "screens": [
+          "Dashboard Screen: Displays the user's main area with an accessible 'Upload' button.",
+          "Upload Modal Screen: Provides a file selection interface with drag-and-drop functionality and file guidelines.",
+          "Media Preview Screen: Shows the preview of the selected media and input fields for captions, tags, and privacy settings.",
+          "Progress Indicator Screen: Visual component displaying the status of the file upload process.",
+          "Confirmation Screen: Confirms successful media upload and displays the media in the user's gallery with further interaction options."
+        ]
+      },
+      {
+        "featureName": "Editing suite",
+        "flow": "Step 1: User logs into DSN and navigates to their personal space (Content Creator/Member). Step 2: From the personal space, the user selects a media item (image, video, or text) to edit. Step 3: User clicks on the 'Edit' option, launching the Editing Suite interface. Step 4: In the Editing Suite, the user is presented with a toolbar offering features such as cropping, filtering, adjusting brightness/contrast, and applying creative effects. Step 5: The user experiments with the editing tools with real-time previews available, receiving contextual tooltips and guidance. Step 6: Once satisfied with the changes, the user selects 'Save' to update the edited version or 'Cancel' to discard changes. Step 7: The system displays a confirmation message and updates the content stream with the new version. (Note: In scenarios where content moderation is required, a Moderator role may review edits flagged by the system, but the default flow remains user-driven.)",
+        "screens": [
+          "User Personal Space Screen: Displays the user's content along with options to edit posts.",
+          "Media Selection Screen: Shows a grid or list of media items available for editing with thumbnail previews.",
+          "Editing Suite Interface: The main workspace featuring the media item, editing tools toolbar, and real-time preview window.",
+          "Tool Options Panel: A dynamic sidebar detailing adjustable parameters (e.g., filters, crop guidelines, color adjustments) and offering additional customizations.",
+          "Review & Confirmation Screen: Provides a side-by-side before/after view of the edited media, with options to save or discard changes along with confirmation messaging."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Community Interaction",
+    "features": [
+      {
+        "featureName": "Social Sharing",
+        "flow": "Step 1: User logs into DSN and lands on the home/feed screen. (Role: User)\nStep 2: User scrolls through the community feed and identifies a post they wish to share. (Role: User)\nStep 3: User taps the share icon associated with the post. (Role: User)\nStep 4: The system displays the Social Sharing Options screen, offering options like adding personal commentary, tagging other users, or adjusting visibility settings. (Role: System)\nStep 5: User enters additional text or selects tags to personalize the shared post. (Role: User)\nStep 6: User confirms the share action. (Role: User)\nStep 7: The system processes the request, updates the post's sharing status, and reflects the action on the user’s profile and feed. (Role: System)\nStep 8: A confirmation notification or screen is displayed to confirm the successful share. (Role: System)",
+        "screens": [
+          "Home/Feed Screen: Displays user’s main feed containing community posts.",
+          "Post Detail Screen: Shows detailed content of a selected post with interactive options.",
+          "Social Sharing Options Screen: Provides functionalities for adding commentary, tagging, and setting privacy for the shared post.",
+          "Confirmation/Notification Screen: Displays success message or visual confirmation once the post is shared.",
+          "Settings Screen (Optional): Allows users to configure default sharing preferences and privacy settings."
+        ]
+      },
+      {
+        "featureName": "Forums and discussions",
+        "flow": "1. Guest Access: A guest visits DSN and can view a limited version of forums, including a list of public threads and categories.\n2. User Login/Registration: A new or returning user logs in or registers to gain full access. Roles involved: Guest transitioning to Registered User.\n3. Browsing Forums: The Registered User navigates to the Forums section where they view a dashboard listing various forum categories (e.g., General Discussion, Creative Ideas, Feedback, etc.).\n4. Selecting a Category: The user selects a forum category to view details. The system displays a list of threads under that category. Role: Registered User.\n5. Viewing Thread Details: The user clicks on a thread and is taken to the Thread Detail Screen, which includes the original post, replies, and options to like, share, or flag content. Role: Registered User.\n6. Initiating a New Thread: The user decides to start a new discussion by clicking the 'Create Thread' button. This action opens the New Thread Creation Screen where the user can input a title, description, and relevant tags. Role: Registered User.\n7. Posting a Reply: From the Thread Detail Screen, the user selects the reply option, leading them to the Reply Submission Screen to add their comment. Role: Registered User.\n8. Moderation Actions: If a user flags an inappropriate post, a Moderator receives an alert. The moderator accesses the Moderation Screen to review and take necessary actions (edit, remove, or warn the poster). Roles involved: Moderator and Administrator.\n9. Profile and Activity: After participating, the user can navigate to their User Profile Screen to review their forum contributions, threads, and replies. Role: Registered User.",
+        "screens": [
+          "Forum Home Screen: Displays an overview of forum categories, recent threads, and navigation options.",
+          "Forum Category Screen: Lists all threads under a selected forum category with thread previews.",
+          "Thread Detail Screen: Shows detailed view of a selected discussion including the original post, replies, and interactive options such as like, reply, and flag.",
+          "New Thread Creation Screen: Provides a form for users to create a new forum thread by entering a title, content, and tags.",
+          "Reply Submission Screen: Offers a text input area for users to post their comments or replies to an ongoing discussion.",
+          "Moderation Screen: Dedicated interface for moderators to review flagged content, manage posts, and enforce community guidelines.",
+          "User Profile Screen: Displays individual user contributions, posted threads, replies, and personal activity metrics."
+        ]
+      },
+      {
+        "featureName": "Peer feedback",
+        "flow": "1. Content Posting: A DSN participant creates a post or shares a creative idea on their personal space. The system automatically flags this post for peer feedback if the user opts in or by default settings.\n2. Feedback Invitation: Once the post is published, the system notifies the user and community members through a feedback invitation prompt. This alert appears on both the post detail view and the community feed.\n3. Accessing the Feedback Feature: Interested peers click on the feedback prompt, which navigates them to the dedicated Peer Feedback screen. At this point, users are informed about guidelines and the types of feedback expected. (User role: Participant/Peer)\n4. Feedback Submission: In the Feedback Submission Screen, peers enter their comments, suggestions, and emotional responses toward the shared post. They can rate aspects such as clarity, creativity, and emotional impact. (User role: Peer)\n5. Feedback Aggregation: After submission, the system aggregates all peer inputs and displays a consolidated view. The original content creator is notified about the new aggregated feedback. (User roles: Participant (content creator), Peer)\n6. Moderation and Quality Check: Moderators periodically review submitted feedback for inappropriate content or off-topic remarks. If flagged, feedback is either removed or sent back for revision. (User role: Moderator)\n7. Review and Response: The content creator reviews the consolidated feedback in a dedicated Feedback Overview panel, where they can also respond or initiate follow-up discussions.\n8. Continuous Interaction: Users can further interact by liking or commenting on individual feedback messages, enriching the dialogue and community spirit.",
+        "screens": [
+          "Post Detail Screen: Displays the original post along with an option to initiate or view peer feedback.",
+          "Feedback Invitation Overlay: A pop-up prompt encouraging community members to provide constructive feedback, including basic guidelines.",
+          "Peer Feedback List Screen: Provides an overview of all active posts open for peer feedback, with filtering options.",
+          "Feedback Submission Form: A dedicated screen where peers can submit detailed feedback, including text fields, rating options, and emotion tags.",
+          "Feedback Aggregation Screen: Shows consolidated feedback with summary analytics and highlights key comments; accessible to the original poster.",
+          "Moderator Review Dashboard: A dedicated interface for moderators to monitor, review, and manage flagged or inappropriate feedback entries."
+        ]
+      },
+      {
+        "category": "User Content Creation",
+        "features": [
+          {
+            "featureName": "Create Post",
+            "flow": "Step 1: DSN Member logs in and navigates to the dashboard.\nStep 2: The user selects the 'Create Post' option to start a new post.\nStep 3: The DSN System displays the Post Creation screen where the user can enter their thoughts, choose an emotion tag, and optionally add media.\nStep 4: The user enters content and selects the relevant mood/emotion that best represents their state.\nStep 5: The user clicks the 'Preview' button to review the post on the Preview screen, ensuring the content appears as intended.\nStep 6: If satisfied, the user presses the 'Post' button which sends the content to the DSN System.\nStep 7: The DSN System processes the post and updates the user feed; if the content requires moderation, it triggers a review by DSN Moderators.\nStep 8: Upon successful posting, the Confirmation screen displays a success message along with the new post in the feed.",
+            "screens": [
+              "Dashboard Screen: Serves as the landing page where users view their feed and access post creation.",
+              "Post Creation Screen: Interface for composing a new post including text entry, mood selection, and media attachment options.",
+              "Preview Screen: Allows users to review their post before final submission.",
+              "Confirmation Screen: Displays a success message and shows the updated feed with the newly created post."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Secure Connectivity",
+    "features": [
+      {
+        "featureName": "Encrypted communications",
+        "flow": "1. User Authentication: The user accesses DSN via the Login Screen, inputs secure credentials, and logs in (Role: User, DSN System).\n2. Navigate to Settings: Once authenticated, the user selects the Settings option from the Dashboard to locate the secure messaging features (Role: User).\n3. Access Encrypted Communications: Within Settings, the user navigates to the Encrypted Communication Settings Screen to initiate secure messaging setup (Role: User).\n4. Key Generation/Import: The system verifies if encryption keys exist. If not, it prompts the user to generate new keys or import existing ones, ensuring encryption readiness (Role: DSN System, User).\n5. Compose Secure Message: The user selects a contact or group and enters the Message Composition Screen to draft a message, which is automatically flagged for encryption (Role: User).\n6. Real-Time Message Encryption: As the message is composed, the system encrypts it in real-time using the configured keys; an optional preview of the encrypted message may be shown (Role: DSN System).\n7. Encryption Confirmation & Sending: The Encryption Confirmation Screen displays a summary of the encryption process and message details. The user reviews and confirms before sending (Role: User, DSN System).\n8. Secure Transmission: The DSN System securely transmits the encrypted message to the designated recipient’s inbox and logs the action (Role: DSN System).\n9. Message Receipt & Decryption: Upon receiving notification, the recipient uses their secure key via the Received Messages Screen to decrypt and view the message (Role: Recipient, DSN System).\n10. Audit and History Review: Both sender and recipient can access an Audit Log Screen showing transaction details, message status, and encryption logs for security verification (Role: User, Recipient, DSN System).",
+        "screens": [
+          "Login Screen - Facilitates secure user authentication with login fields for credentials.",
+          "Dashboard Screen - Provides overall navigation with direct access to settings and messaging options.",
+          "Settings Screen - Allows users to adjust configurations including access to encrypted communications.",
+          "Encrypted Communication Settings Screen - Enables users to generate/import encryption keys and configure encryption protocols.",
+          "Message Composition Screen - A dedicated interface for drafting messages with built-in encryption activation.",
+          "Encryption Confirmation Screen - Offers a summary and verification of the encryption process before final message transmission.",
+          "Sent Messages Screen - Lists all encrypted messages sent, complete with status logs and timestamps.",
+          "Received Messages Screen - Displays incoming encrypted messages with options for decryption and sender details.",
+          "Audit Log Screen - Provides a secure history of sent/received encrypted messages for transparency and troubleshooting."
+        ]
+      },
+      {
+        "featureName": "Multi-factor authentication",
+        "flow": "Step 1: The registered user enters their username and password on the Login Screen. (User Role: Registered User)\nStep 2: The system validates the credentials. If valid, it checks whether multi-factor authentication (MFA) is enabled for the user. (System Role: Authentication Service)\nStep 3: If MFA is enabled, the system sends a verification code via the user's preferred method (e.g., SMS, email, or authenticator app). (System Role: Notification Service)\nStep 4: The user receives the verification code on their registered device and is redirected to the MFA Code Entry Screen. (User Role: Registered User)\nStep 5: The user enters the received code; the system verifies its correctness. (System Role: Verification Service)\nStep 6: If the code is correct, the system grants access and redirects the user to the Home Dashboard Screen. (System Role: Session Manager)\nStep 7: If the code is incorrect, the user is prompted with an error message on the same screen with options to resend the code or try again. (User Role: Registered User)\nStep 8: Optionally, new or existing users can navigate to the MFA Settings Screen via their Account Settings to set up or update MFA methods. (User Role: Registered User)",
+        "screens": [
+          "Login Screen: Captures user credentials and initiates the authentication process.",
+          "MFA Prompt Screen: Informs the user that multi-factor authentication is required and explains the next steps.",
+          "MFA Code Entry Screen: Provides an interface for entering the verification code received via the selected method.",
+          "Error/Resend Option Screen: Displays errors and offers options to resend the verification code within the MFA flow.",
+          "MFA Settings Screen: Allows users to set up, manage, or update their multi-factor authentication preferences and methods.",
+          "Home Dashboard Screen: The landing page after successful authentication that displays personalized content and features."
+        ]
+      },
+      {
+        "featureName": "Real-time Monitoring",
+        "flow": "1. Monitoring Initialization: The System Administrator activates the real-time monitoring feature on DSN, ensuring that continuous data collection for user activity, server performance, and security logs is enabled. (Role: System Administrator)\n2. Data Collection & Aggregation: The system automatically collects metrics from user interactions, content posts, connection logs, and server health stats. (Role: Automated System Processes)\n3. Anomaly Detection: In real time, automated algorithms analyze incoming data to identify unusual patterns or potential security breaches. (Role: Automated Monitoring System)\n4. Alert Generation: Once an anomaly is detected, the system triggers an immediate alert which is displayed on the dashboard and forwarded to the Network Security Team. (Role: Automated System; Notification to Network Security Team)\n5. Alert Review & Action: The System Administrator and Network Security Team review the alert details on the dashboard. They decide whether to dismiss the alert, investigate further, or escalate to incident management. (Role: System Administrator, Network Security Team)\n6. Detailed Investigation: By selecting an alert, users navigate to an Alert Details Screen providing comprehensive information such as timestamp, severity, and context logs. (Role: System Administrator, Incident Response)\n7. Logging & Reporting: All incidents and system events are recorded in a Log History Screen, which supports audits and compliance reviews. (Role: System Administrator, Security Compliance)\n8. End-User Notifications: For critical alerts that might affect user experience, end-user alerts are issued to inform about ongoing issues and provide updates. (Role: Automated System, End-User Alerts)",
+        "screens": [
+          "Real-time Dashboard: A central hub displaying live metrics, alert summaries, and system health indicators, enabling quick oversight of system performance.",
+          "Alert Details Screen: A detailed view for individual alerts that includes comprehensive information such as time of occurrence, severity, cause analysis, and recommended actions.",
+          "Log History Screen: A chronological log of all alerts and system events for auditing purposes, allowing deeper analysis and review.",
+          "Incident Management Screen: An interface for tracking, escalating, and resolving critical alerts, including action tracking and incident resolution steps."
+        ]
+      },
+      {
+        "featureName": "Data privacy controls",
+        "flow": "1. User Login and Dashboard Access: The registered user logs into DSN and is directed to the dashboard. (Role: Registered User)\n2. Navigation to Account Settings: The user clicks on their profile icon and selects Account Settings. (Role: Registered User)\n3. Accessing Privacy Settings: Within Account Settings, the user selects the Data Privacy Controls option. (Role: Registered User)\n4. Viewing and Adjusting Options: The Data Privacy Controls screen displays multiple toggles and sliders for options such as profile visibility, post sharing, location data, and third-party integrations. (Role: Registered User)\n5. Editing Privacy Preferences: The user adjusts the settings based on their personal privacy requirements. (Role: Registered User)\n6. Confirmation and Save: The user confirms changes by clicking the Save button; the system validates input and provides a success confirmation. (Roles: Registered User, System)\n7. Optional Help Access: The user may click on a Help or FAQ link if more details are needed regarding data privacy terms. (Role: Registered User)\n8. Administrative Oversight: In scenarios requiring organizational policy defaults or escalations, an administrator can review and manage default privacy policies through an Admin Console. (Role: Administrator)",
+        "screens": [
+          "Dashboard Screen: Initial landing page after login where users access quick links including Account Settings.",
+          "Account Settings Screen: Central location for user preferences including security and privacy options.",
+          "Data Privacy Controls Screen: Dedicated interface that presents toggles and detailed descriptions for each privacy setting.",
+          "Confirmation Screen: A feedback modal or page that confirms successfully saved changes to privacy settings.",
+          "Help/Support Screen: Provides detailed FAQs, privacy guidelines, and support contact information for further queries."
+        ]
+      }
+    ]
+  }
+]

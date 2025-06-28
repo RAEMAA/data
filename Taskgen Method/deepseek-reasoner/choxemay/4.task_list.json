@@ -1,0 +1,438 @@
+[
+  [
+    [
+      {
+        "id": "P1-T1",
+        "taskName": "Design UI/API Schema for Motorcycles Listings",
+        "correspondingPhase": "P1",
+        "correspondingFeature": "Motorcycles",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-23",
+        "endTime": "2023-10-24",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Designer, API Architect"
+      },
+      {
+        "id": "P1-T2",
+        "taskName": "Develop Core Motorcycles Listing Functionality",
+        "correspondingPhase": "P1",
+        "correspondingFeature": "Motorcycles",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2023-10-25",
+        "endTime": "2023-10-29",
+        "dependencies": ["P1-T1"],
+        "responsiblePerson": "Backend Developer, Frontend Developer"
+      },
+      {
+        "id": "P1-T3",
+        "taskName": "Test Motorcycles Listing Integration",
+        "correspondingPhase": "P1",
+        "correspondingFeature": "Motorcycles",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-30",
+        "endTime": "2023-10-30",
+        "dependencies": ["P1-T2"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P1-T4",
+        "taskName": "Design UI/API Schema for Parts Listings",
+        "correspondingPhase": "P1",
+        "correspondingFeature": "Parts",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-23",
+        "endTime": "2023-10-24",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Designer, API Architect"
+      },
+      {
+        "id": "P1-T5",
+        "taskName": "Develop Core Parts Listing Functionality",
+        "correspondingPhase": "P1",
+        "correspondingFeature": "Parts",
+        "priority": "Medium",
+        "estimatedTime": "5 days",
+        "startTime": "2023-10-25",
+        "endTime": "2023-10-29",
+        "dependencies": ["P1-T4"],
+        "responsiblePerson": "Backend Developer, Frontend Developer"
+      },
+      {
+        "id": "P1-T6",
+        "taskName": "Test Parts Listing Integration",
+        "correspondingPhase": "P1",
+        "correspondingFeature": "Parts",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-30",
+        "endTime": "2023-10-30",
+        "dependencies": ["P1-T5"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P1-T7",
+        "taskName": "Design UI/API Schema for Accessories Listings",
+        "correspondingPhase": "P1",
+        "correspondingFeature": "Accessories",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-23",
+        "endTime": "2023-10-24",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Designer, API Architect"
+      },
+      {
+        "id": "P1-T8",
+        "taskName": "Develop Core Accessories Listing Functionality",
+        "correspondingPhase": "P1",
+        "correspondingFeature": "Accessories",
+        "priority": "Medium",
+        "estimatedTime": "5 days",
+        "startTime": "2023-10-25",
+        "endTime": "2023-10-29",
+        "dependencies": ["P1-T7"],
+        "responsiblePerson": "Backend Developer, Frontend Developer"
+      },
+      {
+        "id": "P1-T9",
+        "taskName": "Test Accessories Listing Integration",
+        "correspondingPhase": "P1",
+        "correspondingFeature": "Accessories",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-30",
+        "endTime": "2023-10-30",
+        "dependencies": ["P1-T8"],
+        "responsiblePerson": "QA Engineer"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": "P2-T1",
+        "taskName": "Design Transaction History Count Module",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Transaction history count",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2023-11-20",
+        "endTime": "2023-11-22",
+        "dependencies": [],
+        "responsiblePerson": "UX Designer"
+      },
+      {
+        "id": "P2-T2",
+        "taskName": "Implement Transaction History Calculation Logic",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Transaction history count",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2023-11-23",
+        "endTime": "2023-11-27",
+        "dependencies": ["P2-T1"],
+        "responsiblePerson": "Backend Developer"
+      },
+      {
+        "id": "P2-T3",
+        "taskName": "Test Transaction History Accuracy",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Transaction history count",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-11-28",
+        "endTime": "2023-11-29",
+        "dependencies": ["P2-T2"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P2-T4",
+        "taskName": "Design Peer Feedback Score Interface",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Peer feedback score",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2023-11-20",
+        "endTime": "2023-11-22",
+        "dependencies": [],
+        "responsiblePerson": "UX Designer"
+      },
+      {
+        "id": "P2-T5",
+        "taskName": "Implement Feedback Aggregation Algorithm",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Peer feedback score",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2023-11-23",
+        "endTime": "2023-11-27",
+        "dependencies": ["P2-T4"],
+        "responsiblePerson": "Backend Developer"
+      },
+      {
+        "id": "P2-T6",
+        "taskName": "Validate Feedback Score Consistency",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Peer feedback score",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-11-28",
+        "endTime": "2023-11-29",
+        "dependencies": ["P2-T5"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P2-T7",
+        "taskName": "Design Monetary Value Tracking System",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Monetary value of completed transactions",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2023-11-20",
+        "endTime": "2023-11-22",
+        "dependencies": [],
+        "responsiblePerson": "UX Designer"
+      },
+      {
+        "id": "P2-T8",
+        "taskName": "Develop Monetary Value Calculation Engine",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Monetary value of completed transactions",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2023-11-23",
+        "endTime": "2023-11-27",
+        "dependencies": ["P2-T7"],
+        "responsiblePerson": "Backend Developer"
+      },
+      {
+        "id": "P2-T9",
+        "taskName": "Audit Monetary Value Data Integrity",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Monetary value of completed transactions",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-11-28",
+        "endTime": "2023-11-29",
+        "dependencies": ["P2-T8"],
+        "responsiblePerson": "QA Engineer"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": "P3-T1",
+        "taskName": "Design Credibility Tier Prioritization Algorithm",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Credibility tier prioritization",
+        "priority": "High",
+        "estimatedTime": "12 hours",
+        "startTime": "2023-12-11",
+        "endTime": "2023-12-12",
+        "dependencies": ["P2-T2", "P2-T3"],
+        "responsiblePerson": "UX/UI Designer, Backend Architect"
+      },
+      {
+        "id": "P3-T2",
+        "taskName": "Implement Prioritization Logic in Marketplace Listings",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Credibility tier prioritization",
+        "priority": "High",
+        "estimatedTime": "32 hours",
+        "startTime": "2023-12-13",
+        "endTime": "2023-12-18",
+        "dependencies": ["P3-T1"],
+        "responsiblePerson": "Backend Developer, Frontend Developer"
+      },
+      {
+        "id": "P3-T3",
+        "taskName": "Unit & Integration Testing for Visibility Prioritization",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Credibility tier prioritization",
+        "priority": "Medium",
+        "estimatedTime": "16 hours",
+        "startTime": "2023-12-19",
+        "endTime": "2023-12-20",
+        "dependencies": ["P3-T2"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P3-T4",
+        "taskName": "User Acceptance Testing (UAT) for Prioritized Listings",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Credibility tier prioritization",
+        "priority": "High",
+        "estimatedTime": "12 hours",
+        "startTime": "2023-12-21",
+        "endTime": "2023-12-22",
+        "dependencies": ["P3-T3"],
+        "responsiblePerson": "QA Team, Product Owner"
+      },
+      {
+        "id": "P3-T5",
+        "taskName": "Deploy Visibility Prioritization to Production",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Credibility tier prioritization",
+        "priority": "High",
+        "estimatedTime": "8 hours",
+        "startTime": "2023-12-25",
+        "endTime": "2023-12-25",
+        "dependencies": ["P3-T4"],
+        "responsiblePerson": "DevOps Engineer"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": "P4-T1",
+        "taskName": "Design dedicated pricing threads UI/UX and database schema",
+        "correspondingPhase": "P4",
+        "correspondingFeature": "Dedicated threads for regional pricing trends",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-11-20",
+        "endTime": "2023-11-21",
+        "dependencies": [],
+        "responsiblePerson": "UX Designer"
+      },
+      {
+        "id": "P4-T2",
+        "taskName": "Develop dedicated pricing threads functionality",
+        "correspondingPhase": "P4",
+        "correspondingFeature": "Dedicated threads for regional pricing trends",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2023-11-22",
+        "endTime": "2023-11-24",
+        "dependencies": ["P4-T1"],
+        "responsiblePerson": "Backend Developer"
+      },
+      {
+        "id": "P4-T3",
+        "taskName": "Conduct functionality and security testing for pricing threads",
+        "correspondingPhase": "P4",
+        "correspondingFeature": "Dedicated threads for regional pricing trends",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-27",
+        "endTime": "2023-11-27",
+        "dependencies": ["P4-T2"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P4-T4",
+        "taskName": "Design real-time pricing dashboard layout and data pipelines",
+        "correspondingPhase": "P4",
+        "correspondingFeature": "Real-time pricing dashboards",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-11-20",
+        "endTime": "2023-11-21",
+        "dependencies": [],
+        "responsiblePerson": "UX Designer"
+      },
+      {
+        "id": "P4-T5",
+        "taskName": "Implement real-time dashboard with live data integration",
+        "correspondingPhase": "P4",
+        "correspondingFeature": "Real-time pricing dashboards",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2023-11-22",
+        "endTime": "2023-11-24",
+        "dependencies": ["P4-T4"],
+        "responsiblePerson": "Frontend Developer"
+      },
+      {
+        "id": "P4-T6",
+        "taskName": "Validate data accuracy and dashboard responsiveness",
+        "correspondingPhase": "P4",
+        "correspondingFeature": "Real-time pricing dashboards",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-27",
+        "endTime": "2023-11-27",
+        "dependencies": ["P4-T5"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P4-T7",
+        "taskName": "Design historical price analysis data models and visualization tools",
+        "correspondingPhase": "P4",
+        "correspondingFeature": "Historical price fluctuation analysis tools",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-11-20",
+        "endTime": "2023-11-21",
+        "dependencies": [],
+        "responsiblePerson": "Data Architect"
+      },
+      {
+        "id": "P4-T8",
+        "taskName": "Build historical analysis tools with aggregated data",
+        "correspondingPhase": "P4",
+        "correspondingFeature": "Historical price fluctuation analysis tools",
+        "priority": "Medium",
+        "estimatedTime": "3 days",
+        "startTime": "2023-11-22",
+        "endTime": "2023-11-24",
+        "dependencies": ["P4-T7"],
+        "responsiblePerson": "Data Engineer"
+      },
+      {
+        "id": "P4-T9",
+        "taskName": "Test historical tool accuracy and performance",
+        "correspondingPhase": "P4",
+        "correspondingFeature": "Historical price fluctuation analysis tools",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-27",
+        "endTime": "2023-11-27",
+        "dependencies": ["P4-T8"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P4-T10",
+        "taskName": "Design collaborative workshop interface and scheduling system",
+        "correspondingPhase": "P4",
+        "correspondingFeature": "Collaborative pricing strategy workshops",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-11-20",
+        "endTime": "2023-11-21",
+        "dependencies": [],
+        "responsiblePerson": "UX Designer"
+      },
+      {
+        "id": "P4-T11",
+        "taskName": "Implement real-time collaboration tools for workshops",
+        "correspondingPhase": "P4",
+        "correspondingFeature": "Collaborative pricing strategy workshops",
+        "priority": "Medium",
+        "estimatedTime": "3 days",
+        "startTime": "2023-11-22",
+        "endTime": "2023-11-24",
+        "dependencies": ["P4-T10"],
+        "responsiblePerson": "Full-stack Developer"
+      },
+      {
+        "id": "P4-T12",
+        "taskName": "Test workshop functionality and user interactions",
+        "correspondingPhase": "P4",
+        "correspondingFeature": "Collaborative pricing strategy workshops",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-27",
+        "endTime": "2023-11-27",
+        "dependencies": ["P4-T11"],
+        "responsiblePerson": "QA Engineer"
+      }
+    ]
+  ]
+]

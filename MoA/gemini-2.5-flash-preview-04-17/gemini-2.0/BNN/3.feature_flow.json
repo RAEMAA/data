@@ -1,0 +1,142 @@
+[
+    {
+        "category": "User Management",
+        "features": [
+            {
+                "featureName": "Farmer Registration (including Bank Account Requirement)",
+                "flow": "1. **User (Farmer):** Clicks on the 'Register' button (likely from the homepage).\n2. **System:** Displays the Farmer Registration form.\n3. **User (Farmer):** Fills in the registration form with required information: Name, Contact Information (Phone Number, Email Address), Address, and Bank Account Details (Bank Name, Account Number, Account Holder Name).  Includes fields for password creation and confirmation.\n4. **System:** Validates the entered information. Checks for valid email format, phone number format, and potentially verifies bank account details (e.g., through a third-party API or basic format validation).  Displays error messages if validation fails.\n5. **User (Farmer):** Corrects any errors and resubmits the form.\n6. **System:** Upon successful validation, the system sends a verification email to the farmer's provided email address.\n7. **User (Farmer):** Checks their email inbox and clicks on the verification link in the email.\n8. **System:** Verifies the email address and activates the farmer's account.\n9. **System:** Redirects the farmer to a 'Registration Successful' screen or automatically logs them in and redirects them to their dashboard.\n10. **System:** (Optional) May require the farmer to complete additional profile information after initial registration (e.g., adding a profile picture, providing more details about their farm).",
+                "screens": [
+                    "Registration Landing Page: A page with a registration form, including fields for name, contact information, address, bank account details, and password creation.",
+                    "Registration Form Validation Errors: Displays error messages for invalid input fields.",
+                    "Registration Success Page: Confirms successful registration and prompts the user to check their email for verification.",
+                    "Email Verification Screen: A screen displayed after the user clicks the verification link in their email.  Could display a success message or automatically redirect to the login page.",
+                    "Farmer Dashboard (after successful registration/login): The farmer's main control panel, allowing access to product listing, order management, and profile settings. (Note: This screen is not *only* for registration, but is the destination after successful registration)"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Product Management",
+        "features": [
+            {
+                "featureName": "Product Listing (details, images, prices)",
+                "flow": "1. **Farmer:** Navigates to the 'Sell' or 'Add Product' section of the platform.\n2. **Farmer:** Chooses a product category from a predefined list (e.g., Rice, Fruits, Fish).\n3. **System:** Displays a product listing form with required fields (e.g., Product Name, Description, Price, Quantity, Unit of Measurement).\n4. **Farmer:** Enters product details, including name, description, price per unit, available quantity, and unit of measurement (e.g., kg, bag).\n5. **Farmer:** Uploads product images (multiple images allowed).\n6. **Farmer:** Specifies any relevant product attributes (e.g., Rice type, Fruit variety, Fish origin).\n7. **Farmer:** Reviews the entered information.\n8. **Farmer:** Submits the product listing.\n9. **System:** Validates the entered data.\n10. **System:** If validation fails, displays error messages and prompts the farmer to correct the errors.\n11. **System:** If validation is successful, saves the product listing and displays a confirmation message.\n12. **System:** The product listing is now visible to customers (subject to any admin approval process - *Note: Admin approval process details are missing from the requirements*).",
+                "screens": [
+                    "Sell/Add Product Landing Page: Provides an entry point for farmers to start listing a new product.",
+                    "Product Category Selection: Allows the farmer to choose the appropriate category for their product.",
+                    "Product Listing Form: A detailed form for entering all product information (name, description, price, quantity, images, attributes).",
+                    "Image Upload: Interface for uploading product images.",
+                    "Product Preview: Displays a preview of the product listing as it will appear to customers.",
+                    "Confirmation Page: Confirms successful product listing and provides options to edit or view the listing.",
+                    "Error Message Display: Displays validation errors and guides the farmer to correct them."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Browsing and Search",
+        "features": [
+            {
+                "featureName": "Product Browsing",
+                "flow": "1. **User (Customer)**: Navigates to the Hailua website.\n2. **System**: Displays the homepage with featured products, product categories, and potentially a search bar.\n3. **User (Customer)**: Browses through product categories (e.g., Rice, Fruits, Fish).\n4. **System**: Displays a list of products within the selected category, including product images, brief descriptions, and prices.\n5. **User (Customer)**: Scrolls through the product list or uses pagination to view more products.\n6. **User (Customer)**: Clicks on a product to view its details (goes to Product Details screen).",
+                "screens": [
+                    "Homepage: Displays featured products, categories, and a search bar.",
+                    "Category Listing: Displays a list of products within a selected category, including images, brief descriptions, and prices.",
+                    "Product Details (accessible from Category Listing): Displays detailed information about a selected product (this screen is also used in other features)."
+                ]
+            },
+            {
+                "featureName": "Product Searching",
+                "flow": "1. **User (Customer)**: Enters a search query (e.g., 'rice', 'mango') into the search bar on the homepage or a category page.\n2. **System**: Processes the search query.\n3. **System**: Displays a search results page with products matching the search query, including product images, brief descriptions, and prices.\n4. **User (Customer)**: Reviews the search results.\n5. **User (Customer)**: Refines the search using filters (e.g., price range, location, farmer). (Note: Filter options need to be defined.)\n6. **System**: Updates the search results based on the applied filters.\n7. **User (Customer)**: Clicks on a product to view its details (goes to Product Details screen).",
+                "screens": [
+                    "Homepage: Includes a search bar.",
+                    "Category Listing: Includes a search bar.",
+                    "Search Results: Displays products matching the search query, including images, brief descriptions, and prices. Includes filter options (e.g., price, location).",
+                    "Product Details (accessible from Search Results): Displays detailed information about a selected product (this screen is also used in other features)."
+                ]
+            },
+            {
+                "featureName": "Product Comparison",
+                "flow": "1. **User (Customer)**: Browses products through category listing or search results.\n2. **User (Customer)**: Selects products to compare by clicking a 'Compare' button or checkbox next to each product (the exact UI element needs to be defined).\n3. **System**: Adds the selected products to a comparison list (potentially in a temporary 'comparison cart' or similar).\n4. **User (Customer)**: Navigates to the comparison view (e.g., by clicking a 'Compare' icon or button).\n5. **System**: Displays a side-by-side comparison of the selected products, showing key attributes (e.g., price, weight, origin, farmer, etc.). The specific attributes to compare need to be defined.\n6. **User (Customer)**: Reviews the comparison and makes a purchase decision (can click through to the Product Details screen or directly add to cart).",
+                "screens": [
+                    "Category Listing: Includes a 'Compare' button or checkbox next to each product.",
+                    "Search Results: Includes a 'Compare' button or checkbox next to each product.",
+                    "Product Details: (Potentially) Includes a 'Compare' button.",
+                    "Comparison View: Displays a side-by-side comparison of selected products, showing key attributes."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Ordering and Purchasing",
+        "features": [
+            {
+                "featureName": "Product Selection",
+                "flow": "1. **Customer:** Browses or searches for products.\n2. **Customer:** Views product details (name, description, images, price, shipping options).\n3. **Customer:** Clicks on a product to view its detailed information.\n4. **Customer:** Selects the desired quantity of the product.\n5. **Customer:** Clicks 'Add to Cart' or 'Buy Now'.\n6. **System:** Updates the shopping cart with the selected product and quantity.\n7. **Customer:** Continues browsing or proceeds to the shopping cart.",
+                "screens": [
+                    "Product Listing Page: Displays a list of products with basic information.",
+                    "Product Detail Page: Displays detailed information about a specific product, including images, description, price, and available quantity.",
+                    "Shopping Cart Page: Displays the items currently in the customer's shopping cart, allowing them to adjust quantities or remove items."
+                ]
+            },
+            {
+                "featureName": "Product Purchase",
+                "flow": "1. **Customer:** Reviews items in the Shopping Cart.\n2. **Customer:** Clicks 'Checkout'.\n3. **System:** Redirects to the Shipping Address page.\n4. **Customer:** Enters or selects a shipping address.\n5. **Customer:** Selects a shipping method (if multiple options are available).\n6. **System:** Redirects to the Payment Information page.\n7. **Customer:** Selects a payment method (e.g., online payment).\n8. **Customer:** Enters payment details (e.g., credit card information) or is redirected to a payment gateway.\n9. **Customer:** Confirms the order.\n10. **System:** Processes the payment.\n11. **System:** Displays an order confirmation page with order details and tracking information (if available).\n12. **System:** Sends an order confirmation email to the customer.\n13. **System:** Notifies the farmer about the new order.",
+                "screens": [
+                    "Shopping Cart Page: Displays the items in the cart and allows users to proceed to checkout.",
+                    "Shipping Address Page: Allows the user to enter or select a shipping address.",
+                    "Shipping Method Selection Page: Allows the user to choose a shipping method.",
+                    "Payment Information Page: Allows the user to enter payment details or select a payment method.",
+                    "Order Confirmation Page: Displays the order details and confirms the purchase.",
+                    "Payment Gateway Redirection (External): If using a third-party payment gateway, this is the page where the user enters their payment information on the gateway's secure site."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Payment",
+        "features": [
+            {
+                "featureName": "Online Payment (for Customers)",
+                "flow": "1. **Customer:** Browses products and adds items to cart.\n2. **Customer:** Proceeds to checkout.\n3. **System:** Displays order summary, including items, quantities, and total price.\n4. **Customer:** Selects 'Pay Now' or similar button.\n5. **System:** Presents payment options (e.g., Credit Card, Debit Card, e-wallet).\n6. **Customer:** Selects a payment method.\n7. **System:** Redirects customer to the selected payment gateway (e.g., bank's payment page, e-wallet provider).\n8. **Customer:** Enters payment details (card number, expiry date, CVV, or e-wallet credentials).\n9. **Payment Gateway:** Processes the payment.\n10. **Payment Gateway:** Sends payment confirmation to the system.\n11. **System:** Displays payment confirmation to the customer (e.g., 'Payment Successful' message, order confirmation).\n12. **System:** Updates order status to 'Paid'.\n13. **System:** Notifies farmer of the successful payment.",
+                "screens": [
+                    "Product Detail Screen: Displays product information, including price and quantity.",
+                    "Shopping Cart Screen: Displays selected items, quantities, and total price.",
+                    "Checkout Screen: Displays order summary, shipping address, and payment options.",
+                    "Payment Options Screen: Lists available payment methods (Credit Card, Debit Card, e-wallet).",
+                    "Payment Gateway Screen: (External) The bank's or e-wallet provider's payment interface.",
+                    "Payment Confirmation Screen: Displays a confirmation message and order details after successful payment.",
+                    "Order Confirmation Screen: Displays a summary of the order, including payment status."
+                ]
+            },
+            {
+                "featureName": "Payment Receiving (for Farmers)",
+                "flow": "1. **System:** Upon successful customer payment, the system updates the order status to 'Paid' and triggers a payment notification to the farmer.\n2. **System:** The system records the payment details (amount, order ID, date) associated with the farmer's product sale.\n3. **Farmer:** Logs into their account and views the 'Sales' or 'Transactions' section.\n4. **Farmer:** Views a list of sales, including payment status (e.g., 'Paid', 'Processing', 'Completed').\n5. **System:** The system initiates the payment transfer to the farmer's registered bank account (as provided during registration).\n6. **System:** The system updates the payment status to 'Processing' or 'Transferring'.\n7. **System:** After the payment transfer is complete, the system updates the payment status to 'Completed'.\n8. **Farmer:** Views the 'Completed' payment status and the corresponding transaction details (amount, date, order ID).",
+                "screens": [
+                    "Farmer Dashboard: Displays a summary of sales and payment status.",
+                    "Sales/Transactions Screen: Lists all sales transactions, including order ID, product, amount, and payment status.",
+                    "Payment Details Screen: Displays detailed information about a specific payment, including date, amount, and order details.",
+                    "Bank Account Management Screen (Farmer): Allows farmers to view and manage their registered bank account details (added during registration)."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Shipping",
+        "features": [
+            {
+                "featureName": "Shipping Arrangement",
+                "flow": "1. **Customer:** Completes the purchase process and reaches the 'Order Confirmation' screen.\n2. **System:** Displays available shipping options (e.g., standard, express) and estimated delivery times based on the product's origin (farmer's location) and the customer's address.\n3. **Customer:** Selects a preferred shipping option.\n4. **System:** Calculates the shipping cost based on the selected option, product weight/dimensions, and distance.\n5. **Customer:** Reviews the order summary, including product price, shipping cost, and total amount.\n6. **Customer:** Confirms the order and shipping details.\n7. **System:** Sends a notification to the farmer about the new order and shipping details.\n8. **Farmer:** Receives notification and views the order details, including the customer's shipping address and selected shipping option.\n9. **Farmer:** Packages the product securely.\n10. **Farmer:** Selects a shipping carrier (if multiple options are available or if the system suggests one based on the customer's choice).\n11. **Farmer:** Enters tracking information (if available) or confirms shipment.\n12. **System:** Sends a shipping confirmation email to the customer with tracking information (if available).\n13. **Shipping Carrier:** Picks up the package from the farmer (details depend on the chosen carrier).\n14. **Shipping Carrier:** Delivers the package to the customer.\n15. **Customer:** Receives the package.",
+                "screens": [
+                    "Order Confirmation Screen: Displays order details and available shipping options.",
+                    "Shipping Options Screen: Lists available shipping methods with estimated delivery times and costs.",
+                    "Order Summary Screen: Shows a complete breakdown of the order, including product price, shipping cost, and total amount.",
+                    "Farmer Order Details Screen: Displays order information for the farmer, including shipping address and selected shipping option.",
+                    "Shipping Carrier Selection Screen (Optional): Allows the farmer to choose a shipping carrier.",
+                    "Shipping Confirmation Screen (Farmer): Confirms shipment and allows the farmer to enter tracking information.",
+                    "Shipping Confirmation Email (Customer): Notifies the customer that the order has been shipped and provides tracking information."
+                ]
+            }
+        ]
+    }
+]

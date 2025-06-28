@@ -1,0 +1,59 @@
+[
+    {
+        "category": "Seller Features",
+        "list_feature": [
+            "Product Listing Management",
+            "Order Management",
+            "Inventory Management",
+            "Seller Dashboard",
+            "Sales Reporting",
+            "Seller Profile Management",
+            "Communication with Buyers"
+        ]
+    },
+    {
+        "category": "Buyer Features",
+        "list_feature": [
+            "Product Browsing & Search",
+            "Shopping Cart",
+            "Order Placement",
+            "User Account Management",
+            "Order Tracking",
+            "Wishlist",
+            "Customer Support Access",
+            "Product Reviews & Ratings"
+        ]
+    },
+    {
+        "category": "Product Features",
+        "list_feature": [
+            "Product Catalog",
+            "Product Details Page",
+            "Product Image Gallery",
+            "Product Variations (size, color, etc.)",
+            "Product Categories & Subcategories",
+            "Product Search & Filtering",
+            "Product Recommendations"
+        ]
+    },
+    {
+        "category": "Payment Features",
+        "list_feature": [
+            "Multiple Payment Gateway Integration",
+            "Secure Payment Processing",
+            "Order Summary with Payment Options",
+            "Payment History",
+            "Refund Processing"
+        ]
+    },
+    {
+        "category": "Shipping Features",
+        "list_feature": [
+            "Shipping Address Management",
+            "Shipping Method Selection",
+            "Shipping Cost Calculation",
+            "Order Tracking",
+            "Shipping Notifications"
+        ]
+    }
+]

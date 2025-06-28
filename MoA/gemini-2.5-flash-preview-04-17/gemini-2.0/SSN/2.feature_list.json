@@ -1,0 +1,65 @@
+[
+  {
+      "category": "User Profiles",
+      "list_feature": [
+          "Student Profile",
+          "Researcher Profile",
+          "Educator Profile",
+          "Profile Information (e.g., name, role, university, discipline/major, interests)",
+          "Profile Customization (e.g., profile picture, bio)"
+      ]
+  },
+  {
+      "category": "Content Sharing",
+      "list_feature": [
+          "Share Academic Resources (documents, notes, presentations)",
+          "Share Research Findings",
+          "Share Learning Experiences (posts)",
+          "Share Teaching Experiences (posts)",
+          "Share Research Experiences (posts)",
+          "Content Upload and Download",
+          "Content Categorization (disciplines, subjects, resource types)",
+          "Content Search and Filtering",
+          "Content Viewing"
+      ]
+  },
+  {
+      "category": "Course and Instructor Evaluation",
+      "list_feature": [
+          "Course Rating",
+          "Instructor Rating",
+          "Course Reviews",
+          "Instructor Reviews",
+          "Course Recommendation System",
+          "Search and Filter Courses/Instructors",
+          "View Course Details"
+      ]
+  },
+  {
+      "category": "Networking and Collaboration",
+      "list_feature": [
+          "Connect/Follow Users",
+          "Direct Messaging",
+          "Create/Join Groups (e.g., study groups, research groups)"
+      ]
+  },
+  {
+      "category": "Platform Structure",
+      "list_feature": [
+          "User Registration and Authentication",
+          "University-Specific Networks (Joining/Switching)",
+          "Content Moderation",
+          "Notifications and Alerts",
+          "Platform Search (Users, Content, Courses, Groups)"
+      ]
+  },
+  {
+      "category": "Future Expansion",
+      "list_feature": [
+          "Integration Plan for High Schools",
+          "Integration Plan for Elementary Schools",
+          "Support for High School User Roles",
+          "Support for Elementary School User Roles"
+      ]
+  }
+]

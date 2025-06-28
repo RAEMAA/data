@@ -1,0 +1,53 @@
+[
+  {
+    "category": "User Interface",
+    "list_feature": [
+      "Designing a user-friendly interface for both farm staff and farmers",
+      "Designing a comprehensive system to manage import and export states and revenue statistics",
+      "Customizable dashboards",
+      "Real-time data analytics"
+    ]
+  },
+
+  {
+    "category": "Registration Process",
+    "list_feature": [
+      "A user-friendly registration process for farmers to create an account on the website"
+    ]
+  },
+
+  {
+    "category": "Catalogue Management",
+    "list_feature": [
+      "A comprehensive catalog of all kinds of pigs supplied by the farm, including detailed information about each breed, age, and price"
+    ]
+  },
+
+  {
+    "category": "Ordering System",
+    "list_feature": [
+      "An ordering system that enables farmers to purchase one or many piglets needed, with real-time updates on availability and delivery status"
+    ]
+  },
+
+  {
+    "category": "Communication Channel",
+    "list_feature": [
+      "A communication channel between farmers and the farm for ensuring proper care of purchased piglets, including regular updates on feeding and vaccination procedures"
+    ]
+  },
+
+  {
+    "category": "Information Hub",
+    "list_feature": [
+      "Access to an information hub where farmers can learn about feeding and vaccination procedures, as well as any other relevant information necessary for caring for their purchased piglets"
+    ]
+  },
+
+  {
+    "category": "Analytics",
+    "list_feature": [
+      "Advanced analytics capabilities to help farmers make informed decisions based on historical trends and real-time market insights"
+    ]
+  }
+]

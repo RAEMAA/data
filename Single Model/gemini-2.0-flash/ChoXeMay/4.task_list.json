@@ -1,0 +1,1211 @@
+[
+    [
+        {
+            "id": "P1-T1",
+            "taskName": "Design User Registration and Login Flow & Screens",
+            "correspondingPhase": "Phase 1: Core User Accounts & Listing Foundation",
+            "correspondingFeature": "User registration and login",
+            "priority": "High",
+            "estimatedTime": "3 days",
+            "startTime": "2023-10-26",
+            "endTime": "2023-10-29",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T2",
+            "taskName": "Implement User Registration and Login Functionality",
+            "correspondingPhase": "Phase 1: Core User Accounts & Listing Foundation",
+            "correspondingFeature": "User registration and login",
+            "priority": "High",
+            "estimatedTime": "1 week",
+            "startTime": "2023-10-30",
+            "endTime": "2023-11-06",
+            "dependencies": [
+                "P1-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T3",
+            "taskName": "Test User Registration and Login Functionality",
+            "correspondingPhase": "Phase 1: Core User Accounts & Listing Foundation",
+            "correspondingFeature": "User registration and login",
+            "priority": "High",
+            "estimatedTime": "2 days",
+            "startTime": "2023-11-07",
+            "endTime": "2023-11-09",
+            "dependencies": [
+                "P1-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T4",
+            "taskName": "Design User Profile Flow & Screens",
+            "correspondingPhase": "Phase 1: Core User Accounts & Listing Foundation",
+            "correspondingFeature": "User profiles with details (e.g., location, motorcycle interests)",
+            "priority": "High",
+            "estimatedTime": "3 days",
+            "startTime": "2023-11-09",
+            "endTime": "2023-11-14",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T5",
+            "taskName": "Implement User Profile Functionality",
+            "correspondingPhase": "Phase 1: Core User Accounts & Listing Foundation",
+            "correspondingFeature": "User profiles with details (e.g., location, motorcycle interests)",
+            "priority": "High",
+            "estimatedTime": "1 week",
+            "startTime": "2023-11-15",
+            "endTime": "2023-11-22",
+            "dependencies": [
+                "P1-T4",
+                "P1-T2"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T6",
+            "taskName": "Test User Profile Functionality",
+            "correspondingPhase": "Phase 1: Core User Accounts & Listing Foundation",
+            "correspondingFeature": "User profiles with details (e.g., location, motorcycle interests)",
+            "priority": "High",
+            "estimatedTime": "2 days",
+            "startTime": "2023-11-23",
+            "endTime": "2023-11-25",
+            "dependencies": [
+                "P1-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T7",
+            "taskName": "Design Create Listing Flow & Screens",
+            "correspondingPhase": "Phase 1: Core User Accounts & Listing Foundation",
+            "correspondingFeature": "Create new listings for motorcycles, parts, and accessories",
+            "priority": "High",
+            "estimatedTime": "4 days",
+            "startTime": "2023-11-25",
+            "endTime": "2023-11-29",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T8",
+            "taskName": "Implement Create Listing Functionality",
+            "correspondingPhase": "Phase 1: Core User Accounts & Listing Foundation",
+            "correspondingFeature": "Create new listings for motorcycles, parts, and accessories",
+            "priority": "High",
+            "estimatedTime": "1.5 weeks",
+            "startTime": "2023-11-30",
+            "endTime": "2023-12-11",
+            "dependencies": [
+                "P1-T7",
+                "P1-T2"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T9",
+            "taskName": "Test Create Listing Functionality",
+            "correspondingPhase": "Phase 1: Core User Accounts & Listing Foundation",
+            "correspondingFeature": "Create new listings for motorcycles, parts, and accessories",
+            "priority": "High",
+            "estimatedTime": "3 days",
+            "startTime": "2023-12-12",
+            "endTime": "2023-12-15",
+            "dependencies": [
+                "P1-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T10",
+            "taskName": "Design Image Upload for Listings",
+            "correspondingPhase": "Phase 1: Core User Accounts & Listing Foundation",
+            "correspondingFeature": "Image upload for listings",
+            "priority": "Medium",
+            "estimatedTime": "2 days",
+            "startTime": "2023-12-15",
+            "endTime": "2023-12-17",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T11",
+            "taskName": "Implement Image Upload Functionality",
+            "correspondingPhase": "Phase 1: Core User Accounts & Listing Foundation",
+            "correspondingFeature": "Image upload for listings",
+            "priority": "Medium",
+            "estimatedTime": "1 week",
+            "startTime": "2023-12-18",
+            "endTime": "2023-12-25",
+            "dependencies": [
+                "P1-T10",
+                "P1-T8"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T12",
+            "taskName": "Test Image Upload Functionality",
+            "correspondingPhase": "Phase 1: Core User Accounts & Listing Foundation",
+            "correspondingFeature": "Image upload for listings",
+            "priority": "Medium",
+            "estimatedTime": "1 day",
+            "startTime": "2023-12-26",
+            "endTime": "2023-12-27",
+            "dependencies": [
+                "P1-T11"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T13",
+            "taskName": "Design Detailed Descriptions for Listings",
+            "correspondingPhase": "Phase 1: Core User Accounts & Listing Foundation",
+            "correspondingFeature": "Detailed descriptions for listings",
+            "priority": "Low",
+            "estimatedTime": "1 day",
+            "startTime": "2023-12-27",
+            "endTime": "2023-12-28",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T14",
+            "taskName": "Implement Detailed Descriptions Functionality",
+            "correspondingPhase": "Phase 1: Core User Accounts & Listing Foundation",
+            "correspondingFeature": "Detailed descriptions for listings",
+            "priority": "Low",
+            "estimatedTime": "3 days",
+            "startTime": "2023-12-28",
+            "endTime": "2024-01-02",
+            "dependencies": [
+                "P1-T13",
+                "P1-T8"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P1-T15",
+            "taskName": "Test Detailed Descriptions Functionality",
+            "correspondingPhase": "Phase 1: Core User Accounts & Listing Foundation",
+            "correspondingFeature": "Detailed descriptions for listings",
+            "priority": "Low",
+            "estimatedTime": "1 day",
+            "startTime": "2024-01-02",
+            "endTime": "2024-01-03",
+            "dependencies": [
+                "P1-T14"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T16",
+            "taskName": "Design Categorization of Listings",
+            "correspondingPhase": "Phase 1: Core User Accounts & Listing Foundation",
+            "correspondingFeature": "Categorization of listings (motorcycles, parts, accessories)",
+            "priority": "Medium",
+            "estimatedTime": "2 days",
+            "startTime": "2024-01-03",
+            "endTime": "2024-01-05",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T17",
+            "taskName": "Implement Categorization Functionality",
+            "correspondingPhase": "Phase 1: Core User Accounts & Listing Foundation",
+            "correspondingFeature": "Categorization of listings (motorcycles, parts, accessories)",
+            "priority": "Medium",
+            "estimatedTime": "4 days",
+            "startTime": "2024-01-05",
+            "endTime": "2024-01-09",
+            "dependencies": [
+                "P1-T16",
+                "P1-T8"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T18",
+            "taskName": "Test Categorization Functionality",
+            "correspondingPhase": "Phase 1: Core User Accounts & Listing Foundation",
+            "correspondingFeature": "Categorization of listings (motorcycles, parts, accessories)",
+            "priority": "Medium",
+            "estimatedTime": "1 day",
+            "startTime": "2024-01-09",
+            "endTime": "2024-01-10",
+            "dependencies": [
+                "P1-T17"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P2-T1",
+            "taskName": "Design Edit Listing Flow and Screens",
+            "correspondingPhase": "Phase 2: Enhanced Listing Management & Search",
+            "correspondingFeature": "Edit existing listings",
+            "priority": "High",
+            "estimatedTime": "3 days",
+            "startTime": "2023-12-22",
+            "endTime": "2023-12-26",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T2",
+            "taskName": "Implement Edit Listing Functionality",
+            "correspondingPhase": "Phase 2: Enhanced Listing Management & Search",
+            "correspondingFeature": "Edit existing listings",
+            "priority": "High",
+            "estimatedTime": "5 days",
+            "startTime": "2023-12-27",
+            "endTime": "2024-01-02",
+            "dependencies": [
+                "P2-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T3",
+            "taskName": "Implement Edit Listing Frontend",
+            "correspondingPhase": "Phase 2: Enhanced Listing Management & Search",
+            "correspondingFeature": "Edit existing listings",
+            "priority": "High",
+            "estimatedTime": "4 days",
+            "startTime": "2024-01-03",
+            "endTime": "2024-01-08",
+            "dependencies": [
+                "P2-T1",
+                "P2-T2"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T4",
+            "taskName": "Test Edit Listing Functionality",
+            "correspondingPhase": "Phase 2: Enhanced Listing Management & Search",
+            "correspondingFeature": "Edit existing listings",
+            "priority": "High",
+            "estimatedTime": "2 days",
+            "startTime": "2024-01-09",
+            "endTime": "2024-01-10",
+            "dependencies": [
+                "P2-T3"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T5",
+            "taskName": "Design Delete Listing Flow and Screens",
+            "correspondingPhase": "Phase 2: Enhanced Listing Management & Search",
+            "correspondingFeature": "Delete listings",
+            "priority": "High",
+            "estimatedTime": "2 days",
+            "startTime": "2023-12-22",
+            "endTime": "2023-12-25",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T6",
+            "taskName": "Implement Delete Listing Functionality",
+            "correspondingPhase": "Phase 2: Enhanced Listing Management & Search",
+            "correspondingFeature": "Delete listings",
+            "priority": "High",
+            "estimatedTime": "3 days",
+            "startTime": "2023-12-26",
+            "endTime": "2023-12-29",
+            "dependencies": [
+                "P2-T5"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T7",
+            "taskName": "Implement Delete Listing Frontend",
+            "correspondingPhase": "Phase 2: Enhanced Listing Management & Search",
+            "correspondingFeature": "Delete listings",
+            "priority": "High",
+            "estimatedTime": "2 days",
+            "startTime": "2024-01-02",
+            "endTime": "2024-01-03",
+            "dependencies": [
+                "P2-T5",
+                "P2-T6"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T8",
+            "taskName": "Test Delete Listing Functionality",
+            "correspondingPhase": "Phase 2: Enhanced Listing Management & Search",
+            "correspondingFeature": "Delete listings",
+            "priority": "High",
+            "estimatedTime": "1 day",
+            "startTime": "2024-01-04",
+            "endTime": "2024-01-04",
+            "dependencies": [
+                "P2-T7"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T9",
+            "taskName": "Design Search and Filter Flow and Screens",
+            "correspondingPhase": "Phase 2: Enhanced Listing Management & Search",
+            "correspondingFeature": "Search and filter listings (by make, model, year, price, condition, etc.)",
+            "priority": "High",
+            "estimatedTime": "4 days",
+            "startTime": "2024-01-11",
+            "endTime": "2024-01-16",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T10",
+            "taskName": "Implement Basic Search and Filter Functionality",
+            "correspondingPhase": "Phase 2: Enhanced Listing Management & Search",
+            "correspondingFeature": "Search and filter listings (by make, model, year, price, condition, etc.)",
+            "priority": "High",
+            "estimatedTime": "5 days",
+            "startTime": "2024-01-17",
+            "endTime": "2024-01-23",
+            "dependencies": [
+                "P2-T9"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T11",
+            "taskName": "Implement Basic Search and Filter Frontend",
+            "correspondingPhase": "Phase 2: Enhanced Listing Management & Search",
+            "correspondingFeature": "Search and filter listings (by make, model, year, price, condition, etc.)",
+            "priority": "High",
+            "estimatedTime": "4 days",
+            "startTime": "2024-01-24",
+            "endTime": "2024-01-29",
+            "dependencies": [
+                "P2-T9",
+                "P2-T10"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T12",
+            "taskName": "Test Basic Search and Filter Functionality",
+            "correspondingPhase": "Phase 2: Enhanced Listing Management & Search",
+            "correspondingFeature": "Search and filter listings (by make, model, year, price, condition, etc.)",
+            "priority": "High",
+            "estimatedTime": "2 days",
+            "startTime": "2024-01-30",
+            "endTime": "2024-01-31",
+            "dependencies": [
+                "P2-T11"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T13",
+            "taskName": "Design Advanced Search Flow and Screens",
+            "correspondingPhase": "Phase 2: Enhanced Listing Management & Search",
+            "correspondingFeature": "Advanced search functionality",
+            "priority": "Medium",
+            "estimatedTime": "3 days",
+            "startTime": "2024-01-05",
+            "endTime": "2024-01-09",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T14",
+            "taskName": "Implement Advanced Search Functionality",
+            "correspondingPhase": "Phase 2: Enhanced Listing Management & Search",
+            "correspondingFeature": "Advanced search functionality",
+            "priority": "Medium",
+            "estimatedTime": "4 days",
+            "startTime": "2024-01-10",
+            "endTime": "2024-01-15",
+            "dependencies": [
+                "P2-T13"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T15",
+            "taskName": "Implement Advanced Search Frontend",
+            "correspondingPhase": "Phase 2: Enhanced Listing Management & Search",
+            "correspondingFeature": "Advanced search functionality",
+            "priority": "Medium",
+            "estimatedTime": "3 days",
+            "startTime": "2024-01-16",
+            "endTime": "2024-01-19",
+            "dependencies": [
+                "P2-T13",
+                "P2-T14"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T16",
+            "taskName": "Test Advanced Search Functionality",
+            "correspondingPhase": "Phase 2: Enhanced Listing Management & Search",
+            "correspondingFeature": "Advanced search functionality",
+            "priority": "Medium",
+            "estimatedTime": "1 day",
+            "startTime": "2024-01-22",
+            "endTime": "2024-01-22",
+            "dependencies": [
+                "P2-T15"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T17",
+            "taskName": "Design Filtering and Sorting Options Flow and Screens",
+            "correspondingPhase": "Phase 2: Enhanced Listing Management & Search",
+            "correspondingFeature": "Filtering and sorting options",
+            "priority": "Medium",
+            "estimatedTime": "3 days",
+            "startTime": "2024-01-23",
+            "endTime": "2024-01-26",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T18",
+            "taskName": "Implement Filtering and Sorting Options Functionality",
+            "correspondingPhase": "Phase 2: Enhanced Listing Management & Search",
+            "correspondingFeature": "Filtering and sorting options",
+            "priority": "Medium",
+            "estimatedTime": "4 days",
+            "startTime": "2024-01-29",
+            "endTime": "2024-02-01",
+            "dependencies": [
+                "P2-T17"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T19",
+            "taskName": "Implement Filtering and Sorting Options Frontend",
+            "correspondingPhase": "Phase 2: Enhanced Listing Management & Search",
+            "correspondingFeature": "Filtering and sorting options",
+            "priority": "Medium",
+            "estimatedTime": "3 days",
+            "startTime": "2024-01-29",
+            "endTime": "2024-01-31",
+            "dependencies": [
+                "P2-T17",
+                "P2-T18"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T20",
+            "taskName": "Test Filtering and Sorting Options Functionality",
+            "correspondingPhase": "Phase 2: Enhanced Listing Management & Search",
+            "correspondingFeature": "Filtering and sorting options",
+            "priority": "Medium",
+            "estimatedTime": "1 day",
+            "startTime": "2024-02-01",
+            "endTime": "2024-02-01",
+            "dependencies": [
+                "P2-T19"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T21",
+            "taskName": "Design Featured Listings Flow and Screens",
+            "correspondingPhase": "Phase 2: Enhanced Listing Management & Search",
+            "correspondingFeature": "Featured listings",
+            "priority": "Low",
+            "estimatedTime": "2 days",
+            "startTime": "2024-01-02",
+            "endTime": "2024-01-03",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T22",
+            "taskName": "Implement Featured Listings Functionality",
+            "correspondingPhase": "Phase 2: Enhanced Listing Management & Search",
+            "correspondingFeature": "Featured listings",
+            "priority": "Low",
+            "estimatedTime": "3 days",
+            "startTime": "2024-01-04",
+            "endTime": "2024-01-08",
+            "dependencies": [
+                "P2-T21"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T23",
+            "taskName": "Implement Featured Listings Frontend",
+            "correspondingPhase": "Phase 2: Enhanced Listing Management & Search",
+            "correspondingFeature": "Featured listings",
+            "priority": "Low",
+            "estimatedTime": "2 days",
+            "startTime": "2024-01-09",
+            "endTime": "2024-01-10",
+            "dependencies": [
+                "P2-T21",
+                "P2-T22"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T24",
+            "taskName": "Test Featured Listings Functionality",
+            "correspondingPhase": "Phase 2: Enhanced Listing Management & Search",
+            "correspondingFeature": "Featured listings",
+            "priority": "Low",
+            "estimatedTime": "1 day",
+            "startTime": "2024-01-11",
+            "endTime": "2024-01-11",
+            "dependencies": [
+                "P2-T23"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P3-T1",
+            "taskName": "Design Credibility Score Display on Profiles",
+            "correspondingPhase": "Phase 3: Credibility System & Transaction Features",
+            "correspondingFeature": "Credibility score display on profiles",
+            "priority": "High",
+            "estimatedTime": "3 days",
+            "startTime": "2024-02-02",
+            "endTime": "2024-02-05",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer",
+            "flows": [
+                "User views their own profile -> Credibility score is displayed.",
+                "User views another user's profile -> Credibility score is displayed."
+            ],
+            "screens": [
+                "User Profile Screen (Own)",
+                "User Profile Screen (Other User)"
+            ]
+        },
+        {
+            "id": "P3-T2",
+            "taskName": "Implement Credibility Score Display on Profiles",
+            "correspondingPhase": "Phase 3: Credibility System & Transaction Features",
+            "correspondingFeature": "Credibility score display on profiles",
+            "priority": "High",
+            "estimatedTime": "4 days",
+            "startTime": "2024-02-06",
+            "endTime": "2024-02-09",
+            "dependencies": [
+                "P3-T1"
+            ],
+            "responsiblePerson": "Frontend Developer",
+            "flows": [
+                "User views their own profile -> Credibility score is fetched and displayed.",
+                "User views another user's profile -> Credibility score is fetched and displayed."
+            ],
+            "screens": [
+                "User Profile Screen (Own)",
+                "User Profile Screen (Other User)"
+            ]
+        },
+        {
+            "id": "P3-T3",
+            "taskName": "Test Credibility Score Display on Profiles",
+            "correspondingPhase": "Phase 3: Credibility System & Transaction Features",
+            "correspondingFeature": "Credibility score display on profiles",
+            "priority": "High",
+            "estimatedTime": "1 day",
+            "startTime": "2024-02-12",
+            "endTime": "2024-02-12",
+            "dependencies": [
+                "P3-T2"
+            ],
+            "responsiblePerson": "QA Engineer",
+            "flows": [
+                "Verify correct score is displayed for different users.",
+                "Verify score updates correctly after transactions."
+            ],
+            "screens": [
+                "User Profile Screen (Own)",
+                "User Profile Screen (Other User)"
+            ]
+        },
+        {
+            "id": "P3-T4",
+            "taskName": "Design Display of Total Value of Sales and Purchases",
+            "correspondingPhase": "Phase 3: Credibility System & Transaction Features",
+            "correspondingFeature": "Display total value of sales and purchases on profile",
+            "priority": "Medium",
+            "estimatedTime": "3 days",
+            "startTime": "2024-02-02",
+            "endTime": "2024-02-05",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer",
+            "flows": [
+                "User views their own profile -> Total value of sales and purchases is displayed.",
+                "User views another user's profile -> Total value of sales and purchases is displayed."
+            ],
+            "screens": [
+                "User Profile Screen (Own)",
+                "User Profile Screen (Other User)"
+            ]
+        },
+        {
+            "id": "P3-T5",
+            "taskName": "Implement Display of Total Value of Sales and Purchases",
+            "correspondingPhase": "Phase 3: Credibility System & Transaction Features",
+            "correspondingFeature": "Display total value of sales and purchases on profile",
+            "priority": "Medium",
+            "estimatedTime": "4 days",
+            "startTime": "2024-02-06",
+            "endTime": "2024-02-09",
+            "dependencies": [
+                "P3-T4"
+            ],
+            "responsiblePerson": "Backend Developer",
+            "flows": [
+                "User views their own profile -> Total value of sales and purchases is fetched and displayed.",
+                "User views another user's profile -> Total value of sales and purchases is fetched and displayed."
+            ],
+            "screens": [
+                "User Profile Screen (Own)",
+                "User Profile Screen (Other User)"
+            ]
+        },
+        {
+            "id": "P3-T6",
+            "taskName": "Test Display of Total Value of Sales and Purchases",
+            "correspondingPhase": "Phase 3: Credibility System & Transaction Features",
+            "correspondingFeature": "Display total value of sales and purchases on profile",
+            "priority": "Medium",
+            "estimatedTime": "1 day",
+            "startTime": "2024-02-12",
+            "endTime": "2024-02-12",
+            "dependencies": [
+                "P3-T5"
+            ],
+            "responsiblePerson": "QA Engineer",
+            "flows": [
+                "Verify correct total value is displayed for different users.",
+                "Verify total value updates correctly after transactions."
+            ],
+            "screens": [
+                "User Profile Screen (Own)",
+                "User Profile Screen (Other User)"
+            ]
+        },
+        {
+            "id": "P3-T7",
+            "taskName": "Design User Feedback/Reviews Display on Profile",
+            "correspondingPhase": "Phase 3: Credibility System & Transaction Features",
+            "correspondingFeature": "User feedback/reviews display on profile",
+            "priority": "Medium",
+            "estimatedTime": "4 days",
+            "startTime": "2024-02-13",
+            "endTime": "2024-02-16",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer",
+            "flows": [
+                "User views their own profile -> Feedback/reviews are displayed.",
+                "User views another user's profile -> Feedback/reviews are displayed."
+            ],
+            "screens": [
+                "User Profile Screen (Own)",
+                "User Profile Screen (Other User)"
+            ]
+        },
+        {
+            "id": "P3-T8",
+            "taskName": "Implement User Feedback/Reviews Display on Profile",
+            "correspondingPhase": "Phase 3: Credibility System & Transaction Features",
+            "correspondingFeature": "User feedback/reviews display on profile",
+            "priority": "Medium",
+            "estimatedTime": "5 days",
+            "startTime": "2024-02-19",
+            "endTime": "2024-02-23",
+            "dependencies": [
+                "P3-T7"
+            ],
+            "responsiblePerson": "Frontend Developer",
+            "flows": [
+                "User views their own profile -> Feedback/reviews are fetched and displayed.",
+                "User views another user's profile -> Feedback/reviews are fetched and displayed."
+            ],
+            "screens": [
+                "User Profile Screen (Own)",
+                "User Profile Screen (Other User)"
+            ]
+        },
+        {
+            "id": "P3-T9",
+            "taskName": "Test User Feedback/Reviews Display on Profile",
+            "correspondingPhase": "Phase 3: Credibility System & Transaction Features",
+            "correspondingFeature": "User feedback/reviews display on profile",
+            "priority": "Medium",
+            "estimatedTime": "1 day",
+            "startTime": "2024-02-26",
+            "endTime": "2024-02-26",
+            "dependencies": [
+                "P3-T8"
+            ],
+            "responsiblePerson": "QA Engineer",
+            "flows": [
+                "Verify correct feedback/reviews are displayed for different users.",
+                "Verify feedback/reviews are displayed in the correct format."
+            ],
+            "screens": [
+                "User Profile Screen (Own)",
+                "User Profile Screen (Other User)"
+            ]
+        },
+        {
+            "id": "P3-T10",
+            "taskName": "Design Prominent Display of Listings from High Credibility Users",
+            "correspondingPhase": "Phase 3: Credibility System & Transaction Features",
+            "correspondingFeature": "Prominent display of listings from users with higher credibility scores",
+            "priority": "High",
+            "estimatedTime": "3 days",
+            "startTime": "2024-02-13",
+            "endTime": "2024-02-16",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer",
+            "flows": [
+                "User searches for listings -> Listings from high credibility users are displayed more prominently (e.g., at the top, with a special badge)."
+            ],
+            "screens": [
+                "Search Results Screen"
+            ]
+        },
+        {
+            "id": "P3-T11",
+            "taskName": "Implement Prominent Display of Listings from High Credibility Users",
+            "correspondingPhase": "Phase 3: Credibility System & Transaction Features",
+            "correspondingFeature": "Prominent display of listings from users with higher credibility scores",
+            "priority": "High",
+            "estimatedTime": "5 days",
+            "startTime": "2024-02-19",
+            "endTime": "2024-02-23",
+            "dependencies": [
+                "P3-T10"
+            ],
+            "responsiblePerson": "Backend Developer",
+            "flows": [
+                "User searches for listings -> Listings are fetched and sorted based on user credibility. High credibility listings are displayed more prominently."
+            ],
+            "screens": [
+                "Search Results Screen"
+            ]
+        },
+        {
+            "id": "P3-T12",
+            "taskName": "Test Prominent Display of Listings from High Credibility Users",
+            "correspondingPhase": "Phase 3: Credibility System & Transaction Features",
+            "correspondingFeature": "Prominent display of listings from users with higher credibility scores",
+            "priority": "High",
+            "estimatedTime": "1 day",
+            "startTime": "2024-02-26",
+            "endTime": "2024-02-26",
+            "dependencies": [
+                "P3-T11"
+            ],
+            "responsiblePerson": "QA Engineer",
+            "flows": [
+                "Verify listings from high credibility users are displayed more prominently.",
+                "Verify the sorting/display logic is correct."
+            ],
+            "screens": [
+                "Search Results Screen"
+            ]
+        },
+        {
+            "id": "P3-T13",
+            "taskName": "Design Secure Messaging System",
+            "correspondingPhase": "Phase 3: Credibility System & Transaction Features",
+            "correspondingFeature": "Secure messaging system for buyers and sellers",
+            "priority": "High",
+            "estimatedTime": "4 days",
+            "startTime": "2024-02-27",
+            "endTime": "2024-03-01",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer",
+            "flows": [
+                "User views a listing -> User can send a message to the seller.",
+                "User receives a message -> User is notified and can view the message.",
+                "User can view a history of their messages."
+            ],
+            "screens": [
+                "Listing Detail Screen",
+                "Message Inbox Screen",
+                "Message Thread Screen"
+            ]
+        },
+        {
+            "id": "P3-T14",
+            "taskName": "Implement Secure Messaging System",
+            "correspondingPhase": "Phase 3: Credibility System & Transaction Features",
+            "correspondingFeature": "Secure messaging system for buyers and sellers",
+            "priority": "High",
+            "estimatedTime": "1 week",
+            "startTime": "2024-03-04",
+            "endTime": "2024-03-08",
+            "dependencies": [
+                "P3-T13"
+            ],
+            "responsiblePerson": "Backend Developer",
+            "flows": [
+                "User sends a message -> Message is stored securely and delivered to the recipient.",
+                "User receives a message -> User is notified and can view the message.",
+                "Message history is retrieved and displayed."
+            ],
+            "screens": [
+                "Listing Detail Screen",
+                "Message Inbox Screen",
+                "Message Thread Screen"
+            ]
+        },
+        {
+            "id": "P3-T15",
+            "taskName": "Test Secure Messaging System",
+            "correspondingPhase": "Phase 3: Credibility System & Transaction Features",
+            "correspondingFeature": "Secure messaging system for buyers and sellers",
+            "priority": "High",
+            "estimatedTime": "2 days",
+            "startTime": "2024-03-11",
+            "endTime": "2024-03-12",
+            "dependencies": [
+                "P3-T14"
+            ],
+            "responsiblePerson": "QA Engineer",
+            "flows": [
+                "Verify messages are sent and received correctly.",
+                "Verify messages are stored securely.",
+                "Verify notifications are working correctly."
+            ],
+            "screens": [
+                "Listing Detail Screen",
+                "Message Inbox Screen",
+                "Message Thread Screen"
+            ]
+        },
+        {
+            "id": "P3-T16",
+            "taskName": "Design Feedback/Review System After Transactions",
+            "correspondingPhase": "Phase 3: Credibility System & Transaction Features",
+            "correspondingFeature": "Feedback/review system after transactions",
+            "priority": "High",
+            "estimatedTime": "3 days",
+            "startTime": "2024-02-27",
+            "endTime": "2024-03-01",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer",
+            "flows": [
+                "After a transaction is completed -> Both buyer and seller are prompted to leave feedback/review.",
+                "User can view feedback/reviews they have received."
+            ],
+            "screens": [
+                "Feedback/Review Submission Screen",
+                "User Profile Screen (Own)",
+                "User Profile Screen (Other User)"
+            ]
+        },
+        {
+            "id": "P3-T17",
+            "taskName": "Implement Feedback/Review System After Transactions",
+            "correspondingPhase": "Phase 3: Credibility System & Transaction Features",
+            "correspondingFeature": "Feedback/review system after transactions",
+            "priority": "High",
+            "estimatedTime": "1 week",
+            "startTime": "2024-03-04",
+            "endTime": "2024-03-08",
+            "dependencies": [
+                "P3-T16"
+            ],
+            "responsiblePerson": "Backend Developer",
+            "flows": [
+                "Transaction is completed -> Feedback/review request is triggered.",
+                "User submits feedback/review -> Feedback/review is stored and associated with both users."
+            ],
+            "screens": [
+                "Feedback/Review Submission Screen",
+                "User Profile Screen (Own)",
+                "User Profile Screen (Other User)"
+            ]
+        },
+        {
+            "id": "P3-T18",
+            "taskName": "Test Feedback/Review System After Transactions",
+            "correspondingPhase": "Phase 3: Credibility System & Transaction Features",
+            "correspondingFeature": "Feedback/review system after transactions",
+            "priority": "High",
+            "estimatedTime": "2 days",
+            "startTime": "2024-03-11",
+            "endTime": "2024-03-12",
+            "dependencies": [
+                "P3-T17"
+            ],
+            "responsiblePerson": "QA Engineer",
+            "flows": [
+                "Verify feedback/review requests are triggered correctly.",
+                "Verify feedback/reviews are stored and displayed correctly.",
+                "Verify feedback/reviews impact credibility scores."
+            ],
+            "screens": [
+                "Feedback/Review Submission Screen",
+                "User Profile Screen (Own)",
+                "User Profile Screen (Other User)"
+            ]
+        },
+        {
+            "id": "P3-T19",
+            "taskName": "Design Reporting System for Suspicious Activity",
+            "correspondingPhase": "Phase 3: Credibility System & Transaction Features",
+            "correspondingFeature": "Reporting system for suspicious activity",
+            "priority": "Medium",
+            "estimatedTime": "3 days",
+            "startTime": "2024-03-13",
+            "endTime": "2024-03-15",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer",
+            "flows": [
+                "User views a listing or profile -> User can report suspicious activity.",
+                "Admin receives a report -> Admin can investigate and take action."
+            ],
+            "screens": [
+                "Listing Detail Screen",
+                "User Profile Screen (Other User)",
+                "Report Submission Screen",
+                "Admin Panel (Report Management)"
+            ]
+        },
+        {
+            "id": "P3-T20",
+            "taskName": "Implement Reporting System for Suspicious Activity",
+            "correspondingPhase": "Phase 3: Credibility System & Transaction Features",
+            "correspondingFeature": "Reporting system for suspicious activity",
+            "priority": "Medium",
+            "estimatedTime": "5 days",
+            "startTime": "2024-03-18",
+            "endTime": "2024-03-22",
+            "dependencies": [
+                "P3-T19"
+            ],
+            "responsiblePerson": "Backend Developer",
+            "flows": [
+                "User submits a report -> Report is stored and sent to the admin.",
+                "Admin views reports -> Admin can investigate and take action (e.g., suspend user, remove listing)."
+            ],
+            "screens": [
+                "Listing Detail Screen",
+                "User Profile Screen (Other User)",
+                "Report Submission Screen",
+                "Admin Panel (Report Management)"
+            ]
+        },
+        {
+            "id": "P3-T21",
+            "taskName": "Test Reporting System for Suspicious Activity",
+            "correspondingPhase": "Phase 3: Credibility System & Transaction Features",
+            "correspondingFeature": "Reporting system for suspicious activity",
+            "priority": "Medium",
+            "estimatedTime": "1 day",
+            "startTime": "2024-03-25",
+            "endTime": "2024-03-25",
+            "dependencies": [
+                "P3-T20"
+            ],
+            "responsiblePerson": "QA Engineer",
+            "flows": [
+                "Verify reports are submitted and received correctly.",
+                "Verify admin can investigate and take action.",
+                "Verify appropriate actions are taken based on the report."
+            ],
+            "screens": [
+                "Listing Detail Screen",
+                "User Profile Screen (Other User)",
+                "Report Submission Screen",
+                "Admin Panel (Report Management)"
+            ]
+        }
+    ],
+    [
+        {
+            "id": "P4-T1",
+            "taskName": "Design Forums and Discussion Boards UI/UX",
+            "correspondingPhase": "Phase 4: Community Features",
+            "correspondingFeature": "Forums or discussion boards for motorcycle enthusiasts",
+            "priority": "High",
+            "estimatedTime": "3 days",
+            "startTime": "2024-03-22",
+            "endTime": "2024-03-26",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T2",
+            "taskName": "Implement Forums Backend Logic (Create, Read, Update, Delete)",
+            "correspondingPhase": "Phase 4: Community Features",
+            "correspondingFeature": "Forums or discussion boards for motorcycle enthusiasts",
+            "priority": "High",
+            "estimatedTime": "5 days",
+            "startTime": "2024-03-27",
+            "endTime": "2024-04-02",
+            "dependencies": [
+                "P4-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T3",
+            "taskName": "Implement Forums Frontend (Display, Post, Reply)",
+            "correspondingPhase": "Phase 4: Community Features",
+            "correspondingFeature": "Forums or discussion boards for motorcycle enthusiasts",
+            "priority": "High",
+            "estimatedTime": "5 days",
+            "startTime": "2024-04-03",
+            "endTime": "2024-04-09",
+            "dependencies": [
+                "P4-T1",
+                "P4-T2"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T4",
+            "taskName": "Test Forums Functionality",
+            "correspondingPhase": "Phase 4: Community Features",
+            "correspondingFeature": "Forums or discussion boards for motorcycle enthusiasts",
+            "priority": "High",
+            "estimatedTime": "2 days",
+            "startTime": "2024-04-10",
+            "endTime": "2024-04-11",
+            "dependencies": [
+                "P4-T3"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T5",
+            "taskName": "Design Groups UI/UX",
+            "correspondingPhase": "Phase 4: Community Features",
+            "correspondingFeature": "Groups based on motorcycle type, location, or interest",
+            "priority": "Medium",
+            "estimatedTime": "2 days",
+            "startTime": "2024-03-22",
+            "endTime": "2024-03-25",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T6",
+            "taskName": "Implement Groups Backend Logic (Create, Join, Leave, Manage)",
+            "correspondingPhase": "Phase 4: Community Features",
+            "correspondingFeature": "Groups based on motorcycle type, location, or interest",
+            "priority": "Medium",
+            "estimatedTime": "4 days",
+            "startTime": "2024-04-12",
+            "endTime": "2024-04-17",
+            "dependencies": [
+                "P4-T5"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T7",
+            "taskName": "Implement Groups Frontend (Display, Join/Leave Buttons, Group Creation)",
+            "correspondingPhase": "Phase 4: Community Features",
+            "correspondingFeature": "Groups based on motorcycle type, location, or interest",
+            "priority": "Medium",
+            "estimatedTime": "4 days",
+            "startTime": "2024-04-18",
+            "endTime": "2024-04-23",
+            "dependencies": [
+                "P4-T5",
+                "P4-T6"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T8",
+            "taskName": "Test Groups Functionality",
+            "correspondingPhase": "Phase 4: Community Features",
+            "correspondingFeature": "Groups based on motorcycle type, location, or interest",
+            "priority": "Medium",
+            "estimatedTime": "1 day",
+            "startTime": "2024-04-24",
+            "endTime": "2024-04-24",
+            "dependencies": [
+                "P4-T7"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T9",
+            "taskName": "Implement Sharing Experiences Feature (Backend)",
+            "correspondingPhase": "Phase 4: Community Features",
+            "correspondingFeature": "Ability to share experiences and discuss motorcycle-related topics",
+            "priority": "Low",
+            "estimatedTime": "3 days",
+            "startTime": "2024-04-12",
+            "endTime": "2024-04-16",
+            "dependencies": [],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T10",
+            "taskName": "Implement Sharing Experiences Feature (Frontend)",
+            "correspondingPhase": "Phase 4: Community Features",
+            "correspondingFeature": "Ability to share experiences and discuss motorcycle-related topics",
+            "priority": "Low",
+            "estimatedTime": "3 days",
+            "startTime": "2024-04-17",
+            "endTime": "2024-04-22",
+            "dependencies": [
+                "P4-T9"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T11",
+            "taskName": "Test Sharing Experiences Functionality",
+            "correspondingPhase": "Phase 4: Community Features",
+            "correspondingFeature": "Ability to share experiences and discuss motorcycle-related topics",
+            "priority": "Low",
+            "estimatedTime": "1 day",
+            "startTime": "2024-04-23",
+            "endTime": "2024-04-23",
+            "dependencies": [
+                "P4-T10"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T12",
+            "taskName": "Final Testing and Bug Fixes",
+            "correspondingPhase": "Phase 4: Community Features",
+            "correspondingFeature": "Forums or discussion boards for motorcycle enthusiasts, Groups based on motorcycle type, location, or interest, Ability to share experiences and discuss motorcycle-related topics",
+            "priority": "High",
+            "estimatedTime": "2 days",
+            "startTime": "2024-04-24",
+            "endTime": "2024-04-25",
+            "dependencies": [
+                "P4-T4",
+                "P4-T8",
+                "P4-T11"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ]
+]

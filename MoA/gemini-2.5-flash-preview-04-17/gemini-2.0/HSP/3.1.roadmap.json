@@ -1,0 +1,101 @@
+[
+  {
+      "id": "P1",
+      "phase": "Planning & Requirements Gathering",
+      "feature_list": [],
+      "estimatedTime": 10,
+      "startTime": "2024-07-01",
+      "endTime": "2024-07-11",
+      "dependencies": []
+  },
+  {
+      "id": "P2",
+      "phase": "Internal Farm Operations Development",
+      "feature_list": [
+          "Piglet Monitoring (growth, feeding, temperature, environmental criteria)",
+          "Piglet Health Management (health status, diseases, vaccination procedures)",
+          "Inventory Management (import/export status)"
+      ],
+      "estimatedTime": 30,
+      "startTime": "2024-07-12",
+      "endTime": "2024-08-11",
+      "dependencies": [
+          "P1"
+      ]
+  },
+  {
+      "id": "P3",
+      "phase": "Sales and Farmer Engagement Development",
+      "feature_list": [
+          "Piglet Catalog Browsing",
+          "Online Ordering System",
+          "Communication Platform (Farm-to-Farmer)"
+      ],
+      "estimatedTime": 30,
+      "startTime": "2024-07-12",
+      "endTime": "2024-08-11",
+      "dependencies": [
+          "P1"
+      ]
+  },
+  {
+      "id": "P4",
+      "phase": "System Administration and Reporting Development",
+      "feature_list": [
+          "User Account Management (Farmer registration, Admin management)",
+          "Promotions Management",
+          "Reporting (Revenue statistics, periodic reports)"
+      ],
+      "estimatedTime": 20,
+      "startTime": "2024-08-12",
+      "endTime": "2024-09-01",
+      "dependencies": [
+          "P2",
+          "P3"
+      ]
+  },
+  {
+      "id": "P5",
+      "phase": "Integration Testing",
+      "feature_list": [],
+      "estimatedTime": 15,
+      "startTime": "2024-09-02",
+      "endTime": "2024-09-17",
+      "dependencies": [
+          "P4"
+      ]
+  },
+  {
+      "id": "P6",
+      "phase": "Deployment",
+      "feature_list": [],
+      "estimatedTime": 7,
+      "startTime": "2024-09-18",
+      "endTime": "2024-09-25",
+      "dependencies": [
+          "P5"
+      ]
+  },
+  {
+      "id": "P7",
+      "phase": "Training & Documentation",
+      "feature_list": [],
+      "estimatedTime": 10,
+      "startTime": "2024-09-26",
+      "endTime": "2024-10-06",
+      "dependencies": [
+          "P6"
+      ]
+  },
+  {
+      "id": "P8",
+      "phase": "Initial Support & Monitoring",
+      "feature_list": [],
+      "estimatedTime": 14,
+      "startTime": "2024-10-07",
+      "endTime": "2024-10-21",
+      "dependencies": [
+          "P7"
+      ]
+  }
+]

@@ -1,0 +1,238 @@
+[
+  {
+    "category": "Piglet Management & Tracking",
+    "features": [
+      {
+        "featureName": "Record and update piglet growth details",
+        "flow": "1. Farm Staff logs into the system using their credentials. 2. From the dashboard, they navigate to the 'Piglet Management' section and select 'Growth Details'. 3. The system displays a list of piglets with their current growth metrics. 4. The staff selects a piglet record to view detailed growth history. 5. The staff then chooses the 'Update Growth' option where they can input new measurements (weight, height, etc.), upload relevant photos, and add notes on developmental milestones. 6. After entering the new data, the staff reviews and confirms the update. 7. The system updates the piglet’s profile immediately and logs the update with a timestamp and the responsible user’s ID. 8. A confirmation message is shown to the farm staff and a summary record is stored for reporting purposes.",
+        "screens": [
+          "Dashboard Screen: Overview of system functions with navigation options for different management areas.",
+          "Piglet List Screen: Displays a list of piglets with basic details and links to individual records.",
+          "Growth Detail Screen: Shows comprehensive growth metrics and historical data for a selected piglet.",
+          "Growth Update Screen: A form for inputting new growth data, uploading photos, and adding notes.",
+          "Confirmation Screen: Displays confirmation and summary details after updating the piglet’s growth records."
+        ]
+      },
+      {
+        "featureName": "Monitor and log feeding routines",
+        "flow": "1. Farm Staff logs into the system and accesses the 'Feeding Management' section from the main menu. 2. The staff selects the 'Feeding Routines' option which presents the current feeding schedule and logs. 3. To record a new feeding event, the staff clicks on 'Log Feeding', selects the piglet or group of piglets, and enters details such as type of feed, quantity, time, and any observational notes. 4. The system validates the entry and displays a summary before final submission. 5. Upon confirmation, the feeding record is saved and an appropriate log is updated for future reference. 6. If required, the system sends notifications or reminders for upcoming feeding events.",
+        "screens": [
+          "Dashboard Screen: Provides access to various management functions including feeding routines.",
+          "Feeding Routines Dashboard: Displays current schedules, feed logs, and upcoming feeding events.",
+          "Feeding Log Entry Screen: A form to input new feeding details including feed type, quantity, and time.",
+          "Log Confirmation Screen: Summarizes the feeding log entry for review and successful submission."
+        ]
+      },
+      {
+        "featureName": "Track temperature and environmental conditions",
+        "flow": "1. Farm Staff or designated environmental monitor logs into the system and navigates to the 'Environmental Monitoring' section. 2. The system automatically displays current temperature, humidity, and other relevant environmental metrics gathered from sensors. 3. The user can select a 'Manual Log' option to input any additional observations or adjust sensor readings if necessary. 4. For historical analysis, the user can click on 'View History', which displays a series of recorded environmental conditions over selected time periods. 5. If conditions reach extreme thresholds, the system triggers alerts and provides guidelines for corrective actions. 6. The user confirms and saves any manual log entries, which are then stored for reporting and audit purposes.",
+        "screens": [
+          "Dashboard Screen: Entry point for all management functions, including environmental monitoring.",
+          "Environmental Monitoring Dashboard: Displays real-time sensor data on temperature, humidity, and other conditions.",
+          "Manual Log Entry Screen: Offers fields for entering additional environmental observations and adjustments.",
+          "History & Alerts Screen: Provides historical graphs, alert notifications, and action recommendations."
+        ]
+      },
+      {
+        "featureName": "Update piglet health records",
+        "flow": "1. Farm Staff accesses the system and navigates to the 'Health Management' section. 2. The staff selects a specific piglet to review its current health record. 3. The system displays detailed information including vaccination history, weight changes, and any previous illnesses. 4. To update the health record, the user clicks on 'Edit Health Record' and inputs new information such as recent health checks, treatments, or vaccinations administered. 5. A summary of the changes is shown for confirmation. 6. Upon confirmation, the system updates the health record, records who made the changes and when, and ensures the data is ready for any health compliance reports.",
+        "screens": [
+          "Dashboard Screen: Main overview with navigation to health management.",
+          "Health Records Dashboard: Displays a list of piglets and their associated health records.",
+          "Health Record Detail Screen: Provides comprehensive health history and current status for a selected piglet.",
+          "Health Record Update Screen: A form to input new medical details, vaccinations, or treatment notes.",
+          "Confirmation Screen: Shows the updated health record summary and confirmation of the changes made."
+        ]
+      },
+      {
+        "featureName": "Record incidents of common diseases",
+        "flow": "1. Farm Staff logs in and navigates to the 'Disease Management' or 'Incident Reporting' section. 2. The system shows a list of common diseases with guidelines and historical incident data. 3. When an incident occurs, the user clicks on 'Report Incident' and selects the relevant disease from a dropdown list or enters it manually if not listed. 4. The form requires details such as date and time of detection, affected piglets, observed symptoms, and any initial actions taken. 5. The staff reviews the entered data and submits the report. 6. The system logs the incident, sends alerts to the veterinary or supervising team if necessary, and updates disease statistics for trend analysis.",
+        "screens": [
+          "Dashboard Screen: Entry point to various management functions including disease reporting.",
+          "Disease Management Screen: Lists common diseases and provides access to incident reporting.",
+          "Incident Reporting Screen: A form for entering data on disease incidents, symptoms, and affected piglets.",
+          "Incident Confirmation Screen: Provides a summary of the reported incident and confirmation of submission."
+        ]
+      },
+      {
+        "featureName": "Manage import/export statuses of piglets",
+        "flow": "1. Farm Staff or administrative personnel logs into the system and navigates to the 'Import/Export Management' section. 2. The system displays current statuses of piglet import and export records including pending orders and completed transactions. 3. The user selects an entry to view detailed information or chooses to create a new import/export record by clicking 'Add Record'. 4. When adding a new record, the form collects details such as piglet ID, source or destination, transaction date, quantity, and notes regarding transport conditions. 5. After entering the details, the user reviews the information in a summary screen and confirms the addition or update. 6. The system updates the record and reflects the changes in real-time on the management dashboard. 7. The system may also generate an invoice or receipt as part of the record update, which is available for download or printing.",
+        "screens": [
+          "Dashboard Screen: Serves as the main navigation point for import/export management.",
+          "Import/Export Dashboard: Displays a summary of piglet transactions with filtering options.",
+          "Record Detail Screen: Shows detailed information for a selected import/export record.",
+          "Record Entry/Update Screen: A form for adding or updating transaction details including piglet IDs and transaction data.",
+          "Confirmation Screen: Summarizes the transaction details and confirms successful updates with options for invoice generation."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "User Management",
+    "features": [
+      {
+        "featureName": "Farm staff user roles and access controls",
+        "flow": "1. Farm admin logs into the system using secure credentials (Role: Farm Administrator). 2. The admin navigates to the 'User Management' or 'Staff Management' module from the dashboard sidebar. 3. In the module, the admin selects 'Manage Roles & Permissions'. 4. The admin views a list of existing roles and selects a role to edit or chooses to create a new role (e.g., Health Monitor, Inventory Manager). 5. The admin assigns specific permissions for each role such as access to health records, revenue statistics, or import/export data. 6. The system then validates the changes and updates the access control lists accordingly. 7. The modified roles are reviewed by the admin and changes are confirmed. 8. Farm staff logging in during future sessions only see functions and data relevant to their assigned roles, ensuring a role-based, secure workflow.",
+        "screens": [
+          "Login Screen: User logs in securely with credentials.",
+          "Dashboard Screen: Overview of system modules with navigation options.",
+          "User Management Screen: Central hub for managing users and roles; lists users with roles.",
+          "Role Management Screen: Interface for creating, editing, and deleting user roles with permission options.",
+          "Access Control Confirmation Screen: A summary and confirmation page for role assignment changes."
+        ]
+      },
+      {
+        "featureName": "Farmer registration and profile management",
+        "flow": "1. A new farmer visits the registration page on the website (Role: Farmer). 2. The farmer fills in the registration form with details including contact information, farm details, and desired login credentials. 3. The farmer submits the form and receives an email confirmation for account activation. 4. Once activated, the farmer logs in and is greeted with a profile dashboard. 5. The farmer can view and edit personal and farm details, access order history, and communicate with farm staff for support regarding piglet care. 6. The system validates updates and saves changes immediately, providing feedback for successful profile management. 7. Farmers can navigate to different sections of the portal from within their profile dashboard, ensuring ease of access to piglet information and ordering options.",
+        "screens": [
+          "Registration Screen: Form for new farmers to enter their details and create an account.",
+          "Email Confirmation Screen: A confirmation page indicating that an activation link has been sent.",
+          "Login Screen: Interface for registered farmers to sign in securely.",
+          "Profile Dashboard Screen: Central hub for farmers to view their profile, order history, and messages.",
+          "Edit Profile Screen: Allows farmers to update personal and farm information.",
+          "Order History Screen: Displays previous orders and current order statuses."
+        ]
+      },
+      {
+        "featureName": "User authentication and role-based permissions",
+        "flow": "1. Any user (farm staff or farmer) accesses the login page (Role: Generic User). 2. The user enters their credentials and clicks the 'Login' button. 3. The system authenticates the user against the database and determines their role. 4. Depending on the identified role, the system routes the user to the corresponding dashboard (e.g., farm staff dashboard or farmer profile dashboard). 5. If the authentication fails, the system displays an error message and provides a link to reset the password. 6. For authenticated sessions, user actions are continuously validated against their role permissions (e.g., farm staff can modify records while farmers can only view and place orders). 7. On logout, the user session is terminated and the user is redirected to the public landing page.",
+        "screens": [
+          "Login Screen: Secure entry point for entering credentials, including options for username, password, and possibly two-factor authentication.",
+          "Forgot Password Screen: Allows users to initiate a password reset process if credentials are forgotten.",
+          "Dashboard Screen: Role-specific landing page for either farm staff or farmers depending on authentication outcome.",
+          "Access Denied Screen: In cases where a user attempts to access an unauthorized resource, this screen clarifies permissions and guides back to valid sections.",
+          "Session Timeout Notification Screen: Alerts users when inactive and prompts for re-login for security."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Order & Exchange Management",
+    "features": [
+      {
+        "featureName": "Browse available pig varieties for farmers",
+        "flow": "Step 1 (Farmer): Log in or register on the system. Step 2 (Farmer): On the home/dashboard, select the 'Browse Pig Varieties' option. Step 3 (System): Retrieve and display a list of available pig varieties from the database along with basic details such as breed, age, and price. Step 4 (Farmer): Use provided filter and sort options to narrow down the list by criteria such as price or variety. Step 5 (Farmer): Click on a specific pig variety to view detailed information. Step 6 (System): Display the Pig Detail Screen with images, detailed specifications, feeding schedule, and care instructions. Step 7 (Farmer): Optionally, use the back button or navigation to continue browsing or initiate an order.",
+        "screens": [
+          "Login/Register Screen: Allows farmers to securely log in or create a new account.",
+          "Dashboard/Home Screen: Provides a navigation hub where farmers can access browsing, ordering, and exchange functions.",
+          "Browse Pig Varieties Screen: Lists available pig varieties with summary details and filtering/sorting options.",
+          "Pig Detail Screen: Presents comprehensive details of a selected pig variety including images, care instructions, and specifications."
+        ]
+      },
+      {
+        "featureName": "Place orders for one or more piglets",
+        "flow": "Step 1 (Farmer): After browsing, select one or more piglets to purchase by clicking on 'Order Now' or adding the piglet to a shopping cart. Step 2 (System): Validate selected items against available inventory. Step 3 (Farmer): Navigate to the order details page where they fill in order quantity, shipping information, and any special instructions. Step 4 (System): Present a payment screen if payment processing is required or simply confirm order details if payment is handled offline. Step 5 (Farmer): Confirm and submit the order. Step 6 (System): Process the order by updating inventory and generating an order record; notify farm staff of the new order and send a confirmation to the farmer. Step 7 (Farmer): Access order history or details from their account dashboard.",
+        "screens": [
+          "Shopping Cart Screen: Displays a summary of selected piglets ready for purchase and allows modification before proceeding.",
+          "Order Details Screen: Collects necessary details such as order quantities, shipping address, and any additional notes.",
+          "Payment Screen: Provides a secure method for payment processing if required (could include credit/debit card or other options).",
+          "Order Confirmation Screen: Shows the final order summary and confirmation details, along with an order reference number.",
+          "Order History Screen: Enables farmers to review past orders and track order statuses."
+        ]
+      },
+      {
+        "featureName": "Facilitate piglet exchanges between farmers",
+        "flow": "Step 1 (Farmer): Navigate to the 'Exchange' section from the dashboard and select the option to initiate a piglet exchange request. Step 2 (System): Display a list of eligible piglets available for exchange based on previous orders or marketplace listings. Step 3 (Farmer): Select a piglet and choose a desired exchange option, then fill out additional information if required (such as reasons for exchange or preferred swapping details). Step 4 (System): Send the exchange request and simultaneously notify the target farmer (and optionally farm staff for oversight) about the pending request. Step 5 (Receiving Farmer/Farm Staff): Review the exchange request; if necessary, use a communication module to discuss terms or negotiate the exchange details. Step 6 (System): Once both parties agree, update the ownership records and confirm the exchange. Step 7 (System/Farmer): Provide an exchange confirmation notification to both farmers and log the exchange in the history for future reference.",
+        "screens": [
+          "Exchange Request Screen: Allows a farmer to initiate an exchange request by selecting a piglet and providing required details.",
+          "Exchange Options List Screen: Displays a curated list of available piglets or exchange offers from other farmers.",
+          "Exchange Confirmation Screen: Presents the status of the request (pending, approved, or rejected) and details of the exchange process.",
+          "Communication/Chat Screen: Facilitates direct messaging between farmers to negotiate and finalize the exchange.",
+          "Exchange History Screen: Logs all past exchange requests and completed exchanges for tracking and record-keeping."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Communication & Care Guidance",
+    "features": [
+      {
+        "featureName": "Communication platform for post-purchase care",
+        "flow": "1. Farmer logs into the system and views their order summary to confirm the completed piglet purchase. (Role: Farmer) → 2. Farmer selects the 'Post-Purchase Care' tab and accesses the communication platform interface. (Role: Farmer) → 3. The system displays a list of conversation threads related to their recent purchases. (Role: System) → 4. Farmer initiates a new conversation or selects an existing thread to ask specific care-related questions. (Role: Farmer) → 5. Farm staff receive a notification about the new message and review the query via the staff dashboard. (Role: Farm Staff) → 6. Farm staff respond with detailed guidance, tips, or schedule adjustments. (Role: Farm Staff) → 7. The conversation thread is updated in real-time, and the farmer is notified of the response. (Role: System) → 8. Both parties can archive or flag the conversation for follow-up, ensuring clear communication continuity. (Role: System)",
+        "screens": [
+          "Communication Dashboard: Displays an overview of all conversation threads for the farmer, including new message notifications.",
+          "Conversation Thread Screen: Provides a detailed view of the ongoing chat between the farmer and farm staff, including sending and receiving messages.",
+          "Staff Notification Panel: Shows incoming messages and alerts on the farm staff's interface, allowing them to promptly respond to inquiries."
+        ]
+      },
+      {
+        "featureName": "Provide feeding routine notifications",
+        "flow": "1. Farm staff log into the system and navigate to the Feeding Routine Management section. (Role: Farm Staff) → 2. Staff set up or update the feeding schedule details, including timing, feeding type, and best practices. (Role: Farm Staff) → 3. The system confirms the schedule update and automatically schedules notifications based on the configured timings. (Role: System) → 4. At the scheduled time, farmers receive in-app alerts, emails, or push notifications with the feeding routine details. (Role: System) → 5. Farmer reviews the notification and accesses further details if needed by clicking through to the detailed feeding schedule screen. (Role: Farmer) → 6. The system logs and archives notification history for reference and potential audit purposes. (Role: System)",
+        "screens": [
+          "Feeding Routine Setup Screen: Allows farm staff to input or modify feeding schedules, select notification methods, and set timing details.",
+          "Notification Confirmation Screen: A brief acknowledgement screen for farm staff confirming the schedule update.",
+          "Feeding Notification Alert Screen: The in-app alert or pop-up that a farmer sees when a feeding routine notification is sent out.",
+          "Feeding Schedule Details Screen: Provides the farmer with comprehensive details about the feeding routine, tips, and any associated guidelines."
+        ]
+      },
+      {
+        "featureName": "Send vaccination schedule reminders",
+        "flow": "1. Farm staff access the Vaccination Management section after logging into the system. (Role: Farm Staff) → 2. Staff input or update vaccination schedule details for different piglet groups, including dates, vaccine types, and recommended dosages. (Role: Farm Staff) → 3. The system validates the input and schedules reminders accordingly. (Role: System) → 4. Prior to the vaccination date, the system automatically sends reminder notifications to the relevant farmers via in-app alerts, SMS, or email. (Role: System) → 5. Farmers review the reminders and may click through to view detailed vaccination guidelines and schedule history. (Role: Farmer) → 6. Post-vaccination, farm staff update the records to confirm that vaccinations have been administered. (Role: Farm Staff) → 7. The system logs the event and updates future schedule recommendations based on historical data. (Role: System)",
+        "screens": [
+          "Vaccination Schedule Setup Screen: A dedicated interface for farm staff to enter or modify vaccination schedules and related details.",
+          "Reminder Notification Configuration Screen: Allows farm staff to customize how and when reminders are sent to farmers.",
+          "Vaccination Reminder Alert Screen: The notification interface that displays vaccination reminders to the farmer with essential details.",
+          "Vaccination Details and History Screen: Provides farmers with a view of upcoming vaccination schedules, past records, and additional guidelines."
+        ]
+      },
+      {
+        "featureName": "Distribute care guidelines and best practices",
+        "flow": "1. Farm staff or the farm owner logs into the content management section designed for care guidelines. (Role: Farm Staff/Farm Owner) → 2. They create and update articles or posts containing detailed care guidelines, best practices, feeding tips, and disease prevention measures. (Role: Farm Staff/Farm Owner) → 3. The system validates and publishes the new or updated content to the public guidelines library. (Role: System) → 4. Farmers access the 'Care Guidelines' section from their dashboard to browse articles and recommended practices. (Role: Farmer) → 5. Farmers can filter or search for specific topics and may have options to bookmark or comment on guidelines for future reference. (Role: Farmer) → 6. Farm staff periodically review user feedback on the posted guidelines and update them as necessary to incorporate new insights or regulations. (Role: Farm Staff)",
+        "screens": [
+          "Care Guidelines Management Screen: A content editor interface for farm staff/owner to create, edit, and publish care guidelines and best practices.",
+          "Guidelines Listing Screen: Displays a list of all published care guidelines, including brief summaries and categories for easy browsing.",
+          "Guidelines Detail Screen: Shows the full content of a selected care guideline, including images, supplementary materials, and feedback options.",
+          "User Feedback Screen: Provides a section for farmers to leave comments or ratings to help improve future care guidelines."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Reporting & Analytics",
+    "features": [
+      {
+        "featureName": "Generate revenue statistics",
+        "flow": "Step 1: Farm Staff logs into the system using secure authentication. Step 2: The staff navigates to the 'Revenue Statistics' section from the dashboard. Step 3: The user selects a desired date range and applies filters to narrow down revenue sources (e.g., piglet sales, service fees). Step 4: The system fetches and aggregates sales records along with revenue data from various sources. Step 5: The system processes and displays revenue figures using charts, graphs, and tables. Step 6: The user reviews the visualized data and has the option to export or print the revenue statistics report. (User Role Involved: Farm Staff)",
+        "screens": [
+          "Login Screen: Authentication portal for secure access.",
+          "Dashboard Screen: Overview of farm operations with navigation to analytics modules.",
+          "Revenue Statistics Screen: Displays charts, graphs, and data tables for revenue with filtering options.",
+          "Report Preview Screen: Allows users to review, export, or print the generated revenue statistics report."
+        ]
+      },
+      {
+        "featureName": "Create monthly, quarterly, and annual reports",
+        "flow": "Step 1: Farm Owner or Administrative Staff logs into the system. Step 2: The user accesses the 'Reports' section from the main menu. Step 3: The user selects the desired report type (monthly, quarterly, or annual) from a list of options. Step 4: The system retrieves and compiles data from various modules including piglet growth, health records, feeding schedules, and revenue statistics. Step 5: A draft report is generated and presented in an interactive preview format. Step 6: The user reviews the report, makes any necessary adjustments or annotations, and then confirms the final version. Step 7: The report can be exported as a PDF or printed for physical record keeping. (User Roles Involved: Farm Owner and Administrative Staff)",
+        "screens": [
+          "Login Screen: Secure authentication gateway.",
+          "Dashboard Screen: Central hub for navigating to reports and analytics.",
+          "Reports Selection Screen: Interface for choosing report type and time period.",
+          "Report Generation Screen: Interactive preview of a draft report with compiled data.",
+          "Report Detail Screen: Final detailed view of the report, featuring export and print options."
+        ]
+      },
+      {
+        "featureName": "Update and view promotional offers",
+        "flow": "Step 1: Farm Owner logs into the system. Step 2: The owner navigates to the 'Promotions' section available in the dashboard. Step 3: On the Promotions List Screen, the owner reviews all current and past promotional offers. Step 4: To update an existing offer or add a new one, the owner selects the corresponding button (Edit or Add New). Step 5: The system displays a form where the owner inputs or modifies details such as title, description, applicable pig varieties, start and end dates. Step 6: Once submitted, the system saves the updated information and immediately updates the promotions available to farmers. Step 7: Farmers and Farm Staff can then view the current promotional offers in their respective modules. (User Roles Involved: Farm Owner for management and Farmers for viewing)",
+        "screens": [
+          "Login Screen: User authentication for secure access.",
+          "Dashboard Screen: Entry point for accessing promotions and other modules.",
+          "Promotions List Screen: Displays a list of active and historical promotional offers.",
+          "Promotion Edit Screen: Form interface for adding or updating promotion details.",
+          "Promotion Details Screen: Detailed view of a specific promotional offer for review by all users."
+        ]
+      },
+      {
+        "featureName": "Maintain current farm performance data",
+        "flow": "Step 1: Farm Staff logs into the system. Step 2: The staff member navigates to the 'Farm Performance' module from the dashboard. Step 3: On the module screen, the user selects to update daily performance data, which includes metrics such as piglet growth, feeding routines, temperature readings, and environmental conditions. Step 4: The staff enters the daily data via an input form and submits the record. Step 5: The system updates the performance metrics and calculates current trends against preset thresholds. Step 6: A summary is generated showing graphs, charts, and any alerts if performance data falls outside of acceptable ranges. Step 7: The updated data is available for review by both Farm Staff and Farm Owner, and can be used to adjust care routines. (User Roles Involved: Farm Staff for data input and Farm Owner for oversight)",
+        "screens": [
+          "Login Screen: Secure entry point for authorized users.",
+          "Dashboard Screen: Central navigation hub including access to performance data.",
+          "Farm Performance Module Screen: Main interface for viewing and updating daily farm performance metrics.",
+          "Data Update Form Screen: Form for entering detailed performance data such as growth, feeding, and environment metrics.",
+          "Performance Summary Screen: Displays graphical trends, charts, and alerts based on the latest data."
+        ]
+      }
+    ]
+  }
+]

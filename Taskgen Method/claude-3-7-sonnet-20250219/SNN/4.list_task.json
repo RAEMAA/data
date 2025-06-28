@@ -1,0 +1,444 @@
+['[
+        {
+            "id": "P1-T1",
+            "taskName": "Design user profile database schema",
+            "correspondingPhase": "Platform Foundation & User Management",
+            "correspondingFeature": "Profile creation with academic affiliations",
+            "priority": "High",
+            "estimatedTime": "3 days",
+            "startTime": "2023-11-13",
+            "endTime": "2023-11-15",
+            "dependencies": [],
+            "responsiblePerson": "Database Architect"
+        },
+        {
+            "id": "P1-T2",
+            "taskName": "Design UI wireframes for profile creation",
+            "correspondingPhase": "Platform Foundation & User Management",
+            "correspondingFeature": "Profile creation with academic affiliations",
+            "priority": "High",
+            "estimatedTime": "4 days",
+            "startTime": "2023-11-13",
+            "endTime": "2023-11-16",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T3",
+            "taskName": "Implement user registration API",
+            "correspondingPhase": "Platform Foundation & User Management",
+            "correspondingFeature": "Profile creation with academic affiliations",
+            "priority": "High",
+            "estimatedTime": "5 days",
+            "startTime": "2023-11-16",
+            "endTime": "2023-11-22",
+            "dependencies": [
+                "P1-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T4",
+            "taskName": "Implement academic affiliation verification",
+            "correspondingPhase": "Platform Foundation & User Management",
+            "correspondingFeature": "Profile creation with academic affiliations",
+            "priority": "Medium",
+            "estimatedTime": "4 days",
+            "startTime": "2023-11-23",
+            "endTime": "2023-11-28",
+            "dependencies": [
+                "P1-T3"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T5",
+            "taskName": "Develop profile creation frontend",
+            "correspondingPhase": "Platform Foundation & User Management",
+            "correspondingFeature": "Profile creation with academic affiliations",
+            "priority": "High",
+            "estimatedTime": "6 days",
+            "startTime": "2023-11-17",
+            "endTime": "2023-11-24",
+            "dependencies": [
+                "P1-T2"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P1-T6",
+            "taskName": "Testing profile creation and verification",
+            "correspondingPhase": "Platform Foundation & User Management",
+            "correspondingFeature": "Profile creation with academic affiliations",
+            "priority": "High",
+            "estimatedTime": "3 days",
+            "startTime": "2023-11-29",
+            "endTime": "2023-12-01",
+            "dependencies": [
+                "P1-T4",
+                "P1-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T7",
+            "taskName": "Design privacy settings database model",
+            "correspondingPhase": "Platform Foundation & User Management",
+            "correspondingFeature": "Privacy controls and visibility settings",
+            "priority": "High",
+            "estimatedTime": "2 days",
+            "startTime": "2023-11-16",
+            "endTime": "2023-11-17",
+            "dependencies": [
+                "P1-T1"
+            ],
+            "responsiblePerson": "Database Architect\\', '[{"id": "P1-T1", "taskName": "Design database schema for user profiles", "correspondingPhase": "Platform Foundation & User Management", "correspondingFeature": "Profile creation with academic affiliations", "priority": "High", "estimatedTime": "2 days", "startTime": "2023-11-13", "endTime": "2023-11-14", "dependencies": [], "responsiblePerson": "Database Architect"}, {"id": "P1-T2", "taskName": "Create UI wireframes for user profiles", "correspondingPhase": "Platform Foundation & User Management", "correspondingFeature": "Profile creation with academic affiliations", "priority": "High", "estimatedTime": "3 days", "startTime": "2023-11-13", "endTime": "2023-11-15", "dependencies": [], "responsiblePerson": "UI/UX Designer"}, {"id": "P1-T3", "taskName": "Implement backend API for user profiles", "correspondingPhase": "Platform Foundation & User Management", "correspondingFeature": "Profile creation with academic affiliations", "priority": "High", "estimatedTime": "4 days", "startTime": "2023-11-15", "endTime": "2023-11-20", "dependencies": ["P1-T1"], "responsiblePerson": "Backend Developer"}, {"id": "P1-T4", "taskName": "Develop frontend for user profiles", "correspondingPhase": "Platform Foundation & User Management", "correspondingFeature": "Profile creation with academic affiliations", "priority": "High", "estimatedTime": "5 days", "startTime": "2023-11-16", "endTime": "2023-11-22", "dependencies": ["P1-T2"], "responsiblePerson": "Frontend Developer"}, {"id": "P1-T5", "taskName": "Design privacy controls database schema", "correspondingPhase": "Platform Foundation & User Management", "correspondingFeature": "Privacy controls and visibility settings", "priority": "High", "estimatedTime": "2 days", "startTime": "2023-11-15", "endTime": "2023-11-16", "dependencies": ["P1-T1"], "responsiblePerson": "Database Architect"}, {"id": "P1-T6", "taskName": "Create UI wireframes for privacy controls", "correspondingPhase": "Platform Foundation & User Management", "correspondingFeature": "Privacy controls and visibility settings", "priority": "Medium", "estimatedTime": "3 days", "startTime": "2023-11-16", "endTime": "2023-11-20", "dependencies": ["P1-T2"], "responsiblePerson": "UI/UX Designer"}, {"id": "P1-T7", "taskName": "Implement backend API for privacy controls", "correspondingPhase": "Platform Foundation & User Management", "correspondingFeature": "Privacy controls and visibility settings", "priority": "High", "estimatedTime": "4 days", "startTime": "2023-11-17", "endTime": "2023-11-22", "dependencies": ["P1-T5"], "responsiblePerson": "Backend Developer\\', '[
+                {
+                    "id": "P1",
+                    "phase": "Platform Foundation & User Management",
+                    "feature_list": [
+                        "Profile creation with academic affiliations",
+                        "Privacy controls and visibility settings",
+                        "Connect with students and researchers",
+                        "Direct messaging"
+                    ],
+                    "estimatedTime": "8 weeks",
+                    "startTime": "2023-11-13",
+                    "endTime": "2024-01-08",
+                    "dependencies": []
+                },
+                {
+                    "id": "P2",
+                    "phase": "Content Management System",
+                    "feature_list": [
+                        "Course notes repository",
+                        "Study guide uploads and downloads",
+                        "Educational resource library",
+                        "Permission-based sharing options"
+                    ],
+                    "estimatedTime": "6 weeks",
+                    "startTime": "2024-01-09",
+                    "endTime": "2024-02-20",
+                    "dependencies": [
+                        "P1"
+                    ]
+                },
+                {
+                    "id": "P3",
+                    "phase": "Networking & Communication Expansion",
+                    "feature_list": [
+                        "Interest-based group creation and membership",
+                        "Group chats for classes/research teams",
+                        "Follow researchers and institutions",
+                        "Directory search by field/discipline"
+                    ],
+                    "estimatedTime": "5 weeks",
+                    "startTime": "2024-01-09",
+                    "endTime": "2024-02-13",
+                    "dependencies": [
+                        "P1"
+                    ]
+                },
+                {
+                    "id": "P4",
+                    "phase": "Course Evaluation System",
+                    "feature_list": [
+                        "Course rating system",
+                        "Professor evaluation tools",
+                        "Anonymous feedback submission",
+                        "Course difficulty metrics"
+                    ],
+                    "estimatedTime": "4 weeks",
+                    "startTime": "2024-02-21",
+                    "endTime": "2024-03-20",
+                    "dependencies": [
+                        "P2"
+                    ]
+                },
+                {
+                    "id": "P5",
+                    "phase": "Collaboration Environment",
+                    "feature_list": [
+                        "Project workspaces",
+                        "Study group formation",
+                        "Real-time document collaboration",
+                        "Task assignment and tracking"
+                    ],
+                    "estimatedTime": "6 weeks",
+                    "startTime": "2024-02-14",
+                    "endTime": "2024-03-27",
+                    "dependencies": [
+                        "P3"
+                    ]
+                },
+                {
+                    "id": "P6",
+                    "phase": "Research Content Management",
+                    "feature_list": [
+                        "Research paper sharing",
+                        "Citation and reference management",
+                        "Publication listings",
+                        "Literature review collections"
+                    ],
+                    "estimatedTime": "5 weeks",
+                    "startTime": "2024-03-21",
+                    "endTime": "2024-04-24",
+                    "dependencies": [
+                        "P2",
+                        "P4"
+                    ]
+                },
+                {
+                    "id": "P7",
+                    "phase": "Academic Events Platform",
+                    "feature_list": [
+                        "Conference and seminar listings",
+                        "Event registration and RSVP",
+                        "Calendar integration",
+                        "Academic competition announcements"
+                    ],
+                    "estimatedTime": "4 weeks",
+                    "startTime": "2024-03-28",
+                    "endTime": "2024-04-24",
+                    "dependencies": [
+                        "P5"
+                    ]
+                }
+            ]', '[
+                {
+                    "id": "P1",
+                    "phase": "Platform Foundation & User Management",
+                    "feature_list": [
+                        "Profile creation with academic affiliations",
+                        "Privacy controls and visibility settings",
+                        "Connect with students and researchers",
+                        "Direct messaging"
+                    ],
+                    "estimatedTime": "8 weeks",
+                    "startTime": "2023-11-13",
+                    "endTime": "2024-01-08",
+                    "dependencies": []
+                },
+                {
+                    "id": "P2",
+                    "phase": "Content Management System",
+                    "feature_list": [
+                        "Course notes repository",
+                        "Study guide uploads and downloads",
+                        "Educational resource library",
+                        "Permission-based sharing options"
+                    ],
+                    "estimatedTime": "6 weeks",
+                    "startTime": "2024-01-09",
+                    "endTime": "2024-02-20",
+                    "dependencies": [
+                        "P1"
+                    ]
+                },
+                {
+                    "id": "P3",
+                    "phase": "Networking & Communication Expansion",
+                    "feature_list": [
+                        "Interest-based group creation and membership",
+                        "Group chats for classes/research teams",
+                        "Follow researchers and institutions",
+                        "Directory search by field/discipline"
+                    ],
+                    "estimatedTime": "5 weeks",
+                    "startTime": "2024-01-09",
+                    "endTime": "2024-02-13",
+                    "dependencies": [
+                        "P1"
+                    ]
+                },
+                {
+                    "id": "P4",
+                    "phase": "Course Evaluation System",
+                    "feature_list": [
+                        "Course rating system",
+                        "Professor evaluation tools",
+                        "Anonymous feedback submission",
+                        "Course difficulty metrics"
+                    ],
+                    "estimatedTime": "4 weeks",
+                    "startTime": "2024-02-21",
+                    "endTime": "2024-03-20",
+                    "dependencies": [
+                        "P2"
+                    ]
+                },
+                {
+                    "id": "P5",
+                    "phase": "Collaboration Environment",
+                    "feature_list": [
+                        "Project workspaces",
+                        "Study group formation",
+                        "Real-time document collaboration",
+                        "Task assignment and tracking"
+                    ],
+                    "estimatedTime": "6 weeks",
+                    "startTime": "2024-02-14",
+                    "endTime": "2024-03-27",
+                    "dependencies": [
+                        "P3"
+                    ]
+                },
+                {
+                    "id": "P6",
+                    "phase": "Research Content Management",
+                    "feature_list": [
+                        "Research paper sharing",
+                        "Citation and reference management",
+                        "Publication listings",
+                        "Literature review collections"
+                    ],
+                    "estimatedTime": "5 weeks",
+                    "startTime": "2024-03-21",
+                    "endTime": "2024-04-24",
+                    "dependencies": [
+                        "P2",
+                        "P4"
+                    ]
+                },
+                {
+                    "id": "P7",
+                    "phase": "Academic Events Platform",
+                    "feature_list": [
+                        "Conference and seminar listings",
+                        "Event registration and RSVP",
+                        "Calendar integration",
+                        "Academic competition announcements"
+                    ],
+                    "estimatedTime": "4 weeks",
+                    "startTime": "2024-03-28",
+                    "endTime": "2024-04-24",
+                    "dependencies": [
+                        "P5"
+                    ]
+                }
+            ]', '[
+                {
+                    "id": "P1-T1",
+                    "taskName": "Design user profile interface with academic affiliations",
+                    "correspondingPhase": "Platform Foundation & User Management",
+                    "correspondingFeature": "Profile creation with academic affiliations",
+                    "priority": "High",
+                    "estimatedTime": "3 days",
+                    "startTime": "2023-11-13",
+                    "endTime": "2023-11-15",
+                    "dependencies": [],
+                    "responsiblePerson": "UI/UX Designer"
+                },
+                {
+                    "id": "P1-T2",
+                    "taskName": "Implement backend user profile data model",
+                    "correspondingPhase": "Platform Foundation & User Management",
+                    "correspondingFeature": "Profile creation with academic affiliations",
+                    "priority": "High",
+                    "estimatedTime": "2 days",
+                    "startTime": "2023-11-16",
+                    "endTime": "2023-11-17",
+                    "dependencies": [
+                        "P1-T1"
+                    ],
+                    "responsiblePerson": "Backend Developer"
+                },
+                {
+                    "id": "P1-T3",
+                    "taskName": "Develop frontend components for profile creation",
+                    "correspondingPhase": "Platform Foundation & User Management",
+                    "correspondingFeature": "Profile creation with academic affiliations",
+                    "priority": "High",
+                    "estimatedTime": "3 days",
+                    "startTime": "2023-11-16",
+                    "endTime": "2023-11-20",
+                    "dependencies": [
+                        "P1-T1"
+                    ],
+                    "responsiblePerson": "Frontend Developer"
+                },
+                {
+                    "id": "P1-T4",
+                    "taskName": "Design privacy controls UI",
+                    "correspondingPhase": "Platform Foundation & User Management",
+                    "correspondingFeature": "Privacy controls and visibility settings",
+                    "priority": "Medium",
+                    "estimatedTime": "2 days",
+                    "startTime": "2023-11-16",
+                    "endTime": "2023-11-17",
+                    "dependencies": [
+                        "P1-T1"
+                    ],
+                    "responsiblePerson": "UI/UX Designer"
+                },
+                {
+                    "id": "P1-T5",
+                    "taskName": "Implement privacy settings backend logic",
+                    "correspondingPhase": "Platform Foundation & User Management",
+                    "correspondingFeature": "Privacy controls and visibility settings",
+                    "priority": "Medium",
+                    "estimatedTime": "3 days",
+                    "startTime": "2023-11-20",
+                    "endTime": "2023-11-22",
+                    "dependencies": [
+                        "P1-T2",
+                        "P1-T4"
+                    ],
+                    "responsiblePerson": "Backend Developer"
+                },
+                {
+                    "id": "P1-T6",
+                    "taskName": "Develop frontend components for privacy settings",
+                    "correspondingPhase": "Platform Foundation & User Management",
+                    "correspondingFeature": "Privacy controls and visibility settings",
+                    "priority": "Medium",
+                    "estimatedTime": "2 days",
+                    "startTime": "2023-11-20",
+                    "endTime": "2023-11-21",
+                    "dependencies": [
+                        "P1-T4"
+                    ],
+                    "responsiblePerson": "Frontend Developer"
+                },
+                {
+                    "id": "P1-T7",
+                    "taskName": "Design connection interface",
+                    "correspondingPhase": "Platform Foundation & User Management",
+                    "correspondingFeature": "Connect with students and researchers",
+                    "priority": "High",
+                    "estimatedTime": "2 days",
+                    "startTime": "2023-11-22",
+                    "endTime": "2023-11-23",
+                    "dependencies": [
+                        "P1-T3",
+                        "P1-T6"
+                    ],
+                    "responsiblePerson": "UI/UX Designer"
+                },
+                {
+                    "id": "P1-T8",
+                    "taskName": "Implement connection backend services",
+                    "correspondingPhase": "Platform Foundation & User Management",
+                    "correspondingFeature": "Connect with students and researchers",
+                    "priority": "High",
+                    "estimatedTime": "4 days",
+                    "startTime": "2023-11-24",
+                    "endTime": "2023-11-29",
+                    "dependencies": [
+                        "P1-T7"
+                    ],
+                    "responsiblePerson": "Backend Developer"
+                },
+                {
+                    "id": "P1-T9",
+                    "taskName": "Develop frontend components for connections",
+                    "correspondingPhase": "Platform Foundation & User Management",
+                    "correspondingFeature": "Connect with students and researchers",
+                    "priority": "High",
+                    "estimatedTime": "3 days",
+                    "startTime": "2023-11-24",
+                    "endTime": "2023-11-28",
+                    "dependencies": [
+                        "P1-T7"
+                    ],
+                    "responsiblePerson": "Frontend Developer', '[{"id": "P1", "phase": "Platform Foundation & User Management", "feature_list": ["Profile creation with academic affiliations", "Privacy controls and visibility settings", "Connect with students and researchers", "Direct messaging"], "estimatedTime": "8 weeks", "startTime": "2023-11-13", "endTime": "2024-01-08", "dependencies": []}, {"id": "P2", "phase": "Content Management System", "feature_list": ["Course notes repository", "Study guide uploads and downloads", "Educational resource library", "Permission-based sharing options"], "estimatedTime": "6 weeks", "startTime": "2024-01-09", "endTime": "2024-02-20", "dependencies": ["P1"]}, {"id": "P3", "phase": "Networking & Communication Expansion", "feature_list": ["Interest-based group creation and membership", "Group chats for classes/research teams", "Follow researchers and institutions", "Directory search by field/discipline"], "estimatedTime": "5 weeks", "startTime": "2024-01-09", "endTime": "2024-02-13", "dependencies": ["P1"]}, {"id": "P4", "phase": "Course Evaluation System", "feature_list": ["Course rating system", "Professor evaluation tools", "Anonymous feedback submission", "Course difficulty metrics"], "estimatedTime": "4 weeks", "startTime": "2024-02-21", "endTime": "2024-03-20", "dependencies": ["P2"]}, {"id": "P5", "phase": "Collaboration Environment", "feature_list": ["Project workspaces", "Study group formation", "Real-time document collaboration", "Task assignment and tracking"], "estimatedTime": "6 weeks", "startTime": "2024-02-14", "endTime": "2024-03-27", "dependencies": ["P3"]}, {"id": "P6", "phase": "Research Content Management", "feature_list": ["Research paper sharing", "Citation and reference management", "Publication listings", "Literature review collections"], "estimatedTime": "5 weeks", "startTime": "2024-03-21", "endTime": "2024-04-24", "dependencies": ["P2", "P4"]}, {"id": "P7", "phase": "Academic Events Platform", "feature_list": ["Conference and seminar listings", "Event registration and RSVP", "Calendar integration", "Academic competition announcements"], "estimatedTime": "4 weeks", "startTime": "2024-03-28", "endTime": "2024-04-24", "dependencies": ["P5"]}]', '[{"id": "P1", "phase": "Platform Foundation & User Management", "feature_list": ["Profile creation with academic affiliations", "Privacy controls and visibility settings", "Connect with students and researchers", "Direct messaging"], "estimatedTime": "8 weeks", "startTime": "2023-11-13", "endTime": "2024-01-08", "dependencies": []}, {"id": "P2", "phase": "Content Management System", "feature_list": ["Course notes repository", "Study guide uploads and downloads", "Educational resource library", "Permission-based sharing options"], "estimatedTime": "6 weeks", "startTime": "2024-01-09", "endTime": "2024-02-20", "dependencies": ["P1"]}, {"id": "P3", "phase": "Networking & Communication Expansion", "feature_list": ["Interest-based group creation and membership", "Group chats for classes/research teams", "Follow researchers and institutions", "Directory search by field/discipline"], "estimatedTime": "5 weeks", "startTime": "2024-01-09", "endTime": "2024-02-13", "dependencies": ["P1"]}, {"id": "P4", "phase": "Course Evaluation System", "feature_list": ["Course rating system", "Professor evaluation tools", "Anonymous feedback submission", "Course difficulty metrics"], "estimatedTime": "4 weeks", "startTime": "2024-02-21", "endTime": "2024-03-20", "dependencies": ["P2"]}, {"id": "P5", "phase": "Collaboration Environment", "feature_list": ["Project workspaces", "Study group formation", "Real-time document collaboration", "Task assignment and tracking"], "estimatedTime": "6 weeks", "startTime": "2024-02-14", "endTime": "2024-03-27", "dependencies": ["P3"]}, {"id": "P6", "phase": "Research Content Management", "feature_list": ["Research paper sharing", "Citation and reference management", "Publication listings", "Literature review collections"], "estimatedTime": "5 weeks", "startTime": "2024-03-21", "endTime": "2024-04-24", "dependencies": ["P2", "P4"]}, {"id": "P7", "phase": "Academic Events Platform", "feature_list": ["Conference and seminar listings", "Event registration and RSVP", "Calendar integration", "Academic competition announcements"], "estimatedTime": "4 weeks", "startTime": "2024-03-28", "endTime": "2024-04-24", "dependencies": ["P5"]}]']

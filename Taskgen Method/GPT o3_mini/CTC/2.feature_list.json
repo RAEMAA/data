@@ -1,0 +1,72 @@
+[
+  {
+    "category": "Branch Management",
+    "list_feature": [
+      "Branch Registration and Administration",
+      "Location and Contact Details Management",
+      "Operational Hours Setup",
+      "Staff Management and Roles",
+      "Branch-wise Performance Reporting"
+    ]
+  },
+  {
+    "category": "Online Ordering",
+    "list_feature": [
+      "User-friendly Menu Navigation",
+      "Order Customization Options",
+      "Real-time Order Status Updates",
+      "Multi-channel Ordering Integration (Web, Mobile App)",
+      "Order History and Reordering"
+    ]
+  },
+  {
+    "category": "Payment Integration",
+    "list_feature": [
+      "Secure Payment Gateways Integration",
+      "Multiple Payment Options (Credit/Debit, Wallets, etc.)",
+      "Transaction History Tracking",
+      "Payment Refund and Dispute Resolution",
+      "Compliance with Financial Regulations"
+    ]
+  },
+  {
+    "category": "Promotional Management",
+    "list_feature": [
+      "Dynamic Discounts and Coupons",
+      "Loyalty and Rewards Programs",
+      "Seasonal and Time-based Promotions",
+      "Referral Programs",
+      "Promotion Performance Analytics"
+    ]
+  },
+  {
+    "category": "Menu and Pricing",
+    "list_feature": [
+      "Menu Items Catalog Management",
+      "Real-time Pricing Updates",
+      "Item Descriptions and Allergen Information",
+      "Category-based Menu Organization",
+      "Stock and Availability Management"
+    ]
+  },
+  {
+    "category": "Customer Feedback",
+    "list_feature": [
+      "Review and Rating System",
+      "Feedback Collection via Surveys",
+      "Real-time Issue Escalation",
+      "Sentiment Analysis Tools",
+      "Customer Support Chat Integration"
+    ]
+  },
+  {
+    "category": "Data Analysis",
+    "list_feature": [
+      "Sales and Revenue Analytics Dashboard",
+      "Customer Behavior Insights",
+      "Order Pattern and Trend Analysis",
+      "Reporting Tools for Managerial Decision Making",
+      "Data Export and Integration with BI Tools"
+    ]
+  }
+]

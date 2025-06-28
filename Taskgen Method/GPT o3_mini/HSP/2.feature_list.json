@@ -1,0 +1,43 @@
+[
+  {
+    "category": "Animal Management",
+    "list_feature": [
+      "Animal Registration & Identification",
+      "Growth Monitoring",
+      "Breeding Records",
+      "Health Status Tracking"
+    ]
+  },
+  {
+    "category": "Feed Management",
+    "list_feature": [
+      "Feed Inventory Control",
+      "Feed Consumption Analysis",
+      "Supplier Management"
+    ]
+  },
+  {
+    "category": "Health & Veterinary Management",
+    "list_feature": [
+      "Vaccination Scheduling",
+      "Disease Outbreak Monitoring",
+      "Veterinary Consultations"
+    ]
+  },
+  {
+    "category": "Financial & Production Management",
+    "list_feature": [
+      "Expense and Revenue Tracking",
+      "Production Yield Analysis",
+      "Cost Optimization"
+    ]
+  },
+  {
+    "category": "Reporting & Analytics",
+    "list_feature": [
+      "Customizable Reports",
+      "Dashboard Analytics",
+      "Compliance Reporting"
+    ]
+  }
+]

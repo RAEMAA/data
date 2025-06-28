@@ -1,0 +1,53 @@
+[
+    {
+        "category": "Customer Features",
+        "list_feature": [
+            "Ordering via website",
+            "Customer feedback and rating submission"
+        ]
+    },
+    {
+        "category": "Order Management",
+        "list_feature": [
+            "Automatic order routing to the nearest branch"
+        ]
+    },
+    {
+        "category": "Promotions & Pricing",
+        "list_feature": [
+            "Promotion tracking and application",
+            "Regular price updates"
+        ]
+    },
+    {
+        "category": "Payment Integration",
+        "list_feature": [
+            "Online payment integration (e.g., nganluong.vn)"
+        ]
+    },
+    {
+        "category": "Branch Management",
+        "list_feature": [
+            "Managing all branches"
+        ]
+    },
+    {
+        "category": "Analytics & Reporting",
+        "list_feature": [
+            "Data analysis for business decisions and strategies"
+        ]
+    },
+    {
+        "category": "User Experience & Performance",
+        "list_feature": [
+            "Convenient online ordering experience",
+            "Responsive online ordering system"
+        ]
+    },
+    {
+        "category": "Security",
+        "list_feature": [
+            "Secure online ordering"
+        ]
+    }
+]

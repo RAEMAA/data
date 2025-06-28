@@ -1,0 +1,59 @@
+[
+  {
+    "category": "Branch Management",
+    "list_feature": [
+      "Manage branch locations and details",
+      "Automatic routing of online orders to the nearest branch",
+      "Real-time branch status monitoring"
+    ]
+  },
+  {
+    "category": "Online Ordering System",
+    "list_feature": [
+      "Customer-friendly menu browsing with detailed meal descriptions",
+      "Selection and order placement interface",
+      "Order confirmation and status tracking",
+      "Integration for busy office workers with streamlined ordering process"
+    ]
+  },
+  {
+    "category": "Payment Processing",
+    "list_feature": [
+      "Secure online payment gateway integration with www.nganluong.vn and similar services",
+      "Transaction verification and confirmation",
+      "Receipt generation and payment history tracking"
+    ]
+  },
+  {
+    "category": "Promotions and Discounts",
+    "list_feature": [
+      "Tracking and managing promotional offers and coupons",
+      "Ability for customers to apply promotions during checkout",
+      "Promotion validity and usage analytics"
+    ]
+  },
+  {
+    "category": "Feedback and Rating",
+    "list_feature": [
+      "Customer feedback submission interface",
+      "Rating system for dishes and dining experience",
+      "Mechanism to monitor and analyze customer satisfaction"
+    ]
+  },
+  {
+    "category": "Menu and Pricing Management",
+    "list_feature": [
+      "Dynamic menu management for all branches",
+      "Automatic dish price updates to maintain accuracy",
+      "Real-time synchronization across all branch menus"
+    ]
+  },
+  {
+    "category": "Data Analytics and Reporting",
+    "list_feature": [
+      "Reporting tools for sales, order statistics, and customer behavior",
+      "Data analysis to guide business decisions and strategic planning",
+      "Dashboard for monitoring key performance indicators (KPIs)"
+    ]
+  }
+]

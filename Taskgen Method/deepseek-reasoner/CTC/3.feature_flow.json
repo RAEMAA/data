@@ -1,0 +1,662 @@
+[
+  {
+    "category": "Branch Coordination",
+    "features": [
+      [
+        {
+          "featureName": "System Authentication & Branch Selection",
+          "flow": "1. [User Role: Staff/Manager] Enter credentials on login screen. 2. System validates role/permissions. 3. User selects branch from geo-map/list (defaults to assigned branch with option to switch). 4. System loads branch-specific dashboard with operational KPIs.",
+          "screens": [
+            "Login Screen: Email/Password entry with role-based validation",
+            "Branch Selection Screen: Interactive map/list of CTC branches with capacity indicators",
+            "Role-Based Dashboard: Displays branch-specific metrics (orders, inventory alerts, staff status)"
+          ]
+        },
+        {
+          "featureName": "Inter-Branch Inventory Sharing",
+          "flow": "1. [User Role: Branch Manager] Initiate request via inventory management screen. 2. Select item/quantity and destination branch. 3. Receiving branch manager gets approval request with ETAs. 4. On approval, system updates both branches' inventories and triggers transfer logistics.",
+          "screens": [
+            "Inventory Dashboard: Real-time stock levels with inter-branch transfer button",
+            "Transfer Request Form: Item selection, quantity picker, and branch destination dropdown",
+            "Transfer Approval Modal: Shows request details with accept/reject options for receiving branch"
+          ]
+        },
+        {
+          "featureName": "Cross-Branch Staff Reassignment",
+          "flow": "1. [User Role: Area Manager] Access staff availability calendar. 2. Drag-and-drop assign employees between branches with conflict checks. 3. Notify both sending/receiving branch managers via in-app alerts. 4. Updated schedules sync to all affected rosters.",
+          "screens": [
+            "Staff Allocation Matrix: Grid view of employees across branches with skill filters",
+            "Shift Reassignment Interface: Visual timeline for dragging staff between locations",
+            "Conflict Resolution Pop-Up: Highlights schedule overlaps with override options"
+          ]
+        },
+        {
+          "featureName": "Real-Time Performance Benchmarking",
+          "flow": "1. [User Role: Regional Manager] Select comparison metrics (sales/sqft, order accuracy). 2. Choose 2-4 branches for side-by-side analysis. 3. System displays live dashboard with normalized scores. 4. Export trend reports for strategic meetings.",
+          "screens": [
+            "Metric Selector Screen: Customizable KPI checklist with time range picker",
+            "Performance Comparison Dashboard: Multi-branch radar charts and scorecards",
+            "Report Generator: Pre-formatted templates with brand-compliant visuals"
+          ]
+        }
+      ],
+      [
+        {
+          "featureName": "Admin Role Assignment",
+          "flow": "1. [Admin] Authenticates via CTC admin dashboard 2. Navigates to User Management > Branch Staff 3. Filters branch directory by CTC location codes/positions 4. Selects staff profile and opens Role Configuration 5. Assigns role from CTC hierarchy (Manager/Cashier/Chef/Supervisor) 6. Confirms with CTC's registered biometric verification 7. System updates permissions across CTC network and triggers SMS/email alert via CTC comms gateway",
+          "screens": [
+            "Role Assignment Dashboard: CTC branch map with live staff counts and role distribution percentages",
+            "Staff Directory: CTC-branded interface with multi-branch search and bulk role assignment",
+            "Role Configuration Wizard: Visualizes permission impacts on CTC POS/Inventory modules",
+            "Biometric Verification Overlay: CTC-administered fingerprint/face recognition with 3FA fallback",
+            "Assignment Receipt: CTC-legal formatted PDF with branch sync timestamps"
+          ]
+        },
+        {
+          "featureName": "Branch Permission Management",
+          "flow": "1. [Manager] Logs into CTC branch control panel 2. Accesses Role Permissions > Custom Settings 3. Selects CTC-defined role type (e.g., Senior Cashier) 4. Adjusts access levels for CTC POS/Inventory/Discounts 5. Receives CTC conflict alerts for overlapping permissions 6. Submits changes via CTC approval workflow 7. Approved permissions sync to CTC kitchen displays/POS via encrypted CDN",
+          "screens": [
+            "Permission Matrix Editor: CTC module access grid with color-coded inheritance rules",
+            "Conflict Resolution Panel: Highlights CTC policy violations in real-time",
+            "Approval Workflow Tracker: CTC-branded pipeline showing escalation paths",
+            "Branch Device Sync Monitor: Shows propagation status across CTC devices"
+          ]
+        },
+        {
+          "featureName": "Staff Access Visibility",
+          "flow": "1. [Staff] Logs into CTC Staff App 2. Accesses Security Center via CTC unified profile 3. Views CTC role badge with QR-code verification 4. Expands CTC permission breakdown by module 5. Checks scheduled changes in CTC operational calendar 6. Initiates review via CTC HR ticketing integration",
+          "screens": [
+            "Role Status Screen: CTC-branded dashboard with hierarchy visualization",
+            "Permission Timeline: CTC operational milestones integrated with shift schedules",
+            "Access Comparison Tool: Diff view aligned with CTC role progression paths",
+            "Dispute Form: Prefilled with CTC HR policies and escalation matrix"
+          ]
+        },
+        {
+          "featureName": "Permission Audit System",
+          "flow": "1. [Auditor] Accesses CTC Security Audit module 2. Filters by CTC branch clusters/roles 3. Reviews blockchain-sealed change records 4. Generates CTC compliance reports 5. Flags anomalies using CTC ML models 6. Auto-archives via CTC governance policies",
+          "screens": [
+            "Audit Trail Explorer: CTC branch heatmap with anomaly hotspots",
+            "Digital Fingerprint Viewer: CTC blockchain explorer with admin biometric stamps",
+            "Anomaly Detection Console: CTC risk scoring model visualizations",
+            "Compliance Report Builder: Preloaded CTC templates for PCI DSS audits"
+          ]
+        }
+      ],
+      {
+        "featureName": "Real-Time Inventory Synchronization",
+        "flow": "1. **Automatic Stock Updates**: POS systems at all branches send real-time inventory deductions to the central server after each order (Staff Role).\n2. **Low-Stock Alerts**: System triggers automated alerts to branch managers when stock levels fall below predefined thresholds (Branch Manager Role).\n3. **Inter-Branch Transfer Initiation**: Branch managers request inventory transfers from other branches via a centralized interface, specifying item/quantity (Branch Manager Role).\n4. **Transfer Approval/Denial**: Receiving branch managers review and approve/deny requests based on their current stock (Branch Manager Role).\n5. **Inventory Adjustment**: Approved transfers automatically update both branches' inventory levels, with staff at both locations confirming physical item handover (Staff Role).\n6. **Procurement Integration**: System syncs with procurement data to add newly received stock to inventory counts (Staff Role).\n7. **Dashboard Synchronization**: All branches see updated inventory levels across the network in 2-minute intervals via centralized dashboards.",
+        "screens": [
+          "Inventory Dashboard - Real-time view of branch/item-level stock with color-coded low-stock indicators",
+          "Transfer Request Form - Dropdowns for source/destination branches + item/quantity selection",
+          "Transfer Approval Panel - Side-by-side comparison of requesting branch's need vs. current stock at receiver's branch",
+          "Inventory Adjustment Interface - Manual override for staff to correct discrepancies during physical counts",
+          "Sync Status Monitor - Visual timeline of last update times across integrated systems (POS/procurement)",
+          "Threshold Configuration - Managers set per-item minimum stock levels and alert preferences",
+          "Cross-Branch Inventory Map - Geographic display of stock availability across all CTC locations",
+          "Audit Log Screen - Detailed record of all inventory changes with timestamps and responsible users"
+        ]
+      },
+      {
+        "featureName": "Inter-branch communication and task delegation tools",
+        "flow": "1. [Manager] Authentication: Branch Manager authenticates via biometric/PIN at Login Screen with branch preselection.\n2. [System] Dashboard Initialization: System loads Coordination Dashboard showing live inter-branch status, pending collaboration requests, and priority task alerts.\n3. [Manager] Task Initiation: Uses floating action button to create task > selects 'Inter-Branch' type > defines parameters (participating branches, shared resources, SLA timeframe) via Collaborative Task Thread template.\n4. [System] Smart Routing: Auto-generates task thread linking relevant branches' Coordination Inboxes and tags required staff certifications in shared workspace.\n5. [Manager] Communication Setup: Attaches reference files to task thread > uses @mentions in Inter-Branch Chat Interface to alert specific staff across locations.\n6. [Staff] Cross-Branch Acknowledgement: Receives mobile/desktop notification > joins Collaborative Task Thread Screen to confirm role > updates availability in shared schedule matrix.\n7. [System] Real-Time Sync: Maintains synchronized view of task progress across all branches' dashboards with color-coded SLA compliance indicators.\n8. [Staff] Collaborative Execution: Updates task milestones with geotagged photos/videos in Mobile Progress Tracker > initiates ad-hoc chat conferences through task thread's video call button (Collaborative Task Thread Screen).\n9. [Manager] Escalation Handling: Receives automated alerts for bottlenecks > reviews Inter-Branch Chat History Screen for context > reallocates resources via drag-and-drop in Coordination Inbox.\n10. [All] Closure Protocol: Lead manager validates completion checklist in Verification Audit Panel > system archives full task thread with timestamps > triggers post-task survey to all participants via chat interface.",
+        "screens": [
+          "Login Screen: Role-specific access with multi-branch selection dropdown and security status indicators",
+          "Coordination Dashboard: Real-time map overlay showing inter-branch resource flows, active task threads, and communication heatmaps",
+          "Collaborative Task Thread Screen: Pinned message interface with embedded task parameters, file repository, and video conference launchpad",
+          "Inter-Branch Chat History Screen: Searchable archive with sentiment analysis tags, attachment previews, and export-to-report functionality",
+          "Mobile Progress Tracker: Unified interface for photo documentation, inventory barcode scanning, and one-touch access to active task threads",
+          "Coordination Inbox: Smart folder system for cross-branch requests with automated prioritization and resource matching suggestions",
+          "Verification Audit Panel: Side-by-side comparison tools for task documentation with integrated chat history timeline and compliance scoring"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Payment Gateways",
+    "features": [
+      {
+        "featureName": "Secure Multi-Branch Payment Handling",
+        "flow": "1. **Customer** selects payment method (NganLuong.vn, credit/debit card, or promo code) on the Payment Selection Screen.\n2. **Customer** enters card details on the Secure Payment Entry Screen, with automatic encryption via SSL/TLS and tokenization by the payment gateway.\n3. **System** routes the transaction to the nearest branch using geolocation data and real-time branch capacity checks.\n4. **Customer** reviews and confirms order details on the Customer Confirmation Screen (OTP verification required for card payments).\n5. **Restaurant Staff** receives and confirms order readiness via the Restaurant Confirmation Screen within 2 minutes.\n6. **System** triggers failure recovery protocols if any step fails: Retry payment (3 attempts), fallback to secondary payment methods, or manual resolution via support hotline.",
+        "screens": [
+          "Payment Selection Screen: Dropdown with prioritized NganLuong.vn option, secondary card payments, and promo code field. Includes PCI-DSS compliance warnings.",
+          "Secure Payment Entry Screen: Masked card number input, CVV tooltip, and SSL-secured form submission. Features real-time Luhn algorithm validation.",
+          "Order Routing Confirmation Screen: Displays assigned branch location, estimated preparation time, and routing logic transparency note.",
+          "Customer Confirmation Screen: Order summary with itemized pricing, branch details, and biometric/OTP authentication for high-value transactions.",
+          "Restaurant Confirmation Screen: Kitchen display system interface showing encrypted customer data, order specifics, and 120-second confirmation timer.",
+          "Payment Failure & Recovery Screen: Error-specific guidance (e.g., 'Branch overload detected - retrying with backup location'), saved payment method fallback options, and encrypted session resumption."
+        ]
+      },
+      {
+        "featureName": "Mobile Wallet Payment",
+        "flow": "1. (Customer) Select 'Mobile Wallet' option at checkout screen\n2. (System) Display Wallet Provider List with visual logos (Momo, ZaloPay, VNPay)\n3. (Customer) Choose preferred wallet provider\n4. (System) Initiate deep link to selected wallet app\n5. (Customer) Complete biometric/OTP authentication in external wallet app\n6. (System) Receive payment confirmation via API callback\n7. (System) Activate processing screen with 10-second countdown timer\n8. (System) Auto-route order to nearest branch using Google Maps Geolocation API\n9. (System) On success: Display order summary with map snippet of assigned branch\n10. (System) On failure: Return to payment selection with specific error code (e.g., WLT-429: Wallet Timeout)",
+        "screens": [
+          "Payment Selection Interface: Vertical list of payment methods with wallet provider icons and radio button selection",
+          "Wallet Provider Grid: Responsive 3-column layout showing active/inactive wallet providers with hover states",
+          "Payment Processing Modal: Full-screen overlay with animated progress ring, real-time timer, and cancel CTA",
+          "Order Confirmation Screen: Hero section with checkmark animation, preparation time estimation (15-25 mins), and interactive mini-map showing branch location"
+        ]
+      },
+      {
+        "featureName": "PCI-Compliant Transaction Processing",
+        "flow": "1. Customer selects payment method (credit card/e-wallet) from interface displaying PCI-DSS and payment gateway security badges (www.nganluong.vn + alternatives)\n2. Customer enters payment details into encrypted fields with TLS 1.3+ encryption\n3. System tokenizes sensitive data via PCI-certified token service, preserving only token in CTC systems\n4. Dual authorization initiated: Customer receives/time-limited OTP via SMS/email, enters in verification screen\n5. System confirms successful transaction with cryptographic hash, sends encrypted receipt\n6. Full audit trail logged with user/IP/timestamp/data fingerprint in immutable format",
+        "screens": [
+          "Payment Method Selector - Displays PCI compliance badges, gateway logos, and security certifications",
+          "Secure Data Entry Screen - Encrypted input fields with real-time format validation and masked preview",
+          "Dual Auth Interface - OTP entry with anti-phishing QR code option and session timeout warning",
+          "Transaction Confirmation - Shows tokenized transaction ID, branch-specific fulfillment details, and security hash",
+          "Admin Audit Dashboard - Role-based access to encrypted logs with anomaly detection alerts"
+        ]
+      },
+      {
+        "featureName": "Multi-Currency Payment Processing",
+        "flow": "1. [Customer] Initiates checkout from cart screen\n2. [System] Detects customer's IP location and suggests default currency (VND/USD/EUR) with a 'Change Currency' option\n3. [Customer] Selects 'Change Currency' to open currency selector\n4. [System] Fetches real-time exchange rates from integrated API (e.g., XE.com) with timestamp\n5. [Customer] Chooses preferred currency from dropdown\n6. [System] Instantly recalculates order total in selected currency, displaying both original VND and converted amounts\n7. [Customer] Proceeds to payment gateway\n8. [System] Routes transaction through www.nganluong.vn (VND) or secondary gateway (Stripe/PayPal) for foreign currencies\n9. [Payment Gateway] Returns conversion rate lock confirmation\n10. [System] Displays final converted amount with 5-minute rate validity period\n11. [Customer] Confirms payment\n12. [System] Generates dual-currency receipt and updates branch accounting records",
+        "screens": [
+          "Checkout Summary Screen - Displays order details with dynamic currency toggle",
+          "Currency Selection Modal - Popup with currency list, flags, and real-time rates",
+          "Payment Confirmation Screen - Shows converted amount, rate expiry timer, and gateway options",
+          "Post-Payment Summary - Dual-column receipt showing VND and converted currency amounts with transaction ID"
+        ]
+      },
+      {
+        "featureName": "Split Payment Routing",
+        "flow": "1. Customer initiates checkout after order confirmation (Customer Role)\n2. System identifies nearest branch using geolocation/office cluster data (System Role)\n3. System checks branch-specific payment gateway availability (System Role)\n4. Automatic primary gateway (NganLuong.vn) authorization attempt (System Role)\n5. If primary gateway fails:\n   a. Display fallback notification (System Role)\n   b. Attempt secondary gateway (e.g., MoMo/ZaloPay) with 8-second timeout (System Role)\n6. For split payments:\n   a. Calculate meal/beverage ratio from order composition\n   b. Show proportional split with dynamic tax calculations\n7. Transaction confirmation displayed with branch-specific fulfillment ETA (System Role)\n8. If all gateways fail:\n   a. Show error recovery options (Customer Role)\n   b. Preserve cart for 15 minutes with branch manager escalation path",
+        "screens": [
+          "Checkout Summary Screen - Displays order breakdown, branch-specific pricing, and split payment toggle",
+          "Gateway Routing Display - Animated map showing branch location and real-time payment processing status",
+          "Split Payment Calculator - Interactive interface showing itemized costs with dynamic tax/distribution calculations",
+          "Multi-Gateway Retry Panel - Side-by-side gateway status indicators with failure reason tooltips",
+          "Branch-Specific Confirmation - Shows payment success, kitchen queue position, and heatmap-based ETA projection",
+          "Payment Error Interface - Provides comparative gateway failure rates, branch capacity indicators, and priority reservation options"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Promotional Tools",
+    "features": [
+      {
+        "featureName": "Promo Code Lifecycle Management",
+        "flow": "1. Manager creates promo codes via admin dashboard (Role: Manager)\n2. Manager configures code parameters: discount type/amount, validity period, applicable branches, and linked payment gateways (Role: Manager)\n3. System auto-syncs codes with nganluong.vn API and secondary payment processors (Role: System)\n4. Manager distributes codes through selected channels (email/SMS/in-app) with branch-specific targeting (Role: Manager)\n5. Customer applies code at checkout - system validates eligibility and routes order to nearest eligible branch (Role: Customer)\n6. Staff receives code-redemption alert at POS with real-time inventory checks (Role: Staff)\n7. System updates campaign analytics dashboard and triggers expiration alerts (Role: System)",
+        "screens": [
+          "Code Creation Interface: Form for setting code rules/branch eligibility with preview mode",
+          "Payment Gateway Configurator: Visual mapping of codes to approved payment methods",
+          "Distribution Channel Setup: Multi-select interface for SMS/email/in-app delivery templates",
+          "Real-Time Redemption Monitor: Geolocated redemption tracking with branch performance heatmaps",
+          "POS Integration Panel: Staff-facing code validation interface with order context display",
+          "Campaign Analytics Dashboard: Conversion rate tracking per payment method/branch cluster"
+        ]
+      },
+      [
+        {
+          "featureName": "Customer Enrollment Process",
+          "flow": "1. Customer accesses enrollment via website/app header (Role: Customer)\n2. System displays eligibility criteria and benefits\n3. Customer submits phone number/email for verification\n4. System sends OTP via SMS/email\n5. Customer enters OTP and completes profile (Name, Birthday)\n6. System generates unique loyalty ID linked to customer account\n7. Welcome message with initial bonus points",
+          "screens": [
+            "Enrollment Landing Page: Entry point with CTAs and benefit highlights",
+            "Mobile Verification Screen: OTP input and validation interface",
+            "Profile Completion Form: Fields for personal details and preferences",
+            "Enrollment Confirmation: Displays loyalty ID and welcome package"
+          ]
+        },
+        {
+          "featureName": "Points Earning via Orders/Payments",
+          "flow": "1. Customer places order via web/app (Role: Customer)\n2. System calculates points (1pt/10,000₫ spent) during checkout\n3. Points preview shown before payment confirmation\n4. Payment processed via NganLuong/alternate gateways\n5. System updates loyalty balance in real-time\n6. SMS/email receipt with transaction details and points earned",
+          "screens": [
+            "Points Calculator Tooltip: Dynamic display during order customization",
+            "Payment Summary Screen: Breakdown of order total and accruing points",
+            "Post-Transaction Notification: Animated points update overlay",
+            "Earning History Tab: Chronological log with branch-level details"
+          ]
+        },
+        {
+          "featureName": "Reward Redemption Mechanics",
+          "flow": "1. Customer browses reward catalog filtered by point balance (Role: Customer)\n2. System displays redeemable items with tiered availability\n3. Customer selects reward and confirms redemption\n4. System generates unique QR code for branch redemption\n5. Staff scans code at POS to mark as used (Role: Cashier)\n6. Balance updates propagate across all branches within 500ms",
+          "screens": [
+            "Reward Catalog Grid: Filterable view with category tags",
+            "Redemption Preview Modal: Detailed terms and validity period",
+            "QR Redemption Interface: Full-screen code with branch locator",
+            "Redemption History: Status tracking (Pending/Used/Expired)"
+          ]
+        },
+        {
+          "featureName": "Staff Reward Configuration",
+          "flow": "1. Manager logs into admin portal (Role: Branch Manager)\n2. Accesses 'Loyalty Settings' module\n3. Configures points conversion rates, expiration rules\n4. Sets seasonal multipliers (e.g., 2x points on Fridays)\n5. Defines reward inventory per branch\n6. Publishes changes with effective timeframe",
+          "screens": [
+            "Reward Rules Dashboard: Central control panel with audit log",
+            "Point Multiplier Scheduler: Calendar-based rate adjustments",
+            "Branch Allocation Matrix: Drag-and-drop reward distribution",
+            "Configuration Preview: Side-by-side before/after impact analysis"
+          ]
+        },
+        {
+          "featureName": "Real-Time Balance Synchronization",
+          "flow": "1. Customer redeems points at Branch A (Role: Customer)\n2. POS system sends API request to central server\n3. Server updates database and pushes notification to all branches\n4. Balance updates reflect across web/app interfaces within 1 second\n5. Conflict resolution protocol triggers for simultaneous redemptions",
+          "screens": [
+            "Live Balance Widget: Persistent display in account header",
+            "Sync Status Indicator: Visual feedback during transactions",
+            "Multi-Branch Statement: Consolidated balance history view",
+            "Discrepancy Report Form: Automated dispute filing interface"
+          ]
+        }
+      ],
+      {
+        "featureName": "Promotional Campaign Creation",
+        "flow": "1) **Template Selection**: Marketing Manager navigates to the Template Gallery screen, filters templates by campaign type (e.g., discounts, seasonal offers), and selects a base template. 2) **Customization Interface**: Manager uses the Campaign Editor screen to modify template elements (images, headlines, CTA buttons), adjust color schemes, and input promotional messaging. 3) **Campaign Parameters Setup**: On the Branch Targeting Map screen, Manager selects participating branches via an interactive map or list. In Promotion Rules Setup, they define campaign duration, budget limits, eligibility criteria, and redemption limits per customer. 4) **Payment Gateway Integration**: Manager links the campaign to www.nganluong.vn in the Promotion Rules Setup screen, configures automatic discount redemptions, and adds fallback payment options. 5) **Preview/Publish Workflow**: Manager reviews the campaign’s mobile/web rendering on the Campaign Preview screen, simulates customer redemption steps, and publishes the campaign to go live immediately or at a scheduled time.",
+        "screens": [
+          "Template Gallery: Browse and select from pre-designed campaign templates tailored for different promotions (e.g., discounts, seasonal offers).",
+          "Campaign Editor: Customize template elements including visuals, text, and promotional terms with WYSIWYG editing tools.",
+          "Branch Targeting Map: Visually assign participating branches using a map interface or searchable list with capacity indicators.",
+          "Promotion Rules Setup: Configure payment integration, redemption rules, budget caps, and campaign schedules with validation checks.",
+          "Campaign Preview: Interactive simulation of the customer-facing campaign interface across devices, with approval/publishing controls."
+        ]
+      },
+      {
+        "category": "Marketing Automation",
+        "features": [
+          {
+            "featureName": "Bulk Promotion Campaign Creation",
+            "flow": "1) Manager logs into CTC management system > 2) Selects 'New Campaign' from Marketing Dashboard > 3) Chooses SMS/Email type and target branches (multi-select) > 4) Sets campaign objectives (e.g., new menu promotion) > 5) Defines campaign parameters: name, dates, budget allocation per branch > 6) Progresses to template designer interface > 7) Configures recipient filters > 8) Sets scheduling parameters > 9) Submits for Marketing Director approval > 10) Receives confirmation with campaign ID",
+            "screens": [
+              "Campaign Dashboard (Overview of active/past campaigns)",
+              "Campaign Type Selection (SMS/Email toggle)",
+              "Branch Selection Matrix (Map-view with capacity indicators)",
+              "Budget Allocation Calculator (Auto-distribution by branch size)",
+              "Approval Workflow Status Screen"
+            ]
+          },
+          {
+            "featureName": "Template Designer Interface",
+            "flow": "1) Manager selects template type > 2) Chooses from pre-approved brand templates or creates new > 3) Customizes content with WYSIWYG editor > 4) Inserts dynamic fields (#CustomerName#, #NearestBranch#) > 5) Adds branch-specific redemption codes > 6) Previews across device types > 7) Saves to template library > 8) Links to campaign workflow",
+            "screens": [
+              "Template Gallery (Filterable by campaign type)",
+              "Drag-and-Drop Editor (With brand guideline side panel)",
+              "Mobile/Desktop Preview Simulator",
+              "Dynamic Variable Palette (CRM integration)",
+              "Redemption Code Generator (Unique per branch)"
+            ]
+          },
+          {
+            "featureName": "Intelligent Recipient Filtering",
+            "flow": "1) System pre-filters by selected branches > 2) Manager adds filters: Last order date, avg order value, dietary preferences > 3) Excludes customers with 3+ unredemed promotions > 4) Samples test group > 5) Approves final recipient list (>5,000 contacts triggers warning)",
+            "screens": [
+              "Geo-Filter Map (Heatmap of customer density)",
+              "Customer Segment Builder (Demographic sliders)",
+              "Exclusion Management Panel",
+              "Recipient Count Preview (With branch breakdown)",
+              "Compliance Check Screen (GDPR/opt-out status)"
+            ]
+          },
+          {
+            "featureName": "Multi-Branch Campaign Scheduling",
+            "flow": "1) Manager sets launch date/time > 2) Schedules staggered delivery by branch timezone > 3) Avoids conflict with existing promotions > 4) Sets automatic follow-up rules (3-day reminder if unopened) > 5) Confirms peak hours blackout periods (11:30 AM-1 PM local time)",
+            "screens": [
+              "Delivery Timeline Planner (Gantt-chart view)",
+              "Branch Schedule Coordinator (Timezone overlay)",
+              "Conflict Detection Alert (Overlapping campaigns)",
+              "Peak Hours Preset Configurator",
+              "Final Schedule Confirmation (With branch manager CC list)"
+            ]
+          },
+          {
+            "featureName": "Real-Time Promotion Analytics",
+            "flow": "1) Auto-generated dashboard post-launch > 2) Tracks opens/clicks by branch > 3) Monitors redemption rates vs budget spent > 4) Flags underperforming branches (<15% open rate) > 5) Updates customer profiles with engagement data > 6) Exports report for quarterly review",
+            "screens": [
+              "Campaign Pulse Dashboard (Real-time metrics)",
+              "Branch Performance Comparator",
+              "Redemption Tracker (Code status per location)",
+              "Customer Engagement Heatmap (Post-campaign)",
+              "ROI Calculator (Ingests POS sales data)"
+            ]
+          }
+        ]
+      },
+      {
+        "featureName": "Customer Referral System",
+        "flow": "1) **Initiation (Customer):** User accesses referral portal via app/website menu > System displays dynamic referral code/link > Customer selects share method (SMS/email/social) with pre-loaded incentives message. 2) **Tracking (System):** Real-time monitoring of referral link usage > Automated fraud detection checks IP/device patterns > Flags duplicate accounts via phone/email verification. 3) **Accrual (System):** Triggers reward after referred customer's first successful payment (min 150,000 VND order) > Converts to loyalty points using formula: (Order Value / 10,000) * 50 points > Syncs with inventory system to exclude promotional/discounted items. 4) **Redemption (Integration):** Points automatically converted to VND credits at 100:1 ratio during checkout > nganluong.vn API applies credit before displaying remaining balance > Dual confirmation screens show pre/post-discount totals with breakdown.",
+        "screens": [
+          "Referral Campaign Banner (Homepage carousel showing active promotions)",
+          "Multi-Channel Share Interface (Preview modal with editable message templates)",
+          "Realtime Referral Tracker (Map visualization showing referral geolocations)",
+          "Points Calculator (Interactive tool showing potential earnings per friend)",
+          "Fraud Alert Dashboard (Staff-view of flagged referrals with resolution buttons)",
+          "Nganluong.vn Bridge API Log (Technical interface showing payment gateway handshakes)",
+          "Cross-Branch Redemption Report (Compares point usage across locations)"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Analytics Modules",
+    "features": [
+      {
+        "featureName": "Branch KPI Comparison",
+        "flow": "1. [Manager] Logs into CTC management portal using role-based credentials. 2. Navigates to 'Analytics Hub' from the main menu. 3. Selects comparison mode via toggle (Single-Branch Analysis vs. Multi-Branch Benchmarking). 4. Uses geo-aware branch selector to pick locations (default: assigned branch + nearest 3 competitors). 5. Applies dynamic date filters (presets: Last 7 Days/Current Month/Quarter-to-Date). 6. Dashboard renders: a) Side-by-side KPI cards (Sales Growth %, Order Fulfillment Time, Rating Trends) b) Anomaly detection alerts for metric deviations >15% c) Heatmap overlay showing promotional redemption density. 7. [Action] Click any KPI card to activate Drill-Down Mode: Hourly trends, staff performance correlations, and customer sentiment word clouds.",
+        "screens": [
+          "Auth Gateway: Multi-factor authentication with branch permissions validation",
+          "Analytics Dashboard: Live KPI summary tiles + comparison mode toggle + time presets",
+          "Branch Comparator: Map-based selection interface with travel-time radius filtering",
+          "Metric Variance Board: Color-coded metrics (Green/Yellow/Red) with YoY/PoP change indicators",
+          "Trend Visualization Suite: Interactive 3-view dashboard (Line charts for sales, Stacked bars for order types, Pie charts for rating segments)",
+          "Export Ready Reports: Customizable data tables with CSV/PDF export and scheduled email dispatch"
+        ]
+      },
+      {
+        "featureName": "Purchase Pattern Analytics Dashboard",
+        "flow": "1) Manager logs into CTC system via role-based credentials [Role: Restaurant Manager] -> 2) Selects 'Analytics' from navigation menu -> 3) On dashboard landing screen, selects time filter (default: last 7 days) and segment filters (branch/location, meal type, customer group) -> 4) System displays interactive visualization of purchase patterns with hourly/daily trends and top-selling items -> 5) Manager clicks 'Export' button to open report configuration -> 6) Chooses report format (PDF/CSV) and delivery method (email/download) -> 7) System processes request and confirms export completion",
+        "screens": [
+          "Login Screen: Role-based authentication",
+          "Analytics Dashboard Landing: Overview of KPIs with quick-access time presets",
+          "Filter Configuration Panel: Customizable time-range picker and multi-select segment filters",
+          "Pattern Visualization Dashboard: Interactive heatmaps/line charts showing order volume correlations with time/location/menu items",
+          "Export Interface: Format selection with preview option and recipient email input",
+          "Export Confirmation Screen: Download link generation and transaction history tracking"
+        ]
+      },
+      {
+        "featureName": "Real-Time Sales Tracking",
+        "flow": "1. Branch Manager/Operations Director authenticates via role-based login. 2. User accesses centralized sales dashboard with auto-refreshing data streams. 3. Branch Manager views branch-specific metrics; Operations Director compares multiple branches through multi-select filters. 4. System displays live KPIs (order velocity, revenue/hour, top-selling combos) with time granularity toggle (15-min/1-hr/4-hr intervals). 5. Drill-down to transaction-level data showing payment status codes from www.nganluong.vn and alternative payment methods. 6. Operations Director configures smart alerts for sales anomalies (threshold: ±15% vs forecast) with root cause analysis suggestions. 7. Generate consolidated reports mapping sales data to inventory stockouts/promotional calendars through CTC's menu management API.",
+        "screens": [
+          "Role Selection Login: Dynamic UI showing branch assignments/access privileges based on user role.",
+          "Real-Time Dashboard: Animated charts with color-coded branch performance (green = meeting targets, red = underperforming).",
+          "Transaction Forensic View: Payment gateway status filter (successful/declined/pending), customer group tags (corporate accounts vs individual QR orders).",
+          "Multi-Branch Analysis: Drag-and-drop branch comparison panel with overlay capability for promotional periods.",
+          "Smart Alert Center: Machine learning-powered deviation detection interface with historical pattern references.",
+          "Unified Report Studio: Pre-built templates combining sales/inventory/promotion data with CTC branding guidelines enforcement."
+        ]
+      },
+      {
+        "category": "Marketing Campaign Management",
+        "features": [
+          {
+            "featureName": "Promotional Campaign System",
+            "flow": "1. [Admin] Marketing Manager logs into campaign dashboard -> 2. [Admin] Creates new campaign with parameters: Campaign name, duration, target branches (multi-select), discount tiers (e.g., 20% off via NganLuongVN), and bundled beverage combos -> 3. [System] Auto-generates unique transaction codes for www.nganluong.vn integration and secondary payment method identifiers -> 4. [Admin] Activates real-time inventory check showing ingredient availability thresholds across selected branches -> 5. [Branch Manager] Receives campaign notification, reviews staff schedules/stock levels, and submits capacity confirmation -> 6. [Admin] Finalizes campaign after automated conflict checks with ongoing promotions -> 7. [System] Publishes campaign to customer-facing POS/online ordering with gateway-specific promo badges -> 8. [Both Roles] Tracks live redemption metrics split by payment method (NganLuongVN vs others) -> 9. [System] Compiles post-campaign report comparing actual vs projected customer acquisition costs and branch-level profit margins",
+            "screens": [
+              "Campaign Dashboard - Master view with campaign performance heatmaps and payment gateway split percentages",
+              "Dynamic Campaign Builder - Wizard-style interface with conditional logic for discount rules based on payment method selection",
+              "Gateway Code Generator - Automated system assigning unique NganLuongVN transaction tags + QR code integration preview",
+              "Cross-Branch Capacity Planner - Overlay showing simultaneous campaign loads and ingredient depletion warnings",
+              "Conflict Resolution Interface - Flags overlapping promotions and suggests blackout dates for high-risk branches",
+              "Live Redemption Tracker - Filterable by payment gateway (primary/secondary) with anomaly detection for fraudulent discount claims",
+              "Campaign Post-Mortem Analyzer - Side-by-side comparison of customer retention rates per payment method and branch operational efficiency scores"
+            ]
+          },
+          {
+            "featureName": "ROI Calculator",
+            "flow": "1. [Marketing Manager] Authenticates via SSO to access ROI Dashboard -> 2. [Marketing Manager] Filters historical campaigns using date range/payment method filters (minimum 3 campaigns required) -> 3. [System] Pulls NganLuong.vn transaction fees (1.4%-2.9% tiers) + secondary gateway costs from financial database -> 4. [System] Calculates true campaign cost: (Gateway fees) + (ERP ingredient costs) + (Labor allocation % of total staff hours) -> 5. [Marketing Manager] Adjusts variables via draggable sliders: Ingredient price fluctuations (±25% range), gateway fee negotiation simulations -> 6. [System] Generates CAC waterfall charts per payment method: (NganLuong.vn redemptions vs credit card campaigns) with LTV projections -> 7. [Marketing Manager] Activates branch comparison mode showing profitability/sq.meter via heatmap layer -> 8. [System] Exports multi-dimensional ROI report: Breakeven timelines, payment method performance benchmarks, and ingredient cost sensitivity analysis",
+            "screens": [
+              "ROI Dashboard - Central panel with campaign performance sparklines and gateway fee contribution pie charts",
+              "Cost Variable Matrix - Editable grid showing baseline vs adjusted costs with color-coded variance indicators (±10% thresholds)",
+              "CAC Comparison Engine - Interactive bar charts split by payment gateway, toggleable between absolute values and percentage of revenue",
+              "Branch Profitability Mapper - Leaflet-based heatmap with radius filters showing campaign participation density vs profit margins",
+              "Scenario Sandbox - Isolated environment for testing extreme cost variables with guardrail alerts when exceeding historical norms",
+              "Gateway Fee Simulator - Side-by-side comparison tool projecting total payment processing costs across different gateway mix scenarios"
+            ]
+          }
+        ]
+      },
+      {
+        "featureName": "Inventory Forecasting System",
+        "flow": "1. [Inventory Manager] Authenticates via Login Screen with role-based access\n2. Navigates to Dashboard Home to review real-time inventory/sales correlations\n3. Launches Forecast Generator, specifying time range and tagging active promotions\n4. System processes: historical sales, current stock, promotions, seasonal trends, scheduled price updates, and POS data from all branches\n5. [System] Generates branch-specific demand heatmaps and compares results across forecasting models in Demand Simulation\n6. [Inventory Manager] Adjusts safety stock thresholds, supplier reliability scores, and promotional impact weights in Parameter Settings\n7. Reviews AI-ranked Reorder Suggestions with cost/lead-time breakdowns\n8. Approves system-generated purchase orders via Order Gateway, triggering automated supplier notifications and www.nganluong.vn payment validation\n9. [Supplier] Confirms order fulfillment timeline through integrated delivery logs\n10. [Branch Manager] Receives low-stock alerts in Alert Console with dynamic ETAs based on live delivery tracking\n11. Validates incoming stock via Delivery Tracker and updates inventory using mobile scanning interface",
+        "screens": [
+          "Login Screen: Multi-factor authentication with RBAC (Role-Based Access Control), integrating CTC's employee database",
+          "Dashboard Home: Customizable widgets for stock turnover rates, shortage risk indicators, and cross-branch inventory comparisons",
+          "Forecast Generator: Time-range selector with promotional campaign checkboxes and price update impact toggles",
+          "Demand Simulation: Interactive 3D heatmaps of predicted item demand, adjustable by branch cluster or city zone",
+          "Parameter Settings: Controls for perishability decay rates, promotion-driven demand buffers, and price sensitivity adjustments",
+          "Reorder Suggestions: Supplier proposals ranked by AI (cost, sustainability score, lead time) with bulk-order optimization",
+          "Order Gateway: Purchase order builder with auto-populated supplier contracts and integrated www.nganluong.vn payment validation",
+          "Delivery Tracker: GPS-enabled shipment timelines synced with branch preparation schedules and cold-chain monitoring",
+          "Alert Console: Smart notifications prioritizing items affected by promotional surges or payment gateway downtime",
+          "Mobile Scanning Interface: NFC/barcode/QR reader with auto-capture for stock receipt, linked to inventory calendars"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Online Ordering",
+    "features": [
+      {
+        "featureName": "Real-Time Online Ordering",
+        "flow": "1) **Office Worker Authentication**: User logs in via email/social account or registers new credentials. 2) **Location Detection**: System auto-detects user location via GPS/IP; user can manually select branch if needed. 3) **Menu Browsing**: Display branch-specific menu items based on detected location, highlighting seasonal/limited items. 4) **Order Customization**: User adds/modifies meal components (e.g., rice type, beverage toppings), with live price updates. 5) **Payment Processing**: Integrated payment gateway (NganLuong.vn + alternatives) handles transaction, applies eligible promotions. 6) **Real-Time Order Tracking**: Post-payment, user monitors order status (preparing > in-transit > delivered) with estimated timelines.",
+        "screens": [
+          "Login Screen: Authenticates office workers via email or social accounts",
+          "Registration Screen: Collects user details and payment preferences",
+          "Location Detection Screen: Auto-displays detected branch with option to override",
+          "Branch Selection Screen: Manual branch picker with map/distance indicators",
+          "Dynamic Menu Screen: Filtered menu with branch-specific availability tags",
+          "Item Detail Screen: Shows dish descriptions, customization options, and dietary info",
+          "Order Builder Screen: Customize selections with add-ons/special requests",
+          "Cart Summary Screen: Reviews order, applies promo codes, and confirms branch",
+          "Payment Gateway Screen: Processes transactions with saved/one-time payment methods",
+          "Order Status Screen: Live updates with progress bar and branch kitchen contact",
+          "Delivery Tracking Screen: Map view with rider GPS location and ETA"
+        ]
+      },
+      {
+        "category": "Real-Time Online Ordering",
+        "features": [
+          {
+            "featureName": "Intelligent Order Routing with Branch Capacity Check",
+            "flow": "1. Customer initiates an order via the app/website (User Role: Customer)\n2. System triggers automatic location detection using GPS/IP geolocation (System Action)\n3. If location access is denied, display manual branch selection screen (Fallback Path)\n4. System verifies real-time capacity of nearest branch using live seat availability and pending order count (System Action)\n5. If nearest branch is at capacity, automatically check next closest branch within 2km radius (System Logic)\n6. Display branch assignment confirmation with estimated preparation time (User Interaction)\n7. If customer rejects auto-routed branch, enable manual branch selection from available options (User Role: Customer)\n8. Finalize routing and proceed to order customization (System Transition)",
+            "screens": [
+              "Location Permission Interface - Full-screen modal explaining GPS usage benefits with 'Allow'/'Deny' options and 'Enter Address Manually' button for GPS-averse users",
+              "Branch Availability Display - Interactive map/list showing real-time capacity status (color-coded wait times) with floating refresh button, time-based filter chips (Under 15m/30m), and office zone tags for business districts",
+              "Auto-Routing Confirmation Screen - Displays assigned branch details with promotional banners, 'Why This Branch?' tooltip, and visual progress indicators",
+              "Manual Branch Selection Screen - Sortable list with collapsible 'Frequent Locations' section, 'Group Order Ready' badges, and menu preview buttons",
+              "Order Routing Finalization Panel - Summary card with persistent modification drawer showing capacity comparison matrix and SMS-based verification shortcut for corporate orders"
+            ]
+          }
+        ]
+      },
+      {
+        "featureName": "Multi-Gateway Payment Processing with Promotional Redemption",
+        "flow": "1. (Customer) Proceeds to checkout after order confirmation > 2. (System) Displays prioritized payment options with www.nganluong.vn as default > 3. (Customer) Selects payment method or enters promo code in dedicated field > 4. (System) Validates promo eligibility against branch inventory and campaign dates > 5. (System) Updates total with promotion discount and displays final amount > 6. (Customer) Completes authentication through selected gateway > 7. (System) Triggers nearest branch assignment based on customer geolocation > 8. (System) Confirms payment success and initiates kitchen display system order > 9. (System) Records transaction with campaign ID for cross-branch redemption tracking",
+        "screens": [
+          "Checkout Summary Screen: Displays itemized order details, dynamic total calculation, and promo code entry field with validation indicators",
+          "Payment Gateway Carousel: Features nganluong.vn as first tile with expanded options button revealing VPBank, ZaloPay, and MoMo integrations",
+          "Promotion Impact Preview: Overlay showing original vs discounted totals with campaign terms and branch-specific applicability",
+          "Secure Payment Canvas: Provider-specific embedded interface with PCI-compliant fields and session timeout warnings",
+          "Transaction Audit Screen: Displays payment confirmation ID, redeemed promotions, assigned preparation branch, and ETA countdown timer"
+        ]
+      },
+      {
+        "featureName": "Real-Time Order Lifecycle Tracking",
+        "flow": "1. Customer places order via responsive web/mobile interface → System generates encrypted order ID with prep time algorithm accounting for branch workload (Customer Role)\n2. Geolocation API routes order to optimal branch → Central system syncs inventory levels and triggers ingredient prep lists (System Automation)\n3. Kitchen staff receives prioritized orders on tamper-proof KDS → Chef confirms 'Prep Start' via fingerprint scan with exception flags for delayed items (Kitchen Staff Role)\n4. IoT sensors monitor meal temperature during staging → Customer receives hyperlocal status updates (e.g., 'Your pork chop is resting at 68°C') via SMS/embedded web widget (Real-Time Sync)\n5. Dispatch console auto-assigns drivers based on vehicle specs → Thermal packaging verification via QR scan before pickup (Dispatch Manager Role)\n6. Driver app enforces route optimization with live traffic/weather data → Customer sees delivery avatar progressing on map with pollution-level route scoring (Driver/Customer Roles)\n7. Delivery completed via facial recognition confirmation → Post-meal survey triggers loyalty rewards + social media integration options → Analytics engine correlates delivery speed with meal quality scores (System Automation)",
+        "screens": [
+          "Order Confirmation Screen: Interactive interface with allergy customization sliders, NganLuong.vn payment retry logic, and promotional bundle upsell options",
+          "Smart Kitchen Display: AI-powered workstation monitor showing real-time cooking progress metrics, equipment maintenance alerts, and staff efficiency rankings",
+          "Branch Network Orchestrator: Drag-and-drop order redistribution panel with predicted freshness preservation scores and delivery cost simulations",
+          "Live Dispatch Console: Dual-screen interface with driver biometric status indicators, vehicle sanitization timers, and dynamic delivery radius adjustments based on real-time orders",
+          "Customer Tracking Portal: Gamified progress interface showing chef credentials, ingredient provenance stories, and carbon footprint calculations per order stage",
+          "Driver Performance Hub: Augmented reality navigation overlay with hands-free order verification and voice-activated incident reporting features",
+          "Post-Fulfillment Analytics: Machine learning-powered dashboard identifying correlations between preparation patterns, customer demographics, and repeat purchase behavior"
+        ]
+      },
+      {
+        "featureName": "Promotional Order Processing",
+        "flow": "1. [Customer] Adds items to cart. System validates cart total meets promo minimum requirements before enabling promo code entry field. 2. [Customer] Enters promo code. System verifies code against campaign database (validity period, branch eligibility, customer usage history). 3. [System] Automatically routes order to nearest eligible branch based on promo territorial restrictions. 4. [Customer] Proceeds to payment. System initiates payment gateway handshake with NganLuong.vn, preserving discounted amount via tokenization. 5. [Payment Gateway] Confirms transaction success. System marks promo as consumed and locks it from reuse.",
+        "screens": [
+          "Promo Terms Popup - Displays promo validity dates, applicable branches, and usage rules (accessible via info icon next to code entry field).",
+          "Payment Retry Modal - Maintains applied promo discount during payment retries after failed transactions, with integrated NganLuong.vn status display."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Customer Feedback",
+    "features": [
+      {
+        "featureName": "Dual-Rating Collection & Unified Feedback",
+        "flow": "1. Post-order completion (Customer): System triggers automated dual-rating prompt via app notification/SMS with dynamic deep link.\n2. Customer interaction (Customer): User opens prompt > lands on unified rating screen with parallel input sections.\n3. Dual-rating input (Customer): Simultaneously selects 5-star rating (overall experience) and thumbs up/down (recommendation likelihood) via split interactive panel.\n4. Contextual feedback routing: System auto-expands optional text field if ratings ≤3 stars or thumbs down, with AI-powered suggestion prompts (e.g., 'What made the rice texture unsatisfactory?')\n5. Backend processing: Ratings packaged as single payload with timestamps > real-time write to separate database shards (star_ratings, thumbs_ratings) for parallel processing.\n6. Adaptive display logic: Branch dashboard shows combined scorecard (star average + thumbs ratio) with correlation analytics between metrics.\n7. Performance safeguards: Rate-limiting API endpoints with circuit-breaker patterns during peak loads + client-side rating caching for offline submission retries.",
+        "screens": [
+          "Unified Rating Screen: Split-view interface with left-side 5-star emoji slider (labeled 'Meal Quality') and right-side animated thumbs buttons (labeled 'Recommend to Colleagues?')",
+          "Contextual Feedback Expander: Auto-revealing text area with sentiment-triggered placeholder text and meal component tags (e.g., 'Broken Rice Texture', 'Sauce Balance')",
+          "Dual-Rating Confirmation: Modal showing both submitted ratings with visual harmony (e.g., golden stars + blue thumbs) and loyalty point breakdown",
+          "Branch Correlation Dashboard: Side-by-side histograms of star/thumbs distributions with time-of-day overlays and staff response KPIs",
+          "Public Rating Synthesis Display: Digital menu widget showing aggregated stars + thumbs-up percentage in combined visual format (e.g., ★★★★☆ ︎ 92% )",
+          "Dual-Rate Analytics API: Performance-monitored endpoint with separate bulk read/write paths for star vs. thumbs data streams"
+        ]
+      },
+      {
+        "featureName": "Dual Customer Feedback Processing System",
+        "flow": "1. Customer submits feedback via online interface (Feedback Input Screen) post-order, including 1-5 star ratings and optional comments\n2. System auto-associates feedback with originating branch using order routing data\n3. AI module performs real-time sentiment analysis and categorizes feedback into tags (e.g., 'Wait Time', 'Meal Quality')\n4. Processed data populates multi-branch Sentiment Dashboard with heatmaps, trend graphs, and comparative performance metrics\n5. Branch managers receive SMS/email alerts for critical feedback (≤2 stars)\n6. Managers review analyzed data weekly via dashboard filters (branch/period), triggering staff training/menu updates through integrated task management\n7. Regional supervisors generate cross-branch reports combining feedback trends with sales/inventory data for quarterly strategic planning",
+        "screens": [
+          "Feedback Input Screen: Mobile/web form with dynamic star ratings, comment field with AI-assisted suggestion prompts, and automated order context retrieval via loyalty program integration",
+          "Sentiment Dashboard Screen: Multi-layer analytics interface with drill-down capabilities, live branch performance leaderboard, and correlation analysis between feedback scores/operational KPIs",
+          "Report Export Screen: Drag-and-drop template designer with preconfigured report bundles (e.g., 'Regional Service Quality Quarterly Review'), supporting automated CSV/PDF exports to designated stakeholders"
+        ]
+      },
+      {
+        "featureName": "Attribute-Based Feedback Submission & Categorization",
+        "flow": "1. Customer accesses feedback portal via order confirmation email or app menu (Role: Customer). 2. System displays recent orders with feedback eligibility status (completed orders within 48 hours). 3. Customer selects order and rates predefined attributes (rice texture, payment speed, meat tenderness) via interactive sliders with emoji-based 5-star scales. 4. Comment box uses NLP to auto-detect attribute references (e.g., 'sauce too sweet' → sauce balance tag) and sentiment polarity. 5. Moderators receive prioritized queue filtered by branch/attribute severity scores (Role: Manager). 6. QA cross-references feedback with order metadata (cooking time, payment gateway used) to flag inconsistencies (Role: QA Specialist). 7. Validated feedback auto-routes: product issues to kitchen tablets with recipe adjustment prompts, service issues to branch CRM with staff training recommendations.",
+        "screens": [
+          "Feedback Entry Point (embedded in order history with time-remaining indicators)",
+          "Attribute Rating Matrix (dynamic grid showing product/service attributes from predefined list with hover-over definitions)",
+          "Comment Contextualizer (text input with live attribute tag suggestions and sentiment meter)",
+          "Moderation Dashboard (map-based view of branch-specific issues with heatmap overlay)",
+          "Feedback Validation Panel (split-screen showing customer ratings vs. order logs/payment timestamps)",
+          "Department Routing Interface (Kanban-style board with automated severity-based column prioritization)"
+        ]
+      },
+      {
+        "featureName": "Automated Review Moderation",
+        "flow": "1. [Customer] Submits review via mobile/web app with star rating, text, and branch selection → 2. [System] Triggers multi-layer AI analysis (profanity detection, sentiment scoring 1-5, branch association validation) → 3. [System] Generates alerts: High-priority (confidence ≥90% profanity/sentiment ≤1.5), Medium (confidence 70-89%/sentiment 2-3), Low (sentiment >3 with minor flags) → 4. [Moderator] Receives color-coded alerts (Red/Amber/Green), performs bulk approval/rejection or single-review actions (edit text, request manager consult) → 5. [Manager] Reviews escalated cases via conflict resolution panel, updates moderation rules through guideline editor → 6. [System] Maintains immutable audit trail, triggers automated customer notifications (approval/rejection reasons) and updates branch performance metrics",
+        "screens": [
+          "Review Submission Portal: Input form with character counter, emoji reaction buttons, and branch GPS auto-detection toggle",
+          "Sentiment Analysis Console: Side-by-side comparison of AI-detected vs manual sentiment ratings with deviation alerts",
+          "Priority Alert Matrix: Drag-and-drop interface for moderators to reorganize tasks by severity/branch/age",
+          "Contextual Moderation Workspace: Three-panel view showing (1) Original review (2) AI-detected patterns highlighted (3) Action history from similar past cases",
+          "Escalation Resolution Hub: Video annotation tool for managers to mark contentious sections and attach compliance references",
+          "Transparency Report Screen: Customer-facing page showing moderation statistics and anonymized decision examples"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Menu Management",
+    "features": [
+      {
+        "category": "Restaurant Management System",
+        "features": [
+          {
+            "featureName": "Real-Time Online Ordering",
+            "flow": "1. Customer selects items from the menu interface (Customer role). 2. System automatically suggests the nearest branch based on geolocation or allows manual selection. 3. Customer customizes order (e.g., spice level, add-ons). 4. System routes order to selected branch kitchen (System role). 5. Payment gateway integration triggers (www.nganluong.vn or secondary options). 6. Order confirmation is sent to customer and branch POS.",
+            "screens": [
+              "Menu Screen (dishes/beverages)",
+              "Order Customization Screen",
+              "Branch Selection Screen",
+              "Payment Gateway Screen",
+              "Order Confirmation Screen"
+            ]
+          },
+          {
+            "featureName": "Payment Gateway Integration",
+            "flow": "1. Customer selects payment method at checkout (Customer role). 2. System redirects to www.nganluong.vn API for primary payments. 3. Alternate payment screens load for secondary options. 4. Transaction status updates inventory and order management systems automatically (System role). 5. Failed payments trigger retry prompts.",
+            "screens": [
+              "Payment Method Selection Screen",
+              "NGANLUONG.VN Interface Screen",
+              "Secondary Payment Screen",
+              "Transaction Status Screen"
+            ]
+          },
+          {
+            "featureName": "Customer Rating System",
+            "flow": "1. System sends rating request via SMS/email post-order (System role). 2. Customer rates food/service on 5-star scale (Customer role). 3. Optional text feedback submission. 4. Ratings aggregate in branch-specific dashboards. 5. Management receives alerts for low scores (<3 stars).",
+            "screens": [
+              "Rating Prompt Screen",
+              "Star Rating Screen",
+              "Feedback Form Screen",
+              "Rating Summary Screen"
+            ]
+          },
+          {
+            "featureName": "Scheduled Price Updates",
+            "flow": "1. Admin logs into central dashboard (Admin role). 2. Selects menu items for price adjustment. 3. Inputs new prices and effective dates. 4. System validates against profit margins (System role). 5. Updates propagate to all branches at scheduled time.",
+            "screens": [
+              "Admin Auth Screen",
+              "Price Editor Screen",
+              "Schedule Calendar Screen",
+              "Update Confirmation Screen"
+            ]
+          },
+          {
+            "featureName": "Advanced Analytics Dashboard",
+            "flow": "1. Manager selects branch(es) and date range (Manager role). 2. System displays real-time sales heatmaps. 3. User generates inventory forecasts using ML models. 4. Cross-branch comparison tools activate. 5. Exportable reports for strategic meetings.",
+            "screens": [
+              "Dashboard Login Screen",
+              "Analytics Parameter Screen",
+              "Sales Visualization Screen",
+              "Report Export Screen"
+            ]
+          }
+        ]
+      },
+      {
+        "featureName": "Bulk Menu Editing",
+        "flow": "1. **Accessing Bulk Tools**: Admin logs into the centralized management dashboard > navigates to 'Menu Management' > clicks 'Bulk Edit' button. 2. **Multi-Item Selection**: Admin filters menu items by category/tags > selects items via checkboxes > confirms selection. 3. **Batch Editing Interface**: System displays editable fields (price, description, availability) > admin inputs changes for all selected items. 4. **Branch-Specific Overrides**: Admin toggles 'Apply to All Branches' switch > selects branches for exceptions > modifies override values. 5. **Preview/Approval**: System shows side-by-side comparison of original vs. edited items > highlights branch-specific changes > admin approves to deploy real-time updates.",
+        "screens": [
+          "Dashboard Screen: Centralized overview with quick-access bulk edit button",
+          "Menu Management Screen: List of all menu items with filtering/search tools",
+          "Bulk Selection Interface: Grid view with multi-select checkboxes and category filters",
+          "Batch Edit Form: Editable fields with bulk value propagation and branch override toggles",
+          "Branch Override Modal: Branch selector with location-specific pricing/availability inputs",
+          "Preview Screen: Change summary with color-coded diffs and approval workflow",
+          "Confirmation Screen: Real-time update status and error alerts for failed branch syncs"
+        ]
+      },
+      {
+        "featureName": "Seasonal Menu Scheduling",
+        "flow": "1. Branch Manager drafts seasonal menu proposals using historical sales data and ingredient availability (Branch Manager role). 2. Head Chef reviews menu items for culinary feasibility, ingredient costs, and kitchen workflow alignment (Head Chef role). 3. Regional Operations Manager evaluates branch capacity, regional trends, and compliance with brand standards (Regional Operations Manager role). 4. Approved menu undergoes automated allergy/ingredient conflict checks. 5. System updates digital menus across all branches simultaneously at scheduled time. 6. Confirmation notifications sent to all stakeholders with implementation report.",
+        "screens": [
+          "Seasonal Menu Drafting Interface - Enables Branch Managers to create/duplicate menu templates with pricing/ingredient fields",
+          "Menu Review Dashboard - Displays cost projections, ingredient availability alerts, and prep time estimates for Chef review",
+          "Approval Workflow Screen - Shows side-by-side comparison with current menu, regional performance metrics, and approval controls",
+          "Menu Deployment Status - Real-time view of menu update progress across branches with error alerts",
+          "Confirmation and Notification Panel - Consolidated view of implemented changes with PDF export capability"
+        ]
+      },
+      [
+        {
+          "featureName": "Real-Time Inventory Monitoring",
+          "flow": "1. IoT sensors/APIs transmit stock levels every 15 minutes to central system (Role: System) | 2. Automated alerts trigger when stock reaches <10% capacity, prioritizing perishables (Role: System → Inventory Manager) | 3. Managers filter inventory dashboard by branch/ingredient category with red/yellow/green status coding (Role: Inventory Manager)",
+          "screens": [
+            "Real-Time Inventory Dashboard (Multi-branch toggle + expiry date tracker)",
+            "Low Stock Alert Screen (Auto-generated purchase order templates)"
+          ]
+        },
+        {
+          "featureName": "Automated Price Adjustment Triggers",
+          "flow": "1. Price engine scans inventory levels/promotional calendars hourly (Role: System) | 2. Machine learning models suggest price changes with margin protection guardrails (Role: System → Pricing Analyst) | 3. Regional cost fluctuations automatically update pricing formulas (Role: System)",
+          "screens": [
+            "Price Rule Configuration Interface (Drag-and-drop rule builder)",
+            "Price Change Proposal Screen (Historical price trend overlays)"
+          ]
+        },
+        {
+          "featureName": "Manager Approval Workflow",
+          "flow": "1. System prioritizes approval queue by urgency level and potential revenue impact (Role: System) | 2. Managers test scenarios using predictive analytics before approval (Role: Manager) | 3. Two-factor authentication required for high-value changes (>15% price shift) (Role: Manager)",
+          "screens": [
+            "Approval Dashboard (Multi-select actions + compliance checklist)",
+            "Price Change Impact Simulator (Competitor price benchmarking layer)"
+          ]
+        },
+        {
+          "featureName": "Dynamic Menu Display Updates",
+          "flow": "1. Central system validates menu consistency across branches pre-update (Role: System) | 2. Staff receive update previews 2 hours before synchronization (Role: System → Cashier) | 3. Version control system preserves 30-day rollback capability (Role: System)",
+          "screens": [
+            "Menu Version Control Interface (Branch-specific update scheduling)",
+            "Dynamic Menu Preview Screen (Allergy info/calorie display toggle)"
+          ]
+        },
+        {
+          "featureName": "Customer-Facing Price Synchronization",
+          "flow": "1. Digital signage displays smooth price transition animations (Role: System) | 2. Mobile app users receive push notifications for favorite item price changes (Role: System → Customer) | 3. Automated price change receipts archived for 90 days (Role: System)",
+          "screens": [
+            "Public Menu Display (Multilingual price tags + seasonal themes)",
+            "Price Change Notification Banner (Interactive price change timeline)"
+          ]
+        }
+      ]
+    ]
+  }
+]

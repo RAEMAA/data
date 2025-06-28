@@ -1,0 +1,49 @@
+[
+    {
+        "category": "User Management",
+        "list_feature": [
+            "Student Profile",
+            "Researcher Profile",
+            "Teacher Profile",
+            "User Roles (Student, Researcher, Teacher)"
+        ]
+    },
+    {
+        "category": "Content Sharing",
+        "list_feature": [
+            "Upload Study Materials",
+            "Share Findings",
+            "Share Experiences",
+            "Download Shared Content",
+            "Subject-based Content Organization (e.g., Algebra A1, Method of Report Writing)",
+            "Search Content",
+            "Filter Content"
+        ]
+    },
+    {
+        "category": "Evaluation and Feedback",
+        "list_feature": [
+            "Rate Courses",
+            "Evaluate Courses",
+            "Rate Teachers",
+            "Evaluate Teachers"
+        ]
+    },
+    {
+        "category": "Recommendations",
+        "list_feature": [
+            "Provide Course Recommendations",
+            "View Course Recommendations"
+        ]
+    },
+    {
+        "category": "Networking and Platform Structure",
+        "list_feature": [
+            "University-Specific Networks",
+            "Join Multiple Networks",
+            "Researcher-Student Connection Feature",
+            "Teacher-Student Connection Feature",
+            "Geographic Scope (Universities in Vietnam)"
+        ]
+    }
+]

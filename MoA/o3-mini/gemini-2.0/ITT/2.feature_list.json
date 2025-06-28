@@ -1,0 +1,52 @@
+[
+    {
+        "category": "Tour Information",
+        "list_feature": [
+            "Detailed information on travel tours",
+            "Tour Categories (Special, Japan, Asia, Europe-Australia-America)",
+            "Full Itinerary",
+            "Tour Highlights",
+            "Service Inclusions",
+            "Pricing Details",
+            "Terms and Conditions",
+            "Tour Images",
+            "Guide Information",
+            "Payment Policies",
+            "Cancellation Policies"
+        ]
+    },
+    {
+        "category": "Company Information",
+        "list_feature": [
+            "Company Services",
+            "Featured Tours",
+            "Promotions"
+        ]
+    },
+    {
+        "category": "Visa Services",
+        "list_feature": [
+            "Visa Consultation and Support"
+        ]
+    },
+    {
+        "category": "Content & Engagement",
+        "list_feature": [
+            "Cultural Articles",
+            "Travel Stories",
+            "Customer Reviews"
+        ]
+    },
+    {
+        "category": "Contact Information",
+        "list_feature": [
+            "Online Contact Forms",
+            "Dedicated Hotlines (Individual Service)",
+            "Dedicated Hotlines (Group Service)",
+            "Dedicated Hotlines (Visa Service)",
+            "Email Contact",
+            "Office Address",
+            "Constant Display of Hotlines"
+        ]
+    }
+]

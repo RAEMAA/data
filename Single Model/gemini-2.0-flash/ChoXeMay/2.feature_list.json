@@ -1,0 +1,38 @@
+[
+    {
+        "category": "Marketplace",
+        "list_feature": [
+            "Motorcycle Listings",
+            "Parts Listings",
+            "Accessories Listings",
+            "Buy Items",
+            "Sell Items",
+            "Search Functionality",
+            "Listing Prioritization based on Credibility"
+        ]
+    },
+    {
+        "category": "User Credibility System",
+        "list_feature": [
+            "Credibility Score",
+            "Transaction History Tracking",
+            "User Feedback System",
+            "Total Value of Items Bought and Sold Tracking"
+        ]
+    },
+    {
+        "category": "Community Forum",
+        "list_feature": [
+            "Discussion Forums",
+            "User Experience Sharing"
+        ]
+    },
+    {
+        "category": "User Account Management",
+        "list_feature": [
+            "User Registration",
+            "User Login",
+            "Profile Management"
+        ]
+    }
+]

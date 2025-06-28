@@ -1,0 +1,281 @@
+[
+    {
+        "category": "User Profile",
+        "features": [
+            {
+                "featureName": "User Profile Management",
+                "flow": "1. User registers on the platform providing required details such as email, username, role, institution, and department. 2. The system generates a unique user_id. 3. User logs in using email/username and password. 4. User can view and edit their profile details. 5. User can update their role, institution, and department if needed, subject to certain validation rules. 6. The system saves the updated profile information.",
+                "screens": [
+                    "Registration Screen: Allows new users to register by providing necessary details.",
+                    "Login Screen: Enables users to log in to their accounts.",
+                    "User Profile Screen: Displays user profile information including user_id, username, email, role, institution, and department.",
+                    "Edit Profile Screen: Allows users to edit their profile details."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Content Sharing",
+        "features": [
+            {
+                "featureName": "material_id",
+                "flow": "User uploads material -> Material is assigned a unique material_id -> User can view and manage material using material_id",
+                "screens": [
+                    "Material Upload Screen: For users to upload materials",
+                    "Material Detail Screen: To display material details including material_id"
+                ]
+            },
+            {
+                "featureName": "material_type",
+                "flow": "User selects material type during upload -> Material type is displayed on material detail screen -> Users can filter materials by material type",
+                "screens": [
+                    "Material Upload Screen: For users to select material type",
+                    "Material Detail Screen: To display material type",
+                    "Material List Screen: To display materials filtered by material type"
+                ]
+            },
+            {
+                "featureName": "material_title",
+                "flow": "User inputs material title during upload -> Material title is displayed on material detail screen -> Users can search materials by title",
+                "screens": [
+                    "Material Upload Screen: For users to input material title",
+                    "Material Detail Screen: To display material title",
+                    "Material List Screen: To display materials searched by title"
+                ]
+            },
+            {
+                "featureName": "material_description",
+                "flow": "User inputs material description during upload -> Material description is displayed on material detail screen",
+                "screens": [
+                    "Material Upload Screen: For users to input material description",
+                    "Material Detail Screen: To display material description"
+                ]
+            },
+            {
+                "featureName": "material_file",
+                "flow": "User uploads material file during upload -> Material file is stored and can be accessed on material detail screen",
+                "screens": [
+                    "Material Upload Screen: For users to upload material file",
+                    "Material Detail Screen: To display and allow download of material file"
+                ]
+            },
+            {
+                "featureName": "material_rating",
+                "flow": "Users can rate materials -> Material rating is displayed on material detail screen -> Users can filter materials by rating",
+                "screens": [
+                    "Material Detail Screen: To display material rating",
+                    "Material List Screen: To display materials filtered by rating",
+                    "Rating Screen: For users to submit ratings"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Course and Teacher Evaluation",
+        "features": [
+            {
+                "featureName": "Evaluate Course and Teacher",
+                "flow": "1. User logs in to the platform. 2. User navigates to the course or teacher they wish to evaluate. 3. User submits a rating for the course and/or teacher. 4. User writes a review text for the course and/or teacher. 5. System validates the input data. 6. System updates the course and/or teacher ratings and saves the review. 7. System displays the updated ratings and review on the course and/or teacher's page. User roles involved: Registered User, System Administrator.",
+                "screens": [
+                    "Course Details Page: Displays course information and ratings.",
+                    "Teacher Details Page: Displays teacher information and ratings.",
+                    "Review Submission Form: Allows users to submit ratings and write reviews.",
+                    "User Profile Page: Displays user's evaluation history."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Material Recommendation",
+        "features": [
+            {
+                "featureName": "View Recommended Materials",
+                "flow": "User logs in -> User navigates to Material Recommendation section -> System retrieves list of recommended materials based on user's interests and ratings -> User views recommended materials",
+                "screens": [
+                    "Login Screen: For user authentication",
+                    "Home Screen: Navigation to Material Recommendation section",
+                    "Recommended Materials Screen: List of recommended materials with titles, descriptions, and ratings",
+                    "Material Details Screen: Detailed view of a recommended material"
+                ]
+            },
+            {
+                "featureName": "Rate a Recommended Material",
+                "flow": "User logs in -> User views a recommended material -> User rates the material -> System updates the recommendation score",
+                "screens": [
+                    "Login Screen: For user authentication",
+                    "Material Details Screen: Detailed view of a recommended material",
+                    "Rating Screen: For user to rate the material",
+                    "Confirmation Screen: To confirm rating submission"
+                ]
+            },
+            {
+                "featureName": "Get Recommendation Score",
+                "flow": "System calculates recommendation score based on user's ratings and material attributes -> System updates material's recommendation score",
+                "screens": [
+                    "No additional screens required, as this is a backend process"
+                ]
+            },
+            {
+                "featureName": "Search Recommended Materials",
+                "flow": "User logs in -> User navigates to Material Recommendation section -> User searches for materials -> System retrieves search results",
+                "screens": [
+                    "Login Screen: For user authentication",
+                    "Home Screen: Navigation to Material Recommendation section",
+                    "Search Screen: For user to input search query",
+                    "Search Results Screen: List of search results"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Academic Information",
+        "features": [
+            {
+                "featureName": "View Academic Events",
+                "flow": "1. User logs in to the SSN platform. 2. User navigates to the 'Academic Information' or 'Events' section. 3. The system retrieves and displays a list of upcoming academic events. 4. User can filter events by date, type, or institution. 5. User selects an event to view its details.",
+                "screens": [
+                    "Event List Screen: Displays a list of upcoming academic events with basic details like title and date.",
+                    "Event Detail Screen: Shows detailed information about a selected academic event, including title, description, and date."
+                ]
+            },
+            {
+                "featureName": "Create Academic Event",
+                "flow": "1. Authorized user (e.g., with 'institution_admin' or 'researcher' role) logs in. 2. User navigates to the 'Create Event' section within 'Academic Information'. 3. User fills in event details (title, description, date). 4. System validates the input data. 5. Event is created and published on the platform.",
+                "screens": [
+                    "Event Creation Screen: Allows authorized users to input details for a new academic event.",
+                    "Event Preview Screen: Displays the event details for review before publication."
+                ]
+            },
+            {
+                "featureName": "Edit Academic Event",
+                "flow": "1. Authorized user logs in and navigates to the 'Manage Events' section. 2. User selects an event they are authorized to edit. 3. User makes necessary changes to the event details. 4. System validates the updated data. 5. Event details are updated on the platform.",
+                "screens": [
+                    "Event Management Screen: Lists events that the user is authorized to edit or manage.",
+                    "Event Editing Screen: Allows users to modify the details of an existing academic event."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Network and Collaboration",
+        "features": [
+            {
+                "featureName": "Join a University Network",
+                "flow": "User searches for a university network -> User sends a request to join the network -> Admin reviews and accepts the request -> User is added to the network",
+                "screens": [
+                    "Network Search Screen: allows users to search for university networks",
+                    "Network Request Screen: allows users to send a request to join a network",
+                    "Network Request Review Screen: for admins to review and accept/decline network join requests",
+                    "Network Membership Confirmation Screen: notifies users that they have been added to a network"
+                ]
+            },
+            {
+                "featureName": "Connect with Collaborators",
+                "flow": "User searches for collaborators within their network -> User sends a collaboration request -> Collaborator accepts or declines the request -> Users are connected",
+                "screens": [
+                    "Collaborator Search Screen: allows users to search for collaborators within their network",
+                    "Collaboration Request Screen: allows users to send collaboration requests",
+                    "Collaboration Request Review Screen: for collaborators to review and accept/decline collaboration requests",
+                    "Collaboration Connection Confirmation Screen: notifies users that they are now connected"
+                ]
+            },
+            {
+                "featureName": "View User Network Status",
+                "flow": "User views their own network status -> User views others' network status",
+                "screens": [
+                    "User Network Status Screen: displays user's own network status",
+                    "Other User Network Status Screen: displays others' network status"
+                ]
+            },
+            {
+                "featureName": "Manage Network Membership",
+                "flow": "Admin views network members -> Admin manages (add/remove) network members",
+                "screens": [
+                    "Network Members Screen: lists all network members",
+                    "Network Member Management Screen: allows admins to add or remove members"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Search and Filtering",
+        "features": [
+            {
+                "featureName": "search_query",
+                "flow": "User submits a search querynUser role: Student/Teacher/Researcher",
+                "screens": [
+                    "SearchScreen: Input field for search query, search button"
+                ]
+            },
+            {
+                "featureName": "search_result",
+                "flow": "System displays search results based on querynUser role: Student/Teacher/Researcher",
+                "screens": [
+                    "SearchResultScreen: List of relevant materials, users, or courses"
+                ]
+            },
+            {
+                "featureName": "filter_by_institution",
+                "flow": "User selects institution filternSystem updates search results accordinglynUser role: Student/Teacher/Researcher",
+                "screens": [
+                    "FilterScreen: Institution dropdown list",
+                    "FilteredSearchResultScreen: Updated list of search results"
+                ]
+            },
+            {
+                "featureName": "filter_by_department",
+                "flow": "User selects department filternSystem updates search results accordinglynUser role: Student/Teacher/Researcher",
+                "screens": [
+                    "FilterScreen: Department dropdown list",
+                    "FilteredSearchResultScreen: Updated list of search results"
+                ]
+            },
+            {
+                "featureName": "filter_by_material_type",
+                "flow": "User selects material type filternSystem updates search results accordinglynUser role: Student/Teacher/Researcher",
+                "screens": [
+                    "FilterScreen: Material type dropdown list",
+                    "FilteredSearchResultScreen: Updated list of search results"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Institution and Network",
+        "features": [
+            {
+                "featureName": "institution_id",
+                "flow": "The system generates a unique institution_id for each institution. Admins can view and manage institution IDs. Users can search for institutions by ID.",
+                "screens": [
+                    "Institution ID Generation Screen: Displays generated institution IDs.",
+                    "Institution Management Screen: Allows admins to view and manage institution information."
+                ]
+            },
+            {
+                "featureName": "institution_name",
+                "flow": "Users can search for institutions by name. Admins can add, edit, and delete institution names. Institution names are displayed on the institution profile screen.",
+                "screens": [
+                    "Institution Search Screen: Allows users to search for institutions by name.",
+                    "Institution Profile Screen: Displays institution details including name.",
+                    "Institution Management Screen: Allows admins to add, edit, and delete institution names."
+                ]
+            },
+            {
+                "featureName": "network_type",
+                "flow": "Admins can add, edit, and delete network types (e.g., university, high school, elementary school). Users can view network types for institutions they join.",
+                "screens": [
+                    "Network Type Management Screen: Allows admins to manage network types.",
+                    "Institution Profile Screen: Displays network type for an institution."
+                ]
+            },
+            {
+                "featureName": "network_description",
+                "flow": "Admins can add and edit network descriptions. Users can view network descriptions for institutions they join.",
+                "screens": [
+                    "Network Description Management Screen: Allows admins to manage network descriptions.",
+                    "Institution Profile Screen: Displays network description for an institution."
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,327 @@
+[
+  {
+    "category": "Listing and Transaction Management",
+    "features": [
+      {
+        "featureName": "Create detailed listings for motorcycles, parts, and accessories (photos, descriptions, pricing)",
+        "flow": "1. User (Seller) clicks 'Create Listing' on the dashboard. 2. Selects listing type (motorcycle/part/accessory). 3. Fills in details (brand, model, year, condition, description). 4. Uploads photos/videos. 5. Sets pricing (fixed or negotiable). 6. Toggles 'Urgent Sale' if needed. 7. Reviews and publishes the listing.",
+        "screens": [
+          "Dashboard: User navigates to create a new listing.",
+          "Listing Type Selection: User selects motorcycle, part, or accessory.",
+          "Detail Input Form: User enters item specifications and description.",
+          "Photo/Video Upload: User adds media files.",
+          "Pricing Setup: User sets price and negotiability options.",
+          "Review & Publish: Final preview before submission."
+        ]
+      },
+      {
+        "featureName": "Search and filter listings by type (motorcycle/part/accessory), brand, price range, and location",
+        "flow": "1. User (Buyer) enters keywords in the search bar. 2. Applies filters (type, brand, price range, location). 3. Sorts results by relevance, price, or credibility score. 4. Browses filtered listings.",
+        "screens": [
+          "Search Bar: Initial keyword input.",
+          "Filter/Sort Panel: User selects filters and sorting preferences.",
+          "Search Results Grid: Displays listings matching criteria.",
+          "Listing Preview Card: Summary of item details for quick browsing."
+        ]
+      },
+      {
+        "featureName": "Option to mark listings as 'Urgent Sale' for priority placement",
+        "flow": "1. User (Seller) edits an existing listing. 2. Toggles 'Urgent Sale' option. 3. Confirms changes, which boosts the listing’s visibility.",
+        "screens": [
+          "Edit Listing Page: Modify existing listing details.",
+          "Urgent Sale Toggle: Enable/disable priority placement.",
+          "Confirmation Modal: Acknowledges changes and explains visibility benefits."
+        ]
+      },
+      {
+        "featureName": "Bidding/Buy-It-Now purchase options",
+        "flow": "1. User (Buyer) views a listing. 2. Chooses 'Bid' or 'Buy-It-Now'. 3. For bids: Enters bid amount and confirms. 4. For Buy-It-Now: Proceeds to checkout.",
+        "screens": [
+          "Listing Detail Page: Displays item and purchase options.",
+          "Bid Placement Screen: Enter bid amount and terms.",
+          "Buy-It-Now Checkout: Direct purchase workflow.",
+          "Confirmation Screen: Summarizes transaction details."
+        ]
+      },
+      {
+        "featureName": "Transaction history dashboard for sellers/buyers",
+        "flow": "1. User (Seller/Buyer) navigates to 'Transaction History'. 2. Filters by date, status, or type. 3. Views details of past purchases/sales. 4. Downloads receipts or contacts support.",
+        "screens": [
+          "Transaction Dashboard: Overview of all transactions.",
+          "Filter Panel: Customize transaction view.",
+          "Transaction Detail Page: Full details, including item, price, and parties involved.",
+          "Receipt/Invoice Download: Access transaction documents."
+        ]
+      },
+      {
+        "featureName": "Secure in-platform payment integration",
+        "flow": "1. User (Buyer) selects payment method at checkout. 2. Enters payment details securely. 3. Confirms transaction. 4. Receives confirmation and updates in transaction history.",
+        "screens": [
+          "Payment Gateway Screen: Secure entry for card/bank details.",
+          "Payment Confirmation: Summarizes payment amount and recipient.",
+          "Transaction Status Update: Real-time confirmation of success/failure."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Credibility and User Rating System",
+    "features": [
+      {
+        "featureName": "Automated credibility score based on transaction history, user feedback, and total sales/purchase value",
+        "flow": "1. System calculates credibility score daily (backend process). 2. User logs in and navigates to their profile. 3. System displays updated credibility score with a breakdown (transaction volume, feedback average, total sales/purchase value). 4. User can click 'View Details' to see historical trends. Role: System (automated) and User (viewing).",
+        "screens": [
+          "Profile Screen: Displays user's credibility score, tier badge, and basic breakdown.",
+          "Credibility Details Screen: Detailed breakdown of score components (transaction history, feedback summaries, financial totals)."
+        ]
+      },
+      {
+        "featureName": "Tiered credibility badges (e.g., Bronze, Silver, Gold) with tier-specific benefits",
+        "flow": "1. System assigns badges based on score thresholds (e.g., Bronze: 0-50, Silver: 51-80, Gold: 81-100). 2. User receives a notification when they upgrade tiers. 3. User views tier benefits in the profile. 4. High-tier users activate benefits like listing boosts. Role: System (automated) and User (viewing/activating).",
+        "screens": [
+          "Tier Benefits Screen: Lists perks per tier (e.g., Gold: 2x search visibility, priority support).",
+          "Notification Screen: Alerts users about tier upgrades.",
+          "Profile Screen: Displays current badge and progress to next tier."
+        ]
+      },
+      {
+        "featureName": "Priority visibility for high-credibility listings in search results and homepage",
+        "flow": "1. User creates/edits a listing. 2. System checks credibility tier. 3. High-tier listings are automatically flagged for priority placement. 4. Listings appear in 'Featured' sections of search results and homepage. Role: System (automated) and User (listing creation).",
+        "screens": [
+          "Listing Creation Screen: Includes a 'Priority Visibility' status indicator for eligible users.",
+          "Search Results Screen: Highlights high-credibility listings with a badge.",
+          "Homepage Carousel: Features high-tier listings in a dedicated section."
+        ]
+      },
+      {
+        "featureName": "User feedback system with ratings and reviews for buyers/sellers",
+        "flow": "1. After a transaction closes, system prompts both parties to leave feedback. 2. User submits a rating (1-5 stars) and optional review. 3. Feedback is aggregated into the recipient's profile. 4. Disputed reviews trigger moderation. Role: Buyer/Seller (leaving feedback) and Moderator (dispute handling).",
+        "screens": [
+          "Feedback Form Screen: Star rating, review text field, and submission button.",
+          "Transaction History Screen: Lists past transactions with feedback status (pending/completed).",
+          "Public Profile Screen: Shows average rating and recent reviews."
+        ]
+      },
+      {
+        "featureName": "Credibility score displayed on user profiles and listings",
+        "flow": "1. User navigates to any profile or listing. 2. System displays credibility score and tier badge next to the username. 3. Clicking the score redirects to a mini-breakdown. Role: User (browsing).",
+        "screens": [
+          "Public Profile Screen: Score and badge visible below username.",
+          "Listing Detail Screen: Seller's credibility score displayed in the seller info section.",
+          "Score Tooltip Screen: Pop-up with abbreviated score components (e.g., '90% positive reviews, $10k+ transacted')."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Community and Engagement",
+    "features": [
+      {
+        "featureName": "Discussion forums for motorcycle topics (maintenance, brands, events)",
+        "flow": "1. Member navigates to the forum homepage. 2. Member selects a category (e.g., 'Maintenance Tips'). 3. Member browses existing threads or clicks 'Create New Post'. 4. Member writes a post with title, text, and optional media. 5. Post is published after moderation (automated or by Moderator). 6. Other members view, comment, or upvote the post. 7. Moderator reviews flagged content and removes violations.",
+        "screens": [
+          "Forum Homepage: Displays categories (Maintenance, Brands, Events).",
+          "Topic List: Shows threads within a selected category.",
+          "Create Post Screen: Form for title, text, media upload, and tags.",
+          "Post Detail Screen: Displays full post, comments, and engagement metrics.",
+          "Moderation Dashboard: For reviewing flagged posts/comments (Moderator-only)."
+        ]
+      },
+      {
+        "featureName": "User-generated experience-sharing posts with comments/likes",
+        "flow": "1. Member navigates to the community feed. 2. Member clicks 'Share Experience' to create a post. 3. Member adds text, photos/videos, and tags (e.g., #AdventureRiding). 4. Post is published and appears in the feed. 5. Other members view, like, comment, or share the post. 6. Members receive notifications for engagement on their posts.",
+        "screens": [
+          "Community Feed: Scrollable list of user-generated posts.",
+          "Create Experience Post: Form for content, media, and tags.",
+          "Post Detail Screen: Full post view with comments and likes.",
+          "Notifications Screen: Alerts for likes, comments, and shares."
+        ]
+      },
+      {
+        "featureName": "Regional or brand-specific rider groups/clubs",
+        "flow": "1. Member navigates to 'Groups' section. 2. Member searches or filters groups by region, brand, or activity type. 3. Member requests to join a group. 4. Group admin approves/denies request. 5. Member participates in group discussions, shares rides, or RSVPs to events. 6. Group admins post announcements or organize meetups.",
+        "screens": [
+          "Group Discovery: Searchable list of groups with filters.",
+          "Group Details: Displays description, members, and activity feed.",
+          "Create Group Screen: Form for group name, type, rules, and branding.",
+          "Group Chat/Forum: Dedicated space for group interactions."
+        ]
+      },
+      {
+        "featureName": "Integration of community activity into user profiles (e.g., 'Top Contributor' badges)",
+        "flow": "1. System tracks member activity (posts, comments, likes, event participation). 2. Automated credibility system assigns badges (e.g., 'Top Contributor' for 100+ posts). 3. Member views badges on their profile. 4. Badges are visible to others on public profiles. 5. Members share achievements on social media or forums.",
+        "screens": [
+          "User Profile Screen: Displays badges, activity stats, and credibility score.",
+          "Badge Details Screen: Explains criteria for each badge.",
+          "Achievement Notification: Pop-up/alert when a badge is earned."
+        ]
+      },
+      {
+        "featureName": "Event listings for motorcycle meetups, races, or auctions",
+        "flow": "1. Member navigates to 'Events' section. 2. Member filters events by date, type, or location. 3. Member clicks 'Create Event' to list a new meetup/auction (requires minimum credibility score). 4. Event details are submitted for moderation. 5. Approved events appear in the listings. 6. Members RSVP, purchase tickets, or share events.",
+        "screens": [
+          "Events Calendar: Grid/list view of upcoming events.",
+          "Event Creation Form: Fields for title, date, location, description, and tickets.",
+          "Event Detail Screen: Full event info with RSVP/ticket options.",
+          "Event Moderation Dashboard: For reviewing event submissions (Moderator-only)."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Quick Sale Optimization",
+    "features": [
+      {
+        "featureName": "'Urgent Sale' tag with countdown timers for listings",
+        "flow": "1. Seller selects 'Create Listing' and enables 'Urgent Sale' tag. 2. Seller sets a countdown timer (e.g., 24/48/72 hours) for the listing. 3. System applies the tag and displays the timer on the listing. 4. Listing appears in 'Urgent Sales' filtered search results. 5. Buyers see the timer and urgency status. 6. Seller receives notifications as the timer nears expiration. [Roles: Seller, Buyer]",
+        "screens": [
+          "Create Listing Screen: Form for listing details with 'Urgent Sale' toggle and timer settings.",
+          "Urgent Sale Settings Screen: Customize timer duration and confirm urgency terms.",
+          "Listing Confirmation Screen: Preview of the listing with the active countdown timer.",
+          "Listing Detail Screen: Displays timer, urgency tag, and time remaining prominently."
+        ]
+      },
+      {
+        "featureName": "Price comparison tool showing market rates for similar items",
+        "flow": "1. Seller accesses the tool while creating/editing a listing. 2. System scans recent sales of similar motorcycles (make, model, year, condition). 3. Tool displays average price, high/low ranges, and suggested listing price. 4. Seller adjusts price based on recommendations. 5. Tool highlights competitive pricing to attract buyers. [Roles: Seller]",
+        "screens": [
+          "Price Comparison Dashboard: Visual graph of market rates and trends.",
+          "Listing Price Suggestions Screen: Side-by-side comparison with adjustable price slider.",
+          "Market Data Popup: Detailed breakdown of comparable listings used for analysis."
+        ]
+      },
+      {
+        "featureName": "Instant Buy option for verified high-credibility buyers",
+        "flow": "1. High-credibility buyer views an urgent listing. 2. 'Instant Buy' button appears if buyer meets credibility threshold. 3. Buyer confirms purchase, bypassing bidding/negotiation. 4. System locks the listing and initiates payment/shipping workflows. 5. Seller is notified and must confirm the sale within 1 hour. [Roles: Buyer, Seller]",
+        "screens": [
+          "Listing Detail Screen (Buyer): 'Instant Buy' button visible for eligible users.",
+          "Instant Buy Confirmation Screen: Terms summary and final purchase commitment.",
+          "Seller Approval Screen: Seller reviews buyer's credibility and accepts/rejects the offer."
+        ]
+      },
+      {
+        "featureName": "Promoted listings for urgent sales (paid or credibility-based)",
+        "flow": "1. Seller selects 'Promote Listing' from their urgent sale listing. 2. Chooses promotion type: paid (credit card) or credibility-points-based. 3. Listing is boosted to top of search results and featured in urgent sales banners. 4. Promotion duration aligns with the listing's countdown timer. [Roles: Seller]",
+        "screens": [
+          "Promotion Selection Screen: Options for paid vs. credibility-based promotion.",
+          "Payment/Credibility Deduction Screen: Process transaction or deduct credibility points.",
+          "Promoted Listing Preview: Shows how the listing will appear in featured sections."
+        ]
+      },
+      {
+        "featureName": "Automated alerts for buyers when urgent listings match their saved searches",
+        "flow": "1. Buyer saves a search query (e.g., 'Harley-Davidson under $10k'). 2. System monitors new urgent listings. 3. Immediate push/email notification sent upon match. 4. Buyer clicks notification to view the listing. 5. Alert includes timer status and 'Instant Buy' eligibility. [Roles: Buyer]",
+        "screens": [
+          "Saved Search Configuration Screen: Buyer sets filters and enables alerts.",
+          "Alert Notification Screen: In-app or push notification with listing preview.",
+          "Urgent Listing Detail Screen: Direct link from the alert to the listing."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "User Profiles and Security",
+    "features": [
+      {
+        "featureName": "Verified user profiles with authentication (ID, phone, email)",
+        "flow": "1. User registers via email or phone number (User). 2. System sends verification code via email/SMS (System). 3. User enters code to verify contact details (User). 4. User uploads government-issued ID (User). 5. Admin reviews ID manually for authenticity (Admin). 6. Verified badge added to profile upon approval (System).",
+        "screens": [
+          "Sign-Up Screen: Collects email/phone and password.",
+          "Verification Screen: Input field for verification code.",
+          "ID Upload Screen: Interface to upload ID document with preview.",
+          "Verification Status Screen: Shows progress of ID verification.",
+          "Admin Verification Dashboard: Displays pending ID submissions for review."
+        ]
+      },
+      {
+        "featureName": "Public profile showcasing credibility score, transaction history, and reviews",
+        "flow": "1. User navigates to their profile page (User). 2. System displays credibility score, recent transactions, and user reviews (System). 3. Visitors click on a profile from listings to view public data (User/Visitor).",
+        "screens": [
+          "Public Profile Screen: Displays username, credibility score, transaction history, and reviews.",
+          "Credibility Breakdown Screen: Detailed view of factors affecting credibility score.",
+          "Transaction History Screen: List of completed purchases/sales with amounts and dates.",
+          "Review Summary Screen: Aggregated star ratings and written feedback from other users."
+        ]
+      },
+      {
+        "featureName": "Privacy controls for personal data",
+        "flow": "1. User accesses account settings (User). 2. Selects 'Privacy Preferences' (User). 3. Toggles visibility for email, phone, or transaction details (User). 4. System saves preferences and updates profile visibility (System).",
+        "screens": [
+          "Privacy Settings Screen: Toggle switches for data visibility (e.g., 'Hide email from public').",
+          "Custom Visibility Screen: Options to hide specific transaction amounts or dates.",
+          "Confirmation Modal: Warns users about reduced trust when hiding critical data."
+        ]
+      },
+      {
+        "featureName": "Reporting system for fraudulent listings or users",
+        "flow": "1. User clicks 'Report' on a listing/profile (User). 2. Selects report reason (e.g., 'Fraudulent Activity') (User). 3. Submits evidence (screenshots/descriptions) (User). 4. System flags the report for admin review (System). 5. Admin investigates and suspends accounts if needed (Admin).",
+        "screens": [
+          "Report Form Screen: Dropdown for report type and text/image upload field.",
+          "Report Confirmation Screen: Acknowledges submission and provides reference ID.",
+          "Admin Report Dashboard: Lists all active reports with priority indicators.",
+          "User Notification Screen: Informs reporter of resolution status via in-app alerts."
+        ]
+      },
+      {
+        "featureName": "Two-factor authentication for account security",
+        "flow": "1. User enables 2FA in security settings (User). 2. Chooses SMS or authenticator app (User). 3. Verifies 2FA method with one-time code (User). 4. System requires 2FA for future logins (System).",
+        "screens": [
+          "Security Settings Screen: Central hub for 2FA setup and recovery codes.",
+          "2FA Method Selection Screen: Radio buttons for SMS/auth app selection.",
+          "Code Verification Screen: Input field for 6-digit 2FA code.",
+          "Recovery Codes Screen: Displays one-time backup codes for download/print."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Platform Usability and Support",
+    "features": [
+      {
+        "featureName": "Mobile-responsive design and dedicated apps",
+        "flow": "1. User accesses Motorcycle Market via a mobile browser. [Role: All Users] 2. Platform automatically detects device and loads mobile-responsive version. [Role: All Users] 3. User navigates listings, posts new items, or engages in community discussions with optimized UI. [Role: Seller/Buyer] 4. App download prompt appears for frequent users. [Role: All Users] 5. User installs dedicated app and logs in with existing credentials. [Role: All Users] 6. App provides push notifications for listing updates, offers, or community interactions. [Role: Seller/Buyer]",
+        "screens": [
+          "Mobile Listing Feed: Responsive grid of motorcycle listings with swipeable images.",
+          "App Download Prompt: Full-screen overlay suggesting app installation with QR code/link.",
+          "Dedicated App Home: Tab-based navigation for listings, messages, analytics, and profile."
+        ]
+      },
+      {
+        "featureName": "Live chat and email support for transaction disputes",
+        "flow": "1. User initiates dispute via 'Report Issue' button on transaction history page. [Role: Seller/Buyer] 2. System prompts user to select dispute type (e.g., payment, item condition). [Role: Seller/Buyer] 3. User provides evidence (photos, chat logs) via upload tool. [Role: Seller/Buyer] 4. Platform auto-connects user to available support agent via live chat. [Role: Support Team] 5. If unresolved, case is escalated to email with timestamped thread. [Role: Support Team] 6. Resolution is documented in user's transaction history. [Role: System]",
+        "screens": [
+          "Dispute Resolution Hub: Central interface for active/past disputes and status updates.",
+          "Live Chat Interface: Real-time chat window with file attachment capabilities.",
+          "Email Support Form: Templated email builder with pre-linked transaction data."
+        ]
+      },
+      {
+        "featureName": "FAQ and guides for new users (listing tips, credibility explained)",
+        "flow": "1. New user clicks 'Get Started' tutorial from profile dashboard. [Role: New User] 2. Interactive walkthrough explains credibility scoring mechanics. [Role: New User] 3. User accesses FAQ section via footer link or help icon. [Role: All Users] 4. Searchable knowledge base suggests articles based on user activity. [Role: All Users] 5. Contextual tooltips appear during listing creation for real-time guidance. [Role: Seller]",
+        "screens": [
+          "FAQ Landing Page: Categorized articles with 'Most Asked' and 'New User' sections.",
+          "Credibility Breakdown Screen: Visual explainer of scoring factors (transactions, feedback, value).",
+          "Interactive Listing Tutorial: Step-by-step overlay guiding photo uploads and pricing tips."
+        ]
+      },
+      {
+        "featureName": "Analytics dashboard for sellers (listing views, offer trends)",
+        "flow": "1. Seller logs in and navigates to 'Seller Hub'. [Role: Seller] 2. Dashboard displays summary stats (views, offers, credibility impact). [Role: Seller] 3. Seller filters data by timeframe or listing type. [Role: Seller] 4. Clicking a metric opens detailed graphs with export options. [Role: Seller] 5. System suggests optimal pricing based on market trends. [Role: System] 6. Seller adjusts listings directly from analytics screen. [Role: Seller]",
+        "screens": [
+          "Analytics Overview: Widget-based dashboard with key performance indicators.",
+          "Trend Analysis Screen: Interactive line/pie charts showing offer history and buyer demographics.",
+          "Comparative Pricing Tool: Side-by-side comparison of similar listings with market averages."
+        ]
+      },
+      {
+        "featureName": "Multi-language and currency support for global users",
+        "flow": "1. User selects language/currency from profile settings or geo-detected prompt. [Role: All Users] 2. Listings dynamically display prices in selected currency with exchange rate timestamp. [Role: Buyer] 3. Machine-translated listings show 'Translation Disclaimer' banner. [Role: Buyer] 4. Sellers specify preferred currencies during listing creation. [Role: Seller] 5. Checkout process converts amounts using real-time rates. [Role: Buyer] 6. Community posts auto-translate based on user settings. [Role: All Users]",
+        "screens": [
+          "Language/Currency Settings: Dropdown selectors with flag icons and search functionality.",
+          "Currency Converter Tool: Pop-up calculator for manual price checks during browsing.",
+          "Translated Listing View: Listing page with toggle for original/translated text."
+        ]
+      }
+    ]
+  }
+]

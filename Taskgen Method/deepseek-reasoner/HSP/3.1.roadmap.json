@@ -1,0 +1,55 @@
+[
+  {
+    "id": "P1",
+    "phase": "Environmental Monitoring",
+    "feature_list": [
+      "Real-time temperature tracking for facilities",
+      "Humidity and air quality monitoring",
+      "Equipment status alerts"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2023-10-05",
+    "endTime": "2023-10-26",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Order Workflow",
+    "feature_list": [
+      "Inventory level tracking and alerts",
+      "Multi-step order approval automation",
+      "Order fulfillment status updates"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-10-05",
+    "endTime": "2023-11-02",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P3",
+    "phase": "Communication Hub",
+    "feature_list": [
+      "Stakeholder messaging with read receipts",
+      "Document collaboration and version control",
+      "Announcement broadcasting"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2023-10-26",
+    "endTime": "2023-11-16",
+    "dependencies": ["P2"]
+  },
+  {
+    "id": "P4",
+    "phase": "Owner Analytics",
+    "feature_list": [
+      "Owner-facing sales performance dashboards",
+      "Inventory turnover rate reports",
+      "Compliance metrics visualization",
+      "Order fulfillment efficiency comparative analysis"
+    ],
+    "estimatedTime": "2 weeks",
+    "startTime": "2023-11-16",
+    "endTime": "2023-11-30",
+    "dependencies": ["P1", "P2", "P3"]
+  }
+]

@@ -1,0 +1,69 @@
+[
+    {
+        "id": "P1",
+        "phase": "Phase 1: System Setup and Centralized Data Consolidation",
+        "feature list": [
+            "Centralized System: Consolidation of business information from all branches"
+        ],
+        "estimatedTime": "8 weeks",
+        "startTime": "2024-02-29",
+        "endTime": "2024-04-25",
+        "dependencies": []
+    },
+    {
+        "id": "P2",
+        "phase": "Phase 2: Order Management System Development",
+        "feature list": [
+            "Order Management: Simplified order taking for waiters",
+            "Order Management: Automated bill generation",
+            "Order Management: Minimize waiter movement during order taking"
+        ],
+        "estimatedTime": "10 weeks",
+        "startTime": "2024-04-26",
+        "endTime": "2024-07-04",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P3",
+        "phase": "Phase 3: Reporting and Analytics Implementation",
+        "feature list": [
+            "Reporting and Analytics: Revenue reports for individual branches",
+            "Reporting and Analytics: Revenue reports for the entire CDC chain",
+            "Reporting and Analytics: Comprehensive business oversight"
+        ],
+        "estimatedTime": "8 weeks",
+        "startTime": "2024-07-05",
+        "endTime": "2024-08-29",
+        "dependencies": [
+            "P1",
+            "P2"
+        ]
+    },
+    {
+        "id": "P4",
+        "phase": "Phase 4: User Support and Training",
+        "feature list": [
+            "User Support: Support for local staff (waiters)"
+        ],
+        "estimatedTime": "4 weeks",
+        "startTime": "2024-08-30",
+        "endTime": "2024-09-26",
+        "dependencies": [
+            "P2"
+        ]
+    },
+    {
+        "id": "P5",
+        "phase": "Phase 5: System Testing and Deployment",
+        "feature list": [],
+        "estimatedTime": "6 weeks",
+        "startTime": "2024-09-27",
+        "endTime": "2024-11-07",
+        "dependencies": [
+            "P3",
+            "P4"
+        ]
+    }
+]

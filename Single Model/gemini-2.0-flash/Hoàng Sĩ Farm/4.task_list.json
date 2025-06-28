@@ -1,0 +1,1598 @@
+[
+  [
+    {
+      "id": "P1-T1",
+      "taskName": "Design Farm Staff Account Creation Flow and Screens",
+      "correspondingPhase": "Phase 1: Core System Setup & User Management",
+      "correspondingFeature": "Farm staff accounts with specific permissions",
+      "priority": "High",
+      "estimatedTime": "3 days",
+      "startTime": "2023-10-26",
+      "endTime": "2023-10-29",
+      "dependencies": [],
+      "responsiblePerson": "UI/UX Designer"
+    },
+    {
+      "id": "P1-T2",
+      "taskName": "Implement Farm Staff Account Creation (Backend)",
+      "correspondingPhase": "Phase 1: Core System Setup & User Management",
+      "correspondingFeature": "Farm staff accounts with specific permissions",
+      "priority": "High",
+      "estimatedTime": "4 days",
+      "startTime": "2023-10-30",
+      "endTime": "2023-11-03",
+      "dependencies": [
+        "P1-T1"
+      ],
+      "responsiblePerson": "Backend Developer"
+    },
+    {
+      "id": "P1-T3",
+      "taskName": "Implement Farm Staff Account Creation (Frontend)",
+      "correspondingPhase": "Phase 1: Core System Setup & User Management",
+      "correspondingFeature": "Farm staff accounts with specific permissions",
+      "priority": "High",
+      "estimationTime": "3 days",
+      "startTime": "2023-11-06",
+      "endTime": "2023-11-09",
+      "dependencies": [
+        "P1-T2",
+        "P1-T1"
+      ],
+      "responsiblePerson": "Frontend Developer"
+    },
+    {
+      "id": "P1-T4",
+      "taskName": "Test Farm Staff Account Creation",
+      "correspondingPhase": "Phase 1: Core System Setup & User Management",
+      "correspondingFeature": "Farm staff accounts with specific permissions",
+      "priority": "High",
+      "estimationTime": "2 days",
+      "startTime": "2023-11-10",
+      "endTime": "2023-11-13",
+      "dependencies": [
+        "P1-T3"
+      ],
+      "responsiblePerson": "QA Engineer"
+    },
+    {
+      "id": "P1-T5",
+      "taskName": "Design Farmer Account Registration and Login Flow and Screens",
+      "correspondingPhase": "Phase 1: Core System Setup & User Management",
+      "correspondingFeature": "Farmer accounts with registration and login",
+      "priority": "High",
+      "estimatedTime": "3 days",
+      "startTime": "2023-10-26",
+      "endTime": "2023-10-29",
+      "dependencies": [],
+      "responsiblePerson": "UI/UX Designer"
+    },
+    {
+      "id": "P1-T6",
+      "taskName": "Implement Farmer Account Registration and Login (Backend)",
+      "correspondingPhase": "Phase 1: Core System Setup & User Management",
+      "correspondingFeature": "Farmer accounts with registration and login",
+      "priority": "High",
+      "estimatedTime": "4 days",
+      "startTime": "2023-10-30",
+      "endTime": "2023-11-03",
+      "dependencies": [
+        "P1-T5"
+      ],
+      "responsiblePerson": "Backend Developer"
+    },
+    {
+      "id": "P1-T7",
+      "taskName": "Implement Farmer Account Registration and Login (Frontend)",
+      "correspondingPhase": "Phase 1: Core System Setup & User Management",
+      "correspondingFeature": "Farmer accounts with registration and login",
+      "priority": "High",
+      "estimationTime": "3 days",
+      "startTime": "2023-11-06",
+      "endTime": "2023-11-09",
+      "dependencies": [
+        "P1-T6",
+        "P1-T5"
+      ],
+      "responsiblePerson": "Frontend Developer"
+    },
+    {
+      "id": "P1-T8",
+      "taskName": "Test Farmer Account Registration and Login",
+      "correspondingPhase": "Phase 1: Core System Setup & User Management",
+      "correspondingFeature": "Farmer accounts with registration and login",
+      "priority": "High",
+      "estimationTime": "2 days",
+      "startTime": "2023-11-10",
+      "endTime": "2023-11-13",
+      "dependencies": [
+        "P1-T7"
+      ],
+      "responsiblePerson": "QA Engineer"
+    },
+    {
+      "id": "P1-T9",
+      "taskName": "Design Role-Based Access Control Flow and Screens",
+      "correspondingPhase": "Phase 1: Core System Setup & User Management",
+      "correspondingFeature": "Role-based access control (farm staff vs. farmers)",
+      "priority": "High",
+      "estimationTime": "3 days",
+      "startTime": "2023-11-14",
+      "endTime": "2023-11-17",
+      "dependencies": [],
+      "responsiblePerson": "UI/UX Designer"
+    },
+    {
+      "id": "P1-T10",
+      "taskName": "Implement Role-Based Access Control (Backend)",
+      "correspondingPhase": "Phase 1: Core System Setup & User Management",
+      "correspondingFeature": "Role-based access control (farm staff vs. farmers)",
+      "priority": "High",
+      "estimationTime": "4 days",
+      "startTime": "2023-11-18",
+      "endTime": "2023-11-22",
+      "dependencies": [
+        "P1-T9",
+        "P1-T2",
+        "P1-T6"
+      ],
+      "responsiblePerson": "Backend Developer"
+    },
+    {
+      "id": "P1-T11",
+      "taskName": "Implement Role-Based Access Control (Frontend)",
+      "correspondingPhase": "Phase 1: Core System Setup & User Management",
+      "correspondingFeature": "Role-based access control (farm staff vs. farmers)",
+      "priority": "High",
+      "estimationTime": "1 day",
+      "startTime": "2023-11-23",
+      "endTime": "2023-11-23",
+      "dependencies": [
+        "P1-T10",
+        "P1-T3",
+        "P1-T7"
+      ],
+      "responsiblePerson": "Frontend Developer"
+    },
+    {
+      "id": "P1-T12",
+      "taskName": "Test Role-Based Access Control",
+      "correspondingPhase": "Phase 1: Core System Setup & User Management",
+      "correspondingFeature": "Role-based access control (farm staff vs. farmers)",
+      "priority": "High",
+      "estimationTime": "2 days",
+      "startTime": "2023-11-14",
+      "endTime": "2023-11-16",
+      "dependencies": [
+        "P1-T11"
+      ],
+      "responsiblePerson": "QA Engineer"
+    }
+  ],
+  [
+    {
+      "id": "P2-T1",
+      "taskName": "Design Piglet Growth Metrics Tracking",
+      "correspondingPhase": "Phase 2: Piglet Management Module",
+      "correspondingFeature": "Track piglet growth metrics (weight, height, etc.)",
+      "priority": "High",
+      "estimationTime": "3 days",
+      "startTime": "2023-11-24",
+      "endTime": "2023-11-27",
+      "dependencies": [],
+      "responsiblePerson": "UI/UX Designer",
+      "flows": [
+        "Farm staff navigates to Piglet Management section.",
+        "Farm staff selects a specific piglet.",
+        "Farm staff views/edits growth metrics (weight, height, etc.).",
+        "System saves updated growth metrics."
+      ],
+      "screens": [
+        "Piglet Management Dashboard",
+        "Piglet Details Screen (with Growth Metrics tab/section)",
+        "Edit Growth Metrics Modal/Form"
+      ]
+    },
+    {
+      "id": "P2-T2",
+      "taskName": "Implement Piglet Growth Metrics Tracking",
+      "correspondingPhase": "Phase 2: Piglet Management Module",
+      "correspondingFeature": "Track piglet growth metrics (weight, height, etc.)",
+      "priority": "High",
+      "estimationTime": "5 days",
+      "startTime": "2023-11-28",
+      "endTime": "2023-12-02",
+      "dependencies": [
+        "P2-T1"
+      ],
+      "responsiblePerson": "Backend Developer",
+      "flows": [
+        "API endpoint to save piglet growth metrics.",
+        "Database schema update to store growth metrics.",
+        "Data validation logic for growth metrics."
+      ],
+      "screens": [
+        "N/A - Backend Implementation"
+      ]
+    },
+    {
+      "id": "P2-T3",
+      "taskName": "Test Piglet Growth Metrics Tracking",
+      "correspondingPhase": "Phase 2: Piglet Management Module",
+      "correspondingFeature": "Track piglet growth metrics (weight, height, etc.)",
+      "priority": "High",
+      "estimationTime": "2 days",
+      "startTime": "2023-12-03",
+      "endTime": "2023-12-04",
+      "dependencies": [
+        "P2-T2"
+      ],
+      "responsiblePerson": "QA Engineer",
+      "flows": [
+        "Test saving valid growth metrics.",
+        "Test saving invalid growth metrics (e.g., negative weight).",
+        "Test retrieving and displaying growth metrics."
+      ],
+      "screens": [
+        "Piglet Details Screen (verify displayed data)"
+      ]
+    },
+    {
+      "id": "P2-T4",
+      "taskName": "Design Feeding Schedule Recording",
+      "correspondingPhase": "Phase 2: Piglet Management Module",
+      "correspondingFeature": "Record feeding schedules",
+      "priority": "High",
+      "estimationTime": "3 days",
+      "startTime": "2023-12-05",
+      "endTime": "2023-12-07",
+      "dependencies": [],
+      "responsiblePerson": "UI/UX Designer",
+      "flows": [
+        "Farm staff navigates to Piglet Management section.",
+        "Farm staff selects a specific piglet.",
+        "Farm staff views/creates/edits feeding schedules.",
+        "System saves updated feeding schedules."
+      ],
+      "screens": [
+        "Piglet Management Dashboard",
+        "Piglet Details Screen (with Feeding Schedule tab/section)",
+        "Add/Edit Feeding Schedule Modal/Form"
+      ]
+    },
+    {
+      "id": "P2-T5",
+      "taskName": "Implement Feeding Schedule Recording",
+      "correspondingPhase": "Phase 2: Piglet Management Module",
+      "correspondingFeature": "Record feeding schedules",
+      "priority": "High",
+      "estimationTime": "5 days",
+      "startTime": "2023-12-08",
+      "endTime": "2023-12-12",
+      "dependencies": [
+        "P2-T4"
+      ],
+      "responsiblePerson": "Backend Developer",
+      "flows": [
+        "API endpoint to save piglet feeding schedules.",
+        "Database schema update to store feeding schedules.",
+        "Logic to handle recurring feeding schedules."
+      ],
+      "screens": [
+        "N/A - Backend Implementation"
+      ]
+    },
+    {
+      "id": "P2-T6",
+      "taskName": "Test Feeding Schedule Recording",
+      "correspondingPhase": "Phase 2: Piglet Management Module",
+      "correspondingFeature": "Record feeding schedules",
+      "priority": "High",
+      "estimationTime": "2 days",
+      "startTime": "2023-12-13",
+      "endTime": "2023-12-14",
+      "dependencies": [
+        "P2-T5"
+      ],
+      "responsiblePerson": "QA Engineer",
+      "flows": [
+        "Test creating, editing, and deleting feeding schedules.",
+        "Test recurring feeding schedules.",
+        "Test displaying feeding schedules."
+      ],
+      "screens": [
+        "Piglet Details Screen (verify displayed feeding schedule data)"
+      ]
+    },
+    {
+      "id": "P2-T7",
+      "taskName": "Design Temperature and Environmental Condition Monitoring",
+      "correspondingPhase": "Phase 2: Piglet Management Module",
+      "correspondingFeature": "Monitor temperature and environmental conditions",
+      "priority": "Medium",
+      "estimationTime": "3 days",
+      "startTime": "2023-12-15",
+      "endTime": "2023-12-17",
+      "dependencies": [],
+      "responsiblePerson": "UI/UX Designer",
+      "flows": [
+        "Farm staff navigates to Piglet Management section.",
+        "Farm staff selects a specific piglet or group of piglets.",
+        "Farm staff views temperature and environmental conditions (e.g., humidity).",
+        "System displays historical data and alerts for out-of-range conditions."
+      ],
+      "screens": [
+        "Piglet Management Dashboard",
+        "Piglet Details Screen (with Environment tab/section)",
+        "Environmental Conditions Chart/Graph"
+      ]
+    },
+    {
+      "id": "P2-T8",
+      "taskName": "Implement Temperature and Environmental Condition Monitoring",
+      "correspondingPhase": "Phase 2: Piglet Management Module",
+      "correspondingFeature": "Monitor temperature and environmental conditions",
+      "priority": "Medium",
+      "estimationTime": "5 days",
+      "startTime": "2023-12-18",
+      "endTime": "2023-12-22",
+      "dependencies": [
+        "P2-T7"
+      ],
+      "responsiblePerson": "Backend Developer",
+      "flows": [
+        "API endpoint to receive temperature and environmental data (from sensors or manual input).",
+        "Database schema to store environmental data.",
+        "Alerting system for out-of-range conditions.",
+        "Data aggregation and charting logic."
+      ],
+      "screens": [
+        "N/A - Backend Implementation"
+      ]
+    },
+    {
+      "id": "P2-T9",
+      "taskName": "Test Temperature and Environmental Condition Monitoring",
+      "correspondingPhase": "Phase 2: Piglet Management Module",
+      "correspondingFeature": "Monitor temperature and environmental conditions",
+      "priority": "Medium",
+      "estimationTime": "2 days",
+      "startTime": "2023-12-23",
+      "endTime": "2023-12-24",
+      "dependencies": [
+        "P2-T8"
+      ],
+      "responsiblePerson": "QA Engineer",
+      "flows": [
+        "Test receiving and storing valid environmental data.",
+        "Test handling missing or invalid data.",
+        "Test alerting system.",
+        "Test displaying historical data."
+      ],
+      "screens": [
+        "Piglet Details Screen (verify displayed environmental data)",
+        "Alert Notifications"
+      ]
+    },
+    {
+      "id": "P2-T10",
+      "taskName": "Design Piglet Type/Breed Categorization",
+      "correspondingPhase": "Phase 2: Piglet Management Module",
+      "correspondingFeature": "Categorize information by piglet type/breed",
+      "priority": "High",
+      "estimationTime": "2 days",
+      "startTime": "2023-12-25",
+      "endTime": "2023-12-26",
+      "dependencies": [],
+      "responsiblePerson": "UI/UX Designer",
+      "flows": [
+        "Farm staff navigates to Piglet Management section.",
+        "Farm staff creates/edits piglet breeds.",
+        "Farm staff assigns piglet breed to individual piglets.",
+        "System filters and displays piglets by breed."
+      ],
+      "screens": [
+        "Piglet Management Dashboard",
+        "Piglet Details Screen (with Breed information)",
+        "Breed Management Screen (add/edit breeds)"
+      ]
+    },
+    {
+      "id": "P2-T11",
+      "taskName": "Implement Piglet Type/Breed Categorization",
+      "correspondingPhase": "Phase 2: Piglet Management Module",
+      "correspondingFeature": "Categorize information by piglet type/breed",
+      "priority": "High",
+      "estimationTime": "4 days",
+      "startTime": "2023-12-27",
+      "endTime": "2023-12-30",
+      "dependencies": [
+        "P2-T10"
+      ],
+      "responsiblePerson": "Backend Developer",
+      "flows": [
+        "Database schema to store piglet breed information.",
+        "API endpoints to manage piglet breeds.",
+        "Logic to filter piglets by breed."
+      ],
+      "screens": [
+        "N/A - Backend Implementation"
+      ]
+    },
+    {
+      "id": "P2-T12",
+      "taskName": "Test Piglet Type/Breed Categorization",
+      "correspondingPhase": "Phase 2: Piglet Management Module",
+      "correspondingFeature": "Categorize information by piglet type/breed",
+      "priority": "High",
+      "estimationTime": "1 day",
+      "startTime": "2023-12-31",
+      "endTime": "2023-12-31",
+      "dependencies": [
+        "P2-T11"
+      ],
+      "responsiblePerson": "QA Engineer",
+      "flows": [
+        "Test creating, editing, and deleting piglet breeds.",
+        "Test assigning breeds to piglets.",
+        "Test filtering piglets by breed."
+      ],
+      "screens": [
+        "Piglet Management Dashboard (verify filtering)",
+        "Piglet Details Screen (verify breed information)"
+      ]
+    },
+    {
+      "id": "P2-T13",
+      "taskName": "Design Health Records Management",
+      "correspondingPhase": "Phase 2: Piglet Management Module",
+      "correspondingFeature": "Maintain health records (vaccinations, medications)",
+      "priority": "High",
+      "estimationTime": "3 days",
+      "startTime": "2024-01-01",
+      "endTime": "2024-01-03",
+      "dependencies": [],
+      "responsiblePerson": "UI/UX Designer",
+      "flows": [
+        "Farm staff navigates to Piglet Management section.",
+        "Farm staff selects a specific piglet.",
+        "Farm staff views/creates/edits health records (vaccinations, medications).",
+        "System saves updated health records."
+      ],
+      "screens": [
+        "Piglet Management Dashboard",
+        "Piglet Details Screen (with Health Records tab/section)",
+        "Add/Edit Health Record Modal/Form"
+      ]
+    },
+    {
+      "id": "P2-T14",
+      "taskName": "Implement Health Records Management",
+      "correspondingPhase": "Phase 2: Piglet Management Module",
+      "correspondingFeature": "Maintain health records (vaccinations, medications)",
+      "priority": "High",
+      "estimationTime": "5 days",
+      "startTime": "2024-01-04",
+      "endTime": "2024-01-08",
+      "dependencies": [
+        "P2-T13"
+      ],
+      "responsiblePerson": "Backend Developer",
+      "flows": [
+        "API endpoint to save piglet health records.",
+        "Database schema update to store health records.",
+        "Logic to track vaccination schedules and medication dosages."
+      ],
+      "screens": [
+        "N/A - Backend Implementation"
+      ]
+    },
+    {
+      "id": "P2-T15",
+      "taskName": "Test Health Records Management",
+      "correspondingPhase": "Phase 2: Piglet Management Module",
+      "correspondingFeature": "Maintain health records (vaccinations, medications)",
+      "priority": "High",
+      "estimationTime": "2 days",
+      "startTime": "2024-01-09",
+      "endTime": "2024-01-10",
+      "dependencies": [
+        "P2-T14"
+      ],
+      "responsiblePerson": "QA Engineer",
+      "flows": [
+        "Test creating, editing, and deleting health records.",
+        "Test tracking vaccination schedules.",
+        "Test displaying health records."
+      ],
+      "screens": [
+        "Piglet Details Screen (verify displayed health record data)"
+      ]
+    },
+    {
+      "id": "P2-T16",
+      "taskName": "Design Common Diseases and Treatments Recording",
+      "correspondingPhase": "Phase 2: Piglet Management Module",
+      "correspondingFeature": "Record common diseases and treatments",
+      "priority": "Medium",
+      "estimationTime": "3 days",
+      "startTime": "2024-01-11",
+      "endTime": "2024-01-13",
+      "dependencies": [],
+      "responsiblePerson": "UI/UX Designer",
+      "flows": [
+        "Farm staff navigates to Piglet Management section.",
+        "Farm staff selects a specific piglet.",
+        "Farm staff records common diseases and treatments.",
+        "System saves updated disease and treatment information."
+      ],
+      "screens": [
+        "Piglet Management Dashboard",
+        "Piglet Details Screen (with Disease and Treatment tab/section)",
+        "Add/Edit Disease and Treatment Modal/Form"
+      ]
+    },
+    {
+      "id": "P2-T17",
+      "taskName": "Implement Common Diseases and Treatments Recording",
+      "correspondingPhase": "Phase 2: Piglet Management Module",
+      "correspondingFeature": "Record common diseases and treatments",
+      "priority": "Medium",
+      "estimationTime": "5 days",
+      "startTime": "2024-01-14",
+      "endTime": "2024-01-18",
+      "dependencies": [
+        "P2-T16"
+      ],
+      "responsiblePerson": "Backend Developer",
+      "flows": [
+        "API endpoint to save disease and treatment information.",
+        "Database schema update to store disease and treatment information.",
+        "Logic to link diseases and treatments to specific piglets."
+      ],
+      "screens": [
+        "N/A - Backend Implementation"
+      ]
+    },
+    {
+      "id": "P2-T18",
+      "taskName": "Test Common Diseases and Treatments Recording",
+      "correspondingPhase": "Phase 2: Piglet Management Module",
+      "correspondingFeature": "Record common diseases and treatments",
+      "priority": "Medium",
+      "estimationTime": "2 days",
+      "startTime": "2024-01-19",
+      "endTime": "2024-01-20",
+      "dependencies": [
+        "P2-T17"
+      ],
+      "responsiblePerson": "QA Engineer",
+      "flows": [
+        "Test recording and retrieving disease and treatment information.",
+        "Test linking diseases and treatments to piglets.",
+        "Test displaying disease and treatment history."
+      ],
+      "screens": [
+        "Piglet Details Screen (verify displayed disease and treatment data)"
+      ]
+    },
+    {
+      "id": "P2-T19",
+      "taskName": "Design Import/Export Status Tracking",
+      "correspondingPhase": "Phase 2: Piglet Management Module",
+      "correspondingFeature": "Track import/export status of piglets",
+      "priority": "Low",
+      "estimationTime": "3 days",
+      "startTime": "2024-01-21",
+      "endTime": "2024-01-23",
+      "dependencies": [],
+      "responsiblePerson": "UI/UX Designer",
+      "flows": [
+        "Farm staff navigates to Piglet Management section.",
+        "Farm staff selects a specific piglet.",
+        "Farm staff updates import/export status.",
+        "System saves updated status."
+      ],
+      "screens": [
+        "Piglet Management Dashboard",
+        "Piglet Details Screen (with Import/Export tab/section)",
+        "Edit Import/Export Status Modal/Form"
+      ]
+    },
+    {
+      "id": "P2-T20",
+      "taskName": "Implement Import/Export Status Tracking",
+      "correspondingPhase": "Phase 2: Piglet Management Module",
+      "correspondingFeature": "Track import/export status of piglets",
+      "priority": "Low",
+      "estimationTime": "5 days",
+      "startTime": "2024-01-24",
+      "endTime": "2024-01-28",
+      "dependencies": [
+        "P2-T19"
+      ],
+      "responsiblePerson": "Backend Developer",
+      "flows": [
+        "API endpoint to save import/export status.",
+        "Database schema update to store import/export status.",
+        "Logic to track dates and locations of import/export."
+      ],
+      "screens": [
+        "N/A - Backend Implementation"
+      ]
+    },
+    {
+      "id": "P2-T21",
+      "taskName": "Test Import/Export Status Tracking",
+      "correspondingPhase": "Phase 2: Piglet Management Module",
+      "correspondingFeature": "Track import/export status of piglets",
+      "priority": "Low",
+      "estimationTime": "2 days",
+      "startTime": "2024-01-29",
+      "endTime": "2024-01-30",
+      "dependencies": [
+        "P2-T20"
+      ],
+      "responsiblePerson": "QA Engineer",
+      "flows": [
+        "Test updating and retrieving import/export status.",
+        "Test tracking dates and locations.",
+        "Test displaying import/export history."
+      ],
+      "screens": [
+        "Piglet Details Screen (verify displayed import/export data)"
+      ]
+    }
+  ],
+  [
+    {
+      "id": "P3-T1",
+      "taskName": "Design Farmer Piglet Browsing Interface",
+      "correspondingPhase": "Phase 3: Farmer Features Development",
+      "correspondingFeature": "Browse available piglet breeds",
+      "priority": "High",
+      "estimationTime": "3 days",
+      "startTime": "2023-11-24",
+      "endTime": "2023-11-27",
+      "dependencies": [
+        "P1-T8"
+      ],
+      "responsiblePerson": "UI/UX Designer"
+    },
+    {
+      "id": "P3-T2",
+      "taskName": "Implement Piglet Breed Browsing Functionality",
+      "correspondingPhase": "Phase 3: Farmer Features Development",
+      "correspondingFeature": "Browse available piglet breeds",
+      "priority": "High",
+      "estimationTime": "5 days",
+      "startTime": "2023-11-28",
+      "endTime": "2023-12-02",
+      "dependencies": [
+        "P3-T1"
+      ],
+      "responsiblePerson": "Frontend Developer"
+    },
+    {
+      "id": "P3-T3",
+      "taskName": "Implement Piglet Breed Filtering and Sorting",
+      "correspondingPhase": "Phase 3: Farmer Features Development",
+      "correspondingFeature": "Browse available piglet breeds",
+      "priority": "Medium",
+      "estimationTime": "4 days",
+      "startTime": "2023-12-03",
+      "endTime": "2023-12-06",
+      "dependencies": [
+        "P3-T2"
+      ],
+      "responsiblePerson": "Frontend Developer"
+    },
+    {
+      "id": "P3-T4",
+      "taskName": "Test Piglet Breed Browsing and Filtering",
+      "correspondingPhase": "Phase 3: Farmer Features Development",
+      "correspondingFeature": "Browse available piglet breeds",
+      "priority": "High",
+      "estimationTime": "2 days",
+      "startTime": "2023-12-07",
+      "endTime": "2023-12-08",
+      "dependencies": [
+        "P3-T3"
+      ],
+      "responsiblePerson": "QA Engineer"
+    },
+    {
+      "id": "P3-T5",
+      "taskName": "Design Piglet Ordering Interface",
+      "correspondingPhase": "Phase 3: Farmer Features Development",
+      "correspondingFeature": "Place orders for piglets",
+      "priority": "High",
+      "estimationTime": "3 days",
+      "startTime": "2023-11-24",
+      "endTime": "2023-11-27",
+      "dependencies": [
+        "P1-T8"
+      ],
+      "responsiblePerson": "UI/UX Designer"
+    },
+    {
+      "id": "P3-T6",
+      "taskName": "Implement Piglet Ordering Functionality",
+      "correspondingPhase": "Phase 3: Farmer Features Development",
+      "correspondingFeature": "Place orders for piglets",
+      "priority": "High",
+      "estimationTime": "5 days",
+      "startTime": "2023-11-28",
+      "endTime": "2023-12-02",
+      "dependencies": [
+        "P3-T5"
+      ],
+      "responsiblePerson": "Backend Developer"
+    },
+    {
+      "id": "P3-T7",
+      "taskName": "Implement Payment Gateway Integration",
+      "correspondingPhase": "Phase 3: Farmer Features Development",
+      "correspondingFeature": "Place orders for piglets",
+      "priority": "High",
+      "estimationTime": "4 days",
+      "startTime": "2023-12-03",
+      "endTime": "2023-12-06",
+      "dependencies": [
+        "P3-T6"
+      ],
+      "responsiblePerson": "Backend Developer"
+    },
+    {
+      "id": "P3-T8",
+      "taskName": "Test Piglet Ordering and Payment",
+      "correspondingPhase": "Phase 3: Farmer Features Development",
+      "correspondingFeature": "Place orders for piglets",
+      "priority": "High",
+      "estimationTime": "2 days",
+      "startTime": "2023-12-07",
+      "endTime": "2023-12-08",
+      "dependencies": [
+        "P3-T7"
+      ],
+      "responsiblePerson": "QA Engineer"
+    },
+    {
+      "id": "P3-T9",
+      "taskName": "Design Farmer Communication Interface",
+      "correspondingPhase": "Phase 3: Farmer Features Development",
+      "correspondingFeature": "Communicate with the farm post-purchase",
+      "priority": "Medium",
+      "estimationTime": "3 days",
+      "startTime": "2023-12-09",
+      "endTime": "2023-12-11",
+      "dependencies": [
+        "P1-T8"
+      ],
+      "responsiblePerson": "UI/UX Designer"
+    },
+    {
+      "id": "P3-T10",
+      "taskName": "Implement Farmer Communication Functionality",
+      "correspondingPhase": "Phase 3: Farmer Features Development",
+      "correspondingFeature": "Communicate with the farm post-purchase",
+      "priority": "Medium",
+      "estimationTime": "5 days",
+      "startTime": "2023-12-12",
+      "endTime": "2023-12-16",
+      "dependencies": [
+        "P3-T9"
+      ],
+      "responsiblePerson": "Frontend Developer"
+    },
+    {
+      "id": "P3-T11",
+      "taskName": "Implement Notification System for Communication",
+      "correspondingPhase": "Phase 3: Farmer Features Development",
+      "correspondingFeature": "Communicate with the farm post-purchase",
+      "priority": "Medium",
+      "estimationTime": "4 days",
+      "startTime": "2023-12-17",
+      "endTime": "2023-12-20",
+      "dependencies": [
+        "P3-T10"
+      ],
+      "responsiblePerson": "Backend Developer"
+    },
+    {
+      "id": "P3-T12",
+      "taskName": "Test Farmer Communication and Notifications",
+      "correspondingPhase": "Phase 3: Farmer Features Development",
+      "correspondingFeature": "Communicate with the farm post-purchase",
+      "priority": "Medium",
+      "estimationTime": "2 days",
+      "startTime": "2023-12-21",
+      "endTime": "2023-12-22",
+      "dependencies": [
+        "P3-T11"
+      ],
+      "responsiblePerson": "QA Engineer"
+    },
+    {
+      "id": "P3-T13",
+      "taskName": "Design Feeding Guidelines Access Interface",
+      "correspondingPhase": "Phase 3: Farmer Features Development",
+      "correspondingFeature": "Access feeding guidelines",
+      "priority": "Low",
+      "estimationTime": "2 days",
+      "startTime": "2023-12-09",
+      "endTime": "2023-12-10",
+      "dependencies": [
+        "P1-T8"
+      ],
+      "responsiblePerson": "UI/UX Designer"
+    },
+    {
+      "id": "P3-T14",
+      "taskName": "Implement Feeding Guidelines Access Functionality",
+      "correspondingPhase": "Phase 3: Farmer Features Development",
+      "correspondingFeature": "Access feeding guidelines",
+      "priority": "Low",
+      "estimationTime": "3 days",
+      "startTime": "2023-12-11",
+      "endTime": "2023-12-13",
+      "dependencies": [
+        "P3-T13"
+      ],
+      "responsiblePerson": "Frontend Developer"
+    },
+    {
+      "id": "P3-T15",
+      "taskName": "Test Feeding Guidelines Access",
+      "correspondingPhase": "Phase 3: Farmer Features Development",
+      "correspondingFeature": "Access feeding guidelines",
+      "priority": "Low",
+      "estimationTime": "1 day",
+      "startTime": "2023-12-14",
+      "endTime": "2023-12-14",
+      "dependencies": [
+        "P3-T14"
+      ],
+      "responsiblePerson": "QA Engineer"
+    },
+    {
+      "id": "P3-T16",
+      "taskName": "Design Vaccination Schedules Access Interface",
+      "correspondingPhase": "Phase 3: Farmer Features Development",
+      "correspondingFeature": "Access vaccination schedules",
+      "priority": "Low",
+      "estimationTime": "2 days",
+      "startTime": "2023-12-15",
+      "endTime": "2023-12-16",
+      "dependencies": [
+        "P1-T8"
+      ],
+      "responsiblePerson": "UI/UX Designer"
+    },
+    {
+      "id": "P3-T17",
+      "taskName": "Implement Vaccination Schedules Access Functionality",
+      "correspondingPhase": "Phase 3: Farmer Features Development",
+      "correspondingFeature": "Access vaccination schedules",
+      "priority": "Low",
+      "estimationTime": "3 days",
+      "startTime": "2023-12-17",
+      "endTime": "2023-12-19",
+      "dependencies": [
+        "P3-T16"
+      ],
+      "responsiblePerson": "Frontend Developer"
+    },
+    {
+      "id": "P3-T18",
+      "taskName": "Test Vaccination Schedules Access",
+      "correspondingPhase": "Phase 3: Farmer Features Development",
+      "correspondingFeature": "Access vaccination schedules",
+      "priority": "Low",
+      "estimationTime": "1 day",
+      "startTime": "2023-12-20",
+      "endTime": "2023-12-20",
+      "dependencies": [
+        "P3-T17"
+      ],
+      "responsiblePerson": "QA Engineer"
+    },
+    {
+      "id": "P3-T19",
+      "taskName": "Final Testing and Bug Fixing",
+      "correspondingPhase": "Phase 3: Farmer Features Development",
+      "correspondingFeature": "Browse available piglet breeds, Place orders for piglets, Communicate with the farm post-purchase, Access feeding guidelines, Access vaccination schedules",
+      "priority": "High",
+      "estimationTime": "3 days",
+      "startTime": "2023-12-23",
+      "endTime": "2023-12-25",
+      "dependencies": [
+        "P3-T4",
+        "P3-T8",
+        "P3-T12",
+        "P3-T15",
+        "P3-T18"
+      ],
+      "responsiblePerson": "QA Engineer"
+    },
+    {
+      "id": "P3-T20",
+      "taskName": "Documentation and User Guide Creation",
+      "correspondingPhase": "Phase 3: Farmer Features Development",
+      "correspondingFeature": "Browse available piglet breeds, Place orders for piglets, Communicate with the farm post-purchase, Access feeding guidelines, Access vaccination schedules",
+      "priority": "Medium",
+      "estimationTime": "2 days",
+      "startTime": "2023-12-26",
+      "endTime": "2023-12-27",
+      "dependencies": [
+        "P3-T19"
+      ],
+      "responsiblePerson": "Technical Writer"
+    },
+    {
+      "id": "P3-T21",
+      "taskName": "User Acceptance Testing (UAT)",
+      "correspondingPhase": "Phase 3: Farmer Features Development",
+      "correspondingFeature": "Browse available piglet breeds, Place orders for piglets, Communicate with the farm post-purchase, Access feeding guidelines, Access vaccination schedules",
+      "priority": "High",
+      "estimationTime": "2 days",
+      "startTime": "2023-12-28",
+      "endTime": "2023-12-29",
+      "dependencies": [
+        "P3-T20"
+      ],
+      "responsiblePerson": "Product Owner"
+    }
+  ],
+  [
+    {
+      "id": "P4-T1",
+      "taskName": "Design Piglet Information Update Screen",
+      "correspondingPhase": "Phase 4: Farm Staff Features Development",
+      "correspondingFeature": "Update piglet information (growth, health, etc.)",
+      "priority": "High",
+      "estimationTime": "4 days",
+      "startTime": "2024-01-05",
+      "endTime": "2024-01-09",
+      "dependencies": [],
+      "responsiblePerson": "UI/UX Designer"
+    },
+    {
+      "id": "P4-T2",
+      "taskName": "Implement Piglet Information Update Functionality",
+      "correspondingPhase": "Phase 4: Farm Staff Features Development",
+      "correspondingFeature": "Update piglet information (growth, health, etc.)",
+      "priority": "High",
+      "estimationTime": "5 days",
+      "startTime": "2024-01-10",
+      "endTime": "2024-01-15",
+      "dependencies": [
+        "P4-T1"
+      ],
+      "responsiblePerson": "Backend Developer"
+    },
+    {
+      "id": "P4-T3",
+      "taskName": "Test Piglet Information Update Feature",
+      "correspondingPhase": "Phase 4: Farm Staff Features Development",
+      "correspondingFeature": "Update piglet information (growth, health, etc.)",
+      "priority": "High",
+      "estimationTime": "3 days",
+      "startTime": "2024-01-16",
+      "endTime": "2024-01-19",
+      "dependencies": [
+        "P4-T2"
+      ],
+      "responsiblePerson": "QA Engineer"
+    },
+    {
+      "id": "P4-T4",
+      "taskName": "Design Piglet Inventory Management Screen",
+      "correspondingPhase": "Phase 4: Farm Staff Features Development",
+      "correspondingFeature": "Manage piglet inventory",
+      "priority": "High",
+      "estimationTime": "4 days",
+      "startTime": "2024-01-05",
+      "endTime": "2024-01-09",
+      "dependencies": [],
+      "responsiblePerson": "UI/UX Designer"
+    },
+    {
+      "id": "P4-T5",
+      "taskName": "Implement Piglet Inventory Management Functionality",
+      "correspondingPhase": "Phase 4: Farm Staff Features Development",
+      "correspondingFeature": "Manage piglet inventory",
+      "priority": "High",
+      "estimationTime": "5 days",
+      "startTime": "2024-01-10",
+      "endTime": "2024-01-15",
+      "dependencies": [
+        "P4-T4"
+      ],
+      "responsiblePerson": "Backend Developer"
+    },
+    {
+      "id": "P4-T6",
+      "taskName": "Test Piglet Inventory Management Feature",
+      "correspondingPhase": "Phase 4: Farm Staff Features Development",
+      "correspondingFeature": "Manage piglet inventory",
+      "priority": "High",
+      "estimationTime": "3 days",
+      "startTime": "2024-01-16",
+      "endTime": "2024-01-19",
+      "dependencies": [
+        "P4-T5"
+      ],
+      "responsiblePerson": "QA Engineer"
+    },
+    {
+      "id": "P4-T7",
+      "taskName": "Design Revenue Statistics Dashboard",
+      "correspondingPhase": "Phase 4: Farm Staff Features Development",
+      "correspondingFeature": "Record revenue statistics",
+      "priority": "Medium",
+      "estimationTime": "3 days",
+      "startTime": "2024-01-22",
+      "endTime": "2024-01-25",
+      "dependencies": [],
+      "responsiblePerson": "UI/UX Designer"
+    },
+    {
+      "id": "P4-T8",
+      "taskName": "Implement Revenue Statistics Calculation and Display",
+      "correspondingPhase": "Phase 4: Farm Staff Features Development",
+      "correspondingFeature": "Record revenue statistics",
+      "priority": "Medium",
+      "estimationTime": "4 days",
+      "startTime": "2024-01-26",
+      "endTime": "2024-01-30",
+      "dependencies": [
+        "P4-T7"
+      ],
+      "responsiblePerson": "Backend Developer"
+    },
+    {
+      "id": "P4-T9",
+      "taskName": "Test Revenue Statistics Feature",
+      "correspondingPhase": "Phase 4: Farm Staff Features Development",
+      "correspondingFeature": "Record revenue statistics",
+      "priority": "Medium",
+      "estimationTime": "2 days",
+      "startTime": "2024-01-31",
+      "endTime": "2024-02-02",
+      "dependencies": [
+        "P4-T8"
+      ],
+      "responsiblePerson": "QA Engineer"
+    },
+    {
+      "id": "P4-T10",
+      "taskName": "Design Farmer Order Processing Screen",
+      "correspondingPhase": "Phase 4: Farm Staff Features Development",
+      "correspondingFeature": "Process farmer orders",
+      "priority": "High",
+      "estimationTime": "4 days",
+      "startTime": "2024-01-22",
+      "endTime": "2024-01-26",
+      "dependencies": [],
+      "responsiblePerson": "UI/UX Designer"
+    },
+    {
+      "id": "P4-T11",
+      "taskName": "Implement Farmer Order Processing Functionality",
+      "correspondingPhase": "Phase 4: Farm Staff Features Development",
+      "correspondingFeature": "Process farmer orders",
+      "priority": "High",
+      "estimationTime": "5 days",
+      "startTime": "2024-01-29",
+      "endTime": "2024-02-02",
+      "dependencies": [
+        "P4-T10"
+      ],
+      "responsiblePerson": "Backend Developer"
+    },
+    {
+      "id": "P4-T12",
+      "taskName": "Test Farmer Order Processing Feature",
+      "correspondingPhase": "Phase 4: Farm Staff Features Development",
+      "correspondingFeature": "Process farmer orders",
+      "priority": "High",
+      "estimationTime": "3 days",
+      "startTime": "2024-02-05",
+      "endTime": "2024-02-08",
+      "dependencies": [
+        "P4-T11"
+      ],
+      "responsiblePerson": "QA Engineer"
+    },
+    {
+      "id": "P4-T13",
+      "taskName": "Design Farmer Inquiry Response Interface",
+      "correspondingPhase": "Phase 4: Farm Staff Features Development",
+      "correspondingFeature": "Respond to farmer inquiries",
+      "priority": "Medium",
+      "estimationTime": "3 days",
+      "startTime": "2024-01-22",
+      "endTime": "2024-01-25",
+      "dependencies": [],
+      "responsiblePerson": "UI/UX Designer"
+    },
+    {
+      "id": "P4-T14",
+      "taskName": "Implement Farmer Inquiry Management and Response System",
+      "correspondingPhase": "Phase 4: Farm Staff Features Development",
+      "correspondingFeature": "Respond to farmer inquiries",
+      "priority": "Medium",
+      "estimationTime": "4 days",
+      "startTime": "2024-01-26",
+      "endTime": "2024-01-30",
+      "dependencies": [
+        "P4-T13"
+      ],
+      "responsiblePerson": "Backend Developer"
+    },
+    {
+      "id": "P4-T15",
+      "taskName": "Test Farmer Inquiry Response Feature",
+      "correspondingPhase": "Phase 4: Farm Staff Features Development",
+      "correspondingFeature": "Respond to farmer inquiries",
+      "priority": "Medium",
+      "estimationTime": "2 days",
+      "startTime": "2024-01-31",
+      "endTime": "2024-02-02",
+      "dependencies": [
+        "P4-T14"
+      ],
+      "responsiblePerson": "QA Engineer"
+    }
+  ],
+  [
+    {
+      "id": "P5-T1",
+      "taskName": "Design Monthly Report Generation",
+      "correspondingPhase": "Phase 5: Reporting and Analytics Implementation",
+      "correspondingFeature": "Generate monthly reports",
+      "priority": "High",
+      "estimationTime": "4 days",
+      "startTime": "2024-02-10",
+      "endTime": "2024-02-13",
+      "dependencies": [],
+      "responsiblePerson": "UI/UX Designer"
+    },
+    {
+      "id": "P5-T2",
+      "taskName": "Implement Monthly Report Generation",
+      "correspondingPhase": "Phase 5: Reporting and Analytics Implementation",
+      "correspondingFeature": "Generate monthly reports",
+      "priority": "High",
+      "estimationTime": "5 days",
+      "startTime": "2024-02-14",
+      "endTime": "2024-02-18",
+      "dependencies": [
+        "P5-T1"
+      ],
+      "responsiblePerson": "Backend Developer"
+    },
+    {
+      "id": "P5-T3",
+      "taskName": "Test Monthly Report Generation",
+      "correspondingPhase": "Phase 5: Reporting and Analytics Implementation",
+      "correspondingFeature": "Generate monthly reports",
+      "priority": "High",
+      "estimationTime": "2 days",
+      "startTime": "2024-02-19",
+      "endTime": "2024-02-20",
+      "dependencies": [
+        "P5-T2"
+      ],
+      "responsiblePerson": "QA Engineer"
+    },
+    {
+      "id": "P5-T4",
+      "taskName": "Design Quarterly Report Generation",
+      "correspondingPhase": "Phase 5: Reporting and Analytics Implementation",
+      "correspondingFeature": "Generate quarterly reports",
+      "priority": "Medium",
+      "estimationTime": "4 days",
+      "startTime": "2024-02-21",
+      "endTime": "2024-02-24",
+      "dependencies": [],
+      "responsiblePerson": "UI/UX Designer"
+    },
+    {
+      "id": "P5-T5",
+      "taskName": "Implement Quarterly Report Generation",
+      "correspondingPhase": "Phase 5: Reporting and Analytics Implementation",
+      "correspondingFeature": "Generate quarterly reports",
+      "priority": "Medium",
+      "estimationTime": "5 days",
+      "startTime": "2024-02-25",
+      "endTime": "2024-02-29",
+      "dependencies": [
+        "P5-T4"
+      ],
+      "responsiblePerson": "Backend Developer"
+    },
+    {
+      "id": "P5-T6",
+      "taskName": "Test Quarterly Report Generation",
+      "correspondingPhase": "Phase 5: Reporting and Analytics Implementation",
+      "correspondingFeature": "Generate quarterly reports",
+      "priority": "Medium",
+      "estimationTime": "2 days",
+      "startTime": "2024-03-01",
+      "endTime": "2024-03-02",
+      "dependencies": [
+        "P5-T5"
+      ],
+      "responsiblePerson": "QA Engineer"
+    },
+    {
+      "id": "P5-T7",
+      "taskName": "Design Annual Report Generation",
+      "correspondingPhase": "Phase 5: Reporting and Analytics Implementation",
+      "correspondingFeature": "Generate annual reports",
+      "priority": "Medium",
+      "estimationTime": "4 days",
+      "startTime": "2024-03-03",
+      "endTime": "2024-03-06",
+      "dependencies": [],
+      "responsiblePerson": "UI/UX Designer"
+    },
+    {
+      "id": "P5-T8",
+      "taskName": "Implement Annual Report Generation",
+      "correspondingPhase": "Phase 5: Reporting and Analytics Implementation",
+      "correspondingFeature": "Generate annual reports",
+      "priority": "Medium",
+      "estimationTime": "5 days",
+      "startTime": "2024-03-07",
+      "endTime": "2024-03-11",
+      "dependencies": [
+        "P5-T7"
+      ],
+      "responsiblePerson": "Backend Developer"
+    },
+    {
+      "id": "P5-T9",
+      "taskName": "Test Annual Report Generation",
+      "correspondingPhase": "Phase 5: Reporting and Analytics Implementation",
+      "correspondingFeature": "Generate annual reports",
+      "priority": "Medium",
+      "estimationTime": "2 days",
+      "startTime": "2024-03-12",
+      "endTime": "2024-03-13",
+      "dependencies": [
+        "P5-T8"
+      ],
+      "responsiblePerson": "QA Engineer"
+    },
+    {
+      "id": "P5-T10",
+      "taskName": "Finalize and Deploy Reporting Module",
+      "correspondingPhase": "Phase 5: Reporting and Analytics Implementation",
+      "correspondingFeature": "Generate monthly reports, Generate quarterly reports, Generate annual reports",
+      "priority": "High",
+      "estimationTime": "2 days",
+      "startTime": "2024-03-14",
+      "endTime": "2024-03-15",
+      "dependencies": [
+        "P5-T3",
+        "P5-T6",
+        "P5-T9"
+      ],
+      "responsiblePerson": "Project Manager"
+    }
+  ],
+  [
+    {
+      "id": "P6-T1",
+      "taskName": "Design Admin Dashboard UI",
+      "correspondingPhase": "Phase 6: Administrative Features (Farm Owner)",
+      "correspondingFeature": "Manage data",
+      "priority": "High",
+      "estimationTime": "3 days",
+      "startTime": "2024-03-09",
+      "endTime": "2024-03-11",
+      "dependencies": [
+        "P5-T10"
+      ],
+      "responsiblePerson": "UI/UX Designer"
+    },
+    {
+      "id": "P6-T2",
+      "taskName": "Implement Data Management Functionality",
+      "correspondingPhase": "Phase 6: Administrative Features (Farm Owner)",
+      "correspondingFeature": "Manage data",
+      "priority": "High",
+      "estimationTime": "5 days",
+      "startTime": "2024-03-12",
+      "endTime": "2024-03-16",
+      "dependencies": [
+        "P6-T1"
+      ],
+      "responsiblePerson": "Backend Developer"
+    },
+    {
+      "id": "P6-T3",
+      "taskName": "Testing Data Management Functionality",
+      "correspondingPhase": "Phase 6: Administrative Features (Farm Owner)",
+      "correspondingFeature": "Manage data",
+      "priority": "High",
+      "estimationTime": "2 days",
+      "startTime": "2024-03-17",
+      "endTime": "2024-03-18",
+      "dependencies": [
+        "P6-T2"
+      ],
+      "responsiblePerson": "QA Engineer"
+    },
+    {
+      "id": "P6-T4",
+      "taskName": "Design Farmer Update Interface",
+      "correspondingPhase": "Phase 6: Administrative Features (Farm Owner)",
+      "correspondingFeature": "Provide updates to farmers",
+      "priority": "Medium",
+      "estimationTime": "2 days",
+      "startTime": "2024-03-09",
+      "endTime": "2024-03-10",
+      "dependencies": [
+        "P5-T10"
+      ],
+      "responsiblePerson": "UI/UX Designer"
+    },
+    {
+      "id": "P6-T5",
+      "taskName": "Implement Farmer Update Feature",
+      "correspondingPhase": "Phase 6: Administrative Features (Farm Owner)",
+      "correspondingFeature": "Provide updates to farmers",
+      "priority": "Medium",
+      "estimationTime": "4 days",
+      "startTime": "2024-03-11",
+      "endTime": "2024-03-14",
+      "dependencies": [
+        "P6-T4"
+      ],
+      "responsiblePerson": "Frontend Developer"
+    },
+    {
+      "id": "P6-T6",
+      "taskName": "Testing Farmer Update Feature",
+      "correspondingPhase": "Phase 6: Administrative Features (Farm Owner)",
+      "correspondingFeature": "Provide updates to farmers",
+      "priority": "Medium",
+      "estimationTime": "1 day",
+      "startTime": "2024-03-15",
+      "endTime": "2024-03-15",
+      "dependencies": [
+        "P6-T5"
+      ],
+      "responsiblePerson": "QA Engineer"
+    },
+    {
+      "id": "P6-T7",
+      "taskName": "Design Promotion Announcement Interface",
+      "correspondingPhase": "Phase 6: Administrative Features (Farm Owner)",
+      "correspondingFeature": "Announce promotions",
+      "priority": "Medium",
+      "estimationTime": "2 days",
+      "startTime": "2024-03-16",
+      "endTime": "2024-03-17",
+      "dependencies": [
+        "P5-T10"
+      ],
+      "responsiblePerson": "UI/UX Designer"
+    },
+    {
+      "id": "P6-T8",
+      "taskName": "Implement Promotion Announcement Feature",
+      "correspondingPhase": "Phase 6: Administrative Features (Farm Owner)",
+      "correspondingFeature": "Announce promotions",
+      "priority": "Medium",
+      "estimationTime": "3 days",
+      "startTime": "2024-03-18",
+      "endTime": "2024-03-20",
+      "dependencies": [
+        "P6-T7"
+      ],
+      "responsiblePerson": "Frontend Developer"
+    },
+    {
+      "id": "P6-T9",
+      "taskName": "Testing Promotion Announcement Feature",
+      "correspondingPhase": "Phase 6: Administrative Features (Farm Owner)",
+      "correspondingFeature": "Announce promotions",
+      "priority": "Medium",
+      "estimationTime": "1 day",
+      "startTime": "2024-03-21",
+      "endTime": "2024-03-21",
+      "dependencies": [
+        "P6-T8"
+      ],
+      "responsiblePerson": "QA Engineer"
+    },
+    {
+      "id": "P6-T10",
+      "taskName": "Implement Report Generation Functionality",
+      "correspondingPhase": "Phase 6: Administrative Features (Farm Owner)",
+      "correspondingFeature": "Generate reports",
+      "priority": "High",
+      "estimationTime": "4 days",
+      "startTime": "2024-03-22",
+      "endTime": "2024-03-25",
+      "dependencies": [
+        "P5-T9"
+      ],
+      "responsiblePerson": "Backend Developer"
+    },
+    {
+      "id": "P6-T11",
+      "taskName": "Testing Report Generation Functionality",
+      "correspondingPhase": "Phase 6: Administrative Features (Farm Owner)",
+      "correspondingFeature": "Generate reports",
+      "priority": "High",
+      "estimationTime": "2 days",
+      "startTime": "2024-03-26",
+      "endTime": "2024-03-27",
+      "dependencies": [
+        "P6-T10"
+      ],
+      "responsiblePerson": "QA Engineer"
+    },
+    {
+      "id": "P6-T12",
+      "taskName": "Documentation and User Guide for Admin Features",
+      "correspondingPhase": "Phase 6: Administrative Features (Farm Owner)",
+      "correspondingFeature": "Manage data",
+      "priority": "Low",
+      "estimationTime": "2 days",
+      "startTime": "2024-03-28",
+      "endTime": "2024-03-29",
+      "dependencies": [
+        "P6-T3",
+        "P6-T6",
+        "P6-T9",
+        "P6-T11"
+      ],
+      "responsiblePerson": "Technical Writer"
+    }
+  ],
+  [
+    {
+      "id": "P7-T1",
+      "taskName": "Design Post-Purchase Communication Feature",
+      "correspondingPhase": "Phase 7: Communication & Website Functionality",
+      "correspondingFeature": "Post-purchase communication between farmers and farm staff regarding piglet care",
+      "priority": "High",
+      "estimationTime": "3 days",
+      "startTime": "2024-03-30",
+      "endTime": "2024-04-02",
+      "dependencies": [],
+      "responsiblePerson": "UI/UX Designer"
+    },
+    {
+      "id": "P7-T2",
+      "taskName": "Implement Post-Purchase Communication Feature",
+      "correspondingPhase": "Phase 7: Communication & Website Functionality",
+      "correspondingFeature": "Post-purchase communication between farmers and farm staff regarding piglet care",
+      "priority": "High",
+      "estimationTime": "5 days",
+      "startTime": "2024-04-03",
+      "endTime": "2024-04-08",
+      "dependencies": [
+        "P7-T1"
+      ],
+      "responsiblePerson": "Frontend Developer"
+    },
+    {
+      "id": "P7-T3",
+      "taskName": "Test Post-Purchase Communication Feature",
+      "correspondingPhase": "Phase 7: Communication & Website Functionality",
+      "correspondingFeature": "Post-purchase communication between farmers and farm staff regarding piglet care",
+      "priority": "High",
+      "estimationTime": "2 days",
+      "startTime": "2024-04-09",
+      "endTime": "2024-04-11",
+      "dependencies": [
+        "P7-T2"
+      ],
+      "responsiblePerson": "QA Engineer"
+    },
+    {
+      "id": "P7-T4",
+      "taskName": "Design Piglet Transaction Capabilities",
+      "correspondingPhase": "Phase 7: Communication & Website Functionality",
+      "correspondingFeature": "Piglet transaction capabilities",
+      "priority": "High",
+      "estimationTime": "3 days",
+      "startTime": "2024-03-30",
+      "endTime": "2024-04-02",
+      "dependencies": [],
+      "responsiblePerson": "UI/UX Designer"
+    },
+    {
+      "id": "P7-T5",
+      "taskName": "Implement Piglet Transaction Capabilities",
+      "correspondingPhase": "Phase 7: Communication & Website Functionality",
+      "correspondingFeature": "Piglet transaction capabilities",
+      "priority": "High",
+      "estimationTime": "5 days",
+      "startTime": "2024-04-03",
+      "endTime": "2024-04-08",
+      "dependencies": [
+        "P7-T4"
+      ],
+      "responsiblePerson": "Backend Developer"
+    },
+    {
+      "id": "P7-T6",
+      "taskName": "Test Piglet Transaction Capabilities",
+      "correspondingPhase": "Phase 7: Communication & Website Functionality",
+      "correspondingFeature": "Piglet transaction capabilities",
+      "priority": "High",
+      "estimationTime": "2 days",
+      "startTime": "2024-04-09",
+      "endTime": "2024-04-11",
+      "dependencies": [
+        "P7-T5"
+      ],
+      "responsiblePerson": "QA Engineer"
+    },
+    {
+      "id": "P7-T7",
+      "taskName": "Design Information Sharing Feature",
+      "correspondingPhase": "Phase 7: Communication & Website Functionality",
+      "correspondingFeature": "Information sharing with farmers in remote areas",
+      "priority": "Medium",
+      "estimationTime": "3 days",
+      "startTime": "2024-04-12",
+      "endTime": "2024-04-15",
+      "dependencies": [],
+      "responsiblePerson": "UI/UX Designer"
+    },
+    {
+      "id": "P7-T8",
+      "taskName": "Implement Information Sharing Feature",
+      "correspondingPhase": "Phase 7: Communication & Website Functionality",
+      "correspondingFeature": "Information sharing with farmers in remote areas",
+      "priority": "Medium",
+      "estimationTime": "5 days",
+      "startTime": "2024-04-16",
+      "endTime": "2024-04-21",
+      "dependencies": [
+        "P7-T7"
+      ],
+      "responsiblePerson": "Frontend Developer"
+    },
+    {
+      "id": "P7-T9",
+      "taskName": "Test Information Sharing Feature",
+      "correspondingPhase": "Phase 7: Communication & Website Functionality",
+      "correspondingFeature": "Information sharing with farmers in remote areas",
+      "priority": "Medium",
+      "estimationTime": "2 days",
+      "startTime": "2024-04-22",
+      "endTime": "2024-04-24",
+      "dependencies": [
+        "P7-T8"
+      ],
+      "responsiblePerson": "QA Engineer"
+    },
+    {
+      "id": "P7-T10",
+      "taskName": "Final Integration and Deployment",
+      "correspondingPhase": "Phase 7: Communication & Website Functionality",
+      "correspondingFeature": "Post-purchase communication between farmers and farm staff regarding piglet care, Piglet transaction capabilities, Information sharing with farmers in remote areas",
+      "priority": "High",
+      "estimationTime": "2 days",
+      "startTime": "2024-04-25",
+      "endTime": "2024-04-26",
+      "dependencies": [
+        "P7-T3",
+        "P7-T6",
+        "P7-T9"
+      ],
+      "responsiblePerson": "DevOps Engineer"
+    }
+  ]
+]

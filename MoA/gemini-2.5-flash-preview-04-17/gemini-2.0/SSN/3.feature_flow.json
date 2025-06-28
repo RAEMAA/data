@@ -1,0 +1,349 @@
+[
+  {
+      "category": "User Profiles",
+      "features": [
+          {
+              "featureName": "Student Profile",
+              "flow": "1. **User (Student) logs in:** The student authenticates using their credentials.\n2. **System displays profile:** The system retrieves and displays the student's profile information.\n3. **User views profile:** The student can view their profile information, including name, role, university, major, interests, and any shared content.\n4. **User edits profile (optional):** The student can navigate to the edit profile section to modify their information.\n5. **User saves changes (optional):** The student saves the updated profile information.\n6. **System updates profile:** The system saves the changes and updates the profile display.\n7. **Other users view profile:** Other users (students, researchers, educators) can view the student's profile, depending on privacy settings.",
+              "screens": [
+                  "Student Profile Screen: Displays the student's profile information (name, role, university, major, interests, profile picture, bio, shared content).",
+                  "Edit Profile Screen: Allows the student to modify their profile information (name, role, university, major, interests, profile picture, bio).",
+                  "Profile Settings Screen (Optional): Allows the student to manage privacy settings for their profile."
+              ]
+          },
+          {
+              "featureName": "Researcher Profile",
+              "flow": "1. **User (Researcher) logs in:** The researcher authenticates using their credentials.\n2. **System displays profile:** The system retrieves and displays the researcher's profile information.\n3. **User views profile:** The researcher can view their profile information, including name, role, university, discipline, research interests, publications, and any shared content.\n4. **User edits profile (optional):** The researcher can navigate to the edit profile section to modify their information.\n5. **User saves changes (optional):** The researcher saves the updated profile information.\n6. **System updates profile:** The system saves the changes and updates the profile display.\n7. **Other users view profile:** Other users (students, researchers, educators) can view the researcher's profile, depending on privacy settings.",
+              "screens": [
+                  "Researcher Profile Screen: Displays the researcher's profile information (name, role, university, discipline, research interests, publications, profile picture, bio, shared content).",
+                  "Edit Profile Screen: Allows the researcher to modify their profile information (name, role, university, discipline, research interests, publications, profile picture, bio).",
+                  "Profile Settings Screen (Optional): Allows the researcher to manage privacy settings for their profile."
+              ]
+          },
+          {
+              "featureName": "Educator Profile",
+              "flow": "1. **User (Educator) logs in:** The educator authenticates using their credentials.\n2. **System displays profile:** The system retrieves and displays the educator's profile information.\n3. **User views profile:** The educator can view their profile information, including name, role, university, discipline, teaching interests, courses taught, and any shared content.\n4. **User edits profile (optional):** The educator can navigate to the edit profile section to modify their information.\n5. **User saves changes (optional):** The educator saves the updated profile information.\n6. **System updates profile:** The system saves the changes and updates the profile display.\n7. **Other users view profile:** Other users (students, researchers, educators) can view the educator's profile, depending on privacy settings.",
+              "screens": [
+                  "Educator Profile Screen: Displays the educator's profile information (name, role, university, discipline, teaching interests, courses taught, profile picture, bio, shared content).",
+                  "Edit Profile Screen: Allows the educator to modify their profile information (name, role, university, discipline, teaching interests, courses taught, profile picture, bio).",
+                  "Profile Settings Screen (Optional): Allows the educator to manage privacy settings for their profile."
+              ]
+          },
+          {
+              "featureName": "Profile Information (e.g., name, role, university, discipline/major, interests)",
+              "flow": "1. **User registers/logs in:** The user creates an account or logs into their existing account.\n2. **System prompts for profile information:** During registration or in the profile settings, the system prompts the user to enter their profile information.\n3. **User enters information:** The user provides details such as name, role (Student, Researcher, Educator), university, discipline/major, and interests.\n4. **System validates information:** The system validates the entered information (e.g., checks for valid university names, discipline options).\n5. **User saves information:** The user saves the entered profile information.\n6. **System stores information:** The system stores the user's profile information in the database.\n7. **User views information:** The user can view their profile information on their profile page.\n8. **User edits information (optional):** The user can edit their profile information at any time.",
+              "screens": [
+                  "Registration Screen: Allows new users to register and provide initial profile information (name, role, university, etc.).",
+                  "Profile Settings Screen: Allows users to view and edit their profile information (name, role, university, discipline/major, interests).",
+                  "Profile Screen: Displays the user's profile information."
+              ]
+          },
+          {
+              "featureName": "Profile Customization (e.g., profile picture, bio)",
+              "flow": "1. **User navigates to profile settings:** The user accesses their profile settings.\n2. **User selects customization options:** The user chooses to customize their profile picture and/or bio.\n3. **User uploads/enters information:** The user uploads a profile picture and/or enters a bio.\n4. **System validates information:** The system validates the uploaded picture (file type, size) and the bio (character limit).\n5. **User saves changes:** The user saves the changes.\n6. **System updates profile:** The system updates the profile picture and bio in the database.\n7. **User views updated profile:** The user views their updated profile with the new picture and bio.",
+              "screens": [
+                  "Profile Settings Screen: Provides options for profile customization (profile picture, bio).",
+                  "Profile Picture Upload Screen: Allows the user to upload a profile picture.",
+                  "Bio Editing Screen: Allows the user to enter and edit their bio.",
+                  "Profile Screen: Displays the user's profile with the customized picture and bio."
+              ]
+          }
+      ]
+  },
+  {
+      "category": "Content Sharing",
+      "features": [
+          {
+              "featureName": "Share Academic Resources (documents, notes, presentations)",
+              "flow": "1. **User (Student, Researcher, Educator):** Clicks on the 'Share' or '+' button on the platform.\n2. **User:** Selects 'Share Academic Resource' option.\n3. **User:** Chooses the type of resource (document, notes, presentation).\n4. **User:** Uploads the resource file from their device.\n5. **User:** Enters a title and description for the resource.\n6. **User:** Selects the relevant discipline(s) and subject(s) for the resource.\n7. **User:** Adds relevant tags to improve searchability.\n8. **User:** Sets the visibility (e.g., public, university network only, specific group).\n9. **User:** Clicks 'Publish' to share the resource.\n10. **System:** Processes the upload, categorizes the resource, and makes it available to relevant users based on visibility settings.",
+              "screens": [
+                  "Share Resource Selection Screen: Allows the user to select the type of content they want to share (Academic Resource, Research Finding, Learning Experience, etc.).",
+                  "Upload Resource Screen: Allows the user to upload the resource file, enter title, description, and select categories/tags.",
+                  "Confirmation Screen: Confirms successful upload and provides a link to the shared resource."
+              ]
+          },
+          {
+              "featureName": "Share Research Findings",
+              "flow": "1. **User (Researcher, Educator):** Clicks on the 'Share' or '+' button on the platform.\n2. **User:** Selects 'Share Research Finding' option.\n3. **User:** Enters the title of the research finding.\n4. **User:** Uploads the research paper or a summary of the findings (document, presentation, or text).\n5. **User:** Provides details about the research (e.g., methodology, key results, conclusions).\n6. **User:** Selects the relevant discipline(s) and subject(s) for the research.\n7. **User:** Adds relevant keywords/tags.\n8. **User:** Sets the visibility (e.g., public, university network only, specific group).\n9. **User:** Clicks 'Publish' to share the research finding.\n10. **System:** Processes the upload, categorizes the research finding, and makes it available to relevant users based on visibility settings.",
+              "screens": [
+                  "Share Resource Selection Screen: Allows the user to select the type of content they want to share (Academic Resource, Research Finding, Learning Experience, etc.).",
+                  "Share Research Finding Screen: Allows the user to enter the title, upload the research paper/summary, and provide details about the research.",
+                  "Confirmation Screen: Confirms successful upload and provides a link to the shared research finding."
+              ]
+          },
+          {
+              "featureName": "Share Learning Experiences (posts)",
+              "flow": "1. **User (Student, Researcher, Educator):** Clicks on the 'Share' or '+' button on the platform.\n2. **User:** Selects 'Share Learning Experience' option.\n3. **User:** Enters the text of their learning experience post.\n4. **User:** Optionally adds images or videos to the post.\n5. **User:** Selects relevant discipline(s) and subject(s) for the post.\n6. **User:** Adds relevant tags.\n7. **User:** Sets the visibility (e.g., public, university network only, specific group).\n8. **User:** Clicks 'Post' to share the learning experience.\n9. **System:** Processes the post and makes it visible to relevant users based on visibility settings.",
+              "screens": [
+                  "Share Resource Selection Screen: Allows the user to select the type of content they want to share (Academic Resource, Research Finding, Learning Experience, etc.).",
+                  "Share Learning Experience Screen: Allows the user to enter the text, add images/videos, and select categories/tags.",
+                  "Confirmation Screen: Confirms successful posting of the learning experience."
+              ]
+          },
+          {
+              "featureName": "Share Teaching Experiences (posts)",
+              "flow": "1. **User (Educator, Researcher):** Clicks on the 'Share' or '+' button on the platform.\n2. **User:** Selects 'Share Teaching Experience' option.\n3. **User:** Enters the text of their teaching experience post.\n4. **User:** Optionally adds images or videos to the post.\n5. **User:** Selects relevant discipline(s) and subject(s) for the post.\n6. **User:** Adds relevant tags.\n7. **User:** Sets the visibility (e.g., public, university network only, specific group).\n8. **User:** Clicks 'Post' to share the teaching experience.\n9. **System:** Processes the post and makes it visible to relevant users based on visibility settings.",
+              "screens": [
+                  "Share Resource Selection Screen: Allows the user to select the type of content they want to share (Academic Resource, Research Finding, Learning Experience, etc.).",
+                  "Share Teaching Experience Screen: Allows the user to enter the text, add images/videos, and select categories/tags.",
+                  "Confirmation Screen: Confirms successful posting of the teaching experience."
+              ]
+          },
+          {
+              "featureName": "Share Research Experiences (posts)",
+              "flow": "1. **User (Researcher, Student):** Clicks on the 'Share' or '+' button on the platform.\n2. **User:** Selects 'Share Research Experience' option.\n3. **User:** Enters the text of their research experience post.\n4. **User:** Optionally adds images or videos to the post.\n5. **User:** Selects relevant discipline(s) and subject(s) for the post.\n6. **User:** Adds relevant tags.\n7. **User:** Sets the visibility (e.g., public, university network only, specific group).\n8. **User:** Clicks 'Post' to share the research experience.\n9. **System:** Processes the post and makes it visible to relevant users based on visibility settings.",
+              "screens": [
+                  "Share Resource Selection Screen: Allows the user to select the type of content they want to share (Academic Resource, Research Finding, Learning Experience, etc.).",
+                  "Share Research Experience Screen: Allows the user to enter the text, add images/videos, and select categories/tags.",
+                  "Confirmation Screen: Confirms successful posting of the research experience."
+              ]
+          },
+          {
+              "featureName": "Content Upload and Download",
+              "flow": "1. **User (Student, Researcher, Educator):** Navigates to the content they want to download.\n2. **User:** Clicks on the 'Download' icon or button associated with the content.\n3. **System:** Prompts the user to choose a download location (if necessary, based on browser settings).\n4. **System:** Downloads the content to the user's device.\n\nFor Upload:\n1. See flows for 'Share Academic Resources', 'Share Research Findings', etc. (upload steps are included there).",
+              "screens": [
+                  "Content Display Screen: Displays the content with a 'Download' button/icon.",
+                  "Download Confirmation/Progress Screen: (Optional) Shows the download progress and confirms completion."
+              ]
+          },
+          {
+              "featureName": "Content Categorization (disciplines, subjects, resource types)",
+              "flow": "1. **System:** Maintains a predefined list of disciplines, subjects, and resource types.\n2. **User (Admin):** Can update the list of disciplines, subjects, and resource types via an admin panel.\n3. **User (Student, Researcher, Educator):** When sharing content, they are presented with options to select the relevant discipline(s), subject(s), and resource type(s) from the predefined lists.\n4. **System:** Stores the selected categories with the content metadata.",
+              "screens": [
+                  "Admin Panel - Category Management: Allows administrators to add, edit, and delete disciplines, subjects, and resource types.",
+                  "Share Content Screen: Includes dropdown menus or selection lists for disciplines, subjects, and resource types."
+              ]
+          },
+          {
+              "featureName": "Content Search and Filtering",
+              "flow": "1. **User (Student, Researcher, Educator):** Enters a search query in the search bar.\n2. **User:** Optionally applies filters based on discipline, subject, resource type, author, date, etc.\n3. **System:** Searches the content database based on the search query and filters.\n4. **System:** Displays the search results in a list or grid format, sorted by relevance or date.",
+              "screens": [
+                  "Search Results Screen: Displays the search results with options to apply filters.",
+                  "Filter Options: A modal or sidebar that allows users to select filter criteria (discipline, subject, resource type, etc.)."
+              ]
+          },
+          {
+              "featureName": "Content Viewing",
+              "flow": "1. **User (Student, Researcher, Educator):** Clicks on a content item in the search results or on a profile page.\n2. **System:** Displays the content details, including title, description, author, date, categories, and the content itself (if viewable within the platform) or a link to download it.\n3. **User:** Can view the content, rate it, comment on it, and share it.",
+              "screens": [
+                  "Content Details Screen: Displays the full details of the selected content item, including the content itself (if possible), author information, ratings, and comments."
+              ]
+          }
+      ]
+  },
+  {
+      "category": "Course and Instructor Evaluation",
+      "features": [
+          {
+              "featureName": "Course Rating",
+              "flow": "1. **User Role:** Student\n2. **Action:** Student navigates to a course detail page.\n3. **Action:** Student clicks on the 'Rate Course' button (or similar).\n4. **Action:** Student selects a rating (e.g., 1-5 stars).\n5. **Action:** Student optionally provides a written review.\n6. **System Action:** The rating and review are saved and associated with the course and the student's profile.\n7. **System Action:** The course's average rating is updated.\n8. **System Action:** The review is displayed on the course detail page (subject to moderation).\n",
+              "screens": [
+                  "Course Detail Page: Displays course information, including the 'Rate Course' button and existing ratings/reviews.",
+                  "Rating Submission Screen: Allows the student to select a rating (e.g., star rating) and optionally write a review. Includes a submit button.",
+                  "Confirmation Screen (Optional): Confirms the rating submission and thanks the user."
+              ]
+          },
+          {
+              "featureName": "Instructor Rating",
+              "flow": "1. **User Role:** Student\n2. **Action:** Student navigates to an instructor's profile page or a course detail page.\n3. **Action:** Student clicks on the 'Rate Instructor' button (or similar).\n4. **Action:** Student selects a rating (e.g., 1-5 stars).\n5. **Action:** Student optionally provides a written review.\n6. **System Action:** The rating and review are saved and associated with the instructor and the student's profile.\n7. **System Action:** The instructor's average rating is updated.\n8. **System Action:** The review is displayed on the instructor's profile page (subject to moderation).",
+              "screens": [
+                  "Instructor Profile Page: Displays instructor information, including the 'Rate Instructor' button and existing ratings/reviews.",
+                  "Course Detail Page: (Alternative entry point) Displays course information, including the instructor's name and a link/button to rate the instructor.",
+                  "Rating Submission Screen: Allows the student to select a rating (e.g., star rating) and optionally write a review. Includes a submit button.",
+                  "Confirmation Screen (Optional): Confirms the rating submission and thanks the user."
+              ]
+          },
+          {
+              "featureName": "Course Reviews",
+              "flow": "1. **User Role:** Student\n2. **Action:** Student navigates to a course detail page.\n3. **Action:** Student views existing reviews for the course.\n4. **Action:** Student can read the reviews, including the rating and the review text.\n5. **Action:** (Optional) Student can filter or sort reviews (e.g., by rating, date). \n6. **System Action:** Reviews are displayed, potentially with user profile information (e.g., username, profile picture).",
+              "screens": [
+                  "Course Detail Page: Displays course information, including a section for course reviews. Each review includes the rating, review text, and potentially the reviewer's profile information.",
+                  "Review Filtering/Sorting Options (Optional): Allows users to filter and sort reviews based on criteria like rating, date, or relevance."
+              ]
+          },
+          {
+              "featureName": "Instructor Reviews",
+              "flow": "1. **User Role:** Student\n2. **Action:** Student navigates to an instructor's profile page or a course detail page.\n3. **Action:** Student views existing reviews for the instructor.\n4. **Action:** Student can read the reviews, including the rating and the review text.\n5. **Action:** (Optional) Student can filter or sort reviews (e.g., by rating, date). \n6. **System Action:** Reviews are displayed, potentially with user profile information (e.g., username, profile picture).",
+              "screens": [
+                  "Instructor Profile Page: Displays instructor information, including a section for instructor reviews. Each review includes the rating, review text, and potentially the reviewer's profile information.",
+                  "Course Detail Page: (Alternative entry point) Displays course information, including a link to the instructor's profile and their reviews.",
+                  "Review Filtering/Sorting Options (Optional): Allows users to filter and sort reviews based on criteria like rating, date, or relevance."
+              ]
+          },
+          {
+              "featureName": "Course Recommendation System",
+              "flow": "1. **User Role:** Student\n2. **System Action:** The system analyzes the student's profile (e.g., major, interests, courses taken, ratings given).\n3. **System Action:** The system identifies courses that match the student's profile and preferences.\n4. **System Action:** The system ranks the recommended courses based on relevance and popularity.\n5. **Action:** Student navigates to a 'Recommendations' or 'Suggested Courses' section (e.g., on the dashboard or a dedicated page).\n6. **Action:** Student views the recommended courses, including course details and a brief explanation of why the course is recommended.\n7. **Action:** Student can click on a recommended course to view its details.",
+              "screens": [
+                  "Dashboard/Home Screen: Displays a 'Recommended Courses' section, showing a list of recommended courses with brief details.",
+                  "Recommendations Page: A dedicated page listing recommended courses with more detailed information, including the rationale for the recommendation.",
+                  "Course Detail Page: Displays detailed information about a recommended course."
+              ]
+          },
+          {
+              "featureName": "Search and Filter Courses/Instructors",
+              "flow": "1. **User Role:** Student\n2. **Action:** Student uses the search bar (global or within a specific section).\n3. **Action:** Student enters search terms (e.g., course name, instructor name, subject).\n4. **System Action:** The system searches for courses and instructors matching the search terms.\n5. **Action:** Student can apply filters (e.g., by discipline, subject, university, rating).\n6. **System Action:** The system filters the search results based on the applied filters.\n7. **Action:** Student views the search results, including a list of courses and instructors that match the search criteria and filters.",
+              "screens": [
+                  "Global Search Bar (Header/Navigation): Allows users to enter search terms.",
+                  "Search Results Page: Displays a list of courses and instructors matching the search terms. Includes filter options (e.g., discipline, subject, university, rating).",
+                  "Course Detail Page: Displays detailed information about a course, accessible from search results.",
+                  "Instructor Profile Page: Displays detailed information about an instructor, accessible from search results."
+              ]
+          },
+          {
+              "featureName": "View Course Details",
+              "flow": "1. **User Role:** Student\n2. **Action:** Student finds a course (e.g., through search, recommendations, browsing).\n3. **Action:** Student clicks on the course to view its details.\n4. **System Action:** The system displays the course detail page.\n5. **Action:** Student views course information, including course name, description, instructor, syllabus, ratings, reviews, and related resources (if applicable).",
+              "screens": [
+                  "Course Detail Page: Displays comprehensive information about a course, including course name, description, instructor, syllabus, ratings, reviews, and related resources (if applicable)."
+              ]
+          }
+      ]
+  },
+  {
+      "category": "Networking and Collaboration",
+      "features": [
+          {
+              "featureName": "Connect/Follow Users",
+              "flow": "1. **User (Student/Researcher/Educator):** Searches for another user (Student/Researcher/Educator) using the platform search feature.\n2. **Platform:** Displays search results with user profiles.\n3. **User (Student/Researcher/Educator):** Views the profile of the desired user.\n4. **User (Student/Researcher/Educator):** Clicks the 'Connect' or 'Follow' button on the user's profile.\n5. **Platform:** Sends a connection request (if 'Connect') or automatically follows the user (if 'Follow').\n6. **User (Target User):** (If 'Connect') Receives a notification of the connection request.\n7. **User (Target User):** (If 'Connect') Views the connection request.\n8. **User (Target User):** (If 'Connect') Accepts or declines the connection request.\n9. **Platform:** Updates the connection status between the two users.  If accepted, both users are now connected. If declined, the connection request is removed.\n10. **Platform:** (If 'Follow') Updates the follower list of the target user and the following list of the initiating user.",
+              "screens": [
+                  "Search Results Screen: Displays a list of users matching the search criteria.",
+                  "User Profile Screen: Displays the profile information of a specific user, including a 'Connect' or 'Follow' button.",
+                  "Notifications Screen: Displays notifications, including connection requests.",
+                  "Connection Requests Screen: Displays a list of pending connection requests.",
+                  "Following/Followers List Screen: Displays lists of users a user is following and users following a user."
+              ]
+          },
+          {
+              "featureName": "Direct Messaging",
+              "flow": "1. **User (Sender):** Navigates to the profile of the user they want to message or selects a user from their connections/followers list.\n2. **User (Sender):** Clicks the 'Message' button on the user's profile or within the connections/followers list.\n3. **Platform:** Opens a direct messaging interface with the selected user.\n4. **User (Sender):** Types their message in the text input field.\n5. **User (Sender):** Clicks the 'Send' button.\n6. **Platform:** Sends the message to the recipient.\n7. **User (Recipient):** Receives a notification of a new message.\n8. **User (Recipient):** Clicks on the notification or navigates to their 'Messages' screen.\n9. **Platform:** Displays the conversation with the sender, including the new message.\n10. **User (Recipient):** Can reply to the message, continuing the conversation.",
+              "screens": [
+                  "User Profile Screen: Displays the profile information of a specific user, including a 'Message' button.",
+                  "Connections/Followers List Screen: Displays a list of connected/followed users, each with a 'Message' option.",
+                  "Direct Messaging Screen: Displays the conversation between two users, with input field for sending new messages.",
+                  "Messages List Screen: Displays a list of all active conversations.",
+                  "Notifications Screen: Displays notifications, including new message alerts."
+              ]
+          },
+          {
+              "featureName": "Create/Join Groups (e.g., study groups, research groups)",
+              "flow": "1. **User (Student/Researcher/Educator):** Navigates to the 'Groups' section of the platform.\n2. **User (Student/Researcher/Educator):** Chooses to either 'Create a Group' or 'Browse Groups'.\n3. **If 'Create a Group':**\n    a. **User (Student/Researcher/Educator):** Clicks the 'Create Group' button.\n    b. **Platform:** Displays the 'Create Group' form.\n    c. **User (Student/Researcher/Educator):** Fills in the group details (name, description, privacy settings, discipline/subject, etc.).\n    d. **User (Student/Researcher/Educator):** Clicks the 'Create' button.\n    e. **Platform:** Creates the group and redirects the user to the group's page.\n4. **If 'Browse Groups':**\n    a. **User (Student/Researcher/Educator):** Views a list of available groups.\n    b. **User (Student/Researcher/Educator):** Can filter and search for groups based on keywords, disciplines, subjects, etc.\n    c. **User (Student/Researcher/Educator):** Clicks on a group to view its details.\n    d. **User (Student/Researcher/Educator):** Clicks the 'Join Group' button (if the group is public or if a request is allowed).\n    e. **Platform:** If the group is public, the user is immediately added to the group. If the group is private and requires approval, a join request is sent to the group admins.\n    f. **Group Admin:** Receives a notification of the join request.\n    g. **Group Admin:** Approves or declines the join request.\n    h. **Platform:** Updates the user's group membership status and notifies the user of the decision.",
+              "screens": [
+                  "Groups Landing Page: Displays options to create or browse groups.",
+                  "Create Group Form: Allows users to create a new group by providing details like name, description, and privacy settings.",
+                  "Group List Screen: Displays a list of available groups, with filtering and search options.",
+                  "Group Details Screen: Displays information about a specific group, including members, description, and a 'Join Group' button.",
+                  "Group Management Screen (for Group Admins): Allows group admins to manage group settings, members, and join requests.",
+                  "Notifications Screen: Displays notifications, including group join requests and membership updates."
+              ]
+          }
+      ]
+  },
+  {
+      "category": "Platform Structure",
+      "features": [
+          {
+              "featureName": "User Registration and Authentication",
+              "flow": "1. **User (Student/Researcher/Educator):** Clicks on 'Sign Up' or 'Register'.\n2. **System:** Presents a registration form.\n3. **User:** Fills in the registration form with required information (e.g., name, email, password, university, role).\n4. **System:** Validates the entered information (e.g., email format, password strength, university existence).\n5. **System:** If validation fails, displays error messages and allows the user to correct the information.\n6. **System:** If validation succeeds, creates a user account and sends a verification email to the provided email address.\n7. **User:** Checks their email inbox and clicks on the verification link.\n8. **System:** Verifies the email address and activates the user's account.\n9. **User:** Redirected to a login screen.\n10. **User:** Enters their credentials (email and password) and clicks 'Login'.\n11. **System:** Authenticates the user's credentials.\n12. **System:** If authentication fails, displays an error message and allows the user to retry.\n13. **System:** If authentication succeeds, redirects the user to their profile or the platform's main feed.\n14. **User:** If forgot password, clicks on 'Forgot Password'.\n15. **System:** Prompts the user to enter their email address.\n16. **User:** Enters their email address.\n17. **System:** Sends a password reset email to the user's email address.\n18. **User:** Checks their email inbox and clicks on the password reset link.\n19. **System:** Redirects the user to a password reset screen.\n20. **User:** Enters a new password and confirms it.\n21. **System:** Updates the user's password and redirects them to the login screen.",
+              "screens": [
+                  "Registration Screen: Form for new users to enter their information (name, email, password, university, role).",
+                  "Login Screen: Form for existing users to enter their credentials (email, password).",
+                  "Verification Email: Email sent to the user with a link to verify their account.",
+                  "Password Reset Request Screen: Screen to enter email for password reset.",
+                  "Password Reset Email: Email sent to the user with a link to reset their password.",
+                  "Password Reset Screen: Form for users to enter and confirm their new password.",
+                  "Error Screens: Displayed for invalid input or authentication failures (e.g., invalid email, weak password, incorrect credentials)."
+              ]
+          },
+          {
+              "featureName": "University-Specific Networks (Joining/Switching)",
+              "flow": "1. **User (Student/Researcher/Educator):** During registration, selects their university from a list or enters it.\n2. **System:** Associates the user with the selected university.\n3. **User:** After registration or login, the user is automatically directed to their university's network (or a default network if the university is not specified).\n4. **User:** To switch universities, navigates to a 'Settings' or 'Network' section.\n5. **System:** Displays a list of available universities or a search bar to find a university.\n6. **User:** Selects a new university from the list or searches for and selects a university.\n7. **System:** Switches the user's active network to the selected university's network, updating the displayed content and user context.\n8. **User:** Can view content, connect with users, and participate in activities specific to the selected university.",
+              "screens": [
+                  "Registration Screen: Includes a field for university selection (dropdown or search).",
+                  "Profile Screen: Displays the user's current university.",
+                  "Network/Settings Screen: Allows users to view and switch between universities.",
+                  "University Network Home Screen: Displays content and activities specific to the selected university.",
+                  "University Selection Screen: A screen or modal to select or search for a university."
+              ]
+          },
+          {
+              "featureName": "Content Moderation",
+              "flow": "1. **User (Student/Researcher/Educator):** Posts content (e.g., resource, finding, experience).\n2. **System:** Automatically scans content for potentially inappropriate content (e.g., profanity, hate speech, spam) using automated tools.\n3. **System:** If content is flagged, it is either immediately hidden or flagged for review by moderators.\n4. **Moderator:** Reviews flagged content.\n5. **Moderator:** Determines if the content violates the platform's guidelines.\n6. **Moderator:** If the content violates the guidelines, the moderator takes action (e.g., removes the content, warns the user, suspends the user's account).\n7. **Moderator:** If the content does not violate the guidelines, the moderator approves the content, and it becomes visible.\n8. **User (Student/Researcher/Educator):** Can report inappropriate content.\n9. **User:** Clicks on a 'Report' button on the content.\n10. **System:** Records the report and notifies the moderators.\n11. **Moderator:** Reviews the reported content and takes appropriate action.",
+              "screens": [
+                  "Content Posting Screen: Where users create and submit content.",
+                  "Content Display Screen: Where users view content, including a 'Report' button.",
+                  "Moderation Dashboard: A screen for moderators to review flagged content, with options to approve, remove, or take other actions.",
+                  "User Profile Screen (Moderator View): Allows moderators to view user profiles and take actions (e.g., suspend account).",
+                  "Report Confirmation Screen: Confirmation message after a user reports content."
+              ]
+          },
+          {
+              "featureName": "Notifications and Alerts",
+              "flow": "1. **System:** Triggers a notification based on various events (e.g., new message, new follower, new comment on a post, course rating, instructor rating, group invitation).\n2. **System:** Displays a notification icon (e.g., a bell) in the user interface, indicating new notifications.\n3. **User:** Clicks on the notification icon.\n4. **System:** Displays a list of notifications.\n5. **User:** Views the notifications.\n6. **User:** Clicks on a notification to view the related content or take action (e.g., read a message, view a profile, join a group).\n7. **System:** Marks the notification as read.\n8. **System:** Optionally, provides email notifications for important events (e.g., new message, important updates).",
+              "screens": [
+                  "Notification Icon: A visual indicator (e.g., a bell) showing the number of unread notifications.",
+                  "Notification List Screen: Displays a list of notifications with details (e.g., sender, content snippet, timestamp).",
+                  "Notification Detail Screen: Displays the full content related to a specific notification (e.g., a message, a post, a profile).",
+                  "Settings Screen: Allows users to customize notification preferences (e.g., enable/disable email notifications, choose notification types)."
+              ]
+          },
+          {
+              "featureName": "Platform Search (Users, Content, Courses, Groups)",
+              "flow": "1. **User (Student/Researcher/Educator):** Enters a search query in the search bar.\n2. **System:** Parses the search query.\n3. **System:** Searches across multiple data sources (users, content, courses, groups).\n4. **System:** Returns search results, categorized by type (users, content, courses, groups).\n5. **User:** Views the search results.\n6. **User:** Filters the search results (e.g., by discipline, subject, resource type, university).\n7. **User:** Clicks on a search result to view details (e.g., user profile, content, course details, group page).",
+              "screens": [
+                  "Search Bar: A text input field for entering search queries, located in a prominent place (e.g., header).",
+                  "Search Results Screen: Displays search results, categorized by type (users, content, courses, groups).",
+                  "User Profile Screen: Displays user profile details when a user result is selected.",
+                  "Content Display Screen: Displays content details when a content result is selected.",
+                  "Course Details Screen: Displays course details when a course result is selected.",
+                  "Group Page: Displays group details when a group result is selected.",
+                  "Filter Options: Options to refine search results (e.g., discipline, subject, resource type, university)."
+              ]
+          }
+      ]
+  },
+  {
+      "category": "Future Expansion",
+      "features": [
+          {
+              "featureName": "Integration Plan for High Schools",
+              "flow": "1. **Admin User:** Initiates the High School Integration process from the admin panel.\n2. **System:** Presents a configuration screen for High School integration, including options for data migration, user role mapping, and network setup.\n3. **Admin User:** Configures the integration settings, specifying how High School data will be handled and how High School networks will be structured.\n4. **System:** Validates the configuration settings and prompts for confirmation.\n5. **Admin User:** Confirms the integration settings.\n6. **System:** Begins the High School integration process, migrating data and setting up High School networks.\n7. **System:** Provides progress updates to the Admin User.\n8. **System:** Upon completion, notifies the Admin User of the successful integration or any errors encountered.\n9. **Admin User:** Reviews the integration results and makes any necessary adjustments.",
+              "screens": [
+                  "Admin Dashboard: Entry point for managing platform settings, including High School integration.",
+                  "High School Integration Configuration: Allows admins to configure data migration, user role mapping, and network setup for High Schools.",
+                  "Integration Progress: Displays real-time progress updates during the High School integration process.",
+                  "Integration Report: Provides a summary of the High School integration, including any errors or warnings."
+              ]
+          },
+          {
+              "featureName": "Integration Plan for Elementary Schools",
+              "flow": "1. **Admin User:** Initiates the Elementary School Integration process from the admin panel.\n2. **System:** Presents a configuration screen for Elementary School integration, including options for data migration, user role mapping, and network setup.  This screen will likely have different options than the High School integration screen, reflecting the different needs of elementary schools.\n3. **Admin User:** Configures the integration settings, specifying how Elementary School data will be handled and how Elementary School networks will be structured.  Special attention will need to be paid to data privacy and child safety.\n4. **System:** Validates the configuration settings and prompts for confirmation.\n5. **Admin User:** Confirms the integration settings.\n6. **System:** Begins the Elementary School integration process, migrating data and setting up Elementary School networks.\n7. **System:** Provides progress updates to the Admin User.\n8. **System:** Upon completion, notifies the Admin User of the successful integration or any errors encountered.\n9. **Admin User:** Reviews the integration results and makes any necessary adjustments.",
+              "screens": [
+                  "Admin Dashboard: Entry point for managing platform settings, including Elementary School integration.",
+                  "Elementary School Integration Configuration: Allows admins to configure data migration, user role mapping, and network setup for Elementary Schools.  Includes options for parental consent and data privacy.",
+                  "Integration Progress: Displays real-time progress updates during the Elementary School integration process.",
+                  "Integration Report: Provides a summary of the Elementary School integration, including any errors or warnings."
+              ]
+          },
+          {
+              "featureName": "Support for High School User Roles",
+              "flow": "1. **User (High School Student, Teacher, Admin):** Logs in to the platform.\n2. **System:** Identifies the user's role based on their credentials and High School affiliation.\n3. **System:** Grants access to features and content appropriate for the user's role.  For example, High School students may have access to different resources than High School teachers.\n4. **User (High School Student, Teacher, Admin):** Interacts with the platform, utilizing features and content relevant to their role.",
+              "screens": [
+                  "Login Screen: Standard login screen with role-based access control.",
+                  "High School Student Dashboard: Personalized dashboard for High School students, displaying relevant courses, resources, and announcements.",
+                  "High School Teacher Dashboard: Personalized dashboard for High School teachers, displaying course management tools, student progress, and communication features.",
+                  "High School Admin Dashboard: Personalized dashboard for High School administrators, displaying school-wide statistics, user management tools, and platform settings."
+              ]
+          },
+          {
+              "featureName": "Support for Elementary School User Roles",
+              "flow": "1. **User (Elementary School Student, Teacher, Admin, Parent):** Logs in to the platform.\n2. **System:** Identifies the user's role based on their credentials and Elementary School affiliation.  Parental accounts will need to be linked to student accounts.\n3. **System:** Grants access to features and content appropriate for the user's role.  Elementary School students will likely have a simplified interface and limited access to certain features.\n4. **User (Elementary School Student, Teacher, Admin, Parent):** Interacts with the platform, utilizing features and content relevant to their role.",
+              "screens": [
+                  "Login Screen: Standard login screen with role-based access control, including options for parental consent and account linking.",
+                  "Elementary School Student Dashboard: Simplified dashboard for Elementary School students, displaying age-appropriate content and activities.",
+                  "Elementary School Teacher Dashboard: Personalized dashboard for Elementary School teachers, displaying course management tools, student progress, and communication features.",
+                  "Elementary School Admin Dashboard: Personalized dashboard for Elementary School administrators, displaying school-wide statistics, user management tools, and platform settings.",
+                  "Parent Dashboard: Allows parents to monitor their child's activity, manage permissions, and communicate with teachers."
+              ]
+          }
+      ]
+  }
+]

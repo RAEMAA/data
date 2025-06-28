@@ -1,0 +1,579 @@
+[
+    [
+        {
+            "id": "P1-T1",
+            "taskName": "Design User Profile Database Schema",
+            "correspondingPhase": "User Profile Development",
+            "correspondingFeature": "user_id, username, email, role, institution, department",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-16",
+            "endTime": "2024-09-16",
+            "dependencies": [],
+            "responsiblePerson": "John Doe"
+        },
+        {
+            "id": "P1-T2",
+            "taskName": "Implement User Profile Database Schema",
+            "correspondingPhase": "User Profile Development",
+            "correspondingFeature": "user_id, username, email, role, institution, department",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-17",
+            "endTime": "2024-09-17",
+            "dependencies": [
+                "P1-T1"
+            ],
+            "responsiblePerson": "Jane Smith"
+        },
+        {
+            "id": "P1-T3",
+            "taskName": "Develop User Profile API",
+            "correspondingPhase": "User Profile Development",
+            "correspondingFeature": "user_id, username, email, role, institution, department",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-18",
+            "endTime": "2024-09-18",
+            "dependencies": [
+                "P1-T2"
+            ],
+            "responsiblePerson": "Bob Johnson"
+        },
+        {
+            "id": "P1-T4",
+            "taskName": "Test User Profile API",
+            "correspondingPhase": "User Profile Development",
+            "correspondingFeature": "user_id, username, email, role, institution, department",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-19",
+            "endTime": "2024-09-19",
+            "dependencies": [
+                "P1-T3"
+            ],
+            "responsiblePerson": "Alice Williams"
+        }
+    ],
+    [
+        {
+            "id": "P8-T1",
+            "taskName": "Design Institution and Network Entity",
+            "correspondingPhase": "Institution and Network Definition",
+            "correspondingFeature": "institution_id, institution_name, network_id, network_name, network_type, network_description",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-20",
+            "endTime": "2024-09-20",
+            "dependencies": [],
+            "responsiblePerson": "John Doe"
+        },
+        {
+            "id": "P8-T2",
+            "taskName": "Create Institution and Network Database Schema",
+            "correspondingPhase": "Institution and Network Definition",
+            "correspondingFeature": "institution_id, institution_name, network_id, network_name, network_type, network_description",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-21",
+            "endTime": "2024-09-21",
+            "dependencies": [
+                "P8-T1"
+            ],
+            "responsiblePerson": "Jane Smith"
+        },
+        {
+            "id": "P8-T3",
+            "taskName": "Implement Institution and Network API",
+            "correspondingPhase": "Institution and Network Definition",
+            "correspondingFeature": "institution_id, institution_name, network_id, network_name, network_type, network_description",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-22",
+            "endTime": "2024-09-23",
+            "dependencies": [
+                "P8-T2"
+            ],
+            "responsiblePerson": "John Doe"
+        },
+        {
+            "id": "P8-T4",
+            "taskName": "Test Institution and Network API",
+            "correspondingPhase": "Institution and Network Definition",
+            "correspondingFeature": "institution_id, institution_name, network_id, network_name, network_type, network_description",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-24",
+            "endTime": "2024-09-24",
+            "dependencies": [
+                "P8-T3"
+            ],
+            "responsiblePerson": "Jane Smith"
+        },
+        {
+            "id": "P8-T5",
+            "taskName": "Deploy Institution and Network API",
+            "correspondingPhase": "Institution and Network Definition",
+            "correspondingFeature": "institution_id, institution_name, network_id, network_name, network_type, network_description",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-25",
+            "endTime": "2024-09-25",
+            "dependencies": [
+                "P8-T4"
+            ],
+            "responsiblePerson": "John Doe"
+        }
+    ],
+    [
+        {
+            "id": "P2-T1",
+            "taskName": "Design Content Sharing Database Schema",
+            "correspondingPhase": "Content Sharing Development",
+            "correspondingFeature": "material_id, material_type, material_title, material_description, material_file, material_rating",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-20",
+            "endTime": "2024-09-22",
+            "dependencies": [
+                "P1"
+            ],
+            "responsiblePerson": "John Doe"
+        },
+        {
+            "id": "P2-T2",
+            "taskName": "Implement Material Model and Database Tables",
+            "correspondingPhase": "Content Sharing Development",
+            "correspondingFeature": "material_id, material_type, material_title, material_description",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-09-23",
+            "endTime": "2024-09-26",
+            "dependencies": [
+                "P2-T1"
+            ],
+            "responsiblePerson": "Jane Smith"
+        },
+        {
+            "id": "P2-T3",
+            "taskName": "Develop Material File Upload and Storage Functionality",
+            "correspondingPhase": "Content Sharing Development",
+            "correspondingFeature": "material_file",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-27",
+            "endTime": "2024-09-29",
+            "dependencies": [
+                "P2-T2"
+            ],
+            "responsiblePerson": "Bob Johnson"
+        },
+        {
+            "id": "P2-T4",
+            "taskName": "Implement Material Rating and Review System",
+            "correspondingPhase": "Content Sharing Development",
+            "correspondingFeature": "material_rating",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-27",
+            "endTime": "2024-09-29",
+            "dependencies": [
+                "P2-T2"
+            ],
+            "responsiblePerson": "Alice Brown"
+        },
+        {
+            "id": "P2-T5",
+            "taskName": "Test Content Sharing Functionality",
+            "correspondingPhase": "Content Sharing Development",
+            "correspondingFeature": "material_id, material_type, material_title, material_description, material_file, material_rating",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-30",
+            "endTime": "2024-09-30",
+            "dependencies": [
+                "P2-T3",
+                "P2-T4"
+            ],
+            "responsiblePerson": "John Doe"
+        }
+    ],
+    [
+        {
+            "id": "P3-T1",
+            "taskName": "Design Course and Teacher Evaluation Interface",
+            "correspondingPhase": "Course and Teacher Evaluation Development",
+            "correspondingFeature": "course_id",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-20",
+            "endTime": "2024-09-22",
+            "dependencies": [],
+            "responsiblePerson": "Designer"
+        },
+        {
+            "id": "P3-T2",
+            "taskName": "Implement Course and Teacher Evaluation Backend",
+            "correspondingPhase": "Course and Teacher Evaluation Development",
+            "correspondingFeature": "course_id",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-09-23",
+            "endTime": "2024-09-26",
+            "dependencies": [
+                "P3-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T3",
+            "taskName": "Implement Course Rating and Teacher Rating Feature",
+            "correspondingPhase": "Course and Teacher Evaluation Development",
+            "correspondingFeature": "course_rating",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-27",
+            "endTime": "2024-09-29",
+            "dependencies": [
+                "P3-T2"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T4",
+            "taskName": "Implement Review Text Feature",
+            "correspondingPhase": "Course and Teacher Evaluation Development",
+            "correspondingFeature": "review_text",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-27",
+            "endTime": "2024-09-29",
+            "dependencies": [
+                "P3-T2"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T5",
+            "taskName": "Test Course and Teacher Evaluation Feature",
+            "correspondingPhase": "Course and Teacher Evaluation Development",
+            "correspondingFeature": "",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-30",
+            "endTime": "2024-09-30",
+            "dependencies": [
+                "P3-T3",
+                "P3-T4"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T6",
+            "taskName": "Deploy Course and Teacher Evaluation Feature",
+            "correspondingPhase": "Course and Teacher Evaluation Development",
+            "correspondingFeature": "",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-30",
+            "endTime": "2024-09-30",
+            "dependencies": [
+                "P3-T5"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P5-T1",
+            "taskName": "Design Academic Event Interface",
+            "correspondingPhase": "Academic Information Development",
+            "correspondingFeature": "academic_event_id, academic_event_title, academic_event_description, academic_event_date",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-20",
+            "endTime": "2024-09-20",
+            "dependencies": [],
+            "responsiblePerson": "Designer"
+        },
+        {
+            "id": "P5-T2",
+            "taskName": "Implement Academic Event Backend",
+            "correspondingPhase": "Academic Information Development",
+            "correspondingFeature": "",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-21",
+            "endTime": "2024-09-22",
+            "dependencies": [
+                "P5-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P5-T3",
+            "taskName": "Implement Academic Event API and UI",
+            "correspondingPhase": "",
+            "correspondingFeature": "",
+            "priority": "",
+            "estimationTime": "",
+            "startTime": "",
+            "endTime": "",
+            "dependencies": [],
+            "responsiblePerson": ""
+        }
+    ],
+    [
+        {
+            "id": "P5-T1",
+            "taskName": "Design Academic Event Database Schema",
+            "correspondingPhase": "Academic Information Development",
+            "correspondingFeature": "academic_event_id",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-20",
+            "endTime": "2024-09-20",
+            "dependencies": [],
+            "responsiblePerson": "John Doe"
+        },
+        {
+            "id": "P5-T2",
+            "taskName": "Implement Academic Event Model",
+            "correspondingPhase": "Academic Information Development",
+            "correspondingFeature": "academic_event_id",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-21",
+            "endTime": "2024-09-22",
+            "dependencies": [
+                "P5-T1"
+            ],
+            "responsiblePerson": "John Doe"
+        },
+        {
+            "id": "P5-T3",
+            "taskName": "Design Academic Event UI",
+            "correspondingPhase": "Academic Information Development",
+            "correspondingFeature": "academic_event_title",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-23",
+            "endTime": "2024-09-23",
+            "dependencies": [],
+            "responsiblePerson": "Jane Doe"
+        },
+        {
+            "id": "P5-T4",
+            "taskName": "Implement Academic Event UI and API",
+            "correspondingPhase": "Academic Information Development",
+            "correspondingFeature": "academic_event_title",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-24",
+            "endTime": "2024-09-25",
+            "dependencies": [
+                "P5-T2",
+                "P5-T3"
+            ],
+            "responsiblePerson": "Jane Doe"
+        },
+        {
+            "id": "P5-T5",
+            "taskName": "Test Academic Event Feature",
+            "correspondingPhase": "Academic Information Development",
+            "correspondingFeature": "academic_event_description",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-24",
+            "endTime": "2024-09-24",
+            "dependencies": [
+                "P5-T4"
+            ],
+            "responsiblePerson": "Bob Smith"
+        },
+        {
+            "id": "P5-T6",
+            "taskName": "Implement Academic Event Description and Date",
+            "correspondingPhase": "Academic Information Development",
+            "correspondingFeature": "academic_event_description",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-21",
+            "endTime": "2024-09-21",
+            "dependencies": [
+                "P5-T2"
+            ],
+            "responsiblePerson": "John Doe"
+        }
+    ],
+    [
+        {
+            "id": "P6-T1",
+            "taskName": "Design Network and Collaboration Features",
+            "correspondingPhase": "Network and Collaboration Development",
+            "correspondingFeature": "user_network_status",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-26",
+            "endTime": "2024-09-28",
+            "dependencies": [],
+            "responsiblePerson": "Designer"
+        },
+        {
+            "id": "P6-T2",
+            "taskName": "Implement User Network Status",
+            "correspondingPhase": "Network and Collaboration Development",
+            "correspondingFeature": "user_network_status",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-09-29",
+            "endTime": "2024-10-02",
+            "dependencies": [
+                "P6-T1"
+            ],
+            "responsiblePerson": "Developer"
+        },
+        {
+            "id": "P6-T3",
+            "taskName": "Design Collaborator Features",
+            "correspondingPhase": "Network and Collaboration Development",
+            "correspondingFeature": "collaborator_id",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-26",
+            "endTime": "2024-09-27",
+            "dependencies": [],
+            "responsiblePerson": "Designer"
+        },
+        {
+            "id": "P6-T4",
+            "taskName": "Implement Collaborator ID and Name",
+            "correspondingPhase": "Network and Collaboration Development",
+            "correspondingFeature": "collaborator_id",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-28",
+            "endTime": "2024-09-30",
+            "dependencies": [
+                "P6-T3"
+            ],
+            "responsiblePerson": "Developer"
+        },
+        {
+            "id": "P6-T5",
+            "taskName": "Test Network and Collaboration Features",
+            "correspondingPhase": "Network and Collaboration Development",
+            "correspondingFeature": "",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-10-02",
+            "endTime": "2024-10-03",
+            "dependencies": [
+                "P6-T2",
+                "P6-T4"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P4-T1",
+            "taskName": "Design Material Recommendation Algorithm",
+            "correspondingPhase": "Material Recommendation Development",
+            "correspondingFeature": "Material Recommendation",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-10-01",
+            "endTime": "2024-10-02",
+            "dependencies": [
+                "P2-T3",
+                "P3-T3"
+            ],
+            "responsiblePerson": "Data Scientist"
+        },
+        {
+            "id": "P4-T2",
+            "taskName": "Implement Material Recommendation Feature",
+            "correspondingPhase": "Material Recommendation Development",
+            "correspondingFeature": "Material Recommendation",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-10-02",
+            "endTime": "2024-10-03",
+            "dependencies": [
+                "P4-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T3",
+            "taskName": "Test Material Recommendation Feature",
+            "correspondingPhase": "Material Recommendation Development",
+            "correspondingFeature": "Material Recommendation",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-10-03",
+            "endTime": "2024-10-04",
+            "dependencies": [
+                "P4-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P7-T1",
+            "taskName": "Design Search and Filtering Interface",
+            "correspondingPhase": "Search and Filtering Development",
+            "correspondingFeature": "search_query, search_result",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-10-04",
+            "endTime": "2024-10-04",
+            "dependencies": [],
+            "responsiblePerson": "Design Team"
+        },
+        {
+            "id": "P7-T2",
+            "taskName": "Implement Search Functionality",
+            "correspondingPhase": "Search and Filtering Development",
+            "correspondingFeature": "search_query, search_result",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-10-05",
+            "endTime": "2024-10-06",
+            "dependencies": [
+                "P7-T1"
+            ],
+            "responsiblePerson": "Development Team"
+        },
+        {
+            "id": "P7-T3",
+            "taskName": "Implement Filtering Functionality",
+            "correspondingPhase": "Search and Filtering Development",
+            "correspondingFeature": "filter_by_institution, filter_by_department, filter_by_material_type",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-10-07",
+            "endTime": "2024-10-08",
+            "dependencies": [
+                "P7-T2"
+            ],
+            "responsiblePerson": "Development Team"
+        },
+        {
+            "id": "P7-T4",
+            "taskName": "Test Search and Filtering Functionality",
+            "correspondingPhase": "Search and Filtering Development",
+            "correspondingFeature": "search_query, search_result, filter_by_institution, filter_by_department, filter_by_material_type",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-10-09",
+            "endTime": "2024-10-09",
+            "dependencies": [
+                "P7-T3"
+            ],
+            "responsiblePerson": "QA Team"
+        }
+    ]
+]

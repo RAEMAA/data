@@ -1,0 +1,74 @@
+[
+    {
+        "category": "Online Posting",
+        "features": [
+            {
+                "featureName": "Product Listing",
+                "flow": "1. **Farmer Registration:**\n   *   Farmer accesses the Hailua website or mobile app.\n   *   Farmer navigates to the registration page.\n   *   Farmer fills out the registration form with personal details (name, address, phone number, bank account details, etc.).\n   *   Farmer agrees to the terms and conditions.\n   *   Farmer submits the registration form.\n   *   System verifies the information and creates a new farmer account.\n   *   Farmer receives a confirmation email or SMS.\n2. **Farmer Login:**\n   *   Farmer accesses the Hailua website or mobile app.\n   *   Farmer enters their registered email/phone number and password.\n   *   Farmer clicks the 'Login' button.\n   *   System authenticates the farmer's credentials.\n   *   Farmer is redirected to their dashboard.\n3. **Product Listing Creation:**\n   *   Farmer navigates to the 'Add Product' or 'List Product' section from their dashboard.\n   *   Farmer selects the product category (e.g., Rice, Fruits, Fish).\n   *   Farmer enters product details:\n        *   Product Name\n        *   Description (including variety, origin, farming practices, etc.)\n        *   Quantity available\n        *   Unit price\n        *   Images (upload multiple images of the product)\n        *   Harvest date\n        *   Expiration date (if applicable)\n        *   Shipping options (e.g., local pickup, delivery within a certain radius)\n        *   Payment options accepted\n   *   Farmer previews the product listing.\n   *   Farmer submits the product listing for review.\n4. **Product Listing Review (Admin):**\n   *   Admin receives a notification of a new product listing.\n   *   Admin reviews the product details, images, and description to ensure they meet the platform's guidelines.\n   *   Admin approves or rejects the product listing.\n   *   If rejected, the admin provides a reason for rejection to the farmer.\n5. **Product Listing Publication:**\n   *   If approved, the product listing is published on the Hailua platform and becomes visible to customers.\n   *   Farmer receives a notification that their product listing is live.\n6. **Product Listing Management:**\n   *   Farmer can edit or remove their product listings from their dashboard.\n   *   Farmer can update the quantity available, price, or other details as needed.\n   *   Farmer can mark a product as 'sold out' or 'unavailable'.",
+                "screens": [
+                    "Registration Screen: Allows new farmers to create an account.",
+                    "Login Screen: Allows registered farmers to access their account.",
+                    "Farmer Dashboard: Provides an overview of the farmer's account, including product listings, orders, and sales.",
+                    "Add Product Screen: Allows farmers to enter product details, upload images, and set pricing.",
+                    "Product Preview Screen: Allows farmers to preview their product listing before submitting it.",
+                    "Admin Product Review Screen: Allows administrators to review and approve or reject product listings.",
+                    "Product Listing Screen (Customer View): Displays the product details to potential customers.",
+                    "Edit Product Screen: Allows farmers to modify existing product listings."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Product Listing",
+        "features": [
+            {
+                "featureName": "Product Listing",
+                "flow": "1. **Farmer Login/Registration:** Farmer accesses the Hailua platform and logs in with existing credentials or registers as a new user.\n2. **Navigate to Product Listing:** Farmer navigates to the 'Sell' or 'My Products' section of the website.\n3. **Initiate New Listing:** Farmer clicks on a 'List a Product' or 'Add New Product' button.\n4. **Select Product Category:** Farmer selects the appropriate category for their product (e.g., Rice, Fruits, Vegetables, Fish).\n5. **Enter Product Details:** Farmer enters detailed information about the product, including:\n    *   Product Name\n    *   Description (including variety, origin, farming practices, etc.)\n    *   Price per unit (e.g., kg, bag)\n    *   Available Quantity\n    *   Unit of Measurement (e.g., kg, bag, piece)\n    *   Harvest Date\n    *   Expiration Date (if applicable)\n    *   Shipping Information (e.g., availability for pickup, delivery radius)\n6. **Upload Product Images:** Farmer uploads high-quality images of the product from different angles.\n7. **Set Shipping Options:** Farmer specifies available shipping options, costs, and delivery areas.\n8. **Set Payment Options:** Farmer selects preferred payment methods (e.g., bank transfer, mobile payment).\n9. **Review Listing:** Farmer reviews all entered information and uploaded images.\n10. **Submit Listing:** Farmer submits the product listing for approval (if required) or publishes it directly.\n11. **Listing Confirmation:** Farmer receives a confirmation message indicating that the product listing has been successfully submitted/published.\n12. **Manage Listings:** Farmer can view, edit, or delete their product listings from the 'My Products' section.",
+                "screens": [
+                    "Farmer Dashboard: Overview of sales, listings, and account information.",
+                    "Product Listing Page: Displays all of the farmer's current product listings.",
+                    "Add New Product - Category Selection: Screen where the farmer selects the category for the product they are listing.",
+                    "Add New Product - Details: Form for entering product details (name, description, price, quantity, etc.).",
+                    "Add New Product - Image Upload: Screen for uploading product images.",
+                    "Add New Product - Shipping Options: Screen for setting shipping options and costs.",
+                    "Add New Product - Payment Options: Screen for selecting preferred payment methods.",
+                    "Review Product Listing: Summary screen to review all entered information before submitting.",
+                    "Listing Confirmation: Confirmation message after successful submission.",
+                    "Edit Product Listing: Screen for modifying existing product listings."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Product Reviews and Ratings",
+        "features": [
+            {
+                "featureName": "Product Review and Rating",
+                "flow": "1. **Customer Browses Product (Customer):** The customer navigates to a product detail page.\n2. **View Existing Reviews (Customer):** The customer scrolls down to the reviews section to read existing reviews and ratings.\n3. **Initiate Review Submission (Customer):** The customer clicks a button or link (e.g., 'Write a Review', 'Rate this Product') to start the review submission process.\n4. **Review Submission Form (Customer):** The customer is presented with a form to enter their review details, including:\n    *   Rating (e.g., star rating from 1 to 5)\n    *   Review Title (optional)\n    *   Detailed Review Text\n    *   Option to upload images/videos (optional)\n5. **Submit Review (Customer):** The customer submits the review form.\n6. **Review Moderation (Admin - Optional):** If moderation is enabled, the review is sent to an administrator for approval before being published.\n7. **Review Publication (System):** The review is published on the product detail page, visible to all customers.\n8. **View Review Summary (System):** The system updates the product's overall rating based on the new review. The review summary (e.g., average rating, number of reviews) is displayed prominently on the product page.\n9. **Report Review (Customer/Admin):** Customers or admins can report inappropriate reviews. Further actions TBD based on report reason.\n10. **Admin Review of Reported Review (Admin):** Admin reviews reported review and takes action (remove, edit, etc.).",
+                "screens": [
+                    "Product Detail Screen: Displays product information, images, price, and a section for displaying customer reviews and ratings.",
+                    "Review Submission Screen: A form where customers can enter their review title, rating (e.g., star rating), detailed review text, and optionally upload images or videos.",
+                    "Review Summary Section: A section on the product detail page that displays the average rating, the total number of reviews, and a breakdown of ratings (e.g., number of 5-star reviews, 4-star reviews, etc.).",
+                    "Report Review Screen: A screen that allows users to report a review for violating community guidelines or other reasons. (Details of report reasons TBD)",
+                    "Admin Review Dashboard: A screen for administrators to view, approve, edit, or delete reviews, and manage reported reviews."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Order Management",
+        "features": [
+            {
+                "featureName": "Order Management for Farmers",
+                "flow": "1. **Customer places an order:** Customer completes the checkout process and submits an order.\n2. **System notifies Farmer:** The system sends a notification (email, SMS, in-app) to the farmer about the new order.\n3. **Farmer views new order:** Farmer logs into their account and navigates to the 'Orders' section.\n4. **Farmer reviews order details:** Farmer views the order details, including customer information, items ordered, quantity, price, shipping address, and payment status.\n5. **Farmer confirms order:** Farmer confirms that they can fulfill the order.\n6. **Farmer updates order status:** Farmer updates the order status to 'Processing'.\n7. **Farmer prepares shipment:** Farmer packages the items for shipment.\n8. **Farmer updates shipping information:** Farmer enters the tracking number and selects the shipping carrier.\n9. **System notifies Customer:** The system sends a notification to the customer with the updated order status and shipping information.\n10. **Farmer marks order as 'Shipped':** Farmer updates the order status to 'Shipped'.\n11. **Order is delivered:** The shipping carrier delivers the order to the customer.\n12. **Farmer marks order as 'Delivered' (optional):** Farmer can optionally mark the order as 'Delivered' after confirmation from the customer or shipping carrier.\n13. **Payment is processed:** Payment is processed and transferred to the farmer's account (if not already done).\n14. **Farmer views order history:** Farmer can view a history of all their orders, including completed and cancelled orders.",
+                "screens": [
+                    "Order List: Displays a list of all orders for the farmer, with filters for status (New, Processing, Shipped, Delivered, Cancelled).",
+                    "Order Details: Displays detailed information about a specific order, including customer information, items ordered, shipping address, payment status, and order history.",
+                    "Update Order Status: Allows the farmer to update the status of an order (e.g., Processing, Shipped, Delivered).",
+                    "Shipping Information: Allows the farmer to enter and update shipping information, including tracking number and shipping carrier.",
+                    "Order History: Displays a list of all past orders, with search and filter options."
+                ]
+            }
+        ]
+    }
+]

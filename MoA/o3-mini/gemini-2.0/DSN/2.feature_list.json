@@ -1,0 +1,54 @@
+[
+    {
+        "category": "User Management & Privacy",
+        "list_feature": [
+            "User profile creation and management",
+            "Privacy settings for profile and content"
+        ]
+    },
+    {
+        "category": "Personal Expression & Content Creation",
+        "list_feature": [
+            "Creating and posting thoughts, feelings, moods, and opinions",
+            "Creating and posting dreams",
+            "Creating and posting ideas",
+            "Expressing individual opinions",
+            "Managing content within a personal space"
+        ]
+    },
+    {
+        "category": "Interaction & Collaboration",
+        "list_feature": [
+            "Commenting on posts",
+            "Liking/reacting to posts",
+            "Providing feedback on ideas",
+            "Conducting informal surveys",
+            "Participating in informal surveys",
+            "Direct messaging/Private communication",
+            "Notifications"
+        ]
+    },
+    {
+        "category": "Connection & Discovery",
+        "list_feature": [
+            "Searching for users, dreams, and ideas",
+            "Connecting with other users",
+            "Features to connect users with similar dream experiences",
+            "Features to connect users with similar aspirations"
+        ]
+    },
+    {
+        "category": "Community & Support",
+        "list_feature": [
+            "Features facilitating community interaction",
+            "Features facilitating finding support"
+        ]
+    },
+    {
+        "category": "Platform Core Functionality",
+        "list_feature": [
+            "User authentication and authorization",
+            "Content sharing options (defining visibility like personal space/private or global/public)"
+        ]
+    }
+]

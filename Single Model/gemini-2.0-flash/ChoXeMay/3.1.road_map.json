@@ -1,0 +1,64 @@
+[
+    {
+        "id": "P1",
+        "phase": "Phase 1: Core Marketplace & User Account Setup",
+        "feature list": [
+            "User Registration",
+            "User Login",
+            "Motorcycle Listings",
+            "Buy Items",
+            "Sell Items"
+        ],
+        "estimatedTime": "8 weeks",
+        "startTime": "2023-10-26",
+        "endTime": "2023-12-21",
+        "dependencies": []
+    },
+    {
+        "id": "P2",
+        "phase": "Phase 2: Enhanced Marketplace Functionality",
+        "feature list": [
+            "Parts Listings",
+            "Accessories Listings",
+            "Search Functionality",
+            "Profile Management"
+        ],
+        "estimatedTime": "6 weeks",
+        "startTime": "2023-12-22",
+        "endTime": "2024-02-01",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P3",
+        "phase": "Phase 3: User Credibility System Implementation",
+        "feature list": [
+            "Credibility Score",
+            "Transaction History Tracking",
+            "User Feedback System",
+            "Total Value of Items Bought and Sold Tracking"
+        ],
+        "estimatedTime": "8 weeks",
+        "startTime": "2024-02-02",
+        "endTime": "2024-03-28",
+        "dependencies": [
+            "P2"
+        ]
+    },
+    {
+        "id": "P4",
+        "phase": "Phase 4: Listing Prioritization & Community Forum",
+        "feature list": [
+            "Listing Prioritization based on Credibility",
+            "Discussion Forums",
+            "User Experience Sharing"
+        ],
+        "estimatedTime": "6 weeks",
+        "startTime": "2024-03-29",
+        "endTime": "2024-05-09",
+        "dependencies": [
+            "P3"
+        ]
+    }
+]

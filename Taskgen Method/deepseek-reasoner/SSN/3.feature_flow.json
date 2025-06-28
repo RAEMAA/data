@@ -1,0 +1,360 @@
+[
+  {
+    "category": "Academic Resources",
+    "features": [
+      {
+        "featureName": "Digital Library Access to Journals and E-Books",
+        "flow": "1. [Student/Researcher] authenticates via Login Verification Screen using institutional credentials. 2. Navigates to Academic Library Hub from Dashboard, filtered by 'Journals' or 'E-Books'. 3. Applies advanced filters: Journal Name/ISSN, Publication Date Range, Impact Factor (≥2.0), ISBN/DOI, and Peer-Review Status. 4. [Researcher] activates 'Full-Text Access' toggle to filter open-access/paywalled content. 5. System displays results with priority to high-citation works and institutional subscription availability. 6. User selects resource > previews 10% content (abstract + methodology section) with watermark. 7. [Student] requests full access via institutional proxy; [Researcher] uses 'Cite Later' button to save references. 8. Download triggers license validation for DRM-protected e-books and concurrent user limits for journals.",
+        "screens": [
+          "Academic Library Hub (Category selector: Journals/E-Books/Archives)",
+          "Advanced Search Screen (Discipline-specific filters + citation metrics)",
+          "Journal Viewer Screen (Structured tabs: Abstract/Figures/References)",
+          "E-Book Reader Screen (Chapter navigation + annotation sync)",
+          "Access Request Modal (Institutional proxy gateway)"
+        ]
+      },
+      {
+        "features": [
+          {
+            "featureName": "Material Upload",
+            "flow": "1. [Student/Researcher] Navigates to 'Upload Material' via university-specific dashboard. 2. Selects target course (e.g., Algebra A1) and affiliated university network from dynamic dropdown (prioritizes enrolled institutions). 3. Inputs metadata: title (auto-suggested based on course), description (500-character limit), tags (system-suggested + custom), file type (PDF/DOCX/PPT). 4. System validates file: ≤50MB, scans for malware, blocks non-academic formats. 5. Preview generated with SSN watermark overlay. 6. [User] Confirms upload; material is published to selected course repository with university access restrictions. 7. System updates contribution history and awards platform reputation points.",
+            "screens": [
+              "Dashboard Screen: Personalized workspace showing enrolled universities/courses + upload shortcut (role-based: researchers see 'Research Repository' tab).",
+              "University/Course Selector Screen: Hierarchical dropdown (University → Department → Course) with search functionality.",
+              "Metadata Input Screen: Auto-fill course code, instructor name (for verified researchers), smart tag suggestions based on course syllabus.",
+              "Security Validation Screen: Clear error messages for invalid files (e.g., 'PPTX not allowed for Calculus 101') with retry option.",
+              "Watermarked Preview Screen: Side-by-side view of original vs watermarked version with download disclaimer.",
+              "Upload Analytics Screen: Displays material reach (views/downloads) and peer ratings post-upload."
+            ]
+          },
+          {
+            "featureName": "Material Search",
+            "flow": "1. [Student/Researcher] Activates unified search bar (available campus-wide). 2. Enters keywords (e.g., 'Linear Algebra Proofs') with AI-assisted query expansion. 3. Applies filters: home university priority, course code (e.g., MATH202), file type, contributor role (students/instructors). 4. Views results ranked by: a) University affiliation match, b) Peer rating, c) Instructor verification badge. 5. Uses saved search templates (e.g., 'My Thesis References') for recurrent needs. 6. Downloads material (triggers download counter) or shares via university-specific channels.",
+            "screens": [
+              "Federated Search Screen: Unified interface with voice-to-text input and visual filters (e.g., 'Only My Universities' toggle).",
+              "AI Filter Assistant Screen: Contextual filters like 'Materials used by top-performing students' based on academic analytics.",
+              "Institutional Compliance Screen: Warns when accessing materials from non-affiliated universities (e.g., 'This resource requires Hanoi University access').",
+              "Collaborative Search Screen: Shared search sessions where study groups can co-curate materials.",
+              "Download Management Screen: Track download history with expiration dates for licensed content."
+            ]
+          },
+          {
+            "featureName": "Material Preview",
+            "flow": "1. [Student] Accesses resource via search result or shared link. 2. System enforces preview rules: 10-page limit for PDFs, 5-slide preview for PPTs (full access requires login/department approval). 3. Dynamic watermark shows viewer's username and timestamp. 4. [Researcher] Adds public annotations (peer-reviewed mode) or private notes synced to SSN cloud. 5. Quality assessment: Rates content (1-5 stars) and flags inaccuracies (escalates to course moderator). 6. Requests full access: Triggers approval workflow (instructor/uploader permission required for restricted files).",
+            "screens": [
+              "Secure Preview Screen: Browser-based viewer without download capability (prevents caching/printing).",
+              "Annotation Layer Screen: Overlay UI for highlighting text + adding context-aware comments (e.g., 'See Chapter 3 in Textbook X').",
+              "Peer Review Screen: Structured rating form with criteria: clarity, accuracy, usefulness (weighted by user role).",
+              "Access Request Screen: Form to specify purpose (e.g., 'Thesis Research') and duration needed for restricted materials.",
+              "Version History Screen: Compare updates for materials revised by original uploaders (available for instructor-verified content)."
+            ]
+          }
+        ]
+      },
+      {
+        "features": [
+          {
+            "featureName": "Researcher Database Search Integration",
+            "flow": "1. (Researcher) Log in to SSN using institutional credentials. 2. (Researcher) Navigate to 'Database Search' from the dashboard. 3. (System) Verify API connection status with JSTOR/PubMed; display error if unavailable. 4. (Researcher) Input search query (keywords, authors, titles) and select target databases. 5. (Researcher) Apply filters (publication date range, subject area, peer-reviewed status). 6. (System) Display paginated results with preview snippets. 7. (Researcher) Sort results by relevance/date/citations. 8. (Researcher) Click result to view abstract/metadata. 9. (System) Check full-text access rights via institutional subscriptions. 10a. (Researcher) If accessible, view/download full text in integrated viewer. 10b. (Researcher) If restricted, request document via interlibrary loan integration.",
+            "screens": [
+              "Login Screen: Institutional authentication",
+              "Dashboard Screen: Navigation hub with 'Database Search' shortcut",
+              "API Connection Status Screen: Real-time JSTOR/PubMed API health monitoring",
+              "Database Search Screen: Unified search bar with database selector and advanced filters",
+              "Search Results Screen: Paginated list with sortable columns and preview pane",
+              "Full-Text Viewer Screen: In-app document viewer with citation tools",
+              "Access Denied Modal: Explains restricted access and offers alternative retrieval options",
+              "API Settings Screen: Manage institutional API keys/authentication tokens"
+            ]
+          },
+          {
+            "featureName": "Institutional API Connection Management",
+            "flow": "1. (System Admin) Authenticate via dedicated Admin Login Screen with two-factor verification. 2. (System Admin) Navigate to 'API Settings' from the Admin Dashboard. 3. (System) Display API Credential Management Screen with existing token statuses (JSTOR/PubMed). 4. (System Admin) Input/update authentication tokens per database, including expiration date configuration. 5. (System Admin) Trigger 'Test Connection' to validate API endpoints. 6. (System) Execute test queries, verify token validity, and return latency metrics. 7a. (System) If successful: Update Connection Test Report Screen with timestamped success logs and API response samples. 7b. (System) If failed: Display Error Resolution Modal with error codes (e.g., 401 Unauthorized, 504 Gateway Timeout) and troubleshooting checklist. 8. (System Admin) Retry connection after token adjustment or consult institutional IT via integrated ticket system. 9. (System) Automatically log all configuration changes in Audit Log Screen with admin ID and modified parameters.",
+            "screens": [
+              "Admin Login Screen: Secure entry with role-based access control",
+              "Admin Dashboard: Central hub with API Management card and system health widgets",
+              "API Credential Management Screen: Form for token input/update with encryption status indicators",
+              "Connection Test Report Screen: Detailed diagnostics including response times, data limits, and API version compatibility",
+              "Error Resolution Modal: Contextual troubleshooting guide with network diagnostic tools",
+              "Audit Log Screen: Immutable record of API configuration changes and access attempts",
+              "API Health Dashboard: Real-time monitoring of active database connections and usage metrics"
+            ]
+          }
+        ]
+      },
+      {
+        "featureName": "Textbook Rental & Purchase System",
+        "flow": "1. **Search for Textbook (Student):** Student enters keywords (e.g., course name, ISBN) or filters by subject, university, or condition. 2. **Select Textbook (Student):** Student views textbook details with dual CTA buttons for rental/purchase. 3. **Choose Transaction Type (Student):** Student selects 'Rent' or 'Buy' option. 4a. **Rental Flow:** If renting, student selects start/end dates; system calculates total cost dynamically. 4b. **Purchase Flow:** If buying, student confirms permanent ownership via pop-up disclaimer about non-refundable digital/physical goods. 5. **Payment Processing (Student):** System distinguishes between rental (recurring/subscription logic) and purchase (one-time charge) transactions. Vietnamese payment gateways (MoMo/VNPay) display appropriate transaction labels. 6. **Order Confirmation (Student):** For rentals: Summary with pickup/delivery instructions. For purchases: Digital download link or shipping tracker (logistics partner integration required). 7. **Order Management (Student):** Student views separate tabs for active rentals, purchase history, and cancellation/return policies. 8. **Lender/Seller Management (Lender/Student):** Lender posts textbooks with rent/buy toggle, manages inventory, and responds to both rental extensions and purchase requests.",
+        "screens": [
+          "Textbook Search Screen: Search bar, filters, and grid/list view with rent/buy indicators.",
+          "Textbook Details Screen: High-resolution images, pricing comparison (rent vs. buy), lender/seller ratings, and dual 'Rent Now'/'Buy Now' CTAs.",
+          "Rental Duration Screen: Calendar picker and dynamic cost calculator (exclusive to rental flow).",
+          "Purchase Confirmation Screen: Ownership disclaimer, shipping address input (for physical books), and 'Confirm Purchase' CTA.",
+          "Payment Screen: Transaction-type header (Rental/Purchase), secure gateway integration, and payment method selector.",
+          "Order Confirmation Screen: Adaptive layout showing rental pickup QR code or purchase delivery tracker with in-app chat link.",
+          "Order Management Dashboard: Tabs for 'Active Rentals,' 'Purchase History,' and 'Transaction Dispute' section.",
+          "Lender/Seller Dashboard: Inventory management with rent/buy toggles, sales analytics, and integrated shipping status updates (for purchases)."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Course Evaluations",
+    "features": [
+      {
+        "featureName": "Course and Instructor Evaluation",
+        "flow": "1. [Student] Authenticates via Login Screen\n2. [Student] Accesses Course Dashboard showing enrolled courses with evaluation status badges\n3. [Student] Selects Algebra A1 course card to view Course Details Screen\n4. [Student] Initiates evaluation through prominent 'Evaluate Now' button\n5. [Student] Rates 8 predefined criteria (Content Relevance, Instructor Clarity, Grading Fairness, etc.) using granular 10-point scales\n6. [Student] Provides structured feedback through multiple text fields: Strengths, Areas for Improvement, Career Application\n7. [Student] Reviews evaluation summary screen before final submission\n8. [System] Stores evaluation data and updates anonymized metrics\n9. [System] Triggers email confirmation to student and department coordinator",
+        "screens": [
+          {
+            "name": "Authentication Gateway",
+            "description": "Multi-factor login interface ensuring secure access to evaluation features. Validates user identity to protect sensitive academic feedback and maintain data privacy compliance."
+          },
+          {
+            "name": "Course Matrix Dashboard",
+            "description": "Grid view displaying enrolled courses with evaluation status badges and progress bars. Enables students to track completion rates and prioritize evaluations, fostering collaborative academic accountability."
+          },
+          {
+            "name": "Evaluation Wizard",
+            "description": "Multi-step interface guiding students through rating criteria with progress tracking. Features dynamic tooltips explaining evaluation metrics to ensure consistent, informed feedback across all users."
+          },
+          {
+            "name": "Feedback Composition Panel",
+            "description": "Structured text areas with AI-powered suggestions for constructive feedback. Encourages detailed insights on course applicability to career goals while maintaining respectful communication standards."
+          },
+          {
+            "name": "Validation Screen",
+            "description": "Comparison interface showing current vs historical evaluations. Allows students to verify consistency in their feedback while preserving privacy through anonymized historical data displays."
+          },
+          {
+            "name": "Analytics Dashboard",
+            "description": "Interactive heatmaps visualizing rating distributions across departments/semesters. Provides aggregated insights for academic collaboration while strictly anonymizing individual user data."
+          },
+          {
+            "name": "Administrator Preview",
+            "description": "Privileged view showing evaluation trends and patterns without personal identifiers. Enables institutional quality control while adhering to platform privacy policies for academic data handling."
+          }
+        ]
+      },
+      {
+        "featureName": "Anonymous Course Feedback Submission",
+        "flow": "1. [Student] Navigates to 'Submit Feedback' section via course dashboard. 2. [Student] Accesses Access Control Screen: Selects university (auto-populated) > chooses course from dropdown of enrolled courses. 3. [System] Validates active enrollment status without exposing student identifier. 4. [Student] Enters Feedback Form Screen: Rates instructor (1-5 stars), course content (1-5 stars), and selects difficulty (Easy/Moderate/Challenging dropdown). Optional 500-character comment field with anonymity assurance. 5. [Student] Submits form > system generates unique anonymized ticket ID (format: SSN-XXX-YYYYMMDD). 6. [System] Displays Submission Confirmation Screen: Non-dismissible modal with ticket ID, submission timestamp, and warning that feedback cannot be edited post-submission.",
+        "screens": [
+          "Access Control Screen: Header 'Select Course for Feedback' with university/course dropdowns (searchable, grayed-out if only 1 enrollment). Anonymity disclaimer: 'Your identity will not be shared with instructors or peers.'",
+          "Feedback Form Screen: Vertical layout with labeled rating sections (stars highlight on hover), difficulty dropdown under content rating. Comment field placeholder: 'Share specific suggestions (optional) - this will remain anonymous.'",
+          "Submission Confirmation Screen: Overlay modal with checkmark icon, bold ticket ID, and timer (auto-redirects to dashboard after 15 seconds). Secondary option: 'Download Receipt as PDF' with watermark stating 'Anonymous Submission'."
+        ]
+      },
+      {
+        "featureName": "Access Historical Evaluation Data",
+        "flow": "1. [Student] Logs into SSN account via Authentication Screen. 2. [Student] Navigates to Dashboard Screen > selects 'Evaluations' tab. 3. [Student] Clicks 'Historical Data' button on Historical Evaluations Screen. 4. [Student] Sets filters (semester: 2020-2023, course: Algebra A1, instructor: Dr. Nguyen) on Filter Screen. 5. [System] Displays trend visualization (line chart: avg. ratings per semester; word cloud: common feedback themes) on Results Screen. 6. [Student] Clicks Q3-2022 data point to view detailed qualitative feedback on Evaluation Details Screen. 7. [Student] Exports selected dataset as PDF with course/instructor metadata via Export Data Screen.",
+        "screens": [
+          "Authentication Screen: Handles secure user login with institutional credentials.",
+          "Dashboard Screen: Displays quick-access widgets for evaluations, courses, and notifications.",
+          "Historical Evaluations Screen: Shows chronological list of available evaluation periods with summary statistics.",
+          "Filter Screen: Enables multi-criteria selection (date picker, dropdowns for courses/instructors, rating thresholds).",
+          "Results Screen: Interactive data visualization panel with toggleable chart types and comparative analysis tools.",
+          "Evaluation Details Screen: Presents granular data (individual ratings, anonymized comments, response rate metrics).",
+          "Export Data Screen: Customizes export scope (full dataset/selected range) and file format preferences."
+        ]
+      },
+      {
+        "featureName": "Course Comparison Tool",
+        "flow": "1. Student navigates to the Course Comparison Tool via the university dashboard or course catalog. 2. Student selects 2-4 courses using a search/autocomplete field or browsing their enrolled university networks. 3. Student chooses comparison metrics (e.g., instructor rating distribution, average workload hours/week, resource availability %, career relevance score). 4. System displays side-by-side comparison with visual charts/metric summaries and anonymized peer comments. 5. Student saves comparison to personal profile or shares via SSN groups/private messages. 6. Student accesses comparison history for future reference.",
+        "screens": [
+          "Course Selection Screen: Search/browse interface with multi-university course listings and selection validation",
+          "Metric Customization Screen: Toggle-based UI for selecting comparison criteria with metric descriptions",
+          "Comparison Results Screen: Responsive layout with tabbed/metric-filtered data visualization panels",
+          "Sharing Modal: Options to share via SSN groups, email, or generate a public link with access permissions",
+          "Comparison History Screen: Chronological list of saved comparisons with search/filter capabilities"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Research Collaboration",
+    "features": [
+      {
+        "featureName": "Academic Collaboration Matchmaking",
+        "flow": "1. **Student/Researcher/Educator** accesses Matchmaking Dashboard via main navigation. 2. **User** completes/updates Academic Profile via dynamic form (expertise: Vietnamese course codes, research keywords, publication history). 3. **System** executes matching algorithm: 60% weight on expertise overlap, 25% on shared institutional networks (e.g., Hanoi University peers), 15% on project timeline compatibility. 4. **User** filters suggestions by discipline/institution/compatibility score using sidebar controls. 5. **User** initiates Profile Preview to view collaborator's SSN activity history (shared resources, peer ratings) and current project load. 6. **User** sends formal Collaboration Request with templated pitch document (research objectives, methodology, expected contributions). 7. **Recipient** receives in-app Notification Center alert with request summary; accepts/declines with optional feedback. 8. Upon acceptance: **System** auto-generates Shared Workspace with version-controlled document storage, integrated task manager, and cross-university calendar sync. 9. **System** monitors collaboration metrics (task completion rate, document engagement) to refine future matches.",
+        "screens": [
+          "Matchmaking Dashboard (Card-based UI showing 'Top Matches', 'Active Collaborations', and 'Trending Research Topics')",
+          "Academic Profile Builder (Multi-step form with field validation and integration with university enrollment databases)",
+          "Algorithm Configuration Panel (Advanced users adjust matching weightages for specific projects)",
+          "Collaboration Feed (Activity stream showing new matches, request status updates, and workspace notifications)",
+          "Match Filter Interface (Drag-and-drop priority sliders for institution proximity, expertise seniority, and language preferences)",
+          "Collaboration Workspace (Dedicated space with LaTeX editor, dataset upload wizard, and citation generator)",
+          "Post-Collaboration Review Screen (Quality assessment survey and publication outcome tracking)"
+        ]
+      },
+      {
+        "featureName": "Collaborative Paper Writing",
+        "flow": "1. [Lead Researcher] Authenticates via SSN institutional credentials. 2. Accesses cross-university research hub showing active collaborations. 3. Initiates project via 'New Paper' wizard: a) Selects primary discipline from Vietnam-specific taxonomy b) Tags multiple affiliated institutions c) Enables multi-language support (Vietnamese/English). 4. Populates metadata: Title (auto-suggest based on recent citations), Abstract (AI-assisted writing), Keywords (linked to national research priority areas). 5. Invites collaborators through: a) @mentioning researchers from partner universities b) Filtering Vietnam Research Foundation database by h-index/institution c) Sending institutional liaison requests. 6. Configures role matrix: Lead Author (full edit rights), Co-Author (section-specific edits), Reviewer (comment-only), Advisor (track changes mode). 7. Uploads LaTeX/Word draft to version-controlled repository with automated citation formatting (APA/Harvard styles). 8. [Collaborators] Receive encrypted notifications with institutional authentication requirements. 9. Concurrent editing features: a) Conflict resolution panel for overlapping edits b) Side-by-side comparison of Vietnamese/English versions c) Automated translation layer. 10. Integrated Vietnam Research Council compliance checker: Flags ethical guidelines and funding disclosure requirements. 11. Multi-institution submission pipeline: Bundles paper with cross-university endorsement certificates. 12. Post-publication tracking: Altmetrics dashboard showing impact across Vietnamese universities and global partners.",
+        "screens": [
+          "Institutional Gateway Screen - Verifies university affiliation before granting collaboration access",
+          "Multi-University Project Canvas - Visualizes contributing institutions via interactive Vietnam map overlay",
+          "Role Configuration Matrix - Drag-to-assign permissions grid showing researcher/institution relationships",
+          "Live Co-Editing Interface - Split-screen view with synchronized scroll, inline citation popups",
+          "Cross-Cultural Review Panel - Highlights potential terminology conflicts between Vietnamese and international collaborators",
+          "Milestone Tracker - Gantt chart synchronized with Vietnam academic calendars and conference deadlines",
+          "Institutional Endorsement Dashboard - Tracks approval progress across partner universities' research offices",
+          "Post-Submission Impact Sphere - Radial diagram showing paper's reach across education levels (university → high school)"
+        ]
+      },
+      {
+        "featureName": "Funding Alerts & Grant Management",
+        "flow": "1. **Admin Posts Funding Opportunity**: Admin creates grant listings (title, deadline, criteria, funding amount) via Grant Posting Screen. 2. **Researcher Customizes Alerts**: Researcher selects keywords (e.g., STEM fields), funding ranges (min $10k), and preferred institutions on Alert Customization Screen. 3. **Automated Matching & Alerts**: System triggers real-time email/SSN dashboard notifications (Funding Alert Screen) when grants match researcher profiles. 4. **Multi-Party Application Process**: Researcher drafts proposals with integrated document templates, invites collaborators via @mention in Application Drafting Screen. 5. **Cross-Institution Workspace**: Team members from different universities co-edit materials, track revisions, and assign tasks via Collaboration Hub Screen with version control. 6. **Unified Admin Oversight**: Admins review compliance across institutions using Cross-Institution Dashboard, flag conflicts of interest, and route applications to reviewers. 7. **Post-Disbursement Tracking**: Approved teams submit milestone reports directly to funders through Collaboration Hub Screen while admins monitor fund utilization via Admin Grant Management Screen.",
+        "screens": [
+          "Grant Posting Screen: Admin interface with rich-text editor, budget breakdown fields, and institutional eligibility checkboxes.",
+          "Alert Customization Screen: Researcher profile with sliding scale for funding ranges and institution priority rankings.",
+          "Funding Alert Screen: Grid view of matched grants with 'Save Draft' button and collaborator suggestion panel.",
+          "Application Drafting Screen: Dynamic form with auto-save, citation manager integration, and collaborator permission settings.",
+          "Collaboration Hub Screen: Multi-window workspace combining document editor, team chat, and progress tracking Gantt charts.",
+          "Cross-Institution Dashboard: Heatmap showing application distribution across universities with conflict resolution flags.",
+          "Admin Grant Management Screen: Audit trail for fund disbursements, integrated e-signature capture, and compliance checklist overlay."
+        ]
+      },
+      {
+        "featureName": "Cross-disciplinary research discussion forums",
+        "flow": "1. University-authenticated users access forums via institutional credentials. 2. Researchers/educators discover relevant discussions using discipline/university filters or AI-enhanced semantic search. 3. Thread creation wizard guides users through compliance checks with institutional policies and smart tagging. 4. Real-time co-editing enables collaborative document creation with @mentions and version control. 5. Moderators review content through prioritized queues with plagiarism detection. 6. Users receive smart notifications with focus-time scheduling options. Roles: Researchers/educators create content, all users collaborate, moderators enforce policies.",
+        "screens": [
+          "Forum Directory: Tile-based navigation interface for discovering discussions across disciplines and institutions",
+          "Advanced Search: Auto-complete field with discipline/university filters and semantic query processing",
+          "Thread Creation Wizard: Step-by-step interface with policy validation and smart tag suggestions",
+          "Collaborative Thread View: Unified workspace combining discussion threads with resource attachments",
+          "Real-Time Editor: Document co-creation tool with LaTeX support and inline feedback options",
+          "Moderation Dashboard: Prioritized content queue with plagiarism alerts and resolution workflows",
+          "Smart Notifications: Customizable alert panel with scheduling for focused work periods"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Multi-Institutional Networking",
+    "features": [
+      {
+        "featureName": "Inter-university Event Calendar",
+        "flow": "1. [Event Organizer] Initiate Event Draft: Organizer selects 'Create Event' from dashboard, chooses 'Inter-university' visibility tag. 2. [Event Organizer] Set Cross-Institutional Parameters: Specify partner institutions, select academic domains (e.g., AI Research, Environmental Science), and set language preferences (Vietnamese/English). 3. [System] Compliance Check: Auto-verify institutional affiliations and prevent scheduling conflicts with major exams via academic calendar integration. 4. [Moderator] Multi-Institution Approval: Designated moderators from each partner university review event relevance within 24hrs. 5. [System] Dynamic Distribution: Publish event to all approved institutions' hubs with localized timezone display. 6. [Student/Researcher] Collaborative Registration: Users register with institutional verification, select breakout session preferences, and submit discussion topics. 7. [System] Pre-Event Collaboration: Auto-create Slack/Discord channels 72hrs pre-event for material sharing. 8. [Attendee] Live Participation: Join hybrid events via integrated Zoom/SSN interface with real-time translation. 9. [System] Post-Event Sync: Auto-archive recordings to institutional repositories and update user profiles with participation credentials. 10. [Researcher] Collaboration Follow-Up: Tag topics from event discussions to SSN's collaboration matchmaking algorithm.",
+        "screens": [
+          "Cross-Institutional Event Builder: Multi-step form with institution selection chips, domain tagging, and moderation routing options.",
+          "Approval Workflow Dashboard: Moderator view showing pending events with institution-specific compliance indicators and voting system.",
+          "Time-Zone Optimized Calendar: Interactive map overlay showing event times converted to local timezones of participating universities.",
+          "Breakout Session Customizer: Pre-event screen for attendees to select workshop tracks and submit discussion questions.",
+          "Live Event Interface: Unified video/chat panel with side-by-side access to shared materials and participant bios.",
+          "Academic Credential Tracker: Post-event screen showing earned participation certificates and generated collaboration opportunities."
+        ]
+      },
+      {
+        "featureName": "Alumni Networking Portal",
+        "flow": "1. [Alumni/Mentor] Register/login and complete alumni profile with career details, skills, and institutional affiliations. 2. [Alumni/Student] Search/filter alumni by university, major, graduation year, or expertise using multi-institutional tags. 3. [Alumni/Student] Send connection request with optional mentorship inquiry message. 4. [Mentor] Create mentorship availability slots and specify preferred communication channels. 5. [Student] Request scheduled mentorship session with justification of academic/career needs. 6. [Alumni] Share industry resources/job opportunities to connected students/alumni. 7. [All Roles] Participate in university-specific alumni discussion threads.",
+        "screens": [
+          "Alumni Profile Setup Screen: Collects career history, mentorship preferences, and institutional affiliations.",
+          "Alumni Directory Screen: Interactive list with filters for institutions, expertise, and mentorship availability.",
+          "Connection Request Screen: Enables personalized messages with mentorship intent selection.",
+          "Mentorship Management Screen: Calendar integration for session scheduling and progress tracking.",
+          "Multi-Institutional Selector Screen: Allows users to toggle between different university alumni networks.",
+          "Resource Sharing Screen: Drag-and-drop interface for documents with institutional access permissions.",
+          "Mentorship Dashboard Screen: Central hub for pending requests, session history, and skill endorsement notifications.",
+          "Alumni Discussion Board Screen: University-branded forums with threaded conversations and file attachments."
+        ]
+      },
+      {
+        "featureName": "Special Interest Group Creation",
+        "flow": "1. [Admin/Researcher] Access cross-institutional group creation via 'Academic Networks' dropdown. 2. Complete Group Profile: Enter interdisciplinary focus areas (e.g., 'AI in Education') with multi-select academic tags spanning institutions. 3. Configure Collaboration Scope: Toggle between private (invite-only) and public (discoverable across SSN universities) visibility. 4. Invite Members: Use federated search combining institution affiliations (badges showing Hanoi University vs. Ho Chi Minh University) and research expertise filters. 5. Set Tiered Permissions: Assign project leadership roles with edit privileges and contributor roles with content submission rights. 6. Activate Group: Auto-generate collaborative workspace with shared repositories and cross-institutional progress tracking. 7. [Members] Initiate cross-university projects through integrated proposal templates with joint authorship capabilities.",
+        "screens": [
+          "Interdisciplinary Group Selector: Screen showing existing cross-institutional groups with visual institution participation metrics.",
+          "Federated Member Search: Interface with dual-column display showing home institution contacts and external academic partners.",
+          "Cross-Institutional Permission Matrix: Grid view mapping member institutions to content access levels (view/edit/admin).",
+          "Joint Project Workspace: Shared environment with synchronized document editing and institution-branded collaboration zones.",
+          "Academic Bridge Dashboard: Visualizes collaboration patterns between institutions using network graphs and activity heatmaps.",
+          "Multilingual Discussion Panel: Threaded conversations with auto-translate toggle for Vietnamese-English academic discourse.",
+          "Cross-Group Analytics: Shows knowledge sharing metrics between universities and impact scores for collaborative outputs."
+        ]
+      },
+      {
+        "featureName": "Partner Discovery & Connection",
+        "flow": "1. Institutional Admin logs into SSN and navigates to the 'Partnerships' section via the institutional dashboard. 2. Admin selects 'Discover Partners' and inputs search criteria (e.g., research domains, academic programs, geographic location). 3. System displays a list of institutions with matching interests, ranked by compatibility scores derived from shared academic goals. 4. Admin reviews partner institution profiles, including collaboration history and active projects. 5. Admin sends a partnership request with a custom message outlining collaboration objectives. 6. Target institution's admin receives an in-app notification and email alert, reviews the request, and accepts/declines. 7. Upon acceptance, both institutions gain access to a shared collaboration space and joint resource pools.",
+        "screens": [
+          "Institutional Dashboard: Central hub for managing partnerships, analytics, and notifications.",
+          "Partner Discovery Screen: Filterable search interface with map/view toggles and compatibility indicators.",
+          "Institution Profile Screen: Detailed overview of academic focus, research output, and past partnerships.",
+          "Partnership Request Screen: Form for drafting requests with templated objectives and terms.",
+          "Collaboration Workspace Screen: Shared space for document exchange, project tracking, and cross-institutional forums."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Institutional Community Management",
+    "features": [
+      [
+        {
+          "featureName": "Join University Network",
+          "flow": "1. **Student/Researcher** navigates to 'University Networks' screen from the main menu. 2. **User** searches or browses available universities via a search bar (with filters: location, courses, research groups) or scrolls a categorized list. 3. **User** selects a university to view its 'University Details' screen (description, member count, associated courses/research groups). 4. **User** clicks 'Join Network' and submits verification (e.g., institutional email validation or student ID/document upload) if required. 5. **Admin** reviews verification documents (automated or manual) and approves/rejects the request. 6. **User** receives a confirmation notification and gains access to the university's community, including course materials and research feeds.",
+          "screens": [
+            "University Networks Screen (list/search with filters, card-based UI)",
+            "University Details Screen (metadata, join button, preview of community content)",
+            "Verification Submission Screen (drag-and-drop document upload, email validation field)",
+            "Confirmation Screen (approval status, access instructions)"
+          ]
+        },
+        {
+          "featureName": "Manage Network Memberships",
+          "flow": "1. **Student/Researcher** accesses 'My Networks' screen from their profile. 2. **User** views all joined universities with toggle options to edit their public profile per network (e.g., display name, bio, privacy settings for course participation visibility). 3. **User** selects 'Leave Network' for a university, triggering a confirmation modal explaining data access loss. 4. **System** revokes membership immediately upon confirmation and updates all contextual feeds. 5. **User** receives an email/SMS notification confirming removal.",
+          "screens": [
+            "My Networks Screen (grid/list view with edit/leave buttons)",
+            "Edit Network Profile Screen (role-based fields: student vs. researcher)",
+            "Confirmation Modal (warning message, irreversible action)"
+          ]
+        },
+        {
+          "featureName": "Switch Between Communities",
+          "flow": "1. **User** clicks the 'Network Switcher' dropdown (globally accessible in the app header). 2. **User** selects a university from their joined networks. 3. **System** updates the UI to reflect the selected community: course materials, research feeds, and member interactions become context-specific. 4. **User** accesses network-specific features like 'Course Discussions' or 'Research Collaboration Hub' based on active selection. 5. **User** may adjust feed preferences per network via contextual filters (e.g., prioritize algebra courses in Network A, AI research in Network B).",
+          "screens": [
+            "Network Switcher Component (dropdown with university logos/names)",
+            "Home Screen (dynamic content: pinned courses/research groups, recent activity)",
+            "Contextual Filters Screen (customizable feed settings per network)"
+          ]
+        }
+      ],
+      {
+        "featureName": "University Network Content Management",
+        "flow": "1. Student/Researcher selects an institution from their joined list (User role: Student/Researcher) -> 2. System displays institution hub home screen with academic channels (e.g., Mathematics Department, Research Collab Group) (User role: All) -> 3. User navigates to specific channel, views pinned resources and active discussions (User role: All) -> 4. User posts course material or research paper with metadata tagging (User role: Content Contributor) -> 5. Moderator reviews submissions via moderation dashboard (User role: Institutional Moderator) -> 6. Peers interact through comments/reactions, triggering notification system (User role: Community Members) -> 7. Automated weekly digest email sent with top channel activities (System action)",
+        "screens": [
+          "Institution Hub Home - Central dashboard showing joined channels, announcements, and quick-access university metrics",
+          "Channel List - Filterable grid of academic/research channels with membership status and activity indicators",
+          "Channel Detail - Threaded discussion interface with resource repository section and pinned moderator announcements",
+          "Create/Join Channel - Modal for requesting new channel creation (with purpose statement field) or browsing joinable public channels",
+          "Content Upload/Post - Multi-tab form supporting file uploads (PDF/PPT/DOC), research data links, and discussion prompts with tagging",
+          "Membership Management - Admin panel for moderators to approve/reject join requests and assign channel roles"
+        ]
+      },
+      {
+        "featureName": "Cross-Institutional Profile Configuration",
+        "flow": "1. **Profile Access**: User accesses their profile via the 'User Profile Dashboard'.\n2. **Institution Selection**: User selects 'Manage Affiliations' to view/add/remove institutions on the 'Affiliation Management Screen'.\n3. **Role Configuration**: For each institution, the user defines their role (e.g., student, researcher) on the 'Role Configuration Screen', triggering automated system verification.\n4. **Role Verification**: User submits institutional credentials (e.g., student ID, faculty email) via the 'Role Verification Interface'; system validates and grants role-based permissions.\n5. **Privacy Settings**: User configures visibility of academic activities per institution on the 'Privacy Settings Screen', selecting options like 'Public', 'Institution-Only', or 'Private'.\n6. **Confirmation**: System updates the profile and displays a success notification with a summary of changes.",
+        "screens": [
+          "User Profile Dashboard: Central interface for profile management and institutional settings.",
+          "Affiliation Management Screen: Displays current institutional memberships and allows adding/removing institutions via search or invites.",
+          "Role Configuration Screen: Enables role selection (e.g., 'Undergraduate Student at University X', 'Visiting Researcher at University Y') with dynamic validation rules.",
+          "Role Verification Interface: Handles credential submission (e.g., ID upload, email verification) and displays verification status.",
+          "Privacy Settings Screen: Allows granular control over visibility of roles, affiliations, and activities per institution."
+        ]
+      },
+      {
+        "featureName": "School-Level Module Configuration",
+        "flow": "1. Admin logs into SSN admin portal (Admin role). 2. Navigates to 'Modular Settings Dashboard'. 3. Selects target institution from 'Institution Selector Screen'. 4. Automated school type detection activates via registry cross-check (K-12/university). 5. Age-based content filters auto-configure: strict cognitive filters for elementary schools/research paper sharing for universities. 6. Parental oversight modules auto-deploy for K-12 with guardian notification workflows. 7. Configures permissions via drag-and-drop 'Module Configuration Interface' with role-based access control. 8. K-12 admins select teacher-guardian collaboration templates. 9. Previews changes in 'Preview Sandbox Screen' with compliance validation against Vietnam's Decree 13/2023/ND-CP. 10. Publishes configuration via 'Deployment Confirmation Screen'. 11. Audit trail generated in 'Parental Module Audit Trail'.",
+        "screens": [
+          "Modular Settings Dashboard: Central hub for module management across institutions",
+          "Institution Selector Screen: Hierarchical school/university list with search",
+          "Module Configuration Interface: Drag-and-drop UI with school-type adaptive toggles",
+          "Permission Management Screen: Role-based access controls per module",
+          "Preview Sandbox Screen: Side-by-side configuration comparison",
+          "Deployment Confirmation Screen: Impact analysis and scheduling",
+          "School Type Detection Banner: Visual school classification verification/override",
+          "Age Filter Matrix: Age-content mapping grid with strictness levels",
+          "Parental Module Audit Trail: History of auto-enabled K-12 features with opt-out tracking",
+          "Compliance Checkpoint Screen: Regulatory validation for child data protection"
+        ]
+      }
+    ]
+  }
+]

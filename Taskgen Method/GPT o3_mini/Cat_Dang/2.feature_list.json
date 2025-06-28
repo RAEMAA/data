@@ -1,0 +1,87 @@
+[
+  {
+    "category": "User Management",
+    "list_feature": [
+      "User Registration",
+      "User Login/Logout",
+      "Profile Management",
+      "Password Recovery"
+    ]
+  },
+  {
+    "category": "Menu and Product Catalog",
+    "list_feature": [
+      "Product Listing",
+      "Detailed Product View",
+      "Product Filtering and Categorization",
+      "Special Offers Display"
+    ]
+  },
+  {
+    "category": "Ordering and Payment",
+    "list_feature": [
+      "Shopping Cart",
+      "Secure Checkout",
+      "Payment Gateway Integration",
+      "Order Tracking"
+    ]
+  },
+  {
+    "category": "Store Information",
+    "list_feature": [
+      "Store Locator",
+      "Contact Information",
+      "Cafe Ambiance Gallery",
+      "Operating Hours"
+    ]
+  },
+  {
+    "category": "Administration",
+    "list_feature": [
+      "Content Management",
+      "Inventory Control",
+      "Order Management",
+      "Report Generation"
+    ]
+  },
+  {
+    "category": "Centralized Data Management",
+    "list_feature": [
+      "Unified Data Repository",
+      "Real-time Data Synchronization",
+      "Data Security & Backup"
+    ]
+  },
+  {
+    "category": "Waiter Order Processing",
+    "list_feature": [
+      "Efficient Order Entry",
+      "Order Modification & Tracking",
+      "Real-time Status Updates"
+    ]
+  },
+  {
+    "category": "Billing Automation",
+    "list_feature": [
+      "Automated Invoice Generation",
+      "Accurate Tax & Discount Computation",
+      "Seamless Payment Integration"
+    ]
+  },
+  {
+    "category": "Revenue Reporting",
+    "list_feature": [
+      "Daily/Monthly Revenue Reports",
+      "Sales Analytics Dashboard",
+      "Trend Analysis & Forecasting"
+    ]
+  },
+  {
+    "category": "Ambiance & Customer Experience",
+    "list_feature": [
+      "Luxurious Interior Coordination",
+      "Romantic Lighting & Music Settings",
+      "Personalized Customer Engagement"
+    ]
+  }
+]

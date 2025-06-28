@@ -1,0 +1,142 @@
+[
+    {
+        "id": "P1",
+        "phase": "Requirements Gathering",
+        "feature_list": [],
+        "estimatedTime": 5,
+        "startTime": "2024-09-16",
+        "endTime": "2024-09-20",
+        "dependencies": []
+    },
+    {
+        "id": "P2",
+        "phase": "System Design",
+        "feature_list": [],
+        "estimatedTime": 10,
+        "startTime": "2024-09-23",
+        "endTime": "2024-10-04",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P3",
+        "phase": "Centralized Management Development",
+        "feature_list": [
+            "Multi-branch operational dashboard",
+            "Real-time data synchronization across branches",
+            "Branch performance comparison"
+        ],
+        "estimatedTime": 15,
+        "startTime": "2024-10-07",
+        "endTime": "2024-10-25",
+        "dependencies": [
+            "P2"
+        ]
+    },
+    {
+        "id": "P4",
+        "phase": "Order and Workflow Streamlining Development",
+        "feature_list": [
+            "Mobile/tablet-based POS for order taking (minimizing waiter movement)",
+            "Table/seat number integration for order routing",
+            "Real-time order status tracking",
+            "Automated order routing to preparation stations"
+        ],
+        "estimatedTime": 20,
+        "startTime": "2024-10-07",
+        "endTime": "2024-11-01",
+        "dependencies": [
+            "P2"
+        ]
+    },
+    {
+        "id": "P5",
+        "phase": "Billing and Payment Development",
+        "feature_list": [
+            "Automatic bill generation",
+            "Multiple payment method integration",
+            "Split billing functionality"
+        ],
+        "estimatedTime": 10,
+        "startTime": "2024-10-07",
+        "endTime": "2024-10-18",
+        "dependencies": [
+            "P2"
+        ]
+    },
+    {
+        "id": "P6",
+        "phase": "Reporting and Analytics Development",
+        "feature_list": [
+            "Branch-level revenue reporting",
+            "Chain-wide revenue reporting",
+            "Revenue trend analysis",
+            "Sales analytics",
+            "Customizable reports"
+        ],
+        "estimatedTime": 15,
+        "startTime": "2024-11-04",
+        "endTime": "2024-11-22",
+        "dependencies": [
+            "P3",
+            "P4",
+            "P5"
+        ]
+    },
+    {
+        "id": "P7",
+        "phase": "Staff Support Development",
+        "feature_list": [
+            "Role-based access control",
+            "Staff scheduling",
+            "Staff performance tracking"
+        ],
+        "estimatedTime": 10,
+        "startTime": "2024-11-04",
+        "endTime": "2024-11-15",
+        "dependencies": [
+            "P3",
+            "P4",
+            "P5"
+        ]
+    },
+    {
+        "id": "P8",
+        "phase": "System Integration and Security Development",
+        "feature_list": [
+            "Multi-branch integration capabilities",
+            "Data encryption and backup",
+            "Access control and authentication"
+        ],
+        "estimatedTime": 10,
+        "startTime": "2024-11-25",
+        "endTime": "2024-12-06",
+        "dependencies": [
+            "P6",
+            "P7"
+        ]
+    },
+    {
+        "id": "P9",
+        "phase": "Testing and Quality Assurance",
+        "feature_list": [],
+        "estimatedTime": 15,
+        "startTime": "2024-12-09",
+        "endTime": "2024-12-27",
+        "dependencies": [
+            "P8"
+        ]
+    },
+    {
+        "id": "P10",
+        "phase": "Deployment and Maintenance Setup",
+        "feature_list": [],
+        "estimatedTime": 10,
+        "startTime": "2024-12-30",
+        "endTime": "2025-01-13",
+        "dependencies": [
+            "P9"
+        ]
+    }
+]

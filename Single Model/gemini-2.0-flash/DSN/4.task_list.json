@@ -1,0 +1,671 @@
+[
+    [
+        {
+            "id": "P1-T1",
+            "taskName": "Design User Profile Screen",
+            "correspondingPhase": "Phase 1: Core User Profile & Content Sharing",
+            "correspondingFeature": "Personal space for sharing thoughts, dreams, emotions, and opinions",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2023-10-26",
+            "endTime": "2023-10-29",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T2",
+            "taskName": "Implement User Profile Backend",
+            "correspondingPhase": "Phase 1: Core User Profile & Content Sharing",
+            "correspondingFeature": "Personal space for sharing thoughts, dreams, emotions, and opinions",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2023-10-29",
+            "endTime": "2023-11-03",
+            "dependencies": [
+                "P1-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T3",
+            "taskName": "Implement User Profile Frontend",
+            "correspondingPhase": "Phase 1: Core User Profile & Content Sharing",
+            "correspondingFeature": "Personal space for sharing thoughts, dreams, emotions, and opinions",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2023-11-03",
+            "endTime": "2023-11-08",
+            "dependencies": [
+                "P1-T2"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P1-T4",
+            "taskName": "Test User Profile Functionality",
+            "correspondingPhase": "Phase 1: Core User Profile & Content Sharing",
+            "correspondingFeature": "Personal space for sharing thoughts, dreams, emotions, and opinions",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2023-11-08",
+            "endTime": "2023-11-10",
+            "dependencies": [
+                "P1-T3"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T5",
+            "taskName": "Design Profile Customization Options",
+            "correspondingPhase": "Phase 1: Core User Profile & Content Sharing",
+            "correspondingFeature": "Profile customization options",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2023-11-10",
+            "endTime": "2023-11-13",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T6",
+            "taskName": "Implement Profile Customization Backend",
+            "correspondingPhase": "Phase 1: Core User Profile & Content Sharing",
+            "correspondingFeature": "Profile customization options",
+            "priority": "Medium",
+            "estimationTime": "5 days",
+            "startTime": "2023-11-13",
+            "endTime": "2023-11-18",
+            "dependencies": [
+                "P1-T5"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T7",
+            "taskName": "Implement Profile Customization Frontend",
+            "correspondingPhase": "Phase 1: Core User Profile & Content Sharing",
+            "correspondingFeature": "Profile customization options",
+            "priority": "Medium",
+            "estimationTime": "5 days",
+            "startTime": "2023-11-18",
+            "endTime": "2023-11-23",
+            "dependencies": [
+                "P1-T6"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P1-T8",
+            "taskName": "Test Profile Customization Functionality",
+            "correspondingPhase": "Phase 1: Core User Profile & Content Sharing",
+            "correspondingFeature": "Profile customization options",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2023-11-23",
+            "endTime": "2023-11-25",
+            "dependencies": [
+                "P1-T7"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T9",
+            "taskName": "Design Text Post Creation Screen",
+            "correspondingPhase": "Phase 1: Core User Profile & Content Sharing",
+            "correspondingFeature": "Text-based posts for sharing dreams and ideas",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2023-11-25",
+            "endTime": "2023-11-28",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T10",
+            "taskName": "Implement Text Post Backend",
+            "correspondingPhase": "Phase 1: Core User Profile & Content Sharing",
+            "correspondingFeature": "Text-based posts for sharing dreams and ideas",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2023-11-28",
+            "endTime": "2023-12-03",
+            "dependencies": [
+                "P1-T9"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T11",
+            "taskName": "Implement Text Post Frontend",
+            "correspondingPhase": "Phase 1: Core User Profile & Content Sharing",
+            "correspondingFeature": "Text-based posts for sharing dreams and ideas",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2023-12-03",
+            "endTime": "2023-12-08",
+            "dependencies": [
+                "P1-T10"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P1-T12",
+            "taskName": "Test Text Post Functionality",
+            "correspondingPhase": "Phase 1: Core User Profile & Content Sharing",
+            "correspondingFeature": "Text-based posts for sharing dreams and ideas",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2023-12-08",
+            "endTime": "2023-12-10",
+            "dependencies": [
+                "P1-T11"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T13",
+            "taskName": "Design Emotion Expression UI",
+            "correspondingPhase": "Phase 1: Core User Profile & Content Sharing",
+            "correspondingFeature": "Ability to express a full spectrum of feelings (joy, despair, etc.)",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2023-12-10",
+            "endTime": "2023-12-13",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T14",
+            "taskName": "Implement Emotion Expression Backend",
+            "correspondingPhase": "Phase 1: Core User Profile & Content Sharing",
+            "correspondingFeature": "Ability to express a full spectrum of feelings (joy, despair, etc.)",
+            "priority": "Medium",
+            "estimationTime": "5 days",
+            "startTime": "2023-12-13",
+            "endTime": "2023-12-18",
+            "dependencies": [
+                "P1-T13"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T15",
+            "taskName": "Implement Emotion Expression Frontend",
+            "correspondingPhase": "Phase 1: Core User Profile & Content Sharing",
+            "correspondingFeature": "Ability to express a full spectrum of feelings (joy, despair, etc.)",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2023-12-18",
+            "endTime": "2023-12-21",
+            "dependencies": [
+                "P1-T14"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P1-T16",
+            "taskName": "Test Emotion Expression Functionality",
+            "correspondingPhase": "Phase 1: Core User Profile & Content Sharing",
+            "correspondingFeature": "Ability to express a full spectrum of feelings (joy, despair, etc.)",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2023-12-21",
+            "endTime": "2023-12-22",
+            "dependencies": [
+                "P1-T15"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P2-T1",
+            "taskName": "Design Global User Connectivity Feature",
+            "correspondingPhase": "Phase 2: Community & Connection Features",
+            "correspondingFeature": "Global user connectivity",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2023-12-22",
+            "endTime": "2023-12-26",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T2",
+            "taskName": "Implement Global User Connectivity Feature",
+            "correspondingPhase": "Phase 2: Community & Connection Features",
+            "correspondingFeature": "Global user connectivity",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2023-12-27",
+            "endTime": "2024-01-02",
+            "dependencies": [
+                "P2-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T3",
+            "taskName": "Test Global User Connectivity Feature",
+            "correspondingPhase": "Phase 2: Community & Connection Features",
+            "correspondingFeature": "Global user connectivity",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-01-03",
+            "endTime": "2024-01-04",
+            "dependencies": [
+                "P2-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T4",
+            "taskName": "Design Search Functionality for Dreams/Interests",
+            "correspondingPhase": "Phase 2: Community & Connection Features",
+            "correspondingFeature": "Search functionality to find users with similar dreams/interests",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-01-05",
+            "endTime": "2024-01-09",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T5",
+            "taskName": "Implement Search Functionality for Dreams/Interests",
+            "correspondingPhase": "Phase 2: Community & Connection Features",
+            "correspondingFeature": "Search functionality to find users with similar dreams/interests",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-01-10",
+            "endTime": "2024-01-16",
+            "dependencies": [
+                "P2-T4"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T6",
+            "taskName": "Test Search Functionality for Dreams/Interests",
+            "correspondingPhase": "Phase 2: Community & Connection Features",
+            "correspondingFeature": "Search functionality to find users with similar dreams/interests",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-01-17",
+            "endTime": "2024-01-18",
+            "dependencies": [
+                "P2-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T7",
+            "taskName": "Design Connection and Collaboration Features",
+            "correspondingPhase": "Phase 2: Community & Connection Features",
+            "correspondingFeature": "Features to facilitate connection and collaboration",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-01-19",
+            "endTime": "2024-01-24",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T8",
+            "taskName": "Implement Connection and Collaboration Features",
+            "correspondingPhase": "Phase 2: Community & Connection Features",
+            "correspondingFeature": "Features to facilitate connection and collaboration",
+            "priority": "Medium",
+            "estimationTime": "6 days",
+            "startTime": "2024-01-25",
+            "endTime": "2024-02-01",
+            "dependencies": [
+                "P2-T7"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        }
+    ],
+    [
+        {
+            "id": "P3-T1",
+            "taskName": "Design Feedback Mechanism UI/UX",
+            "correspondingPhase": "Phase 3: Feedback & Support System",
+            "correspondingFeature": "Mechanism for seeking feedback on shared ideas",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-02-02",
+            "endTime": "2024-02-05",
+            "dependencies": [
+                "P2-T*",
+                "... previous tasks from Phase 2 related to user profiles and content sharing"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T2",
+            "taskName": "Implement Feedback Submission Feature",
+            "correspondingPhase": "Phase 3: Feedback & Support System",
+            "correspondingFeature": "Mechanism for seeking feedback on shared ideas",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-02-06",
+            "endTime": "2024-02-11",
+            "dependencies": [
+                "P3-T1"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P3-T3",
+            "taskName": "Develop Feedback Storage and Retrieval",
+            "correspondingPhase": "Phase 3: Feedback & Support System",
+            "correspondingFeature": "Mechanism for seeking feedback on shared ideas",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-02-06",
+            "endTime": "2024-02-11",
+            "dependencies": [
+                "P3-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T4",
+            "taskName": "Implement Feedback Notification System",
+            "correspondingPhase": "Phase 3: Feedback & Support System",
+            "correspondingFeature": "Mechanism for seeking feedback on shared ideas",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-02-12",
+            "endTime": "2024-02-15",
+            "dependencies": [
+                "P3-T2",
+                "P3-T3"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T5",
+            "taskName": "Design Community Guidelines and Reporting Mechanism",
+            "correspondingPhase": "Phase 3: Feedback & Support System",
+            "correspondingFeature": "Supportive online community environment",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-02-12",
+            "endTime": "2024-02-15",
+            "dependencies": [],
+            "responsiblePerson": "Content Strategist"
+        },
+        {
+            "id": "P3-T6",
+            "taskName": "Implement Reporting Feature",
+            "correspondingPhase": "Phase 3: Feedback & Support System",
+            "correspondingFeature": "Supportive online community environment",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-02-16",
+            "endTime": "2024-02-20",
+            "dependencies": [
+                "P3-T5"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P3-T7",
+            "taskName": "Develop Moderation Tools",
+            "correspondingPhase": "Phase 3: Feedback & Support System",
+            "correspondingFeature": "Supportive online community environment",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-02-16",
+            "endTime": "2024-02-21",
+            "dependencies": [
+                "P3-T5"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T8",
+            "taskName": "Implement Community Guidelines Display",
+            "correspondingPhase": "Phase 3: Feedback & Support System",
+            "correspondingFeature": "Supportive online community environment",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-02-21",
+            "endTime": "2024-02-23",
+            "dependencies": [
+                "P3-T5"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P3-T9",
+            "taskName": "Test Feedback Mechanism",
+            "correspondingPhase": "Phase 3: Feedback & Support System",
+            "correspondingFeature": "Mechanism for seeking feedback on shared ideas",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-02-22",
+            "endTime": "2024-02-24",
+            "dependencies": [
+                "P3-T2",
+                "P3-T3",
+                "P3-T4"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T10",
+            "taskName": "Test Reporting and Moderation Features",
+            "correspondingPhase": "Phase 3: Feedback & Support System",
+            "correspondingFeature": "Supportive online community environment",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-02-24",
+            "endTime": "2024-02-26",
+            "dependencies": [
+                "P3-T6",
+                "P3-T7",
+                "P3-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T11",
+            "taskName": "User Acceptance Testing (UAT) for Feedback and Reporting",
+            "correspondingPhase": "Phase 3: Feedback & Support System",
+            "correspondingFeature": "Mechanism for seeking feedback on shared ideas, Supportive online community environment",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-02-26",
+            "endTime": "2024-02-28",
+            "dependencies": [
+                "P3-T9",
+                "P3-T10"
+            ],
+            "responsiblePerson": "Product Owner"
+        },
+        {
+            "id": "P3-T12",
+            "taskName": "Address UAT Feedback and Bug Fixes",
+            "correspondingPhase": "Phase 3: Feedback & Support System",
+            "correspondingFeature": "Mechanism for seeking feedback on shared ideas, Supportive online community environment",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-02-28",
+            "endTime": "2024-02-29",
+            "dependencies": [
+                "P3-T11"
+            ],
+            "responsiblePerson": "Development Team"
+        }
+    ],
+    [
+        {
+            "id": "P4-T1",
+            "taskName": "Design Collaboration Tool UI/UX",
+            "correspondingPhase": "Phase 4: Inspiration & Collaboration Tools",
+            "correspondingFeature": "Tools to connect users for collaborative solutions",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-03-01",
+            "endTime": "2024-03-05",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T2",
+            "taskName": "Implement User Connection Algorithm",
+            "correspondingPhase": "Phase 4: Inspiration & Collaboration Tools",
+            "correspondingFeature": "Tools to connect users for collaborative solutions",
+            "priority": "High",
+            "estimationTime": "1 week",
+            "startTime": "2024-03-06",
+            "endTime": "2024-03-13",
+            "dependencies": [
+                "P4-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T3",
+            "taskName": "Develop Real-time Collaboration Features (e.g., shared document editing)",
+            "correspondingPhase": "Phase 4: Inspiration & Collaboration Tools",
+            "correspondingFeature": "Tools to connect users for collaborative solutions",
+            "priority": "Medium",
+            "estimationTime": "1 week",
+            "startTime": "2024-03-14",
+            "endTime": "2024-03-21",
+            "dependencies": [
+                "P4-T2"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T4",
+            "taskName": "Implement User Matching Based on Dream/Idea Similarity",
+            "correspondingPhase": "Phase 4: Inspiration & Collaboration Tools",
+            "correspondingFeature": "Tools to connect users for collaborative solutions",
+            "priority": "High",
+            "estimationTime": "6 days",
+            "startTime": "2024-03-22",
+            "endTime": "2024-03-28",
+            "dependencies": [
+                "P4-T2"
+            ],
+            "responsiblePerson": "Data Scientist"
+        },
+        {
+            "id": "P4-T5",
+            "taskName": "Design Inspiration Feed UI/UX",
+            "correspondingPhase": "Phase 4: Inspiration & Collaboration Tools",
+            "correspondingFeature": "Features to inspire users to transform dreams into reality",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-03-01",
+            "endTime": "2024-03-04",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T6",
+            "taskName": "Implement Inspiration Feed (Curated Content, User Success Stories)",
+            "correspondingPhase": "Phase 4: Inspiration & Collaboration Tools",
+            "correspondingFeature": "Features to inspire users to transform dreams into reality",
+            "priority": "Medium",
+            "estimationTime": "1 week",
+            "startTime": "2024-03-05",
+            "endTime": "2024-03-12",
+            "dependencies": [
+                "P4-T5"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T7",
+            "taskName": "Develop Dream Visualization Tool (basic version)",
+            "correspondingPhase": "Phase 4: Inspiration & Collaboration Tools",
+            "correspondingFeature": "Features to inspire users to transform dreams into reality",
+            "priority": "Low",
+            "estimationTime": "1 week",
+            "startTime": "2024-03-13",
+            "endTime": "2024-03-20",
+            "dependencies": [],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T8",
+            "taskName": "Implement 'Dream Board' Feature (User-Specific Inspiration Collection)",
+            "correspondingPhase": "Phase 4: Inspiration & Collaboration Tools",
+            "correspondingFeature": "Features to inspire users to transform dreams into reality",
+            "priority": "Medium",
+            "estimationTime": "1 week",
+            "startTime": "2024-03-21",
+            "endTime": "2024-03-28",
+            "dependencies": [
+                "P4-T6"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T9",
+            "taskName": "Test Collaboration Tools and User Matching",
+            "correspondingPhase": "Phase 4: Inspiration & Collaboration Tools",
+            "correspondingFeature": "Tools to connect users for collaborative solutions",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-03-29",
+            "endTime": "2024-04-02",
+            "dependencies": [
+                "P4-T3",
+                "P4-T4"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T10",
+            "taskName": "Test Inspiration Feed and Dream Visualization Tool",
+            "correspondingPhase": "Phase 4: Inspiration & Collaboration Tools",
+            "correspondingFeature": "Features to inspire users to transform dreams into reality",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-04-03",
+            "endTime": "2024-04-05",
+            "dependencies": [
+                "P4-T6",
+                "P4-T7",
+                "P4-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T11",
+            "taskName": "Bug Fixing and Refinement",
+            "correspondingPhase": "Phase 4: Inspiration & Collaboration Tools",
+            "correspondingFeature": "Tools to connect users for collaborative solutions, Features to inspire users to transform dreams into reality",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-04-06",
+            "endTime": "2024-04-10",
+            "dependencies": [
+                "P4-T9",
+                "P4-T10"
+            ],
+            "responsiblePerson": "Full Stack Developer"
+        },
+        {
+            "id": "P4-T12",
+            "taskName": "Final Testing and Deployment",
+            "correspondingPhase": "Phase 4: Inspiration & Collaboration Tools",
+            "correspondingFeature": "Tools to connect users for collaborative solutions, Features to inspire users to transform dreams into reality",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-04-11",
+            "endTime": "2024-04-11",
+            "dependencies": [
+                "P4-T11"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ]
+]

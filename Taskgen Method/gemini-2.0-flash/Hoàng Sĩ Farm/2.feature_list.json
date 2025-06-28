@@ -1,0 +1,89 @@
+[
+    {
+        "category": "Growth Tracking",
+        "list_feature": [
+            "Weight monitoring",
+            "Daily weight gain calculation",
+            "Growth charts and reports",
+            "Benchmarking against breed standards",
+            "Feed conversion ratio (FCR) tracking"
+        ]
+    },
+    {
+        "category": "Health Monitoring",
+        "list_feature": [
+            "Individual pig health records",
+            "Vaccination schedules and reminders",
+            "Medication tracking and administration",
+            "Disease outbreak alerts",
+            "Mortality tracking and analysis",
+            "Body temperature monitoring"
+        ]
+    },
+    {
+        "category": "Feeding Management",
+        "list_feature": [
+            "Feed consumption tracking",
+            "Automated feeding schedules",
+            "Feed inventory management",
+            "Nutrient analysis and optimization",
+            "Water consumption monitoring",
+            "Feed waste reduction strategies"
+        ]
+    },
+    {
+        "category": "Piglet Supply and Distribution",
+        "list_feature": [
+            "Piglet sourcing management",
+            "Order management and tracking",
+            "Transportation logistics",
+            "Weaning management",
+            "Nursery environment control",
+            "Piglet health certification"
+        ]
+    },
+    {
+        "category": "Farmer Communication and Support",
+        "list_feature": [
+            "Mobile app for farmers",
+            "SMS alerts and notifications",
+            "Knowledge base and FAQs",
+            "Expert consultation access",
+            "Training programs and resources",
+            "Community forum"
+        ]
+    },
+    {
+        "category": "Farm Staff Operations",
+        "list_feature": [
+            "Task management and assignment",
+            "Role-based access control",
+            "Attendance tracking",
+            "Performance monitoring",
+            "Communication tools",
+            "Training modules"
+        ]
+    },
+    {
+        "category": "Farmer Interactions",
+        "list_feature": [
+            "Direct messaging with farmers",
+            "Feedback collection and analysis",
+            "Farmer segmentation and targeting",
+            "Loyalty programs and incentives",
+            "On-site support requests",
+            "Farmer performance dashboards"
+        ]
+    },
+    {
+        "category": "Farm Owner Management",
+        "list_feature": [
+            "Financial performance reporting",
+            "Operational dashboards",
+            "Inventory management",
+            "Sales and revenue tracking",
+            "Expense management",
+            "Profitability analysis"
+        ]
+    }
+]

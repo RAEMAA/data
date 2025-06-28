@@ -1,0 +1,84 @@
+[
+  {
+      "id": "P1",
+      "phase": "Planning & Requirements Analysis",
+      "feature_list": [],
+      "estimatedTime": 5,
+      "startTime": "2024-07-29",
+      "endTime": "2024-08-02",
+      "dependencies": []
+  },
+  {
+      "id": "P2",
+      "phase": "Order Management Development",
+      "feature_list": [
+          "Order Taking"
+      ],
+      "estimatedTime": 15,
+      "startTime": "2024-08-05",
+      "endTime": "2024-08-23",
+      "dependencies": [
+          "P1"
+      ]
+  },
+  {
+      "id": "P3",
+      "phase": "Billing Development",
+      "feature_list": [
+          "Bill Generation"
+      ],
+      "estimatedTime": 10,
+      "startTime": "2024-08-05",
+      "endTime": "2024-08-16",
+      "dependencies": [
+          "P1"
+      ]
+  },
+  {
+      "id": "P4",
+      "phase": "Reporting Development",
+      "feature_list": [
+          "Branch Revenue Reporting",
+          "Chain Revenue Reporting"
+      ],
+      "estimatedTime": 15,
+      "startTime": "2024-08-26",
+      "endTime": "2024-09-13",
+      "dependencies": [
+          "P2",
+          "P3"
+      ]
+  },
+  {
+      "id": "P5",
+      "phase": "Integrated Testing & QA",
+      "feature_list": [
+          "Order Taking",
+          "Bill Generation",
+          "Branch Revenue Reporting",
+          "Chain Revenue Reporting"
+      ],
+      "estimatedTime": 7,
+      "startTime": "2024-09-16",
+      "endTime": "2024-09-24",
+      "dependencies": [
+          "P4"
+      ]
+  },
+  {
+      "id": "P6",
+      "phase": "Deployment & Training",
+      "feature_list": [
+          "Order Taking",
+          "Bill Generation",
+          "Branch Revenue Reporting",
+          "Chain Revenue Reporting"
+      ],
+      "estimatedTime": 5,
+      "startTime": "2024-09-25",
+      "endTime": "2024-10-01",
+      "dependencies": [
+          "P5"
+      ]
+  }
+]

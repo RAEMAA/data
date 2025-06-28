@@ -1,0 +1,76 @@
+[
+  {
+    "category": "Homepage",
+    "list_feature": [
+      "Banner Slideshow",
+      "Navigation Menu",
+      "Search Functionality",
+      "User Login/Signup",
+      "Featured Tours",
+      "Latest News",
+      "Special Promotions"
+    ]
+  },
+  {
+    "category": "Travel Packages",
+    "list_feature": [
+      "Package Listing",
+      "Filtering Options",
+      "Sorting Options",
+      "Detailed Package Information",
+      "International Travel Packages",
+      "Domestic Travel Packages",
+      "Adventure Travel",
+      "Family Travel Options"
+    ]
+  },
+  {
+    "category": "Visa Services",
+    "list_feature": [
+      "Online Visa Application",
+      "Required Document Checklist",
+      "Appointment Scheduling",
+      "Application Status Tracking",
+      "Visa Fee Calculator",
+      "Visa Type Descriptions",
+      "Document Preparation Assistance"
+    ]
+  },
+  {
+    "category": "Content",
+    "list_feature": [
+      "Travel Blogs",
+      "User Reviews",
+      "FAQs",
+      "Destination Guides",
+      "Local Culture Insights",
+      "Travel Tips",
+      "Customer Stories"
+    ]
+  },
+  {
+    "category": "Contact Options",
+    "list_feature": [
+      "Contact Form",
+      "Live Chat",
+      "Customer Support Hotline",
+      "Email Contact",
+      "Social Media Integration",
+      "24/7 Chatbot Assistance",
+      "Local Office Locator"
+    ]
+  },
+  {
+    "category": "Tour Details",
+    "list_feature": [
+      "Itinerary Overview",
+      "Pricing Details",
+      "Map Integration",
+      "Amenities and Inclusions",
+      "Detailed Day-to-Day Itinerary",
+      "Customizable Tour Options",
+      "Seasonal Offers",
+      "Photo Gallery"
+    ]
+  }
+]

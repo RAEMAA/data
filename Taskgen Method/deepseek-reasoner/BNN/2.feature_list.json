@@ -1,0 +1,50 @@
+[
+  {
+    "category": "User Registration",
+    "list_feature": [
+      "Bank-verified farmer accounts",
+      "Customer profiles with purchase history",
+      "Multi-factor authentication system"
+    ]
+  },
+  {
+    "category": "Product Management",
+    "list_feature": [
+      "Farmer product listings with categories",
+      "Real-time inventory tracking",
+      "Dynamic pricing adjustments"
+    ]
+  },
+  {
+    "category": "Order System",
+    "list_feature": [
+      "Cart functionality with bulk ordering",
+      "Order status tracking",
+      "Automated delivery scheduling"
+    ]
+  },
+  {
+    "category": "Payment Gateway",
+    "list_feature": [
+      "Secure escrow payment system",
+      "Multiple currency support",
+      "Transaction dispute resolution"
+    ]
+  },
+  {
+    "category": "Review Mechanism",
+    "list_feature": [
+      "Farmer rating system",
+      "Product quality reviews",
+      "Verified purchase badges"
+    ]
+  },
+  {
+    "category": "Communication",
+    "list_feature": [
+      "In-app messaging between farmers/customers",
+      "Broadcast announcements",
+      "Automated order notifications"
+    ]
+  }
+]

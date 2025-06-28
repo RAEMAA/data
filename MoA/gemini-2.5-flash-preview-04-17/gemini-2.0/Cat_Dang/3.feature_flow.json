@@ -1,0 +1,65 @@
+[
+  {
+      "category": "Order Management",
+      "features": [
+          {
+              "featureName": "Order Taking",
+              "flow": "1. **Waiter (User Role):** Logs into the system on a tablet or handheld device.\n2. **Waiter:** Selects the table number where the order is being taken.\n3. **System:** Displays the menu, categorized by food and beverage types (e.g., Coffee, Tea, Snacks).\n4. **Waiter:** Browses the menu and selects items for the order.  They can specify quantities and any special instructions (e.g., \"Extra hot\", \"No sugar\").\n5. **System:** Updates the order summary in real-time, showing the selected items, quantities, and total price.\n6. **Waiter:** Confirms the order and sends it to the kitchen/bar.\n7. **System:** Sends the order to the kitchen/bar display system and/or prints a kitchen ticket.\n8. **Kitchen Staff (User Role):** Receives the order and prepares the items.\n9. **Waiter:** (Optional) Monitors the order status (e.g., \"Preparing\", \"Ready\"). This could involve a notification system.\n10. **Waiter:** Receives the completed order from the kitchen/bar and serves the customer.\n11. **Waiter:** (Optional) If the customer requests to add more items, repeat steps 4-6.\n12. **Waiter:** When the customer is ready to pay, the waiter proceeds to the billing process (linked to the 'Bill Generation' feature).",
+              "screens": [
+                  "Login Screen: Allows the waiter to log in with their credentials.",
+                  "Table Selection Screen: Displays a list or visual representation of tables, allowing the waiter to select the correct table.",
+                  "Menu Screen: Displays the menu items, categorized by type (e.g., Coffee, Tea, Snacks). Includes item names, descriptions, prices, and images (if available).",
+                  "Order Summary Screen: Displays the items selected, quantities, special instructions, and the total price. Allows for editing the order (e.g., changing quantities, removing items).",
+                  "Order Confirmation Screen: Confirms the order details before sending it to the kitchen. Includes a 'Confirm' button and a 'Cancel' button.",
+                  "Order Status Screen (Optional): Displays the status of the order (e.g., 'Received', 'Preparing', 'Ready').",
+                  "Kitchen Display (Not a user-facing screen, but a system component): Displays the orders for the kitchen staff."
+              ]
+          }
+      ]
+  },
+  {
+      "category": "Billing",
+      "features": [
+          {
+              "featureName": "Bill Generation",
+              "flow": "1. **Waiter (User):** Selects the 'Generate Bill' option from the order details screen.\n2. **System:** Calculates the total amount due based on the items in the order, including any applicable taxes or discounts.\n3. **System:** Displays the bill details on the screen, including itemized list, subtotal, taxes, discounts (if any), and total amount due.\n4. **Waiter (User):** Reviews the bill details and confirms the bill generation.\n5. **Waiter (User):** Selects payment method (Cash, Card, Mobile Payment).\n6. **System:** If Cash is selected, the system prompts for the amount received from the customer.\n7. **Waiter (User):** Enters the amount received.\n8. **System:** Calculates the change due (if any) and displays it on the screen.\n9. **System:** If Card or Mobile Payment is selected, the system initiates the payment processing through the integrated payment gateway.\n10. **System:** Upon successful payment, the system marks the bill as 'Paid'. If payment fails, the system displays an error message and allows the waiter to retry or choose a different payment method.\n11. **System:** Generates a digital bill (PDF or similar format).\n12. **System:** Prints the bill (if a printer is connected).\n13. **System:** Updates the order status to 'Completed'.\n14. **System:** Records the transaction details in the system for reporting purposes.",
+              "screens": [
+                  "Order Details Screen: Displays the items ordered, quantities, and prices. Includes a 'Generate Bill' button.",
+                  "Bill Preview Screen: Shows the itemized bill with subtotal, taxes, discounts, and total amount due. Includes options to confirm or cancel the bill generation.",
+                  "Payment Selection Screen: Allows the waiter to choose the payment method (Cash, Card, Mobile Payment).",
+                  "Cash Payment Screen: Prompts for the amount received from the customer and displays the change due.",
+                  "Payment Processing Screen: Displays a loading animation while the card or mobile payment is being processed.",
+                  "Payment Confirmation Screen: Confirms the successful payment and displays the transaction details.",
+                  "Payment Failure Screen: Displays an error message if the payment fails and allows the waiter to retry or choose a different payment method."
+              ]
+          }
+      ]
+  },
+  {
+      "category": "Reporting",
+      "features": [
+          {
+              "featureName": "Branch Revenue Reporting",
+              "flow": "1. **User Role:** Branch Manager/Admin\n2. **Action:** User logs into the system.\n3. **Action:** User navigates to the 'Reporting' section.\n4. **Action:** User selects 'Branch Revenue Reporting'.\n5. **Action:** System prompts user to select a branch (dropdown list of branches).\n6. **Action:** User selects the desired branch.\n7. **Action:** System prompts user to select a date range (start date and end date).\n8. **Action:** User selects the date range.\n9. **Action:** User clicks 'Generate Report'.\n10. **Action:** System processes the request and displays the revenue report for the selected branch and date range. The report includes total revenue, breakdown by product category, and other relevant financial data.\n11. **Action:** User can optionally export the report (e.g., to CSV, PDF).",
+              "screens": [
+                  "Login Screen: Allows users to log in with their credentials.",
+                  "Dashboard Screen: Displays an overview of the system and provides navigation options.",
+                  "Reporting Section Screen: A landing page for all reporting features.",
+                  "Branch Revenue Reporting Screen: Allows users to select a branch and date range, and view the generated report. Includes a branch selection dropdown, date range selection fields (start and end date), a 'Generate Report' button, and the report display area.",
+                  "Report Display Screen: Displays the generated revenue report, including total revenue, breakdown by product category, and other relevant financial data. Includes options for exporting the report."
+              ]
+          },
+          {
+              "featureName": "Chain Revenue Reporting",
+              "flow": "1. **User Role:** Chain Admin/Manager\n2. **Action:** User logs into the system.\n3. **Action:** User navigates to the 'Reporting' section.\n4. **Action:** User selects 'Chain Revenue Reporting'.\n5. **Action:** System prompts user to select a date range (start date and end date).\n6. **Action:** User selects the date range.\n7. **Action:** User clicks 'Generate Report'.\n8. **Action:** System processes the request and displays the consolidated revenue report for the entire CDC chain for the selected date range. The report includes total revenue, revenue breakdown by branch, and other relevant financial data.\n9. **Action:** User can optionally export the report (e.g., to CSV, PDF).",
+              "screens": [
+                  "Login Screen: Allows users to log in with their credentials.",
+                  "Dashboard Screen: Displays an overview of the system and provides navigation options.",
+                  "Reporting Section Screen: A landing page for all reporting features.",
+                  "Chain Revenue Reporting Screen: Allows users to select a date range and view the generated report. Includes date range selection fields (start and end date), a 'Generate Report' button, and the report display area.",
+                  "Report Display Screen: Displays the generated revenue report for the entire chain, including total revenue, revenue breakdown by branch, and other relevant financial data. Includes options for exporting the report."
+              ]
+          }
+      ]
+  }
+]

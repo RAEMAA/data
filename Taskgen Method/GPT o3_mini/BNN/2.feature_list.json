@@ -1,0 +1,42 @@
+[
+  {
+    "category": "Farmer Registration",
+    "list_feature": [
+      "Register using bank account details",
+      "Secure bank account verification and validation",
+      "Comprehensive profile management for farmers"
+    ]
+  },
+  {
+    "category": "Produce Listings",
+    "list_feature": [
+      "Detailed listings incorporating sensor data",
+      "High-resolution images and descriptive content",
+      "Real-time updates on produce quality"
+    ]
+  },
+  {
+    "category": "Online Payment Processing",
+    "list_feature": [
+      "Seamless integration with payment gateways",
+      "Support for multiple payment methods",
+      "Robust security for transaction processing"
+    ]
+  },
+  {
+    "category": "Shipping Services",
+    "list_feature": [
+      "Integrated shipping solutions",
+      "Real-time tracking of shipments",
+      "Flexible delivery and logistic management"
+    ]
+  },
+  {
+    "category": "Product Comparison",
+    "list_feature": [
+      "Side-by-side product comparisons",
+      "Filter options based on price, quality, and features",
+      "User reviews and ratings integration similar to major e-commerce platforms"
+    ]
+  }
+]

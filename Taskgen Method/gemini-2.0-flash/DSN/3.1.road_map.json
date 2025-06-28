@@ -1,0 +1,87 @@
+[
+    {
+        "id": "P1",
+        "phase": "Phase 1: Core Functionality - Dream Journaling & User Profiles",
+        "feature list": [
+            "Dream recording (text, audio, video)",
+            "Dream tagging (keywords, emotions, people)",
+            "Dream organization (date, time, categories)",
+            "Dream privacy settings (private, shared with select friends, public)",
+            "User profile customization",
+            "Dream statistics and insights"
+        ],
+        "estimatedTime": "8 weeks",
+        "startTime": "2024-01-26",
+        "endTime": "2024-03-22",
+        "dependencies": []
+    },
+    {
+        "id": "P2",
+        "phase": "Phase 2: Social Interaction & Dream Sharing",
+        "feature list": [
+            "Friend connections",
+            "Dream sharing with friends",
+            "Commenting on dreams",
+            "Dream reactions (likes, emojis)",
+            "Dream-inspired group creation",
+            "Dream-themed forums"
+        ],
+        "estimatedTime": "10 weeks",
+        "startTime": "2024-03-23",
+        "endTime": "2024-05-31",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P3",
+        "phase": "Phase 3: Emotional Expression & Mental Wellness",
+        "feature list": [
+            "Emotion tagging in dreams",
+            "Mood tracking related to dreams",
+            "Emotional support groups",
+            "Anonymous dream sharing for sensitive content",
+            "Integration with mental wellness resources"
+        ],
+        "estimatedTime": "8 weeks",
+        "startTime": "2024-06-01",
+        "endTime": "2024-07-26",
+        "dependencies": [
+            "P2"
+        ]
+    },
+    {
+        "id": "P4",
+        "phase": "Phase 4: Idea Sharing & Creative Collaboration",
+        "feature list": [
+            "Dream-inspired art creation and sharing",
+            "Dream-based story writing and collaboration",
+            "Dream-driven invention brainstorming",
+            "Dream interpretation for creative inspiration",
+            "Project ideas based on shared dreams"
+        ],
+        "estimatedTime": "9 weeks",
+        "startTime": "2024-07-27",
+        "endTime": "2024-09-27",
+        "dependencies": [
+            "P3"
+        ]
+    },
+    {
+        "id": "P5",
+        "phase": "Phase 5: Search, Discovery, and Refinement",
+        "feature list": [
+            "Dream search by keywords, emotions, people",
+            "Trending dreams",
+            "Recommended dream groups",
+            "Dream interpretation dictionary",
+            "Connection to wearable sleep trackers"
+        ],
+        "estimatedTime": "7 weeks",
+        "startTime": "2024-09-28",
+        "endTime": "2024-11-15",
+        "dependencies": [
+            "P4"
+        ]
+    }
+]

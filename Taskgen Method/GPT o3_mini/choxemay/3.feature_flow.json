@@ -1,0 +1,222 @@
+[
+  {
+    "category": "User Interface",
+    "features": [
+      {
+        "featureName": "Responsive Design",
+        "flow": "Step 1: The user accesses the Motorcycle Market Home page. The system detects the device type (desktop, tablet, mobile) automatically. (User Roles: Guest, Buyer, Seller)\nStep 2: On the Home page, the layout adapts based on screen size: a full navigation bar on desktops and a hamburger menu on mobile devices.\nStep 3: The user navigates to the Listing page where motorcycle posts are displayed using a grid on desktops and a simplified list on mobile devices. (Role: Any logged-in user or guest)\nStep 4: Upon selecting a motorcycle listing, the Detail page loads. This page optimizes image sizes, text wrap, and metadata presentation depending on the device, ensuring readability and quick access to details. (Role: Buyer primarily)\nStep 5: Logged-in users access the User Account page to review profile details, credibility ranking, and transaction history. The page is constructed with responsive tabs and collapsible panels for streamlined access on smaller screens. (Role: Buyer, Seller)\nStep 6: Throughout the interaction, common elements such as search filters, feedback forms, and notifications adjust to touch-based interactions on mobile and standard mouse inputs on desktops, ensuring a smooth experience.",
+        "screens": [
+          "Home Page: Serves as the landing page with adaptive navigation and a responsive hero banner, inviting users and reflecting key notifications and promotional content tailored to the screen size.",
+          "Listing Page: Displays available motorcycle posts. On desktops, a grid layout is shown, while on mobile, a list or card view is used for ease of scrolling and readability.",
+          "Detail Page: Provides in-depth information about a selected motorcycle, including images, descriptions, seller info, and user reviews. The layout is optimized for readability and accessibility on all devices.",
+          "User Account Page: Shows personalized data such as user profile information, credibility rankings, successful transactions, and messaging. Responsive design ensures that forms, tabs, and notifications are efficiently rearranged for different screen sizes."
+        ]
+      },
+      {
+        "featureName": "Intuitive Navigation",
+        "flow": "1. Homepage Entry: A guest or returning user lands on the Homepage, where a prominent, clearly labeled navigation bar is visible. The bar includes links to key sections such as Home, Search, Sell, Notifications, and Account. Role: Guest/User.\n2. User Authentication: If the user selects actions that require authentication (like posting an ad or accessing the user dashboard), they are prompted with a Login Screen. Upon successful authentication, the system displays a personalized greeting with additional navigation options, such as Profile, Transaction History, and Settings. Role: Buyer/Seller.\n3. Navigation Across Sections: Once authenticated, users can seamlessly navigate using a fixed header that persists across all pages. Features like a breadcrumb trail help users understand their current location (e.g., Home > Listings > Listing Details), and a side menu (especially on mobile devices) provides quick access to various categories and functionalities. Role: All Users.\n4. Responsive and Mobile Design: For mobile users, a mobile-optimized, collapsible navigation menu is available. This menu offers the same functionalities as the desktop version but in a simplified manner to enhance usability. Role: Mobile User.\n5. Error Handling and Alerts: If a user attempts to access restricted content without proper permissions, the system provides a modal pop-up guiding them to log in or register, along with clear instructions on how to proceed. Role: Unauthorized User.\n6. Continuous Visual Feedback: At every stage, visual highlights (such as active tab indication) and intuitive icons ensure that users know where they are and what actions they can take next, which builds user confidence and streamlines the overall interaction.",
+        "screens": [
+          "Home Screen: The landing page showcasing featured listings, categories, and a persistent navigation bar for easy access.",
+          "Login Screen: The gateway for authentication with options to recover passwords or register, ensuring smooth transition back to navigation.",
+          "Product Listing Screen: Displays detailed information about motorbikes, parts, or accessories, complete with breadcrumb navigation and category filters.",
+          "Sell/Post Ad Screen: A dedicated interface where sellers can create and manage their listings, featuring integrated navigation for returning to previous pages.",
+          "User Dashboard/Account Screen: A personalized page that allows users to manage their account, review transaction history, and monitor credibility ratings.",
+          "Mobile Navigation Screen: An optimized, collapsible menu tailored for mobile devices, ensuring all navigation options are user-friendly on smaller screens."
+        ]
+      },
+      {
+        "featureName": "Mobile Compatibility",
+        "flow": "1. Device Detection: When a mobile user lands on the Motorcycle Market site via a smartphone or tablet, the system automatically detects the device type, screen size, and capabilities using built-in device detection libraries (User: Mobile User, System: Device Detection Module). 2. Responsive Layout Adjustment: Based on detection results, the responsive engine adjusts the layout by scaling images, font sizes, and touch targets to optimize the viewing experience (System: Responsive Engine). 3. Mobile Navigation Initiation: Mobile users are presented with a mobile-optimized interface featuring a hamburger menu that provides quick access to key features such as Home, Listings, Post Ad, and Profile (User: Mobile User, System: Navigation Module). 4. Contextual Interactions & Feature Access: The interface guides users through context-specific actions; for instance, buyers browse listings with touch-friendly swipe gestures while sellers receive mobile-optimized forms for posting ads that incorporate photo capture, location tagging, and category selection (User: Mobile User, System: Interaction Handler). 5. Role-Specific Actions: Buyers can execute functions like click-to-call sellers or quick-save listings, whereas sellers benefit from mobile-exclusive features such as immediate notifications for messages and on-the-go editing of their posts (User: Mobile User, System: Role Management Module). 6. Performance Monitoring and Fallback: The system continuously monitors interaction performance (e.g., load times and response delays) and displays progress indicators or fallback messages in case of network disruptions (System: Performance Monitor). 7. Session Continuity and Exit: Throughout the session, data is synced for continuity across different mobile interactions, and upon exit, session data is saved with a confirmation screen reinforcing secure logout.",
+        "screens": [
+          "Splash Screen: The initial screen displaying the brand logo and a loading indicator while device detection and layout adjustments occur.",
+          "Home Screen: A mobile-optimized landing page showcasing featured listings, quick search options, and tailored dynamic content.",
+          "Navigation Menu Screen: A slide-in hamburger menu that houses primary navigation items such as listings, post ad, and profile.",
+          "Listing Detail Screen: A detailed view of individual listings with swipe-enabled image galleries, seller information, and contact options (e.g., click-to-call).",
+          "Post Listing Screen: A mobile-friendly form allowing sellers to create new listings with options for photo capture, detailed information entry, and location tagging.",
+          "Search Screen: A dedicated screen for filtering and searching listings using mobile-friendly criteria such as price, model, and location.",
+          "Profile Screen: A screen displaying user information including credibility ranking, transaction history, and feedback in a format optimized for mobile viewing."
+        ]
+      },
+      {
+        "featureName": "Customizable Themes",
+        "flow": "1. User Login & Navigation: A registered user (buyer or seller) logs into their Motorcycle Market account and accesses the account settings menu. 2. Access Customization Settings: The user selects the 'Customization' option within settings, which includes the 'Customizable Themes' feature. 3. Theme Gallery Loading: The system displays the Theme Gallery screen showing a variety of pre-designed themes with preview thumbnails, ordered by popularity or relevance. (Role: System) 4. Theme Selection & Preview: The user browses through themes and selects one to preview. The system loads a live preview of theme changes on a simulated version of the platform interface. (Role: Buyer/Seller, with System support) 5. Detailed Customization: The user chooses to modify the selected theme further by altering elements such as color palette, font style, and layout parameters. This opens the Theme Editor screen. (Role: Buyer/Seller) 6. Live Editing and Confirmation: As the user makes changes, the Preview Screen updates in real time. The user reviews all modifications and confirms the changes. (Role: Buyer/Seller, System validates changes) 7. Save & Apply Changes: The user saves the customized theme which is then applied across their account. A Confirmation Screen is displayed summarizing the new settings and offering an option to further edit if required. (Role: System, Buyer/Seller)",
+        "screens": [
+          "Settings Screen: Entry point for accessing account preferences and customization options.",
+          "Theme Gallery Screen: Displays a collection of pre-designed themes available for selection with preview images and brief descriptions.",
+          "Theme Editor Screen: Interface allowing the user to adjust elements like color schemes, fonts, and layout settings.",
+          "Preview Screen: Real-time live preview of the theme customizations to show how changes will appear on the platform.",
+          "Confirmation Screen: Final screen confirming that the user's new theme settings have been saved and applied across their account."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Backend",
+    "features": [
+      {
+        "featureName": "API Integration",
+        "flow": "1. Initialization: A System Administrator or Developer logs into the backend admin panel and navigates to the API Integration section to begin setup. (User Roles: System Admin, Developer)\n2. Configuration Setup: The Developer configures the API endpoints required for accessing motorcycle listings, transaction data, and user credibility metrics. This includes setting parameters for GET, POST, PUT, and DELETE operations. (User Role: Developer)\n3. Authentication & Security: The Developer implements authentication (using API keys or OAuth tokens) and sets up rate limiting and error handling to secure the endpoints. (User Role: Developer)\n4. Testing in Sandbox Mode: The Developer uses an integrated API Testing interface to simulate API calls and verify that endpoints return the correct data. External API consumers (partner developers) might also test in a sandbox environment. (User Roles: Developer, External Developer)\n5. Documentation & Key Generation: Once testing is successful, the system generates comprehensive API documentation and provides API keys to approved external users for production use. (User Roles: Developer, System Admin)\n6. Production Deployment: The API endpoints are deployed to the production environment. Continuous monitoring is implemented to track usage, error rates, and performance metrics. (User Roles: Developer, System Admin)\n7. Ongoing Maintenance & Support: Updates, bug fixes, and performance improvements are routinely managed. Log data is reviewed periodically to ensure system integrity and optimal functionality. (User Roles: Developer, System Admin)",
+        "screens": [
+          "API Dashboard: Provides an overview of API performance metrics, usage statistics, and error logs to monitor system health.",
+          "API Configuration: Allows administrators and developers to define and modify endpoint settings, API keys, and security protocols.",
+          "API Testing: A dedicated interface for sending test requests, visualizing responses, and simulating different API call scenarios.",
+          "API Logs: Displays detailed logs of API transactions, error messages, and audit trails for troubleshooting and performance analysis."
+        ]
+      },
+      {
+        "featureName": "Database Management",
+        "flow": "1. Requirement Gathering & Initial Planning: Developers and system administrators collaborate to determine the database requirements, including data types related to motorbike listings, credibility ratings, and transaction records.\n2. Schema Design: Developers design a scalable and efficient database schema that accommodates motorbike details, user profiles, transactions, and feedback metrics.\n3. Environment and Infrastructure Setup: System administrators set up secure database servers in staging and production environments, applying proper access controls and backup configurations.\n4. Implementation & Data Migration: Developers implement the schema using appropriate database management systems, execute data migration scripts, and ensure data consistency.\n5. Monitoring & Performance Optimization: System administrators continuously monitor performance metrics, set up alerts for anomalies, and work with developers to optimize queries and indexes.\n6. Backup & Recovery Procedures: System administrators schedule automated backups and routinely test restoration procedures to prevent data loss, while developers update scripts for data integrity checks.\n7. Security & Compliance: Both roles ensure encryption of data, adherence to privacy measures, and regular audits to maintain user trust in the platform’s financial and credibility data.",
+        "screens": [
+          "Database Dashboard: A centralized interface for real-time monitoring of database performance, backup status, and server health.",
+          "Schema Management Interface: A screen for viewing and modifying the database schema, with tools for migration and rollback.",
+          "Backup & Recovery Screen: An interface offering scheduling, execution, and logs of backup and restore operations.",
+          "Performance Metrics Screen: A detailed view displaying query performance, server load statistics, and alerts for optimization opportunities."
+        ]
+      },
+      {
+        "featureName": "Server-side Logic",
+        "flow": "Step 1: Request Initiation - A seller or buyer action on the frontend (e.g., posting a motorcycle listing, sending a buying notification) triggers an API call. User Role: Seller/Buyer initiating the action.\nStep 2: Authentication & Authorization - The server validates the user session and API token to ensure the request is from a trusted source. User Role: System (authentication service).\nStep 3: Data Validation & Processing - The server validates the submitted data (motorcycle details, pricing, images) based on predefined business rules and data schemas. User Role: System (data validation module).\nStep 4: Business Logic Execution - The logic for updating user credibility, managing listings, and matching buying/selling notifications is applied. This includes checking credibility scores, updating transaction histories, and triggering notifications if needed. User Roles: System (business logic engine), Admin (for oversight in exceptional scenarios).\nStep 5: Data Persistence & Indexing - Validated data is stored in the transaction database and indexed for search functionalities. Database transactions ensure ACID properties. User Role: System (database service).\nStep 6: Response & Feedback Loop - A structured response is returned to the frontend, confirming successful operations or detailing errors. User Role: System (response handler).\nStep 7: Logging & Monitoring - All system operations, including validations, transactions, and errors, are logged for future audits and live monitoring. User Role: System (logging service), Admin (reviewing logs).",
+        "screens": [
+          "API Monitoring Dashboard: Provides real-time insights into API call statuses, error logs, and performance metrics for developers and system administrators.",
+          "Server Configuration Screen: An administrative interface for configuring server settings, updating business rules, and managing feature toggles for server-side operations.",
+          "Transaction Logs Screen: Displays detailed logs of each server-side operation, including request traces, error messages, and transaction confirmations, allowing for effective debugging and audit trails."
+        ]
+      },
+      {
+        "featureName": "Scalability",
+        "flow": "1. Continuous Monitoring: The system continuously collects performance metrics such as CPU usage, memory load, and response times via a dedicated Monitoring Service. (Role: System Monitoring)\n2. Threshold Evaluation: When metrics exceed predefined thresholds, the system trigger handler generates an alert event. (Role: System Trigger Handler)\n3. Alert Notification: An automated alert is sent to the administrator through the Admin Dashboard and via email. (Role: Administrator)\n4. Auto-Scaling Decision: Based on the scaling rules configured in the Configuration Screen, the system either automatically initiates the scaling process or requests manual approval. (Roles: Auto-Scaling Engine, Administrator)\n5. Instance Provisioning: Upon decision, the system calls cloud APIs to spin up additional server instances, ensuring load distribution. (Role: Cloud Integration Service)\n6. Verification & Load Balancing: The newly provisioned instances are verified for readiness and integrated into the load balancer pool to redistribute traffic. (Role: System Load Balancer)\n7. Logging & Audit: All scaling events and performance changes are logged and displayed for future audits on the Logs Screen. (Role: System Audit)",
+        "screens": [
+          "Admin Dashboard: Displays real-time performance metrics, system alerts, and scalability events for administrator oversight.",
+          "Configuration Screen: Enables the admin to set and adjust scaling thresholds, automation rules, and manually approve scaling actions if required.",
+          "Alert Screen: Presents detailed notifications and trigger event information immediately when performance thresholds are breached.",
+          "Logs Screen: Provides historical records of scaling events and system performance metrics for monitoring and troubleshooting purposes."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Security",
+    "features": [
+      {
+        "featureName": "User Authentication",
+        "flow": "Step 1: Guest lands on the homepage and selects the Sign In option (Role: Guest).\nStep 2: The user is directed to the Sign In Screen where they input their email/username and password (Role: User).\nStep 3: The system processes the credentials against the secure database (Role: System).\nStep 4: On successful verification, if two-factor authentication is enabled, the user is prompted to enter a verification code received via email or SMS (Role: User).\nStep 5: The system verifies the two-factor code (Role: System).\nStep 6: After successful two-factor verification, the user is redirected to their dashboard (Role: User).\nStep 7: In case of failed authentication at any point, an error message is displayed and the user is given the option to retry or reset their password (Role: System & User).\nStep 8: For new users, a link redirects them to the Registration Screen and for those recovering access, a link redirects them to the Password Recovery Screen (Role: User).",
+        "screens": [
+          "Sign In Screen: Interface for users to enter login credentials and access two-factor authentication when enabled.",
+          "Registration Screen: Allows new users to sign up by providing necessary personal and contact information.",
+          "Password Recovery Screen: Provides a form for users to initiate a password reset process via email verification.",
+          "Verification Screen: Enables users to enter a two-factor authentication code for additional security.",
+          "User Dashboard Screen: The landing page for authenticated users, displaying account details and navigation to marketplace features."
+        ]
+      },
+      {
+        "featureName": "Data Encryption",
+        "flow": "Step 1: Data Input - A user (buyer, seller, or new registrant) enters sensitive data (e.g., personal details, payment information) into the Motorcycle Market platform. The system flags fields that require encryption.\nStep 2: Encryption Invocation - Upon submission, the system automatically triggers an encryption module (e.g., AES-256) to secure the data. Role: System.\nStep 3: Secure Data Storage - The encrypted information is stored in the database along with metadata such as user role, timestamp, and data type. Role: System.\nStep 4: Data Retrieval Request - When a user or authorized party (seller, buyer, or administrator) requests access (for instance, during transaction processing), the system validates the request against user permissions. Role: Requesting User / System.\nStep 5: Decryption Process - For users with proper authorization (verified buyer, seller, or admin), the system decrypts the data in real time, allowing secure viewing and processing. Unauthorized requests are met with an error message.\nStep 6: Audit Logging - Every encryption and decryption action is logged for security monitoring and audit purposes. Role: System, with oversight by Administrator.",
+        "screens": [
+          "Data Entry Screen: Provides users with a secure interface to input sensitive information, with notices that data is encrypted for protection.",
+          "Encryption Settings Screen: Allows administrators to configure and manage encryption protocols and key management settings.",
+          "Submission Confirmation Screen: Notifies users that their data has been successfully encrypted and stored securely.",
+          "Data Retrieval Screen: Displays decrypted information to authorized users after successful permission verification.",
+          "Audit Log Screen: Enables system administrators to review logs of encryption and decryption operations for transparency and security compliance."
+        ]
+      },
+      {
+        "featureName": "Access Control",
+        "flow": "1. Administrator Flow:\n   a. Admin logs into the platform via the Admin Login Screen with secure credentials.\n   b. After authentication, the Admin navigates to the Admin Dashboard where a menu for managing user access is available.\n   c. From the dashboard, the Admin selects the Role Management option to view the list of users and their assigned roles.\n   d. The Admin selects a specific user or role to modify permissions, which opens the Permission Settings Screen.\n   e. In the Permission Settings Screen, the Admin adjusts access rights (e.g., editing listings, posting notifications) by toggling permissions.\n   f. The system validates the updates and displays a Success Notification Screen confirming the changes.\n\n2. End-User Flow:\n   a. The End-User logs into the system using the End User Login Screen.\n   b. Upon successful login, the system verifies the user’s role and permissions.\n   c. Depending on the role, the user is allowed to access permitted functionalities directly from their dashboard (e.g., posting a buying/selling notification).\n   d. If the user attempts to access a restricted feature, the system redirects the user to the Access Denied Screen, which explains the limitation.\n   e. The user is then offered a Role Request/Support option for further assistance if additional access is needed.",
+        "screens": [
+          "Admin Login Screen: This screen allows administrators to authenticate securely before accessing administrative features.",
+          "Admin Dashboard: Serves as the main control panel for administrators to manage access control and other platform settings.",
+          "Role Management Screen: Displays a list of users along with their roles and provides options to select and modify these roles.",
+          "Permission Settings Screen: Provides detailed options for adjusting specific permissions for each role or user.",
+          "End User Login Screen: Enables standard users to securely log in to their accounts.",
+          "Access Denied Screen: Informs users when they attempt to access functions or areas for which they lack permissions.",
+          "Success Notification Screen: Confirms to administrators that any changes to access permissions have been successfully applied.",
+          "Role Request/Support Screen: Provides a way for end-users to contact support or request additional access if needed."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Reputation",
+    "features": [
+      {
+        "category": "Motorcycle Marketplace - Selling Features",
+        "features": [
+          {
+            "featureName": "Create Motorcycle Listing",
+            "flow": "1. Seller logs in using the Login Screen. 2. On the Dashboard Screen, the seller selects the 'Sell Motorcycle' option to initiate a new listing. 3. The seller is directed to the Listing Form Screen where they input details such as motorcycle model, year, price, photos, and description. 4. The system validates the entered information and provides immediate feedback for any corrections. 5. Upon successful validation, the seller is presented with the Preview Screen to review the complete listing. 6. After final approval on the Confirmation Screen, the listing is published on the platform. Throughout this flow, the seller interacts with the system while backend processes update credibility metrics based on previous transactions.",
+            "screens": [
+              "Login Screen: Authenticates the seller and grants access to the platform.",
+              "Dashboard Screen: Provides navigation to all seller functionalities including the sell option.",
+              "Listing Form Screen: Allows entry of detailed motorcycle information and image uploads.",
+              "Preview Screen: Displays a summary of the listing for seller review and potential editing.",
+              "Confirmation Screen: Confirms the successful posting of the motorcycle listing.",
+              "Listing Detail Screen: Public page displaying the motorcycle ad along with credibility indicators for buyer trust."
+            ]
+          }
+        ]
+      },
+      {
+        "featureName": "Successful Exchanges Tracking",
+        "flow": "Step 1: Transaction Initiation – Buyer browses motorcycle listings and sends an offer; Seller reviews the offer. (User Roles: Buyer, Seller)\nStep 2: Pre-Exchange Coordination – Upon offer acceptance, both parties are redirected to a secure messaging interface to negotiate logistics (meeting place, date, inspection, payment methods). (User Roles: Buyer, Seller)\nStep 3: Exchange Confirmation – After meeting and completing the transaction, both buyer and seller log in to a dedicated confirmation screen to record a successful exchange. (User Roles: Buyer, Seller)\nStep 4: Feedback Submission – The system prompts both users to provide detailed feedback and ratings immediately post-confirmation. (User Roles: Buyer, Seller)\nStep 5: Reputation Metrics Update – Based on the transaction details and feedback, the system recalculates and updates credibility metrics in the user profiles. (User Roles: System, Buyer, Seller)\nStep 6: Transaction History Logging – The completed transaction is automatically logged in both the buyer’s and seller’s transaction history sections for future reference. (User Roles: Buyer, Seller)\nStep 7: Dispute Resolution Option – If discrepancies are noted during feedback, either party can initiate a dispute which is then managed through an interface for detailed submission and admin review. (User Roles: Buyer, Seller, Admin)",
+        "screens": [
+          "Exchange Initiation Screen: Allows buyers to browse listings, view details, and send offers while notifying sellers.",
+          "Seller Acceptance Screen: Enables sellers to review, negotiate, and accept or decline offers.",
+          "Transaction Communication Screen: Provides a secure messaging interface for negotiating logistics and transaction details.",
+          "Exchange Confirmation Screen: Lets both parties confirm that the transaction has been successfully completed.",
+          "Feedback Submission Screen: Offers input fields for ratings and comments to capture user feedback for credibility assessment.",
+          "Profile & Transaction History Screen: Displays updated reputation metrics along with logged history of past transactions.",
+          "Dispute Resolution Screen: Provides an interface for users to report and manage disputes, triggering admin review."
+        ]
+      },
+      {
+        "featureName": "Feedback Aggregation",
+        "flow": "1. Post-Transaction Initiation: Once a motorcycle sale is confirmed, the system automatically sends a notification to the buyer prompting them to provide feedback. (User Role: Buyer)\n2. Buyer Feedback Entry: The buyer navigates to the Feedback Submission Screen, where they rate the transaction (using a star system) and add detailed comments about the experience. (User Role: Buyer)\n3. Seller Notification: Simultaneously, the seller receives a notification about the new feedback and is prompted to review or respond to it via the Seller Response Screen. (User Role: Seller)\n4. Feedback Aggregation: The system aggregates all feedback data including ratings, comments, and seller responses from multiple transactions using an internal algorithm. This aggregated data is then used to calculate credibility scores and overall ratings. (User Role: System)\n5. Profile Update & Display: The aggregated feedback results are published on the seller’s profile and relevant product listings, helping prospective buyers to gauge seller reliability. (User Role: Buyer and Seller)\n6. Continuous Monitoring: The system periodically updates the aggregated feedback as new transaction reviews are added, ensuring the credibility ranking remains current. (User Role: System)",
+        "screens": [
+          "Transaction Completion Screen: Confirms successful transaction and informs the buyer about the option to leave feedback.",
+          "Feedback Submission Screen: Provides a form for buyers to rate the transaction and submit detailed comments.",
+          "Seller Notification & Response Screen: Alerts sellers about received feedback and offers a space to post responses or clarifications.",
+          "Aggregated Feedback Dashboard: Displays combined feedback metrics (average ratings, total reviews, comments) on user profiles and within product listings to inform future buyers."
+        ]
+      },
+      {
+        "featureName": "Transaction Amount Monitoring",
+        "flow": "1. Seller lists the motorcycle for sale, specifying key details including price and expected transaction parameters. 2. Buyer browses listings and selects a motorcycle, initiating the purchase process. 3. Upon purchase confirmation, the system records the transaction amount and notifies both the buyer (via confirmation screen) and the seller (via transaction update). 4. The transaction data is logged into the platform and displayed on a Monitoring Dashboard accessible to platform admin (and optionally to sellers if enabled). 5. Automated alerts are triggered when transaction amounts exceed preset thresholds, notifying the platform admin (and optionally sellers). 6. The platform admin reviews flagged transactions through a Detailed Transaction Report that offers filtering by date, amount, and user credibility. 7. Sellers and platform admin can adjust alert thresholds via the Alert Settings screen. 8. Comprehensive reports are generated to support audit trails and further analysis, ensuring transparency.",
+        "screens": [
+          "Monitoring Dashboard: Displays real-time transaction amounts, trends, and flagged alerts for platform admin (and optionally sellers).",
+          "Alert Settings: Allows platform admin and authorized sellers to set, update, or disable alert thresholds for high-value or suspicious transactions.",
+          "Transaction Report: Provides a detailed view of all transactions with filtering options by date, amount, and participant, along with export capabilities for further analysis."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Marketplace",
+    "features": [
+      {
+        "featureName": "Buying Notifications",
+        "flow": "Step 1: Buyer logs into the Motorcycle Market platform using valid credentials. (Role: Buyer)\nStep 2: Buyer accesses the main dashboard where a menu option for 'Buying Notifications' is clearly visible. (Role: Buyer)\nStep 3: Buyer clicks on the 'Buying Notifications' option. The system retrieves and displays a list of current buying notifications, prioritized based on seller credibility and relevance. (Roles: Buyer, System)\nStep 4: Buyer applies filters (e.g., location, motorcycle model, price range) to narrow down the notifications list. (Role: Buyer)\nStep 5: Buyer selects a specific notification from the filtered list, triggering a detailed view that includes seller profile, motorcycle details, and historical transaction data. (Role: Buyer; System provides data)\nStep 6: Buyer initiates contact by clicking on the 'Contact Seller' button; the system then opens a messaging interface. (Roles: Buyer, System)\nStep 7: Seller receives a contact request and responds within the messaging interface. (Role: Seller)\nStep 8: Conversation continues until an agreement is reached or further negotiations are conducted. (Roles: Buyer, Seller)\nStep 9: The system logs all interactions for future credibility ranking updates. (Role: System)",
+        "screens": [
+          "Login/Signup Screen: Allows users to authenticate themselves to access personalized features in the marketplace.",
+          "Dashboard/Main Menu Screen: Provides navigation to major sections including Buying Notifications.",
+          "Buying Notifications Listing Screen: Displays a list of current buying notifications with credibility indicators and filter options.",
+          "Filter/Search Screen: Enables users to refine notifications based on parameters like price, location, or bike model.",
+          "Notification Detail Screen: Presents detailed information about a selected buying notification, including seller credibility and motorcycle specifics.",
+          "Messaging Screen: Facilitates direct communication between the buyer and seller to negotiate transaction details."
+        ]
+      },
+      "{\"featureName\": \"Selling Notifications\", \"flow\": \"Step 1: Seller logs in via the Login Screen to access their account. (User Role: Seller)\\\nStep 2: Seller navigates to the Seller Dashboard where the option to post a new notification is presented. (User Role: Seller)\\\nStep 3: Seller selects \\\"Create New Selling Notification\\\" from the dashboard, which directs them to the Create Notification Form Screen. (User Role: Seller)\\\nStep 4: On the Create Notification Form Screen, the seller fills in details such as motorcycle model, condition, price, photos, and description. (User Role: Seller)\\\nStep 5: Seller proceeds to the Preview Notification Screen to verify all entered information before submission. (User Role: Seller)\\\nStep 6: After confirmation, the seller submits the notification, triggering the system to validate details and match credibility based on past transactions. (User Role: System)\\\nStep 7: A Confirmation Screen is shown to the seller confirming the successful posting of the selling notification. (User Role: Seller)\\\nStep 8: The posted notification is then made available on the Notification Detail Page for potential buyers. (User Role: Buyer)\", \"screens\": [\"Login Screen: Enables user authentication to access the platform.\", \"Seller Dashboard: Provides sellers with an overview of their account and navigation to post new notifications.\", \"Create Notification Form Screen: A form-based interface where sellers enter motorcycle details, pricing, and upload photos.\", \"Preview Notification Screen: Allows sellers to review the entered details for accuracy before final submission.\", \"Confirmation Screen: Displays a confirmation message upon successful posting of the selling notification.\", \"Notification Detail Page: Presents the full details of the posted notification to potential buyers, including seller credibility indicators.\"]}",
+      {
+        "featureName": "Community Interaction",
+        "flow": "1. User Login and Registration: Users (both buyers and sellers) log in or register to access community features. Role: User.\n2. Community Home Access: After login, users navigate to the Community Home where they see a feed of posts, discussions, and trending topics. Role: User.\n3. Post Creation: A user creates a new post to share experiences, tips, or inquiries related to motorbikes. Roles: Seller or Buyer. The platform encourages detailed posts highlighting credibility factors.\n4. Interaction and Engagement: Other users can like, comment, and share the post. Moderators review discussions to ensure community guidelines are followed. Roles: User, Community Moderator.\n5. Notification and Updates: Users receive notifications for new comments, replies, and likes. This helps maintain active engagement. Roles: User, System.\n6. Reputation and Credibility: Interaction history (successful exchanges, feedback, transaction values) feeds into the credibility ranking, impacting post visibility and trust. Role: System and User.\n7. Moderation and Resolution: A dedicated process for flagging inappropriate posts exists where moderators can step in to review and resolve issues. Roles: Community Moderator, Admin.\n8. Discussion Closure: Threads may be archived or concluded based on manual closure by the poster or automatic closure after a period of inactivity, with a summary provided for future reference. Role: User and System.",
+        "screens": [
+          "Login/Registration Screen: Enables users to sign in or create an account.",
+          "Community Home Screen: Shows a feed of recent posts, trending discussions, and highlights to facilitate exploration.",
+          "Post Creation Screen: Provides a form for users to create and publish their posts with options to attach images and tags.",
+          "Post Detail Screen: Displays a single post in detail along with comments, likes, and sharing options.",
+          "Notification Screen: Lists all user notifications regarding interactions on posts.",
+          "Moderator Dashboard: A dedicated interface for moderators to review flagged posts and manage inappropriate content."
+        ]
+      }
+    ]
+  }
+]

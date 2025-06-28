@@ -1,0 +1,53 @@
+[
+  {
+      "id": "P1",
+      "phase": "Piglet Management System Development",
+      "feature_list": [
+          "piglet growth tracking",
+          "health monitoring",
+          "feeding management",
+          "environmental conditions monitoring",
+          "import tracking",
+          "export tracking",
+          "revenue statistics"
+      ],
+      "estimatedTime": 12,
+      "startTime": "2024-09-16",
+      "endTime": "2024-12-08",
+      "dependencies": []
+  },
+  {
+      "id": "P2",
+      "phase": "Farmer Management System Development",
+      "feature_list": [
+          "farmer account registration",
+          "piglet browsing",
+          "order placement",
+          "care and procedure inquiries",
+          "messaging between farm staff and farmers"
+      ],
+      "estimatedTime": 10,
+      "startTime": "2024-09-16",
+      "endTime": "2024-11-24",
+      "dependencies": []
+  },
+  {
+      "id": "P3",
+      "phase": "Farm Owner Management System Development",
+      "feature_list": [
+          "information updating",
+          "promotion announcements",
+          "report generation",
+          "monthly report",
+          "quarterly report",
+          "annual report"
+      ],
+      "estimatedTime": 8,
+      "startTime": "2024-12-09",
+      "endTime": "2025-02-02",
+      "dependencies": [
+          "P1",
+          "P2"
+      ]
+  }
+]

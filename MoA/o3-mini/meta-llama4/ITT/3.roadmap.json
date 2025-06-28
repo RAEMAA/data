@@ -1,0 +1,108 @@
+[
+    {
+        "id": "P1",
+        "phase": "Planning and Requirements Gathering",
+        "feature_list": [],
+        "estimatedTime": 5,
+        "startTime": "2024-10-14",
+        "endTime": "2024-10-18",
+        "dependencies": []
+    },
+    {
+        "id": "P2",
+        "phase": "Tour Information Development",
+        "feature_list": [
+            "Tour Categories (Special, Japan, Asia, Europe-Australia-America)",
+            "Day-by-Day Itinerary",
+            "Highlights",
+            "Service Details (Hotel, Flights, Meals)",
+            "Detailed Pricing (Inclusions/Exclusions)",
+            "Images",
+            "Guide Information",
+            "Payment Policies",
+            "Cancellation Policies"
+        ],
+        "estimatedTime": 20,
+        "startTime": "2024-10-21",
+        "endTime": "2024-11-09",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P3",
+        "phase": "Company and Other Services Development",
+        "feature_list": [
+            "Company Service Overviews",
+            "Featured Tours",
+            "News",
+            "Promotions",
+            "Visa Consultation"
+        ],
+        "estimatedTime": 15,
+        "startTime": "2024-10-21",
+        "endTime": "2024-11-04",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P4",
+        "phase": "Content and Resources Development",
+        "feature_list": [
+            "Cultural Articles",
+            "Travel Stories",
+            "Customer Testimonials"
+        ],
+        "estimatedTime": 10,
+        "startTime": "2024-10-21",
+        "endTime": "2024-10-30",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P5",
+        "phase": "Contact and Support Implementation",
+        "feature_list": [
+            "Online Inquiry Form",
+            "Dedicated Hotline for Individual Services",
+            "Dedicated Hotline for Group Services",
+            "Dedicated Hotline for Visa Services",
+            "Persistent Hotline Display",
+            "Email Contact",
+            "Office Address"
+        ],
+        "estimatedTime": 10,
+        "startTime": "2024-10-21",
+        "endTime": "2024-10-30",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P6",
+        "phase": "Integration and Testing",
+        "feature_list": [],
+        "estimatedTime": 15,
+        "startTime": "2024-11-11",
+        "endTime": "2024-11-25",
+        "dependencies": [
+            "P2",
+            "P3",
+            "P4",
+            "P5"
+        ]
+    },
+    {
+        "id": "P7",
+        "phase": "Deployment and Launch",
+        "feature_list": [],
+        "estimatedTime": 5,
+        "startTime": "2024-11-26",
+        "endTime": "2024-11-30",
+        "dependencies": [
+            "P6"
+        ]
+    }
+]

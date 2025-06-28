@@ -1,0 +1,67 @@
+[
+  {
+    "id": "P1",
+    "phase": "User Authentication",
+    "feature_list": [
+      "Registration process with validation to collect user information securely",
+      "Login functionality",
+      "Password recovery mechanism"
+    ],
+    "estimatedTime": 7,
+    "startTime": "2024-07-23",
+    "endTime": "2024-07-27",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Content Management",
+    "feature_list": [
+      "Article posting and moderation system",
+      "Comment section with spam filtering",
+      "Search bar with filter options"
+    ],
+    "estimatedTime": 10,
+    "startTime": "2024-07-28",
+    "endTime": "2024-08-06",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P3",
+    "phase": "Navigation and Layout",
+    "feature_list": [
+      "Responsive design for mobile devices",
+      "Easy-to-use navigation menu",
+      "Customizable theme and layout options"
+    ],
+    "estimatedTime": 5,
+    "startTime": "2024-08-07",
+    "endTime": "2024-08-11",
+    "dependencies": ["P2"]
+  },
+  {
+    "id": "P4",
+    "phase": "Security",
+    "feature_list": [
+      "SSL encryption for secure data transfer",
+      "Regular security audits and updates",
+      "Compliance with relevant data protection regulations"
+    ],
+    "estimatedTime": 8,
+    "startTime": "2024-08-12",
+    "endTime": "2024-08-19",
+    "dependencies": ["P3"]
+  },
+  {
+    "id": "P5",
+    "phase": "Performance Optimization",
+    "feature_list": [
+      "Caching mechanism to improve page loading speed",
+      "Image optimization techniques",
+      "Lazy loading for non-essential content"
+    ],
+    "estimatedTime": 10,
+    "startTime": "2024-08-20",
+    "endTime": "2024-08-29",
+    "dependencies": ["P4"]
+  }
+]

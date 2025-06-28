@@ -1,0 +1,287 @@
+[
+  {
+    "category": "Online Posting",
+    "features": [
+      {
+        "featureName": "Product Listing",
+        "flow": "1. **Farmer Registration:**\n   *   Farmer accesses the Hailua website or mobile app.\n   *   Farmer navigates to the registration page.\n   *   Farmer fills out the registration form with personal details (name, address, phone number, bank account details, etc.).\n   *   Farmer agrees to the terms and conditions.\n   *   Farmer submits the registration form.\n   *   System verifies the information and creates a new farmer account.\n   *   Farmer receives a confirmation email or SMS.\n2. **Farmer Login:**\n   *   Farmer accesses the Hailua website or mobile app.\n   *   Farmer enters their registered email/phone number and password.\n   *   Farmer clicks the 'Login' button.\n   *   System authenticates the farmer's credentials.\n   *   Farmer is redirected to their dashboard.\n3. **Product Listing Creation:**\n   *   Farmer navigates to the 'Add Product' or 'List Product' section from their dashboard.\n   *   Farmer selects the product category (e.g., Rice, Fruits, Fish).\n   *   Farmer enters product details:\n        *   Product Name\n        *   Description (including variety, origin, farming practices, etc.)\n        *   Quantity available\n        *   Unit price\n        *   Images (upload multiple images of the product)\n        *   Harvest date\n        *   Expiration date (if applicable)\n        *   Shipping options (e.g., local pickup, delivery within a certain radius)\n        *   Payment options accepted\n   *   Farmer previews the product listing.\n   *   Farmer submits the product listing for review.\n4. **Product Listing Review (Admin):**\n   *   Admin receives a notification of a new product listing.\n   *   Admin reviews the product details, images, and description to ensure they meet the platform's guidelines.\n   *   Admin approves or rejects the product listing.\n   *   If rejected, the admin provides a reason for rejection to the farmer.\n5. **Product Listing Publication:**\n   *   If approved, the product listing is published on the Hailua platform and becomes visible to customers.\n   *   Farmer receives a notification that their product listing is live.\n6. **Product Listing Management:**\n   *   Farmer can edit or remove their product listings from their dashboard.\n   *   Farmer can update the quantity available, price, or other details as needed.\n   *   Farmer can mark a product as 'sold out' or 'unavailable'.",
+        "screens": [
+          "Registration Screen: Allows new farmers to create an account.",
+          "Login Screen: Allows registered farmers to access their account.",
+          "Farmer Dashboard: Provides an overview of the farmer's account, including product listings, orders, and sales.",
+          "Add Product Screen: Allows farmers to enter product details, upload images, and set pricing.",
+          "Product Preview Screen: Allows farmers to preview their product listing before submitting it.",
+          "Admin Product Review Screen: Allows administrators to review and approve or reject product listings.",
+          "Product Listing Screen (Customer View): Displays the product details to potential customers.",
+          "Edit Product Screen: Allows farmers to modify existing product listings."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Product Listing",
+    "features": [
+      {
+        "featureName": "Product Listing",
+        "flow": "1. **Farmer Login/Registration:** Farmer accesses the Hailua platform and logs in with existing credentials or registers as a new user.\n2. **Navigate to Product Listing:** Farmer navigates to the 'Sell' or 'My Products' section of the website.\n3. **Initiate New Listing:** Farmer clicks on a 'List a Product' or 'Add New Product' button.\n4. **Select Product Category:** Farmer selects the appropriate category for their product (e.g., Rice, Fruits, Vegetables, Fish).\n5. **Enter Product Details:** Farmer enters detailed information about the product, including:\n    *   Product Name\n    *   Description (including variety, origin, farming practices, etc.)\n    *   Price per unit (e.g., kg, bag)\n    *   Available Quantity\n    *   Unit of Measurement (e.g., kg, bag, piece)\n    *   Harvest Date\n    *   Expiration Date (if applicable)\n    *   Shipping Information (e.g., availability for pickup, delivery radius)\n6. **Upload Product Images:** Farmer uploads high-quality images of the product from different angles.\n7. **Set Shipping Options:** Farmer specifies available shipping options, costs, and delivery areas.\n8. **Set Payment Options:** Farmer selects preferred payment methods (e.g., bank transfer, mobile payment).\n9. **Review Listing:** Farmer reviews all entered information and uploaded images.\n10. **Submit Listing:** Farmer submits the product listing for approval (if required) or publishes it directly.\n11. **Listing Confirmation:** Farmer receives a confirmation message indicating that the product listing has been successfully submitted/published.\n12. **Manage Listings:** Farmer can view, edit, or delete their product listings from the 'My Products' section.",
+        "screens": [
+          "Farmer Dashboard: Overview of sales, listings, and account information.",
+          "Product Listing Page: Displays all of the farmer's current product listings.",
+          "Add New Product - Category Selection: Screen where the farmer selects the category for the product they are listing.",
+          "Add New Product - Details: Form for entering product details (name, description, price, quantity, etc.).",
+          "Add New Product - Image Upload: Screen for uploading product images.",
+          "Add New Product - Shipping Options: Screen for setting shipping options and costs.",
+          "Add New Product - Payment Options: Screen for selecting preferred payment methods.",
+          "Review Product Listing: Summary screen to review all entered information before submitting.",
+          "Listing Confirmation: Confirmation message after successful submission.",
+          "Edit Product Listing: Screen for modifying existing product listings."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Product Reviews and Ratings",
+    "features": [
+      {
+        "featureName": "Product Review and Rating",
+        "flow": "1. **Customer Browses Product (Customer):** The customer navigates to a product detail page.\n2. **View Existing Reviews (Customer):** The customer scrolls down to the reviews section to read existing reviews and ratings.\n3. **Initiate Review Submission (Customer):** The customer clicks a button or link (e.g., 'Write a Review', 'Rate this Product') to start the review submission process.\n4. **Review Submission Form (Customer):** The customer is presented with a form to enter their review details, including:\n    *   Rating (e.g., star rating from 1 to 5)\n    *   Review Title (optional)\n    *   Detailed Review Text\n    *   Option to upload images/videos (optional)\n5. **Submit Review (Customer):** The customer submits the review form.\n6. **Review Moderation (Admin - Optional):** If moderation is enabled, the review is sent to an administrator for approval before being published.\n7. **Review Publication (System):** The review is published on the product detail page, visible to all customers.\n8. **View Review Summary (System):** The system updates the product's overall rating based on the new review. The review summary (e.g., average rating, number of reviews) is displayed prominently on the product page.\n9. **Report Review (Customer/Admin):** Customers or admins can report inappropriate reviews. Further actions TBD based on report reason.\n10. **Admin Review of Reported Review (Admin):** Admin reviews reported review and takes action (remove, edit, etc.).",
+        "screens": [
+          "Product Detail Screen: Displays product information, images, price, and a section for displaying customer reviews and ratings.",
+          "Review Submission Screen: A form where customers can enter their review title, rating (e.g., star rating), detailed review text, and optionally upload images or videos.",
+          "Review Summary Section: A section on the product detail page that displays the average rating, the total number of reviews, and a breakdown of ratings (e.g., number of 5-star reviews, 4-star reviews, etc.).",
+          "Report Review Screen: A screen that allows users to report a review for violating community guidelines or other reasons. (Details of report reasons TBD)",
+          "Admin Review Dashboard: A screen for administrators to view, approve, edit, or delete reviews, and manage reported reviews."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Order Management",
+    "features": [
+      {
+        "featureName": "Order Management for Farmers",
+        "flow": "1. **Customer places an order:** Customer completes the checkout process and submits an order.\n2. **System notifies Farmer:** The system sends a notification (email, SMS, in-app) to the farmer about the new order.\n3. **Farmer views new order:** Farmer logs into their account and navigates to the 'Orders' section.\n4. **Farmer reviews order details:** Farmer views the order details, including customer information, items ordered, quantity, price, shipping address, and payment status.\n5. **Farmer confirms order:** Farmer confirms that they can fulfill the order.\n6. **Farmer updates order status:** Farmer updates the order status to 'Processing'.\n7. **Farmer prepares shipment:** Farmer packages the items for shipment.\n8. **Farmer updates shipping information:** Farmer enters the tracking number and selects the shipping carrier.\n9. **System notifies Customer:** The system sends a notification to the customer with the updated order status and shipping information.\n10. **Farmer marks order as 'Shipped':** Farmer updates the order status to 'Shipped'.\n11. **Order is delivered:** The shipping carrier delivers the order to the customer.\n12. **Farmer marks order as 'Delivered' (optional):** Farmer can optionally mark the order as 'Delivered' after confirmation from the customer or shipping carrier.\n13. **Payment is processed:** Payment is processed and transferred to the farmer's account (if not already done).\n14. **Farmer views order history:** Farmer can view a history of all their orders, including completed and cancelled orders.",
+        "screens": [
+          "Order List: Displays a list of all orders for the farmer, with filters for status (New, Processing, Shipped, Delivered, Cancelled).",
+          "Order Details: Displays detailed information about a specific order, including customer information, items ordered, shipping address, payment status, and order history.",
+          "Update Order Status: Allows the farmer to update the status of an order (e.g., Processing, Shipped, Delivered).",
+          "Shipping Information: Allows the farmer to enter and update shipping information, including tracking number and shipping carrier.",
+          "Order History: Displays a list of all past orders, with search and filter options."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Order Management",
+    "features": [
+      {
+        "featureName": "Order Placement and Management",
+        "flow": "1. **Customer:** Enters the coffee shop and is seated.\n2. **Waiter:** Greets the customer and presents the menu.\n3. **Customer:** Selects items from the menu.\n4. **Waiter:** Takes the order using a tablet or POS system.\n5. **Waiter:** Enters the order details into the system, including item quantities and any special requests.\n6. **Waiter:** Confirms the order with the customer.\n7. **System:** Sends the order to the kitchen/preparation area.\n8. **Kitchen Staff:** Receives the order on a kitchen display system (KDS) or printed ticket.\n9. **Kitchen Staff:** Prepares the order.\n10. **Kitchen Staff:** Marks the order as 'Completed' on the KDS or notifies the waiter.\n11. **Waiter:** Collects the order from the kitchen.\n12. **Waiter:** Serves the order to the customer.\n13. **Customer:** Consumes the order.\n14. **Waiter:** (Optional) Checks on the customer and offers additional items.\n15. **Customer:** Requests the bill.\n16. **Waiter:** Generates the bill using the POS system.\n17. **Waiter:** Presents the bill to the customer.\n18. **Customer:** Pays the bill.\n19. **Waiter:** Processes the payment.\n20. **System:** Updates sales records and inventory levels.",
+        "screens": [
+          "Menu Screen: Displays the available menu items with descriptions and prices.",
+          "Order Entry Screen: Allows the waiter to input the customer's order, including item selection, quantities, and special requests.",
+          "Order Confirmation Screen: Shows the order details for the waiter to confirm with the customer.",
+          "Kitchen Display System (KDS): Displays incoming orders to the kitchen staff.",
+          "Order Status Screen (Waiter): Shows the status of orders (e.g., pending, preparing, ready, served).",
+          "Bill Generation Screen: Calculates the total bill amount and displays a breakdown of charges.",
+          "Payment Processing Screen: Allows the waiter to process the customer's payment (cash, card, etc.).",
+          "Order History Screen: Allows staff to view past orders for reporting and analysis."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Order Management",
+    "features": [
+      {
+        "featureName": "Customer Order Placement",
+        "flow": "1. **Customer Enters Store (Customer):** Customer walks into the Cát Đằng Coffee branch.\n2. **Greeting and Seating (Waiter):** Waiter greets the customer and guides them to a table.\n3. **Menu Presentation (Waiter):** Waiter presents the menu (physical or digital) to the customer.\n4. **Order Taking (Waiter):** Waiter takes the customer's order, noting any special requests or modifications.\n5. **Order Confirmation (Waiter/Customer):** Waiter repeats the order back to the customer for confirmation.\n6. **Order Submission to Kitchen/Bar (Waiter):** Waiter submits the order to the kitchen/bar via the system (e.g., tablet or POS terminal).\n7. **Order Preparation (Barista/Cook):** Kitchen/bar staff prepares the order.\n8. **Order Ready Notification (System):** The system notifies the waiter that the order is ready.\n9. **Order Delivery (Waiter):** Waiter collects the order and delivers it to the customer.\n10. **Consumption and Additional Requests (Customer):** Customer consumes the order and may request additional items or services.\n11. **Bill Generation Request (Customer):** Customer requests the bill.\n12. **Bill Generation (Waiter):** Waiter generates the bill using the system.\n13. **Bill Presentation (Waiter):** Waiter presents the bill to the customer.\n14. **Payment (Customer):** Customer pays the bill (cash, card, mobile payment).\n15. **Payment Processing (Waiter):** Waiter processes the payment using the system.\n16. **Payment Confirmation (System/Waiter):** The system confirms the payment, and the waiter provides a receipt to the customer.\n17. **Customer Departure (Customer):** Customer leaves the store.",
+        "screens": [
+          "Menu Screen: Displays the available items with descriptions and prices.",
+          "Order Taking Screen: Allows the waiter to input the order, specify quantities, and add special requests.",
+          "Order Confirmation Screen: Displays the order details for confirmation before submission.",
+          "Kitchen Display System (KDS): Displays incoming orders for the kitchen/bar staff.",
+          "Bill Generation Screen: Displays the itemized bill with totals, discounts, and taxes.",
+          "Payment Processing Screen: Allows the waiter to process different payment methods (cash, card, mobile payment).",
+          "Payment Confirmation Screen: Displays the successful payment confirmation and generates a receipt."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "CRM",
+    "features": [
+      {
+        "featureName": "Customer Profile Management and Loyalty Programs",
+        "flow": "1. **Customer Visit (Customer, Waiter):** Customer visits the coffee shop and makes a purchase.\n2. **Profile Creation (Waiter/Cashier):** If the customer is new, the waiter/cashier asks if they want to create a profile to join the loyalty program.\n3. **Information Collection (Waiter/Cashier):** If the customer agrees, the waiter/cashier collects basic information such as name, phone number, and email address (optional).\n4. **Profile Creation (System):** The system creates a new customer profile with the provided information.\n5. **Point Assignment (System):** Based on the purchase amount, the system automatically assigns loyalty points to the customer's profile according to predefined rules (e.g., 1 point for every $1 spent).\n6. **Profile Update (Customer/Waiter/Admin):** Customer can update their profile information (e.g., address, preferences) through a self-service portal or by requesting assistance from a waiter/admin.\n7. **Point Tracking (Customer/System):** Customer can track their loyalty points balance through the app, website, or by asking a staff member.\n8. **Reward Redemption (Customer/Waiter/Cashier):** Customer chooses to redeem their points for a reward (e.g., free drink, discount) through the app or by informing the waiter/cashier.\n9. **Reward Verification (System):** The system verifies if the customer has sufficient points for the selected reward.\n10. **Reward Application (Waiter/Cashier):** If the customer has enough points, the waiter/cashier applies the reward to the current bill.\n11. **Point Deduction (System):** The system deducts the corresponding points from the customer's profile.\n12. **Transaction Recording (System):** The system records the reward redemption transaction in the customer's profile history.",
+        "screens": [
+          "**Customer Profile Creation Screen:** Allows staff to create new customer profiles by entering required information (name, phone number, email).",
+          "**Customer Profile Details Screen:** Displays detailed information about a customer, including contact details, purchase history, loyalty points balance, and redeemed rewards.",
+          "**Loyalty Point Management Screen:** Enables administrators to configure loyalty point rules (e.g., points per dollar spent) and manage point adjustments for individual customers.",
+          "**Reward Redemption Screen:** Allows customers or staff to select and redeem available rewards based on the customer's loyalty points balance. Displays available rewards and point costs.",
+          "**Customer Search Screen:** Allows staff to search for existing customer profiles using various criteria (name, phone number, email).",
+          "**Customer List Screen:** Displays a list of all customers in the system, with options to filter and sort the list."
+        ]
+      },
+      {
+        "featureName": "Customer Segmentation and Targeted Marketing Campaigns",
+        "flow": "1. **Data Collection (System):** The system collects customer data from various sources, including purchase history, profile information, and website activity.\n2. **Segmentation Criteria Definition (Admin/Marketing):** The administrator or marketing team defines the criteria for customer segmentation (e.g., purchase frequency, average order value, demographics, product preferences).\n3. **Segment Creation (Admin/Marketing):** The administrator or marketing team creates customer segments based on the defined criteria using the segmentation configuration screen.\n4. **Campaign Creation (Admin/Marketing):** The administrator or marketing team creates a new marketing campaign, defining the campaign objective, message, and promotional offers.\n5. **Target Audience Selection (Admin/Marketing):** The administrator or marketing team selects the target customer segments for the campaign using the campaign targeting screen.\n6. **Campaign Launch (Admin/Marketing):** The administrator or marketing team launches the campaign, which triggers the system to send targeted messages to the selected customer segments via email, SMS, or in-app notifications.\n7. **Performance Tracking (System):** The system tracks key campaign performance metrics, such as open rates, click-through rates, conversion rates, and revenue generated.\n8. **Reporting and Analysis (Admin/Marketing):** The administrator or marketing team analyzes campaign performance data using the campaign performance reporting screen to identify areas for improvement and optimize future campaigns.\n9. **A/B Testing (Admin/Marketing):** The administrator or marketing team can set up A/B tests to compare different campaign elements (e.g., subject lines, message content, offers) and identify the most effective variations.",
+        "screens": [
+          "**Customer Segmentation Configuration Screen:** Allows administrators to define and create customer segments based on various criteria using filters and rules.",
+          "**Campaign Creation Screen:** Enables administrators to create new marketing campaigns, defining campaign name, objective, message, and promotional offers.",
+          "**Campaign Targeting Screen:** Allows administrators to select the target customer segments for a campaign and define the communication channels (email, SMS, in-app notifications).",
+          "**Campaign Performance Reporting Screen:** Displays key campaign performance metrics, such as open rates, click-through rates, conversion rates, and revenue generated, with options to filter and segment the data.",
+          "**A/B Testing Configuration Screen:** Allows administrators to set up A/B tests for different campaign elements and track the performance of each variation.",
+          "**Customer Segment List Screen:** Displays a list of all customer segments, with options to view segment details and edit segment criteria."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Inventory Management",
+    "features": [
+      {
+        "featureName": "Inventory Stock Adjustment",
+        "flow": "1. **Manager Login:** The manager logs into the system using their credentials.\n2. **Navigate to Inventory:** The manager navigates to the 'Inventory Management' section of the system.\n3. **View Stock Overview:** The system displays a list of all items in stock, including their current quantities.\n4. **Select Item for Adjustment:** The manager selects the specific item for which a stock adjustment is needed.\n5. **Initiate Adjustment:** The manager clicks on an 'Adjust Stock' button or a similar action to initiate the adjustment process.\n6. **Select Adjustment Type:** The manager selects the type of adjustment (e.g., increase, decrease, write-off). \n7. **Input Adjusted Quantity:** The manager enters the adjusted quantity and provides a reason for the adjustment (e.g., spoilage, damage, theft, audit correction).\n8. **Review Adjustment Details:** The system displays a summary of the adjustment, including the item, original quantity, adjusted quantity, adjustment type, and reason.\n9. **Confirm Adjustment:** The manager confirms the adjustment. A confirmation message is displayed.\n10. **System Updates Stock:** The system updates the stock level of the item in the inventory database.\n11. **Generate Audit Trail:** The system creates an audit trail entry documenting the adjustment, including the user who made the adjustment, the date and time, the item, the original quantity, the adjusted quantity, the adjustment type, and the reason.",
+        "screens": [
+          "Stock Overview Screen: Displays a list of all items in stock, including their names, current quantities, and potentially other details like unit cost and reorder points.",
+          "Adjustment Initiation Screen: Allows the manager to select the item for adjustment and initiate the adjustment process. May include a search function to find specific items.",
+          "Adjustment Input Screen: Provides fields for the manager to enter the adjusted quantity, select the adjustment type (increase, decrease, write-off), and provide a reason for the adjustment. Includes validation to prevent invalid inputs.",
+          "Adjustment Confirmation Screen: Displays a summary of the adjustment details for the manager to review before confirming. Includes the item name, original quantity, adjusted quantity, adjustment type, and reason. Has 'Confirm' and 'Cancel' buttons."
+        ]
+      },
+      {
+        "featureName": "Inventory Reporting",
+        "flow": "1. **Manager Login:** The manager logs into the system using their credentials.\n2. **Navigate to Inventory Reports:** The manager navigates to the 'Inventory Reports' section of the system.\n3. **Select Report Type:** The system displays a list of available report types (e.g., Stock Level Report, Stock Movement Report, Low Stock Report). The manager selects the desired report type.\n4. **Define Report Parameters:** The system presents a screen where the manager can define report parameters such as date range, item category, specific items, and other relevant filters.\n5. **Generate Report:** The manager clicks a 'Generate Report' button to initiate the report generation process.\n6. **View Report:** The system displays the generated report in a tabular or graphical format. The report includes relevant data based on the selected report type and parameters.\n7. **Export Report (Optional):** The manager has the option to export the report in various formats (e.g., CSV, PDF, Excel). They select the desired format and the report is downloaded.\n8. **Print Report (Optional):** The manager has the option to print the report directly from the system.",
+        "screens": [
+          "Report Selection Screen: Displays a list of available inventory report types (e.g., Stock Level Report, Stock Movement Report, Low Stock Report) with brief descriptions. Allows the user to select the desired report.",
+          "Parameter Input Screen: Presents a form where the user can define report parameters such as date range (start and end dates), item category, specific items (with a search function), location/branch, and other relevant filters. Includes validation to ensure valid inputs.",
+          "Report Display Screen: Displays the generated report in a tabular or graphical format. Includes features for sorting, filtering, and pagination. The specific data displayed depends on the selected report type and parameters. May include drill-down capabilities for more detailed information.",
+          "Export Options Screen: Presents a list of available export formats (e.g., CSV, PDF, Excel). Allows the user to select the desired format and initiate the export process. May include options for customizing the export (e.g., including headers, footers)."
+        ]
+      },
+      {
+        "featureName": "Inventory Tracking",
+        "flow": "1. **Manager Login:** The manager logs into the system using their credentials.\n2. **Navigate to Inventory Tracking:** The manager navigates to the 'Inventory Tracking' section of the system.\n3. **View Stock Levels:** The system displays a real-time overview of current stock levels for all items, including quantity on hand, quantity on order, and available quantity.\n4. **Monitor Stock Movements:** The manager can view a detailed history of stock movements, including incoming shipments, outgoing sales, adjustments, and transfers between locations.\n5. **Set Low Stock Alerts:** The manager configures low stock alerts by setting threshold levels for each item. When the stock level of an item falls below the threshold, the system generates an alert.\n6. **Receive Low Stock Alerts:** The system displays low stock alerts on the dashboard or sends notifications via email or SMS to designated personnel.\n7. **Review Alert Details:** The manager can click on an alert to view details, including the item, current stock level, threshold level, and date/time of the alert.\n8. **Investigate Discrepancies:** If discrepancies are identified, the manager can investigate the stock movements and adjustments to determine the cause.\n9. **Generate Reports:** The manager can generate reports on stock levels, stock movements, and low stock alerts for analysis and decision-making.",
+        "screens": [
+          "Stock Level Screen: Displays a real-time overview of current stock levels for all items. Includes columns for item name, item code, current quantity, quantity on order, available quantity, and reorder point. Provides search and filtering capabilities.",
+          "Stock Movement Screen: Displays a detailed history of stock movements, including incoming shipments, outgoing sales, adjustments, and transfers between locations. Includes columns for item name, date, transaction type, quantity, and location. Allows filtering by date range, item, and transaction type.",
+          "Alert Configuration Screen: Allows the manager to configure low stock alerts by setting threshold levels for each item. Includes a list of all items with fields for setting the reorder point and alert threshold. Provides options for configuring notification methods (e.g., email, SMS, dashboard alerts).",
+          "Alert Details Screen: Displays the details of a specific low stock alert, including the item name, current stock level, threshold level, date/time of the alert, and a link to the Stock Movement Screen for further investigation."
+        ]
+      },
+      {
+        "featureName": "Purchase Order Management",
+        "flow": "1. **Manager Login:** The manager logs into the system using their credentials.\n2. **Navigate to Purchase Orders:** The manager navigates to the 'Purchase Order Management' section of the system.\n3. **Create Purchase Order:** The manager clicks on a 'Create Purchase Order' button to initiate the creation process.\n4. **Select Supplier:** The manager selects a supplier from a list of existing suppliers or adds a new supplier if necessary.\n5. **Add Items to Purchase Order:** The manager adds items to the purchase order, specifying the quantity and unit price for each item. The system may automatically populate the unit price based on historical data or supplier catalogs.\n6. **Review Purchase Order:** The manager reviews the purchase order details, including the supplier, items, quantities, unit prices, and total amount.\n7. **Submit Purchase Order for Approval:** The manager submits the purchase order for approval. The system sends a notification to the designated approver (e.g., a senior manager or finance department).\n8. **Approve/Reject Purchase Order:** The approver reviews the purchase order details and either approves or rejects it. If rejected, the approver provides a reason for rejection, and the purchase order is returned to the manager for modification.\n9. **Send Purchase Order to Supplier:** If approved, the system sends the purchase order to the supplier via email or other electronic means.\n10. **Supplier Confirms Order:** The supplier confirms the order and provides an estimated delivery date.\n11. **Receive Order:** When the order arrives, the manager receives the order in the system, verifying the items and quantities against the purchase order.\n12. **Update Inventory:** The system automatically updates the inventory levels based on the received quantities.\n13. **Record Invoice:** The manager records the supplier invoice details, including the invoice number, date, and amount.\n14. **Match Invoice to Purchase Order:** The system matches the invoice to the corresponding purchase order to ensure accuracy.\n15. **Process Payment:** The finance department processes the payment to the supplier based on the invoice and purchase order details.",
+        "screens": [
+          "Purchase Order Creation Screen: Allows the manager to create a new purchase order. Includes fields for selecting the supplier, adding items, specifying quantities and unit prices, and adding notes. Provides a search function for finding items and suppliers.",
+          "Approval Screen: Displays a list of purchase orders awaiting approval. Allows the approver to view the details of each purchase order and either approve or reject it. Includes a field for providing a reason for rejection.",
+          "Purchase Order Details Screen: Displays the details of a specific purchase order, including the supplier, items, quantities, unit prices, total amount, status (e.g., pending approval, approved, sent to supplier, received), and history of changes. Allows the manager to view and print the purchase order.",
+          "Receiving Screen: Allows the manager to receive an order against a purchase order. Includes fields for verifying the items and quantities received. Automatically updates the inventory levels upon completion.",
+          "Supplier Management Screen: Allows the manager to manage the list of suppliers, including adding new suppliers, editing existing suppliers, and viewing supplier details (e.g., contact information, payment terms, historical orders)."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Customer Loyalty Program Management",
+    "features": [
+      {
+        "featureName": "Customer Loyalty Program",
+        "flow": "1. **Enrollment:**\n   *   **User (Customer):** Initiates enrollment through the app, website, or in-store via staff assistance.\n   *   **System:** Collects customer information (name, phone number, email, etc.).\n   *   **System:** Creates a loyalty account and assigns a unique ID.\n   *   **System:** Sends a confirmation message (SMS/Email) with loyalty program details.\n2. **Earning Points:**\n   *   **User (Customer):** Makes a purchase at any Cát Đằng Coffee branch.\n   *   **Staff (Cashier):** Enters the customer's loyalty ID (phone number, QR code scan, etc.) at the point of sale.\n   *   **System:** Calculates points based on the purchase amount (e.g., 1 point per 10,000 VND spent).\n   *   **System:** Updates the customer's loyalty point balance.\n   *   **System:** (Optional) Sends a notification to the customer about points earned.\n3. **Redeeming Rewards:**\n   *   **User (Customer):** Browses the reward catalog in the app, website, or in-store kiosk.\n   *   **User (Customer):** Selects a reward they want to redeem (e.g., free coffee, discount on purchase).\n   *   **System:** Checks if the customer has enough points for the selected reward.\n   *   **User (Customer):** Confirms the redemption.\n   *   **System:** Deducts the required points from the customer's balance.\n   *   **System:** Generates a redemption code or applies the discount to the current purchase.\n   *   **Staff (Cashier):** Applies the redemption code or discount at the point of sale.\n4. **Managing Loyalty Account:**\n   *   **User (Customer):** Accesses their loyalty account through the app or website.\n   *   **User (Customer):** Views their point balance, transaction history, and redeemed rewards.\n   *   **User (Customer):** Updates their profile information (phone number, email, etc.).\n   *   **User (Customer):** (Optional) Links their account to other platforms or services.\n   *   **User (Customer):** (Optional) Views FAQs or contacts customer support.",
+        "screens": [
+          "Enrollment Screen: Allows new customers to sign up for the loyalty program.",
+          "Point Tracking Screen: Displays the customer's current point balance and transaction history.",
+          "Reward Catalog Screen: Shows available rewards and the points required for redemption.",
+          "Redemption Confirmation Screen: Confirms the reward redemption and displays the redemption code (if applicable).",
+          "Account Management Screen: Allows customers to update their profile information and manage their loyalty account settings."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Employee Management",
+    "features": [
+      {
+        "featureName": "Add New Employee",
+        "flow": "1. **Admin/Manager:** Logs into the system.\n2. **Admin/Manager:** Navigates to the 'Employee Management' section.\n3. **Admin/Manager:** Clicks on 'Add New Employee'.\n4. **Admin/Manager:** Fills out the employee information form (Name, Date of Birth, Address, Phone Number, Email, Role, Salary, Branch Assignment, Start Date, Emergency Contact).\n5. **Admin/Manager:** Uploads employee photo (optional).\n6. **Admin/Manager:** Clicks 'Save'.\n7. **System:** Validates the input data.\n8. **System:** If validation is successful, creates a new employee record in the database.\n9. **System:** Displays a success message.\n10. **System:** Generates a unique employee ID.\n11. **System:** Sends a notification to the new employee with login credentials (if applicable).",
+        "screens": [
+          "Employee Management Dashboard: Displays a summary of employee information and quick actions.",
+          "Add Employee Form: A form to input new employee details (Name, DOB, Address, Contact, Role, Salary, Branch, Start Date, Emergency Contact, Photo).",
+          "Success Message: Confirmation message after successfully adding a new employee."
+        ]
+      },
+      {
+        "featureName": "View/Edit Employee Details",
+        "flow": "1. **Admin/Manager:** Logs into the system.\n2. **Admin/Manager:** Navigates to the 'Employee Management' section.\n3. **Admin/Manager:** Searches for the employee by name, ID, or branch.\n4. **Admin/Manager:** Clicks on the employee's record to view details.\n5. **System:** Displays the employee's profile with all information.\n6. **Admin/Manager:** Clicks on 'Edit' to modify the information.\n7. **Admin/Manager:** Updates the necessary fields.\n8. **Admin/Manager:** Clicks 'Save'.\n9. **System:** Validates the updated data.\n10. **System:** If validation is successful, updates the employee record in the database.\n11. **System:** Displays a success message.",
+        "screens": [
+          "Employee Management Dashboard: Displays a summary of employee information and quick actions.",
+          "Employee Search/List: Displays a list of employees with search and filter options.",
+          "Employee Profile: Displays detailed information about a specific employee.",
+          "Edit Employee Form: A pre-filled form with employee details for editing."
+        ]
+      },
+      {
+        "featureName": "Deactivate/Reactivate Employee",
+        "flow": "1. **Admin/Manager:** Logs into the system.\n2. **Admin/Manager:** Navigates to the 'Employee Management' section.\n3. **Admin/Manager:** Searches for the employee by name, ID, or branch.\n4. **Admin/Manager:** Clicks on the employee's record to view details.\n5. **Admin/Manager:** Clicks on 'Deactivate' or 'Reactivate' button.\n6. **System:** Prompts for confirmation.\n7. **Admin/Manager:** Confirms the action.\n8. **System:** Updates the employee's status in the database.\n9. **System:** Displays a success message.",
+        "screens": [
+          "Employee Management Dashboard: Displays a summary of employee information and quick actions.",
+          "Employee Search/List: Displays a list of employees with search and filter options.",
+          "Employee Profile: Displays detailed information about a specific employee.",
+          "Confirmation Dialog: A pop-up window to confirm the deactivation/reactivation action."
+        ]
+      },
+      {
+        "featureName": "Manage Employee Roles/Permissions",
+        "flow": "1. **Admin:** Logs into the system.\n2. **Admin:** Navigates to the 'Employee Management' section.\n3. **Admin:** Selects 'Manage Roles/Permissions'.\n4. **Admin:** Views a list of available roles (e.g., Manager, Waiter, Barista).\n5. **Admin:** Clicks on a role to view/edit its permissions.\n6. **Admin:** Selects/deselects permissions for the role (e.g., access to sales reports, inventory management).\n7. **Admin:** Saves the changes.\n8. **System:** Updates the role's permissions in the database.\n9. **System:** Displays a success message.\n10. **Admin:** Can also assign specific roles to employees through the edit employee details flow.",
+        "screens": [
+          "Employee Management Dashboard: Displays a summary of employee information and quick actions.",
+          "Role Management List: Displays a list of available roles.",
+          "Role Permissions Editor: Allows assigning and revoking permissions for a specific role."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Promotions Management",
+    "features": [
+      {
+        "featureName": "Create New Promotion",
+        "flow": "1. **Admin/Manager:** Logs into the system.\n2. **Admin/Manager:** Navigates to the 'Promotions' section.\n3. **Admin/Manager:** Clicks on 'Create New Promotion'.\n4. **Admin/Manager:** Enters promotion details: promotion name, description, start date, end date, discount type (percentage or fixed amount), discount value, applicable products/categories, and any other conditions (e.g., minimum order value, specific time of day, day of the week).\n5. **Admin/Manager:** (Optional) Uploads an image for the promotion.\n6. **Admin/Manager:** Reviews the promotion details.\n7. **Admin/Manager:** Saves the promotion as a draft or publishes it immediately.\n8. **System:** If published, the promotion becomes active and applicable to orders that meet the specified conditions.\n9. **System:** Sends notification to relevant staff about the new promotion (optional).  Notification includes promotion name, discount, and duration.",
+        "screens": [
+          "Promotions Dashboard: Displays a list of existing promotions (active, inactive, draft).",
+          "Create Promotion Form: Allows admin/manager to enter all the details for a new promotion. Includes fields for name, description, dates, discount type/value, applicable products/categories, conditions, and image upload.",
+          "Promotion Preview: Shows a preview of how the promotion will appear to customers (e.g., on the online ordering platform or point-of-sale system).",
+          "Confirmation Modal: Asks for confirmation before publishing the promotion. Displays a summary of the promotion details."
+        ]
+      },
+      {
+        "featureName": "Edit Existing Promotion",
+        "flow": "1. **Admin/Manager:** Logs into the system.\n2. **Admin/Manager:** Navigates to the 'Promotions' section.\n3. **Admin/Manager:** Selects the promotion to edit from the list.\n4. **Admin/Manager:** Clicks on 'Edit'.\n5. **Admin/Manager:** Modifies the promotion details (name, description, dates, discount, conditions, etc.).\n6. **Admin/Manager:** Reviews the changes.\n7. **Admin/Manager:** Saves the changes. If the promotion is active, a confirmation is required to apply the changes.\n8. **System:** Updates the promotion details in the database.\n9. **System:** If the promotion is active and changes are saved, the updated promotion rules are applied immediately.\n10. **System:** Sends notification to relevant staff about the updated promotion (optional). Notification includes promotion name, discount, and duration.",
+        "screens": [
+          "Promotions Dashboard: Displays a list of existing promotions.",
+          "Edit Promotion Form: Pre-filled with the existing promotion details, allowing modification.  All fields from the Create Promotion Form are present and editable.",
+          "Promotion Preview: Shows a preview of the updated promotion.",
+          "Confirmation Modal: Asks for confirmation before saving changes to an active promotion. Displays a summary of the changes."
+        ]
+      },
+      {
+        "featureName": "Deactivate/Activate Promotion",
+        "flow": "1. **Admin/Manager:** Logs into the system.\n2. **Admin/Manager:** Navigates to the 'Promotions' section.\n3. **Admin/Manager:** Selects the promotion to deactivate/activate.\n4. **Admin/Manager:** Clicks on 'Deactivate' or 'Activate'.\n5. **System:** Asks for confirmation.\n6. **Admin/Manager:** Confirms the action.\n7. **System:** Updates the promotion status in the database.\n8. **System:** If deactivated, the promotion is no longer applied to new orders. If activated, the promotion becomes active and applicable to orders that meet the specified conditions.\n9. **System:** Sends notification to relevant staff about the change in promotion status (optional). Notification includes promotion name and new status.",
+        "screens": [
+          "Promotions Dashboard: Displays a list of existing promotions with their status (active/inactive).",
+          "Confirmation Modal: Asks for confirmation before deactivating/activating the promotion. Displays the promotion name and the action to be performed (deactivate/activate)."
+        ]
+      },
+      {
+        "featureName": "Promotion Reporting",
+        "flow": "1. **Admin/Manager:** Logs into the system.\n2. **Admin/Manager:** Navigates to the 'Reports' section.\n3. **Admin/Manager:** Selects 'Promotion Reports'.\n4. **Admin/Manager:** Specifies the date range for the report.\n5. **Admin/Manager:** (Optional) Filters the report by specific promotions.\n6. **System:** Generates a report showing the usage of each promotion, including the number of times it was applied, the total discount amount given, the revenue generated as a result of the promotion, and the average order value with the promotion applied.\n7. **Admin/Manager:** Views the report on screen or exports it to a file (e.g., CSV, Excel).",
+        "screens": [
+          "Reports Dashboard: Lists available report types.",
+          "Promotion Report Filters: Allows specifying date range and filtering by promotion. Includes date pickers for start and end dates, and a multi-select dropdown for promotions.",
+          "Promotion Report: Displays the promotion usage data in a table or chart format. Columns include Promotion Name, Times Applied, Total Discount Amount, Revenue Generated, Average Order Value."
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,60 @@
+[
+    {
+        "id": "P1",
+        "phase": "Phase 1: Core Features Implementation",
+        "feature list": [
+            "Profile Creation and Management",
+            "User Authentication and Authorization",
+            "Resource Uploading and Sharing",
+            "Direct Messaging"
+        ],
+        "estimatedTime": "4 weeks",
+        "startTime": "2024-02-29",
+        "endTime": "2024-03-28",
+        "dependencies": []
+    },
+    {
+        "id": "P2",
+        "phase": "Phase 2: Collaboration and Event Management",
+        "feature list": [
+            "Study Group Creation and Management",
+            "Collaborative Document Editing",
+            "Event Scheduling and Reminders"
+        ],
+        "estimatedTime": "3 weeks",
+        "startTime": "2024-03-28",
+        "endTime": "2024-04-18",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P3",
+        "phase": "Phase 3: Search and Personalization",
+        "feature list": [
+            "User and Content Search",
+            "Personalized Recommendations"
+        ],
+        "estimatedTime": "3 weeks",
+        "startTime": "2024-04-18",
+        "endTime": "2024-05-09",
+        "dependencies": [
+            "P2"
+        ]
+    },
+    {
+        "id": "P4",
+        "phase": "Phase 4: Administrative and Forum Features",
+        "feature list": [
+            "User Management",
+            "Content Moderation",
+            "Discussion Forums"
+        ],
+        "estimatedTime": "2 weeks",
+        "startTime": "2024-05-09",
+        "endTime": "2024-05-23",
+        "dependencies": [
+            "P3"
+        ]
+    }
+]

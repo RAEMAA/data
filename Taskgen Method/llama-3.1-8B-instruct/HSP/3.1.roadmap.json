@@ -1,0 +1,53 @@
+[
+  {
+    "id": "P1",
+    "phase": "Clarifying project scope and objectives",
+    "feature_list": [
+      "User-friendly interface for both farm staff and farmers",
+      "Comprehensive system to manage import and export states and revenue statistics",
+      "Customizable dashboards",
+      "Real-time data analytics",
+      "Advanced analytics capabilities"
+    ],
+    "estimatedTime": "1 week",
+    "startTime": "2024-07-26",
+    "endTime": "2024-08-02",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Designing a comprehensive system",
+    "feature_list": [
+      "A user-friendly registration process for farmers to create an account on the website",
+      "Comprehensive catalogue of all kinds of pigs supplied by the farm, including detailed information about each breed, age, and price"
+    ],
+    "estimatedTime": "2 weeks",
+    "startTime": "2024-08-03",
+    "endTime": "2024-08-16",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P3",
+    "phase": "Developing a user-friendly interface for both farm staff and farmers",
+    "feature_list": [
+      "Ordering system that enables farmers to purchase one or many piglets needed, with real-time updates on availability and delivery status"
+    ],
+    "estimatedTime": "1 week",
+    "startTime": "2024-08-17",
+    "endTime": "2024-08-23",
+    "dependencies": ["P2"]
+  },
+  {
+    "id": "P4",
+    "phase": "Integrating existing farm management systems and providing actionable insights to farmers",
+    "feature_list": [
+      "Communication channel between farmers and the farm for ensuring proper care of purchased piglets, including regular updates on feeding and vaccination procedures",
+      "Access to an information hub where farmers can learn about feeding and vaccination procedures, as well as any other relevant information necessary for caring for their purchased piglets",
+      "Generation of monthly, quarterly, and annual reports by the farm owner"
+    ],
+    "estimatedTime": "2 weeks",
+    "startTime": "2024-08-24",
+    "endTime": "2024-09-06",
+    "dependencies": ["P3"]
+  }
+]

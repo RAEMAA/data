@@ -1,0 +1,37 @@
+[
+  {
+    "category": "Order Management",
+    "list_feature": [
+      "Streamlined order taking by waiters",
+      "Seamless order transfer to the preparation area"
+    ]
+  },
+  {
+    "category": "Billing and Payment",
+    "list_feature": ["Automatic bill generation"]
+  },
+  {
+    "category": "Reporting and Analytics",
+    "list_feature": [
+      "Generation of detailed revenue reports for each branch",
+      "Comprehensive revenue reports for the entire chain"
+    ]
+  },
+  {
+    "category": "Operational Data Management",
+    "list_feature": [
+      "Integration and management of operational data from all branches"
+    ]
+  },
+  {
+    "category": "Branch Management",
+    "list_feature": ["Centralized management of multiple branches nationwide"]
+  },
+  {
+    "category": "Staff Assistance",
+    "list_feature": [
+      "Simplifying processes and reducing unnecessary movement for waiters",
+      "Supporting local staff with operational tasks"
+    ]
+  }
+]

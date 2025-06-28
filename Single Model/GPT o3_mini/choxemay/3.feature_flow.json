@@ -1,0 +1,164 @@
+[
+  {
+    "category": "Marketplace Features",
+    "features": [
+      {
+        "featureName": "Motorcycle listing creation with details (price, description, photos)",
+        "flow": "1. Seller logs into Motorcycle Market using the Login Screen. 2. The seller accesses the Dashboard and clicks on the 'Create Listing' button. 3. The seller is directed to the Motorcycle Listing Creation Form where they enter details including price, description, and upload photos of the motorcycle. 4. After filling in the details, the seller is offered a preview of the listing on the Preview Listing Screen to review all entered information. 5. If everything is correct, the seller confirms and publishes the listing. 6. Post-publication, the seller is redirected to the Listing Details Screen and receives a notification of successful submission. Roles involved: Seller, System.",
+        "screens": [
+          "Login Screen: Allows the seller to authenticate and access their account.",
+          "Dashboard/Home Screen: Central hub where sellers can manage their listings and navigate to create a new listing.",
+          "Motorcycle Listing Creation Form: Form where sellers input motorcycle details such as price, description, and upload photos.",
+          "Preview Listing Screen: Provides a pre-publish preview for sellers to confirm all details are correct.",
+          "Listing Details Screen: Displays the published listing to the seller along with confirmation and edit options."
+        ]
+      },
+      {
+        "featureName": "Listing for motorcycle parts and accessories",
+        "flow": "1. Seller logs into the system via the Login Screen. 2. From the Dashboard, the seller selects the 'Create Listing' option and chooses the specific category for motorcycle parts and accessories. 3. The seller is presented with a Parts and Accessories Listing Form where details like price, description, condition, compatibility, and photos are entered. 4. A Preview screen allows the seller to review the listing before publication. 5. Once satisfied, the seller confirms and publishes the part or accessory listing. 6. The system displays a confirmation message and redirects the seller to the Listing Details Screen. Roles involved: Seller, System.",
+        "screens": [
+          "Login Screen: For seller authentication.",
+          "Dashboard/Home Screen: Where the seller selects the category for parts or accessories listings.",
+          "Parts and Accessories Listing Form: Specialized form tailored for motorcycle parts and accessories including specific fields like condition and compatibility.",
+          "Preview Listing Screen: Enables the seller to check all listing details before going live.",
+          "Listing Details Screen: Shows the final listing along with options to edit or share the listing."
+        ]
+      },
+      {
+        "featureName": "Search and filtering of listings",
+        "flow": "1. Buyer (or guest) navigates to Motorcycle Market and lands on the Home Screen. 2. The buyer enters keywords into the search bar or selects a category to browse listings. 3. A Filter Panel is available where the buyer can refine results based on criteria such as price range, model year, type (motorcycle or parts), and location. 4. The system processes the search and returns a curated list of results on the Search Results Screen. 5. The buyer can click on a specific listing to view its details on the Listing Details Screen. 6. Optionally, the buyer may adjust filters and search terms until they find the desired listing. Roles involved: Buyer, System.",
+        "screens": [
+          "Home Screen: Entry point displaying top listings and a search bar.",
+          "Search Bar/Results Screen: Interface where buyers enter search queries and view initial results.",
+          "Filter Panel: Sidebar or popup that provides filtering options to refine the listings based on various criteria.",
+          "Search Results Screen: Displays the filtered and sorted list of listings matching the buyer’s query.",
+          "Listing Details Screen: Detailed information page about the selected listing."
+        ]
+      },
+      {
+        "featureName": "Prioritization of listings based on user credibility ratings",
+        "flow": "1. Buyer initiates a search or browses listings from the Home Screen. 2. The system automatically integrates the credibility rating of sellers to sort and prioritize listings so that those from high-credibility users appear more prominently. 3. The prioritized listings are displayed on the Market Listings Screen, with visible credibility badges or indicators next to each listing. 4. Sellers can view their own credibility rating on their Seller Profile Screen and understand how it impacts listing visibility. 5. When a buyer clicks a listing, they are taken to the Listing Details Screen where additional credibility information about the seller may be shown. Roles involved: Buyer (viewing prioritized listings), Seller (benefiting from higher credibility), System (sorting and displaying listings).",
+        "screens": [
+          "Home Screen: Displays an overview of market listings with prioritized results based on credibility ratings.",
+          "Market Listings Screen: A dedicated listings page where sorting logic based on credibility ratings is visibly applied.",
+          "Seller Profile Screen: Shows the seller's credibility score and history, helping them understand their market position.",
+          "Listing Details Screen: Provides complete details of a listing along with the seller's credibility indicators."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Credibility and Rating System",
+    "features": [
+      {
+        "featureName": "User credibility rating calculation based on completed transactions",
+        "flow": "1. Transaction Completion: After a sale is finalized, both Buyer and Seller are prompted to confirm the successful completion of the transaction. (User Roles: Buyer, Seller) | 2. Data Capture: Upon confirmation, the system collects transaction details including item information, transaction value, and completion timestamp. (User Role: System) | 3. Calculation Module: The backend calculation engine evaluates the transaction history, applying predefined weight factors (e.g., each completed transaction may add a fixed percentage, bonus points for quick closures, etc.). (User Role: System) | 4. Rating Update: The system updates the user's credibility rating based on the newly computed value. (User Role: System) | 5. Notification: Both Buyer and Seller receive on-screen notifications about the updated credibility rating. (User Roles: Buyer, Seller) | 6. Profile Reflection: The updated rating is reflected immediately on the user's profile, where it influences search and listing prominence.",
+        "screens": [
+          "Transaction Confirmation Screen: Allows users (buyer or seller) to confirm that the transaction is complete and to trigger the credibility rating update.",
+          "Notification Screen: Displays real-time updates and alerts to users regarding changes in their credibility rating.",
+          "User Profile Screen: Shows detailed user statistics including the current credibility rating, transaction history, and other performance metrics."
+        ]
+      },
+      {
+        "featureName": "Feedback mechanism from other users",
+        "flow": "1. Post-Transaction Prompt: After a transaction is confirmed as completed, the system prompts both Buyer and Seller to provide feedback on their counterpart. (User Roles: Buyer, Seller) | 2. Feedback Entry: Users access a form to submit a rating (e.g., star-based or numerical) along with optional comments. (User Roles: Buyer, Seller) | 3. Feedback Aggregation: The system collects and aggregates individual feedback entries into a summary score and detailed feedback record for each user. (User Role: System) | 4. Credibility Adjustment: Aggregated feedback is factored into the overall credibility rating calculation, influencing future rating updates. (User Role: System) | 5. Display of Feedback: The accumulated feedback is made visible on user profiles, and users can review ratings as part of their transaction history.",
+        "screens": [
+          "Feedback Submission Screen: Provides a form for users to rate and comment on their transaction counterpart.",
+          "Feedback Confirmation Screen: Displays a summary of the submitted feedback and confirms successful submission.",
+          "User Profile Feedback Section: Integrates overall feedback and individual ratings, showing credibility adjustments and detailed reviews."
+        ]
+      },
+      {
+        "featureName": "Tracking of total value traded",
+        "flow": "1. Transaction Monitoring: Every completed transaction is processed by the system to extract key details including the monetary value of the motorcycle or accessory traded. (User Roles: Buyer, Seller, System) | 2. Value Aggregation: The system continuously updates the cumulative total value traded for each user by summing up the values from past transactions. (User Role: System) | 3. Profile Update: The aggregated total value is then reflected on the user’s profile as part of their trading statistics. (User Roles: System, User) | 4. Historical Analysis: Users have access to a historical breakdown of traded values over time for personal review and credibility recalculations.",
+        "screens": [
+          "Transaction Detail Screen: Displays individual transaction values and related financial information.",
+          "Financial Summary Screen: Summarizes aggregated trading values along with trends and historical breakdown, available on the user profile.",
+          "User Profile Screen: Integrates financial trading data (total value traded) with other credibility metrics."
+        ]
+      },
+      {
+        "featureName": "Display algorithm that promotes posts from higher credibility users",
+        "flow": "1. Listing Creation: When a user creates a new post or listing, the system captures the listing details along with the user’s current credibility rating. (User Roles: Seller, System) | 2. Algorithm Trigger: Upon a search or filter action on the marketplace, the system’s algorithm retrieves all relevant listings along with the corresponding credibility ratings. (User Role: System) | 3. Sorting Mechanism: The algorithm ranks listings so that posts from users with higher credibility ratings are positioned more prominently in the search results. (User Role: System) | 4. Display on Platform: Buyers view the sorted listing where higher credibility posts appear at the top, increasing their visibility. (User Roles: Buyer, System) | 5. Continuous Update: The system continually recalculates and re-orders the listings as new transactions and ratings update user credibility.",
+        "screens": [
+          "Listing Submission Screen: Allows sellers to create and submit posts with listing details and automatically attaches the user's credibility data.",
+          "Search Results Screen: Displays listings sorted by various factors including credibility rating, ensuring higher-rated posts are more prominent.",
+          "Listing Detail Screen: When a listing is selected, it shows detailed information including the seller’s credibility rating and related feedback."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Community Hub",
+    "features": [
+      {
+        "featureName": "Discussion forums for enthusiasts",
+        "flow": "1. User Login/Registration (User): The user logs in or registers to access the discussion forums. 2. Forum Selection (User): The user is presented with a list of available discussion forums categorized by topics such as maintenance, new models, and riding tips. 3. Viewing Forum Threads (User): The user clicks on a forum to view threads. 4. Reading a Thread (User): The user selects a thread and reads through the posts. 5. Posting a Comment or Starting a New Thread (User): The user can reply to existing threads or start a new thread. 6. Moderation (Moderator): A moderator reviews reported posts and manages spam or abusive content and may highlight valuable contributions. 7. Notification & Engagement (User): The system sends notifications to users about replies, likes, or moderator actions.",
+        "screens": [
+          "Login/Registration Screen: Allows users to log in or sign up to access community features.",
+          "Forum List Screen: Displays available discussion forums categorized by topic.",
+          "Thread List Screen: Shows available threads under a selected forum category.",
+          "Thread Detail Screen: Presents the detailed conversation including posts, comments, and reply options.",
+          "New Thread/Comment Screen: Provides a form for users to submit new threads or reply to existing ones.",
+          "Moderator Dashboard Screen: Enables moderators to manage posts, review reported content, and highlight quality contributions."
+        ]
+      },
+      {
+        "featureName": "Experience and advice sharing platform",
+        "flow": "1. User Login/Registration (User): The user logs in or registers to contribute experiences and advice. 2. Content Creation (User): The user navigates to the Experience Sharing section to write a new article or post, including title, content, images, and tags. 3. Preview & Submission (User): The user previews their post for accuracy and submits it for publishing. 4. Content Review (Moderator): A moderator reviews the post for compliance with community guidelines and approves or requests edits if necessary. 5. Publishing (System): The approved posts are published and appear on the community feed. 6. Engagement (User): Other users read, comment, or share the post, and like or recommend advice. 7. Feedback & Rating (User): Users rate posts giving further credibility to quality contributions.",
+        "screens": [
+          "Login/Registration Screen: Ensures users are authenticated before contributing content.",
+          "Experience Sharing Home Screen: Displays featured posts and a feed of recently shared experiences.",
+          "New Post Creation Screen: Provides a form for writing, formatting, and uploading images for posts.",
+          "Post Preview Screen: Allows users to review the content before submission.",
+          "Post Detail Screen: Displays the full content of an experience or advice post with options for comments and likes.",
+          "Moderator Review Screen: Used by moderators to assess and approve or request modifications to user posts."
+        ]
+      },
+      {
+        "featureName": "User-generated posts and interactions",
+        "flow": "1. User Login/Registration (User): The user logs in or registers to participate and interact. 2. Feed Viewing (User): The user is directed to a dynamic feed where community posts appear based on credibility, recent activities, and relevance. 3. Creating a Post (User): The user accesses a post creation interface to share an update, photo, or quick tip. 4. Posting (User): The user submits the post which is then immediately displayed in the feed. 5. Interaction (User): Other users view posts and can like, comment, or share them. 6. Engagement Notifications (System): Users receive notifications about comments, likes, or shares on their posts. 7. Moderation (Moderator): Moderators monitor posts and interactions, ensuring adherence to community standards, removing harmful content if necessary.",
+        "screens": [
+          "Login/Registration Screen: Facilitates secure access to the community interaction area.",
+          "Community Feed Screen: Displays a chronological or algorithm-driven feed of user-generated posts.",
+          "New Post Creation Screen: Enables users to compose and share new posts with text, images, or links.",
+          "Post Detail and Interaction Screen: Shows the post with details, comments, likes, and share options.",
+          "Notification Screen: Lists notifications related to user interactions such as likes, comments, or post shares.",
+          "Moderator Monitoring Screen: Allows moderators to oversee and manage the interactions and posts for quality control."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "User Account Management",
+    "features": [
+      {
+        "featureName": "User registration and profile creation",
+        "flow": "Step 1 (Visitor): The user navigates to the Motorcycle Market homepage and selects the 'Register' option. Step 2 (Visitor): The user is presented with a registration screen and enters required details such as name, email, password, and other relevant information. Step 3 (System): The system validates the input and sends a confirmation email to the provided email address. Step 4 (User): The user clicks the link in the confirmation email to verify the account. Step 5 (User): The user is redirected to the Profile Creation page where additional details (e.g., motorcycle preferences, location, and optional bio) can be filled in. Step 6 (User): The user finalizes and submits their profile details, completing the registration process. Session roles involved: Visitor, Registered User, and System.",
+        "screens": [
+          "Registration Screen: A form for new users to input basic details (name, email, password) to create an account.",
+          "Email Verification Screen: Informs users to check their email for a verification link and confirms account activation.",
+          "Profile Creation Screen: Allows users to add further details such as motorcycle preferences, personal bio, and contact information."
+        ]
+      },
+      {
+        "featureName": "Profile management including credibility rating display",
+        "flow": "Step 1 (User): After logging in, the user accesses their dashboard and selects the 'Profile' or 'Account Settings' section. Step 2 (User): The profile page displays existing user details along with the credibility rating summary (aggregated from transaction history, feedback, and trade value). Step 3 (User): The user may choose to click an 'Edit Profile' button to update personal information or adjust preferences. Step 4 (System/User): Any changes submitted are validated and saved by the system, and the updated credibility rating (if influenced by recent activities) is refreshed on the profile page. Step 5 (User): The user can view an information icon or dedicated section that explains how the credibility rating is calculated. Session roles involved: Registered User and System.",
+        "screens": [
+          "Dashboard/Profile Overview Screen: Displays user information, credibility rating, and recent activity summaries.",
+          "Edit Profile Screen: Provides editable fields for updating personal details, contact information, and motorcycle preferences.",
+          "Credibility Details Screen: Offers an explanation and breakdown of the credibility rating calculation, including completed transactions and user feedback."
+        ]
+      },
+      {
+        "featureName": "Transaction history tracking for individual users",
+        "flow": "Step 1 (User): The user logs into their account and navigates to the 'Transaction History' section from the dashboard. Step 2 (System): The system retrieves and displays a list of past transactions including sales, purchases, and exchanges with dates, statuses, and brief summaries. Step 3 (User): The user can filter or sort transactions based on date, status, or type (buy/sell). Step 4 (User): Clicking on a specific transaction opens a detailed view with all pertinent information (such as item details, transaction value, counterparties, and feedback). Step 5 (User): If needed, the user can download or print the transaction history for personal records. Session roles involved: Registered User and System.",
+        "screens": [
+          "Transaction History Overview Screen: Lists all transactions with summary details, filtering options, and navigation to individual details.",
+          "Transaction Detail Screen: Provides comprehensive details about a selected transaction including status, counterparties, item details, and feedback.",
+          "Filter/Sort Panel: Integrated within the history screen to allow users to refine the transaction list by various criteria."
+        ]
+      }
+    ]
+  }
+]

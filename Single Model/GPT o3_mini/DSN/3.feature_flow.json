@@ -1,0 +1,160 @@
+[
+  {
+    "category": "User Profiles and Personal Space",
+    "features": [
+      {
+        "featureName": "Personalized profile creation upon join",
+        "flow": "1. New User Registration: The visitor fills out the registration form with email, username, and password (User). 2. Email Verification: The system sends a verification email; the user clicks the verification link (User/System). 3. Guided Profile Setup: After verification, the system directs the user to a profile setup wizard where they can add personal details, a profile picture, and a short bio (User/System). 4. Confirmation and Activation: The system confirms profile creation and the new profile is activated; the user is welcomed to their personal space (System/User).",
+        "screens": [
+          "Registration Screen: Allows new users to input email, username, and password to sign up.",
+          "Email Verification Screen: Notifies users to check their email and confirm their account.",
+          "Profile Setup Screen: A guided wizard where users add details such as profile picture, bio, and personal interests.",
+          "Profile Preview/Confirmation Screen: Displays the completed profile for user confirmation and final adjustments."
+        ]
+      },
+      {
+        "featureName": "Customizable personal space for self-expression",
+        "flow": "1. User Login: The user logs into their account and accesses the dashboard (User). 2. Navigate to Customization: From the dashboard, the user selects the 'Customize Personal Space' option (User/System). 3. Customization Choices: The user is presented with options such as themes, backgrounds, layout styles, widgets, and color schemes (User). 4. Real-Time Preview: As the user makes changes, a preview panel updates to show how the personal space will look (User/System). 5. Save Changes: Once satisfied, the user saves their changes; the system updates the personal space accordingly (User/System).",
+        "screens": [
+          "Dashboard Screen: Central hub that offers navigation to the customization options.",
+          "Customization Options Screen: Displays various design elements (themes, widgets, color schemes) that the user can select.",
+          "Real-Time Preview Screen: A dynamic view showing how changes affect the actual layout of the personal space.",
+          "Save Confirmation Screen: Displays a confirmation message and summary of changes after the user saves the new settings."
+        ]
+      },
+      {
+        "featureName": "Ability to express a range of emotions (joy, excitement, sorrow, playfulness)",
+        "flow": "1. Content Creation: The user creates a new post to share ideas, dreams, or feelings (User). 2. Emotion Selection: During post creation or after posting, the user is prompted to choose one or more emotions from a set of icons representing joy, excitement, sorrow, and playfulness (User/System). 3. Preview and Edit: The user can preview their post along with the selected emotion indicators and make any necessary edits (User). 4. Publish Post: The user publishes the post; the selected emotions are displayed as part of the post details, enabling others to see the emotional context (User/System). 5. Community Interaction: Other users can react further by clicking on these emotion indicators to express their empathy or support (User/System).",
+        "screens": [
+          "Post Creation Screen: Interface for writing and composing new posts, including an option to attach emotional responses.",
+          "Emotion Reaction Panel: A pop-up or integrated section presenting emotion icons (joy, excitement, sorrow, playfulness) for selection.",
+          "Post Preview Screen: Allows users to review their post with the selected emotions before final publishing.",
+          "Post Confirmation Screen: Displays the published post with the embedded emotion icons and allows for further community interaction."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Content Sharing and Expression",
+    "features": [
+      {
+        "featureName": "Post ideas, feelings, and dreams",
+        "flow": "1. Registered User logs in to the Dream Social Network via the Login screen. 2. The user navigates to the Home Feed where a prominent 'New Post' button is available. (User Role: Registered User) 3. Upon clicking 'New Post', the user is directed to a Post Creation screen where they can input a title, and content describing their ideas, feelings, or dreams. (User Role: Content Creator) 4. The system offers suggestions and pre-set tags (such as 'Idea', 'Feeling', or 'Dream') to contextualize the post. 5. The user reviews the post on a Preview screen to ensure correctness and then clicks Submit. (User Role: Content Creator) 6. The DSN system processes the submission, stores it in the database, and updates the user’s profile and global feed. 7. A Confirmation/Success screen is shown, with options to share the post further or return to the Home Feed, while notifications are dispatched to followers. (User Role: System)",
+        "screens": [
+          "Login Screen: Authenticates the user and provides access to the platform.",
+          "Home Feed Screen: Displays recent posts with a 'New Post' button for quick content creation access.",
+          "Post Creation Screen: Allows users to input title, text, and tag their ideas, feelings, and dreams.",
+          "Preview Screen: Offers a review of the post with options to edit or confirm the submission.",
+          "Confirmation Screen: Acknowledges the successful submission of the post and provides navigation options."
+        ]
+      },
+      {
+        "featureName": "Share personal thoughts and emotional experiences",
+        "flow": "1. Registered User logs in and is presented with the Home Feed. (User Role: Registered User) 2. The user clicks on a dedicated button such as 'Express Yourself' which is designed specifically for sharing deeper personal thoughts and emotional experiences. (User Role: Content Creator) 3. On the dedicated Expression screen, the user is prompted to select an emotional tone (e.g., joyful, sad, excited), which can be represented by mood icons or color themes. 4. The user writes their personal narrative and may choose from suggested emotional hashtags to enhance reach. 5. The user previews their post in a dedicated Preview Mode designed to simulate how the post will appear in the emotional feed. (User Role: Content Creator) 6. After confirming the post, the system saves the entry, updates both personal and community feeds, and sends optional notifications to close connections for supportive engagement. (User Role: System)",
+        "screens": [
+          "Login Screen: Enables user authentication.",
+          "Home Feed Screen: Provides entry point for all activities, including a focused button for personal sharing.",
+          "Express Yourself Screen: A specialized post creation interface with mood selectors and emotional tone settings.",
+          "Preview Screen: Displays the post with a focus on emotional presentation, allowing for edits.",
+          "Success Screen: Confirms that the post has been shared, and includes options for further interactions or returning to the feed."
+        ]
+      },
+      {
+        "featureName": "Utilize text and possibly multimedia to convey ideas",
+        "flow": "1. Registered User logs in and navigates to the Home Feed. (User Role: Registered User) 2. The user clicks on a versatile 'Create Content' button, which opens a comprehensive Content Composer modal. (User Role: Content Creator) 3. On the Content Composer screen, the user chooses the type of post: pure text, multimedia (images, audio, video), or a mixed post. 4. For multimedia posts, the user is provided with options to upload files, capture media via device camera (if supported), and arrange them alongside text inputs. 5. The user tags their post, writes captions, and selects privacy or sharing settings. 6. A Preview screen displays how text and multimedia will appear in different layouts. (User Role: Content Creator) 7. Upon submission, the system validates the content, stores the multimedia files correctly, and then the post is published in the appropriate feeds. (User Role: System) 8. A Confirmation screen displays successful publication and offers sharing options across additional networks.",
+        "screens": [
+          "Login Screen: Verifies user credentials.",
+          "Home Feed Screen: Entry point with options to start various content types.",
+          "Content Composer Screen: Multi-functional interface for selecting type of content; supports text and multimedia uploads with editing tools.",
+          "Media Upload Screen: (Embedded within the Composer) Allows file selection and preview for images, videos, or audio files.",
+          "Preview Screen: Provides a comprehensive view of the post with formatting, multimedia layout, and tagging.",
+          "Confirmation Screen: Informs the user of a successful post submission with navigation to share or view content in feeds."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Community Engagement and Global Connection",
+    "features": [
+      {
+        "featureName": "Connect with a global community of users",
+        "flow": "1. User registers or logs into the Dream Social Network using the Sign-Up/Login screen. (User Role)\n2. From the Home/Dashboard screen, the user navigates to the Community tab dedicated to global connections. (User Role)\n3. The system displays a global list of active users along with filters (e.g., region, interests) to narrow down connections. (System Role)\n4. The user selects a potential connection to view their public profile in detail. (User Role)\n5. The user sends a connection or friend request via the profile action menu. (User Role)\n6. The system processes the connection request, sending confirmation notifications to both parties. (System Role)\n7. Upon acceptance, the connection becomes active, and the user can initiate chats or forum discussions with the new contact. (User Role)",
+        "screens": [
+          "Login/Sign-Up Screen: Allows users to register or log into their account.",
+          "Dashboard/Home Screen: Provides an overview and navigation access including the Community tab.",
+          "Community Overview Screen: Displays a global list of users with filtering options to aid connection discovery.",
+          "User Profile Screen: Shows detailed profile information where a user can view interests, aspirations, and send connection requests.",
+          "Connection Request Confirmation Screen: Notifies users about sent or received friend requests and confirms actions taken."
+        ]
+      },
+      {
+        "featureName": "Discover like-minded individuals who share similar aspirations",
+        "flow": "1. User accesses the search and discovery section from the main navigation menu. (User Role)\n2. The user inputs specific interests, aspirations, or keywords into advanced search filters. (User Role)\n3. The system processes the search query and returns a curated list of profiles matching the specified criteria. (System Role)\n4. The user browses through profile previews and selects profiles to view detailed information. (User Role)\n5. From the detailed profile screen, the user can opt to follow or connect with individuals who resonate with their aspirations. (User Role)\n6. The system sends notifications to the selected individual regarding the connection or follow request. (System Role)",
+        "screens": [
+          "Main Navigation/Home Screen: Entry point to the search functionality and discovery tools.",
+          "Search and Filter Screen: Interface where users enter criteria and keywords to find like-minded individuals.",
+          "Profile Preview Screen: Provides a summary view of potential matches including interests and aspirations.",
+          "Detailed Profile Screen: Displays comprehensive details of a user's profile, including their dreams, ideas, and connection options.",
+          "Connection Request Screen: Interface for sending follow or connect requests and showing confirmation notifications."
+        ]
+      },
+      {
+        "featureName": "Interact through comments, likes, or shares for valuable feedback",
+        "flow": "1. User creates or selects a post on their timeline or in community groups to share ideas or dreams. (User Role)\n2. The post is published and becomes visible to the global community. (System Role)\n3. Other users view the post and engage by leaving comments, liking, or sharing the content. (User Role)\n4. The original poster receives real-time notifications about these interactions, fostering engagement and discussion. (System Role)\n5. The user visits the post’s detailed view to monitor and respond to feedback, deepening the conversation if necessary. (User Role)",
+        "screens": [
+          "Post Creation Screen: Enables the user to craft and publish posts including text, images, or videos.",
+          "Timeline/Feed Screen: Displays a chronological feed of posts from the user's network and community.",
+          "Detailed Post View Screen: Provides an expanded view of a single post along with all its interactions (comments, likes, shares).",
+          "Comments Section Screen: Allows users to read, add, or reply to comments on a post.",
+          "Interaction Summary Screen: Summarizes likes, shares, and other engagement metrics for quick feedback overview.",
+          "Notification Screen: Keeps users informed with real-time alerts on activity related to their posts."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Idea Showcasing and Collaborative Support",
+    "features": [
+      {
+        "featureName": "Showcase personal concepts and aspirations",
+        "flow": "1. User logs into Dream Social Network using registered credentials. 2. From the homepage, the user selects the 'Showcase' option from the main menu. (User Role: Registered User) 3. The user is directed to the Idea Submission Screen where they fill in details (title, description, images, tags) for their concept. 4. Upon submitting the idea, the system displays a preview on the Showcase Feed Screen. 5. The user can click on the idea to open the Showcase Detail Screen for a full view. 6. Options to edit or delete the idea are available through the Edit Idea Screen. (User Role: Registered User; Admin moderation may review flagged posts in later stages.)",
+        "screens": [
+          "Idea Submission Screen: A form where users input idea details such as title, description, images, and tags.",
+          "Showcase Feed Screen: A landing page listing all showcased ideas from the community.",
+          "Showcase Detail Screen: A detailed view of a specific idea with full description, comments, likes, and sharing options.",
+          "Edit Idea Screen: An interface allowing users to modify or delete their submitted ideas."
+        ]
+      },
+      {
+        "featureName": "Engage in discussions to refine ideas",
+        "flow": "1. User accesses a showcased idea via the Showcase Detail Screen. (User Role: Registered User) 2. The user scrolls to the discussion section and selects the 'Join Discussion' button. 3. The system navigates the user to the Discussion/Comment Thread Screen where they can read existing comments. 4. The user clicks on the Post Comment Screen and submits feedback or questions regarding the idea. 5. Other community members view and respond to the comment, creating a thread of discussion. 6. The discussion may be further refined using features like upvoting or 'reply' actions, which keeps the idea feedback organized.",
+        "screens": [
+          "Showcase Detail Screen: Displays the idea along with an integrated discussion section for comments and feedback.",
+          "Discussion/Comment Thread Screen: Shows all related comments and threads organized by time and relevance.",
+          "Post Comment Screen: A simple input interface where users add their thoughts or suggestions to refine the idea.",
+          "Thread Overview Screen: A consolidated view for moderators and users to track active discussion threads and responses."
+        ]
+      },
+      {
+        "featureName": "Find solutions and support from the community to bring ideas to life",
+        "flow": "1. User identifies a concept that requires further development by browsing the Showcase Feed Screen or a dedicated Support section. (User Role: Registered User) 2. The user selects the 'Request Support' or 'Find Solutions' CTA associated with the idea. 3. The system directs them to the Support Request Submission Screen where they can elaborate on the kind of assistance they need (technical, creative, financial, etc.). 4. Upon submission, the request is posted on a Community Support Feed Screen to invite suggestions and endorsements. 5. Community members review the request and submit comments or recommendations. 6. The original poster interacts with the responses via the Support Request Detail Screen, possibly initiating direct collaborations.",
+        "screens": [
+          "Support Request Submission Screen: A detailed form allowing users to specify the assistance or solutions they require.",
+          "Community Support Feed Screen: A dedicated area showing all support requests and solution offers from community members.",
+          "Support Request Detail Screen: Provides comprehensive details about a support request along with comments, suggestions, and response options.",
+          "Showcase Detail Screen: Reused to display integrated support options on the idea page for context."
+        ]
+      },
+      {
+        "featureName": "Foster meaningful connections that may lead to deeper relationships",
+        "flow": "1. User logs in and navigates to the Connection Suggestion Screen where the platform displays potential matches based on similar aspirations and interests. (User Role: Registered User) 2. Interested users review profiles on the Profile Detail Screen to gain more insight into shared values and dreams. 3. The user then selects the option to 'Connect' which opens the Messaging Screen to start a direct conversation. 4. The conversation and interactions may evolve into a deeper dialogue via continued use of the Relationship Building Screen features, such as sharing personal stories or planning collaborations. 5. The system also suggests connecting through community events or group discussions to further nurture a relationship.",
+        "screens": [
+          "Connection Suggestion Screen: Displays a curated list of profiles with similar interests and aspirations relevant to the user's showcased ideas.",
+          "Profile Detail Screen: Provides in-depth information about a user, including their interests, showcased ideas, and personal bio.",
+          "Messaging Screen: An interface for real-time chat and private messaging between users who choose to connect.",
+          "Relationship Building Screen: Offers extended features for sharing detailed posts, scheduling events, and collaborative discussions to deepen the connection."
+        ]
+      }
+    ]
+  }
+]

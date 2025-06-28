@@ -1,0 +1,333 @@
+[
+  {
+    "category": "Piglet Health and Growth Management",
+    "features": [
+      {
+        "featureName": "Track growth metrics (weight, size)",
+        "flow": "1. Farm staff logs into the system. 2. Navigates to the 'Growth Tracking' module. 3. Selects a piglet group or individual piglet. 4. Enters or updates weight/size data manually or via connected IoT sensors. 5. System auto-generates growth charts and alerts for deviations. 6. Staff reviews trends and approves/saves records. 7. Farmers access their purchased piglets' growth data via their accounts.",
+        "screens": [
+          "Growth Dashboard: Overview of all piglets' growth trends with filters for breed/age.",
+          "Metric Entry Screen: Form for manual data input or IoT data validation.",
+          "Growth Details Screen: Individual piglet history with charts and comparative benchmarks.",
+          "Alert Screen: Notifications for under/overweight piglets or stalled growth."
+        ]
+      },
+      {
+        "featureName": "Record feeding regimens and schedules",
+        "flow": "1. Staff creates a feeding template for a piglet breed/age group. 2. Assigns schedules (times, portions, feed type). 3. System sends reminders to staff for feeding rounds. 4. Staff logs actual feeding details (quantity consumed, leftovers). 5. Farmers view recommended schedules for their purchased piglets. 6. Farmers confirm adherence or report issues via the app.",
+        "screens": [
+          "Feeding Template Screen: Predefined regimens per piglet category.",
+          "Schedule Calendar: Visual timeline of daily/weekly feeding plans.",
+          "Feeding Log Screen: History of executed feedings with staff/farmer notes.",
+          "Farmer Compliance Report: Summary of feeding adherence and flagged discrepancies."
+        ]
+      },
+      {
+        "featureName": "Monitor health status and medical history",
+        "flow": "1. Staff conducts routine health checks and logs symptoms (e.g., coughing, lethargy). 2. Links symptoms to common diseases in the system's database. 3. Records treatments administered (medication, quarantine). 4. Farmers receive health summaries and alerts for their piglets. 5. Farmers submit follow-up health updates post-purchase. 6. System generates vaccination reminders based on health records.",
+        "screens": [
+          "Health Check Form: Checklist for symptoms, vital signs, and behavior notes.",
+          "Disease Database Screen: Reference guide for common piglet illnesses.",
+          "Treatment Tracker: Log of medications, dosages, and recovery progress.",
+          "Farmer Health Portal: Read-only access to piglet medical history and advisories."
+        ]
+      },
+      {
+        "featureName": "Vaccination protocol tracking",
+        "flow": "1. Staff sets up vaccination schedules per breed/region requirements. 2. System auto-schedules doses and sends alerts to staff. 3. Staff records administered vaccines (date, batch number, veterinarian). 4. Farmers view vaccination certificates for purchased piglets. 5. Expired or missed doses trigger escalation to farm managers. 6. Integration with government compliance databases for export-ready piglets.",
+        "screens": [
+          "Vaccination Planner: Calendar with mandatory and optional vaccine timelines.",
+          "Certificate Generator: PDF/printable docs with QR codes for authenticity.",
+          "Compliance Dashboard: Overview of vaccination coverage and gaps.",
+          "Escalation Screen: Missed dose alerts with resolution status tracking."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Environmental Monitoring",
+    "features": [
+      {
+        "featureName": "Real-time temperature tracking",
+        "flow": "1. Farm staff logs into the system.\n2. Navigates to the Environmental Monitoring section.\n3. Selects 'Real-time Temperature Tracking' from the dashboard.\n4. Views current temperature readings from sensors across piglet zones.\n5. Clicks on a zone to view detailed trends and historical data.\n6. Adjusts temperature thresholds for alerts via the Settings screen (if required).",
+        "screens": [
+          "Temperature Dashboard: Displays real-time temperature across zones with color-coded status indicators.",
+          "Zone Temperature Detail: Shows granular data, historical graphs, and sensor readings for a selected zone.",
+          "Threshold Configuration: Allows staff to set acceptable temperature ranges for alerts."
+        ]
+      },
+      {
+        "featureName": "Environmental condition logging (humidity, air quality)",
+        "flow": "1. Farm staff logs into the system.\n2. Navigates to Environmental Monitoring > 'Condition Logging'.\n3. Views current humidity and air quality metrics via automated sensors.\n4. Enters manual readings (e.g., from handheld devices) if needed.\n5. Filters historical logs by date/zone to analyze trends.",
+        "screens": [
+          "Condition Logging Dashboard: Displays real-time humidity and air quality metrics with trend lines.",
+          "Manual Data Entry Screen: Form for staff to input humidity/air quality data manually.",
+          "Historical Logs Screen: Table or graph-based view of past environmental data with export functionality."
+        ]
+      },
+      {
+        "featureName": "Alerts for deviations from optimal conditions",
+        "flow": "1. System continuously checks environmental parameters against thresholds.\n2. Triggers alerts for deviations (e.g., high temperature, poor air quality).\n3. Sends in-app notifications and SMS/email alerts to staff.\n4. Staff reviews alert details, resolves the issue (e.g., adjusting ventilation), and marks the alert as resolved.",
+        "screens": [
+          "Alerts Dashboard: Lists active alerts with severity levels and affected zones.",
+          "Alert Details Screen: Displays deviation specifics, recommended actions, and resolution history.",
+          "Alert Settings Screen: Configures thresholds, notification methods, and priority levels for each parameter."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Farm Operations Management",
+    "features": [
+      {
+        "featureName": "Import-export activity logs",
+        "flow": "1. **Staff initiates log**: Farm staff selects 'Add Import/Export Activity' from the dashboard. 2. **Data entry**: Staff selects piglet breed, inputs quantity, origin/destination, date, and purpose (e.g., sale, transfer). 3. **Confirmation**: System validates data and displays a summary for staff approval. 4. **Record update**: Activity is logged in the database and linked to inventory/revenue modules. 5. **Farmer access**: Farmers view export logs for their orders under order history.",
+        "screens": [
+          "Import-Export Entry Form: Input fields for breed, quantity, location, date, and purpose.",
+          "Activity Confirmation Screen: Summary of entered data with submit/cancel options.",
+          "Activity Log List: Filterable table showing all import/export activities with timestamps.",
+          "Export Order Detail Screen (Farmer): Displays order-specific export details for farmers."
+        ]
+      },
+      {
+        "featureName": "Common disease tracking and prevention guidelines",
+        "flow": "1. **Staff logs disease case**: Staff selects 'Report Disease' and inputs symptoms, affected breed, and date. 2. **System recommendation**: Platform suggests prevention guidelines based on disease type. 3. **Staff confirmation**: Staff reviews and updates guidelines if needed. 4. **Farmer alert**: Farmers receive notifications for new guidelines. 5. **Prevention follow-up**: Farmers mark guidelines as completed in their task list.",
+        "screens": [
+          "Disease Log Form: Fields for symptoms, breed, and date of occurrence.",
+          "Prevention Guidelines Screen: Editable list of recommended actions (e.g., vaccinations, isolation).",
+          "Disease Alert List (Farmer): Notifications with links to guidelines.",
+          "Prevention Progress Tracker: Farmers update status of implemented guidelines."
+        ]
+      },
+      {
+        "featureName": "Revenue analytics dashboard",
+        "flow": "1. **Owner/staff selects timeframe**: User picks monthly/quarterly/annual period. 2. **Data aggregation**: System compiles revenue from sales, exports, and other streams. 3. **Visualization**: Dashboard displays trends via graphs (e.g., revenue by breed, region). 4. **Report generation**: User exports data as PDF/CSV. 5. **Strategic action**: Owner uses insights to adjust pricing or promotions.",
+        "screens": [
+          "Revenue Dashboard: Interactive charts/graphs with timeframe filters.",
+          "Revenue Breakdown Screen: Detailed table of revenue sources and costs.",
+          "Export Report Screen: Options to customize and download reports.",
+          "Comparative Analysis Screen: Year-over-year or breed-specific comparisons."
+        ]
+      },
+      {
+        "featureName": "Inventory management for piglet breeds",
+        "flow": "1. **Staff updates inventory**: After import/export, staff adjusts breed quantities manually or via sync. 2. **Low-stock alerts**: System triggers notifications for breeds below threshold. 3. **Farmer browsing**: Farmers view real-time availability and filter by breed traits. 4. **Reservation**: Farmers reserve piglets, reducing available inventory temporarily. 5. **Audit**: Staff reviews inventory history for discrepancies.",
+        "screens": [
+          "Inventory Overview Screen: Summary of breeds, quantities, and health statuses.",
+          "Breed Detail Screen: Age, weight, vaccination status, and availability of a specific breed.",
+          "Inventory Adjustment Form: Manual entry or bulk upload for stock updates.",
+          "Low-Stock Alert Screen: Priority list of breeds needing replenishment."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Farmer Interaction Portal",
+    "features": [
+      {
+        "featureName": "Farmer account creation and authentication",
+        "flow": "1. Farmer navigates to the registration page. 2. Farmer enters email/phone, password, and basic personal details. 3. System sends a verification code via email/SMS. 4. Farmer inputs the code to verify their account. 5. Farmer completes optional profile setup (e.g., farm location, size). 6. Farmer logs in using credentials; system grants access to the portal.",
+        "screens": [
+          "Registration Screen: Form for email/phone, password, and personal details.",
+          "Verification Screen: Input field for verification code with resend option.",
+          "Login Screen: Email/phone and password input with 'Forgot Password' option.",
+          "Profile Setup Screen: Optional fields for farm details and preferences."
+        ]
+      },
+      {
+        "featureName": "Browse available piglet breeds with detailed descriptions",
+        "flow": "1. Farmer logs into the portal. 2. Farmer selects 'Browse Breeds' from the dashboard. 3. System displays a list/grid of breeds with thumbnails and basic info. 4. Farmer applies filters (e.g., breed type, age, price) or uses search. 5. Farmer clicks a breed to view details (genetics, growth metrics, care requirements). 6. Farmer can save favorites or contact the farm for inquiries.",
+        "screens": [
+          "Breed List/Grid Screen: Visual catalog of piglet breeds with filtering options.",
+          "Breed Details Screen: Full description, images, pricing, and health records.",
+          "Filter/Search Screen: Tools to narrow breeds by attributes or keywords.",
+          "Contact Farm Screen: Form or chat option to ask questions about breeds."
+        ]
+      },
+      {
+        "featureName": "Online order placement and payment integration",
+        "flow": "1. Farmer selects a breed and clicks 'Add to Cart'. 2. Farmer reviews the cart and proceeds to checkout. 3. Farmer enters delivery address and preferred shipment date. 4. Farmer selects payment method (e.g., credit card, bank transfer, mobile wallet). 5. System redirects to a secure payment gateway. 6. Farmer confirms payment; system generates an order receipt and updates inventory.",
+        "screens": [
+          "Shopping Cart Screen: Summary of selected breeds, quantities, and total cost.",
+          "Checkout Screen: Delivery details, payment method selection, and terms agreement.",
+          "Payment Gateway Screen: Secure third-party interface for transaction processing.",
+          "Order Confirmation Screen: Receipt with order ID, summary, and next steps."
+        ]
+      },
+      {
+        "featureName": "Order history and status tracking",
+        "flow": "1. Farmer navigates to 'My Orders' from the dashboard. 2. System displays a list of past/present orders with statuses (e.g., Processing, Shipped). 3. Farmer selects an order to view details (timeline, delivery updates, payment status). 4. Farmer can cancel pending orders or request support for issues. 5. System sends automated notifications for status changes.",
+        "screens": [
+          "Order History List Screen: Chronological list of orders with status badges.",
+          "Order Details Screen: Full order breakdown, shipment tracking, and invoices.",
+          "Status Tracking Screen: Visual timeline (e.g., 'Preparing Shipment', 'In Transit').",
+          "Support Request Screen: Form to report issues or request order modifications."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Post-Purchase Support System",
+    "features": [
+      {
+        "featureName": "Care practice coordination platform (feeding, vaccination)",
+        "flow": "1. Farmer logs into the system. 2. Farmer navigates to 'Care Coordination' section. 3. Farmer views recommended feeding/vaccination protocols based on piglet breed. 4. Farmer confirms or adjusts schedules (e.g., feeding frequency). 5. System sends finalized schedule to farm staff for approval. 6. Staff reviews and approves adjustments. 7. Farmer receives confirmation and accesses the finalized plan. Roles: Farmer (steps 1-4,7), Staff (steps 5-6).",
+        "screens": [
+          "Care Coordination Dashboard: Displays current schedules, recommendations, and action buttons.",
+          "Schedule Adjustment Screen: Allows farmers to modify feeding/vaccination timings.",
+          "Staff Approval Screen: Shows pending farmer requests for staff review.",
+          "Confirmation Screen: Provides finalized plan details to the farmer."
+        ]
+      },
+      {
+        "featureName": "Automated feeding schedule reminders",
+        "flow": "1. System triggers reminders based on pre-set schedules. 2. Farmer receives push notification/email. 3. Farmer views reminder details (time, portion size, feed type). 4. Farmer marks task as completed or requests rescheduling. 5. Staff reviews rescheduling requests and updates the system. Roles: System (step 1), Farmer (steps 2-4), Staff (step 5).",
+        "screens": [
+          "Reminder List Screen: Shows all upcoming/past reminders with status indicators.",
+          "Reminder Detail Screen: Displays specific feeding instructions and action buttons.",
+          "Reschedule Request Form: Allows farmers to submit new timing preferences.",
+          "Staff Reminder Management Screen: Enables staff to adjust schedules in bulk."
+        ]
+      },
+      {
+        "featureName": "Disease diagnosis and troubleshooting support",
+        "flow": "1. Farmer reports symptoms via the system (e.g., lethargy, loss of appetite). 2. System suggests potential diseases using a symptom checker. 3. Farmer views recommended first-aid steps. 4. If unresolved, farmer escalates to staff. 5. Staff reviews case and provides personalized advice. Roles: Farmer (steps 1-4), Staff (step 5).",
+        "screens": [
+          "Symptom Reporting Screen: Form with dropdowns/text fields for describing issues.",
+          "Diagnosis Result Screen: Shows possible diseases and severity levels.",
+          "First-Aid Guide Screen: Provides step-by-step care instructions.",
+          "Case Escalation Screen: Allows farmers to attach photos/videos for staff review."
+        ]
+      },
+      {
+        "featureName": "Direct communication channel with farm staff",
+        "flow": "1. Farmer clicks 'Contact Support' from any screen. 2. Farmer selects issue category (e.g., emergency, general inquiry). 3. Farmer writes message/attaches media (e.g., piglet photos). 4. Staff receives alert and responds via chat/email. 5. Farmer views response in messaging hub. Roles: Farmer (steps 1-3,5), Staff (step 4).",
+        "screens": [
+          "Support Inbox Screen: Lists all past conversations with status indicators.",
+          "Message Composition Screen: Interface for typing messages and attaching files.",
+          "Staff Chat Interface: Dedicated view for staff to manage multiple farmer queries.",
+          "Media Viewer Screen: Enables zooming/panning on uploaded photos/videos."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Administrative and Reporting Tools",
+    "features": [
+      {
+        "featureName": "Centralized record-keeping for farm data",
+        "flow": "1. Farm staff logs into the system (Role: Farm Staff).\n2. Navigates to the 'Data Management' dashboard.\n3. Selects a piglet group or individual piglet from a list.\n4. Inputs/updates health metrics (weight, vaccinations), feeding schedules, or environmental data (temperature, humidity).\n5. Saves changes, triggering automatic data synchronization across the platform.\n6. System logs the update and sends a confirmation alert to relevant staff.",
+        "screens": [
+          "Login Screen: Authentication for farm staff.",
+          "Data Management Dashboard: Overview of all piglet groups with quick-edit options.",
+          "Data Entry Form: Detailed form for inputting health, feeding, and environmental data.",
+          "Confirmation Screen: Success message with summary of changes.",
+          "Data History Screen: Timeline of all updates for audit purposes."
+        ]
+      },
+      {
+        "featureName": "Promotional announcement distribution",
+        "flow": "1. Farm owner/staff logs in (Role: Farm Owner/Staff).\n2. Navigates to 'Announcements' section.\n3. Clicks 'Create New Announcement'.\n4. Inputs promotion details (discounts, new breeds) and selects target farmer segments.\n5. Previews the announcement and schedules distribution.\n6. System sends announcements via in-app notifications and email to selected farmers.",
+        "screens": [
+          "Announcement Dashboard: List of active/past promotions.",
+          "Announcement Creation Form: Fields for title, content, target audience, and scheduling.",
+          "Targeting Screen: Farmer segmentation filters (location, purchase history).",
+          "Preview Screen: Mobile/desktop preview of the announcement.",
+          "Confirmation Screen: Delivery summary and sent timestamp."
+        ]
+      },
+      {
+        "featureName": "Customizable reports (monthly, quarterly, annual)",
+        "flow": "1. Staff selects 'Reports' from the main menu (Role: Farm Staff/Owner).\n2. Chooses report type (e.g., revenue, piglet growth) and time frame.\n3. Customizes data parameters (e.g., filter by breed or region).\n4. Generates report, which is auto-saved to the database.\n5. Exports report as PDF/CSV or shares it via the platform.",
+        "screens": [
+          "Report Dashboard: Pre-built report templates and history.",
+          "Parameter Selection Screen: Dropdowns for date ranges, metrics, and filters.",
+          "Generated Report Screen: Interactive charts/tables with export options.",
+          "Export Settings Screen: Format selection (PDF/CSV) and email sharing."
+        ]
+      },
+      {
+        "featureName": "Strategic decision-making analytics",
+        "flow": "1. Farm owner accesses 'Analytics Hub' (Role: Farm Owner).\n2. Selects a focus area (e.g., revenue trends, disease outbreaks).\n3. Adjusts visualizations (heatmaps, line graphs) using real-time data.\n4. Compares historical data or benchmarks.\n5. Exports insights or triggers actions (e.g., 'Order more feed') directly from the dashboard.",
+        "screens": [
+          "Analytics Hub: Overview of key performance indicators (KPIs).",
+          "Data Visualization Screen: Interactive charts with drill-down capabilities.",
+          "Comparison Tool: Side-by-side analysis of datasets.",
+          "Action Trigger Screen: Shortcut buttons for inventory/replenishment actions."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Logistics and Remote Coordination",
+    "features": [
+      {
+        "featureName": "Piglet exchange management for remote farmers",
+        "flow": "1. Farmer logs into the system and navigates to the 'Exchange Requests' section. (Farmer)\n2. Farmer submits a piglet exchange request, specifying breed, quantity, and reason. (Farmer)\n3. System notifies farm staff about the new request. (System)\n4. Staff reviews the request, checks piglet availability, and verifies health/growth records. (Staff)\n5. Staff approves or denies the request and updates the system. (Staff)\n6. Farmer receives a confirmation notification and tracks the exchange status. (Farmer)\n7. Once approved, staff coordinates logistics for the exchange (e.g., transportation). (Staff)\n8. Farmer and staff confirm completion of the exchange in the system. (Both)",
+        "screens": [
+          "Exchange Request Form: Farmer fills in exchange details (breed, quantity, reason).",
+          "Exchange Request Dashboard: Staff views and manages all pending/completed exchange requests.",
+          "Exchange Confirmation Screen: Disables approval/denial status and next steps for the farmer.",
+          "Exchange Tracking Screen: Real-time updates on exchange logistics (e.g., pickup/delivery timelines)."
+        ]
+      },
+      {
+        "featureName": "Logistics coordination (transportation, delivery tracking)",
+        "flow": "1. Farmer selects a shipping method during checkout or exchange approval. (Farmer)\n2. System prompts farmer to input delivery address and contact details. (Farmer)\n3. Staff assigns logistics partners and schedules pickup/delivery. (Staff)\n4. System generates a unique tracking ID for the shipment. (System)\n5. Farmer monitors delivery progress via the tracking ID. (Farmer)\n6. Staff receives alerts for delays/issues and resolves them (e.g., rerouting). (Staff)\n7. Farmer confirms receipt of piglets in the system. (Farmer)\n8. System updates inventory and records delivery completion. (System)",
+        "screens": [
+          "Order Shipping Options: Farmer selects delivery speed and carrier preferences.",
+          "Logistics Dashboard: Staff monitors all active shipments and assigns resources.",
+          "Delivery Tracking Screen: Farmer views real-time location updates and estimated arrival time.",
+          "Delivery Issue Reporting: Farmer or staff reports logistics issues (e.g., delays, accidents)."
+        ]
+      },
+      {
+        "featureName": "Remote access to care guidelines and resources",
+        "flow": "1. Farmer accesses the 'Care Guidelines' section post-login. (Farmer)\n2. Farmer browses or searches resources by breed, age, or keyword. (Farmer)\n3. System displays relevant guidelines (e.g., feeding schedules, vaccination protocols). (System)\n4. Farmer selects a guideline to view detailed steps and downloadable materials. (Farmer)\n5. Farmer saves or prints guidelines for offline use. (Farmer)\n6. System tracks frequently accessed resources for analytics. (System)\n7. Staff updates guidelines based on new veterinary recommendations. (Staff)",
+        "screens": [
+          "Care Resource Library: Categorized list of guidelines (feeding, vaccinations, disease prevention).",
+          "Search Results Screen: Filters resources by breed, age, or keyword.",
+          "Care Guideline Detail: Displays step-by-step instructions with images/videos.",
+          "Download Manager: Farmer downloads PDFs or videos for offline access."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "User Access and Security",
+    "features": [
+      {
+        "featureName": "Role-based access control (staff, farmers, owner)",
+        "flow": "1. User registers/login via [Login Screen].\n2. System verifies credentials and assigns role (staff, farmer, owner) based on pre-configured permissions.\n3. Owner accesses [Access Management Dashboard] to add/remove roles or adjust permissions.\n4. Staff members are redirected to [Staff Dashboard] with health/growth data input options.\n5. Farmers access [Farmer Portal] to view piglet listings and care guides.\n6. Unauthorized actions trigger an [Access Denied Alert Screen].",
+        "screens": [
+          "Login Screen: Authenticates users via email/password.",
+          "Role Selection Screen (Owner-only): Assigns roles during staff onboarding.",
+          "Access Management Dashboard: Owner manages user roles and permissions.",
+          "Staff Dashboard: Central hub for data entry and piglet management.",
+          "Farmer Portal: Interface for orders and care coordination.",
+          "Access Denied Alert Screen: Informs users of restricted access."
+        ]
+      },
+      {
+        "featureName": "Data encryption and security protocols",
+        "flow": "1. All data transmissions use TLS 1.3 encryption during API calls.\n2. Sensitive data (e.g., farmer payment details) are encrypted at rest using AES-256.\n3. Users enable 2FA via [Security Settings Screen].\n4. System auto-logs out inactive sessions after 15 minutes.\n5. Admins review encryption status via [Security Audit Dashboard] quarterly.",
+        "screens": [
+          "Security Settings Screen: Users configure 2FA and password reset.",
+          "Encryption Status Screen: Displays encryption protocols for in-transit/at-rest data.",
+          "Security Audit Dashboard: Owner monitors security compliance and incident logs.",
+          "Session Timeout Warning Screen: Notifies users before automatic logout."
+        ]
+      },
+      {
+        "featureName": "Audit logs for system activities",
+        "flow": "1. System auto-logs user actions (e.g., 'Staff updated piglet weight' or 'Farmer placed order').\n2. Owner filters logs by date/user/action via [Audit Log Dashboard].\n3. Suspicious activities (e.g., multiple failed logins) trigger alerts in [Admin Alert Feed].\n4. Monthly audit reports are generated as PDF/CSV for compliance checks.",
+        "screens": [
+          "Audit Log Dashboard: Table with timestamp, user, action, and IP address details.",
+          "Log Filter Screen: Custom filters for date range, user role, or activity type.",
+          "Admin Alert Feed: Real-time notifications for security anomalies.",
+          "Audit Report Generator: Customizable report templates for export."
+        ]
+      }
+    ]
+  }
+]

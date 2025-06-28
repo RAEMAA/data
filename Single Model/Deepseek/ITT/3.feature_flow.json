@@ -1,0 +1,246 @@
+[
+  {
+    "category": "Tour Packages & Categorization",
+    "features": [
+      {
+        "featureName": "Curated tour selections",
+        "flow": "1. **Visitor** lands on the homepage and views highlighted curated tours. 2. **Visitor** clicks 'Explore Curated Tours' to access a dedicated recommendations page. 3. **Visitor** filters tours by date, duration, or price range. 4. **Visitor** selects a tour, redirecting to the Tour Details screen. 5. **Visitor** checks real-time availability for preferred dates. 6. **Visitor** clicks 'Book Now' and fills in traveler/payment details on the Booking Screen. 7. **Visitor** receives a confirmation email and on-screen success message.",
+        "screens": [
+          "Homepage: Displays featured curated tours with brief descriptions and CTAs.",
+          "Curated Tours List: Filterable grid of curated tours with images, prices, and key highlights.",
+          "Tour Details: Comprehensive tour overview (itinerary, inclusions/exclusions, gallery, guide profiles).",
+          "Booking Screen: Form for traveler details, date selection, and payment processing.",
+          "Confirmation Screen: Summarizes booking details and provides a confirmation number."
+        ]
+      },
+      {
+        "featureName": "Distinct categories: Special Tours, Japan Tours, Asia Tours, Europe-Australia-America Tours",
+        "flow": "1. **Visitor** navigates via the 'Categories' dropdown menu. 2. **Visitor** selects a category (e.g., 'Japan Tours') to view all associated tours. 3. **Visitor** sorts tours by popularity, price, or duration. 4. **Visitor** clicks a tour card to access the Tour Details screen. 5. **Visitor** verifies logistics (accommodations, flights, meals) and clicks 'Book Now'. 6. **Visitor** completes the booking process and receives confirmation.",
+        "screens": [
+          "Category Navigation Menu: Dropdown or sidebar listing all tour categories.",
+          "Category Landing Page: Grid of tours within the selected category, with sorting/filtering options.",
+          "Tour Details: Same as above, dynamically populated based on category selection.",
+          "Booking Screen: Same as above, shared across features.",
+          "Confirmation Screen: Same as above, shared across features."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Promotions & Updates",
+    "features": [
+      {
+        "featureName": "Regular updates on promotions and special offers",
+        "flow": "1. **User Role**: User navigates to the ITT homepage and views the dynamically updated 'Promotions & Offers' banner. \n2. **User Role**: User clicks the banner, redirecting to the 'Promotions List' screen. \n3. **User Role**: User filters promotions by category (e.g., Special Tours, Japan Tours) or searches by keyword/destination. \n4. **User Role**: User selects a promotion to view its details (validity, eligibility, discounts). \n5. **User Role**: User clicks 'Apply Now' to initiate booking or claims the offer via a form. \n6. **System Role**: System sends a confirmation email/SMS with promotion details and a unique code. \n7. **User Role**: User opts into future promotion alerts via a toggle on the promotion details screen. \n8. **System Role**: System triggers automated notifications for new promotions based on user preferences (email, SMS).",
+        "screens": [
+          "Homepage Promotions Banner: Highlights active promotions with visuals and CTAs.",
+          "Promotions List Screen: Displays all active offers with filters (category, date, destination).",
+          "Promotion Details Screen: Provides offer specifics (terms, deadlines, booking links), a visual gallery, and an application form.",
+          "Promotion Application Form: Captures user details and preferences for claiming the offer.",
+          "Confirmation Screen: Acknowledges successful application and displays the unique promo code.",
+          "Subscription Management Screen: Allows users to opt in/out of promotional alerts and select notification channels (email/SMS).",
+          "Notification Settings Screen: Part of user profiles to customize frequency and types of alerts."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Visa Assistance Services",
+    "features": [
+      {
+        "featureName": "Comprehensive visa guidance for various destinations",
+        "flow": "1. **User accesses visa guidance section** (Role: Traveler) - Navigate to the Visa Assistance section via the main menu or homepage banner. 2. **Select destination country** (Role: Traveler) - Choose a destination from a dropdown/list of supported countries. 3. **View visa requirements** (Role: Traveler) - Display mandatory documents, fees, processing times, and embassy details. 4. **Step-by-step application guide** (Role: Traveler) - Interactive checklist with steps like form filling, appointment booking, and submission guidelines. 5. **Download templates/forms** (Role: Traveler) - Access downloadable PDFs for application forms, cover letters, and document checklists. 6. **Track application status** (Role: Traveler) - Enter a reference number to view real-time updates on visa processing. 7. **Contact support** (Role: Traveler/Customer Support) - Initiate a chat, email, or call using the displayed hotline for unresolved queries. 8. **Confirmation and reminders** (Role: System) - Automated email/SMS alerts for deadlines, document updates, or policy changes.",
+        "screens": [
+          "Visa Guidance Landing Page: Overview of visa services with search/select destination options.",
+          "Destination Selection Screen: Filterable list of countries with visa difficulty indicators.",
+          "Visa Requirements Screen: Detailed breakdown of documents, costs, and policies per destination.",
+          "Application Guide Screen: Interactive checklist with expandable steps and tips.",
+          "Document Download Screen: Repository of editable templates and embassy-specific forms.",
+          "Application Status Tracking Screen: Input field for reference number and status progress bar.",
+          "Support Contact Screen: Pre-filled inquiry form (based on selected country) with live chat/hotline buttons.",
+          "Submission Confirmation Screen: Post-application summary with next steps and reminders."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Cultural & Travel Insights",
+    "features": [
+      {
+        "featureName": "Articles on cultural exploration",
+        "flow": "1. Traveler navigates to 'Cultural Exploration' section from the homepage. 2. Traveler browses articles using filters (region, category, popularity). 3. Traveler selects an article of interest. 4. Traveler reads the full article content. 5. Traveler shares the article via email or social media. 6. Traveler views related articles based on current read.",
+        "screens": [
+          "Cultural Articles List Screen: Grid/list of articles with thumbnails, titles, excerpts, and filter options.",
+          "Article Detail Screen: Full article content, author info, sharing options, related articles."
+        ]
+      },
+      {
+        "featureName": "Firsthand travel narratives and stories",
+        "flow": "1. Traveler accesses 'Travel Stories' from the homepage. 2. Traveler filters stories by destination or author. 3. Traveler selects a story to read. 4. Traveler views the narrative with multimedia elements. 5. Traveler shares the story via available channels. 6. Traveler explores related stories or author profiles.",
+        "screens": [
+          "Travel Stories List Screen: Curated stories with cover images, titles, brief summaries, and filtering options.",
+          "Story Detail Screen: Full narrative text, embedded images/videos, author bio, sharing options, related stories."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Client Testimonials & Reviews",
+    "features": [
+      {
+        "featureName": "Authentic client testimonials",
+        "flow": "1. [Traveler] Navigates to the 'Testimonials' section from the homepage or tour pages. 2. [Traveler] Browses testimonials using filters (e.g., by tour category, date, or rating). 3. [Traveler] Clicks a testimonial to view detailed client stories, photos, and ratings. 4. [Traveler] Submits their own testimonial via a CTA button, entering details about their experience. 5. [Admin] Reviews and approves the testimonial via a moderation dashboard before publication.",
+        "screens": [
+          "Testimonials Landing Page: Displays curated testimonials with filtering options and search functionality.",
+          "Detailed Testimonial View: Shows full testimonial text, client photos, trip details, and associated tour package.",
+          "Testimonial Submission Form: A form for users to share their experience, upload media, and rate their trip.",
+          "Submission Confirmation Screen: Acknowledges receipt and explains the moderation process.",
+          "Admin Moderation Dashboard: Allows admins to approve, reject, or edit testimonials with audit logs."
+        ]
+      },
+      {
+        "featureName": "User reviews to build trust",
+        "flow": "1. [Traveler] Visits a specific tour details page and scrolls to the 'Reviews' section. 2. [Traveler] Reads reviews sorted by recency or rating. 3. [Traveler] Submits a review by clicking 'Write a Review', providing a rating, text, and optional photos. 4. [Admin] Moderates the review via a dashboard to ensure compliance. 5. [Traveler] Receives a notification when their review is published.",
+        "screens": [
+          "Tour Details Page (Reviews Section): Embeds reviews below tour information, with sorting and pagination.",
+          "Review Submission Form: Captures ratings, written feedback, and media uploads tied to the specific tour.",
+          "Review Confirmation Screen: Thanks the user and sets expectations for moderation timelines.",
+          "Admin Review Moderation Dashboard: Lists pending reviews with tools to validate authenticity and flag inappropriate content.",
+          "Published Review Notification Screen: In-app or email notification confirming the review's publication."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Contact & Support Channels",
+    "features": [
+      {
+        "featureName": "Online contact forms",
+        "flow": "1. User navigates to the 'Contact' section from the homepage. 2. User selects the type of inquiry (individual, group, visa) from a dropdown. 3. User fills in personal details, inquiry type, and message in the form. 4. User submits the form. 5. System sends an automated confirmation email to the user and notifies the support team. 6. Support agent responds via email or phone within 24 hours. Roles: User, Support Agent.",
+        "screens": [
+          "Contact Landing Page: Overview of contact options with a link to the online form.",
+          "Inquiry Type Selection Screen: Dropdown to select inquiry category (individual/group/visa).",
+          "Online Contact Form Screen: Fields for name, email, phone, inquiry type, and message.",
+          "Confirmation Screen: Success message with reference number and expected response time."
+        ]
+      },
+      {
+        "featureName": "Dedicated hotlines (individual, group, visa inquiries)",
+        "flow": "1. User visits the 'Contact' section. 2. User selects the relevant hotline (individual, group, visa) from the displayed numbers. 3. User calls the hotline. 4. Support agent answers, resolves the query, or escalates to a specialist. 5. Post-call, user receives an SMS with a summary of the conversation. Roles: User, Support Agent.",
+        "screens": [
+          "Contact Landing Page: Lists all hotline numbers with labels for each inquiry type.",
+          "Hotline Information Screen: Details about operating hours, languages supported, and average wait times.",
+          "Post-Call Survey Screen: Optional feedback form sent via SMS/link after the call."
+        ]
+      },
+      {
+        "featureName": "Email support",
+        "flow": "1. User navigates to the 'Contact' section. 2. User clicks the 'Email Support' option. 3. User selects inquiry type and is redirected to their email client with a pre-filled subject line. 4. User composes and sends the email. 5. Support agent reviews and responds within 24 hours. Roles: User, Support Agent.",
+        "screens": [
+          "Contact Landing Page: Includes an email support button with a generic support email address.",
+          "Email Support Screen: Instructions for structuring the email and pre-filled subject templates.",
+          "Email Composition Screen: User’s default email client with pre-populated recipient and subject.",
+          "Confirmation Screen: Message confirming email sent successfully."
+        ]
+      },
+      {
+        "featureName": "Office address information",
+        "flow": "1. User navigates to the 'Contact' section. 2. User clicks 'Visit Us' to view office addresses. 3. User selects a branch location from a list. 4. User views address, operating hours, and directions. 5. User visits the office for in-person support. Roles: User.",
+        "screens": [
+          "Contact Landing Page: Link to office locations and addresses.",
+          "Office Locations Screen: List of all branch offices with addresses and contact details.",
+          "Interactive Map Screen: Embedded map with pins for office locations and route planning."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Tour-Specific Details",
+    "features": [
+      {
+        "featureName": "Daily itineraries with schedules",
+        "flow": "1. Traveler selects a tour from the category listings. 2. Traveler navigates to the tour's main details page. 3. Traveler clicks the 'Daily Itinerary' tab. 4. Traveler browses collapsible day-by-day schedules. 5. Traveler expands a specific day to view timed activities, transportation details, and location highlights. 6. Traveler clicks 'Map View' to visualize the day's route (if available).",
+        "screens": [
+          "Tour Overview Screen: Primary page displaying tour highlights, pricing, and key details.",
+          "Itinerary List Screen: Scrollable list of days with expandable schedule cards.",
+          "Itinerary Detail Screen: Expanded view of a single day's activities, including times, descriptions, and photos.",
+          "Interactive Map Screen: Embedded map showing the day's route and key stops (integrated with a service like Google Maps)."
+        ]
+      },
+      {
+        "featureName": "Key attractions highlighted per tour",
+        "flow": "1. Traveler opens a tour details page. 2. Traveler scrolls to the 'Highlights' section. 3. Traveler clicks on an attraction card for more details. 4. Traveler views descriptions, historical/cultural context, and related media. 5. Traveler returns to the main tour page or explores linked itinerary entries.",
+        "screens": [
+          "Tour Highlights Carousel: Visual gallery of top attractions with brief captions.",
+          "Attraction Detail Screen: Full-screen view of an attraction’s description, photos, and its relevance to the tour."
+        ]
+      },
+      {
+        "featureName": "Logistical specifics (accommodations, flights, meals)",
+        "flow": "1. Traveler navigates to the 'Logistics' tab on the tour page. 2. Traveler selects between 'Accommodations,' 'Flights,' or 'Meals' sub-sections. 3. Traveler reviews hotel details (names, ratings, amenities), flight options (included/excluded), and meal plans (dietary accommodations). 4. Traveler clicks 'View Photos' to see accommodation visuals or sample meals.",
+        "screens": [
+          "Logistics Overview Screen: Tabs for accommodations, flights, and meals.",
+          "Accommodation Detail Screen: Hotel/resort details with images and amenities.",
+          "Meal Plan Screen: Breakdown of included meals with dietary tags (e.g., vegetarian, gluten-free)."
+        ]
+      },
+      {
+        "featureName": "Transparent pricing with inclusions/exclusions",
+        "flow": "1. Traveler clicks the 'Pricing' section on the tour page. 2. Traveler views a breakdown of costs, including base price, taxes, and optional add-ons. 3. Traveler expands 'Inclusions' to see covered services (e.g., guides, entry fees). 4. Traveler expands 'Exclusions' to review costs not covered (e.g., personal expenses). 5. Traveler clicks 'Compare Packages' to see tiered pricing (if available).",
+        "screens": [
+          "Pricing Summary Screen: Total cost with expandable inclusions/exclusions lists.",
+          "Package Comparison Screen: Side-by-side view of different pricing tiers (e.g., basic vs. premium)."
+        ]
+      },
+      {
+        "featureName": "Visual galleries for tours",
+        "flow": "1. Traveler scrolls to the 'Gallery' section on the tour page. 2. Traveler browses thumbnail images or videos. 3. Traveler clicks a thumbnail to open a full-screen viewer. 4. Traveler swipes through media or watches embedded videos. 5. Traveler shares media via social media buttons (optional).",
+        "screens": [
+          "Gallery Grid Screen: Thumbnail grid of tour-related images/videos.",
+          "Full-Screen Media Viewer: Enlarged image/video with captions and sharing options."
+        ]
+      },
+      {
+        "featureName": "Tour guide profiles",
+        "flow": "1. Traveler navigates to the 'Guides' section on the tour page. 2. Traveler scrolls through guide profiles with photos and brief bios. 3. Traveler clicks a profile to view certifications, languages spoken, and traveler reviews. 4. Traveler returns to the main tour page or clicks 'Contact Guide' (if enabled).",
+        "screens": [
+          "Guide Profiles Screen: Grid/list of guides with photos and short bios.",
+          "Guide Detail Screen: Expanded profile with reviews, credentials, and contact options."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Booking & Policy Information",
+    "features": [
+      {
+        "featureName": "Clear payment guidelines",
+        "flow": "1. (User) Navigate to the desired tour package's details page.\n2. (User) Click on the 'Payment Guidelines' section.\n3. (System) Display a dedicated screen with payment methods (credit/debit cards, bank transfers, e-wallets), installment schedules, deadlines, and included/excluded costs.\n4. (User) Review details; optionally click 'Proceed to Payment' to initiate booking.\n5. (System) Redirect to secure payment gateway (external screen).",
+        "screens": [
+          "Tour Details Screen: Overview of the tour with a link to payment guidelines.",
+          "Payment Guidelines Screen: Detailed breakdown of accepted payment methods, installment plans, deadlines, and cost inclusions/exclusions.",
+          "Payment Method Selection Screen: Interface to choose a payment method and enter details (integrated with secure gateway)."
+        ]
+      },
+      {
+        "featureName": "Cancellation policies",
+        "flow": "1. (User) Access the tour details page or booking confirmation email.\n2. (User) Click 'Cancellation Policy' link.\n3. (System) Display cancellation deadlines, refund tiers (e.g., 100% refund if canceled within 48 hours, 50% after), and process steps.\n4. (User) Click 'Request Cancellation' to initiate the process.\n5. (System) Open a form to submit cancellation reason and bank details for refunds.\n6. (System) Send confirmation email with cancellation reference ID.",
+        "screens": [
+          "Tour Details Screen: Includes link to cancellation policy.",
+          "Cancellation Policy Screen: Clear timeline of refund eligibility and penalties.",
+          "Cancellation Request Form: Form to submit cancellation request and refund details.",
+          "Cancellation Confirmation Screen: Summary of request and reference ID."
+        ]
+      },
+      {
+        "featureName": "Terms and conditions for bookings",
+        "flow": "1. (User) Navigate to the tour details page or checkout screen.\n2. (User) Click 'Terms & Conditions' link.\n3. (System) Display legal terms covering liability, rescheduling rules, force majeure, and traveler responsibilities.\n4. (User) Toggle checkboxes to accept terms during checkout.\n5. (System) Enable 'Confirm Booking' button only after acceptance.",
+        "screens": [
+          "Tour Details Screen: Link to terms and conditions.",
+          "Terms & Conditions Screen: Scrollable legal document with sections highlighted for clarity.",
+          "Booking Confirmation Screen: Includes checkbox validation for terms acceptance before finalizing booking."
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,266 @@
+[
+  {
+    "category": "Branch Management",
+    "features": [
+      {
+        "featureName": "Manage branch locations and details",
+        "flow": "1. Admin logs into the system using secure credentials. (Admin Role)\n2. From the Dashboard, the Admin navigates to the Branch Management section where all branches are listed.\n3. The Admin selects 'Add New Branch' to register a new branch or clicks on an existing branch entry to edit details. (Admin Role)\n4. In the Branch Form, details such as branch name, address, contact information, operating hours, branch images, and any additional notes are entered.\n5. The Admin submits the form. The system validates the input and saves the branch details in the database. (System Action)\n6. A confirmation message is displayed, and the branch list updates to show the new or modified branch information. (Admin Role)\n7. If needed, the Admin can further update or archive branch data from the Branch Details Screen.",
+        "screens": [
+          "Admin Login Screen: Allows administrators to securely log into the system.",
+          "Dashboard Screen: Main overview with navigation to various modules including Branch Management.",
+          "Branch List Screen: Displays all branch locations with options to view, add, or edit branch details.",
+          "Branch Form Screen: A detailed form for entering or editing branch information such as location, contact details, and operating hours.",
+          "Confirmation Screen: Displays a success message with branch details confirmation after submission."
+        ]
+      },
+      {
+        "featureName": "Automatic routing of online orders to the nearest branch",
+        "flow": "1. Customer logs in or continues as guest and browses the online ordering website. (Customer Role)\n2. The customer adds desired food items to the cart and proceeds to checkout. (Customer Role)\n3. During checkout, the customer provides a delivery or pickup address. (Customer Role)\n4. The system automatically calculates the distance between the provided address and all branch locations. (System Action)\n5. The system selects the nearest branch based on distance and estimated service times, and routes the order accordingly. (System Action)\n6. Payment is processed securely using integrated payment gateways (e.g., www.nganluong.vn). (Customer and System Roles)\n7. After successful routing and payment, the customer receives an order confirmation along with branch details. (System Role)\n8. The selected branch receives an order notification on its internal dashboard for processing. (Branch Manager Role)",
+        "screens": [
+          "Menu & Ordering Screen: Lets customers browse food items and add them to their cart.",
+          "Checkout & Address Entry Screen: Allows customers to input delivery or pickup address along with payment details.",
+          "Payment Processing Screen: Integrates with secure payment services to process the transaction.",
+          "Order Confirmation Screen: Displays order details, including confirmation of the branch to which the order has been routed.",
+          "Branch Order Notification Screen: An internal screen for branch staff, showing newly routed orders with customer and order details."
+        ]
+      },
+      {
+        "featureName": "Real-time branch status monitoring",
+        "flow": "1. Admin or Branch Manager logs into the system and navigates to the branch monitoring dashboard. (Admin/Branch Manager Role)\n2. The system collects real-time data from each branch, including operating status (open/closed), order processing volume, and any critical alerts. (System Action)\n3. The monitoring dashboard displays a summary overview of all branches along with a map view indicating branch locations and current statuses. (System Action)\n4. Users can click on individual branch indicators to view detailed performance and operational status metrics. (Admin/Branch Manager Role)\n5. If an issue is detected (e.g., branch overload or technical problem), the system raises an alert and the relevant manager can take action or update the branch status manually. (System and Admin/Branch Manager Roles)\n6. The monitoring information is periodically refreshed to ensure up-to-date status tracking.",
+        "screens": [
+          "Monitoring Dashboard Screen: A central interface displaying real-time status summaries of all branches with key metrics and alerts.",
+          "Branch Map Screen: Shows the geographic locations of all branches with color-coded status indicators.",
+          "Branch Details Screen: Provides in-depth information of a selected branch including performance metrics and operational status.",
+          "Alerts & Notifications Screen: Lists any active alerts or issues that require attention from admins or branch managers."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Online Ordering System",
+    "features": [
+      {
+        "featureName": "Customer-friendly menu browsing with detailed meal descriptions",
+        "flow": "1. Customer (User Role: End User) lands on the homepage and sees a clear call-to-action for menu browsing. 2. Customer selects the 'Menu' option from the navigation. 3. The system displays a categorized list of meal items (e.g., broken rice dishes, specialty drinks). 4. Customer clicks on any specific meal item to view additional details such as ingredients, price, high-quality images, and nutritional information. 5. Backend system retrieves and displays detailed meal descriptions from the database. 6. Customer can use filtering and search functionalities (e.g., filter by branch availability, dietary options). 7. Customer decides to continue browsing or to click on a featured dish for special promotions. 8. Throughout the process, the system provides visual cues and tooltips to help the customer understand the dish details and ordering process.",
+        "screens": [
+          "Homepage: Presents an overview of the restaurant including branding, quick links, and menu call-to-action.",
+          "Menu Listing Screen: Displays categorized list of dishes with thumbnail images, brief descriptions, and prices.",
+          "Meal Detail Screen: Provides comprehensive details of the selected meal, including high-resolution images, ingredients, and nutritional info.",
+          "Search and Filter Screen/Module: Offers search bar and filter options for cuisine types, price range, and dietary preferences."
+        ]
+      },
+      {
+        "featureName": "Selection and order placement interface",
+        "flow": "1. Customer navigates to the meal detail page and chooses desired quantity, customizations (if available, e.g., extra toppings or special requests), and adds the dish to the cart. 2. Customer reviews the cart using the 'Cart' icon available on every page. 3. Customer is prompted to either log in or continue as a guest when placing the order. 4. Customer proceeds to the checkout interface where they confirm order details, apply coupon codes or promotions, and choose a payment method. 5. The system calculates taxes, applicable discounts, and final totals in real-time. 6. Customer reviews the final order summary and clicks on the 'Place Order' button. 7. Backend system validates the order, reserves inventory if needed, and routes the order to the nearest branch based on customer location. 8. Confirmation of order placement is immediately provided to the customer.",
+        "screens": [
+          "Meal Detail and Customization Screen: Enables selection of meal quantity, customizations, and additional options.",
+          "Shopping Cart Screen: Summarizes selected items, displays dynamic pricing, and allows modifications or removal of items.",
+          "Checkout Screen: Captures customer details, order summary, delivery options, promo code entry, and payment method selection.",
+          "Order Review Screen: Presents a final order review including tax breakdown, delivery estimates, and confirmation button."
+        ]
+      },
+      {
+        "featureName": "Order confirmation and status tracking",
+        "flow": "1. After order placement, the system generates an order confirmation page with a unique order ID and estimated preparation/delivery time. 2. Customer is notified via email and/or SMS with their order details and tracking link. 3. Customer accesses the 'Order History/Status Tracking' section from their account dashboard to monitor live status updates (e.g., order received, in preparation, out for delivery, delivered). 4. The system updates statuses in real-time as the order progresses through preparation and delivery stages. 5. If any delays or issues occur, notifications are sent to the customer with updated estimated times. 6. Customer can contact support via a provided link if there are discrepancies or concerns about the order.",
+        "screens": [
+          "Order Confirmation Screen: Displays orderID, summary of the order, confirmation message, and estimated delivery time.",
+          "Order Tracking Screen: Provides live status updates with visual timeline and estimated time remaining for each stage.",
+          "Order History Screen: Lists previous orders with statuses and quick access to reorder options and detailed receipts.",
+          "Notification Screen/Modal: Alerts for any important order status updates or issues with clear messaging and follow-up actions."
+        ]
+      },
+      {
+        "featureName": "Integration for busy office workers with streamlined ordering process",
+        "flow": "1. Office worker (User Role: Frequent Customer) logs in or registers with an option to save frequent orders and preferred settings. 2. Customer accesses a 'Quick Order' or 'Office Mode' feature from the homepage where typical orders are pre-saved or highlighted. 3. The system displays previously ordered combinations or curated menus based on peak business hours and popular choices for corporate orders. 4. Customer selects a quick order option and reviews a condensed summary of the order with minimal customization required. 5. Customer confirms the order and chooses their pre-saved payment method for faster checkout. 6. The system routes the order to the nearest branch with pre-saved delivery preferences (e.g., office address). 7. Confirmation is sent instantaneously with real-time tracking available. 8. Backend analytics capture order frequency and preferences to further optimize the office worker experience.",
+        "screens": [
+          "Login/Registration Screen: Allows busy office workers to sign in and access saved profiles and settings.",
+          "Quick Order Dashboard: Displays pre-saved frequent orders, curated office lunches, and streamlined order options.",
+          "Simplified Checkout Screen: Features minimal fields, auto-filled billing and delivery information, and fast payment options.",
+          "Order Confirmation and Fast Tracking Screen: Provides immediate confirmation and a simplified status update for the quick order."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Payment Processing",
+    "features": [
+      {
+        "featureName": "Secure online payment gateway integration with www.nganluong.vn and similar services",
+        "flow": "Step 1: Customer reviews the order summary and chooses the 'Proceed to Payment' option on the checkout screen. [Customer]\nStep 2: The system presents multiple secure payment options and highlights integration with www.nganluong.vn and similar services. [System]\nStep 3: Customer selects the preferred payment gateway and clicks the 'Pay Now' button. [Customer]\nStep 4: The system securely redirects the customer to the chosen payment gateway page where the payment details are entered. [System, Payment Gateway]\nStep 5: Customer completes payment on the secure gateway page, which includes authenticating payment details and confirming the amount. [Customer, Payment Gateway]\nStep 6: The payment gateway processes the payment and sends a secure callback response to the system with transaction details. [Payment Gateway, System]\nStep 7: The system receives the response, validates the transaction, and updates the order status based on the payment result. [System]\nStep 8: Customer is redirected to a dedicated payment confirmation screen indicating that the payment has been processed successfully. [System, Customer]",
+        "screens": [
+          "Checkout Payment Screen: Displays order summary and offers secure payment method selection.",
+          "Payment Method Selection Screen: Lists available payment options, highlighting the integration with www.nganluong.vn and similar services.",
+          "Secure Gateway Redirection Screen: Notifies the customer of a secure redirection to the third-party payment gateway.",
+          "Payment Confirmation Screen: Confirms a successful payment and provides a summary of the transaction."
+        ]
+      },
+      {
+        "featureName": "Transaction verification and confirmation",
+        "flow": "Step 1: After completing payment on the payment gateway, the system receives the transaction callback with detailed payment information. [Payment Gateway, System]\nStep 2: The system initiates a verification process to cross-check the payment details, amount, and order information with the payment gateway’s response. [System]\nStep 3: If discrepancies are found, the system flags the transaction for manual review by an admin and informs the customer of the delay. [System, Admin, Customer]\nStep 4: If the verification is successful, the system updates the transaction status to 'Verified' and sends out a confirmation notification via email and on-screen alert. [System]\nStep 5: The customer sees a transaction confirmation screen that details the verification outcome and order status. [Customer, System]\nStep 6: Optionally, an admin can review detailed logs of the transaction verification process from an admin dashboard to resolve any potential issues. [Admin, System]",
+        "screens": [
+          "Payment Processing Screen: Displays real-time processing status while the system verifies the transaction.",
+          "Verification Status Screen: Provides feedback on whether the transaction passed or failed verification, with error handling messages if necessary.",
+          "Order Details Screen: Shows detailed information about the order and transaction for customer confirmation.",
+          "Admin Verification Dashboard: Allows administrative review of transaction verification logs and manual resolution if needed."
+        ]
+      },
+      {
+        "featureName": "Receipt generation and payment history tracking",
+        "flow": "Step 1: Once a payment transaction is successfully verified, the system automatically generates a digital receipt containing transaction details (amount, date/time, order ID, branch information, etc.). [System]\nStep 2: The generated receipt is stored in the customer’s account history and a copy is emailed to the customer for record-keeping. [System, Customer]\nStep 3: The customer can access the payment history section from their profile to view past transactions and receipts. [Customer, System]\nStep 4: When a specific receipt is selected, the system displays detailed information and provides options to download or print the receipt. [Customer, System]\nStep 5: The system periodically synchronizes updated transaction data to ensure accurate historical records for both the customer and internal analytics. [System]",
+        "screens": [
+          "Receipt Display Screen: Shows the detailed digital receipt after a successful payment transaction.",
+          "Payment History Dashboard: Provides an overview of the customer's past transactions with filtering and search capabilities.",
+          "Receipt Detail View Screen: Offers an in-depth view of a selected transaction's details, including options to download or print.",
+          "Email Receipt Notification Screen (Confirmation Popup): Brief confirmation message indicating that a receipt has been emailed."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Promotions and Discounts",
+    "features": [
+      {
+        "featureName": "Tracking and managing promotional offers and coupons",
+        "flow": "Admin logs into the system using secure credentials. The admin navigates to the Promotions Management module from the dashboard. Here, the admin views a list of all active, upcoming, and past promotions along with their usage statistics. The admin selects an option to create a new promotion or edit an existing one. In the creation/edit flow, the admin inputs details such as promotion name, description, start and end dates, coupon codes (if applicable), discount details, and usage limits. The admin then reviews and submits the promotion, after which the system confirms creation/update. Finally, the admin returns to the promotions list to monitor real-time usage and statuses while having options to disable or delete a promotion if necessary. (User roles: System Administrator/Marketing Manager)",
+        "screens": [
+          "Admin Dashboard: Overview of system modules including quick links to promotions management.",
+          "Promotions List Screen: Displays a table/list of all promotions with status, validity period, and basic usage statistics.",
+          "Promotion Detail/Edit Screen: A form-based screen where admins can input or modify promotion details such as coupon codes, discount percentages, validity dates, and user limits.",
+          "Confirmation Screen/Modal: Provides feedback on successful creation, update, or deletion of a promotion."
+        ]
+      },
+      {
+        "featureName": "Ability for customers to apply promotions during checkout",
+        "flow": "Customer browses the website, selects desired dishes, and adds items to the cart. Once ready to checkout, the customer proceeds to the checkout page. During checkout, the customer is presented with a field to enter a promo code or select an available promotion if automatically applied. The customer inputs the promo code or selects the offer, which triggers a validation process in the background. If the promotion is valid and applicable, the system applies the discount and updates the order summary display. The customer reviews the adjusted total and continues with payment using secure gateways such as www.nganluong.vn. After successful payment, the customer receives an order confirmation and details of the applied promotion. (User roles: Customer)",
+        "screens": [
+          "Cart Screen: Shows items selected by the customer with option to modify order quantities and view basic price details.",
+          "Checkout Screen: Consolidates order details including delivery information, payment options, and a dedicated field for entering promo codes.",
+          "Promo Code Validation Screen/Modal: Provides real-time feedback on the validity of the entered promo code, indicating applied discounts or errors.",
+          "Order Summary Screen: Displays applied promotions, discounts, final payable amount, and confirms details before proceeding to payment.",
+          "Payment Confirmation Screen: Confirms successful payment and order placement, including information on applied promotions."
+        ]
+      },
+      {
+        "featureName": "Promotion validity and usage analytics",
+        "flow": "Administrators or authorized marketing personnel log into the system and access the Analytics Dashboard. They navigate to the Promotions Analytics section, where a variety of visualization tools (charts, tables, graphs) display real-time data regarding promotion usage patterns, validity periods, and redemption rates. Users can apply filters to review promotions by date range, branch, or type. For deeper insights, they can click on a specific promotion to view detailed reports including user demographics, frequency of usage, and the overall impact on sales. This detailed view assists in future decision-making and strategic planning. After reviewing the analytics, the admin can export reports for further analysis if required. (User roles: System Administrator, Marketing Analyst)",
+        "screens": [
+          "Analytics Dashboard Screen: A high-level view that aggregates key metrics from various system components including promotions.",
+          "Promotions Analytics Overview Screen: Displays summary charts and tables detailing overall promotion performance (e.g., total redemptions, active promotion count).",
+          "Promotion Details and Reports Screen: Provides in-depth data on a selected promotion, with breakdowns by usage statistics, expiration statuses, and performance trends.",
+          "Filter and Export Options Screen/Section: Allows users to apply filters (e.g., branch, date range) and export analytics reports in formats such as CSV or PDF."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Feedback and Rating",
+    "features": [
+      {
+        "featureName": "Customer feedback submission interface",
+        "flow": "Step 1: Customer logs into the system or accesses the online ordering website. (User Role: Customer)\nStep 2: Customer navigates to the 'Feedback' section visible on the main menu or via a prompt after order completion. (User Role: Customer)\nStep 3: The feedback form is loaded, where the customer is prompted to provide comments, select a feedback category (service, food quality, environment, etc.), and optionally attach supporting images or files. (User Role: Customer)\nStep 4: Customer fills out the feedback form and submits it. (User Role: Customer)\nStep 5: The system validates the input data and acknowledges receipt with a confirmation message. (User Role: System)\nStep 6: The feedback is stored in the centralized database and is sent to the customer support team for potential follow-up if necessary. (User Role: System and Admin)\nStep 7: A follow-up email or notification may be sent asking for additional comments if the feedback is critical or incomplete. (User Role: System)",
+        "screens": [
+          "Landing Page: Provides entry point to the website with navigation options including Feedback.",
+          "Feedback Form Screen: Contains input fields for comments, feedback category selection, and optional file upload.",
+          "Feedback Submission Confirmation Screen: Displays a thank-you message and confirmation that the feedback has been received."
+        ]
+      },
+      {
+        "featureName": "Rating system for dishes and dining experience",
+        "flow": "Step 1: Customer accesses their order history or a prompt appears immediately after order completion requesting rating. (User Role: Customer)\nStep 2: Customer selects the dish or dining experience they wish to rate. (User Role: Customer)\nStep 3: A rating interface is presented where the customer can select star ratings (or similar scale such as thumbs up/down) and optionally provide additional comments about the dish or overall dining experience. (User Role: Customer)\nStep 4: Customer submits the rating. (User Role: Customer)\nStep 5: The system processes the rating, updating the aggregated score for the dish/branch and stores the detailed rating in the database. (User Role: System)\nStep 6: The customer is provided with a rating confirmation message and the option to update the rating if needed. (User Role: System)\nStep 7: Optionally, if the feedback is negative, the system may redirect the customer to the detailed feedback submission interface for more comprehensive input. (User Role: System)",
+        "screens": [
+          "Order History/Prompt Screen: Highlights recently completed orders with a feature to rate the experience.",
+          "Rating Interface Screen: Displays star ratings or sliders along with text comment sections specific to dishes and service experience.",
+          "Rating Submission Confirmation Screen: Verifies successful submission of the rating and shows aggregated ratings if applicable."
+        ]
+      },
+      {
+        "featureName": "Mechanism to monitor and analyze customer satisfaction",
+        "flow": "Step 1: The system continuously aggregates customer feedback and ratings data from all branches. (User Role: System)\nStep 2: Data processing and analysis routines compute satisfaction metrics, identifying trends, recurring issues, and high-performing areas. (User Role: System)\nStep 3: An administrative dashboard is updated in real-time to reflect current satisfaction scores, feedback trends, and detailed analytics filtered by branch, date, or dish type. (User Role: System/Admin)\nStep 4: Admin periodically reviews the dashboard reports to identify service improvements and strategic actions for business planning. (User Role: Admin)\nStep 5: In cases of negative trends or urgent issues, the system generates automated alerts to the management team for immediate attention. (User Role: System/Admin)\nStep 6: Feedback analysis reports can be exported for further external review or meeting presentations. (User Role: Admin)",
+        "screens": [
+          "Admin Dashboard Screen: Central interface showing aggregated satisfaction scores, trends, and real-time analytics.",
+          "Detailed Feedback Analysis Screen: Provides breakdowns by branch, dish, and service type along with visual graphs and reports.",
+          "Alert and Notifications Screen: Displays critical alerts and action items generated based on the feedback and rating analysis."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Menu and Pricing Management",
+    "features": [
+      {
+        "featureName": "Dynamic menu management for all branches",
+        "flow": "Step 1: Administrator logs into the system using a secure login portal. (Admin Role) → Step 2: Administrator selects the branch they wish to manage from a branch selection interface. (Admin Role) → Step 3: Navigates to the Dynamic Menu Management section where current menu items are listed. (Admin Role) → Step 4: The administrator can add a new dish, edit existing dish details (name, ingredients, images, and descriptions), or remove outdated items. (Admin Role) → Step 5: The system provides in-line validation and preview options before changes are finalized. (System feedback) → Step 6: Once the changes are approved, the update is staged for review by the branch manager. (Branch Manager Role) → Step 7: The branch manager reviews the proposed modifications and approves or requests further adjustments. (Branch Manager Role) → Step 8: After approval, the changes are published to the respective branch’s menu. (System Process)",
+        "screens": [
+          "Login Screen: Allows administrators and branch managers to securely log in.",
+          "Dashboard Screen: Provides an overview of branch performance and navigation to management tools.",
+          "Branch Selection Screen: Lists all branches enabling selection for targeted menu management.",
+          "Menu Management Screen: Displays the current menu with options to add, edit, or remove dishes.",
+          "Edit Dish Screen: Provides form fields for updating dish details including name, ingredients, images, and descriptions.",
+          "Review & Approval Screen: Enables branch managers to review pending changes and either approve or reject them.",
+          "Confirmation Screen: Displays a summary of changes made and confirms successful updates."
+        ]
+      },
+      {
+        "featureName": "Automatic dish price updates to maintain accuracy",
+        "flow": "Step 1: Pricing Manager or Administrator logs into the system. (Pricing Manager / Admin Role) → Step 2: Navigates to the Pricing Management module where a list of dishes along with their current prices is displayed. (System Navigation) → Step 3: The system automatically analyzes market trends, ingredient costs, and promotional factors to generate recommended price updates. (System Process) → Step 4: The manager reviews the recommended adjustments and can manually override if necessary. (Pricing Manager Role) → Step 5: Once confirmed, the new prices are applied and a confirmation prompt is shown to the manager. (System Feedback) → Step 6: The updated prices trigger an automatic update process across all branch menus. (System Process)",
+        "screens": [
+          "Login Screen: Enables secure access for the Pricing Manager/Administrator.",
+          "Pricing Dashboard: Provides an overview of current pricing status, recommendations, and pending updates.",
+          "Dish Pricing List Screen: Displays a detailed list of dishes with current prices and system-suggested adjustments.",
+          "Price Edit Screen: Allows manual adjustments of dish prices with in-line validation.",
+          "Confirmation Screen: Summarizes changes and confirms the successful application of new prices.",
+          "Notification Screen: Informs the user that changes are being propagated across the system in real time."
+        ]
+      },
+      {
+        "featureName": "Real-time synchronization across all branch menus",
+        "flow": "Step 1: Once menu or pricing changes are approved, the system triggers a synchronization process. (System Process) → Step 2: The central management system sends update commands to all branch systems in real time. (System Process) → Step 3: Each branch's local system receives the update and refreshes the menu to reflect the latest changes. (Branch System Process) → Step 4: A system notification is displayed to both the branch manager and central administrator upon successful synchronization. (System & Admin/Branch Manager Role) → Step 5: In case of any synchronization errors, the system logs the issues and alerts technical support for immediate resolution. (System & Technical Support Role)",
+        "screens": [
+          "Synchronization Status Screen: Displays the live progress of menu updates being pushed to each branch.",
+          "Branch Menu Screen: Shows the refreshed, updated menu as seen by branch staff and customers.",
+          "Error Log & Notification Screen: Provides details on any synchronization errors and system alerts.",
+          "System Admin Dashboard: Summarizes overall system status including real-time sync statistics across all branches."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Data Analytics and Reporting",
+    "features": [
+      {
+        "featureName": "Reporting tools for sales, order statistics, and customer behavior",
+        "flow": "Step 1: System Administrator or Manager logs into the system using secure credentials. Step 2: The user navigates to the 'Reports' section from the main dashboard. Step 3: The user selects the type of report they wish to generate (sales, order statistics, or customer behavior). Step 4: The system prompts the user to set filters (e.g., date range, branch selection, dish category) and additional parameters. Step 5: The user applies the filters and submits the request. Step 6: The system processes the query, compiles the data, and then displays a preview of the report. Step 7: The user reviews the report and if satisfied, they can download, export (CSV/PDF), or schedule periodic report deliveries. Step 8: The user may also share the report with relevant team members via email or internal notifications.",
+        "screens": [
+          "Login Screen: Secure login interface for Administrators and Managers.",
+          "Dashboard Overview: Central area with navigation to the Reports section.",
+          "Reports Selection Screen: Allows users to choose the type of report (sales, orders, customer behavior).",
+          "Filter and Parameters Screen: Interface where users input filters such as date ranges, branch locations, and dish categories.",
+          "Report Preview Screen: Displays the generated report with visualizations and tabulated data.",
+          "Export/Download Screen: Provides options to export the report in various formats (CSV, PDF) or schedule reports."
+        ]
+      },
+      {
+        "featureName": "Data analysis to guide business decisions and strategic planning",
+        "flow": "Step 1: A Business Analyst or Strategic Planner logs into the system. Step 2: The user navigates to the 'Data Analysis' module from the main menu. Step 3: The system displays aggregated data insights and trends regarding sales, customer behavior, and branch performance. Step 4: The user selects specific metrics or sends custom queries to drill down into particular data segments. Step 5: The system processes the custom query and returns detailed analyses, comparison metrics, and trend insights. Step 6: Based on data visualizations and statistical charts, the user identifies areas for improvement and strategic opportunities. Step 7: The user can annotate, export the analysis reports, and schedule follow-up sessions with department heads for actionable insights.",
+        "screens": [
+          "Login Screen: Authentication page for Business Analysts and Strategic Planners.",
+          "Data Analysis Overview Screen: Presents key data metrics and trends at a glance.",
+          "Custom Query Screen: Allows users to input custom parameters or select advanced filters for deeper insights.",
+          "Insight Visualization Screen: Detailed charts, graphs, and trend lines to illustrate data findings.",
+          "Detailed Analysis Report Screen: In-depth view of selected data points, including annotations and recommendations."
+        ]
+      },
+      {
+        "featureName": "Dashboard for monitoring key performance indicators (KPIs)",
+        "flow": "Step 1: A Manager or Executive logs into the system and is immediately directed to the KPI Dashboard. Step 2: The dashboard displays live, real-time metrics such as daily sales, order volume, customer satisfaction ratings, and operational performance per branch. Step 3: The user can interact with the dashboard elements by clicking on individual KPIs to view historical data and detailed analysis. Step 4: The system provides options to set custom alerts or thresholds for specific KPIs, prompting notifications when targets are not met or exceeded. Step 5: The user can generate drill-down reports from the dashboard for further analysis or share visual snapshots of the KPI status with other stakeholders.",
+        "screens": [
+          "Login Screen: Secure entry point for Managers and Executives.",
+          "KPI Dashboard Home Screen: Main dashboard showing real-time KPI summaries and graphical representations.",
+          "KPI Detail Screen: Provides in-depth historical data and contextual analysis for each KPI when clicked.",
+          "Alert and Notification Settings Screen: Interface for setting threshold alerts and managing notification preferences.",
+          "Share/Export Screen: Allows users to export dashboard snapshots or share findings with team members."
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,137 @@
+[
+    {
+        "id": "P1",
+        "phase": "Planning & Design",
+        "feature_list": [
+            "Detailed information on travel tours",
+            "Tour Categories (Special, Japan, Asia, Europe-Australia-America)",
+            "Full Itinerary",
+            "Tour Highlights",
+            "Service Inclusions",
+            "Pricing Details",
+            "Terms and Conditions",
+            "Tour Images",
+            "Guide Information",
+            "Payment Policies",
+            "Cancellation Policies",
+            "Company Services",
+            "Featured Tours",
+            "Promotions",
+            "Visa Consultation and Support",
+            "Cultural Articles",
+            "Travel Stories",
+            "Customer Reviews",
+            "Online Contact Forms",
+            "Dedicated Hotlines (Individual Service)",
+            "Dedicated Hotlines (Group Service)",
+            "Dedicated Hotlines (Visa Service)",
+            "Email Contact",
+            "Office Address",
+            "Constant Display of Hotlines"
+        ],
+        "estimatedTime": 10,
+        "startTime": "2024-07-29",
+        "endTime": "2024-08-07",
+        "dependencies": []
+    },
+    {
+        "id": "P2",
+        "phase": "Tour Information Stream (Dev & Content Prep)",
+        "feature_list": [
+            "Detailed information on travel tours",
+            "Tour Categories (Special, Japan, Asia, Europe-Australia-America)",
+            "Full Itinerary",
+            "Tour Highlights",
+            "Service Inclusions",
+            "Pricing Details",
+            "Terms and Conditions",
+            "Tour Images",
+            "Guide Information",
+            "Payment Policies",
+            "Cancellation Policies"
+        ],
+        "estimatedTime": 20,
+        "startTime": "2024-08-08",
+        "endTime": "2024-08-27",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P3",
+        "phase": "Company Information Stream (Dev & Content Prep)",
+        "feature_list": [
+            "Company Services",
+            "Featured Tours",
+            "Promotions"
+        ],
+        "estimatedTime": 15,
+        "startTime": "2024-08-08",
+        "endTime": "2024-08-22",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P4",
+        "phase": "Visa Services Stream (Dev & Content Prep)",
+        "feature_list": [
+            "Visa Consultation and Support"
+        ],
+        "estimatedTime": 10,
+        "startTime": "2024-08-08",
+        "endTime": "2024-08-17",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P5",
+        "phase": "Content & Engagement Stream (Dev & Content Prep)",
+        "feature_list": [
+            "Cultural Articles",
+            "Travel Stories",
+            "Customer Reviews"
+        ],
+        "estimatedTime": 15,
+        "startTime": "2024-08-08",
+        "endTime": "2024-08-22",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P6",
+        "phase": "Contact Information Stream (Dev)",
+        "feature_list": [
+            "Online Contact Forms",
+            "Dedicated Hotlines (Individual Service)",
+            "Dedicated Hotlines (Group Service)",
+            "Dedicated Hotlines (Visa Service)",
+            "Email Contact",
+            "Office Address",
+            "Constant Display of Hotlines"
+        ],
+        "estimatedTime": 10,
+        "startTime": "2024-08-08",
+        "endTime": "2024-08-17",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P7",
+        "phase": "Final Content Population, Testing & Deployment",
+        "feature_list": [],
+        "estimatedTime": 10,
+        "startTime": "2024-08-28",
+        "endTime": "2024-09-06",
+        "dependencies": [
+            "P2",
+            "P3",
+            "P4",
+            "P5",
+            "P6"
+        ]
+    }
+]

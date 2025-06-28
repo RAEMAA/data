@@ -1,0 +1,62 @@
+[
+  {
+    "id": "P1",
+    "phase": "Order Management",
+    "feature_list": [
+      "Multi-device order tracking",
+      "Inventory synchronization",
+      "Customer preference database",
+      "Customizable order templates",
+      "Real-time capacity alerts"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-10-30",
+    "endTime": "2023-11-27",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Billing Integration",
+    "feature_list": [
+      "Unified POS terminal integration",
+      "Split-billing functionality",
+      "Automated tax compliance",
+      "Dynamic discount/promotion engine",
+      "Digital receipt generation"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-10-30",
+    "endTime": "2023-11-27",
+    "dependencies": []
+  },
+  {
+    "id": "P3",
+    "phase": "Venue Configuration",
+    "feature_list": [
+      "Flexible seating zones",
+      "Seasonal outdoor spaces",
+      "Premium VIP lounges",
+      "Express service counters",
+      "Accessibility-optimized areas"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-10-30",
+    "endTime": "2023-11-27",
+    "dependencies": []
+  },
+  {
+    "id": "P4",
+    "phase": "Revenue Reporting",
+    "feature_list": [
+      "Granular sales attribution matrix",
+      "Margin analysis by product category",
+      "Peak/off-peak performance comparisons",
+      "Customer lifetime value projections",
+      "Real-time revenue waterfall visualizations"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-11-27",
+    "endTime": "2023-12-25",
+    "dependencies": ["P1", "P2", "P3"]
+  }
+]

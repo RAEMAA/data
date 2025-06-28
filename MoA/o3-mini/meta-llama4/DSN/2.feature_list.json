@@ -1,0 +1,75 @@
+[
+    {
+        "category": "User Account & Profile",
+        "list_feature": [
+            "User registration/login",
+            "Profile creation (username, bio, interests)",
+            "Profile editing",
+            "Privacy settings"
+        ]
+    },
+    {
+        "category": "Content Sharing & Expression",
+        "list_feature": [
+            "Text posts (thoughts, opinions, emotions)",
+            "Multimedia posts (images, video, audio)",
+            "Dream/Idea journaling",
+            "Content tagging and categorization"
+        ]
+    },
+    {
+        "category": "Interaction & Feedback",
+        "list_feature": [
+            "Commenting on posts",
+            "Liking and reactions",
+            "Sharing posts",
+            "User mentions",
+            "Providing/Receiving feedback on ideas"
+        ]
+    },
+    {
+        "category": "Connections & Networking",
+        "list_feature": [
+            "User search (by interests, dreams)",
+            "Following users",
+            "Connection requests",
+            "User matching (like-minded, shared dreams, soul mates)",
+            "Direct messaging"
+        ]
+    },
+    {
+        "category": "Support & Guidance",
+        "list_feature": [
+            "Resource sharing",
+            "Advice giving and seeking",
+            "Solution finding",
+            "Support groups"
+        ]
+    },
+    {
+        "category": "Motivation & Goal Tracking",
+        "list_feature": [
+            "Goal setting features",
+            "Progress tracking for goals/ideas",
+            "Reminders (for goals or activities)",
+            "Inspirational content feed"
+        ]
+    },
+    {
+        "category": "Community Spaces",
+        "list_feature": [
+            "Groups (based on shared interests, dreams, goals)",
+            "Forums and discussion boards",
+            "Events (community meetups, online sessions)"
+        ]
+    },
+    {
+        "category": "Platform Utilities & Safety",
+        "list_feature": [
+            "Search functionality (users, content, groups)",
+            "Notifications and alerts",
+            "User blocking",
+            "Content reporting and moderation"
+        ]
+    }
+]

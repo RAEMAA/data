@@ -1,0 +1,55 @@
+[
+  {
+    "category": "Inventory Management",
+    "list_feature": [
+      "Stock level tracking (coffee beans, milk, sugar)",
+      "Low stock alerts (coffee beans, milk)",
+      "Supplier management (coffee bean suppliers, milk suppliers)",
+      "Expiry date tracking (milk, pastries)"
+    ]
+  },
+  {
+    "category": "Sales Management",
+    "list_feature": [
+      "Sales reporting (by product - coffee, pastries)",
+      "Discount management (loyalty programs)"
+    ]
+  },
+  {
+    "category": "Customer Relationship Management (CRM)",
+    "list_feature": [
+      "Customer database (loyalty programs)",
+      "Loyalty programs"
+    ]
+  },
+  {
+    "category": "Order Management",
+    "list_feature": [
+      "Order placement (in-store)",
+      "Payment processing (cash, credit card)",
+      "Custom order options (milk alternatives, sugar levels)"
+    ]
+  },
+  {
+    "category": "Bill Generation",
+    "list_feature": [
+      "Tax calculation",
+      "Digital receipts"
+    ]
+  },
+  {
+    "category": "Revenue Reporting",
+    "list_feature": [
+      "Sales revenue reports (daily, weekly, monthly)",
+      "Revenue by product category (coffee, pastries)"
+    ]
+  },
+  {
+    "category": "Financial Reporting",
+    "list_feature": [
+      "Profit and loss statement",
+      "Cash flow statement",
+      "Tax reports"
+    ]
+  }
+]

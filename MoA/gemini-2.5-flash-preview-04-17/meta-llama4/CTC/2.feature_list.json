@@ -1,0 +1,41 @@
+[
+    {
+        "category": "Customer Functionalities",
+        "list_feature": [
+            "browse menu",
+            "place food orders",
+            "track and apply promotions",
+            "secure online payment integration",
+            "provide feedback",
+            "rate the restaurant"
+        ]
+    },
+    {
+        "category": "Website Functionalities",
+        "list_feature": [
+            "display regularly updated and accurate prices",
+            "automatic order transfer to nearest branch"
+        ]
+    },
+    {
+        "category": "Management Functionalities",
+        "list_feature": [
+            "efficient handling of all branches",
+            "facilitate menu updates",
+            "facilitate promotion updates",
+            "robust data analysis capabilities"
+        ]
+    },
+    {
+        "category": "Payment Integration",
+        "list_feature": [
+            "secure online payment integration"
+        ]
+    },
+    {
+        "category": "Delivery Service",
+        "list_feature": [
+            "broken rice delivery service"
+        ]
+    }
+]

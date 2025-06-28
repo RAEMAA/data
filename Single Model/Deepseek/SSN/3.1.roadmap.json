@@ -1,0 +1,87 @@
+[
+  {
+    "id": "P1",
+    "phase": "Phase 1a: User Profile & Networking Setup",
+    "feature list": [
+      "Student and researcher profile creation with academic discipline tags",
+      "Role-based access (student, researcher, educator)",
+      "Peer connection and messaging for academic collaboration"
+    ],
+    "estimatedTime": "6 weeks",
+    "startTime": "2024-03-25",
+    "endTime": "2024-05-06",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Phase 1b: University Network & Management Setup",
+    "feature list": [
+      "University-based network membership (join multiple institutions)",
+      "University-specific content and interaction hubs",
+      "Admin tools for universities to moderate network content",
+      "Multi-university membership for cross-institutional collaboration",
+      "Scalable structure for future high school/elementary school integration"
+    ],
+    "estimatedTime": "6 weeks",
+    "startTime": "2024-03-25",
+    "endTime": "2024-05-06",
+    "dependencies": []
+  },
+  {
+    "id": "P3",
+    "phase": "Phase 2: Resource Sharing & Collaboration Infrastructure",
+    "feature list": [
+      "Upload/download educational resources (e.g., Algebra A1 notes, Report Writing templates)",
+      "Subject-specific resource categorization and search",
+      "Collaborative workspaces for group projects or research",
+      "Teaching methodology and research findings sharing tools",
+      "Resource contribution and peer review system"
+    ],
+    "estimatedTime": "8 weeks",
+    "startTime": "2024-05-07",
+    "endTime": "2024-06-30",
+    "dependencies": ["P1", "P2"]
+  },
+  {
+    "id": "P4",
+    "phase": "Phase 3: Course & Instructor Evaluation System",
+    "feature list": [
+      "Course rating and review system (student feedback)",
+      "Instructor evaluation with qualitative and quantitative metrics",
+      "Aggregated rating summaries for courses/instructors",
+      "Filter courses by ratings, academic interests, or career relevance"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2024-05-07",
+    "endTime": "2024-06-03",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P5",
+    "phase": "Phase 4: Academic Collaboration Tools Deployment",
+    "feature list": [
+      "Research project collaboration spaces",
+      "Student collaborator search based on skills/interests",
+      "Discussion forums for academic topics (e.g., scientific/artistic disciplines)",
+      "Open calls for research participation or teaching innovation"
+    ],
+    "estimatedTime": "6 weeks",
+    "startTime": "2024-07-01",
+    "endTime": "2024-08-12",
+    "dependencies": ["P1", "P3"]
+  },
+  {
+    "id": "P6",
+    "phase": "Phase 5: Recommendation System Implementation",
+    "feature list": [
+      "Personalized course recommendations based on academic goals",
+      "Peer/researcher collaborator matching",
+      "Resource suggestions aligned with user’s disciplines",
+      "Career-aspiration-aligned academic pathway guidance"
+    ],
+    "estimatedTime": "6 weeks",
+    "startTime": "2024-07-01",
+    "endTime": "2024-08-12",
+    "dependencies": ["P1", "P3", "P4"]
+  }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "category": "User Profiles",
+        "list_feature": [
+            "Profile Creation and Management",
+            "User Authentication and Authorization"
+        ]
+    },
+    {
+        "category": "Content Sharing",
+        "list_feature": [
+            "Resource Uploading and Sharing",
+            "Content Tagging and Categorization"
+        ]
+    },
+    {
+        "category": "Group Collaboration",
+        "list_feature": [
+            "Study Group Creation and Management",
+            "Collaborative Document Editing"
+        ]
+    },
+    {
+        "category": "Event Management",
+        "list_feature": [
+            "Event Scheduling and Reminders"
+        ]
+    },
+    {
+        "category": "Communication",
+        "list_feature": [
+            "Direct Messaging",
+            "Discussion Forums"
+        ]
+    },
+    {
+        "category": "Search & Discovery",
+        "list_feature": [
+            "User and Content Search"
+        ]
+    },
+    {
+        "category": "Personalization",
+        "list_feature": [
+            "Personalized Recommendations"
+        ]
+    },
+    {
+        "category": "Administrative Features",
+        "list_feature": [
+            "User Management",
+            "Content Moderation"
+        ]
+    }
+]

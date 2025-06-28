@@ -1,0 +1,191 @@
+[
+  {
+    "category": "Study Material Exchange",
+    "features": [
+      {
+        "category": "Study Material Exchange",
+        "features": [
+          {
+            "featureName": "Upload and share study materials",
+            "flow": "1. User Authentication: The student or researcher logs in using valid credentials.\n2. Navigation: The user accesses the Study Material Exchange section from the home dashboard.\n3. Upload Initiation: The user clicks on the 'Upload Materials' button to begin the process. (Role: User initiating upload)\n4. Filling Details: The user is presented with a form to select files and add metadata (title, course, description, tags). (Role: Material Contributor)\n5. File Selection: The user browses the device and selects one or multiple study material files.\n6. Preview: Before final submission, a preview screen displays the uploaded file(s) and provided details for confirmation. (Role: Material Contributor verifying submission)\n7. Submission: Once confirmed, the user submits the upload.\n8. Processing and Moderation: The backend processes the file; if moderation is required, an admin role reviews the content. (Roles: System and Admin)\n9. Confirmation & Listing: Upon successful upload, the user receives a confirmation message and the study material appears in the exchange feed.\n10. Sharing and Interaction: Other users can now view, rate, comment, and share the material within the network.",
+            "screens": [
+              "Login/Authentication Screen: Allows users to securely log in or register.",
+              "Dashboard/Home Screen: Serves as the landing page with navigation to different categories including Study Material Exchange.",
+              "Study Material Exchange Main Screen: Lists available study materials and provides access to the upload feature.",
+              "Upload Material Form Screen: Provides fields for file selection, material metadata (title, course info, description, tags), and upload controls.",
+              "Preview Screen: Displays a summary of the uploaded material including file content preview and entered details for user verification.",
+              "Confirmation Screen: Informs the user of successful upload and displays additional options such as sharing or further editing.",
+              "Material Detail Screen: Shows the full details of the uploaded study material, allowing users to engage with ratings, comments, and share options."
+            ]
+          }
+        ]
+      },
+      {
+        "featureName": "Download and Access Materials",
+        "flow": "1. User Login: The user (student or researcher) signs into the SSN platform on the Login Screen. (User Role: Student/Researcher)\n2. Dashboard Navigation: Upon successful login, the user is directed to the Dashboard/Home Screen, which offers access to various modules including the Materials Library. (User Role: Student/Researcher)\n3. Enter Materials Library: The user selects the Materials Library Screen where a catalog of study materials is displayed with search and filter options. (User Role: Student/Researcher)\n4. Material Selection and Detail Viewing: The user clicks on a specific material to view its detailed description, ratings, and available actions on the Material Detail Screen. (User Role: Student/Researcher / System)\n5. Initiate Download: On the Material Detail Screen, the user clicks the Download button. The system displays a Download Confirmation/Progress Screen, showing a progress bar and any prompts (e.g., for confirmation or subscription check). (User Role: Student/Researcher / System)\n6. Post-Download Access: Once the download completes, a confirmation message is shown, and the material is added to the My Downloads Screen for future reference, or opened automatically if configured. (User Role: System / Student/Researcher)",
+        "screens": [
+          "Login Screen: Provides secure authentication allowing users to log into the SSN platform.",
+          "Dashboard/Home Screen: Serves as the central navigation hub where users can access materials and other functionalities.",
+          "Materials Library Screen: Displays a catalog of available study materials with options for searching and filtering content.",
+          "Material Detail Screen: Offers detailed information about a selected material, including its description, ratings, and download options.",
+          "Download Confirmation/Progress Screen: Shows the progress of the download operation, confirmation messages, and alerts in case of errors.",
+          "My Downloads Screen: Lists all materials that have been downloaded by the user for easy re-access in the future."
+        ]
+      },
+      {
+        "featureName": "Peer review and comments",
+        "flow": "Step 1: User Login – All users (students, researchers, educators) log in using their university credentials. Step 2: Access Study Materials – From the dashboard, users navigate to the study materials section where all uploaded materials are listed. Step 3: Select Study Material – The user selects a specific study material to view detailed content, including existing reviews and peer comments. Step 4: Initiate Peer Review – A peer reviewer clicks on the 'Review' or 'Comment' button available on the material details page. Step 5: Fill Review Form – The reviewer is presented with a form to enter their comments, assign a rating, and optionally attach supporting files (e.g., supplementary documents or images). Step 6: Submit Review – Upon submission, the system processes the review, adds it to the study material's review section, and notifies the material owner. Step 7: Moderation & Notification – Moderators (or the material owner) review new feedback if flagged for appropriateness; notifications are sent to involved users regarding review activities. Step 8: Follow-Up – Users can view additional responses or further discuss the material in subsequent threads, closing the review loop.",
+        "screens": [
+          "Login Screen: Provides a secure login interface for users using their university or personal credentials.",
+          "Dashboard/Study Materials List Screen: Displays a list of available study materials along with brief details and options to review or comment.",
+          "Study Material Details Screen: Shows the full content of the selected material, including current peer reviews and a call-to-action for submitting new reviews.",
+          "Review Submission Screen: A form interface where users can provide detailed comments, select a rating, and upload attachments if needed.",
+          "Review Confirmation Screen: Confirms the successful submission of the review, displaying a thank you message and summary of the entered feedback.",
+          "Notification Screen: Alerts users (material owners and reviewers) about new reviews, responses, and moderation actions."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Course Ratings",
+    "features": [
+      "{\"category\": \"Study Social Network\", \"features\": [{ \"featureName\": \"Share Study Materials\", \"flow\": \"1. User logs into the SSN platform. \\\n2. User navigates to the study materials section from the home screen. \\\n3. Student selects the \\\"Upload Material\\\" option. \\\n4. User fills in required details such as course name, subject, description, and attaches relevant documents. \\\n5. User submits the form and receives immediate confirmation. \\\n6. System validates the submission and updates the study materials repository. \\\n7. Uploaded materials become viewable on the material detail screen where peers can download, comment, and rate the resource. \\\n8. Moderators are notified to check for potential content issues and flag inappropriate material, if needed. \\\nUser Roles Involved: Student (uploading and viewing content), Moderator (content review), Researcher (viewing and contributing to discussions).\", \"screens\": [\"Login Screen: Provides authentication for users to access the platform.\", \"Home Screen: Serves as the central hub for navigating all features including study materials.\", \"Material Upload Screen: Allows users to input details and upload study material content.\", \"Material Detail Screen: Displays the uploaded material with options to download, comment, and rate.\", \"Confirmation Screen: Notifies users of a successful upload and submission.\", \"Moderation Dashboard: Enables moderators to review and manage reported or flagged materials.\"] }]}",
+      {
+        "featureName": "View aggregated ratings",
+        "flow": "1. Login: The user (student or educator) logs into SSN with their credentials.\n2. Dashboard Access: Once logged in, the user accesses the main dashboard where a menu item for Course Ratings is visible.\n3. Navigation to Course Ratings: The user clicks the Course Ratings tab, which displays a list of courses with summary ratings.\n4. Course Selection: The user selects a specific course from the list to view its ratings in detail.\n5. Aggregated Ratings Request: The user clicks on the 'View Aggregated Ratings' button for the selected course.\n6. Data Retrieval & Aggregation: The system retrieves all ratings and reviews submitted for the course, aggregates the data (calculating average scores, rating distributions, and number of reviews), and prepares it for display.\n7. Display Aggregated Ratings: The user is shown an aggregated ratings summary that includes overall rating, star breakdown (e.g., 1-5 stars), and visual graphs (such as bar charts).\n8. Interaction with Detailed Data: Optionally, the user can click on sections of the summarized data (e.g., a specific rating category) to view a more detailed breakdown, such as comments or category-specific scores.\n9. Filtering & Sorting: Users may apply filters (e.g., by date, rating type) or sort the detailed reviews to find more specific insights.\n10. Exit/Return: Finally, the user can navigate back to the dashboard or explore other courses using the navigation options provided. Users Involved: Students and Educators.",
+        "screens": [
+          {
+            "screenName": "Course Ratings Dashboard",
+            "description": "Displays a list of courses with a quick summary of each course's ratings and access to further details."
+          },
+          {
+            "screenName": "Aggregated Ratings Summary",
+            "description": "Shows overall ratings in a graphical and numeric format, highlighting average scores and rating distribution for the selected course."
+          },
+          {
+            "screenName": "Detailed Review Breakdown",
+            "description": "Provides a granular view of all individual ratings and comments, including filtering and sorting options for deeper insight into the course feedback."
+          }
+        ]
+      },
+      {
+        "category": "Study Social Network",
+        "features": [
+          {
+            "featureName": "Share Study Materials",
+            "flow": "1. User logs into SSN using valid credentials (Role: Student/Researcher). 2. User navigates to the 'Share Materials' section from the dashboard (Role: Student/Researcher). 3. The user clicks on the 'Upload Material' button to initiate the posting process (Role: Student). 4. An upload form is displayed where the user enters details such as title, description, category, and course association (Role: Student). 5. The user attaches relevant study files or includes URLs to external resources (Role: Student). 6. Upon submission, the system validates the input and confirms a successful upload (Role: System). 7. The material becomes available in the network where peers can view, comment, and rate the study material (Role: Student/Researcher).",
+            "screens": [
+              "Login Screen - For user authentication.",
+              "Dashboard/Home Screen - Gateway for navigating to various features including sharing materials.",
+              "Share Materials Screen - Central hub where users can browse and initiate material sharing.",
+              "Upload Form Screen - Interface for entering details and uploading files.",
+              "Confirmation Screen - Displays successful upload message and summarizes the posted material."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Multi-Network Support",
+    "features": [
+      {
+        "featureName": "Educational Network Integration",
+        "flow": "1. Browse & Selection (Student Role): The student logs into SSN and navigates to the Integration Landing Page to view available university networks. They select the desired network to join based on interests and academic needs.\n2. Course Material Upload (Educator Role): Educators access their Dashboard to upload course materials and related resources. They use the integration module to tag content with the appropriate network affiliation.\n3. Integration Request Submission (Educator Role): Once materials are uploaded, educators submit their integration request for network approval, providing details about the course and intended audience.\n4. Review & Approval (Network Administrator Role): Network administrators receive integration requests on a dedicated Approval Screen. They verify the submissions, check for relevance and quality, and approve or reject the integration request.\n5. Notification & Confirmation (System & All Roles): Upon approval, the system sends notifications to the educator and updates the student-facing screens to reflect the new integrated content. In case of rejection, instructions for resubmission or additional details are provided via a Follow-up Support Screen.\n6. Ongoing Management & Support (All Roles): Post-integration, all users can access the Support Screen for FAQs, troubleshooting, and further assistance. Educators may update materials, and administrators can re-audit integrations as needed.",
+        "screens": [
+          "Integration Landing Page: Shows a curated list of university networks available for students and serves as the initial entry point for joining networks.",
+          "Educator Dashboard: Enables educators to upload and manage course materials while initiating integration requests.",
+          "Approval Screen: Provides network administrators with the tools to review, approve, or request modifications for integration submissions.",
+          "Notification Screen: Displays real-time updates and confirmations regarding the status of each integration request for both educators and students.",
+          "Support Screen: Offers a help center with FAQs, troubleshooting guides, and contact options for users encountering issues during the integration process."
+        ]
+      },
+      {
+        "featureName": "Cross-platform access",
+        "flow": "1. Device Access Initiation: Both students and researchers access the SSN platform using any device such as desktops, laptops, tablets, or smartphones. The system auto-detects the user’s device to load an optimized interface. 2. Adaptive Login & Authentication: Users are presented with an adaptive login screen that adjusts its layout according to the device. They can authenticate via email/password or through linked social media accounts. 3. Routing to Responsive Dashboard: Upon authentication, the user is directed to a personalized dashboard that displays a tailored feed of study materials, discussion threads, and notifications. The dashboard layout is optimized for touch inputs on mobile devices and traditional navigation on desktops. 4. Cross-device Synchronization & Continuity: Users can start or pause tasks (e.g., viewing materials, participating in discussions) on one device. The system syncs session data in real time and provides notifications prompting users to continue on an alternate device if the session is detected on multiple devices. 5. Device Management through Settings: Within the settings area, users can view all active sessions, manage connected devices, and receive security notifications. They have the option to disconnect devices or alter device-specific settings for a seamless experience. 6. Logout Procedures and Session Termination: Users can log out from the current device or opt to log out from all devices simultaneously, ensuring secure termination of sessions across platforms.",
+        "screens": [
+          "Adaptive Login Screen: Provides a responsive login interface that adjusts for multiple device types, ensuring ease of use on both touch and non-touch devices.",
+          "Responsive Dashboard Screen: The central hub for personalized content, featuring study materials, notifications, and navigation elements optimized per device.",
+          "Notifications Screen: Displays real-time alerts, cross-device sync prompts, and session management notifications to keep users updated.",
+          "Settings Screen: Offers user account settings, including options to manage device connections, privacy settings, and notification preferences.",
+          "Device Management Screen: Dedicated interface for reviewing and controlling active sessions and connected devices, enhancing security and device synchronization."
+        ]
+      },
+      {
+        "featureName": "Unified Login Feature",
+        "flow": "Step 1: Landing – User (Guest) visits the SSN homepage and selects the Unified Login option.\nStep 2: Login Screen – Display a screen where the user can choose between entering email/password or using social login options. (User: Guest)\nStep 3: Credential Input – User inputs their login credentials. For new users, an option to navigate to the Registration Screen is provided. (User: Student, Researcher, Educator)\nStep 4: Authentication Process – The system verifies credentials. If Multi-Factor Authentication (MFA) is enabled, the user is redirected to the Two Factor Authentication Screen for OTP verification. (System and User: Authenticated User)\nStep 5: Network Evaluation – Upon successful credential verification, the system checks if the user is associated with multiple networks. If so, the user is directed to the Network Selection Screen; otherwise, the user is automatically routed to their primary network dashboard. (User: Authenticated User)\nStep 6: Dashboard Redirection – After network selection (if applicable), the user is taken to the main dashboard, where personalized content and study materials are available. (System and User: Authenticated User)\nStep 7: Error Handling – If authentication fails at any point, an Authentication Error Screen is displayed with options to retry or initiate a password reset. (System and User interaction)",
+        "screens": [
+          "Login Screen: The primary interface for inputting credentials and selecting social login options.",
+          "Registration Screen: Allows new users to create an account on SSN.",
+          "Two Factor Authentication Screen: Prompts for OTP verification if MFA is enabled.",
+          "Network Selection Screen: Enables users associated with multiple networks to choose their desired university network.",
+          "Authentication Error Screen: Provides error messages and guidance for failed login attempts.",
+          "Forgot Password Screen: Facilitates password recovery for users who have forgotten their credentials."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Student-Researcher Interaction",
+    "features": [
+      {
+        "featureName": "Direct messaging between students and researchers",
+        "flow": "1. User Authentication: The user (student or researcher) logs in using SSN credentials.\n2. Dashboard Access: Upon successful login, the user is directed to the main dashboard where key modules, including messaging, are accessible.\n3. Navigation to Messaging Home: The user selects the messaging icon or menu item to enter the Messaging Home, which lists existing conversation threads and offers a search function for contacts.\n4. Contact Search and Selection: The user inputs search criteria (name, university, role) to locate either a student or researcher. The system displays a list of matching profiles.\n5. Conversation Initiation or Continuation: If an existing conversation exists, the user selects it to view the message thread; if not, the system creates a new conversation thread once the user sends the first message.\n6. Message Composition and Sending: The user is presented with the Conversation View and uses the Message Composition area to type and send messages. Optional attachment functionality enables sharing files or links.\n7. Real-time Communication: The conversation updates in real time for both users. Notifications – visual (in-app pop-ups) and auditory alerts – inform users of new messages.\n8. Message Reception and Acknowledgement: Upon receiving a message, the recipient can reply or navigate to other conversations using the Messaging Home.\n9. Conversation Management: The interface allows users to archive or delete conversations.\n10. Logging Out/Session End: After completing the messaging session, users return to the dashboard or log out, with conversation history securely stored for future access.",
+        "screens": [
+          {
+            "name": "Login Screen",
+            "description": "Screen where students and researchers enter their credentials to access SSN."
+          },
+          {
+            "name": "Dashboard",
+            "description": "Primary landing page after login that provides access to various SSN modules, including messaging notifications."
+          },
+          {
+            "name": "Messaging Home",
+            "description": "Central hub for direct messaging that lists all existing conversation threads and offers a search field for finding contacts."
+          },
+          {
+            "name": "Contact Profile Screen",
+            "description": "Screen that displays detailed information of a selected student or researcher, aiding in confirming contact identity before messaging."
+          },
+          {
+            "name": "Conversation View",
+            "description": "Primary interface where the active message thread is displayed, showing exchanged messages, timestamps, and attachment previews."
+          },
+          {
+            "name": "Message Composition Area",
+            "description": "Supported within the Conversation View, this component allows users to compose, format, and send messages, including attachments."
+          },
+          {
+            "name": "Notification Pop-up",
+            "description": "A transient modal or notification banner alerting the user to new incoming messages in real time."
+          }
+        ]
+      },
+      {
+        "featureName": "Forum for academic queries",
+        "flow": "1. User Authentication: Both students and researchers log in with valid credentials.\n2. Dashboard Access: After login, users navigate to a personalized dashboard where the forum is prominently featured.\n3. Forum Navigation: Users select the Forum option from the main menu to access academic queries.\n4. Viewing Posts: The forum home displays a list of academic queries posted by students. Filters and search options help users locate topics by keywords, subjects, or popularity.\n5. Submitting a Query: Students click on a 'New Post' button, leading to a submission form where they enter the query title, detailed description, subject area, and attach supplementary materials if needed.\n6. Publishing the Query: Upon submission, the query is posted to the forum. A notification is sent to interested researchers and other students following that subject area.\n7. Responding to Queries: Researchers and fellow students review the posted queries. They click on a query to view details and use an embedded reply interface to provide answers or further discussion.\n8. Interaction and Moderation: Users can upvote responses, mark a response as accepted, and add secondary comments. Moderators oversee the content to ensure quality and adherence to community guidelines.\n9. Continuous Engagement: Follow-up notifications, threaded discussions, and reply updates keep users informed of activity related to their posts.",
+        "screens": [
+          "Forum Home Screen: The landing page for the forum listing all academic queries with options for search, filter, and sort.",
+          "New Post Screen: A form where students can compose and submit new academic queries, complete with text fields for title, description, subject selection, and attachment uploads.",
+          "Post Detail Screen: Provides a detailed view of a selected query, displaying the question, list of responses, user information, and engagement options such as upvotes and comments.",
+          "Reply/Comment Interface: Integrated within the Post Detail Screen, this interface allows users to post answers or follow-up comments, complete with formatting and emoji support.",
+          "Notification Screen: A dedicated area where users receive updates on new responses, upvotes, accepted answers, and any moderator messages related to forum activity."
+        ]
+      },
+      {
+        "featureName": "Manage Collaborative Projects",
+        "flow": "1. User Login & Dashboard Access: The user logs into SSN and navigates to the dashboard to view all projects they are involved in. 2. Initiate Project Creation: The Project Admin selects the Create Project option, fills in project details (title, description, objectives), sets timelines, and selects initial collaborators. (User Roles: Project Admin, Collaborators) 3. Invitation & Onboarding: Invited collaborators receive a notification and access a dedicated onboarding screen to review project goals and set up their project profile. (User Roles: Collaborators) 4. Team Coordination & Resource Allocation: The Project Admin uses the Team Management Screen to assign roles and responsibilities while collaborators then access the Task Board to view and update tasks. (User Roles: Project Admin, Collaborators) 5. Collaboration and Execution: Collaborators update task statuses, upload supporting documents via the Files & Resources Screen, and post updates or questions via the Communication/Activity Feed Screen. (User Roles: All team members) 6. Progress Monitoring & Interaction: The Project Admin monitors progress using integrated notifications and activity streams, with periodic reviews and discussions facilitated by a Meeting Scheduler or embedded comment threads. 7. Completion & Archiving: Once tasks are completed, the Project Admin marks the project as complete on the Project Detail Screen, with an option to archive the project for future reference. (User Roles: Project Admin)",
+        "screens": [
+          "Project Dashboard: Provides an overview of all collaborative projects, their current status, and quick access to detailed project views.",
+          "Create Project Screen: Facilitates project initiation by capturing project details, timelines, and collaborator invitations.",
+          "Team Management Screen: Allows the Project Admin to assign roles, manage invitations, and adjust team composition.",
+          "Task Board Screen: Displays tasks in a list or Kanban style view, showing task details, statuses, and assigned team members.",
+          "Files & Resources Screen: Enables users to upload, share, and manage project documents and other related materials.",
+          "Communication/Activity Feed Screen: Serves as a centralized area for team communication, activity tracking, and notifications.",
+          "Project Detail Screen: Offers an in-depth view of the project including objectives, progress reports, discussion threads, and final completion status."
+        ]
+      }
+    ]
+  }
+]

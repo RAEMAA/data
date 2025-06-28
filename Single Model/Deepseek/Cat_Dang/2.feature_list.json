@@ -1,0 +1,48 @@
+[
+  {
+    "category": "Order Management System",
+    "list_feature": [
+      "Digital order entry for waiters",
+      "Real-time order routing to preparation team",
+      "Order status tracking and notifications",
+      "Support for order modifications/cancellations"
+    ]
+  },
+  {
+    "category": "Automated Billing & Payment",
+    "list_feature": [
+      "Automated invoice generation",
+      "Integration with multiple payment methods (cash, card, e-wallet)",
+      "Split billing options for group orders",
+      "Discount and promotion management"
+    ]
+  },
+  {
+    "category": "Centralized Reporting & Analytics",
+    "list_feature": [
+      "Branch-specific revenue reports",
+      "Network-wide consolidated sales reports",
+      "Customizable report templates (daily, weekly, monthly)",
+      "Revenue trend analysis and forecasting",
+      "Exportable reports in PDF/Excel formats"
+    ]
+  },
+  {
+    "category": "Multi-Branch Data Integration",
+    "list_feature": [
+      "Centralized database for all branches",
+      "Real-time data synchronization across locations",
+      "Role-based access controls (admin, manager, staff)",
+      "Cloud-based storage for scalability"
+    ]
+  },
+  {
+    "category": "Staff Operations & Support",
+    "list_feature": [
+      "Role-specific dashboards (waiters, managers)",
+      "In-system communication tools for staff coordination",
+      "Training resources for new staff onboarding",
+      "Performance metrics tracking for staff efficiency"
+    ]
+  }
+]

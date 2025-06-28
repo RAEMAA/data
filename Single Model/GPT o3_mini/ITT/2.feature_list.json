@@ -1,0 +1,61 @@
+[
+  {
+    "category": "General Information & Company Overview",
+    "list_feature": [
+      "Overview of company services",
+      "Latest news updates",
+      "Special deals highlights",
+      "Featured tours spotlight"
+    ]
+  },
+  {
+    "category": "Tour Categorization & Listings",
+    "list_feature": [
+      "Special Tours",
+      "Japan Tours",
+      "Asia Tours",
+      "Europe-Australia-America Tours"
+    ]
+  },
+  {
+    "category": "Visa Consultation & Support",
+    "list_feature": [
+      "Visa consultation for multiple countries",
+      "Support for visa inquiries"
+    ]
+  },
+  {
+    "category": "Cultural & Travel Articles",
+    "list_feature": ["Cultural articles", "Stories of travel experiences"]
+  },
+  {
+    "category": "Customer Feedback & Reviews",
+    "list_feature": [
+      "Genuine customer reviews",
+      "Personal testimonials from previous clients"
+    ]
+  },
+  {
+    "category": "Contact Methods & Inquiry Options",
+    "list_feature": [
+      "Online inquiry form",
+      "Dedicated hotlines for individual travelers, group tours, and visa consultations",
+      "Email contact information",
+      "Office address details",
+      "Prominently displayed hotline numbers"
+    ]
+  },
+  {
+    "category": "Detailed Tour Information Pages",
+    "list_feature": [
+      "Daily itineraries",
+      "Trip highlights",
+      "Service information covering accommodations, flight tickets, and meals",
+      "Comprehensive pricing details (inclusions and exclusions)",
+      "Supporting images",
+      "Guide information",
+      "Payment method policies",
+      "Cancellation policies"
+    ]
+  }
+]

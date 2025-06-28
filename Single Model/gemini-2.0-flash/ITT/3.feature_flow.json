@@ -1,0 +1,225 @@
+[
+    {
+        "category": "Homepage",
+        "features": [
+            {
+                "featureName": "Company introduction",
+                "flow": "1. **User (Visitor) arrives on the Homepage:** The user navigates to the ITT website.\n2. **System (Website) displays:** The website loads, presenting the company introduction section, typically including a brief overview of ITT's mission, values, and services.\n3. **User (Visitor) reads the introduction:** The user scans the text and may interact with elements like 'Read More' links if available.\n4. **User (Visitor) clicks 'Read More' (Optional):** If the introduction is truncated, the user clicks to expand it.\n5. **System (Website) expands the introduction (Optional):** The full company introduction is displayed.\n6. **User (Visitor) continues browsing or navigates elsewhere:** The user proceeds to explore other sections of the homepage or uses the navigation menu.",
+                "screens": [
+                    "Homepage: Displays the main landing page with a prominent section dedicated to introducing the company. This section includes a concise overview of ITT's services, mission, and values.",
+                    "Expanded Introduction (Optional): A modal or section that appears when the user clicks 'Read More', providing a more detailed company introduction."
+                ]
+            },
+            {
+                "featureName": "Spotlight on popular tour options",
+                "flow": "1. **User (Visitor) arrives on the Homepage:** The user navigates to the ITT website.\n2. **System (Website) displays:** The website loads, showcasing a carousel or grid of popular tour options with images, brief descriptions, and prices.\n3. **User (Visitor) browses the tour options:** The user scrolls through the carousel or grid, examining the available tours.\n4. **User (Visitor) hovers over a tour (Optional):** Hovering may trigger a brief animation or display additional information.\n5. **System (Website) displays additional information on hover (Optional):** A brief description or price may appear.\n6. **User (Visitor) clicks on a tour option:** The user selects a tour that interests them.\n7. **System (Website) redirects to the Tour Detail Page:** The user is taken to a dedicated page with comprehensive information about the selected tour.",
+                "screens": [
+                    "Homepage: Displays a carousel or grid showcasing popular tour options with images, brief descriptions, and prices.",
+                    "Tour Detail Page: A dedicated page providing comprehensive information about a specific tour, including itinerary, pricing, and booking options."
+                ]
+            },
+            {
+                "featureName": "News and exclusive deals updates",
+                "flow": "1. **User (Visitor) arrives on the Homepage:** The user navigates to the ITT website.\n2. **System (Website) displays:** The website loads, presenting a section dedicated to news and exclusive deals, often in the form of a scrolling ticker, a list of articles, or promotional banners.\n3. **User (Visitor) scans the news and deals:** The user reviews the available updates.\n4. **User (Visitor) clicks on a news article or deal:** The user selects an item that interests them.\n5. **System (Website) redirects to the News Article Page or Deal Page:** The user is taken to a dedicated page with more details about the selected news article or deal.\n6. **User (Visitor) reads the article or views the deal details:** The user consumes the content on the dedicated page.\n7. **User (Visitor) navigates back to the Homepage or continues browsing:** The user returns to the homepage or explores other sections of the website.",
+                "screens": [
+                    "Homepage: Displays a section dedicated to news and exclusive deals, often in the form of a scrolling ticker, a list of articles, or promotional banners.",
+                    "News Article Page: A dedicated page providing the full content of a news article, including images, text, and potentially related links.",
+                    "Deal Page: A dedicated page providing details about a specific deal or promotion, including terms and conditions, validity period, and redemption instructions."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Tour Packages",
+        "features": [
+            {
+                "featureName": "Categorization of tours (Special Tours, Japan Tours, Asia Tours, Europe Tours, Australia Tours, America Tours)",
+                "flow": "1. User (Traveler) navigates to the 'Tours' section of the website.\n2. System displays a list of tour categories: Special Tours, Japan Tours, Asia Tours, Europe Tours, Australia Tours, America Tours.\n3. User (Traveler) selects a specific tour category (e.g., 'Japan Tours').\n4. System displays a list of tours available within the selected category.\n5. User (Traveler) selects a specific tour from the list.",
+                "screens": [
+                    "Tour Category Listing Page: Displays all available tour categories with brief descriptions and images.",
+                    "Tour Listing Page (Category Specific): Displays a list of tours within the selected category, including tour names, brief descriptions, prices, and images."
+                ]
+            },
+            {
+                "featureName": "Detailed daily schedule for each tour",
+                "flow": "1. User (Traveler) navigates to a specific tour detail page (from tour listing or search results).\n2. System displays the tour details, including a section dedicated to the 'Daily Schedule'.\n3. The 'Daily Schedule' section presents a day-by-day breakdown of the tour itinerary, including activities, locations, and meals.\n4. User (Traveler) can scroll through the daily schedule to review the entire itinerary.",
+                "screens": [
+                    "Tour Detail Page: Displays comprehensive information about a specific tour, including the daily schedule, trip highlights, service details, pricing, and other relevant information.",
+                    "Daily Schedule Section (within Tour Detail Page): A dedicated section within the Tour Detail Page that presents the day-by-day itinerary in a clear and organized manner."
+                ]
+            },
+            {
+                "featureName": "Trip highlights",
+                "flow": "1. User (Traveler) navigates to a specific tour detail page.\n2. System displays the tour details, including a section dedicated to 'Trip Highlights'.\n3. The 'Trip Highlights' section showcases the most exciting and noteworthy aspects of the tour, such as famous landmarks, unique experiences, and cultural events.\n4. User (Traveler) reviews the trip highlights to understand the key attractions and experiences offered by the tour.",
+                "screens": [
+                    "Tour Detail Page: Displays comprehensive information about a specific tour.",
+                    "Trip Highlights Section (within Tour Detail Page): A dedicated section within the Tour Detail Page that showcases the most exciting and noteworthy aspects of the tour."
+                ]
+            },
+            {
+                "featureName": "Service details (accommodations, flights, meals)",
+                "flow": "1. User (Traveler) navigates to a specific tour detail page.\n2. System displays the tour details, including a section dedicated to 'Service Details'.\n3. The 'Service Details' section provides information about the accommodations (hotels), flights (if included), and meals provided during the tour.\n4. User (Traveler) reviews the service details to understand the quality and type of services included in the tour package.",
+                "screens": [
+                    "Tour Detail Page: Displays comprehensive information about a specific tour.",
+                    "Service Details Section (within Tour Detail Page): A dedicated section within the Tour Detail Page that provides information about accommodations, flights, and meals."
+                ]
+            },
+            {
+                "featureName": "Transparent pricing",
+                "flow": "1. User (Traveler) navigates to a specific tour detail page.\n2. System displays the tour details, including a section dedicated to 'Pricing'.\n3. The 'Pricing' section clearly displays the total cost of the tour, along with any applicable discounts or promotions.\n4. User (Traveler) reviews the pricing information to understand the cost of the tour and any potential savings.",
+                "screens": [
+                    "Tour Detail Page: Displays comprehensive information about a specific tour.",
+                    "Pricing Section (within Tour Detail Page): A dedicated section within the Tour Detail Page that displays the total cost of the tour and any applicable discounts or promotions."
+                ]
+            },
+            {
+                "featureName": "Inclusions and exclusions",
+                "flow": "1. User (Traveler) navigates to a specific tour detail page.\n2. System displays the tour details, including a section dedicated to 'Inclusions and Exclusions'.\n3. The 'Inclusions and Exclusions' section clearly lists the items and services that are included in the tour package and those that are not.\n4. User (Traveler) reviews the inclusions and exclusions to understand what is covered by the tour price and what additional expenses they may incur.",
+                "screens": [
+                    "Tour Detail Page: Displays comprehensive information about a specific tour.",
+                    "Inclusions and Exclusions Section (within Tour Detail Page): A dedicated section within the Tour Detail Page that lists the items and services included and excluded from the tour package."
+                ]
+            },
+            {
+                "featureName": "Captivating visuals",
+                "flow": "1. User (Traveler) navigates to a specific tour detail page or tour listing page.\n2. System displays high-quality images and videos related to the tour, showcasing the destinations, activities, and experiences offered.\n3. User (Traveler) views the visuals to get a better sense of the tour and its attractions.",
+                "screens": [
+                    "Tour Detail Page: Displays comprehensive information about a specific tour, including captivating visuals.",
+                    "Tour Listing Page: Displays a list of tours with images for each tour.",
+                    "Image Gallery (within Tour Detail Page): A dedicated section within the Tour Detail Page that showcases a collection of high-quality images and videos related to the tour."
+                ]
+            },
+            {
+                "featureName": "Guide information",
+                "flow": "1. User (Traveler) navigates to a specific tour detail page.\n2. System displays the tour details, including a section dedicated to 'Guide Information'.\n3. The 'Guide Information' section provides details about the tour guides who will be leading the tour, including their names, qualifications, and experience.\n4. User (Traveler) reviews the guide information to understand the expertise and support they will receive during the tour.",
+                "screens": [
+                    "Tour Detail Page: Displays comprehensive information about a specific tour.",
+                    "Guide Information Section (within Tour Detail Page): A dedicated section within the Tour Detail Page that provides details about the tour guides."
+                ]
+            },
+            {
+                "featureName": "Payment options",
+                "flow": "1. User (Traveler) selects a tour and proceeds to the booking process.\n2. System displays the 'Payment Options' screen during the checkout process.\n3. The 'Payment Options' screen presents a list of available payment methods, such as credit cards, debit cards, bank transfers, and online payment gateways.\n4. User (Traveler) selects their preferred payment method and provides the necessary payment information.\n5. System processes the payment and confirms the booking.",
+                "screens": [
+                    "Booking Summary Page: Displays a summary of the tour booking, including the tour details, dates, and total cost.",
+                    "Payment Options Page: Displays a list of available payment methods and allows the user to select their preferred method and provide payment information.",
+                    "Payment Confirmation Page: Confirms the successful processing of the payment and provides a booking confirmation number."
+                ]
+            },
+            {
+                "featureName": "Cancellation policies",
+                "flow": "1. User (Traveler) navigates to a specific tour detail page or the 'Terms and Conditions' section of the website.\n2. System displays the tour details, including a section dedicated to 'Cancellation Policies'.\n3. The 'Cancellation Policies' section outlines the terms and conditions for canceling a tour booking, including any applicable fees or refunds.\n4. User (Traveler) reviews the cancellation policies to understand their rights and responsibilities in case they need to cancel their booking.",
+                "screens": [
+                    "Tour Detail Page: Displays comprehensive information about a specific tour.",
+                    "Cancellation Policies Section (within Tour Detail Page): A dedicated section within the Tour Detail Page that outlines the terms and conditions for canceling a tour booking.",
+                    "Terms and Conditions Page: A general page on the website that outlines the terms and conditions for using the website and booking tours, including the cancellation policies."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Informational Content",
+        "features": [
+            {
+                "featureName": "Travel articles",
+                "flow": "1. **User (Traveler):** Navigates to the 'Travel Articles' section from the main navigation or a related link on the homepage or tour detail page.\n2. **System:** Displays a list of travel articles, potentially with filters or search functionality (e.g., by region, topic).\n3. **User (Traveler):** Browses the list of articles and selects an article to read.\n4. **System:** Displays the selected travel article with its title, content, author, and publication date. Related articles may also be displayed.\n5. **User (Traveler):** Reads the article. May have options to share the article on social media or save it for later.\n6. **System:** Tracks article views and engagement metrics (e.g., shares, saves).",
+                "screens": [
+                    "Travel Articles Listing Page: Displays a list of travel articles with titles, summaries, and potentially featured images. Includes search and filter options.",
+                    "Travel Article Detail Page: Displays the full content of a selected travel article, including title, author, publication date, images, and related articles. Includes social sharing options."
+                ]
+            },
+            {
+                "featureName": "Cultural articles",
+                "flow": "1. **User (Traveler):** Navigates to the 'Cultural Articles' section from the main navigation or a related link on the homepage or tour detail page.\n2. **System:** Displays a list of cultural articles, potentially with filters or search functionality (e.g., by region, topic).\n3. **User (Traveler):** Browses the list of articles and selects an article to read.\n4. **System:** Displays the selected cultural article with its title, content, author, and publication date. Related articles may also be displayed.\n5. **User (Traveler):** Reads the article. May have options to share the article on social media or save it for later.\n6. **System:** Tracks article views and engagement metrics (e.g., shares, saves).",
+                "screens": [
+                    "Cultural Articles Listing Page: Displays a list of cultural articles with titles, summaries, and potentially featured images. Includes search and filter options.",
+                    "Cultural Article Detail Page: Displays the full content of a selected cultural article, including title, author, publication date, images, and related articles. Includes social sharing options."
+                ]
+            },
+            {
+                "featureName": "Personal travel narratives",
+                "flow": "1. **User (Traveler):** Navigates to the 'Personal Travel Narratives' section from the main navigation or a related link on the homepage or tour detail page.\n2. **System:** Displays a list of personal travel narratives, potentially with filters or search functionality (e.g., by region, author).\n3. **User (Traveler):** Browses the list of narratives and selects one to read.\n4. **System:** Displays the selected narrative with its title, author, date, and content.  May include images and videos submitted by the author.\n5. **User (Traveler):** Reads the narrative. May have options to comment, share, or contact the author (if enabled).\n6. **System:** Tracks narrative views and engagement metrics (e.g., comments, shares).  May include a rating system for narratives.",
+                "screens": [
+                    "Personal Travel Narratives Listing Page: Displays a list of personal travel narratives with titles, summaries, author information, and potentially featured images. Includes search and filter options.",
+                    "Personal Travel Narrative Detail Page: Displays the full content of a selected personal travel narrative, including title, author, date, images, videos, and a comment section. Includes social sharing options."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Customer Support",
+        "features": [
+            {
+                "featureName": "Visa consultation services",
+                "flow": "1. **User (Potential Traveler):** Navigates to the 'Visa Services' section of the website.\n2. **User (Potential Traveler):** Selects the destination country for visa consultation.\n3. **System:** Displays visa requirements, application process overview, and available consultation options (e.g., online form, phone call).\n4. **User (Potential Traveler):** Chooses a consultation option (e.g., fills out an online form).\n5. **User (Potential Traveler):** Provides necessary information (e.g., nationality, travel dates, purpose of visit).\n6. **System:** Submits the consultation request.\n7. **Customer Support Agent:** Receives the consultation request.\n8. **Customer Support Agent:** Reviews the request and prepares a response.\n9. **System:** Sends a confirmation email to the user acknowledging the request.\n10. **Customer Support Agent:** Contacts the user via email or phone with visa consultation information and next steps.\n11. **User (Potential Traveler):** Reviews the consultation information and follows the provided instructions.",
+                "screens": [
+                    "Visa Services Landing Page: Overview of visa services offered, list of countries supported.",
+                    "Country Selection Page: A page where users can select the country for which they need visa assistance.",
+                    "Visa Information Page: Displays visa requirements, application process, and consultation options for the selected country.",
+                    "Visa Consultation Form: A form for users to submit their visa consultation request.",
+                    "Confirmation Page: Confirmation message after submitting the visa consultation form.",
+                    "Confirmation Email: Email sent to the user confirming the receipt of their visa consultation request."
+                ]
+            },
+            {
+                "featureName": "Contact form",
+                "flow": "1. **User:** Navigates to the 'Contact Us' page.\n2. **User:** Fills out the contact form with their name, email address, subject, and message.\n3. **User:** Submits the form.\n4. **System:** Validates the form data.\n5. **System:** Sends the form data to the customer support team.\n6. **System:** Displays a confirmation message to the user.\n7. **Customer Support Agent:** Receives the contact form submission.\n8. **Customer Support Agent:** Reviews the message and responds to the user via email.",
+                "screens": [
+                    "Contact Us Page: Contains the contact form and other contact information.",
+                    "Confirmation Message: A message displayed after the user submits the contact form."
+                ]
+            },
+            {
+                "featureName": "Specialized hotlines",
+                "flow": "1. **User:** Identifies the appropriate hotline number based on their inquiry (e.g., individual tours, group tours, visa services).\n2. **User:** Dials the hotline number.\n3. **Customer Support Agent:** Answers the call and provides assistance to the user.",
+                "screens": [
+                    "Homepage/Footer: Display of hotline numbers for different services.",
+                    "Contact Us Page: Detailed list of hotline numbers with descriptions of their purpose."
+                ]
+            },
+            {
+                "featureName": "Email addresses",
+                "flow": "1. **User:** Locates the relevant email address on the website (e.g., general inquiries, visa services).\n2. **User:** Composes an email to the specified address with their inquiry.\n3. **User:** Sends the email.\n4. **Customer Support Agent:** Receives the email.\n5. **Customer Support Agent:** Reviews the email and responds to the user.",
+                "screens": [
+                    "Contact Us Page: List of email addresses for different departments.",
+                    "Footer: Display of general inquiry email address."
+                ]
+            },
+            {
+                "featureName": "Office location details",
+                "flow": "1. **User:** Navigates to the 'Contact Us' page or 'About Us' page.\n2. **User:** Locates the office address and directions.\n3. **User:** (Optional) Uses a map integration to get directions.",
+                "screens": [
+                    "Contact Us Page: Displays the office address, map integration (if available), and directions.",
+                    "About Us Page: May contain office location details as part of the company information."
+                ]
+            },
+            {
+                "featureName": "Prominently displayed hotline numbers",
+                "flow": "1. **User:** Views any page on the website.\n2. **User:** Immediately sees the hotline numbers displayed in a prominent location (e.g., header, footer, sidebar).\n3. **User:** Dials the appropriate hotline number based on their needs.",
+                "screens": [
+                    "Website Header: Contains the hotline numbers for quick access.",
+                    "Website Footer: Contains the hotline numbers for easy reference.",
+                    "Sidebar (if applicable): Contains the hotline numbers for consistent visibility."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Social Proof",
+        "features": [
+            {
+                "featureName": "Customer testimonials and reviews",
+                "flow": "1. **User (Potential Customer) arrives on the website:** User lands on the homepage, a tour detail page, or a dedicated testimonials page.\n2. **User navigates to testimonials/reviews section:** User scrolls down the page or clicks on a 'Testimonials' or 'Reviews' link in the navigation or footer.\n3. **System displays testimonials/reviews:** The system loads and displays a list of customer testimonials and reviews. This may include text, star ratings, photos, and dates.\n4. **User browses testimonials/reviews:** User scrolls through the list, reads individual reviews, and potentially filters or sorts them (e.g., by rating, date, or keyword).\n5. **(Optional) User clicks on a specific testimonial/review:** User clicks on a testimonial to view the full content or more details about the reviewer (if available).\n6. **System displays full testimonial/review:** The system displays the complete testimonial, including any additional information about the reviewer or the specific tour they took.\n7. **(Optional) User submits a review:** If a review submission feature is available, the user clicks on a 'Write a Review' or similar button.\n8. **System redirects to review submission form:** The system displays a form where the user can enter their review, rating, and other relevant information.\n9. **User fills out and submits the review form:** User enters their review details and submits the form.\n10. **System saves the review and displays a confirmation message:** The system saves the review to the database and displays a message confirming successful submission. The review may be subject to moderation before being publicly displayed.\n11. **(Admin) Admin moderates reviews:** An administrator reviews submitted reviews for inappropriate content or spam.\n12. **(Admin) Admin approves or rejects reviews:** The administrator approves legitimate reviews and rejects inappropriate ones.\n13. **System updates the displayed reviews:** The system updates the list of displayed reviews to reflect the approved reviews.",
+                "screens": [
+                    "Homepage: Displays a carousel or section featuring a few highlighted testimonials.",
+                    "Tour Detail Page: Includes a section dedicated to reviews specifically related to that tour.",
+                    "Testimonials/Reviews Page: A dedicated page showcasing all customer testimonials and reviews. This page may include filtering and sorting options.",
+                    "Full Testimonial/Review Popup/Page: Displays the complete content of a selected testimonial or review.",
+                    "Review Submission Form: A form where users can submit their own reviews. Includes fields for rating, text, and potentially user information.",
+                    "Review Submission Confirmation: A page or popup confirming that the review has been submitted successfully.",
+                    "Admin Review Moderation Panel: A backend interface for administrators to review and approve or reject submitted reviews."
+                ]
+            }
+        ]
+    }
+]

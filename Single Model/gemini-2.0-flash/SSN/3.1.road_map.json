@@ -1,0 +1,118 @@
+[
+    {
+        "id": "P1",
+        "phase": "Phase 1: Core Platform Development",
+        "feature list": [
+            "User Registration",
+            "User Profiles (Students, Researchers, Teachers)",
+            "Profile Customization",
+            "Account Management",
+            "University-Specific Networks",
+            "University Affiliation (during registration)"
+        ],
+        "estimatedTime": "8 weeks",
+        "startTime": "2023-10-26",
+        "endTime": "2023-12-21",
+        "dependencies": []
+    },
+    {
+        "id": "P2",
+        "phase": "Phase 2: Resource Sharing & Basic Search",
+        "feature list": [
+            "Document Upload (Learning Materials, Research Papers)",
+            "Resource Categorization (by Subject, Course, etc.)",
+            "Resource Search & Filtering",
+            "Resource Download",
+            "Resource Preview",
+            "Content Filtering by University"
+        ],
+        "estimatedTime": "6 weeks",
+        "startTime": "2023-12-22",
+        "endTime": "2024-02-01",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P3",
+        "phase": "Phase 3: Course & Teacher Reviews",
+        "feature list": [
+            "Course Review Submission",
+            "Teacher Review Submission",
+            "Review Display",
+            "Review Moderation",
+            "Rating System (for Courses & Teachers)"
+        ],
+        "estimatedTime": "5 weeks",
+        "startTime": "2024-02-02",
+        "endTime": "2024-03-07",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P4",
+        "phase": "Phase 4: Networking & Collaboration Features",
+        "feature list": [
+            "User Search",
+            "Direct Messaging",
+            "Group/Community Creation (within University Networks)",
+            "Forum/Discussion Boards"
+        ],
+        "estimatedTime": "7 weeks",
+        "startTime": "2024-03-08",
+        "endTime": "2024-04-25",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P5",
+        "phase": "Phase 5: Advanced Search & Recommendations",
+        "feature list": [
+            "Global Search (across all resources and users)",
+            "Advanced Search Filters",
+            "Recommendation Submission",
+            "Recommendation Display",
+            "Recommendation Categorization"
+        ],
+        "estimatedTime": "6 weeks",
+        "startTime": "2024-04-26",
+        "endTime": "2024-06-06",
+        "dependencies": [
+            "P2",
+            "P4"
+        ]
+    },
+    {
+        "id": "P6",
+        "phase": "Phase 6: Content Management & Notifications",
+        "feature list": [
+            "Content Moderation",
+            "Reporting Inappropriate Content",
+            "Notifications for new resources, messages, reviews, etc."
+        ],
+        "estimatedTime": "4 weeks",
+        "startTime": "2024-06-07",
+        "endTime": "2024-07-04",
+        "dependencies": [
+            "P2",
+            "P3",
+            "P4"
+        ]
+    },
+    {
+        "id": "P7",
+        "phase": "Phase 7: Expansion Planning & Design",
+        "feature list": [
+            "Support for High Schools",
+            "Support for Elementary Schools"
+        ],
+        "estimatedTime": "4 weeks",
+        "startTime": "2024-07-05",
+        "endTime": "2024-08-01",
+        "dependencies": [
+            "P6"
+        ]
+    }
+]

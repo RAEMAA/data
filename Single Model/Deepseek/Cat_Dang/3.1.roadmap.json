@@ -1,0 +1,82 @@
+[
+  {
+    "id": "P1",
+    "phase": "Core Infrastructure Setup",
+    "feature list": [
+      "Centralized database for all branches",
+      "Real-time data synchronization across locations",
+      "Role-based access controls (admin, manager, staff)",
+      "Cloud-based storage for scalability"
+    ],
+    "estimatedTime": "8 weeks",
+    "startTime": "2023-10-11",
+    "endTime": "2023-12-06",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Order Management System Development",
+    "feature list": [
+      "Digital order entry for waiters",
+      "Real-time order routing to preparation team",
+      "Order status tracking and notifications",
+      "Support for order modifications/cancellations"
+    ],
+    "estimatedTime": "6 weeks",
+    "startTime": "2023-12-07",
+    "endTime": "2024-01-17",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P3",
+    "phase": "Automated Billing & Payment Implementation",
+    "feature list": [
+      "Automated invoice generation",
+      "Integration with multiple payment methods (cash, card, e-wallet)",
+      "Split billing options for group orders",
+      "Discount and promotion management"
+    ],
+    "estimatedTime": "5 weeks",
+    "startTime": "2024-01-18",
+    "endTime": "2024-02-21",
+    "dependencies": ["P2"]
+  },
+  {
+    "id": "P4",
+    "phase": "Staff Operations & Support Integration",
+    "feature list": [
+      "Role-specific dashboards (waiters, managers)",
+      "In-system communication tools for staff coordination",
+      "Training resources for new staff onboarding",
+      "Performance metrics tracking for staff efficiency"
+    ],
+    "estimatedTime": "6 weeks",
+    "startTime": "2024-02-22",
+    "endTime": "2024-04-03",
+    "dependencies": ["P2", "P3"]
+  },
+  {
+    "id": "P5",
+    "phase": "Centralized Reporting & Analytics Deployment",
+    "feature list": [
+      "Branch-specific revenue reports",
+      "Network-wide consolidated sales reports",
+      "Customizable report templates (daily, weekly, monthly)",
+      "Revenue trend analysis and forecasting",
+      "Exportable reports in PDF/Excel formats"
+    ],
+    "estimatedTime": "6 weeks",
+    "startTime": "2024-02-22",
+    "endTime": "2024-04-03",
+    "dependencies": ["P1", "P2", "P3"]
+  },
+  {
+    "id": "P6",
+    "phase": "Testing, Deployment, & Training",
+    "feature list": [],
+    "estimatedTime": "4 weeks",
+    "startTime": "2024-04-04",
+    "endTime": "2024-05-01",
+    "dependencies": ["P4", "P5"]
+  }
+]

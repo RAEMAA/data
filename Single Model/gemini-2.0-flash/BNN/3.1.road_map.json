@@ -1,0 +1,105 @@
+[
+    {
+        "id": "P1",
+        "phase": "Phase 1: Foundation & Farmer Onboarding",
+        "feature list": [
+            "Account creation",
+            "Profile management (including farm details)",
+            "Payment receiving setup",
+            "Farmer account creation and management"
+        ],
+        "estimatedTime": "8 weeks",
+        "startTime": "2023-10-11",
+        "endTime": "2023-12-06",
+        "dependencies": []
+    },
+    {
+        "id": "P2",
+        "phase": "Phase 2: Product Listing & Management",
+        "feature list": [
+            "Produce listing (description, images, pricing)",
+            "Detailed product descriptions",
+            "Image uploads",
+            "Pricing and quantity management",
+            "Categorization of produce (rice, fruits, fish, etc.)"
+        ],
+        "estimatedTime": "6 weeks",
+        "startTime": "2023-12-07",
+        "endTime": "2024-01-17",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P3",
+        "phase": "Phase 3: Core E-commerce Functionality",
+        "feature list": [
+            "Browse by category",
+            "Search functionality",
+            "Add to cart",
+            "View cart",
+            "Secure checkout process",
+            "Order summary",
+            "Customer account creation and management"
+        ],
+        "estimatedTime": "8 weeks",
+        "startTime": "2023-12-07",
+        "endTime": "2024-01-31",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P4",
+        "phase": "Phase 4: Payment & Order Processing",
+        "feature list": [
+            "Secure online payment gateway integration",
+            "Multiple payment options (e.g., bank transfer)",
+            "Transaction history",
+            "Order placement",
+            "Order tracking",
+            "Order history for both farmers and customers",
+            "Order status updates"
+        ],
+        "estimatedTime": "7 weeks",
+        "startTime": "2024-02-01",
+        "endTime": "2024-03-20",
+        "dependencies": [
+            "P2",
+            "P3"
+        ]
+    },
+    {
+        "id": "P5",
+        "phase": "Phase 5: Shipping & Website Content",
+        "feature list": [
+            "Delivery arrangement options",
+            "Shipping cost calculation",
+            "Address management",
+            "Homepage with featured products",
+            "About Us section",
+            "Contact Us section",
+            "FAQ section"
+        ],
+        "estimatedTime": "5 weeks",
+        "startTime": "2024-03-21",
+        "endTime": "2024-04-24",
+        "dependencies": [
+            "P4"
+        ]
+    },
+    {
+        "id": "P6",
+        "phase": "Phase 6: Product Browsing Refinement",
+        "feature list": [
+            "Product comparison",
+            "Filtering options (e.g., price, location)"
+        ],
+        "estimatedTime": "3 weeks",
+        "startTime": "2024-04-25",
+        "endTime": "2024-05-15",
+        "dependencies": [
+            "P3"
+        ]
+    }
+]

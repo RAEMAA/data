@@ -1,0 +1,136 @@
+[
+  {
+    "feature_name": "Profile Management (P1)",
+    "flow": "1. User registers an account (Student/Faculty/Researcher role)2. User completes initial profile setup with academic information3. User adds university affiliations to join specific networks4. User uploads profile picture and adds personal bio5. User adds academic interests and expertise areas6. User connects their research publications or portfolios7. User sets privacy preferences for profile visibility8. User can edit profile information at any time9. User can view how their profile appears to others10. User can manage university network memberships",
+    "screens": [
+      "Registration Screen: Form for new users to create an account with basic information and role selection",
+      "Profile Setup Screen: Guided workflow to complete academic profile details",
+      "University Affiliation Screen: Interface to search and join specific university networks",
+      "Profile Picture Upload Screen: Tool to upload and crop profile image",
+      "Academic Interests Screen: Interface to select and manage areas of interest or expertise",
+      "Publications/Portfolio Screen: Tool to link external resources or upload documents",
+      "Privacy Settings Screen: Controls for managing profile visibility across different networks",
+      "Profile Edit Screen: Comprehensive form to modify any profile information",
+      "Profile Preview Screen: View of how profile appears to different user types",
+      "Network Management Screen: Dashboard to manage university network memberships and notifications"
+    ]
+  },
+  {
+    "feature_name": "Academic Profile Management",
+    "flow": "1. User navigates to profile section (Student/Researcher)2. User views current profile information3. User selects edit profile option4. User updates personal information, academic background, research interests, or skills5. User uploads profile picture (optional)6. User sets privacy preferences for profile information7. User saves changes8. System confirms profile update",
+    "screens": [
+      "Profile Overview: Displays user's current academic profile information, achievements, and network connections",
+      "Profile Edit: Form interface allowing users to modify personal and academic information",
+      "Privacy Settings: Interface for controlling visibility of profile elements to different user groups",
+      "Profile Preview: Shows how profile appears to different user types (public, connections, institution members)"
+    ]
+  },
+  {
+    "feature_name": "Course Rating and Evaluation",
+    "flow": "1. Student logs into their university network (Student)2. Student navigates to course catalog or search page (Student)3. Student finds and selects a specific course they've completed (Student)4. System displays the course details page with rating option (System)5. Student selects 'Rate and Review' option (Student)6. System presents evaluation form with rating criteria and text fields (System)7. Student provides numerical ratings for various aspects (teaching quality, content relevance, difficulty level, etc.) (Student)8. Student writes qualitative feedback and recommendations (Student)9. Student can optionally upload supporting materials related to the course (Student)10. Student submits the evaluation (Student)11. System validates input and stores the evaluation (System)12. System updates course rating statistics (System)13. System notifies the student of successful submission (System)14. System makes the review available to other students in the university network (System)",
+    "screens": [
+      "Login Screen: Authentication interface for students to access their university network",
+      "Course Catalog/Search Screen: Interface displaying available courses with search and filter options",
+      "Course Details Screen: Page showing comprehensive information about a specific course",
+      "Rate and Review Form: Interactive form with rating scales, text fields for feedback, and material upload options",
+      "Submission Confirmation Screen: Confirmation page showing that the evaluation was successfully submitted",
+      "My Reviews Screen: Personal dashboard showing all reviews submitted by the student",
+      "Review Analytics Dashboard: Screen showing aggregated ratings and statistics for course administrators"
+    ]
+  }","{
+    "feature_name": "Project Collaborative Workflow (P4)",
+    "flow": "1. Student or Researcher identifies need for collaboration on a project (User: Student/Researcher)2. User creates a new project workspace with title, description, objectives, and timeline (User: Student/Researcher)3. User invites relevant collaborators by searching within university network (User: Student/Researcher)4. Invited collaborators receive notifications and accept/decline project invitation (User: Invited Collaborators)5. Project team members assign tasks and set deadlines (User: All Project Members)6. Members upload relevant resources and materials to project workspace (User: All Project Members)7. Members collaborate through project discussion board (User: All Project Members)8. Progress tracking with milestone updates and notifications (User: All Project Members)9. Team conducts virtual meetings through integrated scheduling tool (User: All Project Members)10. Final project outcomes are documented and archived (User: Project Creator or Assigned Member)11. Project outcomes can be shared to wider university network with permissions (User: Project Creator)",
+    "screens": [
+      "Project Creation Screen: Interface for inputting project details, objectives, and timeline",
+      "Collaborator Invitation Screen: Search and invite interface with university network filtering",
+      "Project Dashboard: Overview of project status, timeline, and recent activities",
+      "Task Management Screen: Interface for creating, assigning, and tracking project tasks",
+      "Resource Repository: Upload and organization interface for project materials and references",
+      "Discussion Board: Threaded conversations for project-related communications",
+      "Progress Tracker: Visual representation of project milestones and completion status",
+      "Meeting Scheduler: Calendar interface for setting up and joining virtual project meetings",
+      "Project Archive View: Final documentation and archival of completed project outcomes",
+      "Sharing Controls: Interface for managing permissions when sharing with wider network"
+    ]
+  },
+  {
+    "feature_name": "Profile and Preferences Management (Flow P5)",
+    "flow": "1. User logs into their SSN account (Student/Researcher/Faculty)2. User navigates to their profile section from the main dashboard3. User views their current profile information including academic affiliations, interests, and privacy settings4. User selects 'Edit Profile' to modify personal information5. User updates details such as academic background, research interests, or teaching experience6. User saves changes and returns to profile view7. User navigates to 'University Networks' section8. User browses available university networks9. User joins or leaves university networks based on their affiliations and interests10. User configures notification preferences for each network11. User sets privacy preferences for content sharing across networks12. User saves all preferences13. System applies updated settings across the platform",
+    "screens": [
+      "Login Screen: Authentication interface with username/password fields and institution selection",
+      "Dashboard: Main navigation hub with quick access to profile, networks, and content feeds",
+      "Profile View: Read-only display of user's current profile information",
+      "Edit Profile: Form with editable fields for personal and academic information",
+      "Academic Background: Dedicated section to add/edit education history and qualifications",
+      "Research Interests: Interface to select and prioritize academic areas of interest",
+      "University Networks List: Searchable directory of available institutional networks",
+      "Network Membership Management: Interface to join/leave networks with confirmation dialogs",
+      "Notification Settings: Configurable preferences for different types of alerts across networks",
+      "Privacy Settings: Granular controls for content visibility and data sharing permissions",
+      "Settings Confirmation: Summary screen showing all changes before final confirmation"
+    ]
+  },
+  {
+    "feature_name": "P6: Course Project Collaboration",
+    "flow": "1. Student initiates a new course project collaboration (Student)2. Student defines project details including course, objectives, timeline, and required skills (Student)3. System posts the collaboration opportunity to relevant university networks (System)4. Interested students/researchers browse available projects (Student/Researcher)5. Interested collaborators apply to join project team (Student/Researcher)6. Project creator reviews applications and selects team members (Student)7. System notifies selected and rejected applicants (System)8. Project team communicates through dedicated project space (Student/Researcher)9. Team members upload and share project-related materials (Student/Researcher)10. Project creator can update project status and milestones (Student)11. Team members can mark project completion (Student/Researcher)12. Team members can provide feedback on collaboration experience (Student/Researcher)",
+    "screens": [
+      "Project Listing Screen: Displays available collaboration opportunities with filtering options by university, course, and skills required",
+      "Project Creation Form: Interface for students to create new project collaborations with fields for details, requirements, and timeline",
+      "Project Detail View: Comprehensive view of a specific project including description, timeline, team members, and progress status",
+      "Application Management Screen: For project creators to review and approve/reject collaboration requests",
+      "Project Workspace: Collaborative space for approved team members with chat, file sharing, and task management",
+      "Material Upload Interface: Screen for sharing documents, research findings, and other project-related content",
+      "Progress Tracking Dashboard: Visual representation of project milestones and completion status",
+      "Feedback Form: Interface for team members to evaluate collaboration experience and provide suggestions",
+      "Notification Center: Screen displaying alerts about application status, new materials, and project updates"
+    ]
+  },
+  {
+    "feature_name": "Course Rating and Evaluation",
+    "flow": "1. Student logs into their SSN account2. Student navigates to Course Catalog section3. Student searches/filters for a specific course they've taken4. Student selects the course from search results5. Student views the course details page6. Student clicks on 'Write a Review' button7. System presents evaluation form with rating scales and text fields8. Student completes evaluation form with ratings and comments9. Student submits the evaluation10. System validates submission and displays confirmation11. System updates course rating in the database12. Other students can view aggregated ratings and individual reviews13. Faculty members can access compiled feedback for their courses14. Department administrators can generate reports on course evaluations",
+    "screens": [
+      "Login Screen: Authentication interface for user access",
+      "Home Dashboard: Main navigation hub with quick access to features",
+      "Course Catalog: Searchable directory of all courses in the user's network",
+      "Course Search Results: Filtered list of courses based on search criteria",
+      "Course Details Page: Comprehensive information about the course including syllabus, instructor, and existing reviews",
+      "Evaluation Form: Interactive form with rating scales (1-5 stars) for various aspects like content quality, instructor effectiveness, resources, etc.",
+      "Review Writing Interface: Text editor for detailed feedback and comments",
+      "Submission Confirmation: Acknowledgment of successful evaluation submission",
+      "My Reviews Page: Collection of all reviews submitted by the user",
+      "Course Analytics Dashboard: Visualization of aggregated ratings and feedback trends (for faculty and administrators)",
+      "Evaluation Reports: Downloadable reports of course evaluations (for faculty and administrators)"
+    ]
+  },
+  {
+    "feature_name": "Course Material Repository",
+    "flow": "1. Student/Faculty logs into SSN account (User Role: Student/Faculty)2. User navigates to their university network (User Role: Student/Faculty)3. User selects 'Course Materials' section (User Role: Student/Faculty)4. User searches for specific course by name, code, or topic (User Role: Student/Faculty)5. User browses available materials for the course (User Role: Student/Faculty)6. User downloads desired materials or clicks to view online (User Role: Student/Faculty)7. User rates the material's usefulness (optional) (User Role: Student/Faculty)8. User can upload their own materials for the course (User Role: Student/Faculty)9. User fills in metadata for the uploaded material (User Role: Student/Faculty)10. System verifies upload and adds to repository (System)11. Other users receive notification about new material (User Role: Student/Faculty)",
+    "screens": [
+      "Login Screen: Authentication portal with university selection option",
+      "University Network Dashboard: Overview of university-specific activities and resources",
+      "Course Materials Index: Categorized list of courses with search functionality",
+      "Course Detail Page: Information about the specific course with available materials",
+      "Material Preview: Online viewer for documents and resources",
+      "Material Upload Form: Form to add new materials with metadata fields",
+      "Rating Dialog: Pop-up to rate downloaded/viewed materials",
+      "User Profile: Shows user's contributions and downloaded materials"
+    ]
+  },
+  {
+    "feature_name": "P9: Academic Material Exchange",
+    "flow": "1. User logs in to the SSN platform (Student/Researcher/Faculty)2. User navigates to the Resource Sharing section3. User selects 'Upload Academic Material' option4. User fills in material details (title, subject, course code, description, tags)5. User uploads file(s) or links external resources6. User sets sharing permissions (public, university-specific, or private group)7. System validates the upload for appropriate content and format8. System processes and indexes the material for searchability9. System notifies relevant network members about new material10. Other users discover material through search or recommendations11. Users can download, save to collections, rate, and comment on materials12. Material owner can track usage statistics and feedback",
+    "screens": [
+      "Login Screen: Authentication interface for users to access their account",
+      "Dashboard: Main navigation hub with quick access to various sections including Resource Sharing",
+      "Resource Library: Browsable collection of academic materials with filtering options",
+      "Upload Form: Detailed form for adding new academic materials with metadata fields",
+      "Material Preview: Interface for reviewing uploaded content before final submission",
+      "Permission Settings: Screen for configuring who can access the uploaded materials",
+      "Material Detail View: Comprehensive display of a specific academic resource with download options",
+      "Comment & Rating Section: Interface for users to provide feedback on materials",
+      "Analytics Dashboard: For material owners to view usage statistics",
+      "Notification Center: For receiving alerts about new relevant materials",
+      "Collection Manager: For organizing saved materials into personal libraries"
+    ]
+  }
+]

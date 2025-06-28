@@ -1,0 +1,142 @@
+[
+  {
+    "category": "Marketplace listing types",
+    "features": [
+      {
+        "featureName": "Motorcycles",
+        "flow": "1. Seller Action: Logs in/registers and selects 'Sell Motorcycle' from dashboard.\n2. System Response: Auto-checks seller's credibility tier (calculated via transaction history, peer feedback, and monetary value of past sales) and displays tier badge.\n3. Seller Action: Enters motorcycle details (make, model, mileage, condition) and uploads photos.\n4. System Response: Suggests competitive pricing based on community forum trends and similar listings.\n5. Seller Action: Confirms listing details and enables 'Urgent Sale' toggle for prioritized visibility.\n6. System Response: Places listing in priority placement queue (higher credibility tiers appear first) and publishes to marketplace.\n7. Buyer Action: Views prioritized listings, filters by urgency/credibility, and submits offers/questions via community Q&A.\n8. Seller Action: Responds to inquiries in real-time through integrated forum chat.\n9. System Response: Updates credibility tier post-sale based on transaction speed, final price, and buyer feedback.",
+        "screens": [
+          "Motorcycle Listing Creation Screen: Form for entering bike details, photo uploader, and credibility tier display.",
+          "Pricing Suggestion Screen: Dynamic price comparison tool with community trend data visualization.",
+          "Urgent Sale Toggle Screen: Interface to activate priority visibility with tier-based placement guarantees.",
+          "Listing Preview Screen: Mobile/desktop preview showing credibility badge and urgency status.",
+          "Prioritized Listing View Screen: Buyers see high-tier/urgent listings first with credibility score tooltips.",
+          "Community Q&A Overlay: Embedded forum chat within listings for real-time buyer-seller negotiations.",
+          "Post-Sale Credibility Update Screen: Post-transaction summary showing tier changes and performance metrics."
+        ]
+      },
+      {
+        "featureName": "Urgent Parts Listing with Credibility Prioritization",
+        "flow": "1. [Seller] Navigates to 'Create Parts Listing' screen. 2. [System] Automatically checks seller's credibility tier (calculated via transaction history, feedback, and monetary value). 3. [Seller] Completes part details (title, description, photos) and uses 'Part Compatibility Check' screen to verify fit for specific motorcycle models. 4. [Seller] Activates 'Urgency Badge Configuration' to set sale urgency (e.g., '24-Hour Sale') and add context (e.g., 'Funding tuition'). 5. [System] Prioritizes listing in search results based on credibility tier and urgency status. 6. [Buyer] Views 'Credibility-Boosted Listing Preview' with badges (e.g., 'Top Seller', 'Urgent Sale') and initiates contact via integrated chat. 7. [Seller] Receives real-time notifications for buyer inquiries/offers and negotiates via secure messaging. 8. [System] Prompts seller to extend urgency period or adjust pricing if no sale occurs within set timeframe.",
+        "screens": [
+          "Part Compatibility Check: Searchable database for motorcycle models/parts; auto-suggests compatible items based on user input.",
+          "Urgency Badge Configuration: Customizable urgency settings (duration, visual badges) with tooltips explaining visibility benefits.",
+          "Credibility-Boosted Listing Preview: Simulates how the listing appears to buyers, highlighting credibility badges, urgency status, and compatibility tags."
+        ]
+      },
+      {
+        "featureName": "Accessories Listing & Transaction",
+        "flow": "1. **Seller Login**: Seller selects 'Sell Accessory' from profile dashboard. 2. **Attribute Specification**: Seller enters accessory type (helmet/jacket/gloves), condition (New/Used/Light Damage), compatibility (make/model/year), and safety certifications. 3. **Credibility Activation**: System auto-applies search ranking boosts (Gold Tier: +50% visibility, Silver: +25%, Bronze: Baseline) using real-time tier calculation. 4. **Urgency Toggle**: Seller enables '24-Hour Sale' badge for prioritized placement. 5. **Preview Optimization**: Seller views simulated search ranking position and urgency indicators. 6. **Buyer Flow**: Credibility-prioritized listings display 'Trusted Seller' badges; buyers use filtered search with 'Urgent Deals' toggle. 7. **Negotiation Protocol**: Time-stamped offers with auto-decline thresholds (e.g., 'Reject offers below 85% after 12 hours'). 8. **Transaction Execution**: Buyer selects 'Rush Checkout' with 2-hour price lock enforced via Stripe/PayPal integration.",
+        "screens": [
+          "Accessory Compatibility Selector: Dropdowns for motorcycle make/model/year with image verification prompts.",
+          "Credibility Impact Preview: Side-by-side comparison showing listing visibility with/without current seller tier benefits.",
+          "Urgency Configuration Panel: Toggle for sale duration (6/12/24-hour modes) with dynamic pricing recommendations.",
+          "Tier-Boosted Listing View: Buyer-facing display showing credibility badge, urgency countdown, and compatibility match percentage.",
+          "Offer Deadline Interface: Buyer offer submission form with remaining negotiation time meter and seller response rate statistics."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Credibility calculation parameters",
+    "features": [
+      {
+        "featureName": "Transaction History Count",
+        "flow": "1. System automatically tracks and records each completed sale (buyer/seller roles). 2. Transaction count increments in real-time upon successful payment confirmation. 3. System checks cumulative count against credibility tier thresholds (e.g., 5+ transactions = Bronze, 10+ = Silver, 20+ = Gold). 4. Seller receives in-app notification when tier upgrades (system-triggered action). 5. Updated credibility tier prioritizes seller’s listings in marketplace search algorithms. 6. Seller views detailed transaction history via dashboard, including dates, buyers, and transaction amounts.",
+        "screens": [
+          "Transaction History Dashboard: Displays chronological list of all transactions with filters (date range, item type), status indicators, and export options.",
+          "Credibility Status Screen: Shows current tier (e.g., Silver), progress bar toward next tier, tier-specific benefits (e.g., 'Your listings appear 40% higher in search results'), and historical tier timeline."
+        ]
+      },
+      {
+        "featureName": "Peer Feedback & Credibility Scoring System",
+        "flow": "1. **Buyer Action**: After receiving item, buyer marks it as 'Received' in the platform (triggers feedback process). 2. **Buyer Rating**: Buyer rates seller via mobile/web notification on 3 criteria (e.g., item accuracy, communication, shipping speed) using mandatory 1-5 star ratings. 3. **Seller Rating**: Simultaneously, seller rates buyer on payment promptness and communication. 4. **Comment Moderation**: Buyers/sellers submit optional comments analyzed by AI for inappropriate content before publishing. 5. **Score Calculation**: Daily at midnight UTC, system calculates credibility scores using weighted formula: 40% transaction volume, 30% average ratings, 20% comment sentiment analysis, 10% monetary value consistency. 6. **Tier Update**: Credibility tier (Bronze/Silver/Gold/Platinum) updates instantly if thresholds crossed, granting prioritized listing visibility. 7. **Visibility Activation**: Higher-tier sellers' listings automatically appear in top 20% of search results.",
+        "screens": [
+          "Feedback Submission Screen: Expandable rating criteria with star selectors and AI-guided comment field (flags inappropriate language)",
+          "Feedback Preview Screen: Summary of given ratings and comments for final confirmation/edit before submission",
+          "Credibility Dashboard: Personal tier status display with score breakdown, improvement tips, and comparison to tier thresholds",
+          "Moderation Interface: Admin view for reviewing AI-flagged comments with approve/reject/request edit options",
+          "Public Profile Screen: Shows user's credibility tier badge, rating trends, and transaction history to potential buyers/sellers"
+        ]
+      },
+      {
+        "featureName": "Monetary value of completed transactions",
+        "flow": "1. Seller completes a transaction (e.g., motorcycle sale).\n2. System automatically records the transaction's monetary value.\n3. System updates the seller's total cumulative transaction value in their profile.\n4. System recalculates credibility tier using formula: [weighted algorithm combining transaction value (50% weight), transaction count (30% weight), and peer feedback (20% weight)].\n5. Seller views updated credibility score and tier on their dashboard (real-time update).\n6. System prioritizes seller's listings in search results based on new credibility tier.\n7. Seller accesses 'Transaction Impact' tooltip to see how monetary value contributed to credibility.\nUser roles: Seller (initiates/view actions), System (calculates/updates credibility).",
+        "screens": [
+          "Seller Dashboard: Displays current credibility score, tier, and visual breakdown of contributing factors (including transaction value via progress bars).",
+          "Transaction History Screen: Lists all completed transactions with monetary values, dates, and buyer feedback links. Includes filter by value range.",
+          "Credibility Breakdown Screen: Interactive pie chart showing 50% weight of transaction value, with drill-down to historical value trends.",
+          "Transaction Completion Notification: Pop-up/alert confirming sale success and displays immediate credibility tier change (e.g., 'Your credibility increased to Gold Tier: +$1,200 added to cumulative value')."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Visibility prioritization logic",
+    "features": [
+      {
+        "featureName": "Credibility Tier Assignment & Visibility Prioritization",
+        "flow": "1. [Seller] Logs into the platform and navigates to their profile. 2. [System] Automatically calculates credibility score via algorithm: 40% transaction history (successful exchanges), 35% peer feedback ratings (1-5 stars), 25% total monetary value of items sold/purchased. 3. [System] Assigns tier (Bronze: 0-50 pts, Silver: 51-80 pts, Gold: 81-100 pts) using dynamic thresholds. 4. [Seller] Creates motorcycle listing; system applies visibility multipliers (Bronze ×1, Silver ×1.5, Gold ×3 search ranking). 5. [Admin] Adjusts tier thresholds/weightages quarterly via analytics dashboard. 6. [Buyer] Sees prioritized listings with tier badges (flame icons) and sorting toggle ('Sort by Credibility Tier').",
+        "screens": [
+          "Credibility Analytics Dashboard - Interactive chart showing 12-month score trajectory, tier comparison to platform averages, and improvement targets.",
+          "Tier-Driven Listing Optimizer - Preview how listing position changes across search scenarios (e.g., 'Gold tier places you #1-3 in 70% of relevant searches')",
+          "Automated Tier Upgrade Modal - Full-screen celebration animation with new benefits (e.g., 'Gold Tier: 48-Hour Featured Placement in Category Pages')",
+          "Admin Tier Threshold Editor - Drag-and-drop interface to modify scoring bands, test threshold changes against historical user data, and deploy updates.",
+          "Buyer-Facing Tier Filter - Checkbox system to include/exclude tiers, with explanatory tooltips ('Gold sellers complete 92% of transactions within 7 days')"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Forum capabilities for pricing trend discussions",
+    "features": [
+      {
+        "featureName": "Dedicated threads for regional pricing trends",
+        "flow": "1. **Seller/Buyer navigates to forum**: User selects 'Regional Pricing Trends' from the forum homepage. 2. **Seller creates a thread**: Seller selects their region, inputs recent pricing data (e.g., model, mileage, sale price), and adds context (e.g., market demand). The system auto-flags high-credibility sellers' threads for priority placement. 3. **Buyer engages**: Buyers filter threads by region, view aggregated pricing data, and comment to request clarifications or share competing offers. 4. **Dynamic updates**: Sellers edit threads with new offers/insights; buyers receive notifications for updates in followed regions. 5. **Moderation**: Platform moderators review flagged content (e.g., misleading data) and lock/highlight threads based on accuracy.",
+        "screens": [
+          "Forum Homepage - Entry point with categories like 'Regional Trends', 'General Discussions'.",
+          "Regional Pricing Thread List - Displays threads filtered by region, sorted by credibility tier and recency.",
+          "Create New Thread Screen - Form for title, region dropdown, pricing fields, and contextual notes.",
+          "Thread Detail Screen - Shows OP’s pricing data, comments with credibility badges, and 'Follow Region' button.",
+          "Contribution Moderation Panel - Allows moderators to lock threads, tag verified data, or issue warnings."
+        ]
+      },
+      {
+        "featureName": "Real-time Pricing Dashboards",
+        "flow": "1. **Seller Access**: Seller logs into platform > selects 'Analytics Hub' from profile menu. 2. **Dashboard Activation**: Clicks 'Pricing Insights' card > system loads default view of last 30-day trends for their listed motorcycle type. 3. **Precision Filtering**: Uses three-step filter panel: (a) Motorcycle category dropdown (sport/cruiser/dual-purpose), (b) Regional selector (continent/country/state-level granularity), (c) Model year range slider (1980-2024). 4. **Tiered Analysis**: Views dynamic chart showing: - Gold-tier sellers (1000+ transactions) as blue trend lines - Silver-tier (500-999) as green - Bronze-tier (<500) as gray. 5. **Contextual Exploration**: Hovers over any data point to see credibility breakdown: transaction volume (last 90 days), % positive feedback, avg. sale price vs regional benchmark. 6. **Community Integration**: Clicks 'Share Snapshot' > system auto-generates: - Annotated graph segment - Statistical summary (median/peak prices) - Credibility context blurb. Seller selects forum category (e.g., 'Sport Bike Pricing Strategies') and posts with optional commentary.",
+        "screens": [
+          "**Analytics Hub Landing**: Grid layout showing pricing/competitiveness/speed-of-sale dashboard cards. Includes quick-access button to recently viewed insights.",
+          "**Interactive Pricing Canvas**: Full-screen visualization workspace with left-panel filter persistence. Timeline scrubbing + credibility tier toggle buttons (gold/silver/bronze). Export as PNG/CSV options in top toolbar.",
+          "**Smart Filter Console**: Slide-out panel with multi-select motorcycle attributes (engine size, mileage brackets), geographic heatmap overlay toggle, and save/reload filter preset functionality.",
+          "**Credibility Context Window**: Semi-transparent overlay displaying: seller's exact credibility score (872/1000), peer review excerpts ('Prompt shipping - 5★'), and tier progression milestones ('Reach Gold Tier with 128 more sales').",
+          "**Cross-Forum Post Composer**: Dual-pane interface showing graph preview (left) and forum thread selector (right). Auto-tagging system suggests relevant topics like '#SportBikePricing' based on data characteristics."
+        ]
+      },
+      {
+        "featureName": "Dynamic Pricing Adjustment via Forum Analysis",
+        "flow": "1. **Seller** accesses analysis tools via a dedicated 'Market Insights' button in the forum header. 2. **Seller** selects 'Pricing Trends Dashboard' from the analytics menu. 3. **System** displays real-time motorcycle pricing metrics, including: demand spikes by region, competitor price distributions, and seasonal depreciation rates. 4. **Seller** clicks 'Optimize Now' on a dashboard widget matching their motorcycle model. 5. **System** auto-generates a pre-filled listing edit form with: price adjustment slider (defaulting to 7% below top comparable listings), highlighted keyword suggestions from forum discussions, and urgency-boost toggle. 6. **Seller** reviews changes with side-by-side 'Before/After' metrics and submits updates. 7. **System** applies a 'SmartPriced' badge and elevates listing to 'Featured Deals' carousel for 48 hours.",
+        "screens": [
+          "Forum Analytics Gateway - Floating action button in forum threads linking to marketplace analysis tools",
+          "Competitive Pricing Matrix - Filterable grid showing live listings/pricing for matching motorcycle models with 'Match Score' percentages",
+          "Smart Adjustment Workspace - Split-view interface comparing original listing vs. optimized version with change justification tooltips",
+          "Optimization Impact Preview - Modal displaying projected outcomes (e.g., 'Top 12% visibility for 72 hours', 'Avg. sale time: 9 days')"
+        ]
+      },
+      {
+        "featureName": "Expert-Assisted Pricing Strategy Implementation",
+        "flow": "1. **Workshop Access (Seller):** Seller logs into the platform and navigates to the 'Seller Workshop' from their dashboard. 2. **Motorcycle Details Input (Seller):** Seller inputs motorcycle specifications (make, model, mileage, condition) and urgency level. 3. **Automated Pricing Analysis (System):** Platform generates an initial price range using pricing tools that analyze recent sales data, market trends, and credibility tier bonuses. 4. **Expert Consultation Request (Seller):** Seller opts to collaborate with community experts; system matches them with available experts based on expertise tags (e.g., vintage bikes, sport bikes). 5. **Live Collaborative Session (Seller/Expert):** Real-time discussion via integrated chat/video in the workshop interface. Expert reviews pricing data, suggests adjustments (e.g., 'Highlight rare parts in listing'), and provides market positioning tips. 6. **Strategy Finalization (Seller):** Seller adjusts listing price, adds expert-endorsed keywords, and enables 'Urgent Sale' mode for prioritized visibility. 7. **Listing Activation (System):** System publishes the listing with a 'Expert-Reviewed' badge and prioritizes it in search results.",
+        "screens": [
+          "Login Screen: User authentication and role-based redirect.",
+          "Seller Dashboard: Overview of active listings, credibility tier status, and workshop access button.",
+          "Workshop Landing Screen: Interface to initiate new strategy or edit existing drafts.",
+          "Motorcycle Details Form: Input fields for specifications, photos, and urgency toggle.",
+          "Pricing Analysis Screen: Interactive chart displaying automated price range, credibility bonuses, and market trend summaries.",
+          "Expert Matching Screen: List of available experts with bios, expertise tags, and response time indicators.",
+          "Collaboration Interface: Split-screen view with chat/video panel, pricing tool adjustments, and draft listing preview.",
+          "Strategy Summary Screen: Final review of price, keywords, and visibility settings before activation.",
+          "Confirmation & Monitoring Screen: Post-publication stats (views, offers) and option to request follow-up expert reviews."
+        ]
+      }
+    ]
+  }
+]

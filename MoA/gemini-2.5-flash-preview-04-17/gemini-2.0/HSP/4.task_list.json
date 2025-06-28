@@ -1,0 +1,904 @@
+[
+  [
+      {
+          "id": "P1-T1",
+          "taskName": "Define System Architecture and Technology Stack",
+          "correspondingPhase": "Planning & Requirements Gathering",
+          "correspondingFeature": "N/A",
+          "priority": "High",
+          "estimationTime": "8h",
+          "startTime": "2024-07-01",
+          "endTime": "2024-07-01",
+          "dependencies": [],
+          "responsiblePerson": "Project Manager"
+      },
+      {
+          "id": "P1-T2",
+          "taskName": "Gather and Document Functional Requirements",
+          "correspondingPhase": "Planning & Requirements Gathering",
+          "correspondingFeature": "N/A",
+          "priority": "High",
+          "estimationTime": "16h",
+          "startTime": "2024-07-02",
+          "endTime": "2024-07-03",
+          "dependencies": [],
+          "responsiblePerson": "Business Analyst"
+      },
+      {
+          "id": "P1-T3",
+          "taskName": "Create User Stories and Use Cases",
+          "correspondingPhase": "Planning & Requirements Gathering",
+          "correspondingFeature": "N/A",
+          "priority": "High",
+          "estimationTime": "16h",
+          "startTime": "2024-07-04",
+          "endTime": "2024-07-05",
+          "dependencies": [
+              "P1-T2"
+          ],
+          "responsiblePerson": "Business Analyst"
+      },
+      {
+          "id": "P1-T4",
+          "taskName": "Develop Project Plan and Timeline",
+          "correspondingPhase": "Planning & Requirements Gathering",
+          "correspondingFeature": "N/A",
+          "priority": "High",
+          "estimationTime": "16h",
+          "startTime": "2024-07-08",
+          "endTime": "2024-07-09",
+          "dependencies": [
+              "P1-T1",
+              "P1-T3"
+          ],
+          "responsiblePerson": "Project Manager"
+      },
+      {
+          "id": "P1-T5",
+          "taskName": "Risk Assessment and Mitigation Planning",
+          "correspondingPhase": "Planning & Requirements Gathering",
+          "correspondingFeature": "N/A",
+          "priority": "Medium",
+          "estimationTime": "8h",
+          "startTime": "2024-07-10",
+          "endTime": "2024-07-10",
+          "dependencies": [
+              "P1-T4"
+          ],
+          "responsiblePerson": "Project Manager"
+      },
+      {
+          "id": "P1-T6",
+          "taskName": "Requirements Review and Approval",
+          "correspondingPhase": "Planning & Requirements Gathering",
+          "correspondingFeature": "N/A",
+          "priority": "High",
+          "estimationTime": "8h",
+          "startTime": "2024-07-11",
+          "endTime": "2024-07-11",
+          "dependencies": [
+              "P1-T3",
+              "P1-T5"
+          ],
+          "responsiblePerson": "Project Manager"
+      }
+  ],
+  [
+      {
+          "id": "P2-T1",
+          "taskName": "Design Piglet Monitoring Module",
+          "correspondingPhase": "Internal Farm Operations Development",
+          "correspondingFeature": "Piglet Monitoring (growth, feeding, temperature, environmental criteria)",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-07-12",
+          "endTime": "2024-07-15",
+          "dependencies": [
+              "P1"
+          ],
+          "responsiblePerson": "UI/UX Designer"
+      },
+      {
+          "id": "P2-T2",
+          "taskName": "Implement Piglet Monitoring Module",
+          "correspondingPhase": "Internal Farm Operations Development",
+          "correspondingFeature": "Piglet Monitoring (growth, feeding, temperature, environmental criteria)",
+          "priority": "High",
+          "estimationTime": "5 days",
+          "startTime": "2024-07-16",
+          "endTime": "2024-07-21",
+          "dependencies": [
+              "P2-T1"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P2-T3",
+          "taskName": "Test Piglet Monitoring Module",
+          "correspondingPhase": "Internal Farm Operations Development",
+          "correspondingFeature": "Piglet Monitoring (growth, feeding, temperature, environmental criteria)",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-07-22",
+          "endTime": "2024-07-24",
+          "dependencies": [
+              "P2-T2"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P2-T4",
+          "taskName": "Design Piglet Health Management Module",
+          "correspondingPhase": "Internal Farm Operations Development",
+          "correspondingFeature": "Piglet Health Management (health status, diseases, vaccination procedures)",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-07-25",
+          "endTime": "2024-07-28",
+          "dependencies": [
+              "P1"
+          ],
+          "responsiblePerson": "UI/UX Designer"
+      },
+      {
+          "id": "P2-T5",
+          "taskName": "Implement Piglet Health Management Module",
+          "correspondingPhase": "Internal Farm Operations Development",
+          "correspondingFeature": "Piglet Health Management (health status, diseases, vaccination procedures)",
+          "priority": "High",
+          "estimationTime": "5 days",
+          "startTime": "2024-07-29",
+          "endTime": "2024-08-03",
+          "dependencies": [
+              "P2-T4"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P2-T6",
+          "taskName": "Test Piglet Health Management Module",
+          "correspondingPhase": "Internal Farm Operations Development",
+          "correspondingFeature": "Piglet Health Management (health status, diseases, vaccination procedures)",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-08-04",
+          "endTime": "2024-08-06",
+          "dependencies": [
+              "P2-T5"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P2-T7",
+          "taskName": "Design Inventory Management Module",
+          "correspondingPhase": "Internal Farm Operations Development",
+          "correspondingFeature": "Inventory Management (import/export status)",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-07-12",
+          "endTime": "2024-07-14",
+          "dependencies": [
+              "P1"
+          ],
+          "responsiblePerson": "UI/UX Designer"
+      },
+      {
+          "id": "P2-T8",
+          "taskName": "Implement Inventory Management Module",
+          "correspondingPhase": "Internal Farm Operations Development",
+          "correspondingFeature": "Inventory Management (import/export status)",
+          "priority": "Medium",
+          "estimationTime": "4 days",
+          "startTime": "2024-07-15",
+          "endTime": "2024-07-19",
+          "dependencies": [
+              "P2-T7"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P2-T9",
+          "taskName": "Test Inventory Management Module",
+          "correspondingPhase": "Internal Farm Operations Development",
+          "correspondingFeature": "Inventory Management (import/export status)",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-07-20",
+          "endTime": "2024-07-21",
+          "dependencies": [
+              "P2-T8"
+          ],
+          "responsiblePerson": "QA Engineer"
+      }
+  ],
+  [
+      {
+          "id": "P3-T1",
+          "taskName": "Design Piglet Catalog Browsing",
+          "correspondingPhase": "Sales and Farmer Engagement Development",
+          "correspondingFeature": "Piglet Catalog Browsing",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-07-12",
+          "endTime": "2024-07-14",
+          "dependencies": [
+              "P1"
+          ],
+          "responsiblePerson": "Designer"
+      },
+      {
+          "id": "P3-T2",
+          "taskName": "Implement Piglet Catalog Browsing",
+          "correspondingPhase": "Sales and Farmer Engagement Development",
+          "correspondingFeature": "Piglet Catalog Browsing",
+          "priority": "High",
+          "estimationTime": "5 days",
+          "startTime": "2024-07-15",
+          "endTime": "2024-07-19",
+          "dependencies": [
+              "P3-T1"
+          ],
+          "responsiblePerson": "Developer"
+      },
+      {
+          "id": "P3-T3",
+          "taskName": "Test Piglet Catalog Browsing",
+          "correspondingPhase": "Sales and Farmer Engagement Development",
+          "correspondingFeature": "Piglet Catalog Browsing",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-07-22",
+          "endTime": "2024-07-24",
+          "dependencies": [
+              "P3-T2"
+          ],
+          "responsiblePerson": "Tester"
+      },
+      {
+          "id": "P3-T4",
+          "taskName": "Design Online Ordering System",
+          "correspondingPhase": "Sales and Farmer Engagement Development",
+          "correspondingFeature": "Online Ordering System",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-07-12",
+          "endTime": "2024-07-14",
+          "dependencies": [
+              "P1"
+          ],
+          "responsiblePerson": "Designer"
+      },
+      {
+          "id": "P3-T5",
+          "taskName": "Implement Online Ordering System",
+          "correspondingPhase": "Sales and Farmer Engagement Development",
+          "correspondingFeature": "Online Ordering System",
+          "priority": "High",
+          "estimationTime": "7 days",
+          "startTime": "2024-07-15",
+          "endTime": "2024-07-23",
+          "dependencies": [
+              "P3-T4"
+          ],
+          "responsiblePerson": "Developer"
+      },
+      {
+          "id": "P3-T6",
+          "taskName": "Test Online Ordering System",
+          "correspondingPhase": "Sales and Farmer Engagement Development",
+          "correspondingFeature": "Online Ordering System",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-07-24",
+          "endTime": "2024-07-26",
+          "dependencies": [
+              "P3-T5"
+          ],
+          "responsiblePerson": "Tester"
+      },
+      {
+          "id": "P3-T7",
+          "taskName": "Design Communication Platform",
+          "correspondingPhase": "Sales and Farmer Engagement Development",
+          "correspondingFeature": "Communication Platform (Farm-to-Farmer)",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-07-12",
+          "endTime": "2024-07-14",
+          "dependencies": [
+              "P1"
+          ],
+          "responsiblePerson": "Designer"
+      },
+      {
+          "id": "P3-T8",
+          "taskName": "Implement Communication Platform",
+          "correspondingPhase": "Sales and Farmer Engagement Development",
+          "correspondingFeature": "Communication Platform (Farm-to-Farmer)",
+          "priority": "Medium",
+          "estimationTime": "6 days",
+          "startTime": "2024-07-15",
+          "endTime": "2024-07-22",
+          "dependencies": [
+              "P3-T7"
+          ],
+          "responsiblePerson": "Developer"
+      },
+      {
+          "id": "P3-T9",
+          "taskName": "Test Communication Platform",
+          "correspondingPhase": "Sales and Farmer Engagement Development",
+          "correspondingFeature": "Communication Platform (Farm-to-Farmer)",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-07-29",
+          "endTime": "2024-07-30",
+          "dependencies": [
+              "P3-T8"
+          ],
+          "responsiblePerson": "Tester"
+      },
+      {
+          "id": "P3-T10",
+          "taskName": "Integrate Piglet Catalog, Ordering, and Communication",
+          "correspondingPhase": "Sales and Farmer Engagement Development",
+          "correspondingFeature": "Piglet Catalog Browsing, Online Ordering System, Communication Platform (Farm-to-Farmer)",
+          "priority": "High",
+          "estimationTime": "4 days",
+          "startTime": "2024-07-31",
+          "endTime": "2024-08-05",
+          "dependencies": [
+              "P3-T3",
+              "P3-T6",
+              "P3-T9"
+          ],
+          "responsiblePerson": "Developer"
+      },
+      {
+          "id": "P3-T11",
+          "taskName": "Test Integration of Sales and Farmer Engagement Features",
+          "correspondingPhase": "Sales and Farmer Engagement Development",
+          "correspondingFeature": "Piglet Catalog Browsing, Online Ordering System, Communication Platform (Farm-to-Farmer)",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-08-06",
+          "endTime": "2024-08-08",
+          "dependencies": [
+              "P3-T10"
+          ],
+          "responsiblePerson": "Tester"
+      }
+  ],
+  [
+      {
+          "id": "P4-T1",
+          "taskName": "Design User Account Management Module",
+          "correspondingPhase": "System Administration and Reporting Development",
+          "correspondingFeature": "User Account Management (Farmer registration, Admin management)",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-08-12",
+          "endTime": "2024-08-14",
+          "dependencies": [],
+          "responsiblePerson": "UI/UX Designer"
+      },
+      {
+          "id": "P4-T2",
+          "taskName": "Implement Farmer Registration Functionality",
+          "correspondingPhase": "System Administration and Reporting Development",
+          "correspondingFeature": "User Account Management (Farmer registration, Admin management)",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-08-15",
+          "endTime": "2024-08-18",
+          "dependencies": [
+              "P4-T1"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P4-T3",
+          "taskName": "Implement Admin Management Functionality",
+          "correspondingPhase": "System Administration and Reporting Development",
+          "correspondingFeature": "User Account Management (Farmer registration, Admin management)",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-08-15",
+          "endTime": "2024-08-18",
+          "dependencies": [
+              "P4-T1"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P4-T4",
+          "taskName": "Test User Account Management Module",
+          "correspondingPhase": "System Administration and Reporting Development",
+          "correspondingFeature": "User Account Management (Farmer registration, Admin management)",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-19",
+          "endTime": "2024-08-20",
+          "dependencies": [
+              "P4-T2",
+              "P4-T3"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P4-T5",
+          "taskName": "Design Promotions Management Module",
+          "correspondingPhase": "System Administration and Reporting Development",
+          "correspondingFeature": "Promotions Management",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-20",
+          "endTime": "2024-08-21",
+          "dependencies": [],
+          "responsiblePerson": "UI/UX Designer"
+      },
+      {
+          "id": "P4-T6",
+          "taskName": "Implement Promotions Management Functionality",
+          "correspondingPhase": "System Administration and Reporting Development",
+          "correspondingFeature": "Promotions Management",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-08-22",
+          "endTime": "2024-08-24",
+          "dependencies": [
+              "P4-T5"
+          ],
+          "responsiblePerson": "Frontend Developer"
+      },
+      {
+          "id": "P4-T7",
+          "taskName": "Test Promotions Management Module",
+          "correspondingPhase": "System Administration and Reporting Development",
+          "correspondingFeature": "Promotions Management",
+          "priority": "Medium",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-08-25",
+          "endTime": "2024-08-25",
+          "dependencies": [
+              "P4-T6"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P4-T8",
+          "taskName": "Design Reporting Module",
+          "correspondingPhase": "System Administration and Reporting Development",
+          "correspondingFeature": "Reporting (Revenue statistics, periodic reports)",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-26",
+          "endTime": "2024-08-27",
+          "dependencies": [],
+          "responsiblePerson": "Data Analyst"
+      },
+      {
+          "id": "P4-T9",
+          "taskName": "Implement Revenue Statistics Reporting",
+          "correspondingPhase": "System Administration and Reporting Development",
+          "correspondingFeature": "Reporting (Revenue statistics, periodic reports)",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-08-28",
+          "endTime": "2024-08-30",
+          "dependencies": [
+              "P4-T8"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P4-T10",
+          "taskName": "Implement Periodic Reports Generation",
+          "correspondingPhase": "System Administration and Reporting Development",
+          "correspondingFeature": "Reporting (Revenue statistics, periodic reports)",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-08-28",
+          "endTime": "2024-08-30",
+          "dependencies": [
+              "P4-T8"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P4-T11",
+          "taskName": "Test Reporting Module",
+          "correspondingPhase": "System Administration and Reporting Development",
+          "correspondingFeature": "Reporting (Revenue statistics, periodic reports)",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-31",
+          "endTime": "2024-09-01",
+          "dependencies": [
+              "P4-T9",
+              "P4-T10"
+          ],
+          "responsiblePerson": "QA Engineer"
+      }
+  ],
+  [
+      {
+          "id": "P5-T1",
+          "taskName": "Define Integration Test Plan",
+          "correspondingPhase": "Integration Testing",
+          "correspondingFeature": "N/A",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-09-02",
+          "endTime": "2024-09-04",
+          "dependencies": [],
+          "responsiblePerson": "QA Lead"
+      },
+      {
+          "id": "P5-T2",
+          "taskName": "Design Integration Test Cases",
+          "correspondingPhase": "Integration Testing",
+          "correspondingFeature": "N/A",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-09-04",
+          "endTime": "2024-09-07",
+          "dependencies": [
+              "P5-T1"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P5-T3",
+          "taskName": "Implement Integration Tests",
+          "correspondingPhase": "Integration Testing",
+          "correspondingFeature": "N/A",
+          "priority": "High",
+          "estimationTime": "4 days",
+          "startTime": "2024-09-07",
+          "endTime": "2024-09-11",
+          "dependencies": [
+              "P5-T2"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P5-T4",
+          "taskName": "Execute Integration Tests",
+          "correspondingPhase": "Integration Testing",
+          "correspondingFeature": "N/A",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-09-11",
+          "endTime": "2024-09-14",
+          "dependencies": [
+              "P5-T3"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P5-T5",
+          "taskName": "Analyze Test Results and Report Bugs",
+          "correspondingPhase": "Integration Testing",
+          "correspondingFeature": "N/A",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-09-14",
+          "endTime": "2024-09-16",
+          "dependencies": [
+              "P5-T4"
+          ],
+          "responsiblePerson": "QA Lead"
+      },
+      {
+          "id": "P5-T6",
+          "taskName": "Retest Fixed Bugs",
+          "correspondingPhase": "Integration Testing",
+          "correspondingFeature": "N/A",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-16",
+          "endTime": "2024-09-17",
+          "dependencies": [
+              "P5-T5"
+          ],
+          "responsiblePerson": "QA Engineer"
+      }
+  ],
+  [
+      {
+          "id": "P6-T1",
+          "taskName": "Prepare Deployment Environment",
+          "correspondingPhase": "Deployment",
+          "correspondingFeature": "N/A",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-18",
+          "endTime": "2024-09-19",
+          "dependencies": [
+              "P5"
+          ],
+          "responsiblePerson": "John Smith"
+      },
+      {
+          "id": "P6-T2",
+          "taskName": "Deploy Application Code",
+          "correspondingPhase": "Deployment",
+          "correspondingFeature": "N/A",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-19",
+          "endTime": "2024-09-20",
+          "dependencies": [
+              "P6-T1"
+          ],
+          "responsiblePerson": "Alice Johnson"
+      },
+      {
+          "id": "P6-T3",
+          "taskName": "Configure Database",
+          "correspondingPhase": "Deployment",
+          "correspondingFeature": "N/A",
+          "priority": "High",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-09-20",
+          "endTime": "2024-09-20",
+          "dependencies": [
+              "P6-T2"
+          ],
+          "responsiblePerson": "Bob Williams"
+      },
+      {
+          "id": "P6-T4",
+          "taskName": "Configure System Settings",
+          "correspondingPhase": "Deployment",
+          "correspondingFeature": "N/A",
+          "priority": "Medium",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-09-20",
+          "endTime": "2024-09-21",
+          "dependencies": [
+              "P6-T3"
+          ],
+          "responsiblePerson": "John Smith"
+      },
+      {
+          "id": "P6-T5",
+          "taskName": "Initial System Testing",
+          "correspondingPhase": "Deployment",
+          "correspondingFeature": "N/A",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-21",
+          "endTime": "2024-09-22",
+          "dependencies": [
+              "P6-T4"
+          ],
+          "responsiblePerson": "Alice Johnson"
+      },
+      {
+          "id": "P6-T6",
+          "taskName": "Address Initial Issues",
+          "correspondingPhase": "Deployment",
+          "correspondingFeature": "N/A",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-22",
+          "endTime": "2024-09-23",
+          "dependencies": [
+              "P6-T5"
+          ],
+          "responsiblePerson": "Bob Williams"
+      },
+      {
+          "id": "P6-T7",
+          "taskName": "Final Deployment Verification",
+          "correspondingPhase": "Deployment",
+          "correspondingFeature": "N/A",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-23",
+          "endTime": "2024-09-24",
+          "dependencies": [
+              "P6-T6"
+          ],
+          "responsiblePerson": "John Smith"
+      },
+      {
+          "id": "P6-T8",
+          "taskName": "Deployment Sign-off",
+          "correspondingPhase": "Deployment",
+          "correspondingFeature": "N/A",
+          "priority": "High",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-09-24",
+          "endTime": "2024-09-24",
+          "dependencies": [
+              "P6-T7"
+          ],
+          "responsiblePerson": "Alice Johnson"
+      }
+  ],
+  [
+      {
+          "id": "P7-T1",
+          "taskName": "Develop Training Materials for Farm Staff",
+          "correspondingPhase": "Training & Documentation",
+          "correspondingFeature": null,
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-09-26",
+          "endTime": "2024-09-29",
+          "dependencies": [
+              "P6-T1",
+              "P6-T2",
+              "P6-T3"
+          ],
+          "responsiblePerson": "Trainer"
+      },
+      {
+          "id": "P7-T2",
+          "taskName": "Develop Training Materials for Farmers",
+          "correspondingPhase": "Training & Documentation",
+          "correspondingFeature": null,
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-09-26",
+          "endTime": "2024-09-29",
+          "dependencies": [
+              "P6-T1",
+              "P6-T2",
+              "P6-T3"
+          ],
+          "responsiblePerson": "Trainer"
+      },
+      {
+          "id": "P7-T3",
+          "taskName": "Create User Manuals (Farm Staff)",
+          "correspondingPhase": "Training & Documentation",
+          "correspondingFeature": null,
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-09-30",
+          "endTime": "2024-10-01",
+          "dependencies": [
+              "P6-T1",
+              "P6-T2",
+              "P6-T3"
+          ],
+          "responsiblePerson": "Technical Writer"
+      },
+      {
+          "id": "P7-T4",
+          "taskName": "Create User Manuals (Farmers)",
+          "correspondingPhase": "Training & Documentation",
+          "correspondingFeature": null,
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-09-30",
+          "endTime": "2024-10-01",
+          "dependencies": [
+              "P6-T1",
+              "P6-T2",
+              "P6-T3"
+          ],
+          "responsiblePerson": "Technical Writer"
+      },
+      {
+          "id": "P7-T5",
+          "taskName": "Conduct Training Sessions for Farm Staff",
+          "correspondingPhase": "Training & Documentation",
+          "correspondingFeature": null,
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-10-02",
+          "endTime": "2024-10-03",
+          "dependencies": [
+              "P7-T1",
+              "P7-T3"
+          ],
+          "responsiblePerson": "Trainer"
+      },
+      {
+          "id": "P7-T6",
+          "taskName": "Conduct Training Sessions for Farmers",
+          "correspondingPhase": "Training & Documentation",
+          "correspondingFeature": null,
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-10-02",
+          "endTime": "2024-10-03",
+          "dependencies": [
+              "P7-T2",
+              "P7-T4"
+          ],
+          "responsiblePerson": "Trainer"
+      }
+  ],
+  [
+      {
+          "id": "P8-T1",
+          "taskName": "Set up Monitoring Tools",
+          "correspondingPhase": "Initial Support & Monitoring",
+          "correspondingFeature": "N/A",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-10-07",
+          "endTime": "2024-10-08",
+          "dependencies": [],
+          "responsiblePerson": "System Administrator"
+      },
+      {
+          "id": "P8-T2",
+          "taskName": "Monitor System Performance",
+          "correspondingPhase": "Initial Support & Monitoring",
+          "correspondingFeature": "N/A",
+          "priority": "High",
+          "estimationTime": "1 week",
+          "startTime": "2024-10-08",
+          "endTime": "2024-10-15",
+          "dependencies": [
+              "P8-T1"
+          ],
+          "responsiblePerson": "System Administrator"
+      },
+      {
+          "id": "P8-T3",
+          "taskName": "Gather User Feedback",
+          "correspondingPhase": "Initial Support & Monitoring",
+          "correspondingFeature": "N/A",
+          "priority": "Medium",
+          "estimationTime": "3 days",
+          "startTime": "2024-10-08",
+          "endTime": "2024-10-11",
+          "dependencies": [],
+          "responsiblePerson": "Product Owner"
+      },
+      {
+          "id": "P8-T4",
+          "taskName": "Address Critical Bugs",
+          "correspondingPhase": "Initial Support & Monitoring",
+          "correspondingFeature": "N/A",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-10-15",
+          "endTime": "2024-10-18",
+          "dependencies": [
+              "P8-T2",
+              "P8-T3"
+          ],
+          "responsiblePerson": "Software Engineer"
+      },
+      {
+          "id": "P8-T5",
+          "taskName": "Prepare Support Documentation",
+          "correspondingPhase": "Initial Support & Monitoring",
+          "correspondingFeature": "N/A",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-10-18",
+          "endTime": "2024-10-20",
+          "dependencies": [
+              "P8-T4"
+          ],
+          "responsiblePerson": "Technical Writer"
+      },
+      {
+          "id": "P8-T6",
+          "taskName": "Finalize Monitoring Report",
+          "correspondingPhase": "Initial Support & Monitoring",
+          "correspondingFeature": "N/A",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-10-20",
+          "endTime": "2024-10-21",
+          "dependencies": [
+              "P8-T2",
+              "P8-T3",
+              "P8-T4",
+              "P8-T5"
+          ],
+          "responsiblePerson": "Project Manager"
+      }
+  ]
+]

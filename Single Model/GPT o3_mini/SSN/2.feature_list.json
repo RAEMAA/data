@@ -1,0 +1,42 @@
+[
+  {
+    "category": "User Management",
+    "list_feature": [
+      "User registration and login",
+      "User profile creation and customization",
+      "Multi-network membership management (ability to join multiple institution networks)"
+    ]
+  },
+  {
+    "category": "Network and Community Management",
+    "list_feature": [
+      "Institution-specific networks (starting with Vietnamese universities)",
+      "Option for users to join and interact in multiple networks",
+      "Future network expansion support for high schools and elementary schools"
+    ]
+  },
+  {
+    "category": "Educational Content Sharing",
+    "list_feature": [
+      "Upload and share educational materials (study resources, course materials)",
+      "Categorization of content by subjects (e.g., Algebra A1, Method of Report Writing)",
+      "Ability to share personal academic journeys and professional experiences"
+    ]
+  },
+  {
+    "category": "Rating and Recommendations",
+    "list_feature": [
+      "Student ratings and reviews for educators",
+      "Course rating and recommendation system",
+      "Recommendations on educational paths based on shared experiences and materials"
+    ]
+  },
+  {
+    "category": "Collaboration and Networking",
+    "list_feature": [
+      "Facilitation of communication between students, researchers, and teachers",
+      "Platforms for researchers and teachers to share professional experiences",
+      "Tools to help researchers find student collaborators"
+    ]
+  }
+]

@@ -1,0 +1,307 @@
+[
+  [
+    {
+      "id": "P1-T1",
+      "taskName": "Design UI/UX for Emotion Spectrum Posting with Customizable Tags",
+      "correspondingPhase": "P1",
+      "correspondingFeature": "Emotion Spectrum Posting (customizable tags for emotional states)",
+      "priority": "High",
+      "estimatedTime": "3 days",
+      "startTime": "2023-10-23",
+      "endTime": "2023-10-25",
+      "dependencies": [],
+      "responsiblePerson": "UI/UX Designer"
+    },
+    {
+      "id": "P1-T2",
+      "taskName": "Implement Frontend for Emotion Tagging & Post Creation",
+      "correspondingPhase": "P1",
+      "correspondingFeature": "Emotion Spectrum Posting (customizable tags for emotional states)",
+      "priority": "High",
+      "estimatedTime": "5 days",
+      "startTime": "2023-10-26",
+      "endTime": "2023-10-30",
+      "dependencies": ["P1-T1"],
+      "responsiblePerson": "Frontend Developer"
+    },
+    {
+      "id": "P1-T3",
+      "taskName": "Test Emotion Posting Functionality & Tag Customization",
+      "correspondingPhase": "P1",
+      "correspondingFeature": "Emotion Spectrum Posting (customizable tags for emotional states)",
+      "priority": "Medium",
+      "estimatedTime": "2 days",
+      "startTime": "2023-10-31",
+      "endTime": "2023-11-01",
+      "dependencies": ["P1-T2"],
+      "responsiblePerson": "QA Engineer"
+    },
+    {
+      "id": "P1-T4",
+      "taskName": "Design Aspiration Documentation Templates & Milestone UI",
+      "correspondingPhase": "P1",
+      "correspondingFeature": "Aspiration Documentation (goal-setting templates and milestone tracking)",
+      "priority": "High",
+      "estimatedTime": "2 days",
+      "startTime": "2023-10-23",
+      "endTime": "2023-10-24",
+      "dependencies": [],
+      "responsiblePerson": "UX Designer"
+    },
+    {
+      "id": "P1-T5",
+      "taskName": "Develop Backend for Goal-Setting & Milestone Tracking",
+      "correspondingPhase": "P1",
+      "correspondingFeature": "Aspiration Documentation (goal-setting templates and milestone tracking)",
+      "priority": "High",
+      "estimatedTime": "4 days",
+      "startTime": "2023-10-25",
+      "endTime": "2023-10-28",
+      "dependencies": ["P1-T4"],
+      "responsiblePerson": "Backend Developer"
+    },
+    {
+      "id": "P1-T6",
+      "taskName": "Validate Aspiration Documentation Workflow & Data Accuracy",
+      "correspondingPhase": "P1",
+      "correspondingFeature": "Aspiration Documentation (goal-setting templates and milestone tracking)",
+      "priority": "Medium",
+      "estimatedTime": "2 days",
+      "startTime": "2023-10-29",
+      "endTime": "2023-10-30",
+      "dependencies": ["P1-T5"],
+      "responsiblePerson": "QA Engineer"
+    }
+  ],
+  [
+    [
+      {
+        "id": "P2-T1",
+        "taskName": "Design Persistent Dream Journals Interface",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Persistent Dream Journals (multimedia entries with date/time stamps)",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2023-11-21",
+        "endTime": "2023-11-23",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Designer"
+      },
+      {
+        "id": "P2-T2",
+        "taskName": "Implement Multimedia Entry Backend & Timestamp Functionality",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Persistent Dream Journals (multimedia entries with date/time stamps)",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2023-11-24",
+        "endTime": "2023-11-30",
+        "dependencies": ["P2-T1"],
+        "responsiblePerson": "Software Engineer"
+      },
+      {
+        "id": "P2-T3",
+        "taskName": "Test Multimedia Upload & Timestamp Accuracy",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Persistent Dream Journals (multimedia entries with date/time stamps)",
+        "priority": "Medium",
+        "estimatedTime": "3 days",
+        "startTime": "2023-12-01",
+        "endTime": "2023-12-03",
+        "dependencies": ["P2-T2"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P2-T4",
+        "taskName": "Design Progress Tracking Analytics Dashboard",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Progress Tracking System (analytics for recurring themes and goal alignment)",
+        "priority": "High",
+        "estimatedTime": "4 days",
+        "startTime": "2023-11-24",
+        "endTime": "2023-11-29",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Designer"
+      },
+      {
+        "id": "P2-T5",
+        "taskName": "Build Analytics Engine & Goal Alignment Algorithms",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Progress Tracking System (analytics for recurring themes and goal alignment)",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2023-11-30",
+        "endTime": "2023-12-06",
+        "dependencies": ["P2-T4"],
+        "responsiblePerson": "Software Engineer"
+      },
+      {
+        "id": "P2-T6",
+        "taskName": "Validate Analytics Accuracy & Theme Detection",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Progress Tracking System (analytics for recurring themes and goal alignment)",
+        "priority": "Medium",
+        "estimatedTime": "3 days",
+        "startTime": "2023-12-07",
+        "endTime": "2023-12-11",
+        "dependencies": ["P2-T5"],
+        "responsiblePerson": "QA Engineer"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": "P3-T1",
+        "taskName": "Design UI/UX for Feedback Framework",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Feedback Framework",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2023-12-12",
+        "endTime": "2023-12-14",
+        "dependencies": ["P1-T6", "P2-T6"],
+        "responsiblePerson": "UI/UX Team"
+      },
+      {
+        "id": "P3-T2",
+        "taskName": "Design System Architecture for Feedback Framework",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Feedback Framework",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2023-12-15",
+        "endTime": "2023-12-19",
+        "dependencies": ["P1-T6", "P2-T6"],
+        "responsiblePerson": "System Architect"
+      },
+      {
+        "id": "P3-T3",
+        "taskName": "Implement Backend for Feedback Framework",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Feedback Framework",
+        "priority": "High",
+        "estimatedTime": "1 week",
+        "startTime": "2023-12-20",
+        "endTime": "2023-12-26",
+        "dependencies": ["P1-T6", "P2-T6"],
+        "responsiblePerson": "Backend Team"
+      },
+      {
+        "id": "P3-T4",
+        "taskName": "Test Feedback Framework",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Feedback Framework",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2023-12-27",
+        "endTime": "2023-12-29",
+        "dependencies": ["P1-T6", "P2-T6"],
+        "responsiblePerson": "QA Team"
+      },
+      {
+        "id": "P3-T5",
+        "taskName": "Design & Implement Collaborative Tools Frontend",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Collaborative Tools",
+        "priority": "High",
+        "estimatedTime": "1.5 weeks",
+        "startTime": "2023-12-12",
+        "endTime": "2023-12-22",
+        "dependencies": ["P1-T6", "P2-T6"],
+        "responsiblePerson": "Frontend Team"
+      },
+      {
+        "id": "P3-T6",
+        "taskName": "Integrate & Validate Collaborative Tools",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Collaborative Tools",
+        "priority": "High",
+        "estimatedTime": "1 week",
+        "startTime": "2023-12-26",
+        "endTime": "2024-01-02",
+        "dependencies": ["P1-T6", "P2-T6"],
+        "responsiblePerson": "Full-Stack Team"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": "P4-T1",
+        "taskName": "Design System Architecture",
+        "correspondingPhase": "P4",
+        "correspondingFeature": "Algorithmic Matching (compatibility scoring based on aspirations and emotional patterns)",
+        "priority": "High",
+        "estimatedTime": "1 week",
+        "startTime": "2024-01-16",
+        "endTime": "2024-01-22",
+        "dependencies": [],
+        "responsiblePerson": "System Architect"
+      },
+      {
+        "id": "P4-T2",
+        "taskName": "Implement Compatibility Scoring Engine",
+        "correspondingPhase": "P4",
+        "correspondingFeature": "Algorithmic Matching (compatibility scoring based on aspirations and emotional patterns)",
+        "priority": "High",
+        "estimatedTime": "3 weeks",
+        "startTime": "2024-01-23",
+        "endTime": "2024-02-12",
+        "dependencies": ["P4-T1"],
+        "responsiblePerson": "Backend Engineer"
+      },
+      {
+        "id": "P4-T3",
+        "taskName": "Test Matching Accuracy",
+        "correspondingPhase": "P4",
+        "correspondingFeature": "Algorithmic Matching (compatibility scoring based on aspirations and emotional patterns)",
+        "priority": "Medium",
+        "estimatedTime": "2 weeks",
+        "startTime": "2024-02-13",
+        "endTime": "2024-02-26",
+        "dependencies": ["P4-T2"],
+        "responsiblePerson": "QA Engineer"
+      }
+    ],
+    [
+      {
+        "id": "P4-T4",
+        "taskName": "Design Exploration Interface Layout",
+        "correspondingPhase": "P4",
+        "correspondingFeature": "Discovery Features (geolocated dreamers and interest-based exploration filters)",
+        "priority": "High",
+        "estimatedTime": "1 week",
+        "startTime": "2024-02-27",
+        "endTime": "2024-03-04",
+        "dependencies": ["P4-T3"],
+        "responsiblePerson": "UI/UX Designer"
+      },
+      {
+        "id": "P4-T5",
+        "taskName": "Implement Geolocation/Interest Filters",
+        "correspondingPhase": "P4",
+        "correspondingFeature": "Discovery Features (geolocated dreamers and interest-based exploration filters)",
+        "priority": "High",
+        "estimatedTime": "2 weeks",
+        "startTime": "2024-03-05",
+        "endTime": "2024-03-18",
+        "dependencies": ["P4-T4"],
+        "responsiblePerson": "Frontend Engineer"
+      },
+      {
+        "id": "P4-T6",
+        "taskName": "Test Discovery Algorithms",
+        "correspondingPhase": "P4",
+        "correspondingFeature": "Discovery Features (geolocated dreamers and interest-based exploration filters)",
+        "priority": "Medium",
+        "estimatedTime": "1 week",
+        "startTime": "2024-03-19",
+        "endTime": "2024-03-25",
+        "dependencies": ["P4-T5"],
+        "responsiblePerson": "QA Engineer"
+      }
+    ],
+    "Adjusted Discovery Features tasks to fit within P4's original timeline (2024-01-16 to 2024-02-26) by recalculating dependencies and compressing schedules. Tasks now run in parallel with Algorithmic Matching development where possible:\n\n1. **P4-T4 (Design Exploration Interface Layout)**: Shifted to start after P4-T1 (Design System Architecture) completion. New dates: 2024-01-23 to 2024-01-29 (1 week). Dependency updated to [\"P4-T1\"].\n2. **P4-T5 (Implement Geolocation/Interest Filters)**: Scheduled immediately after P4-T4. New dates: 2024-01-30 to 2024-02-12 (2 weeks). Maintains dependency on P4-T4.\n3. **P4-T6 (Test Discovery Algorithms)**: Compressed testing phase to align with P4 end date. New dates: 2024-02-13 to 2024-02-26 (2 weeks), overlapping with P4-T3 testing but assigned to dedicated QA resources. Dependency remains [\"P4-T5\"].\n\nAll tasks now conclude by 2024-02-26. Overlap between frontend (P4-T5) and backend (P4-T2) implementation phases is resolved by assigning separate engineering teams. Final timeline preserves the 6-week phase duration without conflicts."
+  ]
+]

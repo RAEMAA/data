@@ -1,0 +1,107 @@
+[
+  {
+      "id": "P1",
+      "phase": "Foundation & User Profiles",
+      "feature_list": [
+          "User Registration and Authentication",
+          "University-Specific Networks (Joining/Switching)",
+          "Student Profile",
+          "Researcher Profile",
+          "Educator Profile",
+          "Profile Information (e.g., name, role, university, discipline/major, interests)",
+          "Profile Customization (e.g., profile picture, bio)"
+      ],
+      "estimatedTime": 30,
+      "startTime": "2024-08-01",
+      "endTime": "2024-09-11",
+      "dependencies": []
+  },
+  {
+      "id": "P2",
+      "phase": "Core Content Sharing",
+      "feature_list": [
+          "Share Academic Resources (documents, notes, presentations)",
+          "Content Upload and Download",
+          "Content Categorization (disciplines, subjects, resource types)",
+          "Content Search and Filtering",
+          "Content Viewing"
+      ],
+      "estimatedTime": 30,
+      "startTime": "2024-09-12",
+      "endTime": "2024-10-23",
+      "dependencies": [
+          "P1"
+      ]
+  },
+  {
+      "id": "P3",
+      "phase": "Evaluation System",
+      "feature_list": [
+          "Course Rating",
+          "Instructor Rating",
+          "Course Reviews",
+          "Instructor Reviews",
+          "Search and Filter Courses/Instructors",
+          "View Course Details"
+      ],
+      "estimatedTime": 20,
+      "startTime": "2024-09-12",
+      "endTime": "2024-10-09",
+      "dependencies": [
+          "P1"
+      ]
+  },
+  {
+      "id": "P4",
+      "phase": "Networking & Collaboration",
+      "feature_list": [
+          "Connect/Follow Users",
+          "Direct Messaging",
+          "Create/Join Groups (e.g., study groups, research groups)"
+      ],
+      "estimatedTime": 20,
+      "startTime": "2024-09-12",
+      "endTime": "2024-10-09",
+      "dependencies": [
+          "P1"
+      ]
+  },
+  {
+      "id": "P5",
+      "phase": "Platform Utilities & Advanced Content",
+      "feature_list": [
+          "Content Moderation",
+          "Notifications and Alerts",
+          "Platform Search (Users, Content, Courses, Groups)",
+          "Share Research Findings",
+          "Share Learning Experiences (posts)",
+          "Share Teaching Experiences (posts)",
+          "Share Research Experiences (posts)"
+      ],
+      "estimatedTime": 30,
+      "startTime": "2024-10-24",
+      "endTime": "2024-12-04",
+      "dependencies": [
+          "P2",
+          "P3",
+          "P4"
+      ]
+  },
+  {
+      "id": "P6",
+      "phase": "Recommendation & Expansion Planning",
+      "feature_list": [
+          "Course Recommendation System",
+          "Integration Plan for High Schools",
+          "Integration Plan for Elementary Schools",
+          "Support for High School User Roles",
+          "Support for Elementary School User Roles"
+      ],
+      "estimatedTime": 25,
+      "startTime": "2024-12-05",
+      "endTime": "2025-01-13",
+      "dependencies": [
+          "P5"
+      ]
+  }
+]

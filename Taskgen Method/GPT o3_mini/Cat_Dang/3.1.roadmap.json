@@ -1,0 +1,90 @@
+[
+  {
+    "id": "P1",
+    "phase": "Planning & Requirements Analysis",
+    "feature_list": [
+      "Unified Data Repository",
+      "Real-time Data Synchronization",
+      "Data Security & Backup"
+    ],
+    "estimatedTime": "2 weeks",
+    "startTime": "2023-10-06",
+    "endTime": "2023-10-20",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Frontend Development",
+    "feature_list": [
+      "User Registration",
+      "User Login/Logout",
+      "Profile Management",
+      "Password Recovery",
+      "Product Listing",
+      "Detailed Product View",
+      "Product Filtering and Categorization",
+      "Special Offers Display",
+      "Store Locator",
+      "Contact Information",
+      "Cafe Ambiance Gallery",
+      "Operating Hours",
+      "Luxurious Interior Coordination",
+      "Romantic Lighting & Music Settings",
+      "Personalized Customer Engagement"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2023-10-20",
+    "endTime": "2023-11-10",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P3",
+    "phase": "Backend Development",
+    "feature_list": [
+      "Shopping Cart",
+      "Secure Checkout",
+      "Payment Gateway Integration",
+      "Order Tracking",
+      "Content Management",
+      "Inventory Control",
+      "Order Management",
+      "Report Generation",
+      "Efficient Order Entry",
+      "Order Modification & Tracking",
+      "Real-time Status Updates",
+      "Automated Invoice Generation",
+      "Accurate Tax & Discount Computation",
+      "Seamless Payment Integration",
+      "Daily/Monthly Revenue Reports",
+      "Sales Analytics Dashboard",
+      "Trend Analysis & Forecasting"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-10-20",
+    "endTime": "2023-11-17",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P4",
+    "phase": "Integration and Testing",
+    "feature_list": [
+      "Payment Gateway Integration",
+      "Real-time Status Updates",
+      "Order Tracking",
+      "Report Generation"
+    ],
+    "estimatedTime": "2 weeks",
+    "startTime": "2023-11-17",
+    "endTime": "2023-12-01",
+    "dependencies": ["P2", "P3"]
+  },
+  {
+    "id": "P5",
+    "phase": "Deployment and Training",
+    "feature_list": ["Secure Checkout", "Report Generation"],
+    "estimatedTime": "1 week",
+    "startTime": "2023-12-01",
+    "endTime": "2023-12-08",
+    "dependencies": ["P4"]
+  }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "category": "Piglet Management",
+        "list_feature": [
+            "Track piglet growth metrics (weight, height, etc.)",
+            "Record feeding schedules",
+            "Monitor temperature and environmental conditions",
+            "Categorize information by piglet type/breed",
+            "Maintain health records (vaccinations, medications)",
+            "Record common diseases and treatments",
+            "Track import/export status of piglets"
+        ]
+    },
+    {
+        "category": "User Management",
+        "list_feature": [
+            "Farm staff accounts with specific permissions",
+            "Farmer accounts with registration and login",
+            "Role-based access control (farm staff vs. farmers)"
+        ]
+    },
+    {
+        "category": "Farmer Features",
+        "list_feature": [
+            "Browse available piglet breeds",
+            "Place orders for piglets",
+            "Communicate with the farm post-purchase",
+            "Access feeding guidelines",
+            "Access vaccination schedules"
+        ]
+    },
+    {
+        "category": "Farm Staff Features",
+        "list_feature": [
+            "Update piglet information (growth, health, etc.)",
+            "Manage piglet inventory",
+            "Record revenue statistics",
+            "Process farmer orders",
+            "Respond to farmer inquiries"
+        ]
+    },
+    {
+        "category": "Reporting and Analytics",
+        "list_feature": [
+            "Generate monthly reports",
+            "Generate quarterly reports",
+            "Generate annual reports"
+        ]
+    },
+    {
+        "category": "Administrative Features (Farm Owner)",
+        "list_feature": [
+            "Manage data",
+            "Provide updates to farmers",
+            "Announce promotions",
+            "Generate reports"
+        ]
+    },
+    {
+        "category": "Communication",
+        "list_feature": [
+            "Post-purchase communication between farmers and farm staff regarding piglet care"
+        ]
+    },
+    {
+        "category": "Website Functionality",
+        "list_feature": [
+            "Piglet transaction capabilities",
+            "Information sharing with farmers in remote areas"
+        ]
+    }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "id": "P1",
+    "phase": "Branch Management Setup",
+    "feature_list": [
+      "Branch Registration and Administration",
+      "Location and Contact Details Management",
+      "Operational Hours Setup",
+      "Staff Management and Roles",
+      "Branch-wise Performance Reporting"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2023-10-13",
+    "endTime": "2023-11-03",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Online Ordering System",
+    "feature_list": [
+      "User-friendly Menu Navigation",
+      "Order Customization Options",
+      "Real-time Order Status Updates",
+      "Multi-channel Ordering Integration (Web, Mobile App)",
+      "Order History and Reordering"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-10-13",
+    "endTime": "2023-11-10",
+    "dependencies": []
+  },
+  {
+    "id": "P3",
+    "phase": "Payment Integration",
+    "feature_list": [
+      "Secure Payment Gateways Integration",
+      "Multiple Payment Options (Credit/Debit, Wallets, etc.)",
+      "Transaction History Tracking",
+      "Payment Refund and Dispute Resolution",
+      "Compliance with Financial Regulations"
+    ],
+    "estimatedTime": "2 weeks",
+    "startTime": "2023-11-10",
+    "endTime": "2023-11-24",
+    "dependencies": ["P2"]
+  },
+  {
+    "id": "P4",
+    "phase": "Promotional & Menu Management",
+    "feature_list": [
+      "Dynamic Discounts and Coupons",
+      "Loyalty and Rewards Programs",
+      "Seasonal and Time-based Promotions",
+      "Referral Programs",
+      "Promotion Performance Analytics",
+      "Menu Items Catalog Management",
+      "Real-time Pricing Updates",
+      "Item Descriptions and Allergen Information",
+      "Category-based Menu Organization",
+      "Stock and Availability Management"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2023-11-10",
+    "endTime": "2023-11-30",
+    "dependencies": ["P2"]
+  },
+  {
+    "id": "P5",
+    "phase": "Customer Feedback Implementation",
+    "feature_list": [
+      "Review and Rating System",
+      "Feedback Collection via Surveys",
+      "Real-time Issue Escalation",
+      "Sentiment Analysis Tools",
+      "Customer Support Chat Integration"
+    ],
+    "estimatedTime": "2 weeks",
+    "startTime": "2023-11-10",
+    "endTime": "2023-11-24",
+    "dependencies": ["P2"]
+  },
+  {
+    "id": "P6",
+    "phase": "Data Analytics and Reporting",
+    "feature_list": [
+      "Sales and Revenue Analytics Dashboard",
+      "Customer Behavior Insights",
+      "Order Pattern and Trend Analysis",
+      "Reporting Tools for Managerial Decision Making",
+      "Data Export and Integration with BI Tools"
+    ],
+    "estimatedTime": "2 weeks",
+    "startTime": "2023-11-30",
+    "endTime": "2023-12-14",
+    "dependencies": ["P3", "P4"]
+  }
+]

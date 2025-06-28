@@ -1,0 +1,60 @@
+[
+    {
+        "category": "User Account & Profile",
+        "list_feature": [
+            "User registration and authentication",
+            "User profile management",
+            "Display user credibility level on profile"
+        ]
+    },
+    {
+        "category": "Listing Management",
+        "list_feature": [
+            "Create sale listings (motorcycles, parts, accessories)",
+            "Create purchase listings",
+            "Edit/Delete listings",
+            "Add listing details (title, description, price, category, condition, photos, location)",
+            "Categorize listings"
+        ]
+    },
+    {
+        "category": "User Credibility System",
+        "list_feature": [
+            "Track successful transactions",
+            "Collect user feedback/ratings",
+            "Track total value of items exchanged",
+            "Calculate user credibility score",
+            "Prioritize listings based on credibility score"
+        ]
+    },
+    {
+        "category": "Search and Discovery",
+        "list_feature": [
+            "Search listings",
+            "Filter listings (e.g., by category, price, location)",
+            "Sort listings (including by credibility priority)"
+        ]
+    },
+    {
+        "category": "Community Forum",
+        "list_feature": [
+            "Discussion boards/forums",
+            "Create posts/threads",
+            "Commenting and reply system",
+            "Categorize forum topics",
+            "Sharing experiences among users"
+        ]
+    },
+    {
+        "category": "Transaction Tracking",
+        "list_feature": [
+            "System to record successful transactions"
+        ]
+    },
+    {
+        "category": "User Communication",
+        "list_feature": [
+            "Private messaging between users"
+        ]
+    }
+]

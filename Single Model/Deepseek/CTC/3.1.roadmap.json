@@ -1,0 +1,109 @@
+[
+  {
+    "id": "P1",
+    "phase": "Online Ordering Platform Development",
+    "feature list": [
+      "Meal selection and customization interface",
+      "Automatic order routing to nearest branch",
+      "Real-time order tracking for customers",
+      "Dedicated online ordering service for office workers (e.g., bulk/scheduled orders)",
+      "User account management with order history"
+    ],
+    "estimatedTime": "8 weeks",
+    "startTime": "2023-10-11",
+    "endTime": "2023-12-06",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Branch Operations Management System Setup",
+    "feature list": [
+      "Centralized dashboard for multi-branch monitoring",
+      "Inventory management with real-time updates",
+      "Staff scheduling and performance tracking",
+      "Order distribution optimization across branches"
+    ],
+    "estimatedTime": "6 weeks",
+    "startTime": "2023-10-11",
+    "endTime": "2023-11-22",
+    "dependencies": []
+  },
+  {
+    "id": "P3",
+    "phase": "Security & Compliance Implementation",
+    "feature list": [
+      "PCI-DSS compliant payment security",
+      "Data encryption for user and transaction protection",
+      "Regular security audits and vulnerability assessments"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-10-11",
+    "endTime": "2023-11-08",
+    "dependencies": []
+  },
+  {
+    "id": "P4",
+    "phase": "Payment System Integration",
+    "feature list": [
+      "Secure payment processing via NganLuong.vn",
+      "Support for multiple payment methods (e.g., credit cards, e-wallets)",
+      "Instant payment confirmation and digital receipts"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-12-06",
+    "endTime": "2024-01-03",
+    "dependencies": ["P1", "P3"]
+  },
+  {
+    "id": "P5",
+    "phase": "Promotions & Discount Management Rollout",
+    "feature list": [
+      "Promotional campaign tracking and analytics",
+      "Discount code application during checkout",
+      "Dynamic promo code generation and validation"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2023-12-06",
+    "endTime": "2023-12-27",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P6",
+    "phase": "Customer Feedback & Insights Integration",
+    "feature list": [
+      "Post-order rating and review submission",
+      "Customer feedback analysis dashboard",
+      "Branch-specific response management to reviews"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2023-12-06",
+    "endTime": "2023-12-27",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P7",
+    "phase": "Pricing Transparency & Updates Implementation",
+    "feature list": [
+      "Automated price synchronization across branches and platforms",
+      "Transparent pricing display with no hidden fees",
+      "Regular price update notifications"
+    ],
+    "estimatedTime": "2 weeks",
+    "startTime": "2023-11-22",
+    "endTime": "2023-12-06",
+    "dependencies": ["P2"]
+  },
+  {
+    "id": "P8",
+    "phase": "Data Analytics & Business Strategy Deployment",
+    "feature list": [
+      "Centralized sales and revenue reporting",
+      "Customer behavior and preference analytics",
+      "Operational efficiency metrics (e.g., order fulfillment time)"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-12-27",
+    "endTime": "2024-01-24",
+    "dependencies": ["P5", "P6", "P7"]
+  }
+]

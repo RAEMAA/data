@@ -1,0 +1,90 @@
+[
+  {
+      "id": "P1",
+      "phase": "Planning and Requirements Gathering",
+      "feature_list": [],
+      "estimatedTime": 7,
+      "startTime": "2024-07-17",
+      "endTime": "2024-07-23",
+      "dependencies": []
+  },
+  {
+      "id": "P2",
+      "phase": "Customer Platform Development",
+      "feature_list": [
+          "Menu Browsing and Item Selection",
+          "Online Order Placement",
+          "Promotions Display and Application",
+          "Integrated Online Payment (e.g., Nganluong.vn)",
+          "Customer Feedback Submission",
+          "Restaurant Rating Submission",
+          "Accurate and Updated Pricing Display"
+      ],
+      "estimatedTime": 25,
+      "startTime": "2024-07-24",
+      "endTime": "2024-08-17",
+      "dependencies": [
+          "P1"
+      ]
+  },
+  {
+      "id": "P3",
+      "phase": "Internal Management System Development",
+      "feature_list": [
+          "Automatic Order Routing to Nearest Branch",
+          "Branch Operations Management",
+          "Business Data Analysis and Reporting",
+          "Menu and Pricing Management"
+      ],
+      "estimatedTime": 30,
+      "startTime": "2024-07-24",
+      "endTime": "2024-08-22",
+      "dependencies": [
+          "P1"
+      ]
+  },
+  {
+      "id": "P4",
+      "phase": "Integration and Testing",
+      "feature_list": [
+          "System Integration",
+          "Comprehensive Testing (Functional, UAT, Performance, Security)"
+      ],
+      "estimatedTime": 14,
+      "startTime": "2024-08-23",
+      "endTime": "2024-09-05",
+      "dependencies": [
+          "P2",
+          "P3"
+      ]
+  },
+  {
+      "id": "P5",
+      "phase": "Deployment and Training",
+      "feature_list": [
+          "System Deployment",
+          "Staff Training"
+      ],
+      "estimatedTime": 7,
+      "startTime": "2024-09-06",
+      "endTime": "2024-09-12",
+      "dependencies": [
+          "P4"
+      ]
+  },
+  {
+      "id": "P6",
+      "phase": "Post-Deployment Monitoring and Optimization",
+      "feature_list": [
+          "System Monitoring",
+          "Initial Feedback Gathering",
+          "Performance Optimization"
+      ],
+      "estimatedTime": 14,
+      "startTime": "2024-09-13",
+      "endTime": "2024-09-26",
+      "dependencies": [
+          "P5"
+      ]
+  }
+]

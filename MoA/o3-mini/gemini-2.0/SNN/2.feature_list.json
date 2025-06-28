@@ -1,0 +1,61 @@
+[
+    {
+        "category": "User Profile",
+        "list_feature": [
+            "User registration (for students, researchers, teachers)",
+            "User role identification (student, researcher, teacher)",
+            "University affiliation",
+            "Participation in multiple university networks"
+        ]
+    },
+    {
+        "category": "Content Sharing & Access",
+        "list_feature": [
+            "Sharing academic resources",
+            "Sharing research findings",
+            "Sharing learning experiences",
+            "Sharing teaching experiences",
+            "Sharing research experiences",
+            "Accessing study materials",
+            "Content categorization (by discipline)",
+            "Content upload",
+            "Content access/download"
+        ]
+    },
+    {
+        "category": "Evaluation & Recommendation",
+        "list_feature": [
+            "Course evaluation",
+            "Course rating",
+            "Instructor evaluation",
+            "Instructor rating",
+            "Course recommendation (by students)"
+        ]
+    },
+    {
+        "category": "Networking & Collaboration",
+        "list_feature": [
+            "Connecting with potential collaborators",
+            "Sharing expertise",
+            "Collaboration tools",
+            "User search",
+            "Connection requests and management"
+        ]
+    },
+    {
+        "category": "Platform Structure & Search",
+        "list_feature": [
+            "University-specific networks",
+            "Discipline-based organization",
+            "Search functionality",
+            "Recommendation engine (for courses, implied for others)"
+        ]
+    },
+    {
+        "category": "Future Expansion",
+        "list_feature": [
+            "High school network integration",
+            "Elementary school network integration"
+        ]
+    }
+]

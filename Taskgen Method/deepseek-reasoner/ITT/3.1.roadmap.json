@@ -1,0 +1,84 @@
+[
+  {
+    "id": "P1",
+    "phase": "Core Infrastructure Setup",
+    "feature_list": [],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-10-23",
+    "endTime": "2023-11-20",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Tour Operations Development",
+    "feature_list": [
+      "Special Tours",
+      "Japan Tours",
+      "Asia Tours",
+      "Europe-Australia-America Tours"
+    ],
+    "estimatedTime": "6 weeks",
+    "startTime": "2023-11-21",
+    "endTime": "2024-01-01",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P3",
+    "phase": "Visa Services Integration",
+    "feature_list": [
+      "Multi-Country Visa Consultation",
+      "Visa Documentation Review Services"
+    ],
+    "estimatedTime": "5 weeks",
+    "startTime": "2023-11-21",
+    "endTime": "2023-12-26",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P4",
+    "phase": "Informational Displays & Content Modules",
+    "feature_list": [
+      "Day-by-Day Itinerary Schedules",
+      "Detailed Hotel Specifications",
+      "Flight Inclusion Summaries",
+      "Meal Plan Descriptions",
+      "Pricing Tier Breakdowns",
+      "Destination Image Galleries",
+      "Tour Guide Qualification Overviews",
+      "Cancellation & Policy Disclosures",
+      "Cultural Insight Articles",
+      "User Review & Travel Story Aggregator"
+    ],
+    "estimatedTime": "5 weeks",
+    "startTime": "2024-01-02",
+    "endTime": "2024-02-06",
+    "dependencies": ["P2", "P3"]
+  },
+  {
+    "id": "P5",
+    "phase": "Support Services Implementation",
+    "feature_list": [
+      "Visa Application Guidance",
+      "24/7 Booking Assistance",
+      "Emergency Travel Hotline",
+      "Multilingual Customer Support"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2024-02-07",
+    "endTime": "2024-03-06",
+    "dependencies": ["P4"]
+  },
+  {
+    "id": "P6",
+    "phase": "Testing & Deployment",
+    "feature_list": [
+      "Secure Payment Processing",
+      "Real-Time Booking Capabilities",
+      "Multi-Channel Access Integration"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2024-03-07",
+    "endTime": "2024-03-28",
+    "dependencies": ["P2", "P3", "P4", "P5"]
+  }
+]

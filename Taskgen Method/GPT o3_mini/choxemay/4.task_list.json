@@ -1,0 +1,560 @@
+[
+  [
+    [
+      {
+        "id": "P1-T1",
+        "taskName": "Design Responsive Design",
+        "correspondingPhase": "User Interface Development",
+        "correspondingFeature": "Responsive Design",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-06",
+        "endTime": "2023-10-06",
+        "dependencies": [],
+        "responsiblePerson": "UI Designer"
+      },
+      {
+        "id": "P1-T2",
+        "taskName": "Implement Responsive Design",
+        "correspondingPhase": "User Interface Development",
+        "correspondingFeature": "Responsive Design",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-07",
+        "endTime": "2023-10-07",
+        "dependencies": ["P1-T1"],
+        "responsiblePerson": "Frontend Developer"
+      },
+      {
+        "id": "P1-T3",
+        "taskName": "Test Responsive Design",
+        "correspondingPhase": "User Interface Development",
+        "correspondingFeature": "Responsive Design",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-08",
+        "endTime": "2023-10-08",
+        "dependencies": ["P1-T2"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P1-T4",
+        "taskName": "Design Intuitive Navigation",
+        "correspondingPhase": "User Interface Development",
+        "correspondingFeature": "Intuitive Navigation",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-06",
+        "endTime": "2023-10-06",
+        "dependencies": [],
+        "responsiblePerson": "UI Designer"
+      },
+      {
+        "id": "P1-T5",
+        "taskName": "Implement Intuitive Navigation",
+        "correspondingPhase": "User Interface Development",
+        "correspondingFeature": "Intuitive Navigation",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-07",
+        "endTime": "2023-10-07",
+        "dependencies": ["P1-T4"],
+        "responsiblePerson": "Frontend Developer"
+      },
+      {
+        "id": "P1-T6",
+        "taskName": "Test Intuitive Navigation",
+        "correspondingPhase": "User Interface Development",
+        "correspondingFeature": "Intuitive Navigation",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-08",
+        "endTime": "2023-10-08",
+        "dependencies": ["P1-T5"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P1-T7",
+        "taskName": "Design Mobile Compatibility",
+        "correspondingPhase": "User Interface Development",
+        "correspondingFeature": "Mobile Compatibility",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-06",
+        "endTime": "2023-10-06",
+        "dependencies": [],
+        "responsiblePerson": "UI Designer"
+      },
+      {
+        "id": "P1-T8",
+        "taskName": "Implement Mobile Compatibility",
+        "correspondingPhase": "User Interface Development",
+        "correspondingFeature": "Mobile Compatibility",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-07",
+        "endTime": "2023-10-07",
+        "dependencies": ["P1-T7"],
+        "responsiblePerson": "Frontend Developer"
+      },
+      {
+        "id": "P1-T9",
+        "taskName": "Test Mobile Compatibility",
+        "correspondingPhase": "User Interface Development",
+        "correspondingFeature": "Mobile Compatibility",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-08",
+        "endTime": "2023-10-08",
+        "dependencies": ["P1-T8"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P1-T10",
+        "taskName": "Design Customizable Themes",
+        "correspondingPhase": "User Interface Development",
+        "correspondingFeature": "Customizable Themes",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-06",
+        "endTime": "2023-10-06",
+        "dependencies": [],
+        "responsiblePerson": "UI Designer"
+      },
+      {
+        "id": "P1-T11",
+        "taskName": "Implement Customizable Themes",
+        "correspondingPhase": "User Interface Development",
+        "correspondingFeature": "Customizable Themes",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-07",
+        "endTime": "2023-10-07",
+        "dependencies": ["P1-T10"],
+        "responsiblePerson": "Frontend Developer"
+      },
+      {
+        "id": "P1-T12",
+        "taskName": "Test Customizable Themes",
+        "correspondingPhase": "User Interface Development",
+        "correspondingFeature": "Customizable Themes",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-08",
+        "endTime": "2023-10-08",
+        "dependencies": ["P1-T11"],
+        "responsiblePerson": "QA Engineer"
+      }
+    ]
+  ],
+  [
+    {
+      "id": "P1",
+      "phase": "User Interface Development",
+      "feature list": [
+        "Responsive Design",
+        "Intuitive Navigation",
+        "Mobile Compatibility",
+        "Customizable Themes"
+      ],
+      "estimatedTime": "15",
+      "startTime": "2023-10-06",
+      "endTime": "2023-10-20",
+      "dependencies": [],
+      "tasks": []
+    },
+    {
+      "id": "P2",
+      "phase": "Backend Development",
+      "feature list": [
+        "API Integration",
+        "Database Management",
+        "Server-side Logic",
+        "Scalability"
+      ],
+      "estimatedTime": "20",
+      "startTime": "2023-10-06",
+      "endTime": "2023-10-26",
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "P2-T1",
+          "taskName": "Design API and Database Structure",
+          "correspondingPhase": "Backend Development",
+          "correspondingFeature": "API Integration, Database Management, Server-side Logic, Scalability",
+          "priority": "Medium",
+          "estimatedTime": "5 days",
+          "startTime": "2023-10-06",
+          "endTime": "2023-10-10",
+          "dependencies": [],
+          "responsiblePerson": "Senior Backend Architect"
+        },
+        {
+          "id": "P2-T2",
+          "taskName": "Implement Server-side Logic and API Integration",
+          "correspondingPhase": "Backend Development",
+          "correspondingFeature": "API Integration, Database Management, Server-side Logic, Scalability",
+          "priority": "High",
+          "estimatedTime": "10 days",
+          "startTime": "2023-10-11",
+          "endTime": "2023-10-20",
+          "dependencies": ["P2-T1"],
+          "responsiblePerson": "Backend Developer"
+        },
+        {
+          "id": "P2-T3",
+          "taskName": "Test API, Database and Server-side Implementation",
+          "correspondingPhase": "Backend Development",
+          "correspondingFeature": "API Integration, Database Management, Server-side Logic, Scalability",
+          "priority": "Medium",
+          "estimatedTime": "5 days",
+          "startTime": "2023-10-21",
+          "endTime": "2023-10-26",
+          "dependencies": ["P2-T2"],
+          "responsiblePerson": "QA Engineer"
+        }
+      ]
+    },
+    {
+      "id": "P3",
+      "phase": "Security Implementation",
+      "feature list": [
+        "User Authentication",
+        "Data Encryption",
+        "Access Control"
+      ],
+      "estimatedTime": "10",
+      "startTime": "2023-10-27",
+      "endTime": "2023-11-05",
+      "dependencies": ["P2"],
+      "tasks": []
+    },
+    {
+      "id": "P4",
+      "phase": "Reputation System Development",
+      "feature list": [
+        "Credibility Ranking",
+        "Successful Exchanges Tracking",
+        "Feedback Aggregation",
+        "Transaction Amount Monitoring"
+      ],
+      "estimatedTime": "12",
+      "startTime": "2023-10-27",
+      "endTime": "2023-11-07",
+      "dependencies": ["P2"],
+      "tasks": []
+    },
+    {
+      "id": "P5",
+      "phase": "Marketplace Feature Integration",
+      "feature list": [
+        "Buying Notifications",
+        "Selling Notifications",
+        "Community Interaction"
+      ],
+      "estimatedTime": "8",
+      "startTime": "2023-10-27",
+      "endTime": "2023-11-03",
+      "dependencies": ["P2"],
+      "tasks": []
+    }
+  ],
+  [
+    {
+      "id": "P3-T1",
+      "taskName": "Design Security - User Authentication",
+      "correspondingPhase": "Security Implementation",
+      "correspondingFeature": "User Authentication",
+      "priority": "High",
+      "estimatedTime": "2 days",
+      "startTime": "2023-10-27",
+      "endTime": "2023-10-28",
+      "dependencies": [],
+      "responsiblePerson": "Security Architect"
+    },
+    {
+      "id": "P3-T2",
+      "taskName": "Implement Security - Data Encryption",
+      "correspondingPhase": "Security Implementation",
+      "correspondingFeature": "Data Encryption",
+      "priority": "High",
+      "estimatedTime": "4 days",
+      "startTime": "2023-10-29",
+      "endTime": "2023-11-01",
+      "dependencies": ["P3-T1"],
+      "responsiblePerson": "Security Developer"
+    },
+    {
+      "id": "P3-T3",
+      "taskName": "Test Security - Access Control",
+      "correspondingPhase": "Security Implementation",
+      "correspondingFeature": "Access Control",
+      "priority": "High",
+      "estimatedTime": "4 days",
+      "startTime": "2023-11-02",
+      "endTime": "2023-11-05",
+      "dependencies": ["P3-T2"],
+      "responsiblePerson": "QA Engineer"
+    }
+  ],
+  [
+    [
+      {
+        "id": "P4-T1",
+        "taskName": "Design for Credibility Ranking",
+        "correspondingPhase": "Reputation System Development",
+        "correspondingFeature": "Credibility Ranking",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-27",
+        "endTime": "2023-10-28",
+        "dependencies": [],
+        "responsiblePerson": "TBA"
+      },
+      {
+        "id": "P4-T2",
+        "taskName": "Implementation for Credibility Ranking",
+        "correspondingPhase": "Reputation System Development",
+        "correspondingFeature": "Credibility Ranking",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-29",
+        "endTime": "2023-10-30",
+        "dependencies": ["P4-T1"],
+        "responsiblePerson": "TBA"
+      },
+      {
+        "id": "P4-T3",
+        "taskName": "Testing for Credibility Ranking",
+        "correspondingPhase": "Reputation System Development",
+        "correspondingFeature": "Credibility Ranking",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-31",
+        "endTime": "2023-10-31",
+        "dependencies": ["P4-T2"],
+        "responsiblePerson": "TBA"
+      },
+      {
+        "id": "P4-T4",
+        "taskName": "Design for Successful Exchanges Tracking",
+        "correspondingPhase": "Reputation System Development",
+        "correspondingFeature": "Successful Exchanges Tracking",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-27",
+        "endTime": "2023-10-28",
+        "dependencies": [],
+        "responsiblePerson": "TBA"
+      },
+      {
+        "id": "P4-T5",
+        "taskName": "Implementation for Successful Exchanges Tracking",
+        "correspondingPhase": "Reputation System Development",
+        "correspondingFeature": "Successful Exchanges Tracking",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-29",
+        "endTime": "2023-10-30",
+        "dependencies": ["P4-T4"],
+        "responsiblePerson": "TBA"
+      },
+      {
+        "id": "P4-T6",
+        "taskName": "Testing for Successful Exchanges Tracking",
+        "correspondingPhase": "Reputation System Development",
+        "correspondingFeature": "Successful Exchanges Tracking",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-31",
+        "endTime": "2023-10-31",
+        "dependencies": ["P4-T5"],
+        "responsiblePerson": "TBA"
+      },
+      {
+        "id": "P4-T7",
+        "taskName": "Design for Feedback Aggregation",
+        "correspondingPhase": "Reputation System Development",
+        "correspondingFeature": "Feedback Aggregation",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-27",
+        "endTime": "2023-10-28",
+        "dependencies": [],
+        "responsiblePerson": "TBA"
+      },
+      {
+        "id": "P4-T8",
+        "taskName": "Implementation for Feedback Aggregation",
+        "correspondingPhase": "Reputation System Development",
+        "correspondingFeature": "Feedback Aggregation",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-29",
+        "endTime": "2023-10-30",
+        "dependencies": ["P4-T7"],
+        "responsiblePerson": "TBA"
+      },
+      {
+        "id": "P4-T9",
+        "taskName": "Testing for Feedback Aggregation",
+        "correspondingPhase": "Reputation System Development",
+        "correspondingFeature": "Feedback Aggregation",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-31",
+        "endTime": "2023-10-31",
+        "dependencies": ["P4-T8"],
+        "responsiblePerson": "TBA"
+      },
+      {
+        "id": "P4-T10",
+        "taskName": "Design for Transaction Amount Monitoring",
+        "correspondingPhase": "Reputation System Development",
+        "correspondingFeature": "Transaction Amount Monitoring",
+        "priority": "Low",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-27",
+        "endTime": "2023-10-28",
+        "dependencies": [],
+        "responsiblePerson": "TBA"
+      },
+      {
+        "id": "P4-T11",
+        "taskName": "Implementation for Transaction Amount Monitoring",
+        "correspondingPhase": "Reputation System Development",
+        "correspondingFeature": "Transaction Amount Monitoring",
+        "priority": "Low",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-29",
+        "endTime": "2023-10-30",
+        "dependencies": ["P4-T10"],
+        "responsiblePerson": "TBA"
+      },
+      {
+        "id": "P4-T12",
+        "taskName": "Testing for Transaction Amount Monitoring",
+        "correspondingPhase": "Reputation System Development",
+        "correspondingFeature": "Transaction Amount Monitoring",
+        "priority": "Low",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-31",
+        "endTime": "2023-10-31",
+        "dependencies": ["P4-T11"],
+        "responsiblePerson": "TBA"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": "P5-T1",
+        "taskName": "Design Buying Notifications",
+        "correspondingPhase": "Marketplace Feature Integration",
+        "correspondingFeature": "Buying Notifications",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-27",
+        "endTime": "2023-10-27",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Designer"
+      },
+      {
+        "id": "P5-T2",
+        "taskName": "Implement Buying Notifications",
+        "correspondingPhase": "Marketplace Feature Integration",
+        "correspondingFeature": "Buying Notifications",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-28",
+        "endTime": "2023-10-28",
+        "dependencies": ["P5-T1"],
+        "responsiblePerson": "Backend Developer"
+      },
+      {
+        "id": "P5-T3",
+        "taskName": "Test Buying Notifications",
+        "correspondingPhase": "Marketplace Feature Integration",
+        "correspondingFeature": "Buying Notifications",
+        "priority": "Medium",
+        "estimatedTime": "4 hours",
+        "startTime": "2023-10-29",
+        "endTime": "2023-10-29",
+        "dependencies": ["P5-T2"],
+        "responsiblePerson": "QA Tester"
+      },
+      {
+        "id": "P5-T4",
+        "taskName": "Design Selling Notifications",
+        "correspondingPhase": "Marketplace Feature Integration",
+        "correspondingFeature": "Selling Notifications",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-27",
+        "endTime": "2023-10-27",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Designer"
+      },
+      {
+        "id": "P5-T5",
+        "taskName": "Implement Selling Notifications",
+        "correspondingPhase": "Marketplace Feature Integration",
+        "correspondingFeature": "Selling Notifications",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-28",
+        "endTime": "2023-10-28",
+        "dependencies": ["P5-T4"],
+        "responsiblePerson": "Backend Developer"
+      },
+      {
+        "id": "P5-T6",
+        "taskName": "Test Selling Notifications",
+        "correspondingPhase": "Marketplace Feature Integration",
+        "correspondingFeature": "Selling Notifications",
+        "priority": "Medium",
+        "estimatedTime": "4 hours",
+        "startTime": "2023-10-29",
+        "endTime": "2023-10-29",
+        "dependencies": ["P5-T5"],
+        "responsiblePerson": "QA Tester"
+      },
+      {
+        "id": "P5-T7",
+        "taskName": "Design Community Interaction",
+        "correspondingPhase": "Marketplace Feature Integration",
+        "correspondingFeature": "Community Interaction",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-27",
+        "endTime": "2023-10-27",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Designer"
+      },
+      {
+        "id": "P5-T8",
+        "taskName": "Implement Community Interaction",
+        "correspondingPhase": "Marketplace Feature Integration",
+        "correspondingFeature": "Community Interaction",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-28",
+        "endTime": "2023-10-28",
+        "dependencies": ["P5-T7"],
+        "responsiblePerson": "Backend Developer"
+      },
+      {
+        "id": "P5-T9",
+        "taskName": "Test Community Interaction",
+        "correspondingPhase": "Marketplace Feature Integration",
+        "correspondingFeature": "Community Interaction",
+        "priority": "Medium",
+        "estimatedTime": "4 hours",
+        "startTime": "2023-10-29",
+        "endTime": "2023-10-29",
+        "dependencies": ["P5-T8"],
+        "responsiblePerson": "QA Tester"
+      }
+    ]
+  ]
+]

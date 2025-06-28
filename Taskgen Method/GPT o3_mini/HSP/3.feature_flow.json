@@ -1,0 +1,211 @@
+[
+  {
+    "category": "Animal Management",
+    "features": [
+      "{\"featureName\": \"Animal Registration & Identification\", \"flow\": \"1. Farm Staff Login: The process begins with a secure login where the farm staff enter their credentials and access the management dashboard.\\\n2. Navigation to Registration Module: From the dashboard, the staff selects the Animal Registration module to start the new piglet registration process.\\\n3. Registration Form Initiation: The system displays a registration form where staff can enter essential details such as piglet breed, unique identification number, date of birth, weight, initial health metrics, and any visible markers of common diseases.\\\n4. Data Capture and Barcode/QR Code Scanning: The form includes an option to scan an existing barcode or QR code if the piglet has a preliminary identification tag, ensuring data accuracy and efficient processing.\\\n5. Data Validation: After entering information, the system automatically validates the inputs. If errors or omissions are found, the user is prompted with error messages and suggestions for corrections.\\\n6. Submission and Generation of Identification: Once the form passes validation, the staff submits the details. The system then generates a unique registration ID and creates an identification label (with a barcode or QR code) that links back to the animal’s record.\\\n7. Confirmation and Record Update: A confirmation screen displays the complete registration details, allowing the staff to verify and, if necessary, confirm or update the record.\\\n8. Finalization and Optional Print/Export: The user has an option to print the identification label or export the details for physical tagging and record-keeping. Throughout the process, the primary role involved is the farm staff with optional support from IT for barcode scanning verification if required.\", \"screens\": [\"Login Screen: A secure login page for farm staff to access the system.\", \"Dashboard Screen: Main management dashboard presenting various modules including animal registration.\", \"Registration Form Screen: Data entry interface where staff input piglet details and optionally scan for barcode/QR code.\", \"Validation/Error Screen: An interface that alerts the user to data entry issues and provides correction guidelines.\", \"Confirmation Screen: A summary page showing complete registration details and the generated identification label.\", \"Print/Export Screen: Provides options to print or export the piglet’s registration and identification details.\"",
+      {
+        "featureName": "Growth Monitoring",
+        "flow": "Step 1: User Authentication - Both staff and farmer users log in using secure credentials. Staff users will have additional access rights.\n\nStep 2: Navigation to Animal Management - After login, users access the main dashboard and select the Animal Management module from the navigation menu.\n\nStep 3: Accessing Growth Monitoring - Within Animal Management, users choose the Growth Monitoring feature. Staff users see options to view, update, and add growth data; farmer users see a read-only growth overview for their piglets.\n\nStep 4: Viewing the Growth Summary - The Growth Monitoring Summary screen displays a list of piglets with key metrics (e.g., weight, growth rate, age) and visual charts indicating progress. Staff can filter and sort based on various parameters, while farmers see summarized trends for their specific orders.\n\nStep 5: Detailed Piglet Growth View - Staff users can select an individual piglet record to access a detailed view that includes historical growth data, graphical trends, feeding records, and health logs. Farmer users see a simplified version showing growth trends along with notifications about feed or vaccination updates.\n\nStep 6: Updating Growth Data (Staff Only) - On the detailed view, staff users can enter a dedicated Edit Growth Record screen to update new measurements, add remarks, or attach sensor reports. After making changes, the updated data is validated and saved.\n\nStep 7: Confirmation and Audit - Once updates are saved, a confirmation message is displayed and the activity is logged for audit purposes. Both staff and farmers are then redirected back to the Growth Monitoring Summary screen, where updated information is visible.\n\nStep 8: Additional Options - Users may choose to navigate to related modules such as Health Monitoring or Reporting for further analysis or generate reports based on the collected data.",
+        "screens": [
+          "Login Screen: Captures secure user authentication for both staff and farmer roles.",
+          "Dashboard Screen: Provides an overview of system functionalities and navigation to Animal Management.",
+          "Animal Management Main Menu: Lists available features including Growth Monitoring.",
+          "Growth Monitoring Summary Screen: Displays a list of piglets with current growth metrics, filter options, and summary charts.",
+          "Piglet Details Screen (Staff View): Offers in-depth data including historical growth charts, feeding logs, and health records with an option to edit.",
+          "Piglet Details Screen (Farmer View): Provides a simplified view displaying essential growth trends and notifications.",
+          "Edit Growth Record Screen (Staff Only): Allows staff to update measurements, add notes, and attach sensor data with input validation.",
+          "Confirmation Screen: Confirms successful updates to growth records and provides feedback to the user.",
+          "Activity Log Screen (Optional for Admins): Displays a log of updates and changes for audit purposes."
+        ]
+      },
+      {
+        "featureName": "Breeding Records",
+        "flow": "1. Staff Login: Staff members log into the system using secure credentials. Role: Farm Staff.\n2. Navigation: After login, the staff navigates to the Animal Management module and selects the Breeding Records section. Role: Farm Staff.\n3. Record Creation: The staff clicks the 'New Breeding Record' button to initiate the process. Role: Farm Staff.\n4. Data Entry: The system presents a form to input details including piglet identification, breeding date, parental information, health observations, and environmental conditions. Role: Farm Staff.\n5. Record Review: After filling the form, the staff reviews the entered information and can either save it as a draft or submit it for confirmation. Role: Farm Staff.\n6. Approval Process: Upon submission, the record is sent to a supervising manager for approval. The manager reviews the details and either approves or sends back the record for further edits. Role: Supervising Manager.\n7. Confirmation: If approved, the system displays a confirmation screen and updates the breeding records database. Role: System & Farm Staff.\n8. Audit Trail: The system logs all actions for audit and reporting purposes. Role: System.",
+        "screens": [
+          "Login Screen: Authenticates users before granting access.",
+          "Dashboard Screen: Main portal displaying modules like Animal Management.",
+          "Breeding Records List Screen: Displays existing breeding records with options to view, edit, or create a new record.",
+          "New Breeding Record Form Screen: Provides a form to input new breeding details such as piglet ID, breeding date, parental data, and health notes.",
+          "Review & Approval Screen: Allows managers to review submitted records, provide feedback, and confirm approval.",
+          "Confirmation Screen: Notifies the staff about the successful creation and logging of the breeding record."
+        ]
+      },
+      {
+        "featureName": "Health Status Tracking",
+        "flow": "1. Staff Login & Access:\n   - Role: Farm Staff\n   - Action: Staff logs into the system and navigates to the Animal Management module. They select the health tracking section for a specific piglet or group of piglets.\n2. Health Data Entry:\n   - Role: Farm Staff\n   - Action: Staff records key health data (e.g., temperature, symptoms, behavior observations, vaccination status) via a dedicated data entry screen. Data validation ensures entries meet required formats and ranges.\n3. System Analysis and Verification:\n   - Role: System\n   - Action: Once data is submitted, the system performs real-time analysis against predefined health parameters. It checks for anomalies (e.g., abnormal temperature, signs of distress) and computes overall health indexes.\n4. Alert Generation and Notification:\n   - Role: System\n   - Action: If any health indicators fall outside normal ranges, the system generates alerts. Staff receive immediate internal notifications, and alerts are also prepared for farmer customers based on relevance.\n5. Farmer Review and Communication:\n   - Role: Farmer Customer\n   - Action: Farmers log into their portal and review health status notifications on their Health Status Dashboard. They can access detailed reports and, if needed, initiate communication with farm staff for further guidance or clarification.\n6. Follow-up Actions:\n   - Role: Farm Staff & Farmer Customer\n   - Action: Depending on the alert, both parties may collaborate through an integrated communication tool to discuss and schedule necessary interventions like additional health checks, medication updates, or care adjustments.",
+        "screens": [
+          "Login Screen: Allows both staff and farmers to authenticate securely into the system.",
+          "Dashboard Screen (Staff): Provides an overview of all piglets with health status summaries and quick access to health tracking modules.",
+          "Health Data Entry Screen: Dedicated interface for farm staff to input detailed health metrics, symptoms, and relevant notes.",
+          "Health Analysis Screen: Visualizes analyzed trends, normal vs. abnormal indicators, and detailed piglet health reports.",
+          "Alerts & Notifications Screen: Displays real-time alerts and notifications for both staff and farmers, highlighting critical health issues.",
+          "Farmer Health Status Screen: Tailored for farmers to view detailed health information, alerts, and recommendations regarding their piglets.",
+          "Communication Screen: Integrated chat or messaging interface allowing direct interaction between farm staff and farmer customers for clarifications and follow-ups."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Feed Management",
+    "features": [
+      {
+        "featureName": "Feed Inventory Control",
+        "flow": "1. User Login: Inventory staff logs into the system using their secure credentials. (User Role: Inventory Manager)\n2. Dashboard Access: The user navigates to the Feed Management module from the main dashboard. (User Role: Inventory Manager)\n3. Feed Inventory Overview: The system displays a summary list of all feed types with current quantities, production dates, and expiry thresholds. (User Role: Inventory Manager)\n4. Select Feed Details: The staff selects a specific feed item to view detailed information, including past consumption records, reorder levels, and supplier details. (User Role: Inventory Manager)\n5. Update Inventory Record: The user enters new feed quantity data based on recent deliveries or consumption. This step includes a validation check for data accuracy. (User Role: Inventory Manager)\n6. Confirmation & Logging: After updating, the system confirms the action and logs the changes for auditing purposes. (User Role: Inventory Manager)\n7. Low Inventory Notification: If the updated stock falls below the set threshold, the system automatically triggers a notification for reordering. (User Role: Inventory Manager, Admin for approval if required)\n8. Audit Review: Optionally, the user can review an audit log that details all past inventory modifications and alerts. (User Role: Inventory Manager, Auditor)",
+        "screens": [
+          "Login Screen: Authenticates users before accessing the system.",
+          "Dashboard Screen: Provides a portal to access various management modules including feed inventory.",
+          "Feed Inventory List Screen: Displays a summary of all feed types with stock levels and key indicators like reorder thresholds.",
+          "Feed Detail Screen: Offers in-depth details about a selected feed type, including historical data and supplier info.",
+          "Inventory Update Screen: A form-based interface for updating stock levels with fields for new quantities, reasons for update, and date stamps.",
+          "Notification Screen: Displays alerts regarding low inventory levels and prompts for reordering actions.",
+          "Audit Log Screen: Shows a chronological record of all inventory updates and actions for review and accountability."
+        ]
+      },
+      {
+        "featureName": "Feed Consumption Analysis",
+        "flow": "Step 1: Login - Farm staff, managers, or owners log into the system using the Login Screen with secure credentials. Step 2: Module Selection - Upon successful login, users land on the Dashboard Screen where they select the 'Feed Consumption Analysis' feature. Step 3: Filter Setup - The user navigates to the Filter and Settings Screen to choose analysis parameters such as pig type, feed type, and a specified time range (e.g., daily, weekly, monthly). Step 4: Data Retrieval - Once filters are set, the user clicks the 'Analyze' button, triggering the system to retrieve historical feed consumption data from the database. Step 5: Data Processing and Visualization - The system processes the data and presents the results on the Data Visualization Screen through charts and graphs, enabling users to observe trends and patterns. Step 6: Detailed Drill Down - Users can interact with specific portions of the displayed data, redirecting them to the Drill Down Screen for more granular insights into consumption metrics. Step 7: Report Generation - Optionally, users proceed to the Report Generation Screen to export the analysis as PDF or Excel reports for further review and record-keeping. Step 8: Review and Logout - After reviewing the analysis, users can provide feedback, adjust parameters for additional queries, or log out of the system.",
+        "screens": [
+          {
+            "screenName": "Login Screen",
+            "description": "Allows users (staff, managers, or owners) to securely input credentials and access the system."
+          },
+          {
+            "screenName": "Dashboard Screen",
+            "description": "Displays an overview of system modules including access to the Feed Consumption Analysis feature."
+          },
+          {
+            "screenName": "Filter and Settings Screen",
+            "description": "Provides options to set filters such as pig type, feed type, and a time range to tailor the analysis results."
+          },
+          {
+            "screenName": "Data Visualization Screen",
+            "description": "Presents processed feed consumption data in interactive charts and graphs for quick insights."
+          },
+          {
+            "screenName": "Drill Down Screen",
+            "description": "Offers detailed insights by allowing users to click on specific data points from the graphs to view underlying data."
+          },
+          {
+            "screenName": "Report Generation Screen",
+            "description": "Enables users to export analysis reports in various formats (PDF, Excel) for documentation and further analysis."
+          }
+        ]
+      },
+      {
+        "featureName": "Supplier Management",
+        "flow": "1. Staff Login: A staff member logs into the system with authorized credentials.\n2. Navigate to Feed Management Module: After successful login, the staff selects the 'Feed Management' section from the dashboard menu.\n3. Access Supplier Management: Within the Feed Management module, the staff clicks on the 'Supplier Management' option to access supplier-related functions.\n4. View Supplier List: The system displays a list of current suppliers along with key details like name, contact information, and supplied feed types.\n5. Select a Supplier: The staff selects a supplier from the list to review detailed information including past transactions, contact history, and performance records.\n6. Edit Supplier Details: If updates are needed, the staff navigates to an edit form, makes changes to supplier details (e.g., updating contact info or feed types), and saves the changes.\n7. Add a New Supplier: Alternatively, the staff can click an 'Add Supplier' button. They then fill out a detailed form with supplier details and submit it, after which the new supplier is added to the list.\n8. Delete a Supplier: When removal is necessary, the staff selects the delete option on a supplier record and confirms the action through a confirmation step.\n9. Confirmation & Logging: After any add, update, or delete action, the system provides a confirmation message and logs the action for audit purposes.",
+        "screens": [
+          "Supplier List Screen: Displays a table of all suppliers with options for searching, filtering, and viewing details.",
+          "Supplier Details Screen: Shows comprehensive information about a selected supplier and offers options to edit or delete the record.",
+          "Add/Edit Supplier Screen: Presents a form for entering new supplier details or modifying existing information, including fields like name, contact data, and feed types supplied.",
+          "Confirmation Screen: Provides feedback on successful completion of actions such as saving new details or deleting a supplier.",
+          "Action Log Screen (Optional): Lists recorded actions for supplier management to support audit and tracking purposes."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Health & Veterinary Management",
+    "features": [
+      "{\"featureName\": \"Vaccination Scheduling\", \"flow\": \"Step 1: Farmer logs into the system and navigates to the Vaccination Scheduling module from the dashboard. (User Role: Farmer)\\\nStep 2: On the Vaccination Scheduling screen, the farmer selects the specific piglets that require vaccination, reviewing their current health status and previous vaccination history. (User Role: Farmer)\\\nStep 3: The system displays available vaccination slots and details about each vaccine, including recommended schedules and any preparatory requirements. (System Action)\\\nStep 4: The farmer selects a preferred time slot and submits an appointment request. (User Role: Farmer)\\\nStep 5: Upon submission, the system logs the request and sends a notification to the farm staff for review. (System Action)\\\nStep 6: Staff receives the appointment request and reviews the associated piglet records to ensure the selected vaccine and timing are appropriate. (User Role: Staff)\\\nStep 7: If adjustments are needed, staff contacts the farmer via the system’s messaging or notification module; otherwise, staff confirms the appointment by assigning a specific time slot and noting any additional instructions. (User Role: Staff)\\\nStep 8: The system updates the appointment status to \\\"Confirmed\\\" and sends a confirmation notification back to the farmer. (System Action)\\\nStep 9: The farmer reviews the confirmation details and has the option to reschedule or cancel if necessary. (User Role: Farmer)\\\nStep 10: Post-vaccination, staff updates the vaccination record and marks the appointment as completed in the system. (User Role: Staff)\", \"screens\": [\"Login Screen: Allows both farmers and staff to securely log into the system.\", \"Dashboard Screen: Displays key functionalities including navigation to the Vaccination Scheduling module for farmers and overview of pending requests for staff.\", \"Vaccination Scheduling Screen: Enables farmers to view piglet details, available vaccine options, and select preferred appointment slots.\", \"Appointment Request Screen: Provides a detailed form for farmers to input vaccination requests and any notes regarding their piglets.\", \"Staff Review Screen: Allows staff to view incoming requests, review piglet health records, and confirm or adjust appointment details.\", \"Appointment Confirmation Screen: Displays final appointment details and confirmation status for both the farmer and staff.\", \"Notification/Message Screen: Facilitates communication between farmers and staff regarding appointment adjustments or additional instructions.\"]}",
+      {
+        "featureName": "Disease Outbreak Monitoring",
+        "flow": "Step 1: Real-time Health Data Analysis - The system continuously monitors piglet vital signs and sensor data to detect anomalies that indicate possible disease outbreaks. (Role: System)\nStep 2: Alert Dispatch - When abnormal readings are detected (e.g., unusual temperature spikes or feed consumption drop), an automated alert is generated and sent to the farm staff via the dashboard and mobile notifications. (Roles: System, Farm Staff)\nStep 3: Alert Evaluation - Farm staff reviews the alert details on the Alert Details Screen, which includes historical data, sensor comparisons, and piglet health records to assess the situation. (Role: Farm Staff)\nStep 4: Outbreak Confirmation - Farm staff confirms the outbreak by cross-referencing multiple indicators and logs the confirmation along with severity details. In cases of uncertainty, a senior veterinarian can be consulted. (Roles: Farm Staff, Senior Veterinarian)\nStep 5: Communication & Notification - Upon confirmation, the system notifies the in-house disease control team and sends out precautionary messages to registered farmer customers via the Communication Screen, providing guidelines on immediate care actions. (Roles: System, Farm Staff, Farmer)\nStep 6: Investigation and Logging - An investigation team documents the incident, records mitigation steps, and uses the Investigation Log Screen to track the outbreak’s progress. The system also facilitates follow-up actions and report generation as needed. (Roles: Investigative Team, Farm Staff)",
+        "screens": [
+          "Dashboard Screen: Provides an overview of piglet health metrics, real-time alerts, and trend analysis for early detection of anomalies.",
+          "Alert Details Screen: Displays detailed data on flagged anomalies including sensor readings, piglet profiles, and historical comparisons to assist staff in evaluating potential outbreaks.",
+          "Outbreak Confirmation Screen: Enables farm staff to verify and confirm a disease outbreak, document findings, and log severity levels and additional notes.",
+          "Communication Screen: Serves as a messaging portal between farm staff, disease specialists, and farmer customers for prompt communication and dissemination of care guidelines.",
+          "Investigation Log Screen: A dedicated interface for documenting investigative actions, mitigation steps, and tracking resolution progress during a disease outbreak.",
+          "Report Generation Screen: Allows for the compilation and generation of detailed outbreak reports to facilitate analysis, regulatory compliance, and strategic planning."
+        ]
+      },
+      {
+        "featureName": "Veterinary Consultations",
+        "flow": "1. Farmer Login & Navigation: Farmer customers log into their account (or register if new) and navigate to the Veterinary Consultations section from their dashboard.\n2. Initiate Request: The farmer selects the option to request a veterinary consultation. They choose the relevant piglet type, attach any images if necessary, and provide a detailed description of the symptoms or issues observed. (User Role: Farmer Customer)\n3. Request Submission & Confirmation: Upon submitting the request, the system generates a unique consultation ticket ID and displays a confirmation screen with expected response times.\n4. Staff Notification & Triage: The farm staff, including designated veterinary experts, receive a notification in their dedicated consultation dashboard. They review the new request including the description, images, and any attached files. (User Role: Farm Staff)\n5. Detailed Assessment: A staff member selects the consultation to provide preliminary advice. If further clarification is needed, the staff may use an integrated chat or messaging function to ask specific follow-up questions.\n6. Response and Scheduling: The farm staff records their initial assessment. If necessary, they schedule a follow-up consultation (either live chat or in-person visit) and update the consultation status.\n7. Farmer Notification: The system relays the staff response back to the farmer. The farmer can view the detailed recommendation and, if required, reply for additional clarification.\n8. Ongoing Interaction & Closure: Communication continues as needed with both parties reviewing the consultation history. Once the issue is resolved, the consultation is marked as closed.",
+        "screens": [
+          "Consultation Request Screen: Allows farmers to enter details of their piglet health issues, attach images, and submit consultation requests.",
+          "Consultation Confirmation Screen: Displays a confirmation message with a unique consultation ID and expected response time.",
+          "Staff Consultation Dashboard: A centralized screen for farm staff to view, sort, and prioritize incoming consultation requests.",
+          "Consultation Detail & Response Screen: Provides a detailed view where staff can add responses, recommendations, or schedule follow-ups.",
+          "Conversation/Chat Screen: Enables real-time messaging between the farmer and farm staff for clarifications and further dialogue.",
+          "Notification Screen: Alerts both farmers and staff about updates, responses, or changes in the consultation status."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Financial & Production Management",
+    "features": [
+      {
+        "featureName": "Expense and Revenue Tracking",
+        "flow": "1. User Authentication: Staff and Farm Owner log into the system using secure credentials.\n2. Navigation: The user navigates to the Financial Module from the main dashboard.\n3. Expense Recording: Staff enter details for each expense (e.g., feed purchases, veterinary fees) including vendor, amount, date, and description.\n4. Expense Review: Submitted expenses are sent for review; a designated approver (typically a Farm Owner or Senior Staff) verifies details and approves or rejects the expense record.\n5. Revenue Recording: Staff or Farm Owner input revenue data from piglet sales, orders, or other income sources, ensuring details like transaction date, amount, and client are captured.\n6. Report Generation: Users choose to generate monthly, quarterly, or annual reports which aggregate both expense and revenue entries.\n7. Financial Visualization: The system presents graphical summaries (such as bar charts, line graphs) of financial data for trend analysis.\n8. Data Export: Option available to export transaction data and reports in formats like CSV or PDF for further analysis.",
+        "screens": [
+          "Login Screen: Authenticates the user with role-based access control.",
+          "Financial Dashboard: Provides an overview of key financial metrics (total expenses, revenues, profit margins).",
+          "Expense Entry Screen: Allows staff to input detailed expense records with validations.",
+          "Expense Approval Screen: Shows pending expense submissions for review and approval by authorized users.",
+          "Revenue Entry Screen: Enables input of revenue transactions with necessary details.",
+          "Report Generation Screen: Offers options to compile financial reports over selected periods with filters.",
+          "Analytics Screen: Displays visual representations (charts and graphs) of financial summaries to assist in trend analysis."
+        ]
+      },
+      {
+        "featureName": "Production Yield Analysis",
+        "flow": "Step 1: Login - Farm staff or the farm owner logs into the system using secure credentials.\nStep 2: Module Navigation - The user selects the Financial & Production Management module from the main dashboard.\nStep 3: Access Feature - The user clicks on the Production Yield Analysis feature which presents an overview of current production metrics.\nStep 4: Parameter Configuration - The user (typically staff) enters necessary parameters such as piglet batch ID, analysis period, and environmental filters.\nStep 5: Data Aggregation - The system automatically collates data from feeding logs, health records, and growth metrics submitted by staff.\nStep 6: Analysis Execution - The system processes the gathered data to compute yield statistics, comparing current performance against historical data and target projections.\nStep 7: Summary Overview - A summary dashboard provides key performance indicators, visual graphs, and tabulated reports.\nStep 8: Detailed Drill-down - The user can click on any summarized metric to view a detailed breakdown, including interactive charts for further insights.\nStep 9: Export and Reporting - The user can export the data in formats like PDF or CSV for offline analysis or further reporting, with options to schedule automated reports.\nStep 10: Log Out - The session concludes with a secure logout, ensuring data integrity and privacy.",
+        "screens": [
+          "Login Screen: Secure access point for authorized users.",
+          "Main Dashboard: Central hub showing an overview of all modules including Financial & Production Management.",
+          "Feature Landing Page: Provides an overview and introduction to the Production Yield Analysis feature.",
+          "Parameter Configuration Screen: Enables users to set specific filters and analysis criteria (date range, piglet batches, environmental factors).",
+          "Data Aggregation Screen: Displays the real-time collection of data inputs from various modules such as feeding and growth logs.",
+          "Yield Summary Dashboard: Presents key performance indicators with graphs and tables summarizing yield statistics.",
+          "Detailed Report Screen: Offers an in-depth view of production yield metrics with interactive charts and breakdowns.",
+          "Export Options Screen: Allows users to select export formats (PDF, CSV) and schedule recurring reports."
+        ]
+      },
+      {
+        "featureName": "Cost Optimization",
+        "flow": "1. User Login & Role Verification (Farm Manager/Financial Analyst): The user logs in using secure credentials and the system verifies that they have permissions for cost analysis.\n2. Dashboard Access & Overview: After login, the user is directed to a Cost Optimization dashboard that aggregates all relevant cost metrics including feed, labor, health, and operational expenses.\n3. Data Collection & Integration: The system automatically integrates historical cost data from growth, feeding, and health modules. Users can also upload manual cost entries for special cases.\n4. Detailed Cost Analysis: The user navigates to a detailed analytic module where cost centers are broken down. This includes variance analysis and trend monitoring, with recommendations highlighted for saving opportunities.\n5. Optimization Suggestion Module: Based on the data analysis, the system generates automated suggestions for cost improvements. Options might include changing feed suppliers, altering feeding schedules, or adjusting labor allocation.\n6. Simulation & Scenario Testing: The user can simulate different scenarios by modifying key variables (e.g., feed price changes, labor cost adjustments) to forecast potential savings.\n7. Strategy Confirmation & Implementation: After reviewing the simulation outcomes, the user selects the preferred strategy. The system then records this decision and schedules follow-up tracking to monitor cost efficiency improvements.\n8. Reporting & Follow-up: The system generates comprehensive reports (monthly, quarterly, and annual) detailing cost savings, implementation outcomes, and further recommendations.\n9. Log Out: The user securely logs out, ensuring that all sensitive cost data remains protected.",
+        "screens": [
+          "Login Screen - Provides secure access for authorized cost management users.",
+          "Dashboard Screen - Presents an overview of aggregated cost metrics and key performance indicators.",
+          "Cost Analysis Screen - Displays detailed breakdowns of various cost centers and historical trends.",
+          "Data Integration Screen - Shows imported cost data and allows manual input for additional cost entries.",
+          "Optimization Suggestions Screen - Lists actionable recommendations and flags inefficiencies.",
+          "Simulation Screen - Allows users to test different scenarios by adjusting cost parameters to predict savings.",
+          "Confirmation Screen - Enables users to confirm selected cost optimization strategies for implementation.",
+          "Report Screen - Generates detailed periodic reports and visual summaries of cost performance and savings."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Reporting & Analytics",
+    "features": [
+      "{\"featureName\": \"Customizable Reports\", \"flow\": \"1. Farm Owner Login: The farm owner logs into the system using secure credentials.\\\n2. Navigation to Reports Module: Once logged in, the owner selects the Reports section from the main dashboard.\\\n3. Selection of Customizable Reports: The owner clicks on the \\\"Customizable Reports\\\" option to access advanced reporting tools.\\\n4. Parameter Configuration: On the Customizable Reports screen, the owner is prompted to choose report parameters such as report type (monthly, quarterly, annual), date range, piglet categories, revenue statistics, and health metrics. (User Role: Farm Owner)\\\n5. Data Retrieval and Processing: The system retrieves filtered data based on the provided parameters and processes the information to generate a draft report. (System Action)\\\n6. Report Preview: A preview of the customizable report is displayed, allowing the farm owner to review and adjust parameters if necessary.\\\n7. Finalization and Export Options: Once satisfied, the owner selects an export option (PDF, CSV, etc.) or schedules the report for periodic generation. (User Action & System Confirmation)\\\n8. Confirmation and History Logging: The system confirms successful report generation, logs the report in the history section, and provides options to view previous reports.\\\n9. Template Saving Option: Optionally, the owner can save the current configuration as a template for future reports.\", \"screens\": [{\"screenName\": \"Dashboard Screen\", \"description\": \"The main overview screen providing quick access to various modules, including Reports.\"}, {\"screenName\": \"Reports Dashboard\", \"description\": \"A central hub displaying available reporting options and summaries.\"}, {\"screenName\": \"Customizable Reports Screen\", \"description\": \"Interface for selecting and configuring report parameters, such as date range, piglet types, and metrics.\"}, {\"screenName\": \"Report Preview Screen\", \"description\": \"Displays a live preview of the report based on selected parameters for review and adjustments.\"}, {\"screenName\": \"Export Options Screen\", \"description\": \"Offers various export formats and scheduling options for final report generation.\"}, {\"screenName\": \"Confirmation/History Screen\", \"description\": \"Confirms successful report generation and displays a log of previously generated reports for reference.\"}]}",
+      {
+        "featureName": "Dashboard Analytics",
+        "flow": "1. User Authentication: The farm owner or a staff member logs into the system using their secure credentials.\n2. Dashboard Overview: Upon login, the user is directed to a summary dashboard that presents key performance indicators such as piglet growth metrics, health statistics, and revenue trends. (Role: Farm Owner, Staff)\n3. Navigation to Detailed Analytics: From the overview, the user selects the Detailed Analytics option to drill down into specific data points including time-series analyses, comparative growth rates, and environmental conditions. (Role: Farm Owner, Staff)\n4. Filter Settings Access: The user clicks on the filter settings option to refine the displayed data by date range, piglet type, or specific health indicators, ensuring the analytics view matches their desired criteria. (Role: Farm Owner, Staff)\n5. Dynamic Data Review: After applying filters, the system updates the charts and graphs in real-time, allowing the user to interact with the data and view detailed breakdowns. (Role: Farm Owner, Staff)\n6. Report Generation: Optionally, the user may navigate to the report generation section from the detailed view to create downloadable reports (monthly, quarterly, or annual) summarizing the analytics. (Role: Farm Owner, Staff)\n7. Exit or Further Actions: The user can save their filter settings for future sessions, return to the main dashboard, or log out after reviewing the analytics.",
+        "screens": [
+          "Dashboard Overview Screen: Displays a high-level summary of key metrics including overall piglet health, growth trends, and revenue statistics.",
+          "Detailed Analytics Screen: Offers in-depth, interactive charts and graphs that allow users to drill down into specific metrics and trends.",
+          "Filter Settings Screen: Provides options for users to apply filters such as date ranges, piglet types, and health parameters to customize data visualization.",
+          "Report Generation Screen: Enables users to compile and download comprehensive reports based on selected data, available in monthly, quarterly, or annual formats.",
+          "Alerts and Notifications Panel: Integrated section within the dashboard that highlights critical updates regarding piglet health issues or operational anomalies."
+        ]
+      },
+      {
+        "featureName": "Compliance Reporting",
+        "flow": "1. Login and Authentication: The user (either a staff member or the farm owner) logs into the system using secure credentials.\n2. Navigate to Reporting Module: The user accesses the Reporting & Analytics section from the main dashboard.\n3. Select Compliance Reporting: Within the reporting module, the user selects the Compliance Reporting option to view regulatory adherence and internal policy compliance data.\n4. Set Filters and Criteria: The user is prompted to define report parameters such as date range, piglet categories, and specific compliance criteria (e.g., feeding, health checks, environmental controls). Role Involved: Staff sets detailed criteria while the farm owner may review predefined filters.\n5. Data Aggregation and Analysis: The system aggregates records from piglet growth, health logs, environmental monitors, and compliance checks. Automated validation processes run in the background to flag any non-compliance issues.\n6. Display Summary Report: The system renders a Compliance Summary that includes graphs, tables, and key performance indicators. Roles Involved: Both staff and farm owner review the summarized data.\n7. Detailed View and Drill-Down: The user can click on specific sections to view detailed logs and individual compliance issues with corresponding notes and historical data.\n8. Export and Share: The final step allows the user to export the report (PDF, CSV) and share it with regulatory bodies or internal stakeholders for further review.",
+        "screens": [
+          "Reporting Dashboard - Provides an overview of all available reports and quick navigation options.",
+          "Compliance Report Filter - Enables users to set up filters (date range, piglet type, compliance criteria) for generating customized reports.",
+          "Compliance Summary - Displays aggregated compliance data using graphs, tables, and metrics to quickly assess overall adherence.",
+          "Compliance Detail View - Offers a drill-down interface where users can inspect individual non-compliance issues, detailed records, and corrective actions.",
+          "Export Report - Presents options for exporting the generated report in various formats (e.g., PDF, CSV) and confirms successful downloads."
+        ]
+      }
+    ]
+  }
+]

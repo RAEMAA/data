@@ -1,0 +1,135 @@
+[
+  {
+    "category": "Order Management",
+    "features": [
+      {
+        "featureName": "Streamlined order taking by waiters",
+        "flow": "1. Waiter logs into the CDC central management system using secure credentials. (User Role: Waiter)\n2. Upon login, the waiter is directed to the Table Selection screen where they select the relevant table or section. (User Role: Waiter)\n3. The system displays the Digital Menu screen, showcasing available food and beverage items with detailed descriptions and images. (User Role: Waiter)\n4. The waiter selects items and customizes orders if necessary (e.g., special instructions, modifications). (User Role: Waiter)\n5. The system navigates to the Order Summary screen where all selections are reviewed and can be edited before confirmation. (User Role: Waiter)\n6. Once confirmed, the waiter submits the order. The system validates the details and logs the order into the Order Management database. (User Role: Waiter)\n7. The system then displays an Order Confirmation screen to the waiter, confirming that the order has been successfully registered and will be processed. (User Role: Waiter)",
+        "screens": [
+          "Login Screen: Allows waiters to securely access the system with their credentials.",
+          "Table Selection Screen: Lets waiters choose the specific table or dining section to begin the order process.",
+          "Digital Menu Screen: Displays the full menu with detailed information, enabling item selection and customization.",
+          "Order Summary Screen: Provides a review of selected items, allowing for modifications before final submission.",
+          "Order Confirmation Screen: Confirms the successful placement of the order and provides any next-step instructions."
+        ]
+      },
+      {
+        "featureName": "Seamless order transfer to the preparation area",
+        "flow": "1. Once an order is confirmed by the waiter, the system automatically routes the order details to the preparation area. (User Role: System/Automated Process)\n2. The Preparation Area dashboard (viewed by kitchen staff/chefs) receives a real-time update of the new order. (User Role: Kitchen Staff/Chef)\n3. The kitchen staff logs into the preparation area dashboard to view the list of incoming orders. (User Role: Kitchen Staff/Chef)\n4. The staff selects an order to see detailed instructions, item list, and any special requests. (User Role: Kitchen Staff/Chef)\n5. The system provides a notification or status update confirming that the order has been received and is being processed. (User Role: System/Automated Process)\n6. Once the order preparation begins, staff updates the status, which is reflected back in the centralized order management system for tracking and billing purposes. (User Role: Kitchen Staff/Chef)",
+        "screens": [
+          "Order Transfer Notification Screen: Notifies the system and preparation area of a new order being available.",
+          "Preparation Area Dashboard: Displays a real-time list of incoming orders with status indicators for kitchen staff.",
+          "Order Detail Screen (Preparation): Provides comprehensive order details including custom requests and special instructions for the staff to execute the preparation."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Billing and Payment",
+    "features": [
+      {
+        "featureName": "Automatic bill generation",
+        "flow": "1. Order Completion (Waiter Role): Once a customer’s order is finalized using the order taking interface at any CDC branch, the waiter confirms that the order is complete. The system receives real-time order data. 2. Data Consolidation (System Role): The system automatically aggregates all ordered items, applicable taxes, service charges, and any discounts from associated business rules. 3. Pre-Bill Generation (System Role): Based on the consolidated order data, the system automatically generates a preliminary bill. A confirmation notification is triggered, alerting the waiter to review. 4. Bill Review (Waiter/Cashier Role): The waiter (or if delegated, cashier) reviews the generated bill on a detailed preview screen to ensure accuracy. If discrepancies are found, adjustments can be made manually. 5. Customer Verification (Waiter Role): The final bill is shown to the customer for cross-verification. 6. Payment Processing (Cashier/Waiter Role): Upon customer confirmation, the system transitions to the payment processing step where the customer makes a payment through cash, card, or other available methods. 7. Bill Finalization (System Role): After successful payment, the system finalizes the bill by recording the transaction in the business management system and generating a digital/print receipt. 8. Transaction Closure (Manager Role Optional): For audit purposes, the system logs the detailed bill transaction which can be reviewed later by the branch manager or central financial team.",
+        "screens": [
+          "Order Completion Screen: Allows waiters to review the order details, confirm that the order is complete, and trigger the billing process.",
+          "Bill Preview Screen: Displays the automatically generated bill with itemized details, tax calculations, discounts, and service charges for review and confirmation.",
+          "Payment Processing Screen: Provides an interface to input payment details, select payment methods, and process the customer’s payment.",
+          "Receipt Screen: Shows the final receipt details after payment has been processed, with an option to print or email the receipt to the customer.",
+          "Transaction Log Screen: (For managerial review) Displays detailed transaction records for auditing and branch performance evaluation."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Reporting and Analytics",
+    "features": [
+      {
+        "featureName": "Generation of detailed revenue reports for each branch",
+        "flow": "1. Branch manager or designated accountant logs into the centralized business management system. 2. The user selects the 'Revenue Reports' module from the main dashboard. 3. The system prompts the user to choose the branch for which to generate the report. 4. The user selects a specific branch from a dropdown list populated with all available branches. 5. The system displays filter options (e.g., date range, time period, report type). 6. The user sets the desired filters for the detailed branch report and submits the request. 7. The system processes the data, aggregates the branch's revenue from order executions, and generates a detailed revenue report. 8. The report is displayed on screen with options for further drill-down details like specific time stamps, daily performance, menu item breakdown, etc. 9. The user can export the report in various formats (PDF, Excel) or print the report. 10. If the report requires further adjustments, the user modifies the filter criteria and regenerates the report. Roles involved: Branch Manager, Accountant, System Admin (if necessary for data load issues).",
+        "screens": [
+          "Login Screen: For secure authentication of branch managers and accountants.",
+          "Dashboard Screen: Overview of modules including access to 'Revenue Reports' section.",
+          "Branch Selection Screen: Dropdown or list view to select a specific branch for detailed reporting.",
+          "Filter Options Screen: Provides fields to select date range, time period, and report type.",
+          "Detailed Report Screen: Displays the detailed revenue report with breakdowns and analytics.",
+          "Export/Print Options Screen: Allows users to export the report in various formats or print the document."
+        ]
+      },
+      {
+        "featureName": "Comprehensive revenue reports for the entire chain",
+        "flow": "1. Corporate manager or authorized executive logs into the business management system using secure credentials. 2. The user accesses the 'Chain-Wide Reporting' section from the main dashboard menu. 3. The system presents summary filters for date ranges, regions, and other criteria relevant for the entire chain. 4. The user applies desired filters to compile data across all branches. 5. The system aggregates revenue data from each branch, performs necessary calculations, and generates a comprehensive revenue report. 6. The report includes comparative analytics, overall revenue trends, regional performance summaries, and highlights of top-performing branches. 7. The user reviews the report and selects to either view detailed drill-downs by branch or obtain a summary view. 8. Options to compare multi-period data and forecast trends are provided. 9. The report can be exported in preferred formats (PDF, Excel) or shared directly with other stakeholders via a secure portal. Roles involved: Corporate Manager, Financial Analyst, System Administrator (for data integrity and issue resolution).",
+        "screens": [
+          "Login Screen: For authentication of corporate-level users.",
+          "Corporate Dashboard Screen: Central access point for chain-wide reports and analytics modules.",
+          "Filter and Criteria Selection Screen: Allows selection of date range, regions, and other comprehensive filters.",
+          "Comprehensive Report Overview Screen: Displays summarized revenue data across the entire chain with visual charts and statistics.",
+          "Detailed Drill-Down Screen: Provides in-depth branch-level breakdowns and comparisons when the user drills down into the data.",
+          "Export and Sharing Options Screen: Facilitates exporting of reports and secure sharing options for stakeholders."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Operational Data Management",
+    "features": [
+      {
+        "featureName": "Integration and management of operational data from all branches",
+        "flow": "Step 1: Branch Data Entry - Branch staff at each CDC location inputs operational data (e.g., orders, billing, and service metrics) into the local system. Roles: Branch Staff.\nStep 2: Data Transmission - The local systems automatically send the consolidated data to the centralized system via secure APIs. Roles: Automated System, IT Support.\nStep 3: Data Aggregation and Validation - The central system aggregates all incoming data and performs preliminary validations (e.g., checking for data completeness and consistency). Roles: System Administrator, Data Analyst.\nStep 4: Data Management Review - The Operational Data Manager reviews the aggregated data, addresses discrepancies, and marks data as approved for further processing. Roles: Operational Data Manager, Data Analyst.\nStep 5: Report Generation and Analysis - The system generates detailed operational reports (e.g., revenue reports per branch and chain-wide summaries) and displays them on the dashboard. Roles: Data Analyst, Management.\nStep 6: Drill-Down Investigation - For anomalies or detailed analysis, administrators can drill down into specific branch data to view granular details. Roles: System Administrator, Data Analyst.\nStep 7: Continuous Monitoring - The system continually monitors data flows and synchronization status, alerting IT support or management in case of issues. Roles: IT Support, System Administrator.",
+        "screens": [
+          "Central Dashboard: Displays a consolidated view of operational data from all branches including key performance indicators and synchronization status.",
+          "Branch Data Detail Screen: Provides in-depth data for individual branches such as orders, billing, and service metrics.",
+          "Data Validation Screen: Allows administrators and analysts to review, flag, and approve or reject incoming data to ensure accuracy.",
+          "Operational Report Screen: Presents automatically generated revenue and performance reports for both individual branches and the full chain.",
+          "Data Synchronization Status Screen: Shows real-time updates on the data transmission process, highlighting any connectivity or integration issues."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Branch Management",
+    "features": [
+      {
+        "featureName": "Centralized management of multiple branches nationwide",
+        "flow": "Step 1: Administrator logs into the centralized management system using Secure Login credentials. (User Role: Administrator) | Step 2: After authentication, the Administrator accesses the main dashboard and selects the 'Branch Management' module. (User Role: Administrator) | Step 3: The system displays an overview dashboard with a list of all branches nationwide showing key details like branch name, location, and performance metrics. (User Role: Administrator) | Step 4: The Administrator selects a specific branch from the list to view detailed information such as address, contact details, operational hours, and up-to-date revenue reports. (User Role: Administrator, Branch Manager) | Step 5: On the branch details screen, the Administrator can perform actions such as editing branch information, adding a new branch, or deactivating an underperforming branch. (User Role: Administrator) | Step 6: Once changes are made, a confirmation prompt appears and, once confirmed, the system updates the central database. The system also sends notifications to relevant branch managers regarding the updates. (User Role: Administrator, Branch Manager) | Step 7: The Administrator then navigates to the 'Revenue Reports' section to generate and review detailed financial performance metrics for individual branches and the overall chain. (User Role: Administrator) | Step 8: The system automatically aggregates data from all branches and displays performance trends, enabling data-driven decisions for national operations. (User Role: Administrator)",
+        "screens": [
+          "Login Screen: Provides secure authentication for the Administrator and authorized staff.",
+          "Admin Dashboard: Acts as the central hub with navigation options to all modules including branch management and revenue reports.",
+          "Branch Management Dashboard: Displays a list of all branches, brief summaries, and quick action options (view, edit, add, or deactivate).",
+          "Branch Details Screen: Shows detailed information of a selected branch along with editable fields for updating branch-specific information.",
+          "Notification & Alerts Screen: Informs users about recent changes, updates, or alerts regarding branch operations.",
+          "Revenue Reports Screen: Presents detailed financial reports and performance analytics visualized through charts and tables for both individual branches and the entire network."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Staff Assistance",
+    "features": [
+      {
+        "featureName": "Simplifying processes and reducing unnecessary movement for waiters",
+        "flow": "1. Waiter logs into the mobile/terminal application using secure credentials. (Role: Waiter) \n2. The system opens the Home Dashboard displaying current orders, table assignments, and available functions. (Role: Waiter) \n3. Waiter selects a table and taps 'New Order', which loads the Order Input screen. (Role: Waiter) \n4. The waiter inputs the customer’s order by selecting items, customizations, and notes. (Role: Waiter) \n5. The order is confirmed, and the system automatically transmits the order details to the prep area (e.g., kitchen display) while also providing a summary confirmation for the waiter. (Role: System, Waiter, Chef/Prep Staff) \n6. Once the order is fulfilled, the system automatically generates a draft bill, which the waiter reviews and confirms. (Role: Waiter) \n7. The final bill is generated and optionally sent to the customer’s mobile device or printed. (Role: System, Waiter) \n8. Throughout the process, the system minimizes physical movement by centralizing input and order processing through the digital platform. (Role: System, Waiter)",
+        "screens": [
+          "Login Screen: Secure login page for waiters to input credentials.",
+          "Home Dashboard: Overview screen displaying current tables, orders, and quick access buttons for creating or updating orders.",
+          "Table Selection Screen: List of tables where the waiter selects a table to manage orders.",
+          "Order Input Screen: Interactive screen for item selection, customizations, and adding notes.",
+          "Order Confirmation Screen: A summary page for review and confirmation of the entered order details.",
+          "Kitchen/Prep Notification Screen: Interface that automatically forwards order details to the kitchen or prep area (could be on a separate device or shared screen).",
+          "Bill Generation Screen: Screen that compiles the order details into a draft bill for review and final confirmation."
+        ]
+      },
+      {
+        "featureName": "Supporting local staff with operational tasks",
+        "flow": "1. Local staff logs into the centralized business management system using their credentials. (Role: Local Staff) \n2. Upon logging in, the system directs the user to a dashboard that provides an overview of branch-specific operational metrics and pending tasks. (Role: Local Staff) \n3. The local staff navigates to the Operations Module where they can view real-time reports (e.g., revenue, order status) and manage daily tasks such as inventory checks, scheduling, or maintenance requests. (Role: Local Staff) \n4. For tasks that require further details, the user clicks on specific alerts or task items which opens a detailed task view screen with actionable buttons (e.g., mark complete, escalate). (Role: Local Staff) \n5. The system offers an integrated messaging or notification feature that alerts staff to critical updates or changes from the central office. (Role: System, Local Staff) \n6. After processing tasks or reviewing reports, the local staff logs out, ensuring that all changes are saved and synchronized with the central system. (Role: Local Staff)",
+        "screens": [
+          "Login Screen: Authentication page for local staff to securely access the system.",
+          "Staff Dashboard: Central overview panel displaying operational metrics, upcoming tasks, and key alerts for the branch.",
+          "Operations Module Screen: Detailed view for managing daily tasks, operational reports, and system notifications.",
+          "Task Detail Screen: Screen providing in-depth information on selected tasks with options for modification, completion, or escalation.",
+          "Reports and Analytics Screen: Interface displaying revenue reports and other operational data, with filtering and export options.",
+          "Notifications Screen: Dedicated page for system alerts, messages from central management, and other critical updates."
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,78 @@
+[
+    {
+        "id": "P1",
+        "phase": "Requirement Gathering & Planning",
+        "feature_list": [],
+        "estimatedTime": 7,
+        "startTime": "2024-07-19",
+        "endTime": "2024-07-26",
+        "dependencies": []
+    },
+    {
+        "id": "P2",
+        "phase": "Order Management System Development",
+        "feature_list": [
+            "Order taking interface for waiters",
+            "Order transmission to preparation room"
+        ],
+        "estimatedTime": 14,
+        "startTime": "2024-07-27",
+        "endTime": "2024-08-09",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P3",
+        "phase": "Billing and Payments Module",
+        "feature_list": [
+            "Automated bill generation"
+        ],
+        "estimatedTime": 10,
+        "startTime": "2024-07-27",
+        "endTime": "2024-08-05",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P4",
+        "phase": "Branch Management Development",
+        "feature_list": [
+            "Centralized consolidation and management of business information from all locations"
+        ],
+        "estimatedTime": 14,
+        "startTime": "2024-08-06",
+        "endTime": "2024-08-19",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P5",
+        "phase": "Reporting and Analytics Development",
+        "feature_list": [
+            "Detailed revenue reports per branch",
+            "Comprehensive revenue reports for the entire chain"
+        ],
+        "estimatedTime": 14,
+        "startTime": "2024-08-20",
+        "endTime": "2024-09-02",
+        "dependencies": [
+            "P2",
+            "P3",
+            "P4"
+        ]
+    },
+    {
+        "id": "P6",
+        "phase": "Testing and Deployment",
+        "feature_list": [],
+        "estimatedTime": 7,
+        "startTime": "2024-09-03",
+        "endTime": "2024-09-09",
+        "dependencies": [
+            "P5"
+        ]
+    }
+]

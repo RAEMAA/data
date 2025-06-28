@@ -1,0 +1,53 @@
+[
+    {
+        "category": "Piglet Management",
+        "list_feature": [
+            "Track piglet growth (weight, size)",
+            "Record feeding data (schedule, feed type, amount)",
+            "Monitor temperature (ambient and/or piglet body temperature)",
+            "Monitor environmental conditions (humidity, air quality)",
+            "Track health issues and common diseases (symptoms, diagnosis, treatment)",
+            "Manage piglet categories (different types of piglets)"
+        ]
+    },
+    {
+        "category": "User Management",
+        "list_feature": [
+            "Manage user accounts for farm staff and farmers",
+            "Implement role-based access control for staff, farmers, and farm owner (admin)",
+            "User registration and login for farmers"
+        ]
+    },
+    {
+        "category": "Farm Staff Functionality",
+        "list_feature": [
+            "Update and maintain piglet information",
+            "Record import and export data",
+            "Track revenue statistics",
+            "Monitor overall piglet wellbeing"
+        ]
+    },
+    {
+        "category": "Farmer Functionality",
+        "list_feature": [
+            "Browse available piglets with detailed information",
+            "Place orders for piglets",
+            "Communicate with the farm regarding feeding and vaccination procedures"
+        ]
+    },
+    {
+        "category": "Farm Owner Functionality",
+        "list_feature": [
+            "Maintain up-to-date piglet and farm information",
+            "Post promotional announcements",
+            "Generate detailed monthly, quarterly, and annual reports"
+        ]
+    },
+    {
+        "category": "Reporting and Analytics",
+        "list_feature": [
+            "Generate revenue statistics reports",
+            "Generate growth and health performance reports"
+        ]
+    }
+]

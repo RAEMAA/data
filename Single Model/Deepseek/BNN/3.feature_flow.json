@@ -1,0 +1,279 @@
+[
+  {
+    "category": "User Registration and Management",
+    "features": [
+      {
+        "featureName": "Farmer registration with bank account verification",
+        "flow": "1. User navigates to registration page from homepage (Role: Farmer). 2. Selects 'Farmer' role. 3. Enters personal details (name, phone, email, address). 4. Inputs bank account details (account number, bank name). 5. Uploads ID and bank document for verification. 6. System sends OTP to registered phone/email for verification. 7. User submits OTP to confirm. 8. System validates bank account via third-party API. 9. Approval notification sent via email/SMS. 10. Farmer gains access to dashboard.",
+        "screens": [
+          "Homepage: Landing screen with registration/login options.",
+          "Registration Type Selection: Screen to choose 'Farmer' or 'Customer' role.",
+          "Farmer Registration Form: Form for personal and bank details input.",
+          "Bank Account Verification: Interface to upload documents and verify OTP.",
+          "Document Upload Screen: Upload ID and bank statements.",
+          "Verification Status Screen: Displays approval progress.",
+          "Confirmation Screen: Success message with login prompts."
+        ]
+      },
+      {
+        "featureName": "Customer registration (basic details)",
+        "flow": "1. User selects 'Customer' role on registration page (Role: Customer). 2. Enters basic details (name, email, phone, address). 3. Sets password. 4. Verifies email/phone via OTP. 5. Account created; redirected to homepage.",
+        "screens": [
+          "Registration Type Selection: Screen to choose 'Farmer' or 'Customer' role.",
+          "Customer Registration Form: Simple form for name, email, phone, and address.",
+          "OTP Verification Screen: Validates phone/email with one-time password.",
+          "Confirmation Screen: Success message and login button."
+        ]
+      },
+      {
+        "featureName": "Profile management for farmers and customers",
+        "flow": "1. User logs in (Role: Farmer/Customer). 2. Navigates to 'Profile' section. 3. Edits personal details, shipping address (Customer), or bank details (Farmer). 4. Farmers re-upload documents if bank info changes. 5. Saves changes; system updates data.",
+        "screens": [
+          "Profile Dashboard: Overview of user details and edit options.",
+          "Edit Profile Screen: Form to modify personal/bank/shipping details.",
+          "Bank Account Update Screen (Farmer): Edit bank info and upload documents.",
+          "Shipping Address Management (Customer): Add/edit delivery addresses.",
+          "Document Re-upload Screen: For farmers updating bank documents.",
+          "Confirmation Screen: Success notification after updates."
+        ]
+      },
+      {
+        "featureName": "Secure login/authentication for users",
+        "flow": "1. User accesses login screen (Role: Farmer/Customer). 2. Enters email/phone and password. 3. Option for OTP-based login. 4. System authenticates credentials. 5. Redirects to role-specific dashboard.",
+        "screens": [
+          "Login Screen: Input for credentials or OTP request.",
+          "OTP Verification Screen: Validates one-time password.",
+          "Password Reset Screen: Forgot password flow with email/phone verification.",
+          "Role-Based Dashboard Redirect: Post-login screen based on user role."
+        ]
+      },
+      {
+        "featureName": "Role-based access (farmer vs. customer)",
+        "flow": "1. User logs in (Role: Farmer/Customer). 2. System checks role. 3. Farmers directed to product listing/management dashboard. 4. Customers directed to product browsing/purchase dashboard. 5. Unauthorized actions trigger access-denied alerts.",
+        "screens": [
+          "Farmer Dashboard: Interface for managing product listings, sales, and bank details.",
+          "Customer Dashboard: Product search, cart, and order history.",
+          "Access Denied Screen: Error message for restricted actions."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Product Listing and Management",
+    "features": [
+      {
+        "featureName": "Product creation (title, description, images, price, category)",
+        "flow": "1. Farmer navigates to their dashboard (Farmer Role). 2. Clicks 'Create New Product'. 3. Fills in product details (title, description, price) on the Product Creation Form. 4. Selects a category from a predefined list. 5. Uploads product images. 6. Reviews details on the Preview Screen. 7. Submits the product for listing. 8. Receives a confirmation message.",
+        "screens": [
+          "Dashboard: Farmer's homepage with options to create/edit products.",
+          "Product Creation Form: Form with fields for title, description, price, category dropdown, and image upload.",
+          "Preview Screen: Displays a summary of the product details for final review.",
+          "Confirmation Screen: Notifies the farmer that the product was successfully listed."
+        ]
+      },
+      {
+        "featureName": "Product categorization (e.g., rice, fruits, fish)",
+        "flow": "1. Farmer selects a category during product creation or editing (Farmer Role). 2. System auto-organizes the product into the selected category for customer browsing. 3. Customers filter/search products by category on the marketplace.",
+        "screens": [
+          "Product Creation Form: Includes a dropdown for selecting predefined categories (e.g., rice, fruits, fish).",
+          "Product Edit Form: Allows farmers to update the category of an existing product.",
+          "Marketplace Browse Screen: Displays products organized by category for customers."
+        ]
+      },
+      {
+        "featureName": "Product editing/deletion by farmers",
+        "flow": "1. Farmer navigates to their product list via the dashboard (Farmer Role). 2. Selects a product to edit or delete. 3. For edits: Updates details on the Product Edit Form and saves changes. 4. For deletion: Confirms removal via a popup. 5. System updates or removes the product from the marketplace.",
+        "screens": [
+          "Product List Screen: Displays all products listed by the farmer with edit/delete options.",
+          "Product Edit Form: Pre-filled form for modifying product details.",
+          "Delete Confirmation Popup: Asks for confirmation before permanent deletion."
+        ]
+      },
+      {
+        "featureName": "Image upload support for product listings",
+        "flow": "1. Farmer uploads images during product creation or editing (Farmer Role). 2. System validates image format/size. 3. Farmer can reorder or delete images. 4. Images are displayed on the product listing for customers.",
+        "screens": [
+          "Image Upload Widget: Embedded in Product Creation/Edit Form for drag-and-drop or file selection.",
+          "Image Gallery Preview: Thumbnail view of uploaded images with options to reorder/delete.",
+          "Product Detail Screen (Customer View): Displays product images in a carousel format."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "E-commerce Core Features",
+    "features": [
+      {
+        "featureName": "Product browsing by category or keyword search",
+        "flow": "1. (Customer) Accesses the homepage. 2. (Customer) Uses the search bar to enter keywords or selects a product category from the navigation menu. 3. (System) Displays search results or products within the selected category. 4. (Customer) Applies filters (e.g., price range, product type) or sorts results (e.g., by price, popularity). 5. (Customer) Clicks a product to view its detailed information. 6. (System) Directs the user to the product detail screen.",
+        "screens": [
+          "Homepage: Displays featured products, categories, and a search bar.",
+          "Search Results Screen: Lists products matching keywords or categories with filtering/sorting options.",
+          "Product Detail Screen: Shows product images, descriptions, pricing, and seller information.",
+          "Category Navigation Screen: Provides a hierarchical view of product categories (if separate from the homepage)."
+        ]
+      },
+      {
+        "featureName": "Product comparison tool for customers",
+        "flow": "1. (Customer) Selects the 'Compare' button on a product detail screen. 2. (System) Adds the product to a temporary comparison list. 3. (Customer) Repeats steps 1-2 for up to 3-4 products. 4. (Customer) Navigates to the comparison tool screen. 5. (System) Displays selected products side-by-side with attributes like price, ratings, and specifications.",
+        "screens": [
+          "Product Detail Screen: Includes a 'Compare' button to add the product to the comparison list.",
+          "Comparison Tool Screen: Shows a side-by-side table of selected products with key attributes.",
+          "Comparison Notification Pop-up: Confirms products added to the comparison list (optional)."
+        ]
+      },
+      {
+        "featureName": "Shopping cart functionality",
+        "flow": "1. (Customer) Clicks 'Add to Cart' on a product detail screen. 2. (System) Updates cart quantity and displays a confirmation. 3. (Customer) Navigates to the shopping cart screen. 4. (Customer) Adjusts item quantities or removes items. 5. (System) Recalculates the total cost dynamically. 6. (Customer) Proceeds to checkout or continues shopping.",
+        "screens": [
+          "Shopping Cart Screen: Lists all added items, quantities, prices, and total cost with edit options.",
+          "Cart Summary Widget: Displays a mini-cart preview (e.g., item count, total) on other screens."
+        ]
+      },
+      {
+        "featureName": "Checkout process with order summary",
+        "flow": "1. (Customer) Clicks 'Proceed to Checkout' from the cart screen. 2. (Customer) Enters or selects a shipping address. 3. (Customer) Chooses a shipping method (if applicable). 4. (Customer) Selects a payment method (e.g., bank transfer, e-wallet). 5. (Customer) Reviews the order summary, including items, costs, and shipping details. 6. (Customer) Confirms the order to initiate payment.",
+        "screens": [
+          "Checkout Screen: Multi-step form for shipping, payment, and order review.",
+          "Payment Screen: Securely captures payment details (e.g., card information, e-wallet redirect).",
+          "Order Summary Screen: Displays final order details before confirmation."
+        ]
+      },
+      {
+        "featureName": "Order confirmation and notifications",
+        "flow": "1. (System) Validates payment and generates an order ID. 2. (System) Displays an order confirmation screen with tracking details. 3. (System) Sends an automated email/SMS to the customer with order details. 4. (Customer) Accesses the 'Order History' screen to view status updates. 5. (System) Notifies the seller of the new order for fulfillment.",
+        "screens": [
+          "Order Confirmation Screen: Shows order ID, items, total cost, and estimated delivery date.",
+          "Order History Screen: Lists all past and current orders with statuses (e.g., 'Processing,' 'Shipped').",
+          "Notification Settings Screen: Allows users to manage email/SMS alerts (if beyond core scope, include as a placeholder)."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Payment and Transaction Processing",
+    "features": [
+      {
+        "featureName": "Secure online payment gateway integration",
+        "flow": "1. Customer selects products and clicks 'Checkout'. [Role: Customer]\n2. System redirects to checkout screen with order summary and payment options. [Role: System]\n3. Customer selects 'Online Payment' and clicks 'Proceed'. [Role: Customer]\n4. System connects to third-party payment gateway (e.g., VNPay, MoMo). [Role: System]\n5. Customer enters card/bank details and authenticates via OTP/3D Secure. [Role: Customer]\n6. Payment gateway confirms success/failure. [Role: Payment Gateway]\n7. System updates order status and redirects to confirmation screen. [Role: System]",
+        "screens": [
+          "Checkout Screen: Displays order summary, total price, and payment method options.",
+          "Payment Method Selection: Lists payment options (e.g., bank transfer, e-wallet).",
+          "Payment Gateway Screen: Embedded third-party interface for secure payment details entry.",
+          "Payment Authentication Screen: OTP/3D Secure verification prompt.",
+          "Payment Confirmation Screen: Shows payment success/failure and order ID."
+        ]
+      },
+      {
+        "featureName": "Direct bank transaction support for farmers",
+        "flow": "1. Farmer registers on the platform and navigates to 'Bank Account Settings'. [Role: Farmer]\n2. Farmer inputs bank account details (name, account number, branch). [Role: Farmer]\n3. System validates account via API with partner banks. [Role: System]\n4. Upon successful validation, system saves details for future transactions. [Role: System]\n5. After a sale, system automatically transfers earnings to the farmer’s bank account. [Role: System]\n6. Farmer receives SMS/email notification for completed transfer. [Role: System]",
+        "screens": [
+          "Bank Account Input Screen: Form for farmers to enter bank details.",
+          "Validation Feedback Screen: Displays success/error messages for bank account verification.",
+          "Transaction Processing Screen: Shows pending/completed transfers in the farmer’s dashboard."
+        ]
+      },
+      {
+        "featureName": "Payment confirmation and receipts",
+        "flow": "1. After successful payment, system generates a transaction ID. [Role: System]\n2. Customer receives an on-screen confirmation with order and payment details. [Role: Customer]\n3. System sends an automated email/SMS with a downloadable receipt. [Role: System]\n4. Customer can access receipts via 'Order History' section. [Role: Customer]",
+        "screens": [
+          "Payment Confirmation Screen: Displays transaction ID, paid amount, and order details.",
+          "Receipt Download Screen: Allows users to view/download PDF receipts."
+        ]
+      },
+      {
+        "featureName": "Transaction history tracking for users",
+        "flow": "1. User navigates to 'Transaction History' in their profile. [Role: User]\n2. System displays a filterable list of all transactions (date, amount, status). [Role: System]\n3. User clicks a transaction to view details (e.g., items purchased, payment method). [Role: User]\n4. User can export history as CSV/PDF for record-keeping. [Role: User]",
+        "screens": [
+          "Transaction History List Screen: Shows chronological list of transactions with basic info.",
+          "Transaction Details Screen: Displays full details of a selected transaction.",
+          "Export Options Screen: Provides formats (CSV/PDF) for exporting transaction data."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Order and Shipping Management",
+    "features": [
+      {
+        "featureName": "Order tracking system",
+        "flow": "1. Customer navigates to 'My Orders' section. 2. Customer selects a specific order to track. 3. System fetches real-time shipping data (e.g., carrier API integration). 4. System displays tracking status (e.g., 'In Transit', 'Out for Delivery'). 5. Customer receives SMS/email notifications for major status changes (role: system).",
+        "screens": [
+          "Order History Screen: Lists all past/present orders with basic status (e.g., pending, shipped).",
+          "Order Tracking Screen: Displays detailed tracking timeline, carrier info, and estimated delivery date.",
+          "Notification Settings Screen: Allows users to enable/disable SMS/email alerts for order updates."
+        ]
+      },
+      {
+        "featureName": "Shipping address input and validation",
+        "flow": "1. Customer proceeds to checkout. 2. System prompts to enter/select a shipping address. 3. Customer inputs address manually or selects from saved addresses. 4. System validates address format via third-party API (e.g., Google Maps). 5. Invalid addresses trigger an error message with correction suggestions (role: system).",
+        "screens": [
+          "Checkout Screen: Main interface for finalizing purchase, including address selection.",
+          "Address Input Form: Fields for street, province, district, and postal code with auto-suggestions.",
+          "Address Validation Error Modal: Highlights invalid fields and suggests corrections."
+        ]
+      },
+      {
+        "featureName": "Order status updates (e.g., pending, shipped, delivered)",
+        "flow": "1. Farmer marks order as 'Shipped' in their dashboard (role: farmer). 2. System updates status and notifies customer via email/SMS. 3. Delivery partner updates final status to 'Delivered' via integrated API. 4. Customer confirms receipt through the platform (role: customer).",
+        "screens": [
+          "Seller Dashboard: Allows farmers to update order status and add tracking numbers.",
+          "Order Status Screen: Customer-facing view with color-coded status badges and timestamps.",
+          "Delivery Confirmation Screen: Post-delivery survey and option to report issues."
+        ]
+      },
+      {
+        "featureName": "Basic shipping cost calculation",
+        "flow": "1. Customer adds products to cart. 2. System calculates shipping cost based on total weight, delivery distance (province-level), and carrier rates. 3. Customer selects preferred shipping method (e.g., standard vs. express). 4. System updates total cost dynamically during checkout (role: system).",
+        "screens": [
+          "Cart Summary Screen: Displays itemized costs including preliminary shipping estimates.",
+          "Shipping Method Selection Screen: Compares pricing/delivery timelines for available carriers.",
+          "Order Confirmation Screen: Final breakdown of product + shipping costs before payment."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Administrative and Monitoring Tools",
+    "features": [
+      {
+        "featureName": "Admin dashboard for user, product, and order management",
+        "flow": "1. Admin logs into the dashboard (Admin role). 2. Dashboard displays overview metrics (users, products, orders). 3. Admin selects 'User Management' to view/edit user profiles, suspend accounts, or verify farmers. 4. Admin navigates to 'Product Management' to approve/reject product listings, flag inappropriate content, or update categories. 5. Admin accesses 'Order Management' to track order statuses, resolve disputes, or cancel orders. 6. Changes are saved and reflected in real-time.",
+        "screens": [
+          "Login Screen: Admin authentication with credentials.",
+          "Dashboard Home: Overview of key metrics and quick-access tabs.",
+          "User Management Screen: List of users with search/filter options and edit tools.",
+          "Product Management Screen: Grid of product listings with approval/rejection buttons and moderation tools.",
+          "Order Management Screen: Table of orders with filters (status, date), dispute resolution interface, and cancellation options."
+        ]
+      },
+      {
+        "featureName": "Sales and transaction analytics",
+        "flow": "1. Admin navigates to 'Analytics' tab (Admin role). 2. Selects date range, product category, or region filters. 3. Views sales trends, revenue charts, and transaction success/failure rates. 4. Drills down into individual transactions for details. 5. Exports reports as CSV/PDF for further analysis.",
+        "screens": [
+          "Analytics Dashboard: Interactive charts/graphs for sales, revenue, and transactions.",
+          "Transaction Details Screen: Granular view of payment methods, buyer/seller info, and timestamps.",
+          "Report Export Screen: Customizable export settings (format, date range, filters)."
+        ]
+      },
+      {
+        "featureName": "Farmer sales performance reports",
+        "flow": "1. Admin selects 'Farmer Reports' from the dashboard (Admin role). 2. Searches for a farmer by name/ID or filters by region/product type. 3. Views performance metrics (total sales, customer ratings, order fulfillment speed). 4. Generates a monthly/quarterly report with recommendations for improvement. 5. Shares report via email or platform messaging.",
+        "screens": [
+          "Farmer List Screen: Searchable list of registered farmers with basic stats.",
+          "Individual Farmer Performance Screen: Detailed metrics, historical data, and comparative analysis.",
+          "Report Generation Screen: Template selection, data range picker, and sharing options."
+        ]
+      },
+      {
+        "featureName": "System health and uptime monitoring",
+        "flow": "1. Admin accesses 'System Health' tab (Admin role). 2. Monitors real-time server status, API response times, and error rates. 3. Reviews audit logs for security incidents or failed transactions. 4. Configures alerts for downtime or performance thresholds. 5. Triggers manual server restarts or escalates to technical team.",
+        "screens": [
+          "System Status Screen: Live uptime dashboard with server/node health indicators.",
+          "Audit Log Screen: Filterable log entries with timestamps and severity levels.",
+          "Alert Configuration Screen: UI to set thresholds (e.g., >5% error rate) and notification channels (email/SMS)."
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,391 @@
+[
+    [
+        {
+            "id": "P1-T1",
+            "taskName": "Design Consolidated Business Information Dashboard",
+            "correspondingPhase": "Business Information Management and Staff Management",
+            "correspondingFeature": "Consolidated business information across all locations",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-16",
+            "endTime": "2024-09-17",
+            "dependencies": [],
+            "responsiblePerson": "Nguyễn Văn A"
+        },
+        {
+            "id": "P1-T2",
+            "taskName": "Implement Consolidated Business Information Dashboard",
+            "correspondingPhase": "Business Information Management and Staff Management",
+            "correspondingFeature": "Consolidated business information across all locations",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-09-17",
+            "endTime": "2024-09-19",
+            "dependencies": [
+                "P1-T1"
+            ],
+            "responsiblePerson": "Trần Thị B"
+        },
+        {
+            "id": "P1-T3",
+            "taskName": "Design Multi-Branch Management System",
+            "correspondingPhase": "Business Information Management and Staff Management",
+            "correspondingFeature": "Multi-branch management",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-16",
+            "endTime": "2024-09-16",
+            "dependencies": [],
+            "responsiblePerson": "Lê Văn C"
+        },
+        {
+            "id": "P1-T4",
+            "taskName": "Implement Multi-Branch Management System",
+            "correspondingPhase": "Business Information Management and Staff Management",
+            "correspondingFeature": "Multi-branch management",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-16",
+            "endTime": "2024-09-18",
+            "dependencies": [
+                "P1-T3"
+            ],
+            "responsiblePerson": "Phạm Thị D"
+        },
+        {
+            "id": "P1-T5",
+            "taskName": "Design Support for Local Staff",
+            "correspondingPhase": "Business Information Management and Staff Management",
+            "correspondingFeature": "Support for local staff",
+            "priority": "Low",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-17",
+            "endTime": "2024-09-17",
+            "dependencies": [],
+            "responsiblePerson": "Hoàng Văn E"
+        },
+        {
+            "id": "P1-T6",
+            "taskName": "Implement Support for Local Staff",
+            "correspondingPhase": "Business Information Management and Staff Management",
+            "correspondingFeature": "Support for local staff",
+            "priority": "Low",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-18",
+            "endTime": "2024-09-18",
+            "dependencies": [
+                "P1-T5"
+            ],
+            "responsiblePerson": "Nguyễn Thị F"
+        },
+        {
+            "id": "P1-T7",
+            "taskName": "Test Business Information Management and Staff Management",
+            "correspondingPhase": "Business Information Management and Staff Management",
+            "correspondingFeature": "",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-18",
+            "endTime": "2024-09-19",
+            "dependencies": [
+                "P1-T2",
+                "P1-T4",
+                "P1-T6"
+            ],
+            "responsiblePerson": "Trần Văn G"
+        }
+    ],
+    [
+        {
+            "id": "P2-T1",
+            "taskName": "Design Order Taking Management System",
+            "correspondingPhase": "Operations Management and Automation",
+            "correspondingFeature": "Order taking management",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-16",
+            "endTime": "2024-09-18",
+            "dependencies": [],
+            "responsiblePerson": "Nguyễn Văn A"
+        },
+        {
+            "id": "P2-T2",
+            "taskName": "Implement Order Taking Management System",
+            "correspondingPhase": "Operations Management and Automation",
+            "correspondingFeature": "Order taking management",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-09-18",
+            "endTime": "2024-09-21",
+            "dependencies": [
+                "P2-T1"
+            ],
+            "responsiblePerson": "Trần Thị B"
+        },
+        {
+            "id": "P2-T3",
+            "taskName": "Test Order Taking Management System",
+            "correspondingPhase": "Operations Management and Automation",
+            "correspondingFeature": "Order taking management",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-21",
+            "endTime": "2024-09-22",
+            "dependencies": [
+                "P2-T2"
+            ],
+            "responsiblePerson": "Lê Văn C"
+        },
+        {
+            "id": "P2-T4",
+            "taskName": "Design Automated Billing System",
+            "correspondingPhase": "Operations Management and Automation",
+            "correspondingFeature": "Automated billing",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-16",
+            "endTime": "2024-09-18",
+            "dependencies": [],
+            "responsiblePerson": "Phạm Thị D"
+        },
+        {
+            "id": "P2-T5",
+            "taskName": "Implement Automated Billing System",
+            "correspondingPhase": "Operations Management and Automation",
+            "correspondingFeature": "Automated billing",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-09-18",
+            "endTime": "2024-09-21",
+            "dependencies": [
+                "P2-T4"
+            ],
+            "responsiblePerson": "Hoàng Văn E"
+        },
+        {
+            "id": "P2-T6",
+            "taskName": "Test Automated Billing System",
+            "correspondingPhase": "Operations Management and Automation",
+            "correspondingFeature": "Automated billing",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-21",
+            "endTime": "2024-09-22",
+            "dependencies": [
+                "P2-T5"
+            ],
+            "responsiblePerson": "Nguyễn Thị F"
+        },
+        {
+            "id": "P2-T7",
+            "taskName": "Design Streamlined Operations",
+            "correspondingPhase": "Operations Management and Automation",
+            "correspondingFeature": "Streamlined operations",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-16",
+            "endTime": "2024-09-17",
+            "dependencies": [],
+            "responsiblePerson": "Trần Văn G"
+        },
+        {
+            "id": "P2-T8",
+            "taskName": "Implement Streamlined Operations",
+            "correspondingPhase": "Operations Management and Automation",
+            "correspondingFeature": "Streamlined operations",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-17",
+            "endTime": "2024-09-19",
+            "dependencies": [
+                "P2-T7"
+            ],
+            "responsiblePerson": "Lê Thị H"
+        },
+        {
+            "id": "P2-T9",
+            "taskName": "Test Streamlined Operations",
+            "correspondingPhase": "Operations Management and Automation",
+            "correspondingFeature": "Streamlined operations",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-19",
+            "endTime": "2024-09-20",
+            "dependencies": [
+                "P2-T8"
+            ],
+            "responsiblePerson": "Phạm Văn I"
+        },
+        {
+            "id": "P2-T10",
+            "taskName": "Design Minimize Manual Tasks",
+            "correspondingPhase": "Operations Management and Automation",
+            "correspondingFeature": "Minimize manual tasks",
+            "priority": "Low",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-16",
+            "endTime": "2024-09-17",
+            "dependencies": [],
+            "responsiblePerson": "Hoàng Thị J"
+        },
+        {
+            "id": "P2-T11",
+            "taskName": "Implement Minimize Manual Tasks",
+            "correspondingPhase": "Operations Management and Automation",
+            "correspondingFeature": "Minimize manual tasks",
+            "priority": "Low",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-17",
+            "endTime": "2024-09-19",
+            "dependencies": [
+                "P2-T10"
+            ],
+            "responsiblePerson": "Nguyễn Văn K"
+        },
+        {
+            "id": "P2-T12",
+            "taskName": "Test Minimize Manual Tasks",
+            "correspondingPhase": "Operations Management and Automation",
+            "correspondingFeature": "Minimize manual tasks",
+            "priority": "Low",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-19",
+            "endTime": "2024-09-20",
+            "dependencies": [
+                "P2-T11"
+            ],
+            "responsiblePerson": "Trần Thị L"
+        }
+    ],
+    [
+        {
+            "id": "P3-T1",
+            "taskName": "Design Comprehensive Revenue Reporting",
+            "correspondingPhase": "Reporting and Analytics",
+            "correspondingFeature": "Comprehensive revenue reporting",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-20",
+            "endTime": "2024-09-22",
+            "dependencies": [
+                "P1-T1",
+                "P2-T1"
+            ],
+            "responsiblePerson": "John Doe"
+        },
+        {
+            "id": "P3-T2",
+            "taskName": "Implement Comprehensive Revenue Reporting",
+            "correspondingPhase": "Reporting and Analytics",
+            "correspondingFeature": "Comprehensive revenue reporting",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-09-22",
+            "endTime": "2024-09-25",
+            "dependencies": [
+                "P3-T1"
+            ],
+            "responsiblePerson": "Jane Smith"
+        },
+        {
+            "id": "P3-T3",
+            "taskName": "Test Comprehensive Revenue Reporting",
+            "correspondingPhase": "Reporting and Analytics",
+            "correspondingFeature": "Comprehensive revenue reporting",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-25",
+            "endTime": "2024-09-26",
+            "dependencies": [
+                "P3-T2"
+            ],
+            "responsiblePerson": "Bob Johnson"
+        },
+        {
+            "id": "P3-T4",
+            "taskName": "Design Individual Branch Revenue Reporting",
+            "correspondingPhase": "Reporting and Analytics",
+            "correspondingFeature": "Individual branch revenue reporting",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-20",
+            "endTime": "2024-09-21",
+            "dependencies": [
+                "P1-T1",
+                "P2-T1"
+            ],
+            "responsiblePerson": "John Doe"
+        },
+        {
+            "id": "P3-T5",
+            "taskName": "Implement Individual Branch Revenue Reporting",
+            "correspondingPhase": "Reporting and Analytics",
+            "correspondingFeature": "Individual branch revenue reporting",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-21",
+            "endTime": "2024-09-23",
+            "dependencies": [
+                "P3-T4"
+            ],
+            "responsiblePerson": "Jane Smith"
+        },
+        {
+            "id": "P3-T6",
+            "taskName": "Test Individual Branch Revenue Reporting",
+            "correspondingPhase": "Reporting and Analytics",
+            "correspondingFeature": "Individual branch revenue reporting",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-23",
+            "endTime": "2024-09-24",
+            "dependencies": [
+                "P3-T5"
+            ],
+            "responsiblePerson": "Bob Johnson"
+        },
+        {
+            "id": "P3-T7",
+            "taskName": "Design Entire Chain Revenue Reporting",
+            "correspondingPhase": "Reporting and Analytics",
+            "correspondingFeature": "Entire chain revenue reporting",
+            "priority": "Low",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-20",
+            "endTime": "2024-09-21",
+            "dependencies": [
+                "P1-T1",
+                "P2-T1"
+            ],
+            "responsiblePerson": "John Doe"
+        },
+        {
+            "id": "P3-T8",
+            "taskName": "Implement Entire Chain Revenue Reporting",
+            "correspondingPhase": "Reporting and Analytics",
+            "correspondingFeature": "Entire chain revenue reporting",
+            "priority": "Low",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-21",
+            "endTime": "2024-09-23",
+            "dependencies": [
+                "P3-T7"
+            ],
+            "responsiblePerson": "Jane Smith"
+        },
+        {
+            "id": "P3-T9",
+            "taskName": "Test Entire Chain Revenue Reporting",
+            "correspondingPhase": "Reporting and Analytics",
+            "correspondingFeature": "Entire chain revenue reporting",
+            "priority": "Low",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-23",
+            "endTime": "2024-09-24",
+            "dependencies": [
+                "P3-T8"
+            ],
+            "responsiblePerson": "Bob Johnson"
+        }
+    ]
+]

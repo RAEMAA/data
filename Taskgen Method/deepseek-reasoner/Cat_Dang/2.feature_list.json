@@ -1,0 +1,42 @@
+[
+  {
+    "category": "Order Management System components",
+    "list_feature": [
+      "Multi-device order tracking",
+      "Inventory synchronization",
+      "Customer preference database",
+      "Customizable order templates",
+      "Real-time capacity alerts"
+    ]
+  },
+  {
+    "category": "Billing/POS integration",
+    "list_feature": [
+      "Unified POS terminal integration",
+      "Split-billing functionality",
+      "Automated tax compliance",
+      "Dynamic discount/promotion engine",
+      "Digital receipt generation"
+    ]
+  },
+  {
+    "category": "Venue section types",
+    "list_feature": [
+      "Flexible seating zones",
+      "Seasonal outdoor spaces",
+      "Premium VIP lounges",
+      "Express service counters",
+      "Accessibility-optimized areas"
+    ]
+  },
+  {
+    "category": "Revenue reporting layers",
+    "list_feature": [
+      "Granular sales attribution matrix",
+      "Margin analysis by product category",
+      "Peak/off-peak performance comparisons",
+      "Customer lifetime value projections",
+      "Real-time revenue waterfall visualizations"
+    ]
+  }
+]

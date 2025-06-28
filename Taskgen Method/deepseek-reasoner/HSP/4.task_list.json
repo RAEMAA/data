@@ -1,0 +1,499 @@
+[
+  [
+    [
+      {
+        "id": "P1-T1",
+        "taskName": "Design Real-time Temperature Tracking Module",
+        "correspondingPhase": "Environmental Monitoring",
+        "correspondingFeature": "Real-time temperature tracking for facilities",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2023-10-05",
+        "endTime": "2023-10-07",
+        "dependencies": [],
+        "responsiblePerson": "System Architect"
+      },
+      {
+        "id": "P1-T2",
+        "taskName": "Implement Real-time Temperature Tracking Module",
+        "correspondingPhase": "Environmental Monitoring",
+        "correspondingFeature": "Real-time temperature tracking for facilities",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2023-10-08",
+        "endTime": "2023-10-12",
+        "dependencies": ["P1-T1"],
+        "responsiblePerson": "Backend Developer"
+      },
+      {
+        "id": "P1-T3",
+        "taskName": "Test Real-time Temperature Tracking Functionality",
+        "correspondingPhase": "Environmental Monitoring",
+        "correspondingFeature": "Real-time temperature tracking for facilities",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-13",
+        "endTime": "2023-10-14",
+        "dependencies": ["P1-T2"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P1-T4",
+        "taskName": "Design Humidity/Air Quality Monitoring Module",
+        "correspondingPhase": "Environmental Monitoring",
+        "correspondingFeature": "Humidity and air quality monitoring",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2023-10-05",
+        "endTime": "2023-10-07",
+        "dependencies": [],
+        "responsiblePerson": "System Architect"
+      },
+      {
+        "id": "P1-T5",
+        "taskName": "Implement Humidity/Air Quality Monitoring Module",
+        "correspondingPhase": "Environmental Monitoring",
+        "correspondingFeature": "Humidity and air quality monitoring",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2023-10-08",
+        "endTime": "2023-10-12",
+        "dependencies": ["P1-T4"],
+        "responsiblePerson": "Backend Developer"
+      },
+      {
+        "id": "P1-T6",
+        "taskName": "Test Humidity/Air Quality Monitoring Functionality",
+        "correspondingPhase": "Environmental Monitoring",
+        "correspondingFeature": "Humidity and air quality monitoring",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-13",
+        "endTime": "2023-10-14",
+        "dependencies": ["P1-T5"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P1-T7",
+        "taskName": "Design Equipment Status Alerts Module",
+        "correspondingPhase": "Environmental Monitoring",
+        "correspondingFeature": "Equipment status alerts",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2023-10-05",
+        "endTime": "2023-10-07",
+        "dependencies": [],
+        "responsiblePerson": "System Architect"
+      },
+      {
+        "id": "P1-T8",
+        "taskName": "Implement Equipment Status Alerts Module",
+        "correspondingPhase": "Environmental Monitoring",
+        "correspondingFeature": "Equipment status alerts",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2023-10-08",
+        "endTime": "2023-10-12",
+        "dependencies": ["P1-T7"],
+        "responsiblePerson": "Backend Developer"
+      },
+      {
+        "id": "P1-T9",
+        "taskName": "Test Equipment Status Alerts Functionality",
+        "correspondingPhase": "Environmental Monitoring",
+        "correspondingFeature": "Equipment status alerts",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-13",
+        "endTime": "2023-10-14",
+        "dependencies": ["P1-T8"],
+        "responsiblePerson": "QA Engineer"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": "P2-T1",
+        "taskName": "Design Inventory Level Tracking & Alerts",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Inventory level tracking and alerts",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-05",
+        "endTime": "2023-10-06",
+        "dependencies": [],
+        "responsiblePerson": "System Architect"
+      },
+      {
+        "id": "P2-T2",
+        "taskName": "Implement Inventory Tracking Backend Logic",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Inventory level tracking and alerts",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2023-10-09",
+        "endTime": "2023-10-13",
+        "dependencies": ["P2-T1"],
+        "responsiblePerson": "Backend Developer"
+      },
+      {
+        "id": "P2-T3",
+        "taskName": "Test Inventory Alerts & Thresholds",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Inventory level tracking and alerts",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-16",
+        "endTime": "2023-10-17",
+        "dependencies": ["P2-T2"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P2-T4",
+        "taskName": "Design Multi-Step Approval Automation",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Multi-step order approval automation",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-18",
+        "endTime": "2023-10-19",
+        "dependencies": ["P2-T1"],
+        "responsiblePerson": "System Architect"
+      },
+      {
+        "id": "P2-T5",
+        "taskName": "Implement Approval Workflow Engine",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Multi-step order approval automation",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2023-10-20",
+        "endTime": "2023-10-26",
+        "dependencies": ["P2-T4"],
+        "responsiblePerson": "Backend Developer"
+      },
+      {
+        "id": "P2-T6",
+        "taskName": "Test Approval Chain Escalations",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Multi-step order approval automation",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-27",
+        "endTime": "2023-10-30",
+        "dependencies": ["P2-T5"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P2-T7",
+        "taskName": "Design Fulfillment Status UI/API",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Order fulfillment status updates",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-31",
+        "endTime": "2023-11-01",
+        "dependencies": ["P2-T4"],
+        "responsiblePerson": "System Architect"
+      },
+      {
+        "id": "P2-T8",
+        "taskName": "Implement Real-Time Status Updates",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Order fulfillment status updates",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2023-11-02",
+        "endTime": "2023-11-08",
+        "dependencies": ["P2-T7"],
+        "responsiblePerson": "Frontend Developer"
+      },
+      {
+        "id": "P2-T9",
+        "taskName": "Test Fulfillment Notifications",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Order fulfillment status updates",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-11-09",
+        "endTime": "2023-11-10",
+        "dependencies": ["P2-T8"],
+        "responsiblePerson": "QA Engineer"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": "P3-T1",
+        "taskName": "Design messaging interface (UI/UX) with read receipts",
+        "correspondingPhase": "Communication Hub",
+        "correspondingFeature": "Stakeholder messaging with read receipts",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2023-10-26",
+        "endTime": "2023-10-28",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Designer"
+      }
+    ],
+    [
+      {
+        "id": "P3-T2",
+        "taskName": "Develop backend/frontend integration for real-time messaging and read receipts",
+        "correspondingPhase": "Communication Hub",
+        "correspondingFeature": "Stakeholder messaging with read receipts",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2023-10-29",
+        "endTime": "2023-11-02",
+        "dependencies": ["P3-T1"],
+        "responsiblePerson": "Software Developer"
+      }
+    ],
+    [
+      {
+        "id": "P3-T3",
+        "taskName": "Design collaborative document interface with version history visualization",
+        "correspondingPhase": "Communication Hub",
+        "correspondingFeature": "Document collaboration and version control",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2023-10-29",
+        "endTime": "2023-10-31",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Designer"
+      }
+    ],
+    [
+      {
+        "id": "P3-T4",
+        "taskName": "Design announcement creation interface with broadcasting controls (scheduling, audience selection)",
+        "correspondingPhase": "Communication Hub",
+        "correspondingFeature": "Announcement broadcasting",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-11-01",
+        "endTime": "2023-11-02",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Designer"
+      }
+    ],
+    [
+      {
+        "id": "P3-T5",
+        "taskName": "Develop backend APIs for document storage/versioning and frontend components for collaborative editing",
+        "correspondingPhase": "Communication Hub",
+        "correspondingFeature": "Document collaboration and version control",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2023-11-03",
+        "endTime": "2023-11-07",
+        "dependencies": ["P3-T3"],
+        "responsiblePerson": "Software Developer"
+      }
+    ]
+  ],
+  [
+    {
+      "id": "P1",
+      "phase": "Environmental Monitoring",
+      "feature list": [
+        "Real-time temperature tracking for facilities",
+        "Humidity and air quality monitoring",
+        "Equipment status alerts"
+      ],
+      "estimatedTime": "3 weeks",
+      "startTime": "2023-10-05",
+      "endTime": "2023-10-26",
+      "dependencies": []
+    },
+    {
+      "id": "P2",
+      "phase": "Order Workflow",
+      "feature list": [
+        "Inventory level tracking and alerts",
+        "Multi-step order approval automation",
+        "Order fulfillment status updates"
+      ],
+      "estimatedTime": "4 weeks",
+      "startTime": "2023-10-05",
+      "endTime": "2023-11-02",
+      "dependencies": ["P1"]
+    },
+    {
+      "id": "P3",
+      "phase": "Communication Hub",
+      "feature list": [
+        "Stakeholder messaging with read receipts",
+        "Document collaboration and version control",
+        "Announcement broadcasting"
+      ],
+      "estimatedTime": "3 weeks",
+      "startTime": "2023-10-26",
+      "endTime": "2023-11-16",
+      "dependencies": ["P2"]
+    },
+    {
+      "id": "P4",
+      "phase": "Owner Analytics",
+      "feature list": [
+        "Owner-facing sales performance dashboards",
+        "Inventory turnover rate reports",
+        "Compliance metrics visualization",
+        "Order fulfillment efficiency comparative analysis"
+      ],
+      "estimatedTime": "2 weeks",
+      "startTime": "2023-11-16",
+      "endTime": "2023-11-30",
+      "dependencies": ["P1", "P2", "P3"],
+      "tasks": [
+        {
+          "id": "P4-T1",
+          "taskName": "Design Owner-Facing Sales Performance Dashboards",
+          "correspondingPhase": "P4",
+          "correspondingFeature": "Owner-facing sales performance dashboards",
+          "priority": "High",
+          "estimatedTime": "3 days",
+          "startTime": "2023-11-16",
+          "endTime": "2023-11-18",
+          "dependencies": [],
+          "responsiblePerson": "UX Designer"
+        },
+        {
+          "id": "P4-T2",
+          "taskName": "Implement Sales Dashboard Frontend & Backend",
+          "correspondingPhase": "P4",
+          "correspondingFeature": "Owner-facing sales performance dashboards",
+          "priority": "High",
+          "estimatedTime": "5 days",
+          "startTime": "2023-11-19",
+          "endTime": "2023-11-23",
+          "dependencies": ["P4-T1"],
+          "responsiblePerson": "Full-Stack Developer"
+        },
+        {
+          "id": "P4-T3",
+          "taskName": "Test Sales Dashboard Integration & Usability",
+          "correspondingPhase": "P4",
+          "correspondingFeature": "Owner-facing sales performance dashboards",
+          "priority": "Medium",
+          "estimatedTime": "3 days",
+          "startTime": "2023-11-24",
+          "endTime": "2023-11-26",
+          "dependencies": ["P4-T2"],
+          "responsiblePerson": "QA Engineer"
+        },
+        {
+          "id": "P4-T4",
+          "taskName": "Design Inventory Turnover Rate Report Layout",
+          "correspondingPhase": "P4",
+          "correspondingFeature": "Inventory turnover rate reports",
+          "priority": "High",
+          "estimatedTime": "2 days",
+          "startTime": "2023-11-16",
+          "endTime": "2023-11-17",
+          "dependencies": [],
+          "responsiblePerson": "Business Analyst"
+        },
+        {
+          "id": "P4-T5",
+          "taskName": "Develop Inventory Analytics Backend Logic",
+          "correspondingPhase": "P4",
+          "correspondingFeature": "Inventory turnover rate reports",
+          "priority": "High",
+          "estimatedTime": "4 days",
+          "startTime": "2023-11-18",
+          "endTime": "2023-11-21",
+          "dependencies": ["P4-T4"],
+          "responsiblePerson": "Backend Developer"
+        },
+        {
+          "id": "P4-T6",
+          "taskName": "Validate Inventory Report Accuracy",
+          "correspondingPhase": "P4",
+          "correspondingFeature": "Inventory turnover rate reports",
+          "priority": "Medium",
+          "estimatedTime": "3 days",
+          "startTime": "2023-11-22",
+          "endTime": "2023-11-24",
+          "dependencies": ["P4-T5"],
+          "responsiblePerson": "QA Engineer"
+        },
+        {
+          "id": "P4-T7",
+          "taskName": "Wireframe Compliance Metrics Visualization",
+          "correspondingPhase": "P4",
+          "correspondingFeature": "Compliance metrics visualization",
+          "priority": "High",
+          "estimatedTime": "2 days",
+          "startTime": "2023-11-16",
+          "endTime": "2023-11-17",
+          "dependencies": [],
+          "responsiblePerson": "UX Designer"
+        },
+        {
+          "id": "P4-T8",
+          "taskName": "Build Compliance Data Aggregation Pipeline",
+          "correspondingPhase": "P4",
+          "correspondingFeature": "Compliance metrics visualization",
+          "priority": "High",
+          "estimatedTime": "3 days",
+          "startTime": "2023-11-18",
+          "endTime": "2023-11-20",
+          "dependencies": ["P4-T7"],
+          "responsiblePerson": "Data Engineer"
+        },
+        {
+          "id": "P4-T9",
+          "taskName": "Test Compliance Visualization Accuracy",
+          "correspondingPhase": "P4",
+          "correspondingFeature": "Compliance metrics visualization",
+          "priority": "Medium",
+          "estimatedTime": "3 days",
+          "startTime": "2023-11-21",
+          "endTime": "2023-11-23",
+          "dependencies": ["P4-T8"],
+          "responsiblePerson": "QA Engineer"
+        },
+        {
+          "id": "P4-T10",
+          "taskName": "Design Order Fulfillment Efficiency Analysis Module",
+          "correspondingPhase": "P4",
+          "correspondingFeature": "Order fulfillment efficiency comparative analysis",
+          "priority": "High",
+          "estimatedTime": "2 days",
+          "startTime": "2023-11-16",
+          "endTime": "2023-11-17",
+          "dependencies": [],
+          "responsiblePerson": "Business Analyst"
+        },
+        {
+          "id": "P4-T11",
+          "taskName": "Implement Comparative Analysis Algorithms",
+          "correspondingPhase": "P4",
+          "correspondingFeature": "Order fulfillment efficiency comparative analysis",
+          "priority": "High",
+          "estimatedTime": "5 days",
+          "startTime": "2023-11-18",
+          "endTime": "2023-11-24",
+          "dependencies": ["P4-T10"],
+          "responsiblePerson": "Full-Stack Developer"
+        },
+        {
+          "id": "P4-T12",
+          "taskName": "Verify Analysis Module Performance",
+          "correspondingPhase": "P4",
+          "correspondingFeature": "Order fulfillment efficiency comparative analysis",
+          "priority": "Medium",
+          "estimatedTime": "4 days",
+          "startTime": "2023-11-25",
+          "endTime": "2023-11-30",
+          "dependencies": ["P4-T11"],
+          "responsiblePerson": "QA Engineer"
+        }
+      ]
+    }
+  ]
+]

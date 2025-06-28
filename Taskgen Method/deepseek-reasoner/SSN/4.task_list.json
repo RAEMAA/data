@@ -1,0 +1,788 @@
+[
+  [
+    [
+      {
+        "id": "P1-T1",
+        "taskName": "Design multi-university membership architecture",
+        "correspondingPhase": "P1",
+        "correspondingFeature": "Multi-university membership allowing simultaneous network participation",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2024-06-25",
+        "endTime": "2024-06-29",
+        "dependencies": [],
+        "responsiblePerson": "System Architect"
+      },
+      {
+        "id": "P1-T2",
+        "taskName": "Implement multi-institution registration system",
+        "correspondingPhase": "P1",
+        "correspondingFeature": "Multi-university membership allowing simultaneous network participation",
+        "priority": "High",
+        "estimatedTime": "7 days",
+        "startTime": "2024-06-30",
+        "endTime": "2024-07-06",
+        "dependencies": ["P1-T1"],
+        "responsiblePerson": "Backend Developer"
+      },
+      {
+        "id": "P1-T3",
+        "taskName": "Test cross-institution membership integration",
+        "correspondingPhase": "P1",
+        "correspondingFeature": "Multi-university membership allowing simultaneous network participation",
+        "priority": "Medium",
+        "estimatedTime": "3 days",
+        "startTime": "2024-07-07",
+        "endTime": "2024-07-09",
+        "dependencies": ["P1-T2"],
+        "responsiblePerson": "QA Team"
+      },
+      {
+        "id": "P1-T4",
+        "taskName": "Design institution-specific content channel framework",
+        "correspondingPhase": "P1",
+        "correspondingFeature": "Institution-specific content channels for announcements and resources",
+        "priority": "High",
+        "estimatedTime": "4 days",
+        "startTime": "2024-06-27",
+        "endTime": "2024-06-30",
+        "dependencies": [],
+        "responsiblePerson": "UX Designer"
+      },
+      {
+        "id": "P1-T5",
+        "taskName": "Implement university content management interface",
+        "correspondingPhase": "P1",
+        "correspondingFeature": "Institution-specific content channels for announcements and resources",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2024-07-01",
+        "endTime": "2024-07-05",
+        "dependencies": ["P1-T4"],
+        "responsiblePerson": "Full-Stack Developer"
+      },
+      {
+        "id": "P1-T6",
+        "taskName": "Validate channel permission controls",
+        "correspondingPhase": "P1",
+        "correspondingFeature": "Institution-specific content channels for announcements and resources",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2024-07-06",
+        "endTime": "2024-07-07",
+        "dependencies": ["P1-T5"],
+        "responsiblePerson": "Security Engineer"
+      },
+      {
+        "id": "P1-T7",
+        "taskName": "Design unified profile schema",
+        "correspondingPhase": "P1",
+        "correspondingFeature": "Unified cross-institutional profile management system",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2024-06-28",
+        "endTime": "2024-06-30",
+        "dependencies": [],
+        "responsiblePerson": "Data Architect"
+      },
+      {
+        "id": "P1-T8",
+        "taskName": "Implement cross-institution profile synchronization",
+        "correspondingPhase": "P1",
+        "correspondingFeature": "Unified cross-institutional profile management system",
+        "priority": "High",
+        "estimatedTime": "6 days",
+        "startTime": "2024-07-01",
+        "endTime": "2024-07-06",
+        "dependencies": ["P1-T7"],
+        "responsiblePerson": "Backend Developer"
+      },
+      {
+        "id": "P1-T9",
+        "taskName": "Test multi-network profile switching",
+        "correspondingPhase": "P1",
+        "correspondingFeature": "Unified cross-institutional profile management system",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2024-07-07",
+        "endTime": "2024-07-08",
+        "dependencies": ["P1-T8"],
+        "responsiblePerson": "QA Team"
+      },
+      {
+        "id": "P1-T10",
+        "taskName": "Perform core infrastructure stress testing",
+        "correspondingPhase": "P1",
+        "correspondingFeature": "All Core Components",
+        "priority": "High",
+        "estimatedTime": "4 days",
+        "startTime": "2024-07-19",
+        "endTime": "2024-07-23",
+        "dependencies": ["P1-T3", "P1-T6", "P1-T9"],
+        "responsiblePerson": "DevOps Team"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": "P2-T1",
+        "taskName": "Design digital library access system",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Digital library access to journals and e-books",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2024-07-23",
+        "endTime": "2024-07-27",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Design Team"
+      },
+      {
+        "id": "P2-T2",
+        "taskName": "Implement library API integrations",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Digital library access to journals and e-books",
+        "priority": "High",
+        "estimatedTime": "10 days",
+        "startTime": "2024-07-30",
+        "endTime": "2024-08-13",
+        "dependencies": ["P2-T1"],
+        "responsiblePerson": "Backend Development Team"
+      },
+      {
+        "id": "P2-T3",
+        "taskName": "Test digital library functionality & security",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Digital library access to journals and e-books",
+        "priority": "Medium",
+        "estimatedTime": "5 days",
+        "startTime": "2024-08-14",
+        "endTime": "2024-08-20",
+        "dependencies": ["P2-T2"],
+        "responsiblePerson": "QA Team"
+      },
+      {
+        "id": "P2-T4",
+        "taskName": "Design centralized repository architecture",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Centralized repository for lecture notes and course materials",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2024-07-23",
+        "endTime": "2024-07-27",
+        "dependencies": [],
+        "responsiblePerson": "Systems Architecture Team"
+      },
+      {
+        "id": "P2-T5",
+        "taskName": "Develop file storage & retrieval system",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Centralized repository for lecture notes and course materials",
+        "priority": "High",
+        "estimatedTime": "15 days",
+        "startTime": "2024-07-30",
+        "endTime": "2024-08-17",
+        "dependencies": ["P2-T4"],
+        "responsiblePerson": "Backend Development Team"
+      },
+      {
+        "id": "P2-T6",
+        "taskName": "Validate repository scalability & performance",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Centralized repository for lecture notes and course materials",
+        "priority": "Medium",
+        "estimatedTime": "5 days",
+        "startTime": "2024-08-20",
+        "endTime": "2024-08-24",
+        "dependencies": ["P2-T5"],
+        "responsiblePerson": "QA Team"
+      },
+      {
+        "id": "P2-T7",
+        "taskName": "Design textbook rental/purchase interface",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Online textbook rental and purchase platform",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2024-07-23",
+        "endTime": "2024-07-27",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Design Team"
+      },
+      {
+        "id": "P2-T8",
+        "taskName": "Build payment gateway integration",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Online textbook rental and purchase platform",
+        "priority": "High",
+        "estimatedTime": "10 days",
+        "startTime": "2024-07-30",
+        "endTime": "2024-08-13",
+        "dependencies": ["P2-T7"],
+        "responsiblePerson": "Full-Stack Development Team"
+      },
+      {
+        "id": "P2-T9",
+        "taskName": "Execute transaction security testing",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Online textbook rental and purchase platform",
+        "priority": "Medium",
+        "estimatedTime": "5 days",
+        "startTime": "2024-08-14",
+        "endTime": "2024-08-20",
+        "dependencies": ["P2-T8"],
+        "responsiblePerson": "Security Team"
+      },
+      {
+        "id": "P2-T10",
+        "taskName": "Plan research database integration framework",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Research database integration (e.g., JSTOR, PubMed)",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2024-07-23",
+        "endTime": "2024-07-27",
+        "dependencies": [],
+        "responsiblePerson": "Systems Architecture Team"
+      },
+      {
+        "id": "P2-T11",
+        "taskName": "Implement API connectors for academic databases",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Research database integration (e.g., JSTOR, PubMed)",
+        "priority": "High",
+        "estimatedTime": "15 days",
+        "startTime": "2024-07-30",
+        "endTime": "2024-08-17",
+        "dependencies": ["P2-T10"],
+        "responsiblePerson": "Backend Development Team"
+      },
+      {
+        "id": "P2-T12",
+        "taskName": "Test cross-database search functionality",
+        "correspondingPhase": "P2",
+        "correspondingFeature": "Research database integration (e.g., JSTOR, PubMed)",
+        "priority": "Medium",
+        "estimatedTime": "5 days",
+        "startTime": "2024-08-20",
+        "endTime": "2024-08-24",
+        "dependencies": ["P2-T11"],
+        "responsiblePerson": "QA Team"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": "P3-T1",
+        "taskName": "Design UI/UX for Course & Professor Rating System",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Student-driven course and professor rating system",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2024-07-23",
+        "endTime": "2024-07-25",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Designer"
+      },
+      {
+        "id": "P3-T2",
+        "taskName": "Implement Rating System Backend & Frontend",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Student-driven course and professor rating system",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2024-07-26",
+        "endTime": "2024-07-30",
+        "dependencies": ["P3-T1"],
+        "responsiblePerson": "Full-Stack Developer"
+      },
+      {
+        "id": "P3-T3",
+        "taskName": "Test Rating System Functionality & User Experience",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Student-driven course and professor rating system",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2024-07-31",
+        "endTime": "2024-08-01",
+        "dependencies": ["P3-T2"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P3-T4",
+        "taskName": "Design Anonymous Feedback Submission Interface",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Anonymous feedback submission for course improvement",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2024-07-23",
+        "endTime": "2024-07-25",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Designer"
+      },
+      {
+        "id": "P3-T5",
+        "taskName": "Implement Anonymity Features & Data Handling",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Anonymous feedback submission for course improvement",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2024-07-26",
+        "endTime": "2024-07-30",
+        "dependencies": ["P3-T4"],
+        "responsiblePerson": "Backend Developer"
+      },
+      {
+        "id": "P3-T6",
+        "taskName": "Test Anonymity & Data Security",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Anonymous feedback submission for course improvement",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2024-07-31",
+        "endTime": "2024-08-01",
+        "dependencies": ["P3-T5"],
+        "responsiblePerson": "Security Specialist"
+      },
+      {
+        "id": "P3-T7",
+        "taskName": "Design Historical Evaluation Data Visualization",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Historical evaluation data access for trend analysis",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2024-07-23",
+        "endTime": "2024-07-25",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Designer"
+      },
+      {
+        "id": "P3-T8",
+        "taskName": "Implement Data Storage & Access Controls",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Historical evaluation data access for trend analysis",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2024-07-26",
+        "endTime": "2024-07-30",
+        "dependencies": ["P3-T7"],
+        "responsiblePerson": "Backend Developer"
+      },
+      {
+        "id": "P3-T9",
+        "taskName": "Test Data Retrieval Performance & Security",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Historical evaluation data access for trend analysis",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2024-07-31",
+        "endTime": "2024-08-01",
+        "dependencies": ["P3-T8"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P3-T10",
+        "taskName": "Design Course Comparison Tool Interface",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Course comparison tool based on evaluation metrics",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2024-07-23",
+        "endTime": "2024-07-25",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Designer"
+      },
+      {
+        "id": "P3-T11",
+        "taskName": "Implement Comparison Algorithm & UI Integration",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Course comparison tool based on evaluation metrics",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2024-07-26",
+        "endTime": "2024-07-30",
+        "dependencies": ["P3-T10"],
+        "responsiblePerson": "Full-Stack Developer"
+      },
+      {
+        "id": "P3-T12",
+        "taskName": "Test Comparison Accuracy & Usability",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Course comparison tool based on evaluation metrics",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2024-07-31",
+        "endTime": "2024-08-01",
+        "dependencies": ["P3-T11"],
+        "responsiblePerson": "QA Engineer"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": "P4-T1",
+        "taskName": "Research Matchmaking System Design",
+        "correspondingPhase": "P4",
+        "correspondingFeature": "Research project matchmaking based on user expertise",
+        "priority": "High",
+        "estimatedTime": "40 hours",
+        "startTime": "2024-09-10",
+        "endTime": "2024-09-16",
+        "dependencies": [],
+        "responsiblePerson": "System Architect & UX Designer"
+      },
+      {
+        "id": "P4-T2",
+        "taskName": "Algorithm Implementation & API Integration",
+        "correspondingPhase": "P4",
+        "correspondingFeature": "Research project matchmaking based on user expertise",
+        "priority": "High",
+        "estimatedTime": "80 hours",
+        "startTime": "2024-09-17",
+        "endTime": "2024-09-30",
+        "dependencies": ["P4-T1"],
+        "responsiblePerson": "Backend Developer & Data Engineer"
+      },
+      {
+        "id": "P4-T3",
+        "taskName": "Matchmaking Validation & Performance Testing",
+        "correspondingPhase": "P4",
+        "correspondingFeature": "Research project matchmaking based on user expertise",
+        "priority": "Medium",
+        "estimatedTime": "40 hours",
+        "startTime": "2024-10-01",
+        "endTime": "2024-10-07",
+        "dependencies": ["P4-T2"],
+        "responsiblePerson": "QA Engineer & Beta Testers"
+      }
+    ],
+    [
+      {
+        "id": "P4-T4",
+        "taskName": "Collaborative Workspace UX Design",
+        "correspondingPhase": "P4",
+        "correspondingFeature": "Shared workspace for collaborative paper writing",
+        "priority": "High",
+        "estimatedTime": "40 hours",
+        "startTime": "2024-09-10",
+        "endTime": "2024-09-17",
+        "dependencies": [],
+        "responsiblePerson": "UX Designer"
+      },
+      {
+        "id": "P4-T5",
+        "taskName": "Real-Time Collaboration Engine Implementation",
+        "correspondingPhase": "P4",
+        "correspondingFeature": "Shared workspace for collaborative paper writing",
+        "priority": "High",
+        "estimatedTime": "120 hours",
+        "startTime": "2024-09-18",
+        "endTime": "2024-10-08",
+        "dependencies": ["P4-T4"],
+        "responsiblePerson": "Full-Stack Developer"
+      },
+      {
+        "id": "P4-T6",
+        "taskName": "Collaboration Workspace Stress Testing",
+        "correspondingPhase": "P4",
+        "correspondingFeature": "Shared workspace for collaborative paper writing",
+        "priority": "Medium",
+        "estimatedTime": "50 hours",
+        "startTime": "2024-10-09",
+        "endTime": "2024-10-16",
+        "dependencies": ["P4-T5"],
+        "responsiblePerson": "QA Engineer & Beta Testers"
+      }
+    ],
+    [
+      {
+        "id": "P4-T7",
+        "taskName": "Funding Alert System Design",
+        "correspondingPhase": "P4",
+        "correspondingFeature": "Funding opportunity alerts and grant management tools",
+        "priority": "High",
+        "estimatedTime": "40 hours",
+        "startTime": "2024-09-10",
+        "endTime": "2024-09-16",
+        "dependencies": [],
+        "responsiblePerson": "UX Designer & Financial Systems Analyst"
+      },
+      {
+        "id": "P4-T8",
+        "taskName": "Grant Management API Implementation",
+        "correspondingPhase": "P4",
+        "correspondingFeature": "Funding opportunity alerts and grant management tools",
+        "priority": "High",
+        "estimatedTime": "100 hours",
+        "startTime": "2024-09-17",
+        "endTime": "2024-10-01",
+        "dependencies": ["P4-T7"],
+        "responsiblePerson": "Backend Developer & Integration Specialist"
+      },
+      {
+        "id": "P4-T9",
+        "taskName": "Funding Tool Compliance Testing",
+        "correspondingPhase": "P4",
+        "correspondingFeature": "Funding opportunity alerts and grant management tools",
+        "priority": "Medium",
+        "estimatedTime": "50 hours",
+        "startTime": "2024-10-02",
+        "endTime": "2024-10-10",
+        "dependencies": ["P4-T8"],
+        "responsiblePerson": "QA Engineer & Financial Auditor"
+      }
+    ],
+    [
+      {
+        "id": "P4-T10",
+        "taskName": "Research Forum System Design",
+        "correspondingPhase": "P4",
+        "correspondingFeature": "Cross-disciplinary research discussion forums",
+        "priority": "High",
+        "estimatedTime": "40 hours",
+        "startTime": "2024-10-11",
+        "endTime": "2024-10-15",
+        "dependencies": ["P4-T9"],
+        "responsiblePerson": "UX Designer"
+      },
+      {
+        "id": "P4-T11",
+        "taskName": "Forum Platform Implementation",
+        "correspondingPhase": "P4",
+        "correspondingFeature": "Cross-disciplinary research discussion forums",
+        "priority": "High",
+        "estimatedTime": "100 hours",
+        "startTime": "2024-10-16",
+        "endTime": "2024-10-29",
+        "dependencies": ["P4-T10"],
+        "responsiblePerson": "Full-Stack Developer"
+      },
+      {
+        "id": "P4-T12",
+        "taskName": "Moderation Tools & Scalability Testing",
+        "correspondingPhase": "P4",
+        "correspondingFeature": "Cross-disciplinary research discussion forums",
+        "priority": "Medium",
+        "estimatedTime": "50 hours",
+        "startTime": "2024-10-30",
+        "endTime": "2024-11-05",
+        "dependencies": ["P4-T11"],
+        "responsiblePerson": "QA Engineer & Security Specialist"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": "P5-T1",
+        "taskName": "Inter-university Event Calendar UI/UX Design",
+        "correspondingPhase": "P5",
+        "correspondingFeature": "Inter-university event calendar for academic conferences",
+        "priority": "High",
+        "estimatedTime": "1 week",
+        "startTime": "2024-07-23",
+        "endTime": "2024-07-30",
+        "dependencies": [],
+        "responsiblePerson": "UX Designer"
+      },
+      {
+        "id": "P5-T2",
+        "taskName": "Calendar System Implementation with Cross-Institution Sync",
+        "correspondingPhase": "P5",
+        "correspondingFeature": "Inter-university event calendar for academic conferences",
+        "priority": "High",
+        "estimatedTime": "3 weeks",
+        "startTime": "2024-07-30",
+        "endTime": "2024-08-20",
+        "dependencies": ["P5-T1"],
+        "responsiblePerson": "Backend Developer"
+      },
+      {
+        "id": "P5-T3",
+        "taskName": "Event Calendar Integration Testing & User Acceptance",
+        "correspondingPhase": "P5",
+        "correspondingFeature": "Inter-university event calendar for academic conferences",
+        "priority": "Medium",
+        "estimatedTime": "2 weeks",
+        "startTime": "2024-08-20",
+        "endTime": "2024-09-03",
+        "dependencies": ["P5-T2"],
+        "responsiblePerson": "QA Engineer"
+      }
+    ],
+    [
+      {
+        "id": "P5-T4",
+        "taskName": "Alumni Networking Portal UI/UX Design with Mentorship Flow",
+        "correspondingPhase": "P5",
+        "correspondingFeature": "Alumni networking portal with mentorship features",
+        "priority": "High",
+        "estimatedTime": "1 week",
+        "startTime": "2024-07-30",
+        "endTime": "2024-08-06",
+        "dependencies": [],
+        "responsiblePerson": "UX Designer"
+      },
+      {
+        "id": "P5-T5",
+        "taskName": "Mentorship Portal Implementation & Alumni Database Integration",
+        "correspondingPhase": "P5",
+        "correspondingFeature": "Alumni networking portal with mentorship features",
+        "priority": "High",
+        "estimatedTime": "2 weeks",
+        "startTime": "2024-08-06",
+        "endTime": "2024-08-20",
+        "dependencies": ["P5-T4"],
+        "responsiblePerson": "Backend Developer"
+      },
+      {
+        "id": "P5-T6",
+        "taskName": "Portal Functionality Testing & Mentor-Mentee Matching Validation",
+        "correspondingPhase": "P5",
+        "correspondingFeature": "Alumni networking portal with mentorship features",
+        "priority": "Medium",
+        "estimatedTime": "2 weeks",
+        "startTime": "2024-08-20",
+        "endTime": "2024-09-03",
+        "dependencies": ["P5-T5"],
+        "responsiblePerson": "QA Engineer"
+      }
+    ],
+    [
+      {
+        "id": "P5-T7",
+        "taskName": "Special Interest Group Creation UI/UX Design",
+        "correspondingPhase": "P5",
+        "correspondingFeature": "Special interest group creation for cross-institution collaboration",
+        "priority": "High",
+        "estimatedTime": "1 week",
+        "startTime": "2024-07-23",
+        "endTime": "2024-07-30",
+        "dependencies": [],
+        "responsiblePerson": "UX Designer"
+      },
+      {
+        "id": "P5-T8",
+        "taskName": "Collaboration Group System Implementation with Cross-Institution Permissions",
+        "correspondingPhase": "P5",
+        "correspondingFeature": "Special interest group creation for cross-institution collaboration",
+        "priority": "High",
+        "estimatedTime": "3 weeks",
+        "startTime": "2024-07-30",
+        "endTime": "2024-08-20",
+        "dependencies": ["P5-T7"],
+        "responsiblePerson": "Backend Developer"
+      },
+      {
+        "id": "P5-T9",
+        "taskName": "Group Creation Workflow Testing & Multi-Institution Access Validation",
+        "correspondingPhase": "P5",
+        "correspondingFeature": "Special interest group creation for cross-institution collaboration",
+        "priority": "Medium",
+        "estimatedTime": "2 weeks",
+        "startTime": "2024-08-20",
+        "endTime": "2024-09-03",
+        "dependencies": ["P5-T8"],
+        "responsiblePerson": "QA Engineer"
+      }
+    ],
+    [
+      {
+        "id": "P5-T10",
+        "taskName": "Institutional Partnership System UI/UX Design",
+        "correspondingPhase": "P5",
+        "correspondingFeature": "Institutional partnership discovery and request system",
+        "priority": "High",
+        "estimatedTime": "1 week",
+        "startTime": "2024-08-06",
+        "endTime": "2024-08-13",
+        "dependencies": [],
+        "responsiblePerson": "UX Designer"
+      },
+      {
+        "id": "P5-T11",
+        "taskName": "Partnership Management System Implementation with Request Workflows",
+        "correspondingPhase": "P5",
+        "correspondingFeature": "Institutional partnership discovery and request system",
+        "priority": "High",
+        "estimatedTime": "3 weeks",
+        "startTime": "2024-08-13",
+        "endTime": "2024-09-03",
+        "dependencies": ["P5-T10"],
+        "responsiblePerson": "Backend Developer"
+      },
+      {
+        "id": "P5-T12",
+        "taskName": "Partnership System Integration Testing & Security Validation",
+        "correspondingPhase": "P5",
+        "correspondingFeature": "Institutional partnership discovery and request system",
+        "priority": "Medium",
+        "estimatedTime": "1 week",
+        "startTime": "2024-09-03",
+        "endTime": "2024-09-10",
+        "dependencies": ["P5-T11"],
+        "responsiblePerson": "QA Engineer"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": "P6-T1",
+        "taskName": "Modular Architecture Initial Design",
+        "correspondingPhase": "P6",
+        "correspondingFeature": "Modular platform architecture supporting scalable expansion to K-12 systems",
+        "priority": "High",
+        "estimatedTime": "2 weeks",
+        "startTime": "2024-09-04",
+        "endTime": "2024-09-18",
+        "dependencies": ["P5"],
+        "responsiblePerson": "Solutions Architect"
+      }
+    ],
+    [
+      {
+        "id": "P6-T2",
+        "taskName": "Modular Architecture Component Implementation",
+        "correspondingPhase": "P6",
+        "correspondingFeature": "Modular platform architecture supporting scalable expansion to K-12 systems",
+        "priority": "High",
+        "estimatedTime": "3 weeks",
+        "startTime": "2024-09-19",
+        "endTime": "2024-10-09",
+        "dependencies": ["P6-T1"],
+        "responsiblePerson": "Development Team Lead"
+      }
+    ],
+    [
+      {
+        "id": "P6-T3",
+        "taskName": "Modular Architecture System Testing",
+        "correspondingPhase": "P6",
+        "correspondingFeature": "Modular platform architecture supporting scalable expansion to K-12 systems",
+        "priority": "High",
+        "estimatedTime": "2.5 weeks",
+        "startTime": "2024-10-10",
+        "endTime": "2024-10-30",
+        "dependencies": ["P6-T2"],
+        "responsiblePerson": "QA Lead"
+      }
+    ],
+    [
+      {
+        "id": "P6-T4",
+        "taskName": "Modular Architecture Deployment & Handover",
+        "correspondingPhase": "P6",
+        "correspondingFeature": "Modular platform architecture supporting scalable expansion to K-12 systems",
+        "priority": "High",
+        "estimatedTime": "2 weeks",
+        "startTime": "2024-12-17",
+        "endTime": "2024-12-31",
+        "dependencies": ["P6-T3"],
+        "responsiblePerson": "Deployment Manager"
+      }
+    ]
+  ]
+]

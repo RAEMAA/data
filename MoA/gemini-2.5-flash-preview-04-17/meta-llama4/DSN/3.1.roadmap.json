@@ -1,0 +1,87 @@
+[
+  {
+      "id": "P1",
+      "phase": "User Profile Development",
+      "feature_list": [
+          "user_id",
+          "username",
+          "profile_picture",
+          "bio",
+          "join_date",
+          "privacy_settings"
+      ],
+      "estimatedTime": 4,
+      "startTime": "2024-09-16",
+      "endTime": "2024-09-19",
+      "dependencies": []
+  },
+  {
+      "id": "P2",
+      "phase": "Content Sharing and Engagement",
+      "feature_list": [
+          "post_id",
+          "user_id",
+          "content",
+          "content_type",
+          "created_at",
+          "updated_at",
+          "visibility",
+          "likes",
+          "comments",
+          "shares",
+          "views"
+      ],
+      "estimatedTime": 6,
+      "startTime": "2024-09-16",
+      "endTime": "2024-09-21",
+      "dependencies": [
+          "P1"
+      ]
+  },
+  {
+      "id": "P3",
+      "phase": "User Connection and Aspiration Tracking",
+      "feature_list": [
+          "followers",
+          "following",
+          "friendships",
+          "connection_requests",
+          "aspiration_id",
+          "user_id",
+          "description",
+          "progress_status",
+          "achievement_status",
+          "creation_date",
+          "last_updated"
+      ],
+      "estimatedTime": 7,
+      "startTime": "2024-09-16",
+      "endTime": "2024-09-22",
+      "dependencies": [
+          "P1",
+          "P2"
+      ]
+  },
+  {
+      "id": "P4",
+      "phase": "Content Analysis and Feedback Mechanism",
+      "feature_list": [
+          "sentiment_analysis",
+          "topic_extraction",
+          "hashtag_extraction",
+          "feedback_id",
+          "post_id",
+          "user_id",
+          "feedback_text",
+          "rating",
+          "created_at"
+      ],
+      "estimatedTime": 5,
+      "startTime": "2024-09-19",
+      "endTime": "2024-09-23",
+      "dependencies": [
+          "P2",
+          "P3"
+      ]
+  }
+]

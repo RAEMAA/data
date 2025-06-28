@@ -1,0 +1,68 @@
+[
+  {
+    "id": "P1",
+    "phase": "Phase 1: User Management",
+    "feature list": [
+      "Farmer registration with bank account verification",
+      "Customer registration and login",
+      "User profile management for both farmers and customers"
+    ],
+    "estimatedTime": "6 weeks",
+    "startTime": "2023-10-11",
+    "endTime": "2023-11-22",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Phase 2: Product Listing",
+    "feature list": [
+      "Create and manage product listings (rice, fruits, fish, etc.)",
+      "Input detailed product descriptions and pricing information",
+      "Upload and manage product images",
+      "Categorize products for easier discovery"
+    ],
+    "estimatedTime": "5 weeks",
+    "startTime": "2023-11-23",
+    "endTime": "2023-12-27",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P3",
+    "phase": "Phase 3: Product Discovery",
+    "feature list": [
+      "Browse product catalog",
+      "Robust search functionality (by product type, price, etc.)",
+      "Product comparison features",
+      "Individual product detail pages"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-12-28",
+    "endTime": "2024-01-24",
+    "dependencies": ["P2"]
+  },
+  {
+    "id": "P4",
+    "phase": "Phase 4: Transaction Processing",
+    "feature list": [
+      "Online ordering system for purchasing products",
+      "Payment processing integration for secure transactions",
+      "Order history and tracking for buyers and sellers"
+    ],
+    "estimatedTime": "5 weeks",
+    "startTime": "2024-01-25",
+    "endTime": "2024-02-28",
+    "dependencies": ["P3"]
+  },
+  {
+    "id": "P5",
+    "phase": "Phase 5: Shipping Integration",
+    "feature list": [
+      "Interface to arrange shipping for purchased items",
+      "Integration with shipping providers to schedule and track deliveries"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2024-02-29",
+    "endTime": "2024-03-20",
+    "dependencies": ["P4"]
+  }
+]

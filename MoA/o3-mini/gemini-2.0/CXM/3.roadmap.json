@@ -1,0 +1,99 @@
+[
+    {
+        "id": "P1",
+        "phase": "Planning and Setup",
+        "feature_list": [],
+        "estimatedTime": 7,
+        "startTime": "2024-07-19",
+        "endTime": "2024-07-25",
+        "dependencies": []
+    },
+    {
+        "id": "P2",
+        "phase": "User Features Development",
+        "feature_list": [
+            "User registration and profile management",
+            "Credibility score system based on successful transactions, user feedback, and total traded value",
+            "User feedback and rating mechanism",
+            "User communication and messaging preferences"
+        ],
+        "estimatedTime": 14,
+        "startTime": "2024-07-26",
+        "endTime": "2024-08-08",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P3",
+        "phase": "Listing Features Development",
+        "feature_list": [
+            "Motorcycle and parts/accessories listing creation (title, description, images, and specifications)",
+            "Listing management (edit, delete, update status)",
+            "Display of listings prioritized by the seller’s credibility",
+            "Notification system for new sell or buy postings"
+        ],
+        "estimatedTime": 14,
+        "startTime": "2024-07-26",
+        "endTime": "2024-08-08",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P4",
+        "phase": "Transaction Features Development",
+        "feature_list": [
+            "Buy and sell functionality for motorcycles and related parts/accessories",
+            "Secure payment processing and transaction handling",
+            "Transaction tracking with history",
+            "Dispute resolution mechanism"
+        ],
+        "estimatedTime": 21,
+        "startTime": "2024-08-09",
+        "endTime": "2024-08-29",
+        "dependencies": [
+            "P2",
+            "P3"
+        ]
+    },
+    {
+        "id": "P5",
+        "phase": "Community Features Development",
+        "feature_list": [
+            "Discussion forums and community boards for motorcycle enthusiasts",
+            "User profiles with activity feeds",
+            "Space for sharing experiences, advice, and industry insights",
+            "Community moderation to maintain a supportive environment"
+        ],
+        "estimatedTime": 21,
+        "startTime": "2024-08-09",
+        "endTime": "2024-08-29",
+        "dependencies": [
+            "P2"
+        ]
+    },
+    {
+        "id": "P6",
+        "phase": "Testing and QA",
+        "feature_list": [],
+        "estimatedTime": 14,
+        "startTime": "2024-08-30",
+        "endTime": "2024-09-12",
+        "dependencies": [
+            "P4",
+            "P5"
+        ]
+    },
+    {
+        "id": "P7",
+        "phase": "Deployment",
+        "feature_list": [],
+        "estimatedTime": 7,
+        "startTime": "2024-09-13",
+        "endTime": "2024-09-19",
+        "dependencies": [
+            "P6"
+        ]
+    }
+]

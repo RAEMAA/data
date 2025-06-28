@@ -1,0 +1,393 @@
+[
+    {
+        "category": "Piglet Management",
+        "features": [
+            {
+                "featureName": "Track piglet growth metrics (weight, height, etc.)",
+                "flow": "1. **Staff:** Selects a piglet (or group of piglets) from the piglet list.\n2. **Staff:** Navigates to the 'Growth Metrics' section for the selected piglet(s).\n3. **Staff:** Enters the date of measurement.\n4. **Staff:** Enters weight (in kg).\n5. **Staff:** Enters height (in cm).\n6. **Staff:** Optionally, enters other metrics like length, girth, etc. (if applicable).\n7. **Staff:** Saves the growth metrics.\n8. **System:** Validates the data (e.g., ensures weight and height are positive numbers).\n9. **System:** Stores the growth metrics in the database, associated with the selected piglet(s) and date.\n10. **System:** Updates growth charts and reports (if applicable).\n11. **Staff:** Views the updated growth metrics on the piglet's profile.",
+                "screens": [
+                    "Piglet List: Displays a list of all piglets with basic information (ID, breed, age).",
+                    "Piglet Details: Shows detailed information about a specific piglet, including growth metrics, feeding schedules, health records, etc.",
+                    "Add/Edit Growth Metrics: A form to input weight, height, and other growth metrics for a specific piglet on a specific date.",
+                    "Growth Chart (Optional): A visual representation of the piglet's growth over time."
+                ]
+            },
+            {
+                "featureName": "Record feeding schedules",
+                "flow": "1. **Staff:** Selects a piglet (or group of piglets) from the piglet list.\n2. **Staff:** Navigates to the 'Feeding Schedule' section for the selected piglet(s).\n3. **Staff:** Clicks 'Add Feeding Schedule'.\n4. **Staff:** Selects the date and time of feeding.\n5. **Staff:** Selects the type of feed.\n6. **Staff:** Enters the quantity of feed given.\n7. **Staff:** Optionally, adds notes about the feeding (e.g., any issues observed).\n8. **Staff:** Saves the feeding schedule.\n9. **System:** Validates the data (e.g., ensures quantity is a positive number).\n10. **System:** Stores the feeding schedule in the database, associated with the selected piglet(s) and date/time.\n11. **Staff:** Views the updated feeding schedule on the piglet's profile.",
+                "screens": [
+                    "Piglet List: Displays a list of all piglets with basic information (ID, breed, age).",
+                    "Piglet Details: Shows detailed information about a specific piglet, including growth metrics, feeding schedules, health records, etc.",
+                    "Feeding Schedule List: Displays a list of all feeding schedules for a specific piglet.",
+                    "Add/Edit Feeding Schedule: A form to input the date, time, feed type, and quantity for a feeding schedule."
+                ]
+            },
+            {
+                "featureName": "Monitor temperature and environmental conditions",
+                "flow": "1. **System (Automated):** Reads temperature and environmental data from sensors (if available). If no sensors, proceed to step 2.\n2. **Staff (Manual):** Navigates to the 'Environmental Conditions' section.\n3. **Staff (Manual):** Selects the piglet location/pen.\n4. **Staff (Manual):** Enters the current temperature (in Celsius or Fahrenheit).\n5. **Staff (Manual):** Enters humidity (in %).\n6. **Staff (Manual):** Enters other relevant environmental data (e.g., air quality, ventilation status).\n7. **Staff (Manual):** Saves the environmental data.\n8. **System:** Validates the data (e.g., ensures temperature and humidity are within reasonable ranges).\n9. **System:** Stores the environmental data in the database, associated with the piglet location/pen and timestamp.\n10. **System:** Generates alerts if temperature or other conditions are outside of acceptable ranges.\n11. **Staff:** Views the environmental data on the piglet location/pen profile.",
+                "screens": [
+                    "Environmental Conditions Dashboard: Displays an overview of temperature, humidity, and other environmental conditions for different piglet locations/pens.",
+                    "Piglet Location/Pen Details: Shows detailed information about a specific piglet location/pen, including current and historical environmental data.",
+                    "Add/Edit Environmental Data: A form to input temperature, humidity, and other environmental data for a specific piglet location/pen."
+                ]
+            },
+            {
+                "featureName": "Categorize information by piglet type/breed",
+                "flow": "1. **Admin/Staff:** Navigates to the 'Piglet Types/Breeds' management section.\n2. **Admin/Staff:** Views a list of existing piglet types/breeds.\n3. **Admin/Staff:** Clicks 'Add New Type/Breed'.\n4. **Admin/Staff:** Enters the name of the piglet type/breed.\n5. **Admin/Staff:** Enters a description of the piglet type/breed.\n6. **Admin/Staff:** Optionally, uploads an image of the piglet type/breed.\n7. **Admin/Staff:** Saves the piglet type/breed.\n8. **System:** Validates the data (e.g., ensures the name is unique).\n9. **System:** Stores the piglet type/breed in the database.\n10. **Staff:** When adding a new piglet, selects the appropriate type/breed from a dropdown list.\n11. **Farmers:** Can filter and search for piglets by type/breed.",
+                "screens": [
+                    "Piglet Type/Breed List: Displays a list of all piglet types/breeds with basic information (name, description).",
+                    "Add/Edit Piglet Type/Breed: A form to input the name, description, and image for a piglet type/breed.",
+                    "Add Piglet: The form used to add a new piglet, including a dropdown to select the piglet's type/breed.",
+                    "Piglet Search/Filter: Allows farmers to filter and search for piglets by type/breed."
+                ]
+            },
+            {
+                "featureName": "Maintain health records (vaccinations, medications)",
+                "flow": "1. **Staff:** Selects a piglet (or group of piglets) from the piglet list.\n2. **Staff:** Navigates to the 'Health Records' section for the selected piglet(s).\n3. **Staff:** Clicks 'Add Health Record'.\n4. **Staff:** Selects the type of health record (e.g., vaccination, medication).\n5. **Staff:** Enters the date of administration.\n6. **Staff:** Enters the name of the vaccine/medication.\n7. **Staff:** Enters the dosage.\n8. **Staff:** Optionally, adds notes about the administration (e.g., any side effects observed).\n9. **Staff:** Saves the health record.\n10. **System:** Validates the data (e.g., ensures dosage is a positive number).\n11. **System:** Stores the health record in the database, associated with the selected piglet(s) and date.\n12. **Staff:** Views the updated health records on the piglet's profile.",
+                "screens": [
+                    "Piglet List: Displays a list of all piglets with basic information (ID, breed, age).",
+                    "Piglet Details: Shows detailed information about a specific piglet, including growth metrics, feeding schedules, health records, etc.",
+                    "Health Records List: Displays a list of all health records for a specific piglet.",
+                    "Add/Edit Health Record: A form to input the type, date, name, and dosage for a health record."
+                ]
+            },
+            {
+                "featureName": "Record common diseases and treatments",
+                "flow": "1. **Staff:** Selects a piglet (or group of piglets) from the piglet list.\n2. **Staff:** Navigates to the 'Disease and Treatment' section for the selected piglet(s).\n3. **Staff:** Clicks 'Add Disease Record'.\n4. **Staff:** Selects the disease from a predefined list (or enters a new disease if not in the list).\n5. **Staff:** Enters the date of diagnosis.\n6. **Staff:** Enters the symptoms observed.\n7. **Staff:** Enters the treatment administered.\n8. **Staff:** Enters the date of recovery (if applicable).\n9. **Staff:** Optionally, adds notes about the disease and treatment.\n10. **Staff:** Saves the disease record.\n11. **System:** Stores the disease record in the database, associated with the selected piglet(s) and date.\n12. **System:** Generates alerts if a disease is spreading rapidly.\n13. **Staff:** Views the updated disease records on the piglet's profile.",
+                "screens": [
+                    "Piglet List: Displays a list of all piglets with basic information (ID, breed, age).",
+                    "Piglet Details: Shows detailed information about a specific piglet, including growth metrics, feeding schedules, health records, etc.",
+                    "Disease Records List: Displays a list of all disease records for a specific piglet.",
+                    "Add/Edit Disease Record: A form to input the disease, date of diagnosis, symptoms, treatment, and date of recovery."
+                ]
+            },
+            {
+                "featureName": "Track import/export status of piglets",
+                "flow": "1. **Staff:** Selects a piglet (or group of piglets) from the piglet list.\n2. **Staff:** Navigates to the 'Import/Export Status' section for the selected piglet(s).\n3. **Staff:** Clicks 'Add Import/Export Record'.\n4. **Staff:** Selects the type of transaction (Import or Export).\n5. **Staff:** Enters the date of the transaction.\n6. **Staff:** Enters the destination/origin location.\n7. **Staff:** Enters the relevant documentation details (e.g., permit number, invoice number).\n8. **Staff:** Enters the transport method.\n9. **Staff:** Optionally, adds notes about the transaction.\n10. **Staff:** Saves the import/export record.\n11. **System:** Stores the import/export record in the database, associated with the selected piglet(s) and date.\n12. **System:** Updates the piglet's status to 'Imported' or 'Exported'.\n13. **Staff:** Views the updated import/export status on the piglet's profile.",
+                "screens": [
+                    "Piglet List: Displays a list of all piglets with basic information (ID, breed, age).",
+                    "Piglet Details: Shows detailed information about a specific piglet, including growth metrics, feeding schedules, health records, etc.",
+                    "Import/Export Records List: Displays a list of all import/export records for a specific piglet.",
+                    "Add/Edit Import/Export Record: A form to input the type, date, location, documentation, and transport method for an import/export transaction."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "User Management",
+        "features": [
+            {
+                "featureName": "Farm staff accounts with specific permissions",
+                "flow": "1. **Admin:** Navigates to the Staff Management section.\n2. **Admin:** Clicks 'Add New Staff' button.\n3. **Admin:** Fills in staff details (Name, Email, Password, Role).\n4. **Admin:** Selects specific permissions for the staff role (e.g., Update Piglet Info, View Reports, Manage Promotions).\n5. **Admin:** Saves the new staff account.\n6. **System:** Sends a confirmation email to the new staff member.\n7. **Staff:** Receives confirmation email and activates account (if required).\n8. **Staff:** Logs in with provided credentials.\n9. **System:** Grants access based on assigned permissions.",
+                "screens": [
+                    "Staff Management Dashboard: Lists existing staff accounts with options to edit or delete.",
+                    "Add New Staff Form: Form to input staff details and assign roles/permissions.",
+                    "Edit Staff Account Form: Form to modify staff details and permissions.",
+                    "Confirmation Email Template: Email sent to new staff members for account activation (if needed).",
+                    "Login Screen: Standard login screen for staff members."
+                ]
+            },
+            {
+                "featureName": "Farmer accounts with registration and login",
+                "flow": "1. **Farmer:** Navigates to the registration page.\n2. **Farmer:** Fills in registration details (Name, Email, Password, Address, Phone Number).\n3. **Farmer:** Agrees to terms and conditions.\n4. **Farmer:** Submits the registration form.\n5. **System:** Sends a verification email to the farmer.\n6. **Farmer:** Clicks the verification link in the email.\n7. **System:** Verifies the email and activates the account.\n8. **Farmer:** Logs in with registered credentials.\n9. **System:** Grants access to farmer-specific features (e.g., Browse Piglets, Place Orders, Communicate with Farm).",
+                "screens": [
+                    "Registration Page: Form for farmers to create an account.",
+                    "Terms and Conditions Page: Displays the terms and conditions for using the platform.",
+                    "Verification Email Template: Email sent to farmers to verify their email address.",
+                    "Login Screen: Standard login screen for farmers.",
+                    "Farmer Dashboard: Landing page after login, showing available piglets, order history, and communication options."
+                ]
+            },
+            {
+                "featureName": "Role-based access control (farm staff vs. farmers)",
+                "flow": "1. **User (Staff or Farmer):** Attempts to access a specific feature or page.\n2. **System:** Identifies the user's role based on their login credentials.\n3. **System:** Checks if the user's role has permission to access the requested feature or page.\n4. **System:** If permission is granted, the user is allowed access.\n5. **System:** If permission is denied, the user is redirected to an error page or a page with limited access.",
+                "screens": [
+                    "Login Screen: Standard login screen for all users.",
+                    "Staff Dashboard: Landing page for staff members, showing relevant information and options based on their permissions.",
+                    "Farmer Dashboard: Landing page for farmers, showing available piglets, order history, and communication options.",
+                    "Access Denied Page: Displayed when a user tries to access a feature they don't have permission for.",
+                    "Admin Panel (Backend): Used to define and manage roles and permissions."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Farmer Features",
+        "features": [
+            {
+                "featureName": "Browse available piglet breeds",
+                "flow": "1. **Farmer:** Navigates to the 'Piglet Breeds' section.\n2. **System:** Displays a list of available piglet breeds with basic information (e.g., breed name, age, weight, price, brief description).\n3. **Farmer:** Can filter and sort the list by breed, age, price, etc.\n4. **Farmer:** Selects a specific piglet breed to view detailed information.\n5. **System:** Displays detailed information about the selected breed, including images, growth characteristics, health information, and farm recommendations.",
+                "screens": [
+                    "Piglet Breeds Listing: Displays a list of available piglet breeds with brief information and filtering/sorting options.",
+                    "Piglet Breed Details: Displays detailed information about a specific piglet breed, including images, growth characteristics, health information, and farm recommendations."
+                ]
+            },
+            {
+                "featureName": "Place orders for piglets",
+                "flow": "1. **Farmer:** Browses available piglet breeds and selects the desired breed(s).\n2. **Farmer:** Adds the desired quantity of each breed to the shopping cart.\n3. **Farmer:** Reviews the shopping cart and proceeds to checkout.\n4. **Farmer:** Provides shipping address and contact information.\n5. **Farmer:** Selects a payment method (e.g., credit card, bank transfer).\n6. **Farmer:** Confirms the order and makes payment.\n7. **System:** Displays an order confirmation page with order details and tracking information (if available).\n8. **System:** Sends an order confirmation email to the farmer.",
+                "screens": [
+                    "Shopping Cart: Displays the items in the cart, allows quantity adjustments, and provides a checkout button.",
+                    "Checkout - Shipping Information: Collects shipping address and contact information from the farmer.",
+                    "Checkout - Payment Method: Allows the farmer to select a payment method and enter payment details.",
+                    "Order Confirmation: Displays order details and confirmation message after successful payment."
+                ]
+            },
+            {
+                "featureName": "Communicate with the farm post-purchase",
+                "flow": "1. **Farmer:** Logs into their account.\n2. **Farmer:** Navigates to the 'My Orders' section.\n3. **Farmer:** Selects the order for which they want to communicate with the farm.\n4. **Farmer:** Opens a chat/messaging interface associated with the order.\n5. **Farmer:** Sends a message to the farm staff regarding questions, concerns, or updates.\n6. **Farm Staff:** Receives the message and responds to the farmer.\n7. **Farmer:** Receives the response from the farm staff.\n8. **System:** Notifies both parties of new messages.",
+                "screens": [
+                    "My Orders: Lists all the farmer's past orders with details and a 'Contact Farm' button for each order.",
+                    "Order Details: Displays detailed information about a specific order, including a chat/messaging interface for communication with the farm.",
+                    "Chat Interface: Allows the farmer and farm staff to exchange messages regarding the order."
+                ]
+            },
+            {
+                "featureName": "Access feeding guidelines",
+                "flow": "1. **Farmer:** Logs into their account.\n2. **Farmer:** Navigates to the 'Feeding Guidelines' section.\n3. **Farmer:** Selects the specific piglet breed they are raising.\n4. **System:** Displays feeding guidelines for the selected breed, including recommended feed types, quantities, and feeding schedules based on age and weight.\n5. **Farmer:** Can download or print the feeding guidelines.",
+                "screens": [
+                    "Feeding Guidelines: Lists available piglet breeds for which feeding guidelines are available.",
+                    "Feeding Guidelines Details: Displays detailed feeding guidelines for a specific piglet breed, including recommended feed types, quantities, and feeding schedules."
+                ]
+            },
+            {
+                "featureName": "Access vaccination schedules",
+                "flow": "1. **Farmer:** Logs into their account.\n2. **Farmer:** Navigates to the 'Vaccination Schedules' section.\n3. **Farmer:** Selects the specific piglet breed they are raising.\n4. **System:** Displays a vaccination schedule for the selected breed, including recommended vaccines, dosages, and administration dates based on age.\n5. **Farmer:** Can download or print the vaccination schedule.\n6. **System:** Sends reminders to the farmer about upcoming vaccinations.",
+                "screens": [
+                    "Vaccination Schedules: Lists available piglet breeds for which vaccination schedules are available.",
+                    "Vaccination Schedule Details: Displays a detailed vaccination schedule for a specific piglet breed, including recommended vaccines, dosages, and administration dates."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Farm Staff Features",
+        "features": [
+            {
+                "featureName": "Update piglet information (growth, health, etc.)",
+                "flow": "1. **Staff:** Logs into the system.\n2. **System:** Authenticates the staff and redirects to the dashboard.\n3. **Staff:** Navigates to the 'Piglet Management' section.\n4. **Staff:** Selects a specific piglet (either by ID, name, or other identifier).\n5. **System:** Displays the piglet's current information.\n6. **Staff:** Clicks on 'Edit' or 'Update Information'.\n7. **System:** Presents an editable form with fields for growth (weight, height, length), health (vaccination records, disease history, current health status), and other relevant information.\n8. **Staff:** Enters or modifies the piglet's information.\n9. **Staff:** Saves the changes.\n10. **System:** Validates the input data.\n11. **System:** If validation is successful, updates the piglet's information in the database and displays a success message. If validation fails, displays error messages indicating the invalid fields.\n12. **Staff:** Reviews the updated information.",
+                "screens": [
+                    "Dashboard: Displays an overview of the farm's operations, including quick access to piglet management.",
+                    "Piglet Management List: Displays a list of all piglets with key information (ID, breed, age, weight).",
+                    "Piglet Details: Displays detailed information about a specific piglet, including growth history, health records, and feeding schedule.",
+                    "Edit Piglet Information: An editable form allowing staff to update the piglet's growth, health, and other relevant data.",
+                    "Success/Error Message: Displays a confirmation message after successfully updating the piglet's information or error messages if there are validation issues."
+                ]
+            },
+            {
+                "featureName": "Manage piglet inventory",
+                "flow": "1. **Staff:** Logs into the system.\n2. **System:** Authenticates the staff and redirects to the dashboard.\n3. **Staff:** Navigates to the 'Inventory Management' section.\n4. **System:** Displays the current piglet inventory, including the number of piglets of each breed, age group, and health status.\n5. **Staff:** Can perform the following actions:\n    a. **Add Piglets:** Clicks on 'Add Piglets', enters the number of new piglets, breed, age, and other relevant information, and saves the changes.\n    b. **Remove Piglets:** Selects piglets to remove (e.g., due to sale or mortality), enters the reason for removal, and confirms the action.\n    c. **Transfer Piglets:** Transfers piglets between different locations within the farm (if applicable). Selects the piglets, specifies the destination location, and confirms the transfer.\n6. **System:** Validates the input data.\n7. **System:** Updates the inventory accordingly and displays a success message. If validation fails, displays error messages.",
+                "screens": [
+                    "Dashboard: Displays an overview of the farm's operations, including quick access to inventory management.",
+                    "Inventory Management: Displays the current piglet inventory, categorized by breed, age, and health status.",
+                    "Add Piglets: A form allowing staff to add new piglets to the inventory, specifying their breed, age, and other details.",
+                    "Remove Piglets: A form allowing staff to remove piglets from the inventory, specifying the reason for removal.",
+                    "Transfer Piglets: A form allowing staff to transfer piglets between different locations within the farm.",
+                    "Success/Error Message: Displays a confirmation message after successfully updating the inventory or error messages if there are validation issues."
+                ]
+            },
+            {
+                "featureName": "Record revenue statistics",
+                "flow": "1. **Staff:** Logs into the system.\n2. **System:** Authenticates the staff and redirects to the dashboard.\n3. **Staff:** Navigates to the 'Revenue Statistics' section.\n4. **Staff:** Selects a date range (e.g., daily, weekly, monthly, quarterly, annually).\n5. **System:** Displays revenue data for the selected period, including total revenue, revenue by piglet breed, revenue by customer, and other relevant metrics.\n6. **Staff:** Can filter the data by different criteria (e.g., piglet breed, customer, sales channel).\n7. **Staff:** Can export the data in various formats (e.g., CSV, Excel).",
+                "screens": [
+                    "Dashboard: Displays an overview of the farm's operations, including quick access to revenue statistics.",
+                    "Revenue Statistics: Displays revenue data for a selected period, with options to filter and export the data.",
+                    "Date Range Selection: Allows staff to select the date range for which they want to view revenue statistics.",
+                    "Filter Options: Allows staff to filter the revenue data by different criteria (e.g., piglet breed, customer).",
+                    "Export Options: Allows staff to export the revenue data in various formats (e.g., CSV, Excel)."
+                ]
+            },
+            {
+                "featureName": "Process farmer orders",
+                "flow": "1. **Staff:** Logs into the system.\n2. **System:** Authenticates the staff and redirects to the dashboard.\n3. **Staff:** Navigates to the 'Orders' section.\n4. **System:** Displays a list of all farmer orders, including order status (e.g., pending, processing, shipped, delivered, cancelled).\n5. **Staff:** Selects an order to view its details.\n6. **System:** Displays the order details, including the farmer's information, the piglets ordered, the order date, and the shipping address.\n7. **Staff:** Can perform the following actions:\n    a. **Approve Order:** Approves the order and changes the order status to 'processing'.\n    b. **Reject Order:** Rejects the order and changes the order status to 'cancelled'.  Requires a reason for rejection.\n    c. **Update Order Status:** Updates the order status as the order progresses (e.g., 'shipped', 'delivered').\n8. **System:** Sends notifications to the farmer about the order status changes.",
+                "screens": [
+                    "Dashboard: Displays an overview of the farm's operations, including quick access to order management.",
+                    "Orders List: Displays a list of all farmer orders, with their status and other relevant information.",
+                    "Order Details: Displays detailed information about a specific order, including the farmer's information, the piglets ordered, and the shipping address.",
+                    "Approve/Reject Order: Allows staff to approve or reject an order.",
+                    "Update Order Status: Allows staff to update the order status as it progresses.",
+                    "Success/Error Message: Displays a confirmation message after successfully updating the order status or error messages if there are issues."
+                ]
+            },
+            {
+                "featureName": "Respond to farmer inquiries",
+                "flow": "1. **Staff:** Logs into the system.\n2. **System:** Authenticates the staff and redirects to the dashboard.\n3. **Staff:** Navigates to the 'Inquiries' or 'Support' section.\n4. **System:** Displays a list of all farmer inquiries, including the farmer's name, the inquiry subject, and the inquiry date.\n5. **Staff:** Selects an inquiry to view its details.\n6. **System:** Displays the inquiry details, including the farmer's message and any attachments.\n7. **Staff:** Can respond to the inquiry by typing a message and sending it to the farmer.\n8. **System:** Sends a notification to the farmer about the response.",
+                "screens": [
+                    "Dashboard: Displays an overview of the farm's operations, including quick access to farmer inquiries.",
+                    "Inquiries List: Displays a list of all farmer inquiries, with their subject and date.",
+                    "Inquiry Details: Displays the details of a specific inquiry, including the farmer's message and any attachments.",
+                    "Respond to Inquiry: Allows staff to type a message and send it to the farmer.",
+                    "Success Message: Displays a confirmation message after successfully sending the response."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Reporting and Analytics",
+        "features": [
+            {
+                "featureName": "Generate monthly reports",
+                "flow": "1. **Farm Staff:** Logs into the system.\n2. **Farm Staff:** Navigates to the 'Reports' section.\n3. **Farm Staff:** Selects 'Monthly Report' option.\n4. **Farm Staff:** Chooses the desired month and year for the report.\n5. **System:** Generates the monthly report based on available data (piglet growth, health, sales, revenue, expenses).\n6. **Farm Staff:** Reviews the generated report on screen.\n7. **Farm Staff:** (Optional) Downloads the report in a suitable format (e.g., PDF, CSV).\n8. **Farm Staff:** (Optional) Prints the report.",
+                "screens": [
+                    "Login Screen: Allows farm staff to log in with their credentials.",
+                    "Dashboard Screen: Displays a summary of key farm metrics and navigation options.",
+                    "Reports Landing Page: Lists available report types (monthly, quarterly, annual).",
+                    "Monthly Report Generation Screen: Allows selection of month and year for report generation.",
+                    "Monthly Report Display Screen: Shows the generated monthly report with relevant data and visualizations.",
+                    "Download Options Screen (Optional): Presents options for downloading the report in different formats.",
+                    "Print Preview Screen (Optional): Shows a preview of the report before printing."
+                ]
+            },
+            {
+                "featureName": "Generate quarterly reports",
+                "flow": "1. **Farm Staff:** Logs into the system.\n2. **Farm Staff:** Navigates to the 'Reports' section.\n3. **Farm Staff:** Selects 'Quarterly Report' option.\n4. **Farm Staff:** Chooses the desired quarter and year for the report.\n5. **System:** Generates the quarterly report based on available data (piglet growth, health, sales, revenue, expenses).\n6. **Farm Staff:** Reviews the generated report on screen.\n7. **Farm Staff:** (Optional) Downloads the report in a suitable format (e.g., PDF, CSV).\n8. **Farm Staff:** (Optional) Prints the report.",
+                "screens": [
+                    "Login Screen: Allows farm staff to log in with their credentials.",
+                    "Dashboard Screen: Displays a summary of key farm metrics and navigation options.",
+                    "Reports Landing Page: Lists available report types (monthly, quarterly, annual).",
+                    "Quarterly Report Generation Screen: Allows selection of quarter and year for report generation.",
+                    "Quarterly Report Display Screen: Shows the generated quarterly report with relevant data and visualizations.",
+                    "Download Options Screen (Optional): Presents options for downloading the report in different formats.",
+                    "Print Preview Screen (Optional): Shows a preview of the report before printing."
+                ]
+            },
+            {
+                "featureName": "Generate annual reports",
+                "flow": "1. **Farm Staff:** Logs into the system.\n2. **Farm Staff:** Navigates to the 'Reports' section.\n3. **Farm Staff:** Selects 'Annual Report' option.\n4. **Farm Staff:** Chooses the desired year for the report.\n5. **System:** Generates the annual report based on available data (piglet growth, health, sales, revenue, expenses).\n6. **Farm Staff:** Reviews the generated report on screen.\n7. **Farm Staff:** (Optional) Downloads the report in a suitable format (e.g., PDF, CSV).\n8. **Farm Staff:** (Optional) Prints the report.",
+                "screens": [
+                    "Login Screen: Allows farm staff to log in with their credentials.",
+                    "Dashboard Screen: Displays a summary of key farm metrics and navigation options.",
+                    "Reports Landing Page: Lists available report types (monthly, quarterly, annual).",
+                    "Annual Report Generation Screen: Allows selection of the year for report generation.",
+                    "Annual Report Display Screen: Shows the generated annual report with relevant data and visualizations.",
+                    "Download Options Screen (Optional): Presents options for downloading the report in different formats.",
+                    "Print Preview Screen (Optional): Shows a preview of the report before printing."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Administrative Features (Farm Owner)",
+        "features": [
+            {
+                "featureName": "Manage data",
+                "flow": "1. **Farm Owner:** Logs into the system.\n2. **System:** Navigates to the 'Data Management' section.\n3. **Farm Owner:** Selects the data category to manage (e.g., Piglet Information, Health Records, Feeding Schedules, Environmental Criteria).\n4. **System:** Displays a list of existing records for the selected category.\n5. **Farm Owner:** Chooses to 'Add New', 'Edit', or 'Delete' a record.\n6. **System:**\n    *   If 'Add New': Displays a form to input new data.\n    *   If 'Edit': Displays the selected record in an editable form.\n    *   If 'Delete': Prompts for confirmation.\n7. **Farm Owner:** Enters/Modifies data and saves the changes.\n8. **System:** Validates the data and saves it to the database. Displays a success/error message.\n9. **Farm Owner:** Repeats steps 3-8 as needed.",
+                "screens": [
+                    "Dashboard: Overview of farm statistics and quick access to key features.",
+                    "Data Management Landing Page: Lists available data categories (Piglet Information, Health Records, Feeding Schedules, Environmental Criteria).",
+                    "Piglet Information List: Displays a table of all piglets with key information (breed, age, health status, etc.).",
+                    "Piglet Information Add/Edit Form: Form for adding new piglet information or editing existing records. Includes fields for breed, birthdate, health records, etc.",
+                    "Health Records List: Displays a list of health records for all piglets.",
+                    "Health Record Add/Edit Form: Form for adding or editing health records, including vaccination dates, disease history, and treatment details.",
+                    "Feeding Schedules List: Displays a list of feeding schedules for different piglet types/ages.",
+                    "Feeding Schedule Add/Edit Form: Form for creating or modifying feeding schedules, including feed type, quantity, and frequency.",
+                    "Environmental Criteria List: Displays a list of environmental criteria records (temperature, humidity, etc.).",
+                    "Environmental Criteria Add/Edit Form: Form for adding or editing environmental criteria records, including date, time, temperature, humidity, and other relevant metrics."
+                ]
+            },
+            {
+                "featureName": "Provide updates to farmers",
+                "flow": "1. **Farm Owner:** Logs into the system.\n2. **System:** Navigates to the 'Farmer Updates' section.\n3. **Farm Owner:** Selects the target audience for the update (e.g., All Farmers, Specific Farmer, Farmers who bought a specific piglet type).\n4. **System:** Provides options to create an update (e.g., Text-based update, Image/Video update, Document upload).\n5. **Farm Owner:** Composes the update message and attaches any relevant files.\n6. **System:** Allows previewing the update.\n7. **Farm Owner:** Sends the update.\n8. **System:** Sends the update to the selected farmers via in-app notification and/or email.",
+                "screens": [
+                    "Dashboard: Overview of farm statistics and quick access to key features.",
+                    "Farmer Updates Landing Page: Options to create and manage updates for farmers.",
+                    "New Update Form: Form for composing and sending updates to farmers. Includes fields for subject, message body, attachment upload, and target audience selection.",
+                    "Update Preview: Displays a preview of the update before sending.",
+                    "Sent Updates List: Displays a list of previously sent updates with their status and target audience."
+                ]
+            },
+            {
+                "featureName": "Announce promotions",
+                "flow": "1. **Farm Owner:** Logs into the system.\n2. **System:** Navigates to the 'Promotions' section.\n3. **Farm Owner:** Clicks on 'Create New Promotion'.\n4. **System:** Displays a form to define the promotion details (e.g., Promotion Title, Description, Discount Percentage, Eligible Piglet Types, Start Date, End Date).\n5. **Farm Owner:** Fills in the promotion details and saves the promotion.\n6. **System:** Validates the promotion details and saves them to the database. Displays a success/error message.\n7. **Farm Owner:** Activates the promotion.\n8. **System:** Displays the active promotion on the farmer's dashboard and sends a notification to all farmers.",
+                "screens": [
+                    "Dashboard: Overview of farm statistics and quick access to key features.",
+                    "Promotions Landing Page: Lists active and inactive promotions.",
+                    "New Promotion Form: Form for creating new promotions. Includes fields for promotion title, description, discount percentage, eligible piglet types, start date, and end date.",
+                    "Promotion Details Page: Displays the details of a specific promotion.",
+                    "Promotion Activation Confirmation: Confirmation dialog before activating a promotion."
+                ]
+            },
+            {
+                "featureName": "Generate reports",
+                "flow": "1. **Farm Owner:** Logs into the system.\n2. **System:** Navigates to the 'Reports' section.\n3. **Farm Owner:** Selects the report type (e.g., Monthly Revenue Report, Piglet Growth Report, Health Report, Sales Report).\n4. **System:** Displays options to filter the report data (e.g., Date Range, Piglet Type, Farmer).\n5. **Farm Owner:** Applies the desired filters.\n6. **System:** Generates the report based on the selected type and filters.\n7. **Farm Owner:** Views the report on the screen or downloads it in a suitable format (e.g., PDF, CSV).",
+                "screens": [
+                    "Dashboard: Overview of farm statistics and quick access to key features.",
+                    "Reports Landing Page: Lists available report types (Monthly Revenue Report, Piglet Growth Report, Health Report, Sales Report).",
+                    "Report Generation Page: Allows selecting report type, date range, and other filters.",
+                    "Report Display: Displays the generated report in a table or chart format.",
+                    "Report Download Options: Options to download the report in various formats (PDF, CSV, etc.)."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Communication",
+        "features": [
+            {
+                "featureName": "Post-purchase communication between farmers and farm staff regarding piglet care",
+                "flow": [
+                    "1. **Farmer:** Logs into the system.",
+                    "2. **Farmer:** Navigates to the 'My Piglets' or 'Orders' section to view purchased piglets.",
+                    "3. **Farmer:** Selects a specific piglet from their list of purchased piglets.",
+                    "4. **Farmer:** Clicks on a 'Contact Farm Staff' or 'Message' button associated with the selected piglet.",
+                    "5. **Farmer:** Is directed to a messaging interface.",
+                    "6. **Farmer:** Types their question or concern regarding the piglet's care (e.g., feeding schedule, vaccination questions).",
+                    "7. **Farmer:** Sends the message.",
+                    "8. **System:** Notifies relevant farm staff (e.g., piglet care specialist) about the new message.",
+                    "9. **Farm Staff:** Logs into the system.",
+                    "10. **Farm Staff:** Receives a notification or sees a new message in their 'Inbox' or 'Support Tickets' section.",
+                    "11. **Farm Staff:** Opens the message from the farmer.",
+                    "12. **Farm Staff:** Reviews the farmer's question or concern.",
+                    "13. **Farm Staff:** Types a response providing guidance or information.",
+                    "14. **Farm Staff:** Sends the response.",
+                    "15. **System:** Notifies the farmer about the response from the farm staff.",
+                    "16. **Farmer:** Receives a notification and views the response in the messaging interface.",
+                    "17. **Farmer:** Can continue the conversation by sending further messages if needed."
+                ],
+                "screens": [
+                    "Login Screen: Allows farmers and farm staff to log into the system.",
+                    "Dashboard Screen (Farmer): Displays an overview of the farmer's account, including purchased piglets.",
+                    "My Piglets/Orders Screen (Farmer): Lists all piglets purchased by the farmer, with details like purchase date and piglet ID.",
+                    "Piglet Details Screen (Farmer): Shows detailed information about a specific piglet, including a 'Contact Farm Staff' button.",
+                    "Messaging Interface (Farmer): Allows the farmer to send and receive messages related to the selected piglet.",
+                    "Dashboard Screen (Farm Staff): Displays an overview of the farm staff's tasks and notifications.",
+                    "Inbox/Support Tickets Screen (Farm Staff): Lists all incoming messages from farmers.",
+                    "Message Details Screen (Farm Staff): Displays the full conversation thread between the farmer and the farm staff regarding a specific piglet."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Website Functionality",
+        "features": [
+            {
+                "featureName": "Piglet transaction capabilities",
+                "flow": "1. **Farmer:** Browses available piglets on the website.\n2. **Farmer:** Selects desired piglets and adds them to the cart.\n3. **Farmer:** Reviews the cart and proceeds to checkout.\n4. **Farmer:** Provides shipping/delivery information.\n5. **Farmer:** Chooses a payment method (e.g., credit card, bank transfer).\n6. **Farmer:** Completes the payment.\n7. **System:** Sends order confirmation to the farmer.\n8. **Farm Staff:** Receives order notification.\n9. **Farm Staff:** Processes the order (verifies availability, prepares piglets for shipment/delivery).\n10. **Farm Staff:** Updates order status (e.g., 'Processing', 'Shipped', 'Delivered').\n11. **System:** Sends order status updates to the farmer.\n12. **Farmer:** Receives the piglets.\n13. **Farmer:** Confirms receipt of piglets (optional).\n14. **System:** Updates order status to 'Completed'.",
+                "screens": [
+                    "Piglet Listing Page: Displays available piglets with details (breed, age, weight, price, health status).",
+                    "Piglet Detail Page: Shows comprehensive information about a specific piglet, including images, videos, and detailed descriptions.",
+                    "Shopping Cart: Displays selected piglets with quantities and total price.",
+                    "Checkout Page: Collects shipping/delivery information and payment details.",
+                    "Payment Gateway: Securely processes payment information.",
+                    "Order Confirmation Page: Displays order summary and confirmation message.",
+                    "Order History Page (Farmer): Lists all past orders with status and details.",
+                    "Order Management Page (Farm Staff): Allows farm staff to view, process, and update order statuses.",
+                    "Payment Confirmation Page: Confirms the payment was successful."
+                ]
+            },
+            {
+                "featureName": "Information sharing with farmers in remote areas",
+                "flow": "1. **Farm Staff:** Creates and publishes informational content (e.g., articles, videos, guides) related to piglet care, feeding, vaccination, and disease prevention.\n2. **System:** Organizes and categorizes the content for easy access.\n3. **Farmer:** Logs in to the website.\n4. **Farmer:** Navigates to the information sharing section.\n5. **Farmer:** Browses available content by category or keyword search.\n6. **Farmer:** Views selected content (articles, videos, etc.).\n7. **Farmer:** (Optional) Posts questions or comments related to the content.\n8. **Farm Staff:** Monitors the comments and responds to farmer inquiries.\n9. **System:** Sends notifications to farmers when new content is published or when their questions are answered.",
+                "screens": [
+                    "Information Hub: Landing page for accessing shared information.",
+                    "Content Listing Page: Displays a list of articles, videos, and other resources, categorized by topic.",
+                    "Article Detail Page: Displays the full content of an article, including text, images, and videos.",
+                    "Video Page: Displays a video with a description and comments section.",
+                    "Search Results Page: Displays search results based on keywords entered by the farmer.",
+                    "Comment Section: Allows farmers to post questions and comments on specific content.",
+                    "Notification Center: Displays notifications for new content, replies to comments, and other important updates.",
+                    "FAQ Page: Answers frequently asked questions about piglet care and management."
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "P1",
+    "phase": "User Profiles and Security",
+    "feature list": [
+      "Verified user profiles with authentication (ID, phone, email)",
+      "Public profile showcasing credibility score, transaction history, and reviews",
+      "Privacy controls for personal data",
+      "Reporting system for fraudulent listings or users",
+      "Two-factor authentication for account security"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-10-11",
+    "endTime": "2023-11-08",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Listing and Transaction Management",
+    "feature list": [
+      "Create detailed listings for motorcycles, parts, and accessories (photos, descriptions, pricing)",
+      "Search and filter listings by type (motorcycle/part/accessory), brand, price range, and location",
+      "Option to mark listings as 'Urgent Sale' for priority placement",
+      "Bidding/Buy-It-Now purchase options",
+      "Transaction history dashboard for sellers/buyers",
+      "Secure in-platform payment integration"
+    ],
+    "estimatedTime": "6 weeks",
+    "startTime": "2023-11-09",
+    "endTime": "2023-12-20",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P3",
+    "phase": "Credibility and User Rating System",
+    "feature list": [
+      "Automated credibility score based on transaction history, user feedback, and total sales/purchase value",
+      "Tiered credibility badges (e.g., Bronze, Silver, Gold) with tier-specific benefits",
+      "Priority visibility for high-credibility listings in search results and homepage",
+      "User feedback system with ratings and reviews for buyers/sellers",
+      "Credibility score displayed on user profiles and listings"
+    ],
+    "estimatedTime": "5 weeks",
+    "startTime": "2023-12-21",
+    "endTime": "2024-01-24",
+    "dependencies": ["P2"]
+  },
+  {
+    "id": "P4",
+    "phase": "Community and Engagement",
+    "feature list": [
+      "Discussion forums for motorcycle topics (maintenance, brands, events)",
+      "User-generated experience-sharing posts with comments/likes",
+      "Regional or brand-specific rider groups/clubs",
+      "Integration of community activity into user profiles (e.g., 'Top Contributor' badges)",
+      "Event listings for motorcycle meetups, races, or auctions"
+    ],
+    "estimatedTime": "5 weeks",
+    "startTime": "2023-11-09",
+    "endTime": "2023-12-13",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P5",
+    "phase": "Quick Sale Optimization",
+    "feature list": [
+      "'Urgent Sale' tag with countdown timers for listings",
+      "Price comparison tool showing market rates for similar items",
+      "Instant Buy option for verified high-credibility buyers",
+      "Promoted listings for urgent sales (paid or credibility-based)",
+      "Automated alerts for buyers when urgent listings match their saved searches"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2024-01-25",
+    "endTime": "2024-02-21",
+    "dependencies": ["P2", "P3"]
+  },
+  {
+    "id": "P6",
+    "phase": "Platform Usability and Support",
+    "feature list": [
+      "Mobile-responsive design and dedicated apps",
+      "Live chat and email support for transaction disputes",
+      "FAQ and guides for new users (listing tips, credibility explained)",
+      "Analytics dashboard for sellers (listing views, offer trends)",
+      "Multi-language and currency support for global users"
+    ],
+    "estimatedTime": "6 weeks",
+    "startTime": "2023-12-21",
+    "endTime": "2024-01-31",
+    "dependencies": ["P1", "P2"]
+  }
+]

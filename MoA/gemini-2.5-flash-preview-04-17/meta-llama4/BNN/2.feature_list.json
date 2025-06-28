@@ -1,0 +1,40 @@
+[
+  {
+      "category": "User Management",
+      "list_feature": [
+          "farmer registration",
+          "user profile management"
+      ]
+  },
+  {
+      "category": "Product Management",
+      "list_feature": [
+          "product posting",
+          "product description",
+          "product images",
+          "price management"
+      ]
+  },
+  {
+      "category": "Payment Processing",
+      "list_feature": [
+          "online payment processing for sellers",
+          "online payment processing for buyers"
+      ]
+  },
+  {
+      "category": "Shipping and Logistics",
+      "list_feature": [
+          "shipping arrangements",
+          "shipping management"
+      ]
+  },
+  {
+      "category": "Core Functionality",
+      "list_feature": [
+          "online posting",
+          "selling",
+          "buying"
+      ]
+  }
+]

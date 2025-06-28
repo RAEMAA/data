@@ -1,0 +1,104 @@
+[
+    {
+        "id": "P1",
+        "phase": "Planning & Setup",
+        "feature_list": [],
+        "estimatedTime": 5,
+        "startTime": "2024-08-01",
+        "endTime": "2024-08-05",
+        "dependencies": []
+    },
+    {
+        "id": "P2",
+        "phase": "User Management & Farmer Registration",
+        "feature_list": [
+            "Farmer Registration (including Bank Account Requirement)"
+        ],
+        "estimatedTime": 10,
+        "startTime": "2024-08-06",
+        "endTime": "2024-08-15",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P3",
+        "phase": "Product Management",
+        "feature_list": [
+            "Product Listing (details, images, prices)"
+        ],
+        "estimatedTime": 12,
+        "startTime": "2024-08-16",
+        "endTime": "2024-08-27",
+        "dependencies": [
+            "P2"
+        ]
+    },
+    {
+        "id": "P4",
+        "phase": "Browsing and Searching",
+        "feature_list": [
+            "Product Browsing",
+            "Product Searching",
+            "Product Comparison"
+        ],
+        "estimatedTime": 8,
+        "startTime": "2024-08-28",
+        "endTime": "2024-09-04",
+        "dependencies": [
+            "P3"
+        ]
+    },
+    {
+        "id": "P5",
+        "phase": "Ordering and Purchasing",
+        "feature_list": [
+            "Product Selection",
+            "Product Purchase"
+        ],
+        "estimatedTime": 7,
+        "startTime": "2024-09-05",
+        "endTime": "2024-09-11",
+        "dependencies": [
+            "P4"
+        ]
+    },
+    {
+        "id": "P6",
+        "phase": "Payment",
+        "feature_list": [
+            "Online Payment (for Customers)",
+            "Payment Receiving (for Farmers)"
+        ],
+        "estimatedTime": 9,
+        "startTime": "2024-09-12",
+        "endTime": "2024-09-20",
+        "dependencies": [
+            "P5"
+        ]
+    },
+    {
+        "id": "P7",
+        "phase": "Shipping Arrangement",
+        "feature_list": [
+            "Shipping Arrangement"
+        ],
+        "estimatedTime": 6,
+        "startTime": "2024-09-21",
+        "endTime": "2024-09-26",
+        "dependencies": [
+            "P6"
+        ]
+    },
+    {
+        "id": "P8",
+        "phase": "Testing & Deployment",
+        "feature_list": [],
+        "estimatedTime": 7,
+        "startTime": "2024-09-27",
+        "endTime": "2024-10-03",
+        "dependencies": [
+            "P7"
+        ]
+    }
+]

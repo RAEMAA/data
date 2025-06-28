@@ -1,0 +1,45 @@
+[
+    {
+        "id": "P1",
+        "phase": "Business Information Management and Staff Management",
+        "feature_list": [
+            "Consolidated business information across all locations",
+            "Multi-branch management",
+            "Support for local staff"
+        ],
+        "estimatedTime": 4,
+        "startTime": "2024-09-16",
+        "endTime": "2024-09-19",
+        "dependencies": []
+    },
+    {
+        "id": "P2",
+        "phase": "Operations Management and Automation",
+        "feature_list": [
+            "Order taking management",
+            "Automated billing",
+            "Streamlined operations",
+            "Minimize manual tasks"
+        ],
+        "estimatedTime": 6,
+        "startTime": "2024-09-16",
+        "endTime": "2024-09-22",
+        "dependencies": []
+    },
+    {
+        "id": "P3",
+        "phase": "Reporting and Analytics",
+        "feature_list": [
+            "Comprehensive revenue reporting",
+            "Individual branch revenue reporting",
+            "Entire chain revenue reporting"
+        ],
+        "estimatedTime": 5,
+        "startTime": "2024-09-20",
+        "endTime": "2024-09-25",
+        "dependencies": [
+            "P1",
+            "P2"
+        ]
+    }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "category": "User Personal Space",
+    "list_feature": [
+      "Profile customization",
+      "Personal dashboard",
+      "Secure account management",
+      "Activity log"
+    ]
+  },
+  {
+    "category": "Creative Expression",
+    "list_feature": [
+      "Content creation tools",
+      "Design templates",
+      "Media uploads",
+      "Editing suite"
+    ]
+  },
+  {
+    "category": "Community Interaction",
+    "list_feature": [
+      "Social sharing",
+      "Forums and discussions",
+      "Peer feedback",
+      "Community events"
+    ]
+  },
+  {
+    "category": "Secure Connectivity",
+    "list_feature": [
+      "Encrypted communications",
+      "Multi-factor authentication",
+      "Real-time monitoring",
+      "Data privacy controls"
+    ]
+  }
+]

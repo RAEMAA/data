@@ -1,0 +1,348 @@
+[
+  {
+    "category": "Order Management System components",
+    "features": [
+      {
+        "category": "Order Management & Multi-Branch Operations",
+        "features": [
+          {
+            "featureName": "Order Management & Multi-Branch Operations",
+            "flow": "1) Waiter submits order via handheld device with section-specific routing (luxury lounge/garden pavilion) 2) Kitchen stations receive prioritized orders through dynamic queue logic (urgent/routine) 3) Four-stage preparation tracking (Received → Prepping → Quality Check → Ready) 4) POS system auto-generates bill upon 'Ready' status 5) Corporate finance team monitors real-time transaction streams and inventory consumption patterns across branches",
+            "screens": [
+              "Mobile Waiter Interface: Handheld order creation with section/table selection, menu customization, and special requests",
+              "Kitchen Command Center: Dual-panel display showing real-time order queue (left) and preparation stage tracking (right) with staff assignment tags",
+              "Corporate Operations Dashboard: Map-based branch performance overview with drill-down metrics for sales trends, order fulfillment speed, and ingredient utilization rates"
+            ]
+          }
+        ]
+      },
+      {
+        "featureName": "Inventory Synchronization",
+        "flow": "1. Waiter submits order via handheld device → 2. System deducts items from local inventory using formula: [current_stock - ordered_quantity] → 3. Central database updates with pulsating sync icon animation → 4. All branches receive synchronized data within 2 seconds → 5. Stock threshold checks trigger restock alerts (red/yellow/green indicators) → 6. Automated discrepancy alerts fire when variance exceeds 5% (|reported - actual|/par_level × 100) → 7. Inventory Manager receives 2FA prompt (SMS + biometric) → 8. Manager reviews CCTV timestamps and transaction logs → 9. Adjustment approval triggers system-wide reconciliation",
+        "screens": [
+          "Real-Time Inventory Dashboard (Branch): Live stock levels with pulsating sync icons and threshold color bands (red <15%, yellow 15-30%, green >30% of par)",
+          "Corporate Inventory Matrix: Multi-branch heatmap with variance percentage banners and product category filters",
+          "Handheld Order Interface: Floating stock counter with live updates during item selection",
+          "Discrepancy Resolution Panel: Split-screen view showing branch-reported vs actual stock, variance formula results, and approval workflow buttons with 2FA status indicators",
+          "Restock Management Screen: Auto-generated purchase orders with par-level calculations and historical consumption graphs"
+        ]
+      },
+      {
+        "category": "Customer Experience & Data Management",
+        "features": [
+          {
+            "featureName": "Customer Identification Initiation",
+            "flow": "1. Waiter selects 'New Order' on handheld device → 2. System displays prompt: 'Identify Customer via Loyalty Card Scan, Phone Number, or Manual Entry' → 3. Waiter scans loyalty card/inputs phone number → 4a. If existing customer: System retrieves profile and displays on Customer Profile Display Screen → 4b. If new customer: Waiter enters name/phone number to create basic profile → 5. Proceed to order entry with identified customer context",
+            "screens": [
+              "Customer Profile Display Screen: Shows customer name, frequent order history, and loyalty tier. Integrates with POS to auto-populate order fields based on past behavior."
+            ]
+          },
+          {
+            "featureName": "Preference Collection Workflow",
+            "flow": "1. After customer identification → 2. System auto-suggests preferred items (e.g., 'Usual: Iced Latte, 2 sugars') on Order Preference Input Screen → 3. Waiter confirms/modifies preferences → 4. Waiter adds custom requests (e.g., 'Extra foam') → 5. Order routed to relevant prep station via POS with customer-specific instructions → 6. Updated preferences saved to temporary session",
+            "screens": [
+              "Order Preference Input Screen: Dynamic form with toggleable presets, custom request field, and visual menu. Highlights frequently ordered items based on customer history."
+            ]
+          },
+          {
+            "featureName": "Database Update Mechanism",
+            "flow": "1. Upon order completion → 2. System triggers dual update: a) Customer DB: Appends order details/preferences to profile → b) Branch DB: Updates daily sales/ingredient usage → 3. Central corporate DB syncs via nightly batch processing → 4. Real-time alerts to Branch Manager Dashboard for threshold breaches (e.g., loyalty tier upgrades)",
+            "screens": [
+              "Branch Manager Dashboard: Displays live customer acquisition rates, popular preference trends, and ingredient consumption vs. sales. Drill-down to individual customer profiles via integrated search."
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Order Management System",
+        "features": [
+          {
+            "featureName": "Customizable Order Templates",
+            "flow": "1. Manager accesses template dashboard via back-office interface\n2. Selects 'Create New Template' with predefined item categories\n3. Sets default quantities/sizes for menu items using drag-and-drop builder\n4. Configures role-based access permissions (waiter/corporate/admin)\n5. Saves template with version control in branch database\n6. Waiters access approved templates via handheld devices during order entry",
+            "screens": [
+              "Template Dashboard (Back-Office): Central interface for template management and version history",
+              "Template Builder (Back-Office): Visual editor for setting item defaults and access rules",
+              "Template Selector (Handheld): Waiter-facing interface with search/filter capabilities",
+              "Order Overlay (Handheld): Auto-applies template defaults during live order modification"
+            ]
+          },
+          {
+            "featureName": "Cross-Branch Template Sharing",
+            "flow": "1. Corporate admin initiates template sharing from management portal\n2. Selects target branches and sets permission levels\n3. Branch managers receive approval requests via notification system\n4. Modified templates undergo version comparison before synchronization\n5. Approved templates deploy to selected branches' POS systems overnight",
+            "screens": [
+              "Template Sharing Hub (Corporate Portal): Centralized interface for multi-branch distribution management",
+              "Approval Workflow Screen (Branch Manager): Side-by-side version comparison and conflict resolution tools",
+              "Sync Status Dashboard (All Roles): Real-time visualization of template adoption rates across branches"
+            ]
+          }
+        ]
+      },
+      {
+        "featureName": "Real-time Capacity Alerts",
+        "flow": "1. System monitors occupancy via payment-finalized POS transactions and validated QR check-ins across venue sections.\n2. When luxury lounges exceed 75% or garden pavilions reach 80%, multi-level alerts trigger (visual for managers/haptic for waiters).\n3. Branch manager analyzes Capacity Dashboard with 3D floor map showing waiter positions via handheld GPS.\n4. Manager uses Alert Overlay to: (a) Drag-and-drop waiter reassignment, (b) Initiate section closure protocols with automated customer relocation suggestions, (c) Set dynamic thresholds based on upcoming reservations.\n5. Waiters receive handheld alerts with voice-read options: 'Redirect to Lounge A' or 'Confirm Time Warning' via button shortcuts.\n6. Real-time updates from POS settlements (table release) and QR validation kiosks (section entry).\n7. All actions auto-log in audit trail with timestamps and linked hourly revenue data for corporate financial analysis.",
+        "screens": [
+          "Capacity Dashboard - 360° view with: Rotatable 3D floor map (live waiter GPS pins), Animated threshold thermometers (section-specific), Projection graphs comparing current vs. reservation-based expected occupancy.",
+          "Alert Interface (Manager) - Hover-over holographic display showing: Guest demographics in affected sections, Predictive load timeline, One-click 'Optimize' button generating AI staff redistribution plans.",
+          "Capacity Configuration Screen - Dynamic threshold matrix with: Section-type presets (luxury/casual/outdoor), Holiday multipliers, Reservation buffer sliders, Gradient color scale preview.",
+          "Handheld Alert Interface (Waiter) - Glow-pulse notification panel with: Section heatmap overlay, Customer redirect QR generator, Swipe-to-acknowledge gestures, Voice command toggle ('Notify Manager'/'Confirm Action')."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Billing/POS integration",
+    "features": [
+      {
+        "category": "POS & Financial Management",
+        "features": [
+          {
+            "featureName": "Unified POS Terminal Integration",
+            "flow": "1) Waiter selects menu items on handheld device (User Role: Waiter) -> 2) System displays order summary with allergy alerts/upsell suggestions -> 3) Confirmed order transmits to kitchen display system/POS simultaneously -> 4) Dynamic pricing engine applies loyalty discounts/seasonal surcharges -> 5) Customer pays via NFC/card insert/QR scan at POS (User Role: Customer) -> 6) Payment gateway integration validates funds in <2s -> 7) Successful transactions sync to branch SQL database + corporate cloud ledger -> 8) Branch managers filter sales by section (lounge/garden pavilion) in daily reports -> 9) Corporate auditors compare VAT calculations across provinces via normalized currency dashboard -> 10) Blockchain-based audit trail records device fingerprints/timestamps/encrypted tender details",
+            "screens": [
+              "Handheld Order Pad: Gesture-controlled interface with section-based seating maps (Lounges/Pavilions)",
+              "Kitchen Display Wallboard: Preparation timers with customer seat numbers",
+              "Multi-tender Payment Screen: Supports corporate account splits + gift card redemptions",
+              "Branch Liquidity Monitor: Projects cash reserve needs based on historical hourly demand",
+              "Corporate Tax Compliance View: Auto-highlights regional tax rate discrepancies",
+              "Signature Capture Interface: Digital pen input for high-value corporate receipts",
+              "Encrypted Audit Portal: Blockchain explorer for transaction hashes with role-based access tiers"
+            ]
+          },
+          {
+            "featureName": "Dynamic Pricing & Tax Compliance Suite",
+            "flow": "1) Corporate manager configures loyalty tiers/seasonal rules via admin console (User Role: Corporate Manager) -> 2) System applies pricing logic to handheld POS in <15s with version tracking -> 3) Waiter views real-time loyalty discounts on order summary screen (User Role: Waiter) -> 4) During payment, POS displays itemized tax breakdowns by province -> 5) Corporate finance team toggles multi-region tax overlay (User Role: Finance Analyst) -> 6) System auto-generates compliance gap reports with legislative references -> 7) Auditors verify transaction integrity via blockchain hashes (User Role: Auditor) -> 8) Discrepancies trigger encrypted audit tickets to regional managers",
+            "screens": [
+              "Loyalty Pricing Matrix: Drag-and-drop rule builder with tiered customer segments (Platinum/Gold/Silver), seasonal calendar integration, and real-time revenue impact projections",
+              "Tax Jurisdiction Overlay: Interactive map with drill-down layers showing provincial VAT/GST rates, exemption thresholds, and side-by-side comparison grids for multi-branch analysis",
+              "Blockchain Validator Panel: Three-pane view showing (1) Original transaction metadata (2) Corresponding blockchain entry with timestamp/device ID (3) Validation status indicator with checksum confirmation"
+            ]
+          }
+        ]
+      },
+      "{ \"featureName\": \"Split Payment System\", \"flow\": \"1. (Customer) Initiates split payment request via waiter after reviewing bill\\\n2. (Waiter) Activates split mode on handheld device, selects division method [Equal/Itemized]\\\n3. (POS System) Automatically calculates shares:\\\n   - Equal: (Total + Tax) ÷ Participant count\\\n   - Itemized: Customers verbally confirm consumed items to waiter for manual entry\\\n4. (System) Displays individual amounts with tax breakdown on Payment Allocation Screen\\\n5. (Customer Group) Processes payments sequentially through:\\\n   - Dedicated POS terminals per branch section\\\n   - QR code scanning for mobile payments\\\n6. (System) Generates:\\\n   - Individual e-receipts sent via SMS/email\\\n   - Consolidated audit log with split ratios, payment timestamps, and waiter ID\\\n7. (Manager) Receives real-time notification when all split payments are reconciled\", \"screens\": [\"Bill Summary Screen: Shows itemized orders, total with tax breakdown, and split payment CTA\", \"Split Method Interface: Waiter-only screen with large touch targets for equal/itemized selection\", \"Item Verification Screen: Displays ordered items with checkboxes (for itemized splits) - updated via waiter inputs\", \"Payment Dashboard: Grid view showing all participants' amounts, payment status (Paid/Pending), and preferred method\", \"Transaction Confirmation Screen: Displays real-time payment confirmation with transaction ID, timestamp, and audit log reference. Includes POS terminal ID and sync status with corporate systems\", \"Corporate Audit Screen: Admin-only interface displaying split transactions with POS terminal IDs, corporate sync status, and reconciliation flags. Integrates branch-level POS data with central accounting systems in real-time\"] }",
+      {
+        "featureName": "Automated Tax Compliance",
+        "flow": "1. [Corporate Admin] Configure regional tax rates and compliance rules via centralized dashboard, mapped to branch locations. 2. [Waiter] Input customer order via handheld device - tax calculation triggers automatically based on branch-specific rate. 3. [POS System] Apply tax to order total in real-time, embedding tax metadata (rate %, taxable amount, jurisdiction) within transaction record. 4. [System] Auto-generate tax-inclusive receipts with breakdown and compliance footers. 5. [Branch Manager] Review daily tax summaries through branch dashboard with variance alerts for discrepancies >2%. 6. [Corporate Finance] Generate audit-ready national tax reports with drill-down to branch-level details, synced with central accounting systems. 7. [System] Monthly auto-archiving of tax records to secure cloud storage with versioning.",
+        "screens": [
+          "Tax Configuration Dashboard (Corporate): Central interface for managing tax profiles across branches with effective date controls",
+          "POS Tax Overlay (Branch): Real-time tax calculation display during order entry with compliance status indicators",
+          "Audit Receipt View: Digital receipt replica showing line-item taxation for customer disputes/audits",
+          "Branch Tax Analytics: Heatmap of high-tax transactions and exemption tracking per shift",
+          "National Tax Matrix (Corporate): Multi-branch comparison screen showing regional rate variations and compliance adherence percentages",
+          "Tax Audit Portal: Chronological transaction browser with filters for date, branch, and tax type"
+        ]
+      },
+      [
+        {
+          "featureName": "Dynamic Promotion Engine",
+          "flow": "1. Corporate Manager authenticates via SSO > 2. Selects branch/corporate scope in promotion dashboard > 3. Defines discount tiers (e.g., 15% off for 5+ meeting lounge bookings) > 4. Creates product bundles (romantic pavilion package with dessert pairing) > 5. Sets time-based rules (happy hour discounts for garden pavilions) > 6. Publishes promotions to designated branches via encrypted sync > 7. POS/handhelds receive updates within 30-second refresh cycle > 8. During order entry, system highlights applicable promotions with color-coded priority (corporate=gold, branch=silver)",
+          "screens": [
+            "Branch/Corporate Scope Selector - Geolocation map with branch cluster visualization",
+            "Tiered Discount Matrix - Grid interface showing volume thresholds vs discount percentages",
+            "Promotion Sync Monitor - Real-time status of rule propagation to POS endpoints",
+            "Priority Overlay Screen - POS interface layer showing corporate/branch promotion hierarchy"
+          ]
+        },
+        {
+          "featureName": "Contextual Discount Arbiter",
+          "flow": "1. Waiter scans customer tier QR code on handheld > 2. System cross-references: order type (meeting lounge vs pavilion), party size, time-in-store > 3. Applies non-stackable corporate promotions first > 4. Displays residual eligible branch promotions > 5. Triggers haptic feedback on handheld for conflict detection > 6. Presents override options with tiered approval requirements (shift leader vs branch manager)",
+          "screens": [
+            "Tier Recognition Interface - Auto-populates customer status from CDC loyalty database",
+            "Promotion Stack Simulator - Side-by-side price comparison before/after multi-discount application",
+            "Haptic Alert Configuration - Vibration pattern settings for different priority alerts"
+          ]
+        },
+        {
+          "featureName": "Compliance-First Override System",
+          "flow": "1. Staff long-presses discount override on POS > 2. Biometric authentication via fingerprint scanner > 3. Selects from pre-approved override reasons (customer complaint, special event) > 4. Automatic camera capture of customer facing screen > 5. Flags transaction for nightly audit reconciliation > 6. Syncs override metadata to corporate compliance hub",
+          "screens": [
+            "Biometric Auth Panel - Integrated fingerprint reader with success/failure animations",
+            "Reason Code Selector - Dropdown with corporate-mandated override justification categories",
+            "Audit Trail Viewer - Side-by-side comparison of original vs overridden transaction"
+          ]
+        },
+        {
+          "featureName": "Dual-Channel Price Display",
+          "flow": "1. POS splits screen during discount calculation > 2. Left panel shows base prices with itemized promotion impacts > 3. Right panel displays customer-facing simplified view > 4. Prints dual-receipts with corporate/branch branding > 5. Updates digital receipts via CDC app with promotion redemption details",
+          "screens": [
+            "Screen Partition Controller - Adjustable split-screen ratio settings",
+            "Receipt Branding Customizer - Separate templates for corporate-mandated vs branch-specific receipts",
+            "Digital Redemption Tracker - In-app history of used promotions with remaining eligibility"
+          ]
+        }
+      ],
+      {
+        "featureName": "Digital Receipt Generation & Management",
+        "flow": "1. POS terminal auto-generates transaction record upon payment completion (Role: POS System)\n2. Waiter receives payment confirmation alert on handheld device (Role: Waiter)\n3. Waiter selects 'Generate Receipt' option on handheld interface (Role: Waiter)\n4. System presents customer-facing receipt options: email/SMS/direct print/loyalty account archive (Role: System)\n5. Waiter confirms customer's preferred delivery method (Role: Waiter/Customer)\n6. System encrypts and timestamps receipt data for audit compliance (Role: System)\n7. Receipt automatically archives to branch-level transaction log (Role: Branch Database)\n8. Copy forwarded to corporate financial reporting system (Role: Central Server)\n9. Customer receives receipt via selected channel with brand-consistent formatting (Role: Customer)\n10. Loyalty program members access historical receipts in personal account (Role: Customer)",
+        "screens": [
+          "POS Payment Confirmation Screen - Displays transaction success status and initiates receipt workflow",
+          "Waiter Handheld Receipt Interface - Provides receipt generation controls and delivery method selection",
+          "Customer Receipt Preference Screen - Mobile-optimized modal for choosing delivery channel (displayed on waiter's device)",
+          "Receipt Delivery Status Screen - Shows real-time confirmation of receipt transmission success/failure",
+          "Customer Loyalty App Receipt Archive - Dedicated UI section for viewing/downloading past transaction records",
+          "Branch Receipt Log - Admin interface filtering receipts by date/staff ID/payment type",
+          "Corporate Receipt Dashboard - Aggregate view of nationwide receipts with export functionality"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Venue section types",
+    "features": [
+      [
+        {
+          "featureName": "Multi-Level Revenue Dashboard",
+          "flow": "1. Waiter submits order via CDC handheld device (role: front-line staff) → 2. Order data auto-syncs to branch POS and encrypted central cloud (system role: data pipeline) → 3. Branch manager views real-time dashboard filtered to their location through role-based access (role: branch management) → 4. Corporate analyst accesses aggregated national view with drill-down to luxury lounge vs garden pavilion performance (role: executive oversight) → 5. System triggers automated variance alerts when branch data deviates >15% from regional averages via SMS/email (role: compliance system) → 6. Compliance officer exports audit-ready reports with timestamped transaction trails meeting Vietnamese accounting standards (role: regulatory compliance)",
+          "screens": [
+            "Handheld Order Interface - Compact tablet UI with section-specific buttons for lounge/pavilion service differentiation",
+            "Branch Performance Dashboard - Hourly sales heatmaps correlated with staff shift schedules and venue section filters",
+            "Corporate Analytics Screen - Dual-view comparison between meeting lounge revenue (beverage + premium service charges) vs garden pavilion sales (romantic package deals)",
+            "Variance Justification Panel - Audit trail interface showing automated flagging of discrepancies with attachment capability for explanation documents"
+          ]
+        },
+        {
+          "featureName": "Flexible Seating Zones",
+          "flow": "1. Staff selects target zone type (luxury lounge/garden pavilion/general) via CDC handheld device (role: floor supervisor) → 2. System updates digital floor plan and syncs zone configuration across branch POS/central cloud (system role: spatial management) → 3. Customers are guided to assigned zones via illuminated table indicators or hostess tablet notifications (role: customer) → 4. Waiters scan zone-specific QR codes using handheld devices to auto-link orders to spatial revenue tracking (role: service staff) → 5. Zone-specific premium charges (e.g., lounge privacy fees) auto-apply at POS during billing (system role: dynamic pricing) → 6. Post-closing reports segment sales by zone type with occupancy rate analytics (role: branch manager)",
+          "screens": [
+            "Handheld Zone Converter - Dropdown selector for zone types with capacity warnings and conversion history log",
+            "Dynamic Floor Plan Screen - Color-coded real-time venue map showing convertible zones with current occupancy percentages",
+            "Customer Zone Assignment Panel - Tablet interface for hostesses displaying zone availability and reservation conflicts",
+            "Zone-Specific Order Interface - Context-aware handheld UI showing menu items prioritized for selected zone type (e.g., romantic packages in garden pavilions)",
+            "Zone Billing Overlay - POS terminal module highlighting applied spatial surcharges/compliance with tax regulations",
+            "Zone Analytics Dashboard - Comparison charts showing revenue/sq.meter across convertible spaces with peak hour heatmaps",
+            "Zone Configuration Manager - Admin portal for setting minimum occupancy thresholds, premium charges, and zone conversion permissions"
+          ]
+        }
+      ],
+      {
+        "featureName": "Seasonal Space Booking & Operations",
+        "flow": "1) [Customer] Discovers seasonal space via in-app promotions/branch digital signage 2) [Customer] Checks real-time availability through seasonal space landing screen 3) [Customer] Books/modifies reservation via calendar interface with party size/special requests 4) [System] Triggers automated alerts to branch staff about upcoming reservations 5) [Chef/Barista] Reviews seasonal menu prep requirements via preparation dashboard 6) [Wait Staff] Confirms space setup completion through handheld task checklist 7) [Customer] Accesses seasonal menu digitally during reservation period 8) [POS System] Processes payments with seasonal menu upcharges 9) [Cleaning Crew] Initiates post-event cleanup via automated workflow triggers 10) [Inventory Manager] Reviews restocking needs through consumables tracking screen",
+        "screens": [
+          "Seasonal Space Landing Page (Customer) - Promotional content + availability calendar",
+          "Reservation Management Screen (Customer) - Booking modification/cancellation interface",
+          "Seasonal Menu Interface (Customer) - Augmented reality view of themed food/drinks",
+          "Staff Reservation Dashboard (Branch Manager) - Daily reservation timeline + resource allocation",
+          "Preparation Task List (Wait Staff) - Mobile checklist for table setup/seasonal decorations",
+          "Cleanup Checklist (Cleaning Crew) - Post-event sanitation steps with photo verification",
+          "Inventory Restock Interface (Inventory Manager) - Automated suggestions for seasonal supplies"
+        ]
+      },
+      {
+        "featureName": "End-to-End VIP Lounge Management",
+        "flow": "1. [Customer] Reserve VIP lounge via mobile app/web portal or corporate liaison\n2. [System] Verify real-time availability using branch-specific inventory via API bridge\n3. [Host] Confirm reservation via SMS/email with QR code\n4. [Customer] Check in using QR code at branch entrance\n5. [Host] Assign lounge via handheld device (API bridge sync), triggering waiter notification\n6. [Waiter] Initiate service protocol (pre-ordered refreshments/AV setup)\n7. [Waiter] Submit WebSocket-prioritized orders via handheld to preparation stations\n8. [POS] Auto-generate bill with corporate discount matrix (v2.3 engine)\n9. [Customer] Approve payment via handheld signature/PIN\n10. [System] Post-service: Send feedback survey + loyalty points update",
+        "screens": [
+          "Reservation Interface (Web/Mobile): Input party size/duration/special requests",
+          "Availability Checker (Admin): Real-time lounge occupancy heatmap synced with API bridge",
+          "Corporate Booking Portal: Bulk reservation with negotiated terms display",
+          "Check-In Verification (Host Station): Scandit SDK v5.4 QR scanner integrated with real-time inventory API bridge + ID validation overlay",
+          "Lounge Assignment Dashboard: Tabletop map with dynamic resource allocation synced via API bridge",
+          "VIP Order Panel (Handheld): WebSocket v1.3 priority tags for expedited kitchen routing via middleware v4.7",
+          "Service Tracker (Waiter UI): NTP-synchronized timestamped task checklist (e.g., 'AV Test by 14:30')",
+          "Premium Billing Screen (POS): Split-bill options + corporate discount matrix (v2.3 pricing engine) + direct corporate invoicing",
+          "Post-Visit Survey (Mobile): Service rating + amenity improvement suggestions",
+          "VIP Analytics Dashboard: Utilization rates/peak demand patterns per branch"
+        ]
+      },
+      {
+        "features": [
+          {
+            "featureName": "Express Order & Payment System",
+            "flow": "1. Customer approaches express counter and interacts with self-service kiosk (Customer role)\n2. Kiosk displays real-time menu with availability indicators from integrated POS inventory\n3. Customer selects items, applies loyalty rewards if applicable, and completes payment via integrated card reader/mobile wallet (Customer role)\n4. Order automatically routes to nearest available preparation station with priority tagging (System automation)\n5. Barista receives order on preparation station screen with customization details and preparation timer (Barista role)\n6. POS simultaneously updates corporate financial records and branch-level sales analytics (System automation)\n7. Customer receives SMS/visual notification on overhead display when order is ready for pickup (Customer role)\n8. Staff validates pickup via QR scan at collection point, closing order loop (Counter Staff role)",
+            "screens": [
+              "Dynamic Menu Kiosk - Customer-facing interface with allergy filters, combo suggestions, and real-time stock indicators",
+              "Barista Command Screen - Centralized display showing active orders, preparation timers, and ingredient stock alerts",
+              "Collection Verification Panel - Staff-operated interface for QR validation and pickup analytics",
+              "Express Analytics Dashboard - Dual-view display showing branch-level throughput metrics and corporate-wide sales trends"
+            ]
+          },
+          {
+            "featureName": "Mobile-Assisted Express Service",
+            "flow": "1. Staff greets waiting customers with handheld POS tablets (Counter Staff role)\n2. Customer verbally places order with staff member, who inputs directly into mobile POS (Counter Staff/Customer roles)\n3. System suggests complementary add-ons based on order patterns (AI module)\n4. Customer approves order summary and pays via contactless terminal on handheld device (Customer role)\n5. Order splits to appropriate preparation zones (beverage/food) with preparation ETA tracking (System automation)\n6. Staff member proceeds to next customer while previous order processes (Counter Staff role)\n7. Prepared items are logged in system via barcode scan at assembly station (Barista role)\n8. Customer receives physical/vibrating pager when order is ready (System automation)",
+            "screens": [
+              "Mobile POS Interface - Staff handheld interface with quick-order buttons and customer lookup functionality",
+              "Assembly Tracking Display - Kitchen-facing monitors with order grouping logic and preparation stage indicators",
+              "Customer Pager System - Centralized management screen for pager allocation and ready-order alerts",
+              "Service Efficiency Monitor - Real-time staff performance tracking with customer wait time analytics"
+            ]
+          }
+        ]
+      },
+      {
+        "featureName": "Accessibility-Enhanced Customer Journey",
+        "flow": "1. [Customer] Enters via tactile pathing with proximity-activated voice guidance (syncs with branch sensors)\n2. [Staff] Receives accessibility alert on handheld device, prepares reserved adaptive seating zone\n3. [Customer] Confirms preferences via voice/gesture-controlled kiosk (auto-height adjustment)\n4. [System] Activates designated accessibility route to seating area with obstacle-free path\n5. [Staff] Adjusts ambient lighting/sound levels via centralized accessibility control panel\n6. [Customer] Orders through staff handheld or personal device via QR code (high-contrast menu with text-to-speech)\n7. [Prep Station] Prints braille order tags + triggers vibrating pagers for staff alerts\n8. [Customer] Completes payment via NFC wristband linked to pre-registered ADA profile\n9. [System] Updates corporate accessibility compliance tracker with service metrics",
+        "screens": [
+          "Accessibility Alert Interface (Staff Handheld): Priority notification system with ADA requirement checklist",
+          "Adaptive Seating Planner (Central Panel): Real-time visualization of accessibility zones and furniture status",
+          "Multi-Sensory Order Interface (Kiosk): Combines voice commands, gesture controls, and high-contrast visuals",
+          "Accessibility Routing Map (Wall Display): Dynamic path visualization with congestion alerts",
+          "Braille Order Management (Prep Station): Tactile order tagging system with allergy/dietary flags",
+          "ADA Profile Manager (Corporate Dashboard): Nationwide tracking of accessibility feature usage patterns"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Revenue reporting layers",
+    "features": [
+      {
+        "featureName": "Multi-Level Sales Attribution & Reporting",
+        "flow": "1. [Data Collection] POS terminals (geolocation-tagged) capture transaction amounts/payment methods. Handheld devices log: order details (items/quantities), section IDs (meeting lounge/garden pavilion), and staff credentials. 2. [Attribution Processing] System matches handheld orders to POS transactions via session IDs. Logic assigns sales to: a) Branch (POS geolocation) b) Venue section (order metadata) c) Staff (device login). 3. [Branch Manager Access] Role: Branch Manager > SSO login > Real-time dashboard displays: - Section comparisons (revenue/sq.ft) - Staff efficiency (orders/hour + avg. transaction value) - Alerts for POS-handheld mismatches (>2% variance). 4. [Corporate Analyst Access] Role: Corporate Analyst > Date/region filters > Enterprise dashboard shows: - Cross-branch benchmarks (revenue/seat) - Automated tax calculations (regional rates + VAT breakdown) - Inventory variance heatmaps. Nightly reconciliation flags branches exceeding 5% inventory/sales discrepancy.",
+        "screens": [
+          "Branch Attribution Dashboard: Live metrics with toggles between section performance, staff leaderboards, and discrepancy alerts",
+          "Revenue Allocation Matrix: Pie charts/stacked bars showing branch/section/staff contribution percentages",
+          "Order-POS Reconciliation Tool: Side-by-side comparison of handheld orders vs finalized POS transactions with override authorization",
+          "Enterprise Tax Hub: Multi-region tax liability summaries with export-ready .xlsx templates for auditors",
+          "Inventory Variance Console: Color-coded alerts showing branches with abnormal ingredient consumption vs sales volume",
+          "Strategic Forecast Interface: ML-driven projections of branch/section performance with adjustable economic variables"
+        ]
+      },
+      {
+        "featureName": "Margin Analysis by Product Category",
+        "flow": "1. POS terminals automatically sync product-level sales/cost data to central servers every 15 minutes through integrated weighing scales and inventory APIs (System Role)\n2. Branch managers authenticate via biometric scanners on branch tablets to access real-time 'Category Margin Dashboard', filtering by time periods/venue sections (luxury lounges vs garden pavilions) (Branch Manager Role)\n3. Corporate analysts use role-based access in web portal to compare margins across regions, with automated normalization for seasonal ingredient price variations (Corporate Analyst Role)\n4. Multi-touch drill-down interface reveals cost drivers: hourly labor rates per barista station vs bulk ingredient costs from regional suppliers\n5. Smart alerts notify both branch managers (via tablet push notifications) and corporate finance teams (email/Slack) when category margins deviate >5% from targets",
+        "screens": [
+          "Interactive Margin Map - Geolocated heatmap showing regional margin variations with venue-type filters",
+          "Product Category Profitability Matrix - Sortable table comparing contribution margins across beverage categories/desserts/merchandise",
+          "Cost Component Breakdown - Interactive waterfall charts showing ingredient vs labor cost impacts on margin changes",
+          "Threshold Configuration Panel - Corporate finance interface to set dynamic margin targets by product category/region/season",
+          "Comparative Timeline Viewer - Overlay margin trends for equivalent products across different branch types/venue sections"
+        ]
+      },
+      {
+        "featureName": "Peak/Off-Peak Performance Comparisons",
+        "flow": "1. [Role: Corporate Analyst/Branch Manager] Authenticate via Login Screen\n2. [Role-Based Routing] Corporate Analysts enter Corporate Dashboard; Branch Managers access Local Branch Dashboard\n3. Select 'Peak Analysis' module from dashboard\n4. On Peak Period Definition Screen:\n   a. Define custom time-bands using drag-and-drop timeline (e.g., 8-10 AM as peak)\n   b. Apply historical foot traffic patterns as smart suggestions\n   c. Set holiday/rush-hour modifiers affecting period classification\n5. System correlates POS data with staff schedules and pricing logs\n6. Visualization Screen renders:\n   a. Split-view matrices comparing order throughput (peak vs off-peak)\n   b. Staff efficiency panels showing table turnover rates and error frequencies\n   c. Dynamic pricing impact charts with elasticity indicators\n7. [Role-Specific Actions]\n   a. Corporate Analysts: Simulate pricing adjustments using period-based elasticity models\n   b. Branch Managers: Generate optimized staff schedules via AI recommendations\n8. Export Engine creates comparison reports with time-band annotations",
+        "screens": [
+          "Login Screen: Role-based authentication gateway",
+          "Corporate Dashboard: Headquarters view with peak/off-peak alerts",
+          "Branch Dashboard: Location-specific period performance summary",
+          "Peak Period Definition Interface: Custom time-band designer with traffic overlays",
+          "Throughput Matrix Canvas: Side-by-side period comparison grids",
+          "Staff Efficiency Analyzer: Shift performance radar charts with anomaly flags",
+          "Pricing Impact Studio: Interactive slope graphs showing price-volume relationships",
+          "Export Studio: Time-band-aware report generator with period highlights"
+        ]
+      },
+      {
+        "featureName": "Predictive CLV Projections",
+        "flow": "1. Corporate Analyst accesses centralized analytics platform \n2. Selects CLV projection module from enterprise menu \n3. Configures predictive parameters: historical transaction depth (12/24/36 months), customer segmentation filters, and revenue weighting \n4. System processes branch-specific transaction patterns using ML models \n5. Analyst reviews nationwide CLV heatmaps and trend forecasts \n6. Branch Manager accesses localized CLV dashboard \n7. Adjusts local parameters: seasonal promotions impact, branch-specific customer retention rates \n8. Generates comparative reports showing baseline vs adjusted projections \n9. Approves/requests corporate model recalibration via audit trail \n10. Implements targeted marketing strategies based on validated projections",
+        "screens": [
+          "Corporate CLV Dashboard: Central interface displaying nationwide CLV trends with drill-down to branch-level data",
+          "Parameter Configuration: Grid-based input for ML model variables and business assumptions",
+          "Projection Visualization: Interactive 3D timeline showing CLV trajectories across customer segments",
+          "Branch CLV Overview: Simplified view highlighting local high-value customer cohorts and risk flags",
+          "Local Adjustment Interface: Slider-based controls for modifying branch-specific operational variables",
+          "Comparative Analysis: Side-by-side display of corporate vs adjusted branch projections",
+          "Report Generator: Template-driven export tool with compliance-ready formatting options"
+        ]
+      },
+      {
+        "featureName": "Real-Time Waterfall Chart Analysis",
+        "flow": "1. [Corporate Analyst/Branch Manager] Logs into centralized corporate interface or branch dashboard > 2. Navigates to 'Revenue Dashboard Home' > 3. Uses 'Branch Filter' dropdown to select target location(s) > 4. Clicks 'Generate Waterfall Chart' button > 5. Views time-based revenue decomposition in 'Waterfall Chart Detail View' with stacked bars showing sales, discounts, and operational costs > 6. Selects 'Drill Mode' to toggle between absolute values and percentage ratios > 7. Clicks specific chart segments to view cost/profit correlation popovers > 8. Uses 'Data Granularity Selector' to adjust timeframe (hourly/daily/weekly) > 9. Exports annotated charts to PDF/Excel via action menu",
+        "screens": [
+          "Revenue Dashboard Home: Central landing page with branch performance snapshots, POS-linked revenue totals, and quick-access chart generation controls",
+          "Waterfall Chart Detail View: Interactive visualization screen displaying cascading revenue components with hover details, comparison overlays (vs previous period), and ratio calculation toggles",
+          "Data Granularity Selector: Modal interface for configuring time ranges, POS data sources (beverage/food/merchandise), and expense category inclusions (ingredients/labor/utilities)"
+        ]
+      }
+    ]
+  }
+]

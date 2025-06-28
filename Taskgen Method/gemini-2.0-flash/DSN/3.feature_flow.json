@@ -1,0 +1,121 @@
+[
+    {
+        "category": "Dream Sharing",
+        "features": [
+            {
+                "featureName": "Sharing a Dream",
+                "flow": "1. **User Role:** User   **Action:** Logs into the Dream Social Network (DSN) using their credentials.2. **User Role:** User   **Action:** Navigates to the 'Share a Dream' page. This could be a button on the homepage, a tab in the navigation bar, or a dedicated section in the user profile.3. **User Role:** User   **Action:** Enters the dream details in the provided text editor. This includes the dream narrative, date of the dream, and any other relevant information.4. **User Role:** User   **Action:** Adds tags to the dream. These tags could be predefined (e.g., 'flying', 'falling', 'chasing') or custom-created by the user. The user also selects the mood associated with the dream (e.g., happy, sad, anxious, excited).5. **User Role:** User   **Action:** Reviews the dream details and confirms the tags/moods.6. **User Role:** User   **Action:** Posts the dream to the DSN platform.7. **System Role:** System   **Action:** The system saves the dream details, tags, and mood to the database and associates it with the user's account.8. **User Role:** User   **Action:** The user is redirected to the dream's individual page or their profile page where the dream is displayed.9. **User Role:** User   **Action:** The user views the posted dream, including the dream narrative, date, tags, and mood. They can also see any comments or reactions from other users.",
+                "screens": [
+                    "Login Screen: Allows users to log in to their DSN account.",
+                    "Home Screen: Displays the main feed and navigation options, including a link to 'Share a Dream'.",
+                    "Share a Dream Screen: A form where users can enter the dream narrative, date, tags, and mood.",
+                    "Dream Detail Screen: Displays the full dream content, including the narrative, tags, mood, author, and any comments or reactions.",
+                    "User Profile Screen: Displays the user's profile information and a list of their shared dreams."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Mood Sharing",
+        "features": [
+            {
+                "featureName": "Share Mood",
+                "flow": "1. **User (Logged In):** Navigates to the 'Share Mood' screen.2. **User:** Selects a mood from a predefined list (e.g., Happy, Sad, Excited, Anxious, Silly) or chooses to create a custom mood.3. **User:** (Optional) Adds a text description or explanation of their current mood.4. **User:** (Optional) Attaches an image or GIF to visually represent their mood.5. **User:** Sets the privacy level for the mood post (e.g., Public, Friends Only, Only Me).6. **User:** Clicks the 'Share' button.7. **System:** Validates the input data.8. **System:** Saves the mood post to the user's profile and the newsfeed (if public or friends only).9. **System:** Notifies the user that the mood has been successfully shared.10. **Other Users (if applicable):** See the mood post in their newsfeed based on the privacy settings.11. **Other Users:** Can react to the mood post (e.g., Like, Comment).12. **User:** Can view and manage their mood history on their profile.",
+                "screens": [
+                    "Mood Selection Screen: Allows the user to select from a list of predefined moods or create a custom mood.",
+                    "Mood Description Screen: Allows the user to add a text description to their mood.",
+                    "Media Attachment Screen: Allows the user to attach an image or GIF to their mood post.",
+                    "Privacy Settings Screen: Allows the user to set the privacy level for their mood post.",
+                    "Confirmation Screen: Confirms that the mood has been successfully shared.",
+                    "Newsfeed Screen: Displays mood posts from the user and their connections.",
+                    "User Profile Screen: Displays the user's mood history."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Dream Sharing",
+        "features": [
+            {
+                "featureName": "Dream Sharing",
+                "flow": "1. **User (Dreamer) initiates dream creation:** The user clicks on the 'Create Dream' button/icon from the dream feed or profile page.2. **User (Dreamer) enters dream details:** The user is presented with a dream creation form where they can enter the dream title, dream content (text), date of the dream, associated emotions, and tags. They can also choose privacy settings (public, friends only, or private).3. **User (Dreamer) saves/publishes the dream:** The user clicks on 'Save as Draft' to save the dream for later editing or 'Publish' to share the dream with others based on the selected privacy settings.4. **System processes the dream:** The system saves the dream data to the database and generates a preview of the dream post.5. **User (Dreamer) views the published dream:** The user is redirected to the dream feed or their profile page where the newly published dream is displayed.6. **Other Users (Viewers) discover the dream:** Other users see the dream in their dream feed based on their network and the dream's privacy settings.7. **Other Users (Viewers) interact with the dream:** Viewers can like, comment on, or share the dream. They can also report the dream if it violates community guidelines.8. **User (Dreamer) edits the dream (optional):** The user can navigate to their profile or the dream page and select the 'Edit' option to modify the dream details. The user repeats steps 2-5 after editing.9. **User (Dreamer) deletes the dream (optional):** The user can navigate to their profile or the dream page and select the 'Delete' option to remove the dream. The system prompts for confirmation before deleting the dream.10. **System updates dream feed:** The dream feed is updated in real-time to reflect new dreams, edits, likes, comments, and shares.",
+                "screens": [
+                    "Dream Creation Screen: Allows users to input dream details (title, content, date, emotions, tags, privacy settings).",
+                    "Dream Editing Screen: Allows users to modify existing dream details.",
+                    "Dream Viewing Screen: Displays the full dream content, author information, date, associated emotions, tags, and interaction options (like, comment, share).",
+                    "Dream Feed Screen: Displays a list of dreams from the user's network and public dreams, sorted by recency or popularity.",
+                    "Dream Detail Screen: Displays a single dream with all its details and interactions."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Sharing Ideas and Seeking Feedback",
+        "features": [
+            {
+                "featureName": "Idea Sharing and Feedback",
+                "flow": "1. **User (Dreamer) Action:** User navigates to the 'Share Idea' section.2. **System Action:** System displays the 'Share Idea' screen.3. **User (Dreamer) Action:** User enters the idea title, detailed description, relevant tags, and chooses privacy settings (public, friends only, or specific users).4. **User (Dreamer) Action:** User uploads any supporting media (images, videos, documents).5. **User (Dreamer) Action:** User submits the idea.6. **System Action:** System saves the idea and publishes it according to the selected privacy settings.7. **System Action:** System generates a notification for the user confirming successful submission.8. **System Action:** If the idea is public or shared with friends, the system displays the idea in the relevant feeds of other users (Friends, General Feed).9. **User (Viewer/Collaborator) Action:** Other users view the idea in their feed or by directly visiting the user's profile.10. **User (Viewer/Collaborator) Action:** Users can like, comment, and share the idea.11. **System Action:** System sends notifications to the original user (Dreamer) when their idea receives likes, comments, or shares.12. **User (Dreamer) Action:** User can respond to comments and engage in discussions related to their idea.13. **User (Dreamer) Action:** User can edit or delete their idea.14. **System Action:** System updates or removes the idea accordingly.15. **User (Dreamer) Action:** User can mark the idea as 'In Progress', 'Completed', or 'Abandoned'.16. **System Action:** System updates the idea status and displays it accordingly to other users.",
+                "screens": [
+                    "Share Idea Screen: Allows users to input the idea title, description, tags, privacy settings, and upload media.",
+                    "Idea Feed Screen: Displays a list of ideas shared by the user's network and public ideas.",
+                    "Idea Detail Screen: Shows the complete details of a specific idea, including the description, media, comments, likes, and sharing options.",
+                    "User Profile Screen: Displays the user's profile, including their shared ideas.",
+                    "Edit Idea Screen: Allows the user to modify the details of their shared idea.",
+                    "Notifications Screen: Displays notifications related to likes, comments, and shares on the user's ideas."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Idea Collaboration",
+        "features": [
+            {
+                "featureName": "Idea Collaboration",
+                "flow": "1.  **User (Idea Creator):** Navigates to the 'Share Idea' screen.2.  **User (Idea Creator):** Enters the idea title, detailed description, relevant tags, and sets privacy settings (public, followers only, specific users).3.  **User (Idea Creator):** Submits the idea.4.  **System:** Saves the idea and notifies the user of successful submission.5.  **System:** Displays the idea in the user's profile and the relevant feeds (based on privacy settings and tags).6.  **User (Viewer):** Views the idea in their feed or on the idea creator's profile.7.  **User (Viewer):** Has the option to 'Like', 'Comment', or 'Suggest Improvements'.8.  **User (Viewer):** Can also share the idea with other users or groups.9.  **User (Idea Creator):** Receives notifications for new likes, comments, and suggestions.10. **User (Idea Creator):** Reviews the feedback and can respond to comments or incorporate suggestions.11. **User (Idea Creator):** Can mark suggestions as 'Accepted' or 'Rejected'.12. **User (Collaborator):** If the idea creator opens the idea for collaboration, other users can submit proposals to contribute.13. **User (Idea Creator):** Reviews collaboration proposals and selects collaborators.14. **System:** Grants selected collaborators editing access to the idea document.15. **User (Collaborators):** Can contribute to the idea, edit the description, add resources, etc.16. **System:** Tracks changes and versions of the idea.17. **User (Idea Creator):** Has final say on all changes and can finalize the idea.18. **User (All):** Can view the finalized idea and its evolution.",
+                "screens": [
+                    "Share Idea Screen: Allows users to input the details of their idea (title, description, tags, privacy settings).",
+                    "Idea Detail Screen: Displays the full details of an idea, including comments, suggestions, and collaborators. Provides options to like, comment, suggest improvements, and share.",
+                    "User Profile Screen: Displays the user's posted ideas.",
+                    "Feed Screen: Displays ideas from other users based on the user's network and interests.",
+                    "Notifications Screen: Displays notifications for likes, comments, suggestions, and collaboration requests.",
+                    "Collaboration Proposal Screen: Allows users to submit proposals to collaborate on an idea.",
+                    "Collaboration Management Screen: Allows the idea creator to review and manage collaboration proposals and collaborators.",
+                    "Edit Idea Screen: Allows the idea creator and approved collaborators to edit the idea details."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Sharing Ideas and Seeking Feedback",
+        "features": [
+            {
+                "featureName": "Sharing Ideas and Seeking Feedback",
+                "flow": "1. **User (Logged In):** Navigates to the 'Share Idea' or 'Post Idea' button/link on the homepage, profile page, or a dedicated 'Ideas' section.2. **System:** Presents the user with a 'Create Idea' form/page.3. **User:** Enters the idea title, detailed description, relevant tags (e.g., #technology, #socialimpact), and chooses a privacy setting (Public, Friends Only, Only Me).4. **User:** Optionally attaches media (images, videos, documents) to the idea.5. **User:** Clicks the 'Post' or 'Share' button.6. **System:** Validates the input data (title, description - checks for profanity, length limits, etc.).7. **System:** Saves the idea to the database, associating it with the user's profile and applying the chosen privacy settings.8. **System:** Displays the newly posted idea in the user's feed, the 'Ideas' section, and potentially in the feeds of their connections (depending on privacy settings).9. **Other Users (Viewing Idea):** Can view the idea, like it, comment on it, and share it with others.10. **System:** Sends notifications to the original poster when someone likes, comments on, or shares their idea.11. **User (Original Poster):** Can view the likes, comments, and shares on their idea.12. **User (Original Poster):** Can edit or delete their idea.13. **System:** Updates or removes the idea from the database and updates all relevant feeds accordingly.14. **User (All Users):** Can search for ideas using keywords or tags.15. **System:** Returns a list of relevant ideas based on the search query.16. **User (All Users):** Can filter ideas based on category, popularity, date, etc.17. **System:** Applies the filter and displays the filtered list of ideas.18. **User (All Users):** Can report an idea if it violates community guidelines.19. **System:** Flags the idea for review by moderators.",
+                "screens": [
+                    "**Homepage/Profile/Ideas Section:** Displays a 'Share Idea' or 'Post Idea' button/link.",
+                    "**Create Idea Form:** A form with fields for idea title, description, tags, privacy settings, and media attachments.",
+                    "**Idea Detail Page:** Displays the full idea content, including title, description, author, date, likes, comments, and sharing options.",
+                    "**Edit Idea Form:** A pre-filled form with the existing idea details, allowing the user to modify them.",
+                    "**Search Results Page:** Displays a list of ideas matching the search query, with options to filter and sort the results.",
+                    "**Report Idea Form:** A form allowing users to report an idea for violating community guidelines, with a text field for providing a reason."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Mood Sharing",
+        "features": [
+            {
+                "featureName": "Share Mood",
+                "flow": "1. **User (Logged In):** Taps on the 'Share Mood' button/icon on the home screen or profile page.2. **System:** Navigates the user to the 'Share Mood' screen.3. **User:** Selects a mood from a predefined list (e.g., Happy, Sad, Excited, Anxious, Calm, etc.) or chooses to create a custom mood.4. **User:** (Optional) Adds a text description or explanation of their mood. Can also add an image or video related to their mood.5. **User:** Sets the privacy settings for the mood post (e.g., Public, Friends Only, Only Me).6. **User:** Taps the 'Post' or 'Share' button.7. **System:** Validates the input (checks for profanity, inappropriate content, etc.).8. **System:** Saves the mood post to the user's profile and displays it on the newsfeed (if privacy settings allow). Sends notifications to friends/followers based on their notification preferences.9. **User's Friends/Followers:** See the mood post in their newsfeed and can react (like, comment) to it.",
+                "screens": [
+                    "Home Screen/Profile Page: Contains the 'Share Mood' button/icon.",
+                    "Share Mood Screen: Allows the user to select a mood, add a description/media, and set privacy settings.",
+                    "Newsfeed: Displays mood posts from friends/followers.",
+                    "Mood Detail Screen: Displays the full details of a mood post, including comments and reactions.",
+                    "Custom Mood Creation Screen: Allows users to create custom mood options with names and associated emojis/colors."
+                ]
+            }
+        ]
+    }
+]

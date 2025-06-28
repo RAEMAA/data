@@ -1,0 +1,206 @@
+[
+  {
+      "category": "User Profile & Personal Space",
+      "features": [
+          {
+              "featureName": "User Profile Creation and Management",
+              "flow": "1. **User (New User):** Signs up for DSN (Dream Social Network) by providing required information (e.g., email, password, username). \n2. **System:** Validates the provided information and creates a new user account.\n3. **User (New User):** Is prompted to complete their profile by adding details such as profile picture, bio, dream interests, and other relevant information. \n4. **User (Existing User):** Navigates to their profile settings.\n5. **User (Existing User):** Edits their profile information (e.g., updating profile picture, changing bio, modifying dream interests).\n6. **System:** Saves the updated profile information.\n7. **User (All Users):** Can view their own profile and the profiles of other users.",
+              "screens": [
+                  "Sign-up Screen: Allows new users to create an account by providing necessary information.",
+                  "Profile Creation Screen: Guides new users through the process of setting up their profile, including adding a profile picture, bio, and dream interests.",
+                  "Profile Settings Screen: Allows users to edit their profile information, including personal details, privacy settings, and notification preferences.",
+                  "Profile View Screen: Displays a user's profile information, including their profile picture, bio, dream interests, and recent activity (e.g., dream posts).",
+                  "Edit Profile Screen: Allows users to modify their existing profile information."
+              ]
+          },
+          {
+              "featureName": "Personal Space Dashboard",
+              "flow": "1. **User (Logged-in User):** Navigates to their personal space dashboard.\n2. **System:** Displays the user's personal space dashboard.\n3. **User (Logged-in User):** Views a summary of their activity, including recent dream posts, mood shares, and opinion shares.\n4. **User (Logged-in User):** Accesses quick links to create new content (e.g., dream post, mood share).\n5. **User (Logged-in User):** Views their recent interactions (e.g., comments, likes, survey responses).\n6. **User (Logged-in User):** Customizes the dashboard layout (e.g., rearranging widgets, selecting preferred content views). (Further details needed on customization options)",
+              "screens": [
+                  "Personal Space Dashboard Screen: The main screen for a user's personal space, displaying a summary of their activity, recent posts, and quick access to content creation tools.",
+                  "Activity Feed Widget: Displays a chronological feed of the user's recent activity, including dream posts, mood shares, and opinion shares.",
+                  "Quick Actions Panel: Provides quick links to create new content, such as dream posts, mood shares, and opinion surveys.",
+                  "Interaction Summary Widget: Displays a summary of the user's recent interactions, such as comments, likes, and survey responses.",
+                  "Dashboard Customization Screen: (Further details needed) Allows users to customize the layout and content displayed on their personal space dashboard."
+              ]
+          }
+      ]
+  },
+  {
+      "category": "Content Sharing",
+      "features": [
+          {
+              "featureName": "Dream Posting",
+              "flow": "1. **User (Dreamer):** Navigates to the 'Create Post' screen.\n2. **User (Dreamer):** Selects 'Dream' as the post type.\n3. **User (Dreamer):** Enters the dream title (optional).\n4. **User (Dreamer):** Writes the dream description in the text editor.\n5. **User (Dreamer):** Adds relevant tags (e.g., #flying, #adventure, #nightmare).\n6. **User (Dreamer):** Chooses privacy settings (e.g., public, friends only, only me).\n7. **User (Dreamer):** Selects whether to allow comments or not.\n8. **User (Dreamer):** Clicks the 'Post Dream' button.\n9. **System:** Validates the input data.\n10. **System:** Saves the dream post to the database.\n11. **System:** Displays a success message to the user.\n12. **System:** Adds the dream post to the user's personal space and the relevant content feed.",
+              "screens": [
+                  "Create Post Screen: Allows users to select the post type and enter the content.",
+                  "Text Editor Screen: Provides a rich text editor for writing the dream description.",
+                  "Tag Selection Screen: Allows users to add relevant tags to their dream post.",
+                  "Privacy Settings Screen: Allows users to choose the privacy settings for their dream post.",
+                  "Success Message Screen: Displays a confirmation message after the dream post is successfully created."
+              ]
+          },
+          {
+              "featureName": "Mood Sharing",
+              "flow": "1. **User (Sharer):** Navigates to the 'Create Post' screen.\n2. **User (Sharer):** Selects 'Mood' as the post type.\n3. **User (Sharer):** Selects a mood from a predefined list of moods (e.g., Happy, Sad, Angry, Excited, Relaxed).\n4. **User (Sharer):** Optionally adds a short description or explanation of their mood.\n5. **User (Sharer):** Chooses privacy settings (e.g., public, friends only, only me).\n6. **User (Sharer):** Selects whether to allow comments or not.\n7. **User (Sharer):** Clicks the 'Post Mood' button.\n8. **System:** Validates the input data.\n9. **System:** Saves the mood post to the database.\n10. **System:** Displays a success message to the user.\n11. **System:** Adds the mood post to the user's personal space and the relevant content feed.",
+              "screens": [
+                  "Create Post Screen: Allows users to select the post type and enter the content.",
+                  "Mood Selection Screen: Displays a list of predefined moods for the user to choose from.",
+                  "Text Editor Screen: Provides a text editor for writing a short description of the mood.",
+                  "Privacy Settings Screen: Allows users to choose the privacy settings for their mood post.",
+                  "Success Message Screen: Displays a confirmation message after the mood post is successfully created."
+              ]
+          },
+          {
+              "featureName": "Opinion Sharing",
+              "flow": "1. **User (Opinion Sharer):** Navigates to the 'Create Post' screen.\n2. **User (Opinion Sharer):** Selects 'Opinion' as the post type.\n3. **User (Opinion Sharer):** Enters the opinion statement or question.\n4. **User (Opinion Sharer):** Adds a detailed explanation or context for their opinion.\n5. **User (Opinion Sharer):** Adds relevant tags (e.g., #politics, #technology, #sports).\n6. **User (Opinion Sharer):** Chooses privacy settings (e.g., public, friends only, only me).\n7. **User (Opinion Sharer):** Selects whether to allow comments or not.\n8. **User (Opinion Sharer):** Clicks the 'Post Opinion' button.\n9. **System:** Validates the input data.\n10. **System:** Saves the opinion post to the database.\n11. **System:** Displays a success message to the user.\n12. **System:** Adds the opinion post to the user's personal space and the relevant content feed.",
+              "screens": [
+                  "Create Post Screen: Allows users to select the post type and enter the content.",
+                  "Text Editor Screen: Provides a rich text editor for writing the opinion and explanation.",
+                  "Tag Selection Screen: Allows users to add relevant tags to their opinion post.",
+                  "Privacy Settings Screen: Allows users to choose the privacy settings for their opinion post.",
+                  "Success Message Screen: Displays a confirmation message after the opinion post is successfully created."
+              ]
+          },
+          {
+              "featureName": "Idea Sharing",
+              "flow": "1. **User (Idea Sharer):** Navigates to the 'Create Post' screen.\n2. **User (Idea Sharer):** Selects 'Idea' as the post type.\n3. **User (Idea Sharer):** Enters the idea title (optional).\n4. **User (Idea Sharer):** Writes a detailed description of the idea, including potential benefits and challenges.\n5. **User (Idea Sharer):** Adds relevant tags (e.g., #innovation, #startup, #technology).\n6. **User (Idea Sharer):** Chooses privacy settings (e.g., public, friends only, only me).\n7. **User (Idea Sharer):** Selects whether to allow comments or not.\n8. **User (Idea Sharer):** Clicks the 'Post Idea' button.\n9. **System:** Validates the input data.\n10. **System:** Saves the idea post to the database.\n11. **System:** Displays a success message to the user.\n12. **System:** Adds the idea post to the user's personal space and the relevant content feed.",
+              "screens": [
+                  "Create Post Screen: Allows users to select the post type and enter the content.",
+                  "Text Editor Screen: Provides a rich text editor for writing the idea description.",
+                  "Tag Selection Screen: Allows users to add relevant tags to their idea post.",
+                  "Privacy Settings Screen: Allows users to choose the privacy settings for their idea post.",
+                  "Success Message Screen: Displays a confirmation message after the idea post is successfully created."
+              ]
+          }
+      ]
+  },
+  {
+      "category": "Content Interaction",
+      "features": [
+          {
+              "featureName": "Commenting and Feedback",
+              "flow": "1. **User (Reader):** Views a dream, mood, opinion, or idea post.\n2. **User (Reader):** Clicks on a 'Comment' button or icon.\n3. **System:** Displays a comment input field and a 'Post Comment' button.\n4. **User (Reader):** Types their comment into the input field.\n5. **User (Reader):** Clicks 'Post Comment'.\n6. **System:** Saves the comment to the post, associating it with the user's profile.\n7. **System:** Displays the comment under the original post, along with the commenter's profile information (e.g., username, profile picture).\n8. **User (Reader):** Can view all comments associated with the post.\n9. **User (Reader):** Can optionally 'Like' or 'React' to a comment (implementation detail - not explicitly requested, but common).\n10. **User (Post Creator):** Receives a notification when someone comments on their post (implementation detail).\n11. **User (Post Creator):** Can view, and potentially 'Like' or 'React' to comments on their post.\n12. **User (Post Creator):** Can potentially 'Reply' to a comment (implementation detail).\n13. **User (Post Creator/Moderator):** Can potentially 'Report' or 'Delete' inappropriate comments (implementation detail).",
+              "screens": [
+                  "Dream/Mood/Opinion/Idea Post Screen: Displays the original post content (dream, mood, opinion, or idea), along with existing comments and a comment input field.",
+                  "Comment Input Screen (within Post Screen): A focused view of the comment input field and 'Post Comment' button, potentially with character limits.",
+                  "Comment Display (within Post Screen): Displays the posted comment, including the commenter's profile information, timestamp, and options to like/react/reply/report/delete (depending on user role and permissions)."
+              ]
+          },
+          {
+              "featureName": "Opinion Survey Creation",
+              "flow": "1. **User (Creator):** Navigates to their profile or a dedicated 'Create' section.\n2. **User (Creator):** Selects 'Create Opinion Survey' or similar option.\n3. **System:** Presents a survey creation form.\n4. **User (Creator):** Enters the survey title/question.\n5. **User (Creator):** Adds options for the survey (e.g., multiple-choice answers).\n6. **User (Creator):** Optionally sets survey parameters: visibility (public/private), start/end dates, target audience (if applicable).\n7. **User (Creator):** Reviews the survey.\n8. **User (Creator):** Clicks 'Create Survey' or 'Publish'.\n9. **System:** Saves the survey and makes it visible based on the visibility settings.\n10. **System:** Displays the survey on the creator's profile and potentially in relevant feeds (e.g., based on tags or audience targeting).",
+              "screens": [
+                  "Create Survey Initiation Screen: A screen or button within the user's profile or a dedicated creation area to start the survey creation process.",
+                  "Survey Creation Form Screen: A form with fields for the survey title/question, answer options (with add/remove functionality), visibility settings (public/private), start/end dates, and target audience (if applicable).",
+                  "Survey Preview Screen: Displays a preview of the survey as it will appear to users.",
+                  "Survey Confirmation Screen: Confirms the survey creation and provides options to view or share the survey."
+              ]
+          },
+          {
+              "featureName": "Opinion Survey Participation",
+              "flow": "1. **User (Participant):** Sees a survey in their feed, on a profile, or through a direct link.\n2. **User (Participant):** Clicks on the survey to view it.\n3. **System:** Displays the survey question and answer options.\n4. **User (Participant):** Selects an answer option.\n5. **User (Participant):** Clicks 'Submit' or a similar button.\n6. **System:** Records the user's response.\n7. **System:** Displays a 'Thank You' message or a summary of the survey results (if available and permitted by the survey creator).\n8. **User (Participant):** Can optionally view the overall results (if the survey creator has made them public).",
+              "screens": [
+                  "Survey Display Screen: Displays the survey question, answer options (radio buttons, checkboxes, etc.), and a 'Submit' button.",
+                  "Survey Results Screen (Optional): Displays the aggregated results of the survey, potentially with charts or graphs, if the creator has made the results public.",
+                  "Thank You/Confirmation Screen: A simple screen confirming the user's participation in the survey."
+              ]
+          }
+      ]
+  },
+  {
+      "category": "Connection",
+      "features": [
+          {
+              "featureName": "Similar Dream Matching",
+              "flow": "1. **User:** Logs into DSN.\n2. **System:** Navigates to the 'Explore' or 'Connections' section.\n3. **User:** Selects 'Similar Dream Matching'.\n4. **System:** Displays a list of users with dreams similar to the user's own, based on dream tags, keywords, or categories.\n5. **User:** Browses the list of potential matches, viewing their profiles and shared dreams.\n6. **User:** Clicks on a user's profile to view more details.\n7. **User:** Initiates a connection request or sends a direct message to the user.\n8. **System:** Sends a notification to the other user about the connection request or message.",
+              "screens": [
+                  "Explore/Connections Screen: Displays options for different connection features, including 'Similar Dream Matching'.",
+                  "Similar Dream Matching Results Screen: Lists users with similar dreams, displaying their profile picture, username, and a snippet of their dream.",
+                  "User Profile Screen: Displays the user's profile information, including their shared dreams and other relevant details.",
+                  "Connection Request Sent Confirmation Screen/Modal: Confirms that a connection request has been sent."
+              ]
+          },
+          {
+              "featureName": "Soulmate Connection",
+              "flow": "1. **User:** Completes a 'Soulmate Connection' questionnaire or profile section, providing information about their values, interests, and relationship preferences. (Note: Specific questionnaire details need to be defined).\n2. **System:** Analyzes the user's responses and compares them to other users' profiles.\n3. **System:** Identifies potential 'Soulmate' matches based on compatibility scores.\n4. **User:** Receives a notification or sees a list of recommended 'Soulmate' matches.\n5. **User:** Reviews the profiles of the recommended matches, viewing their compatibility scores and shared interests.\n6. **User:** Initiates a connection request or sends a direct message to a potential 'Soulmate'.\n7. **System:** Notifies the other user of the connection request or message.",
+              "screens": [
+                  "Soulmate Connection Questionnaire/Profile Section: Allows users to input information relevant to finding a soulmate connection.",
+                  "Soulmate Matching Results Screen: Displays a list of potential soulmate matches, including their profile picture, username, compatibility score, and shared interests.",
+                  "User Profile Screen: Displays the user's profile information, including their soulmate connection questionnaire responses (if visible to others).",
+                  "Connection Request Sent Confirmation Screen/Modal: Confirms that a connection request has been sent."
+              ]
+          },
+          {
+              "featureName": "Direct Messaging",
+              "flow": "1. **User:** Navigates to the 'Messages' section or clicks on a user's profile.\n2. **User:** Selects a user to send a message to, or starts a new conversation.\n3. **System:** Opens the messaging interface for the selected user.\n4. **User:** Types and sends a message.\n5. **System:** Delivers the message to the recipient.\n6. **Recipient User:** Receives a notification about the new message.\n7. **Recipient User:** Opens the 'Messages' section to view the message.\n8. **Recipient User:** Reads and responds to the message.",
+              "screens": [
+                  "Messages Screen: Displays a list of active conversations.",
+                  "Conversation Screen: Displays the message history between two users, with input field for sending new messages.",
+                  "User Profile Screen: Includes a 'Send Message' button to initiate a direct message with the user."
+              ]
+          }
+      ]
+  },
+  {
+      "category": "Support",
+      "features": [
+          {
+              "featureName": "Seeking Support/Solutions",
+              "flow": "1. **User (Dreamer):** Navigates to the 'Support' section or uses search to find relevant topics.\n2. **User (Dreamer):** Chooses to 'Seek Support' or 'Ask for Solutions'.\n3. **User (Dreamer):**  Selects a relevant category for their dream or issue (e.g., 'Career', 'Relationships', 'Personal Growth').\n4. **User (Dreamer):**  Describes their dream/problem in detail, including context, challenges, and desired outcomes. They can optionally add relevant tags.\n5. **User (Dreamer):**  Chooses to post their request publicly or privately (to a specific group or individual).\n6. **System:**  Posts the request to the appropriate feed (public or private).\n7. **User (Supporter/Other Dreamers):**  Views the support request in their feed or through search.\n8. **User (Supporter/Other Dreamers):**  Can comment, offer advice, share relevant resources, or suggest solutions.\n9. **User (Dreamer):**  Receives notifications about comments and responses.\n10. **User (Dreamer):**  Reviews the responses and marks the request as 'Solved' or 'Ongoing'.\n11. **System:**  (If solved) Archives the request or (if ongoing) keeps it active in the feed.",
+              "screens": [
+                  "Support Section Home: Displays options to seek or offer support, and a list of recent support requests.",
+                  "Support Request Creation: Form to input dream/problem details, category selection, privacy settings, and tags.",
+                  "Category Selection: Screen to choose the relevant category for the support request.",
+                  "Support Request Detail: Displays the user's request, comments, and options to respond or mark as solved.",
+                  "Feed (Public/Private): Displays support requests based on category, tags, and privacy settings.",
+                  "Notification Screen: Displays notifications about new comments or solutions offered."
+              ]
+          },
+          {
+              "featureName": "Offering Support/Solutions",
+              "flow": "1. **User (Supporter):** Navigates to the 'Support' section or uses search to find relevant topics.\n2. **User (Supporter):**  Views support requests in the feed or through search, filtering by category or tags.\n3. **User (Supporter):**  Selects a support request to respond to.\n4. **User (Supporter):**  Reads the request details and any existing comments.\n5. **User (Supporter):**  Types a response, offering advice, sharing resources, or suggesting solutions.\n6. **User (Supporter):**  Posts their response.\n7. **System:**  Posts the response as a comment on the support request.\n8. **User (Dreamer):**  Receives a notification about the new response.\n9. **User (Dreamer):**  Reviews the response and can mark it as helpful or mark the request as solved.",
+              "screens": [
+                  "Support Section Home: Displays options to seek or offer support, and a list of recent support requests.",
+                  "Support Request Feed: Displays a list of support requests, filterable by category and tags.",
+                  "Support Request Detail: Displays the user's request, comments, and options to respond or mark as solved.",
+                  "Comment Input: Text area for the supporter to write their response.",
+                  "Notification Screen: Displays notifications about new comments or solutions offered."
+              ]
+          }
+      ]
+  },
+  {
+      "category": "Platform Core",
+      "features": [
+          {
+              "featureName": "Content Feed",
+              "flow": "1. **User (Authenticated):** Logs into the DSN platform.\n2. **System:** Redirects the user to the Content Feed screen.\n3. **System:** Populates the Content Feed with posts from users the current user follows, trending posts, and potentially sponsored content (algorithmically determined).\n4. **User:** Scrolls through the Content Feed.\n5. **User:** Interacts with posts (likes, comments, shares).\n6. **System:** Updates the Content Feed in real-time with new posts and interactions.\n7. **User:** Can filter the content feed based on categories (e.g., Dreams, Moods, Opinions, Ideas). (Optional)\n8. **System:** Applies the filter and updates the Content Feed accordingly.",
+              "screens": [
+                  "Content Feed Screen: Displays a scrollable list of posts from various users and sources. Includes filtering options.",
+                  "Post Detail Screen: Displays the full content of a selected post, along with comments and interaction options.",
+                  "User Profile Screen: Accessed by tapping on a user's profile picture or name in the feed. Displays the user's profile information and posts."
+              ]
+          },
+          {
+              "featureName": "Search Functionality",
+              "flow": "1. **User:** Navigates to the Search screen (via a search icon or link).\n2. **User:** Enters a search query (keywords, usernames, hashtags, etc.).\n3. **System:** Processes the search query.\n4. **System:** Displays search results, categorized by users, posts, dreams, moods, opinions, ideas, and potentially hashtags.\n5. **User:** Refines the search query (optional).\n6. **System:** Updates the search results based on the refined query.\n7. **User:** Selects a search result (e.g., a user profile, a post).\n8. **System:** Navigates the user to the selected content (user profile screen or post detail screen).",
+              "screens": [
+                  "Search Screen: Contains a search bar and displays categorized search results.",
+                  "User Profile Screen: Displays the profile of a user found through the search.",
+                  "Post Detail Screen: Displays the details of a post found through the search."
+              ]
+          },
+          {
+              "featureName": "Notifications",
+              "flow": "1. **System:** Monitors user activity and platform events (e.g., new followers, comments, likes, direct messages, survey results).\n2. **System:** Generates notifications based on these events.\n3. **System:** Displays a notification badge on the notification icon/link.\n4. **User:** Taps the notification icon/link.\n5. **System:** Navigates the user to the Notifications screen.\n6. **System:** Displays a list of notifications, sorted by time.\n7. **User:** Taps on a notification.\n8. **System:** Navigates the user to the relevant content (e.g., the post that was commented on, the user who followed them, the direct message).",
+              "screens": [
+                  "Notifications Screen: Displays a list of notifications with relevant details (e.g., user name, post excerpt, timestamp).",
+                  "Post Detail Screen: Displays the details of a post related to a notification.",
+                  "User Profile Screen: Displays the profile of a user related to a notification.",
+                  "Direct Message Screen: Displays the direct message related to a notification."
+              ]
+          }
+      ]
+  }
+]

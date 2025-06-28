@@ -1,0 +1,63 @@
+[
+  {
+    "category": "Listing and Transaction Management",
+    "list_feature": [
+      "Create detailed listings for motorcycles, parts, and accessories (photos, descriptions, pricing)",
+      "Search and filter listings by type (motorcycle/part/accessory), brand, price range, and location",
+      "Option to mark listings as 'Urgent Sale' for priority placement",
+      "Bidding/Buy-It-Now purchase options",
+      "Transaction history dashboard for sellers/buyers",
+      "Secure in-platform payment integration"
+    ]
+  },
+  {
+    "category": "Credibility and User Rating System",
+    "list_feature": [
+      "Automated credibility score based on transaction history, user feedback, and total sales/purchase value",
+      "Tiered credibility badges (e.g., Bronze, Silver, Gold) with tier-specific benefits",
+      "Priority visibility for high-credibility listings in search results and homepage",
+      "User feedback system with ratings and reviews for buyers/sellers",
+      "Credibility score displayed on user profiles and listings"
+    ]
+  },
+  {
+    "category": "Community and Engagement",
+    "list_feature": [
+      "Discussion forums for motorcycle topics (maintenance, brands, events)",
+      "User-generated experience-sharing posts with comments/likes",
+      "Regional or brand-specific rider groups/clubs",
+      "Integration of community activity into user profiles (e.g., 'Top Contributor' badges)",
+      "Event listings for motorcycle meetups, races, or auctions"
+    ]
+  },
+  {
+    "category": "Quick Sale Optimization",
+    "list_feature": [
+      "'Urgent Sale' tag with countdown timers for listings",
+      "Price comparison tool showing market rates for similar items",
+      "Instant Buy option for verified high-credibility buyers",
+      "Promoted listings for urgent sales (paid or credibility-based)",
+      "Automated alerts for buyers when urgent listings match their saved searches"
+    ]
+  },
+  {
+    "category": "User Profiles and Security",
+    "list_feature": [
+      "Verified user profiles with authentication (ID, phone, email)",
+      "Public profile showcasing credibility score, transaction history, and reviews",
+      "Privacy controls for personal data",
+      "Reporting system for fraudulent listings or users",
+      "Two-factor authentication for account security"
+    ]
+  },
+  {
+    "category": "Platform Usability and Support",
+    "list_feature": [
+      "Mobile-responsive design and dedicated apps",
+      "Live chat and email support for transaction disputes",
+      "FAQ and guides for new users (listing tips, credibility explained)",
+      "Analytics dashboard for sellers (listing views, offer trends)",
+      "Multi-language and currency support for global users"
+    ]
+  }
+]

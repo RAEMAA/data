@@ -1,0 +1,226 @@
+[
+  {
+    "id": "P1",
+    "phase": "Planning & Requirements Gathering",
+    "feature list": [],
+    "estimatedTime": "2 weeks",
+    "startTime": "Today",
+    "endTime": "2 weeks from Today",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "System Design & Architecture",
+    "feature list": [],
+    "estimatedTime": "3 weeks",
+    "startTime": "2 weeks from Today",
+    "endTime": "5 weeks from Today",
+    "dependencies": [
+      "P1"
+    ]
+  },
+  {
+    "id": "P3",
+    "phase": "Database Design & Setup",
+    "feature list": [],
+    "estimatedTime": "2 weeks",
+    "startTime": "5 weeks from Today",
+    "endTime": "7 weeks from Today",
+    "dependencies": [
+      "P2"
+    ]
+  },
+  {
+    "id": "P4",
+    "phase": "Growth Tracking Module Development",
+    "feature list": [
+      "Weight monitoring",
+      "Daily weight gain calculation",
+      "Growth charts and reports",
+      "Benchmarking against breed standards",
+      "Feed conversion ratio (FCR) tracking"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "7 weeks from Today",
+    "endTime": "11 weeks from Today",
+    "dependencies": [
+      "P2",
+      "P3"
+    ]
+  },
+  {
+    "id": "P5",
+    "phase": "Health Monitoring Module Development",
+    "feature list": [
+      "Individual pig health records",
+      "Vaccination schedules and reminders",
+      "Medication tracking and administration",
+      "Disease outbreak alerts",
+      "Mortality tracking and analysis",
+      "Body temperature monitoring"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "7 weeks from Today",
+    "endTime": "11 weeks from Today",
+    "dependencies": [
+      "P2",
+      "P3"
+    ]
+  },
+  {
+    "id": "P6",
+    "phase": "Feeding Management Module Development",
+    "feature list": [
+      "Feed consumption tracking",
+      "Automated feeding schedules",
+      "Feed inventory management",
+      "Nutrient analysis and optimization",
+      "Water consumption monitoring",
+      "Feed waste reduction strategies"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "7 weeks from Today",
+    "endTime": "11 weeks from Today",
+    "dependencies": [
+      "P2",
+      "P3"
+    ]
+  },
+  {
+    "id": "P7",
+    "phase": "Piglet Supply and Distribution Module Development",
+    "feature list": [
+      "Piglet sourcing management",
+      "Order management and tracking",
+      "Transportation logistics",
+      "Weaning management",
+      "Nursery environment control",
+      "Piglet health certification"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "11 weeks from Today",
+    "endTime": "14 weeks from Today",
+    "dependencies": [
+      "P2",
+      "P3"
+    ]
+  },
+  {
+    "id": "P8",
+    "phase": "Farmer Communication and Support Module Development",
+    "feature list": [
+      "Mobile app for farmers",
+      "SMS alerts and notifications",
+      "Knowledge base and FAQs",
+      "Expert consultation access",
+      "Training programs and resources",
+      "Community forum"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "11 weeks from Today",
+    "endTime": "15 weeks from Today",
+    "dependencies": [
+      "P2",
+      "P3"
+    ]
+  },
+  {
+    "id": "P9",
+    "phase": "Farm Staff Operations Module Development",
+    "feature list": [
+      "Task management and assignment",
+      "Role-based access control",
+      "Attendance tracking",
+      "Performance monitoring",
+      "Communication tools",
+      "Training modules"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "11 weeks from Today",
+    "endTime": "14 weeks from Today",
+    "dependencies": [
+      "P2",
+      "P3"
+    ]
+  },
+  {
+    "id": "P10",
+    "phase": "Farmer Interactions Module Development",
+    "feature list": [
+      "Direct messaging with farmers",
+      "Feedback collection and analysis",
+      "Farmer segmentation and targeting",
+      "Loyalty programs and incentives",
+      "On-site support requests",
+      "Farmer performance dashboards"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "15 weeks from Today",
+    "endTime": "18 weeks from Today",
+    "dependencies": [
+      "P8"
+    ]
+  },
+  {
+    "id": "P11",
+    "phase": "Farm Owner Management Module Development",
+    "feature list": [
+      "Financial performance reporting",
+      "Operational dashboards",
+      "Inventory management",
+      "Sales and revenue tracking",
+      "Expense management",
+      "Profitability analysis"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "15 weeks from Today",
+    "endTime": "19 weeks from Today",
+    "dependencies": [
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P9"
+    ]
+  },
+  {
+    "id": "P12",
+    "phase": "Integration & Testing",
+    "feature list": [],
+    "estimatedTime": "4 weeks",
+    "startTime": "19 weeks from Today",
+    "endTime": "23 weeks from Today",
+    "dependencies": [
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11"
+    ]
+  },
+  {
+    "id": "P13",
+    "phase": "Deployment & Training",
+    "feature list": [],
+    "estimatedTime": "2 weeks",
+    "startTime": "23 weeks from Today",
+    "endTime": "25 weeks from Today",
+    "dependencies": [
+      "P12"
+    ]
+  },
+  {
+    "id": "P14",
+    "phase": "Maintenance & Support",
+    "feature list": [],
+    "estimatedTime": "Ongoing",
+    "startTime": "25 weeks from Today",
+    "endTime": "Indefinite",
+    "dependencies": [
+      "P13"
+    ]
+  }
+]

@@ -1,0 +1,533 @@
+[
+  [
+    [
+      {
+        "id": "P1-T1",
+        "taskName": "Design - Profile customization",
+        "correspondingPhase": "User Personal Space Setup",
+        "correspondingFeature": "Profile customization",
+        "priority": "Medium",
+        "estimatedTime": "4 hours",
+        "startTime": "2023-10-05",
+        "endTime": "2023-10-19",
+        "dependencies": [],
+        "responsiblePerson": "UX Designer"
+      },
+      {
+        "id": "P1-T2",
+        "taskName": "Implementation - Profile customization",
+        "correspondingPhase": "User Personal Space Setup",
+        "correspondingFeature": "Profile customization",
+        "priority": "High",
+        "estimatedTime": "8 hours",
+        "startTime": "2023-10-05",
+        "endTime": "2023-10-19",
+        "dependencies": ["P1-T1"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P1-T3",
+        "taskName": "Testing - Profile customization",
+        "correspondingPhase": "User Personal Space Setup",
+        "correspondingFeature": "Profile customization",
+        "priority": "Medium",
+        "estimatedTime": "2 hours",
+        "startTime": "2023-10-05",
+        "endTime": "2023-10-19",
+        "dependencies": ["P1-T2"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P1-T4",
+        "taskName": "Design - Personal dashboard",
+        "correspondingPhase": "User Personal Space Setup",
+        "correspondingFeature": "Personal dashboard",
+        "priority": "Medium",
+        "estimatedTime": "4 hours",
+        "startTime": "2023-10-05",
+        "endTime": "2023-10-19",
+        "dependencies": [],
+        "responsiblePerson": "UX Designer"
+      },
+      {
+        "id": "P1-T5",
+        "taskName": "Implementation - Personal dashboard",
+        "correspondingPhase": "User Personal Space Setup",
+        "correspondingFeature": "Personal dashboard",
+        "priority": "High",
+        "estimatedTime": "8 hours",
+        "startTime": "2023-10-05",
+        "endTime": "2023-10-19",
+        "dependencies": ["P1-T4"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P1-T6",
+        "taskName": "Testing - Personal dashboard",
+        "correspondingPhase": "User Personal Space Setup",
+        "correspondingFeature": "Personal dashboard",
+        "priority": "Medium",
+        "estimatedTime": "2 hours",
+        "startTime": "2023-10-05",
+        "endTime": "2023-10-19",
+        "dependencies": ["P1-T5"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P1-T7",
+        "taskName": "Design - Secure account management",
+        "correspondingPhase": "User Personal Space Setup",
+        "correspondingFeature": "Secure account management",
+        "priority": "Medium",
+        "estimatedTime": "4 hours",
+        "startTime": "2023-10-05",
+        "endTime": "2023-10-19",
+        "dependencies": [],
+        "responsiblePerson": "UX Designer"
+      },
+      {
+        "id": "P1-T8",
+        "taskName": "Implementation - Secure account management",
+        "correspondingPhase": "User Personal Space Setup",
+        "correspondingFeature": "Secure account management",
+        "priority": "High",
+        "estimatedTime": "8 hours",
+        "startTime": "2023-10-05",
+        "endTime": "2023-10-19",
+        "dependencies": ["P1-T7"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P1-T9",
+        "taskName": "Testing - Secure account management",
+        "correspondingPhase": "User Personal Space Setup",
+        "correspondingFeature": "Secure account management",
+        "priority": "Medium",
+        "estimatedTime": "2 hours",
+        "startTime": "2023-10-05",
+        "endTime": "2023-10-19",
+        "dependencies": ["P1-T8"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P1-T10",
+        "taskName": "Design - Activity log",
+        "correspondingPhase": "User Personal Space Setup",
+        "correspondingFeature": "Activity log",
+        "priority": "Medium",
+        "estimatedTime": "4 hours",
+        "startTime": "2023-10-05",
+        "endTime": "2023-10-19",
+        "dependencies": [],
+        "responsiblePerson": "UX Designer"
+      },
+      {
+        "id": "P1-T11",
+        "taskName": "Implementation - Activity log",
+        "correspondingPhase": "User Personal Space Setup",
+        "correspondingFeature": "Activity log",
+        "priority": "High",
+        "estimatedTime": "8 hours",
+        "startTime": "2023-10-05",
+        "endTime": "2023-10-19",
+        "dependencies": ["P1-T10"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P1-T12",
+        "taskName": "Testing - Activity log",
+        "correspondingPhase": "User Personal Space Setup",
+        "correspondingFeature": "Activity log",
+        "priority": "Medium",
+        "estimatedTime": "2 hours",
+        "startTime": "2023-10-05",
+        "endTime": "2023-10-19",
+        "dependencies": ["P1-T11"],
+        "responsiblePerson": "QA Engineer"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": "P2-T1",
+        "taskName": "Design Content Creation Tools Interface",
+        "correspondingPhase": "Creative Expression Development",
+        "correspondingFeature": "Content creation tools",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-05",
+        "endTime": "2023-10-06",
+        "dependencies": [],
+        "responsiblePerson": "UX Designer"
+      },
+      {
+        "id": "P2-T2",
+        "taskName": "Implement Content Creation Tools Functionality",
+        "correspondingPhase": "Creative Expression Development",
+        "correspondingFeature": "Content creation tools",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2023-10-07",
+        "endTime": "2023-10-11",
+        "dependencies": ["P2-T1"],
+        "responsiblePerson": "Full Stack Developer"
+      },
+      {
+        "id": "P2-T3",
+        "taskName": "Test Content Creation Tools Performance and Usability",
+        "correspondingPhase": "Creative Expression Development",
+        "correspondingFeature": "Content creation tools",
+        "priority": "Low",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-12",
+        "endTime": "2023-10-13",
+        "dependencies": ["P2-T2"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P2-T4",
+        "taskName": "Design Templates Layout and Aesthetics",
+        "correspondingPhase": "Creative Expression Development",
+        "correspondingFeature": "Design templates",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-05",
+        "endTime": "2023-10-06",
+        "dependencies": [],
+        "responsiblePerson": "UX Designer"
+      },
+      {
+        "id": "P2-T5",
+        "taskName": "Implement Design Templates Components",
+        "correspondingPhase": "Creative Expression Development",
+        "correspondingFeature": "Design templates",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2023-10-07",
+        "endTime": "2023-10-11",
+        "dependencies": ["P2-T4"],
+        "responsiblePerson": "Full Stack Developer"
+      },
+      {
+        "id": "P2-T6",
+        "taskName": "Test Design Templates Responsiveness and Integration",
+        "correspondingPhase": "Creative Expression Development",
+        "correspondingFeature": "Design templates",
+        "priority": "Low",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-12",
+        "endTime": "2023-10-13",
+        "dependencies": ["P2-T5"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P2-T7",
+        "taskName": "Design Media Uploads Process and User Flow",
+        "correspondingPhase": "Creative Expression Development",
+        "correspondingFeature": "Media uploads",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-05",
+        "endTime": "2023-10-06",
+        "dependencies": [],
+        "responsiblePerson": "UX Designer"
+      },
+      {
+        "id": "P2-T8",
+        "taskName": "Implement Media Uploads Functionality",
+        "correspondingPhase": "Creative Expression Development",
+        "correspondingFeature": "Media uploads",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2023-10-07",
+        "endTime": "2023-10-11",
+        "dependencies": ["P2-T7"],
+        "responsiblePerson": "Full Stack Developer"
+      },
+      {
+        "id": "P2-T9",
+        "taskName": "Test Media Uploads Reliability and Performance",
+        "correspondingPhase": "Creative Expression Development",
+        "correspondingFeature": "Media uploads",
+        "priority": "Low",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-12",
+        "endTime": "2023-10-13",
+        "dependencies": ["P2-T8"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P2-T10",
+        "taskName": "Design Editing Suite User Interface",
+        "correspondingPhase": "Creative Expression Development",
+        "correspondingFeature": "Editing suite",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-05",
+        "endTime": "2023-10-06",
+        "dependencies": [],
+        "responsiblePerson": "UX Designer"
+      },
+      {
+        "id": "P2-T11",
+        "taskName": "Implement Editing Suite Features",
+        "correspondingPhase": "Creative Expression Development",
+        "correspondingFeature": "Editing suite",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2023-10-07",
+        "endTime": "2023-10-11",
+        "dependencies": ["P2-T10"],
+        "responsiblePerson": "Full Stack Developer"
+      },
+      {
+        "id": "P2-T12",
+        "taskName": "Test Editing Suite Functionality and Compatibility",
+        "correspondingPhase": "Creative Expression Development",
+        "correspondingFeature": "Editing suite",
+        "priority": "Low",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-12",
+        "endTime": "2023-10-13",
+        "dependencies": ["P2-T11"],
+        "responsiblePerson": "QA Engineer"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": "P3-T1",
+        "taskName": "Design Social sharing",
+        "correspondingPhase": "Community Interaction Features",
+        "correspondingFeature": "Social sharing",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-27",
+        "endTime": "2023-10-28",
+        "dependencies": [],
+        "responsiblePerson": "Designer"
+      },
+      {
+        "id": "P3-T2",
+        "taskName": "Implementation Social sharing",
+        "correspondingPhase": "Community Interaction Features",
+        "correspondingFeature": "Social sharing",
+        "priority": "High",
+        "estimatedTime": "4 days",
+        "startTime": "2023-10-29",
+        "endTime": "2023-11-01",
+        "dependencies": ["P3-T1"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P3-T3",
+        "taskName": "Testing Social sharing",
+        "correspondingPhase": "Community Interaction Features",
+        "correspondingFeature": "Social sharing",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-11-02",
+        "endTime": "2023-11-03",
+        "dependencies": ["P3-T2"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P3-T4",
+        "taskName": "Design Forums and discussions",
+        "correspondingPhase": "Community Interaction Features",
+        "correspondingFeature": "Forums and discussions",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-27",
+        "endTime": "2023-10-28",
+        "dependencies": [],
+        "responsiblePerson": "Designer"
+      },
+      {
+        "id": "P3-T5",
+        "taskName": "Implementation Forums and discussions",
+        "correspondingPhase": "Community Interaction Features",
+        "correspondingFeature": "Forums and discussions",
+        "priority": "High",
+        "estimatedTime": "4 days",
+        "startTime": "2023-10-29",
+        "endTime": "2023-11-01",
+        "dependencies": ["P3-T4"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P3-T6",
+        "taskName": "Testing Forums and discussions",
+        "correspondingPhase": "Community Interaction Features",
+        "correspondingFeature": "Forums and discussions",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-11-02",
+        "endTime": "2023-11-03",
+        "dependencies": ["P3-T5"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P3-T7",
+        "taskName": "Design Peer feedback",
+        "correspondingPhase": "Community Interaction Features",
+        "correspondingFeature": "Peer feedback",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-27",
+        "endTime": "2023-10-28",
+        "dependencies": [],
+        "responsiblePerson": "Designer"
+      },
+      {
+        "id": "P3-T8",
+        "taskName": "Implementation Peer feedback",
+        "correspondingPhase": "Community Interaction Features",
+        "correspondingFeature": "Peer feedback",
+        "priority": "High",
+        "estimatedTime": "4 days",
+        "startTime": "2023-10-29",
+        "endTime": "2023-11-01",
+        "dependencies": ["P3-T7"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P3-T9",
+        "taskName": "Testing Peer feedback",
+        "correspondingPhase": "Community Interaction Features",
+        "correspondingFeature": "Peer feedback",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-11-02",
+        "endTime": "2023-11-03",
+        "dependencies": ["P3-T8"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P3-T10",
+        "taskName": "Design Community events",
+        "correspondingPhase": "Community Interaction Features",
+        "correspondingFeature": "Community events",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-27",
+        "endTime": "2023-10-28",
+        "dependencies": [],
+        "responsiblePerson": "Designer"
+      },
+      {
+        "id": "P3-T11",
+        "taskName": "Implementation Community events",
+        "correspondingPhase": "Community Interaction Features",
+        "correspondingFeature": "Community events",
+        "priority": "High",
+        "estimatedTime": "4 days",
+        "startTime": "2023-10-29",
+        "endTime": "2023-11-01",
+        "dependencies": ["P3-T10"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P3-T12",
+        "taskName": "Testing Community events",
+        "correspondingPhase": "Community Interaction Features",
+        "correspondingFeature": "Community events",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-11-02",
+        "endTime": "2023-11-03",
+        "dependencies": ["P3-T11"],
+        "responsiblePerson": "QA Engineer"
+      }
+    ]
+  ],
+  [
+    {
+      "id": "P1",
+      "phase": "User Personal Space Setup",
+      "feature list": [
+        "Profile customization",
+        "Personal dashboard",
+        "Secure account management",
+        "Activity log"
+      ],
+      "estimatedTime": "14 days",
+      "startTime": "2023-10-05",
+      "endTime": "2023-10-19",
+      "dependencies": []
+    },
+    {
+      "id": "P2",
+      "phase": "Creative Expression Development",
+      "feature list": [
+        "Content creation tools",
+        "Design templates",
+        "Media uploads",
+        "Editing suite"
+      ],
+      "estimatedTime": "21 days",
+      "startTime": "2023-10-05",
+      "endTime": "2023-10-26",
+      "dependencies": []
+    },
+    {
+      "id": "P3",
+      "phase": "Community Interaction Features",
+      "feature list": [
+        "Social sharing",
+        "Forums and discussions",
+        "Peer feedback",
+        "Community events"
+      ],
+      "estimatedTime": "21 days",
+      "startTime": "2023-10-27",
+      "endTime": "2023-11-16",
+      "dependencies": ["P1", "P2"]
+    },
+    {
+      "id": "P4",
+      "phase": "Secure Connectivity Implementation",
+      "feature list": [
+        "Encrypted communications",
+        "Multi-factor authentication",
+        "Real-time monitoring",
+        "Data privacy controls"
+      ],
+      "estimatedTime": "14 days",
+      "startTime": "2023-10-20",
+      "endTime": "2023-11-03",
+      "dependencies": ["P1"],
+      "subtasks": [
+        {
+          "id": "P4-T1",
+          "taskName": "Design Secure Connectivity Implementation",
+          "estimatedTime": "3 days",
+          "startTime": "2023-10-20",
+          "endTime": "2023-10-22",
+          "dependencies": [],
+          "responsiblePerson": "Design Lead"
+        },
+        {
+          "id": "P4-T2",
+          "taskName": "Implement Secure Connectivity Features",
+          "estimatedTime": "7 days",
+          "startTime": "2023-10-23",
+          "endTime": "2023-10-29",
+          "dependencies": ["P4-T1"],
+          "responsiblePerson": "Development Lead"
+        },
+        {
+          "id": "P4-T3",
+          "taskName": "Test Secure Connectivity Features",
+          "estimatedTime": "4 days",
+          "startTime": "2023-10-30",
+          "endTime": "2023-11-02",
+          "dependencies": ["P4-T2"],
+          "responsiblePerson": "QA Lead"
+        }
+      ]
+    }
+  ]
+]

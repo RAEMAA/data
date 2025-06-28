@@ -1,0 +1,55 @@
+[
+  {
+    "id": "P1",
+    "phase": "Phase 1: User Profiles and Personal Space",
+    "feature list": [
+      "Personalized profile creation upon join",
+      "Customizable personal space for self-expression",
+      "Ability to express a range of emotions (joy, excitement, sorrow, playfulness)"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-10-11",
+    "endTime": "2023-11-07",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Phase 2: Content Sharing and Expression",
+    "feature list": [
+      "Post ideas, feelings, and dreams",
+      "Share personal thoughts and emotional experiences",
+      "Utilize text and possibly multimedia to convey ideas"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2023-11-08",
+    "endTime": "2023-11-28",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P3",
+    "phase": "Phase 3: Community Engagement and Global Connection",
+    "feature list": [
+      "Connect with a global community of users",
+      "Discover like-minded individuals who share similar aspirations",
+      "Interact through comments, likes, or shares for valuable feedback"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2023-11-08",
+    "endTime": "2023-11-28",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P4",
+    "phase": "Phase 4: Idea Showcasing and Collaborative Support",
+    "feature list": [
+      "Showcase personal concepts and aspirations",
+      "Engage in discussions to refine ideas",
+      "Find solutions and support from the community to bring ideas to life",
+      "Foster meaningful connections that may lead to deeper relationships"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-11-29",
+    "endTime": "2023-12-27",
+    "dependencies": ["P2", "P3"]
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "P1",
+    "phase": "Travel Packages",
+    "feature_list": [
+      "Package Listing",
+      "Filtering Options",
+      "Sorting Options",
+      "Detailed Package Information",
+      "International Travel Packages",
+      "Domestic Travel Packages",
+      "Adventure Travel",
+      "Family Travel Options"
+    ],
+    "estimatedTime": 20,
+    "startTime": "2023-11-28",
+    "endTime": "2023-12-18",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Visa Services",
+    "feature_list": [
+      "Online Visa Application",
+      "Required Document Checklist",
+      "Appointment Scheduling",
+      "Application Status Tracking",
+      "Visa Fee Calculator",
+      "Visa Type Descriptions",
+      "Document Preparation Assistance"
+    ],
+    "estimatedTime": 15,
+    "startTime": "2023-11-28",
+    "endTime": "2023-12-13",
+    "dependencies": []
+  },
+  {
+    "id": "P3",
+    "phase": "Content",
+    "feature_list": [
+      "Travel Blogs",
+      "User Reviews",
+      "FAQs",
+      "Destination Guides",
+      "Local Culture Insights",
+      "Travel Tips",
+      "Customer Stories"
+    ],
+    "estimatedTime": 25,
+    "startTime": "2023-11-28",
+    "endTime": "2023-12-23",
+    "dependencies": []
+  },
+  {
+    "id": "P4",
+    "phase": "Contact Options",
+    "feature_list": [
+      "Contact Form",
+      "Live Chat",
+      "Customer Support Hotline",
+      "Email Contact",
+      "Social Media Integration",
+      "24/7 Chatbot Assistance",
+      "Local Office Locator"
+    ],
+    "estimatedTime": 10,
+    "startTime": "2023-11-28",
+    "endTime": "2023-12-07",
+    "dependencies": []
+  },
+  {
+    "id": "P5",
+    "phase": "Tour Details",
+    "feature_list": [
+      "Itinerary Overview",
+      "Pricing Details",
+      "Map Integration",
+      "Amenities and Inclusions",
+      "Detailed Day-to-Day Itinerary",
+      "Customizable Tour Options",
+      "Seasonal Offers",
+      "Photo Gallery"
+    ],
+    "estimatedTime": 18,
+    "startTime": "2023-11-28",
+    "endTime": "2023-12-16",
+    "dependencies": []
+  },
+  {
+    "id": "P6",
+    "phase": "Homepage",
+    "feature_list": [
+      "Banner Slideshow",
+      "Navigation Menu",
+      "Search Functionality",
+      "User Login/Signup",
+      "Featured Tours",
+      "Latest News",
+      "Special Promotions"
+    ],
+    "estimatedTime": 12,
+    "startTime": "2023-12-24",
+    "endTime": "2024-01-04",
+    "dependencies": ["P1", "P2", "P3", "P4", "P5"]
+  }
+]

@@ -1,0 +1,365 @@
+[
+    {
+        "category": "User Accounts & Profiles",
+        "features": [
+            {
+                "featureName": "User Registration",
+                "flow": "1. **User (Student/Researcher/Teacher):** Navigates to the registration page.\n2. **System:** Displays the registration form with fields for email, password, name, user type (Student, Researcher, Teacher), university, and optional fields like major/research area.\n3. **User:** Enters the required information.\n4. **System:** Validates the input data (e.g., email format, password strength, required fields).\n5. **System:** If validation fails, displays error messages to the user.\n6. **User:** Corrects the errors and resubmits the form.\n7. **System:** If validation is successful, creates a new user account with 'pending' status.\n8. **System:** Sends a verification email to the provided email address.\n9. **User:** Receives the verification email and clicks the verification link.\n10. **System:** Verifies the email address and activates the user account.\n11. **System:** Redirects the user to the login page or directly logs them in and redirects them to the home page.",
+                "screens": [
+                    "Registration Page: Displays the registration form with necessary fields.",
+                    "Email Verification Page: Displays a message indicating that a verification email has been sent.",
+                    "Email Verification Success Page: Displays a success message after email verification.",
+                    "Login Page: Allows the user to log in after successful registration."
+                ]
+            },
+            {
+                "featureName": "User Profiles (Students, Researchers, Teachers)",
+                "flow": "1. **User (Student/Researcher/Teacher):** Logs into the system.\n2. **User:** Navigates to their profile page (e.g., by clicking on their profile picture or name).\n3. **System:** Displays the user's profile information based on their user type.\n    *   **Student:** Displays name, university, major, courses taken/interested in, study materials shared, ratings given, etc.\n    *   **Researcher:** Displays name, university, research area, publications, research interests, teaching experience, potential students they are looking for, etc.\n    *   **Teacher:** Displays name, university, courses taught, teaching experience, research interests, student reviews, etc.\n4. **Other User (Student/Researcher/Teacher):** Views another user's profile by clicking on their name or profile picture in a post, comment, or search result.\n5. **System:** Displays the profile information of the selected user.",
+                "screens": [
+                    "Student Profile Page: Displays student-specific profile information.",
+                    "Researcher Profile Page: Displays researcher-specific profile information.",
+                    "Teacher Profile Page: Displays teacher-specific profile information."
+                ]
+            },
+            {
+                "featureName": "Profile Customization",
+                "flow": "1. **User (Student/Researcher/Teacher):** Logs into the system.\n2. **User:** Navigates to their profile page.\n3. **User:** Clicks on the 'Edit Profile' button or a similar option.\n4. **System:** Displays the profile editing form with fields for updating profile information (e.g., name, university, major/research area, profile picture, bio).\n5. **User:** Updates the desired fields.\n6. **System:** Validates the input data.\n7. **System:** If validation fails, displays error messages to the user.\n8. **User:** Corrects the errors and resubmits the form.\n9. **System:** If validation is successful, updates the user's profile information in the database.\n10. **System:** Displays a success message and redirects the user back to their profile page.",
+                "screens": [
+                    "Profile Page: Displays the user's profile information with an 'Edit Profile' button.",
+                    "Edit Profile Page: Displays the profile editing form with fields for updating profile information."
+                ]
+            },
+            {
+                "featureName": "Account Management",
+                "flow": "1. **User (Student/Researcher/Teacher):** Logs into the system.\n2. **User:** Navigates to the account settings page (e.g., by clicking on 'Settings' or 'Account' in the user menu).\n3. **System:** Displays the account settings page with options for:\n    *   Changing password\n    *   Updating email address\n    *   Managing notification preferences\n    *   Deleting account\n4. **User:** Selects the desired action (e.g., 'Change Password').\n5. **System:** Displays the corresponding form or confirmation dialog.\n6. **User:** Enters the required information (e.g., current password, new password, confirm new password).\n7. **System:** Validates the input data.\n8. **System:** If validation fails, displays error messages to the user.\n9. **User:** Corrects the errors and resubmits the form.\n10. **System:** If validation is successful, updates the user's account settings in the database.\n11. **System:** Displays a success message.",
+                "screens": [
+                    "Account Settings Page: Displays the account settings options.",
+                    "Change Password Page: Displays the form for changing the user's password.",
+                    "Update Email Page: Displays the form for updating the user's email address.",
+                    "Notification Settings Page: Displays the notification preferences.",
+                    "Delete Account Confirmation Page: Displays a confirmation dialog before deleting the account."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Resource Sharing",
+        "features": [
+            {
+                "featureName": "Document Upload (Learning Materials, Research Papers)",
+                "flow": "1. **User (Student/Researcher/Teacher):** Clicks on the 'Upload Resource' button.\n2. **System:** Navigates the user to the 'Upload Resource' screen.\n3. **User:** Selects the resource type (Learning Material, Research Paper, etc.).\n4. **User:** Uploads the document (PDF, DOCX, etc.).\n5. **User:** Enters the resource title, description, and relevant tags.\n6. **User:** Selects the appropriate category (Subject, Course, University).\n7. **User:** Chooses the privacy settings (Public, University-Specific, Private).\n8. **User:** Clicks the 'Submit' button.\n9. **System:** Validates the data and uploads the document to the server.\n10. **System:** Displays a success message and redirects the user to the resource page or their profile.",
+                "screens": [
+                    "Upload Resource Screen: Allows users to upload documents, enter metadata (title, description, tags), select categories, and set privacy settings.",
+                    "Success Message: Displays a confirmation message after successful upload.",
+                    "Resource Page: Displays the uploaded resource with its metadata and download options."
+                ]
+            },
+            {
+                "featureName": "Resource Categorization (by Subject, Course, etc.)",
+                "flow": "1. **Admin/Moderator (Initially):** Defines the initial set of categories (Subjects, Courses, Universities) in the admin panel.\n2. **User (During Upload):** Selects the appropriate category for the resource from a dropdown or a hierarchical list.\n3. **System:** Stores the resource's category information in the database.\n4. **Admin/Moderator (Ongoing):** Reviews and updates the categories as needed, adding new subjects, courses, or universities.\n5. **User (Potentially):** Suggests new categories if the existing ones are insufficient (subject to admin approval).",
+                "screens": [
+                    "Upload Resource Screen: Includes category selection options (dropdown, hierarchical list).",
+                    "Admin Panel (Category Management): Allows administrators to create, edit, and delete categories.",
+                    "Category Suggestion Form (Optional): Allows users to suggest new categories."
+                ]
+            },
+            {
+                "featureName": "Resource Search & Filtering",
+                "flow": "1. **User:** Navigates to the 'Resource Library' or uses the search bar on any page.\n2. **User:** Enters keywords in the search bar.\n3. **User (Optional):** Applies filters such as Subject, Course, University, Resource Type, Date Uploaded, etc.\n4. **System:** Queries the database based on the search keywords and filters.\n5. **System:** Displays the search results in a list or grid format, with relevant information (title, description, author, category).\n6. **User:** Clicks on a resource to view its details.",
+                "screens": [
+                    "Resource Library: Displays a list of available resources with search and filtering options.",
+                    "Search Results Page: Displays the results of a search query, allowing users to refine their search with filters.",
+                    "Resource Page: Displays the details of a specific resource."
+                ]
+            },
+            {
+                "featureName": "Resource Download",
+                "flow": "1. **User:** Navigates to the 'Resource Page' of the desired resource.\n2. **User:** Clicks the 'Download' button.\n3. **System:** Checks the user's permissions (e.g., if the resource is university-specific, verifies the user's university affiliation).\n4. **System:** If permissions are granted, initiates the download of the resource file.\n5. **System (Optional):** Logs the download event for analytics purposes.",
+                "screens": [
+                    "Resource Page: Contains the 'Download' button.",
+                    "Permission Denied Message (If applicable): Displays a message if the user does not have permission to download the resource."
+                ]
+            },
+            {
+                "featureName": "Resource Preview",
+                "flow": "1. **User:** Navigates to the 'Resource Library' or 'Search Results Page'.\n2. **User:** Clicks on the 'Preview' button or link associated with a resource.\n3. **System:** Opens the resource in a preview mode, either in a new tab/window or within the same page (using a PDF viewer or similar).\n4. **User:** Views the resource content.\n5. **User:** Can then choose to download the resource or close the preview.",
+                "screens": [
+                    "Resource Library/Search Results Page: Displays a 'Preview' button or link for each resource.",
+                    "Resource Preview: Displays the resource content in a preview mode (e.g., using a PDF viewer).",
+                    "Resource Page: Displays the details of a specific resource."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Course & Teacher Reviews",
+        "features": [
+            {
+                "featureName": "Course Review Submission",
+                "flow": "1. **Student:** Navigates to the course details page.\n2. **Student:** Clicks on the 'Write a Review' button for the course.\n3. **System:** Presents the 'Course Review Submission' form.\n4. **Student:** Fills out the review form, including rating (e.g., stars), written feedback, and optional attachments (e.g., study materials).\n5. **Student:** Submits the review.\n6. **System:** Validates the review data.\n7. **System:** If validation passes, saves the review to the database and displays a success message. If validation fails, displays error messages to the student.\n8. **System:** Sends a notification to moderators for review moderation (if moderation is enabled).\n9. **System:** Updates the average course rating (if the review is approved immediately or after moderation).\n10. **Student:** The review is displayed on the course details page after approval (if moderation is enabled).",
+                "screens": [
+                    "Course Details Page: Displays course information and a 'Write a Review' button.",
+                    "Course Review Submission Form: A form with fields for rating, written review, and optional attachments.",
+                    "Success/Error Message: Displays a message indicating the success or failure of the review submission.",
+                    "Moderation Queue (Admin/Moderator): Displays a list of reviews awaiting moderation."
+                ]
+            },
+            {
+                "featureName": "Teacher Review Submission",
+                "flow": "1. **Student:** Navigates to the teacher's profile page.\n2. **Student:** Clicks on the 'Write a Review' button for the teacher.\n3. **System:** Presents the 'Teacher Review Submission' form.\n4. **Student:** Fills out the review form, including rating (e.g., stars), written feedback, and optional information (e.g., courses taught by the teacher).\n5. **Student:** Submits the review.\n6. **System:** Validates the review data.\n7. **System:** If validation passes, saves the review to the database and displays a success message. If validation fails, displays error messages to the student.\n8. **System:** Sends a notification to moderators for review moderation (if moderation is enabled).\n9. **System:** Updates the average teacher rating (if the review is approved immediately or after moderation).\n10. **Student:** The review is displayed on the teacher's profile page after approval (if moderation is enabled).",
+                "screens": [
+                    "Teacher Profile Page: Displays teacher information and a 'Write a Review' button.",
+                    "Teacher Review Submission Form: A form with fields for rating, written review, and optional information about the teacher.",
+                    "Success/Error Message: Displays a message indicating the success or failure of the review submission.",
+                    "Moderation Queue (Admin/Moderator): Displays a list of reviews awaiting moderation."
+                ]
+            },
+            {
+                "featureName": "Review Display",
+                "flow": "1. **User (Student/Visitor):** Navigates to a course details page or a teacher's profile page.\n2. **System:** Retrieves and displays approved reviews for the course or teacher.\n3. **System:** Displays reviews in a chronological order or sorted by helpfulness (upvotes/downvotes - if implemented).\n4. **System:** Allows users to filter reviews (e.g., by rating, keywords).\n5. **System:** Implements pagination or infinite scrolling for a large number of reviews.",
+                "screens": [
+                    "Course Details Page: Displays course information and a section for displaying course reviews.",
+                    "Teacher Profile Page: Displays teacher information and a section for displaying teacher reviews.",
+                    "Review Display Component: A reusable component for displaying individual reviews with author, rating, date, and review text."
+                ]
+            },
+            {
+                "featureName": "Review Moderation",
+                "flow": "1. **Moderator/Admin:** Logs into the system with moderation privileges.\n2. **Moderator/Admin:** Navigates to the moderation queue.\n3. **System:** Displays a list of pending reviews (for courses and teachers).\n4. **Moderator/Admin:** Selects a review to moderate.\n5. **System:** Displays the review content and associated course/teacher information.\n6. **Moderator/Admin:** Chooses to approve, reject, or edit the review.\n7. **System:** If approved, the review is published and displayed on the course/teacher page. If rejected, the review is removed from the system (or archived). If edited, the changes are saved, and the review is published (or sent back to the moderator queue if further review is needed).\n8. **System:** Notifies the reviewer about the moderation decision (optional).",
+                "screens": [
+                    "Moderation Dashboard: Displays an overview of pending reviews and moderation statistics.",
+                    "Moderation Queue: A list of reviews awaiting moderation, with filters and search options.",
+                    "Review Details Page (Moderation): Displays the full review content, user information, and moderation actions (approve, reject, edit).",
+                    "Edit Review Form (Moderation): Allows moderators to edit the content of a review."
+                ]
+            },
+            {
+                "featureName": "Rating System (for Courses & Teachers)",
+                "flow": "1. **System:** Calculates the average rating for a course or teacher based on submitted reviews.\n2. **System:** Displays the average rating on the course details page and teacher profile page.\n3. **System:** Allows users to sort courses and teachers by rating (e.g., highest-rated, lowest-rated).\n4. **System:** Potentially implements a weighted average rating system to give more weight to recent reviews or reviews from verified users. (Further details needed on the weighting algorithm).\n5. **System:** Displays the number of reviews contributing to the average rating.",
+                "screens": [
+                    "Course Details Page: Displays the average course rating and the number of reviews.",
+                    "Teacher Profile Page: Displays the average teacher rating and the number of reviews.",
+                    "Course Listing Page: Allows sorting of courses by rating.",
+                    "Teacher Listing Page: Allows sorting of teachers by rating."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Recommendations",
+        "features": [
+            {
+                "featureName": "Recommendation Submission",
+                "flow": "1. **User (Student/Researcher/Teacher):** Navigates to a course/material/teacher profile page.\n2. **User (Student/Researcher/Teacher):** Clicks on the 'Add Recommendation' or similar button/link.\n3. **System:** Presents the user with a recommendation submission form.\n4. **User (Student/Researcher/Teacher):** Fills out the recommendation form, including:\n    *   Recommendation text (required).\n    *   Rating (if applicable, e.g., star rating for teachers/courses).\n    *   Category (if applicable, e.g., 'Helpful', 'Comprehensive', 'Easy to Understand').\n    *   Optional: Attachments (e.g., supporting documents).\n5. **User (Student/Researcher/Teacher):** Submits the recommendation.\n6. **System:** Validates the form data.\n7. **System:** If validation fails, displays error messages to the user.\n8. **System:** If validation succeeds, saves the recommendation to the database.\n9. **System:** Displays a success message to the user.\n10. **System:** Updates the course/material/teacher profile page to reflect the new recommendation (may require page refresh).",
+                "screens": [
+                    "Course/Material/Teacher Profile Page: Displays the course/material/teacher information and a button/link to add a recommendation.",
+                    "Recommendation Submission Form: A form with fields for recommendation text, rating (if applicable), category (if applicable), and attachments (optional).",
+                    "Error Message (Overlay/Inline): Displays validation errors if the form data is invalid.",
+                    "Success Message (Overlay/Inline): Confirms that the recommendation has been successfully submitted."
+                ]
+            },
+            {
+                "featureName": "Recommendation Display",
+                "flow": "1. **User (Student/Researcher/Teacher):** Navigates to a course/material/teacher profile page.\n2. **System:** Retrieves and displays the recommendations associated with that course/material/teacher.\n3. **System:** Displays recommendations in a list or card format.\n4. **System:** Each recommendation displays:\n    *   Recommendation text.\n    *   Author's name and profile link.\n    *   Rating (if applicable).\n    *   Category (if applicable).\n    *   Date of submission.\n    *   Upvote/Downvote (optional).\n    *   Reply/Comment (optional).\n5. **User (Student/Researcher/Teacher):** Can sort/filter recommendations based on rating, date, category, etc. (optional).\n6. **User (Student/Researcher/Teacher):** Can upvote/downvote or reply/comment on recommendations (optional).",
+                "screens": [
+                    "Course/Material/Teacher Profile Page: Displays the course/material/teacher information and a list of recommendations.",
+                    "Recommendation Card/Item: Displays individual recommendation details (text, author, rating, category, date).",
+                    "Sort/Filter Options (Dropdown/Modal): Allows users to sort and filter recommendations (optional).",
+                    "Upvote/Downvote Buttons: Allows users to vote on recommendations (optional).",
+                    "Reply/Comment Section: Allows users to reply to recommendations (optional)."
+                ]
+            },
+            {
+                "featureName": "Recommendation Categorization",
+                "flow": "1. **Admin/Moderator:** Configures recommendation categories in the admin panel.\n2. **System:** Stores the configured categories in the database.\n3. **User (Student/Researcher/Teacher):** When submitting a recommendation, the system displays the available categories as options.\n4. **User (Student/Researcher/Teacher):** Selects a category for their recommendation.\n5. **System:** Saves the selected category with the recommendation.\n6. **User (Student/Researcher/Teacher):** When viewing recommendations, the system displays the category associated with each recommendation.\n7. **User (Student/Researcher/Teacher):** Can filter recommendations by category (optional).\n\n*Note: The exact implementation of category management (who can create/edit categories) needs further clarification.*",
+                "screens": [
+                    "Admin Panel - Recommendation Category Management: Allows administrators to create, edit, and delete recommendation categories.",
+                    "Recommendation Submission Form: Includes a dropdown or radio button list to select a recommendation category.",
+                    "Course/Material/Teacher Profile Page: Displays the category of each recommendation.",
+                    "Filter Options (Dropdown/Modal): Allows users to filter recommendations by category (optional)."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Networking & Collaboration",
+        "features": [
+            {
+                "featureName": "User Search",
+                "flow": "1. **User (Student/Researcher/Teacher):** Navigates to the 'Search' section.\n2. **User:** Enters search criteria (name, university, research interests, course, etc.).\n3. **System:** Processes the search query.\n4. **System:** Displays a list of users matching the search criteria, including basic profile information (name, university, major/research area).\n5. **User:** Clicks on a user's profile to view more details.\n6. **System:** Navigates to the selected user's profile page.",
+                "screens": [
+                    "Search Screen: Displays the search bar and filtering options (e.g., by university, major, research area).",
+                    "Search Results Screen: Displays a list of users matching the search criteria, with brief profile summaries.",
+                    "User Profile Screen: Displays detailed information about a specific user, including their university, major, research interests, courses they've taken/taught, and potentially a connection request button."
+                ]
+            },
+            {
+                "featureName": "Direct Messaging",
+                "flow": "1. **User (Sender):** Navigates to a user's profile or a direct message list.\n2. **User (Sender):** Initiates a new message or selects an existing conversation.\n3. **User (Sender):** Types and sends a message.\n4. **System:** Delivers the message to the recipient.\n5. **User (Recipient):** Receives a notification of a new message.\n6. **User (Recipient):** Clicks on the notification or navigates to the direct message list.\n7. **User (Recipient):** Opens the message and can reply.",
+                "screens": [
+                    "Direct Message List Screen: Displays a list of all active direct message conversations.",
+                    "Conversation Screen: Displays the message history between two users, with input field for new messages.",
+                    "User Profile Screen: Includes a 'Message' button to initiate a direct message with that user."
+                ]
+            },
+            {
+                "featureName": "Group/Community Creation (within University Networks)",
+                "flow": "1. **User (Student/Researcher/Teacher):** Navigates to the 'Groups' or 'Communities' section within their university network.\n2. **User:** Clicks on 'Create Group/Community'.\n3. **User:** Enters group details: name, description, privacy settings (public/private/request to join), and category (e.g., course-specific, research group, study group).\n4. **User:** Uploads a group image (optional).\n5. **User:** Submits the group creation request.\n6. **System:** Creates the group and assigns the creator as the administrator.\n7. **User (Admin):** Can invite members, manage group settings, and moderate content.\n8. **User (Other Users):** Can search for and join existing groups (depending on privacy settings).",
+                "screens": [
+                    "Groups/Communities List Screen: Displays a list of all groups/communities within the user's university network.",
+                    "Create Group/Community Screen: Form for creating a new group, including fields for name, description, privacy settings, and category.",
+                    "Group/Community Details Screen: Displays information about a specific group, including members, description, and recent activity.",
+                    "Group/Community Settings Screen (Admin Only): Allows the group administrator to manage group settings, such as privacy, member permissions, and content moderation."
+                ]
+            },
+            {
+                "featureName": "Forum/Discussion Boards",
+                "flow": "1. **User (Student/Researcher/Teacher):** Navigates to the 'Forums' or 'Discussion Boards' section, potentially categorized by subject or university.\n2. **User:** Browses existing forums or creates a new forum (if permissions allow).\n3. **User:** Selects a forum to view its topics.\n4. **User:** Reads existing topics or creates a new topic.\n5. **User:** Posts a question, comment, or resource within a topic.\n6. **System:** Displays the post within the topic thread.\n7. **User:** Can reply to other users' posts, upvote/downvote posts (if implemented), and report inappropriate content.",
+                "screens": [
+                    "Forums List Screen: Displays a list of all available forums, potentially categorized by subject or university.",
+                    "Forum Details Screen: Displays a list of topics within a specific forum.",
+                    "Topic Details Screen: Displays the posts within a specific topic, including the original post and all replies.",
+                    "Create New Topic Screen: Form for creating a new topic within a forum, including fields for title and content.",
+                    "Post Creation Screen: Input field for creating a new post or replying to an existing post."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "University Network",
+        "features": [
+            {
+                "featureName": "University-Specific Networks",
+                "flow": "1. **User (Student/Researcher/Teacher):** Initiates registration or login.\n2. **System:** Presents the registration/login screen.\n3. **User:** Completes registration or login.\n4. **System:** If registration, prompts for university affiliation (see 'University Affiliation' feature). If login, redirects to the user's personalized feed or dashboard.\n5. **User:** Navigates to the 'Networks' or 'Universities' section.\n6. **System:** Displays a list of available university networks (initially focused on Vietnamese universities).\n7. **User:** Selects a specific university network.\n8. **System:** Displays the content and activity specific to the selected university network (posts, materials, discussions, etc.).\n9. **User:** Interacts with the content (e.g., viewing materials, participating in discussions, posting content).\n10. **System:** Records user interactions and updates the network activity feed accordingly.\n11. **User:** Can leave the network or switch to another network.",
+                "screens": [
+                    "Registration Screen: Allows new users to create an account, including university affiliation.",
+                    "Login Screen: Allows existing users to access their account.",
+                    "Networks/Universities List Screen: Displays a searchable and filterable list of available university networks.",
+                    "University Network Home Screen: Displays content, activities, and members specific to the selected university network.",
+                    "Post Creation Screen: Allows users to create and share content within a specific university network.",
+                    "Content Display Screen: Displays individual posts, materials, or discussions within the network."
+                ]
+            },
+            {
+                "featureName": "University Affiliation (during registration)",
+                "flow": "1. **User (Student/Researcher/Teacher):** Initiates registration.\n2. **System:** Presents the registration screen with required fields (name, email, password, etc.).\n3. **User:** Fills in the required fields.\n4. **System:** Presents a 'University Affiliation' field (dropdown or search box).\n5. **User:** Searches for and selects their university from the list.\n6. **System:** Stores the selected university affiliation with the user's profile.\n7. **User:** Completes the registration process.\n8. **System:** Confirms registration and redirects the user to their profile or the main feed, filtered by their university (if applicable).",
+                "screens": [
+                    "Registration Screen: Includes a 'University Affiliation' field (dropdown or search box).",
+                    "University Search/Selection Screen (Modal/Overlay): Appears when the user interacts with the 'University Affiliation' field, allowing them to search and select their university.",
+                    "Registration Confirmation Screen: Confirms successful registration and displays the user's selected university affiliation."
+                ]
+            },
+            {
+                "featureName": "Content Filtering by University",
+                "flow": "1. **User (Student/Researcher/Teacher):** Logs in to the system.\n2. **System:** Identifies the user's university affiliation (from their profile).\n3. **System:** By default, filters the main feed and search results to prioritize content from the user's affiliated university.\n4. **User:** Can optionally adjust the filter settings to view content from other universities or all universities.\n5. **System:** Updates the displayed content based on the user's filter settings.\n6. **User:** Interacts with the filtered content (e.g., viewing posts, searching for materials).\n7. **System:** Records user interactions and maintains the filter settings for future sessions (optional).",
+                "screens": [
+                    "Main Feed Screen: Displays content filtered by the user's university affiliation (default).",
+                    "Search Results Screen: Displays search results filtered by the user's university affiliation (default).",
+                    "Filter Settings Screen (Modal/Overlay): Allows users to adjust the content filtering settings (e.g., show content from all universities, specific universities, or only their affiliated university)."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Search & Discovery",
+        "features": [
+            {
+                "featureName": "Global Search (across all resources and users)",
+                "flow": "1. **User (Student/Researcher/Teacher):** Navigates to any page within the SSN platform.\n2. **User:** Locates the global search bar (prominently displayed in the header or navigation).\n3. **User:** Enters their search query (e.g., \"Algebra A1\", \"Report Writing\", \"Professor Nguyen\", \"University of Hanoi\").\n4. **User:** Initiates the search by pressing Enter or clicking the search icon.\n5. **System:** Processes the search query and searches across all indexed resources (courses, materials, user profiles, posts, groups, etc.).\n6. **System:** Ranks the search results based on relevance (algorithm considers keywords, popularity, recency, etc.).\n7. **System:** Displays the search results in a unified list, categorized by resource type (e.g., \"Courses\", \"Users\", \"Materials\", \"Posts\").\n8. **User:** Scans the search results and identifies relevant items.\n9. **User:** Clicks on a search result to navigate to the corresponding resource or profile.\n10. **System:** Redirects the user to the selected resource or profile page.",
+                "screens": [
+                    "Home Screen: Contains the global search bar in the header.",
+                    "Search Results Screen: Displays the ranked search results, categorized by resource type.",
+                    "Course Detail Screen: Displays detailed information about a specific course.",
+                    "User Profile Screen: Displays information about a specific user (student, researcher, or teacher).",
+                    "Material Detail Screen: Displays the content of a specific study material (e.g., document, presentation).",
+                    "Post Detail Screen: Displays the content of a specific post or discussion thread."
+                ]
+            },
+            {
+                "featureName": "Advanced Search Filters",
+                "flow": "1. **User (Student/Researcher/Teacher):** Initiates a global search (as described in the Global Search feature).\n2. **System:** Displays the initial search results.\n3. **User:** Locates the \"Advanced Filters\" or \"Filter Options\" button/link on the search results page.\n4. **User:** Clicks on the \"Advanced Filters\" button/link.\n5. **System:** Displays a panel or modal window containing various filter options.\n6. **User:** Selects and applies desired filters.  Possible filters include:\n    *   Resource Type (Courses, Users, Materials, Posts)\n    *   University (e.g., University of Hanoi, University of Ho Chi Minh City)\n    *   Subject Area (e.g., Mathematics, Literature, Engineering)\n    *   Course Level (e.g., Introductory, Advanced)\n    *   Date Range (e.g., last week, last month, specific dates)\n    *   User Role (Student, Researcher, Teacher)\n    *   Rating (e.g., 4 stars and above)\n7. **User:** Clicks the \"Apply Filters\" button.\n8. **System:** Re-processes the search query with the applied filters.\n9. **System:** Updates the search results display to show only items that match the filter criteria.\n10. **User:** Reviews the filtered search results.\n11. **User:** Can modify or remove filters to refine the search further.",
+                "screens": [
+                    "Search Results Screen: Displays the initial search results and the \"Advanced Filters\" button/link.",
+                    "Advanced Filters Panel/Modal: Contains the various filter options (resource type, university, subject area, date range, etc.).",
+                    "Search Results Screen (Filtered): Displays the updated search results after filters have been applied."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Content Management",
+        "features": [
+            {
+                "featureName": "Content Moderation",
+                "flow": "1. **User (Reporter):** Identifies inappropriate content (e.g., offensive post, misleading information). \n2. **User (Reporter):** Clicks the 'Report' button/link associated with the content.\n3. **System:** Presents the user with a 'Report Content' modal/screen.\n4. **User (Reporter):** Selects a reason for reporting (e.g., spam, harassment, misinformation) from a predefined list or provides a custom reason.\n5. **User (Reporter):** Submits the report.\n6. **System:** Acknowledges the report submission (e.g., 'Thank you for your report.').\n7. **System:** Sends a notification to the Moderator.\n8. **Moderator:** Receives a notification about the reported content.\n9. **Moderator:** Clicks on the notification to view the reported content and the report details.\n10. **Moderator:** Reviews the reported content and the reason for the report.\n11. **Moderator:** Makes a decision: Approve the report (remove content, warn user, suspend user) or Reject the report (content is acceptable).\n12. **System:** Executes the moderator's decision (e.g., removes content, sends warning to user).\n13. **System:** Logs the moderation action.\n14. **System:** (Optional) Notifies the reporter about the outcome of their report.",
+                "screens": [
+                    "Content Item (Post/Comment/Material): Displays the content with a 'Report' option.",
+                    "Report Content Modal/Screen: Allows the user to select a reason for reporting and provide additional details.",
+                    "Moderation Queue: Lists all reported content for moderators to review.",
+                    "Content Details (Moderator View): Displays the reported content, report details, and moderation actions.",
+                    "User Profile (Moderator View): Displays user information and history of violations."
+                ]
+            },
+            {
+                "featureName": "Reporting Inappropriate Content",
+                "flow": "1. **User (Reporter):** Identifies inappropriate content (e.g., offensive post, misleading information). \n2. **User (Reporter):** Clicks the 'Report' button/link associated with the content.\n3. **System:** Presents the user with a 'Report Content' modal/screen.\n4. **User (Reporter):** Selects a reason for reporting (e.g., spam, harassment, misinformation) from a predefined list or provides a custom reason.\n5. **User (Reporter):** (Optional) Provides additional details or context for the report in a text field.\n6. **User (Reporter):** Submits the report.\n7. **System:** Acknowledges the report submission (e.g., 'Thank you for your report.').\n8. **System:** Sends a notification to the Moderator.\n9. **System:** Stores the report in a database for moderation review.\n10. **(Future Enhancement):** User can view the status of their report (e.g., 'Pending Review', 'Resolved').",
+                "screens": [
+                    "Content Item (Post/Comment/Material): Displays the content with a 'Report' option.",
+                    "Report Content Modal/Screen: Allows the user to select a reason for reporting and provide additional details.",
+                    "Report Confirmation Screen: Confirms that the report has been submitted successfully.",
+                    "(Future Enhancement) Report Status Screen: Allows the user to view the status of their submitted reports."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Notifications",
+        "features": [
+            {
+                "featureName": "Notifications for new resources, messages, reviews, etc.",
+                "flow": "1. **System:** A new resource (e.g., study material), message, or review is created within the system.\n2. **System:** The system identifies users who should be notified based on their subscriptions, course enrollments, connections, or other relevant criteria (e.g., users enrolled in the course for which a new resource was added, users who follow the author of the resource, users who received a new message).\n3. **System:** The system generates a notification for each identified user, containing relevant information about the new resource, message, or review (e.g., title of the resource, sender of the message, subject of the review).\n4. **System:** The system sends the notification to the user's notification inbox and potentially via push notification (if enabled).\n5. **User:** The user logs into the SSN platform.\n6. **User:** The user navigates to the notification section.\n7. **User:** The user views the list of notifications.\n8. **User:** The user selects a specific notification to view its details.\n9. **User:** The user interacts with the notification (e.g., views the resource, replies to the message, reads the review).\n10. **System:** The system marks the notification as read upon interaction.",
+                "screens": [
+                    "Notification List Screen: Displays a list of all unread and read notifications, sorted by time. Each notification should show a brief summary (e.g., 'New resource added to Algebra A1').",
+                    "Notification Detail Screen (Resource): Displays the details of a resource notification, including the resource title, description, and a link to view the resource.",
+                    "Notification Detail Screen (Message): Displays the details of a message notification, including the sender, subject, and message content, with options to reply.",
+                    "Notification Detail Screen (Review): Displays the details of a review notification, including the reviewer, course/teacher being reviewed, and the review content.",
+                    "Settings Screen: Allows users to configure notification preferences (e.g., enable/disable push notifications, choose which types of notifications to receive).",
+                    "Profile Screen: Allows users to manage their subscriptions and connections, which influence the notifications they receive."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Future Expansion",
+        "features": [
+            {
+                "featureName": "Support for High Schools",
+                "flow": "1. **Admin:** Configures the system to allow the addition of High School networks.\n2. **Admin:** Creates High School networks, specifying name, location, and other relevant details.\n3. **User (High School Student/Teacher):** Searches for their High School within the SSN.\n4. **User (High School Student/Teacher):** Requests to join the High School network.\n5. **Admin (High School Admin):** Receives a notification of the join request.\n6. **Admin (High School Admin):** Approves or rejects the join request.\n7. **User (High School Student/Teacher):** Receives notification of approval or rejection.\n8. **User (High School Student/Teacher):** If approved, can now access and contribute to the High School network, including sharing materials, experiences, and rating teachers/courses specific to their High School.",
+                "screens": [
+                    "Admin Dashboard: Configuration section to enable/disable High School support.",
+                    "Admin: Create High School Network Screen: Form to input High School details (name, location, etc.).",
+                    "Search Screen: Updated to include High Schools in the search results.",
+                    "High School Profile Page: Displays information about the High School, including members and shared resources.",
+                    "Join Request Notification: Notification displayed to High School Admin upon receiving a join request.",
+                    "Admin: Join Request Approval Screen: Screen to approve or reject join requests.",
+                    "User Notification: Notification displayed to the user upon approval or rejection of their join request.",
+                    "High School Network Home: Displays content specific to the High School network."
+                ]
+            },
+            {
+                "featureName": "Support for Elementary Schools",
+                "flow": "1. **Admin:** Configures the system to allow the addition of Elementary School networks.\n2. **Admin:** Creates Elementary School networks, specifying name, location, and other relevant details.\n3. **User (Parent/Teacher):** Searches for their Elementary School within the SSN.\n4. **User (Parent/Teacher):** Requests to join the Elementary School network.\n5. **Admin (Elementary School Admin):** Receives a notification of the join request.\n6. **Admin (Elementary School Admin):** Approves or rejects the join request.\n7. **User (Parent/Teacher):** Receives notification of approval or rejection.\n8. **User (Parent/Teacher):** If approved, can now access and contribute to the Elementary School network, including sharing materials, experiences, and potentially rating teachers/courses (depending on the age group).",
+                "screens": [
+                    "Admin Dashboard: Configuration section to enable/disable Elementary School support.",
+                    "Admin: Create Elementary School Network Screen: Form to input Elementary School details (name, location, etc.).",
+                    "Search Screen: Updated to include Elementary Schools in the search results.",
+                    "Elementary School Profile Page: Displays information about the Elementary School, including members and shared resources.",
+                    "Join Request Notification: Notification displayed to Elementary School Admin upon receiving a join request.",
+                    "Admin: Join Request Approval Screen: Screen to approve or reject join requests.",
+                    "User Notification: Notification displayed to the user upon approval or rejection of their join request.",
+                    "Elementary School Network Home: Displays content specific to the Elementary School network."
+                ]
+            }
+        ]
+    }
+]

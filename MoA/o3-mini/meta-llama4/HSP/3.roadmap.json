@@ -1,0 +1,121 @@
+[
+    {
+        "id": "P1",
+        "phase": "Project Planning and Requirements",
+        "feature_list": [],
+        "estimatedTime": 5,
+        "startTime": "2024-09-02",
+        "endTime": "2024-09-06",
+        "dependencies": []
+    },
+    {
+        "id": "P2",
+        "phase": "User Management Implementation",
+        "feature_list": [
+            "Farmer Registration",
+            "User Access (Farm Staff, Farmers, Farm Owner)"
+        ],
+        "estimatedTime": 7,
+        "startTime": "2024-09-09",
+        "endTime": "2024-09-17",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P3",
+        "phase": "Core Piglet Management",
+        "feature_list": [
+            "Piglet Type Management",
+            "Piglet Growth Monitoring and Updating",
+            "Piglet Health Monitoring and Updating",
+            "Common Diseases Management"
+        ],
+        "estimatedTime": 10,
+        "startTime": "2024-09-09",
+        "endTime": "2024-09-20",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P4",
+        "phase": "Piglet Import/Export & Operational Criteria",
+        "feature_list": [
+            "Piglet Import Status Management",
+            "Piglet Export Status Management",
+            "Feeding Criteria Management (per Piglet Type)",
+            "Temperature Criteria Management (per Piglet Type)",
+            "Environmental Criteria Management (per Piglet Type)"
+        ],
+        "estimatedTime": 12,
+        "startTime": "2024-09-23",
+        "endTime": "2024-10-08",
+        "dependencies": [
+            "P3"
+        ]
+    },
+    {
+        "id": "P5",
+        "phase": "Farm Administration",
+        "feature_list": [
+            "Farm Information Management and Updating",
+            "Promotion Announcement"
+        ],
+        "estimatedTime": 5,
+        "startTime": "2024-09-18",
+        "endTime": "2024-09-24",
+        "dependencies": [
+            "P2"
+        ]
+    },
+    {
+        "id": "P6",
+        "phase": "Order Management",
+        "feature_list": [
+            "Browse Available Piglet Types",
+            "Place Orders"
+        ],
+        "estimatedTime": 10,
+        "startTime": "2024-10-09",
+        "endTime": "2024-10-22",
+        "dependencies": [
+            "P2",
+            "P4"
+        ]
+    },
+    {
+        "id": "P7",
+        "phase": "Communication and Guidance System",
+        "feature_list": [
+            "Post-Purchase Communication",
+            "Raising Techniques Guidance",
+            "Feeding Procedures Guidance",
+            "Vaccination Procedures Guidance"
+        ],
+        "estimatedTime": 7,
+        "startTime": "2024-10-23",
+        "endTime": "2024-10-31",
+        "dependencies": [
+            "P6"
+        ]
+    },
+    {
+        "id": "P8",
+        "phase": "Reporting and Analytics Development",
+        "feature_list": [
+            "Revenue Statistics Handling",
+            "Monthly Report Generation",
+            "Quarterly Report Generation",
+            "Annual Report Generation"
+        ],
+        "estimatedTime": 10,
+        "startTime": "2024-10-23",
+        "endTime": "2024-11-05",
+        "dependencies": [
+            "P4",
+            "P6",
+            "P5"
+        ]
+    }
+]

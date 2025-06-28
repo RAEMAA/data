@@ -1,0 +1,284 @@
+[
+  {
+    "category": "User Profiles and Networking",
+    "features": [
+      {
+        "featureName": "Student and researcher profile creation with academic discipline tags",
+        "flow": "1. User navigates to registration page (Role: Unregistered User).\n2. User selects role (student, researcher, or educator) and enters basic details (name, email, password).\n3. User adds academic background (e.g., university, degree, major) and research interests (Role: New User).\n4. User selects academic discipline tags (e.g., Algebra A1, Report Writing) from a predefined list or creates custom tags.\n5. Profile preview is displayed for confirmation (Role: New User).\n6. Profile is saved and published to the network (Role: Registered User).",
+        "screens": [
+          "Registration Screen: Collects basic user information and role selection.",
+          "Academic Details Screen: Input for academic background and research interests.",
+          "Discipline Tag Selection Screen: Interactive interface for selecting/customizing academic tags.",
+          "Profile Preview Screen: Summary of profile details before final submission."
+        ]
+      },
+      {
+        "featureName": "University-based network membership (join multiple institutions)",
+        "flow": "1. Registered user searches for universities or institutions via name or location (Role: Registered User).\n2. User selects desired university network and clicks 'Join' (Role: Registered User).\n3. System verifies eligibility (e.g., via university email domain or manual approval for non-affiliated users).\n4. User receives confirmation and gains access to the university-specific network feed and resources (Role: Member User).\n5. User can toggle between multiple joined institutions via a dropdown menu.",
+        "screens": [
+          "University Search Screen: Search bar with filters for institution type/location.",
+          "Network Membership Request Screen: Displays institution details and 'Join' button.",
+          "Verification Screen: Prompts for university email or document upload (if required).",
+          "Network Confirmation Screen: Notifies user of successful membership approval."
+        ]
+      },
+      {
+        "featureName": "Peer connection and messaging for academic collaboration",
+        "flow": "1. User searches for peers by name, discipline tags, or courses (Role: Registered User).\n2. User views peer profiles to see shared interests, courses, or publications (Role: Registered User).\n3. User sends a connection request with a custom message (Role: Initiator).\n4. Recipient accepts/declines the request (Role: Recipient).\n5. Upon acceptance, users can exchange messages, share resources, or start collaborative projects via the messaging interface.",
+        "screens": [
+          "Peer Search Screen: Filters for academic interests, courses, and institutions.",
+          "Profile View Screen: Detailed view of a peer’s academic background and shared tags.",
+          "Connection Request Screen: Modal to compose and send a connection message.",
+          "Messaging Inbox Screen: List of active conversations and message threads.",
+          "Chat Screen: Interface for real-time messaging and file/resource sharing."
+        ]
+      },
+      {
+        "featureName": "Role-based access (student, researcher, educator)",
+        "flow": "1. System assigns permissions during registration based on selected role (Role: Unregistered User).\n2. Students access course reviews, resource sharing, and peer messaging (Role: Student).\n3. Researchers/educators access research collaboration tools, publication uploads, and analytics (Role: Researcher/Educator).\n4. Admins manage content moderation and institutional networks (Role: Admin).\n5. Users attempting restricted actions (e.g., educator-only tools) see an access-denied prompt.",
+        "screens": [
+          "Role Selection Screen: Initial role choice during registration (reused from profile creation).",
+          "Dashboard Screen: Customized homepage based on role (e.g., course feeds for students, research tools for educators).",
+          "Access Denied Screen: Warning message with options to request elevated permissions."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Resource Sharing and Collaboration",
+    "features": [
+      {
+        "featureName": "Upload/download educational resources (e.g., Algebra A1 notes, Report Writing templates)",
+        "flow": "1. User (student/researcher) navigates to the 'Upload Resource' section from the dashboard. 2. User selects a file from their device and adds metadata (title, subject, description, tags). 3. User sets access permissions (public, institution-only, or private). 4. Resource is uploaded and added to the platform's database. 5. Other users discover the resource via search/filters, click to view details, and download it. Roles: Student, Researcher, Educator.",
+        "screens": [
+          "Dashboard: Entry point with navigation to upload/download features.",
+          "Upload Form: Interface for selecting files, adding metadata, and setting permissions.",
+          "Resource Details Screen: Displays title, description, ratings, and download button.",
+          "Search/Filter Screen: Allows filtering by subject, file type, or popularity.",
+          "Download Confirmation: Pop-up confirming successful download."
+        ]
+      },
+      {
+        "featureName": "Subject-specific resource categorization and search",
+        "flow": "1. User selects a subject (e.g., Algebra A1) from the platform's subject directory. 2. User applies filters (e.g., file type, date, rating) to narrow results. 3. System displays resources in a grid/list view. 4. User clicks a resource to view details or download. Roles: Student, Researcher.",
+        "screens": [
+          "Subject Directory: Lists all available academic subjects/courses.",
+          "Filter Panel: Options to refine search results by criteria.",
+          "Resource Grid/List View: Thumbnails or summaries of resources.",
+          "Advanced Search Bar: Allows keyword-based queries with auto-suggestions."
+        ]
+      },
+      {
+        "featureName": "Collaborative workspaces for group projects or research",
+        "flow": "1. User creates a workspace, invites collaborators via email or platform handles. 2. Members join and contribute via shared documents, chat, or task boards. 3. Users upload drafts, assign tasks, and track progress. 4. Final output is published to the workspace or exported. Roles: Student, Researcher, Educator.",
+        "screens": [
+          "Workspace Dashboard: Overview of active projects, members, and deadlines.",
+          "Workspace Creation Form: Sets name, description, and access rules.",
+          "Collaboration Interface: Combines document editing, chat, and task management.",
+          "Invite Management: Screen to add/remove members or adjust permissions."
+        ]
+      },
+      {
+        "featureName": "Teaching methodology and research findings sharing tools",
+        "flow": "1. Educator/researcher creates a post detailing a methodology or finding. 2. User attaches supporting files (PDFs, datasets) and tags relevant subjects. 3. Post is published to a public forum or institution-specific feed. 4. Peers comment, ask questions, or cite the work. Roles: Educator, Researcher.",
+        "screens": [
+          "Methodology Sharing Hub: Central feed for browsing/creating posts.",
+          "Post Creation Form: Fields for title, content, attachments, and tags.",
+          "Post Detail Screen: Displays full content, comments, and citation options.",
+          "Institution Feed: Curated posts visible to users within the same university."
+        ]
+      },
+      {
+        "featureName": "Resource contribution and peer review system",
+        "flow": "1. User submits a resource for peer review via the contribution form. 2. Assigned reviewers (educators/experienced peers) evaluate quality and relevance. 3. Reviewers provide feedback or request revisions. 4. Approved resources are published with a 'Peer-Reviewed' badge. Roles: Student, Educator, Researcher.",
+        "screens": [
+          "Contribution Submission Form: Uploads resource and metadata for review.",
+          "Peer Review Dashboard: Lists pending reviews with status indicators.",
+          "Review Feedback Interface: Form for scoring, comments, and recommendations.",
+          "Approval Notification: In-app alert or email confirming publication."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Course and Instructor Evaluation",
+    "features": [
+      {
+        "featureName": "Course rating and review system (student feedback)",
+        "flow": "1. Student navigates to the course page. 2. Student selects a star rating (1-5). 3. Student writes a text review. 4. Student submits the review. 5. System validates and saves the review. 6. Confirmation message displayed. [Roles: Student]",
+        "screens": [
+          "Course Detail Screen: Displays course information, existing reviews, and a 'Rate This Course' button.",
+          "Rating Input Screen: Allows selection of star rating and optional review text.",
+          "Review Composition Screen: Text editor for writing detailed feedback.",
+          "Review Confirmation Screen: Shows success message and returns to course page."
+        ]
+      },
+      {
+        "featureName": "Instructor evaluation with qualitative and quantitative metrics",
+        "flow": "1. Student accesses instructor profile. 2. Selects 'Evaluate Instructor'. 3. Rates quantitative metrics (e.g., clarity, availability). 4. Provides qualitative feedback via open-ended questions. 5. Submits evaluation. 6. System aggregates data. [Roles: Student]",
+        "screens": [
+          "Instructor Profile Screen: Includes evaluation history and 'Evaluate' button.",
+          "Quantitative Evaluation Screen: Sliders or scales for predefined metrics.",
+          "Qualitative Feedback Screen: Open-response fields for detailed comments.",
+          "Evaluation Confirmation Screen: Summarizes submitted evaluation."
+        ]
+      },
+      {
+        "featureName": "Aggregated rating summaries for courses/instructors",
+        "flow": "1. User navigates to course/instructor page. 2. Views overall rating and breakdown. 3. Filters reviews by date/metric. 4. Exports summary (optional). [Roles: Student, Educator]",
+        "screens": [
+          "Summary Dashboard: Visual charts (histograms, trend graphs) of aggregated ratings.",
+          "Filter Panel: Date range, rating type, and demographic filters.",
+          "Detailed Breakdown Screen: Comparative analysis against department/institution averages.",
+          "Export Screen: Options to download summary as PDF/CSV."
+        ]
+      },
+      {
+        "featureName": "Filter courses by ratings, academic interests, or career relevance",
+        "flow": "1. Student enters course catalog. 2. Applies filters (min rating, interest tags, career paths). 3. Views filtered results. 4. Adjusts filters iteratively. [Roles: Student]",
+        "screens": [
+          "Course Catalog Screen: Search bar with advanced filter toggle.",
+          "Filter Configuration Screen: Sliders for ratings, tag selectors for interests/careers.",
+          "Filtered Results Screen: Grid/list of courses matching criteria with sort options.",
+          "Quick Preview Screen: Pop-up with key details of a course without leaving the list."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Recommendation System",
+    "features": [
+      {
+        "featureName": "Personalized course recommendations based on academic goals",
+        "flow": "1. Student logs into SSN. 2. System analyzes user's academic interests, enrolled courses, and past ratings. 3. Student navigates to 'Recommended Courses' section. 4. Student filters recommendations by discipline, difficulty, or ratings. 5. Student selects a course to view details. 6. Student enrolls in the course or saves it for later.",
+        "screens": [
+          "Dashboard Screen: Displays recommended courses in a swipeable card format with brief summaries.",
+          "Course Preferences Screen: Allows users to update academic goals or preferences influencing recommendations.",
+          "Course Details Screen: Provides syllabus, instructor ratings, peer reviews, and enrollment options.",
+          "Enrollment Confirmation Screen: Confirms course enrollment and suggests related resources."
+        ]
+      },
+      {
+        "featureName": "Peer/researcher collaborator matching",
+        "flow": "1. User (student/researcher) updates their profile with research interests or skills. 2. System matches users based on overlapping disciplines, project history, or publication keywords. 3. User navigates to 'Collaboration Hub'. 4. User reviews suggested collaborators and sends connection requests. 5. Recipient accepts/declines request, initiating a chat.",
+        "screens": [
+          "Collaboration Preferences Screen: Users define collaboration goals, expertise areas, and availability.",
+          "Matching List Screen: Displays collaborator profiles with compatibility scores and shared interests.",
+          "Collaborator Profile Screen: Shows detailed bio, past projects, and mutual connections.",
+          "Collaboration Chat Screen: Secure messaging interface for discussing joint projects."
+        ]
+      },
+      {
+        "featureName": "Resource suggestions aligned with user’s disciplines",
+        "flow": "1. System tracks user’s enrolled courses, downloaded resources, and search history. 2. User visits 'Resources' section. 3. System displays prioritized resources (e.g., papers, textbooks, tutorials). 4. User filters by type (e.g., video, PDF) or relevance. 5. User downloads or bookmarks resources.",
+        "screens": [
+          "Resource Dashboard Screen: Grid/list view of suggested resources with tags (e.g., 'Algebra A1', 'Advanced').",
+          "Resource Details Screen: Displays summary, author details, user ratings, and download options.",
+          "Feedback Screen: Allows users to rate the usefulness of suggested resources.",
+          "Bookmark Manager Screen: Organizes saved resources into custom folders."
+        ]
+      },
+      {
+        "featureName": "Career-aspiration-aligned academic pathway guidance",
+        "flow": "1. Student completes a career-goal questionnaire (e.g., desired industry, skills to develop). 2. System generates a pathway with recommended courses, certifications, and extracurricular activities. 3. Student views pathway timeline and adjusts preferences. 4. Student shares pathway with mentors for feedback.",
+        "screens": [
+          "Career Goals Input Screen: Multi-step form to capture career aspirations and skill gaps.",
+          "Academic Pathway Screen: Interactive timeline with milestones and linked courses/resources.",
+          "Course Suggestion Pop-up: Recommends courses to fill skill gaps when editing the pathway.",
+          "Pathway Export Screen: Allows exporting the pathway as a PDF or sharing via SSN messaging."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Institutional Networks Management",
+    "features": [
+      {
+        "featureName": "University-specific content and interaction hubs",
+        "flow": "1. User (Student/Researcher) selects their affiliated university during onboarding. 2. User navigates to their university hub via a dashboard. 3. User views institution-specific resources, courses, and discussions. 4. User posts questions/resources to the hub. 5. Peers or educators respond/interact with the content. 6. Hub updates dynamically based on user activity and admin moderation.",
+        "screens": [
+          "University Selection Screen: Dropdown/list of universities for onboarding.",
+          "Hub Homepage: Displays university-specific announcements, trending posts, and quick access to courses.",
+          "Resource/Post Creation Screen: Form to share study materials or start discussions.",
+          "Hub Feed Screen: Scrollable list of posts, comments, and resources with filtering by subject/tags."
+        ]
+      },
+      {
+        "featureName": "Admin tools for universities to moderate network content",
+        "flow": "1. Admin logs into the admin portal with elevated privileges. 2. Accesses moderation dashboard. 3. Reviews flagged posts, resources, or user reports. 4. Approves/removes content or suspends users. 5. Updates hub guidelines or pinned announcements. 6. Monitors analytics for hub engagement and violations.",
+        "screens": [
+          "Admin Login Screen: Secure authentication for university admins.",
+          "Moderation Dashboard: Overview of flagged content, user reports, and moderation history.",
+          "Content Review Screen: Detailed view of flagged post/resource with options to delete, warn, or ignore.",
+          "Analytics Screen: Graphs showing content trends, violations, and user activity metrics."
+        ]
+      },
+      {
+        "featureName": "Multi-university membership for cross-institutional collaboration",
+        "flow": "1. User navigates to profile settings. 2. Selects 'Manage Memberships' to request access to another university's hub. 3. Submits proof of affiliation (e.g., institutional email). 4. Admins of the target university review and approve/deny the request. 5. Upon approval, user gains access to the additional hub. 6. User switches between hubs via a dropdown in the dashboard.",
+        "screens": [
+          "Membership Management Screen: Lists current/requested memberships with 'Join New Hub' button.",
+          "Affiliation Verification Screen: Form to upload proof or enter institutional email for validation.",
+          "Membership Approval Screen (Admin): List of pending requests with approve/deny actions.",
+          "Hub Switch Screen: Dropdown to toggle between active university hubs."
+        ]
+      },
+      {
+        "featureName": "Scalable structure for future high school/elementary school integration",
+        "flow": "1. Super Admin logs into the platform's master admin panel. 2. Navigates to 'Institution Management' to add a new school tier (e.g., high school). 3. Configures permissions, content categories, and moderation rules for the tier. 4. Assigns school-specific admins. 5. New schools onboard using a templated setup process. 6. Existing users with valid credentials (e.g., parent/student IDs) join the new school hubs.",
+        "screens": [
+          "Master Admin Panel: Centralized control for platform-wide settings and school tiers.",
+          "Institution Tier Setup Screen: Define school levels (e.g., elementary) with custom attributes.",
+          "School Onboarding Template: Pre-configured hub structure, course categories, and roles.",
+          "Role Assignment Screen: Assign admins/managers to newly added schools."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Academic Collaboration Tools",
+    "features": [
+      {
+        "featureName": "Research project collaboration spaces",
+        "flow": "1. Researcher/Educator creates a project space (role: Researcher/Educator). 2. Invites collaborators via email or in-app search (role: Researcher/Educator). 3. Collaborators accept invitations (role: Student/Researcher). 4. Team members share resources, assign tasks, and track milestones within the space (role: All). 5. Real-time updates and notifications for project activities (role: All). 6. Final project submission/export (role: Researcher/Educator).",
+        "screens": [
+          "Project Dashboard: Central hub for project details, tasks, and resources.",
+          "Create Project Screen: Form for title, description, goals, and privacy settings.",
+          "Invite Collaborators Screen: Search/select users + send invitations.",
+          "Resource Repository: File upload/download section with version control.",
+          "Task Management Screen: Assign deadlines, track progress, and add comments."
+        ]
+      },
+      {
+        "featureName": "Student collaborator search based on skills/interests",
+        "flow": "1. User navigates to collaborator search (role: Student/Researcher). 2. Filters by skills (e.g., Algebra A1), interests, or courses (role: Student/Researcher). 3. Views profiles with skill tags and past project ratings (role: Student/Researcher). 4. Sends collaboration request with a message (role: Student/Researcher). 5. Recipient accepts/declines request (role: Student/Researcher). 6. Connected users access shared collaboration tools (role: All).",
+        "screens": [
+          "Search Filters Screen: Customize filters for skills, interests, and institutions.",
+          "Search Results Screen: Grid/list of profiles matching criteria.",
+          "User Profile Screen: Detailed bio, skills, portfolio, and ratings.",
+          "Collaboration Request Screen: Compose and send invitation message."
+        ]
+      },
+      {
+        "featureName": "Discussion forums for academic topics (e.g., scientific/artistic disciplines)",
+        "flow": "1. User selects a forum category (e.g., 'Scientific Disciplines') (role: All). 2. Browses threads or uses search bar for specific topics (role: All). 3. Creates a new thread with a question/resource (role: All). 4. Others reply with insights, links, or files (role: All). 5. Threads are tagged and moderated for relevance (role: Moderator). 6. Users upvote/downvote contributions (role: All).",
+        "screens": [
+          "Forum Categories Screen: List of academic disciplines/subjects.",
+          "Topic Threads Screen: Thread titles, authors, and engagement metrics.",
+          "Thread Detail Screen: Full discussion with nested replies and attachments.",
+          "Create New Post Screen: Compose thread title, body, and add tags/files."
+        ]
+      },
+      {
+        "featureName": "Open calls for research participation or teaching innovation",
+        "flow": "1. Researcher/Educator posts a call with details (role: Researcher/Educator). 2. Call is published in a public board with filters (role: System). 3. Students/Researchers browse or search for calls (role: Student/Researcher). 4. Applicants submit interest forms or documents (role: Student/Researcher). 5. Poster reviews submissions and selects participants (role: Researcher/Educator). 6. Notifications sent to accepted/rejected applicants (role: System).",
+        "screens": [
+          "Open Calls List Screen: Grid of active calls with deadlines.",
+          "Create Call Screen: Form for title, description, requirements, and deadlines.",
+          "Call Details Screen: Full call description + application button.",
+          "Application Submission Screen: Upload documents/answer questions."
+        ]
+      }
+    ]
+  }
+]

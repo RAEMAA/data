@@ -1,0 +1,83 @@
+[
+    {
+        "category": "User Accounts & Profiles",
+        "list_feature": [
+            "User Registration",
+            "User Profiles (Students, Researchers, Teachers)",
+            "Profile Customization",
+            "Account Management"
+        ]
+    },
+    {
+        "category": "Resource Sharing",
+        "list_feature": [
+            "Document Upload (Learning Materials, Research Papers)",
+            "Resource Categorization (by Subject, Course, etc.)",
+            "Resource Search & Filtering",
+            "Resource Download",
+            "Resource Preview"
+        ]
+    },
+    {
+        "category": "Course & Teacher Reviews",
+        "list_feature": [
+            "Course Review Submission",
+            "Teacher Review Submission",
+            "Review Display",
+            "Review Moderation",
+            "Rating System (for Courses & Teachers)"
+        ]
+    },
+    {
+        "category": "Recommendations",
+        "list_feature": [
+            "Recommendation Submission",
+            "Recommendation Display",
+            "Recommendation Categorization"
+        ]
+    },
+    {
+        "category": "Networking & Collaboration",
+        "list_feature": [
+            "User Search",
+            "Direct Messaging",
+            "Group/Community Creation (within University Networks)",
+            "Forum/Discussion Boards"
+        ]
+    },
+    {
+        "category": "University Network",
+        "list_feature": [
+            "University-Specific Networks",
+            "University Affiliation (during registration)",
+            "Content Filtering by University"
+        ]
+    },
+    {
+        "category": "Search & Discovery",
+        "list_feature": [
+            "Global Search (across all resources and users)",
+            "Advanced Search Filters"
+        ]
+    },
+    {
+        "category": "Content Management",
+        "list_feature": [
+            "Content Moderation",
+            "Reporting Inappropriate Content"
+        ]
+    },
+    {
+        "category": "Notifications",
+        "list_feature": [
+            "Notifications for new resources, messages, reviews, etc."
+        ]
+    },
+    {
+        "category": "Future Expansion",
+        "list_feature": [
+            "Support for High Schools",
+            "Support for Elementary Schools"
+        ]
+    }
+]

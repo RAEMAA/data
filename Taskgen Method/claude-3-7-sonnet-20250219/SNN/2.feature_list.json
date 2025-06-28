@@ -1,0 +1,119 @@
+[
+  {
+    "category": "User Profiles",
+    "list_feature": [
+      "Profile creation with academic affiliations",
+      "CV/Resume builder",
+      "Research interests and expertise tags",
+      "Publication listings",
+      "Skills and endorsements",
+      "Academic achievements and credentials",
+      "Privacy controls and visibility settings",
+      "Profile verification for researchers and faculty"
+    ]
+  },
+  {
+    "category": "Networking",
+    "list_feature": [
+      "Connect with students and researchers",
+      "Follow researchers and institutions",
+      "Interest-based group creation and membership",
+      "Recommendation system for relevant connections",
+      "Cross-institution networking",
+      "Research collaboration requests",
+      "Mentorship matching",
+      "Directory search by field/discipline"
+    ]
+  },
+  {
+    "category": "Academic Material Sharing",
+    "list_feature": [
+      "Course notes repository",
+      "Study guide uploads and downloads",
+      "Research paper sharing",
+      "Literature review collections",
+      "Educational resource library",
+      "Citation and reference management",
+      "Version control for collaborative documents",
+      "Permission-based sharing options"
+    ]
+  },
+  {
+    "category": "Course Evaluation",
+    "list_feature": [
+      "Course rating system",
+      "Professor evaluation tools",
+      "Anonymous feedback submission",
+      "Course difficulty metrics",
+      "Workload assessment",
+      "Course recommendation engine",
+      "Historical grade distribution data",
+      "Comparative course analytics"
+    ]
+  },
+  {
+    "category": "Collaboration Tools",
+    "list_feature": [
+      "Project workspaces",
+      "Real-time document collaboration",
+      "Study group formation",
+      "Research team management",
+      "Task assignment and tracking",
+      "Meeting scheduler with video integration",
+      "Collaborative whiteboard",
+      "Cross-institutional project spaces"
+    ]
+  },
+  {
+    "category": "Communication",
+    "list_feature": [
+      "Direct messaging",
+      "Group chats for classes/research teams",
+      "Academic forum discussions",
+      "Q&A boards by subject",
+      "Announcement broadcasts for events",
+      "Comment threads on shared materials",
+      "Language translation for international collaboration",
+      "Audio/video call capabilities"
+    ]
+  },
+  {
+    "category": "Academic Events",
+    "list_feature": [
+      "Conference and seminar listings",
+      "Research presentation scheduling",
+      "Virtual conference hosting",
+      "Event registration and RSVP",
+      "Calendar integration",
+      "Academic competition announcements",
+      "Workshop organization tools",
+      "Event recommendation system"
+    ]
+  },
+  {
+    "category": "Research Support",
+    "list_feature": [
+      "Funding opportunity notifications",
+      "Grant application collaboration",
+      "Participant recruitment for studies",
+      "Research survey distribution",
+      "Data collection tools",
+      "Peer review request system",
+      "Research progress tracking",
+      "Ethics approval guidance"
+    ]
+  },
+  {
+    "category": "Academic Analytics",
+    "list_feature": [
+      "Citation metrics",
+      "Research impact visualization",
+      "Study time tracking",
+      "Grade performance analytics",
+      "Collaboration network mapping",
+      "Knowledge gap identification",
+      "Learning progress dashboards",
+      "Personalized study recommendations"
+    ]
+  }
+]

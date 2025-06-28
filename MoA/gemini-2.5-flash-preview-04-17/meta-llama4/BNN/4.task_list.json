@@ -1,0 +1,325 @@
+[
+  [
+    {
+      "id": "P1-T1",
+      "taskName": "Design Integration Architecture",
+      "correspondingPhase": "Integration and Order Management Setup",
+      "correspondingFeature": "Integrate business information across all locations",
+      "priority": "High",
+      "estimationTime": "3 days",
+      "startTime": "2024-07-01",
+      "endTime": "2024-07-03",
+      "dependencies": [],
+      "responsiblePerson": "John Doe"
+    },
+    {
+      "id": "P1-T2",
+      "taskName": "Implement Integration",
+      "correspondingPhase": "Integration and Order Management Setup",
+      "correspondingFeature": "Integrate business information across all locations",
+      "priority": "High",
+      "estimationTime": "5 days",
+      "startTime": "2024-07-04",
+      "endTime": "2024-07-09",
+      "dependencies": [
+        "P1-T1"
+      ],
+      "responsiblePerson": "Jane Smith"
+    },
+    {
+      "id": "P1-T3",
+      "taskName": "Test Integration",
+      "correspondingPhase": "Integration and Order Management Setup",
+      "correspondingFeature": "Integrate business information across all locations",
+      "priority": "High",
+      "estimationTime": "2 days",
+      "startTime": "2024-07-10",
+      "endTime": "2024-07-12",
+      "dependencies": [
+        "P1-T2"
+      ],
+      "responsiblePerson": "Bob Johnson"
+    },
+    {
+      "id": "P1-T4",
+      "taskName": "Design Order Management System",
+      "correspondingPhase": "Integration and Order Management Setup",
+      "correspondingFeature": "Streamline order taking",
+      "priority": "High",
+      "estimationTime": "2 days",
+      "startTime": "2024-07-13",
+      "endTime": "2024-07-15",
+      "dependencies": [],
+      "responsiblePerson": "Alice Brown"
+    },
+    {
+      "id": "P1-T5",
+      "taskName": "Implement Order Management",
+      "correspondingPhase": "Integration and Order Management Setup",
+      "correspondingFeature": "Streamline order taking",
+      "priority": "High",
+      "estimationTime": "5 days",
+      "startTime": "2024-07-16",
+      "endTime": "2024-07-22",
+      "dependencies": [
+        "P1-T4"
+      ],
+      "responsiblePerson": "Mike Davis"
+    },
+    {
+      "id": "P1-T6",
+      "taskName": "Test Order Management",
+      "correspondingPhase": "Integration and Order Management Setup",
+      "correspondingFeature": "Streamline order taking",
+      "priority": "High",
+      "estimationTime": "2 days",
+      "startTime": "2024-07-23",
+      "endTime": "2024-07-25",
+      "dependencies": [
+        "P1-T5"
+      ],
+      "responsiblePerson": "Emily Taylor"
+    },
+    {
+      "id": "P1-T7",
+      "taskName": "Deploy and Verify System",
+      "correspondingPhase": "Integration and Order Management Setup",
+      "correspondingFeature": "",
+      "priority": "High",
+      "estimationTime": "3 days",
+      "startTime": "2024-07-26",
+      "endTime": "2024-07-28",
+      "dependencies": [
+        "P1-T3",
+        "P1-T6"
+      ],
+      "responsiblePerson": "John Doe"
+    }
+  ],
+  [
+    {
+      "id": "P2-T1",
+      "taskName": "Design Task Management Interface",
+      "correspondingPhase": "Task and Billing Management",
+      "correspondingFeature": "Easy task performance",
+      "priority": "High",
+      "estimationTime": "3 days",
+      "startTime": "2024-07-29",
+      "endTime": "2024-08-01",
+      "dependencies": [
+        "P1-T2"
+      ],
+      "responsiblePerson": "UI Designer"
+    },
+    {
+      "id": "P2-T2",
+      "taskName": "Implement Task Management System",
+      "correspondingPhase": "Task and Billing Management",
+      "correspondingFeature": "Easy task performance",
+      "priority": "High",
+      "estimationTime": "5 days",
+      "startTime": "2024-08-02",
+      "endTime": "2024-08-08",
+      "dependencies": [
+        "P2-T1"
+      ],
+      "responsiblePerson": "Backend Developer"
+    },
+    {
+      "id": "P2-T3",
+      "taskName": "Test Task Management System",
+      "correspondingPhase": "Task and Billing Management",
+      "correspondingFeature": "Easy task performance",
+      "priority": "Medium",
+      "estimationTime": "2 days",
+      "startTime": "2024-08-09",
+      "endTime": "2024-08-11",
+      "dependencies": [
+        "P2-T2"
+      ],
+      "responsiblePerson": "QA Engineer"
+    },
+    {
+      "id": "P2-T4",
+      "taskName": "Design Minimized Movement Feature",
+      "correspondingPhase": "Task and Billing Management",
+      "correspondingFeature": "Minimized movement for staff",
+      "priority": "Medium",
+      "estimationTime": "2 days",
+      "startTime": "2024-08-12",
+      "endTime": "2024-08-14",
+      "dependencies": [
+        "P2-T1"
+      ],
+      "responsiblePerson": "UI Designer"
+    },
+    {
+      "id": "P2-T5",
+      "taskName": "Implement Minimized Movement Feature",
+      "correspondingPhase": "Task and Billing Management",
+      "correspondingFeature": "Minimized movement for staff",
+      "priority": "Medium",
+      "estimationTime": "4 days",
+      "startTime": "2024-08-15",
+      "endTime": "2024-08-19",
+      "dependencies": [
+        "P2-T4"
+      ],
+      "responsiblePerson": "Backend Developer"
+    },
+    {
+      "id": "P2-T6",
+      "taskName": "Test Minimized Movement Feature",
+      "correspondingPhase": "Task and Billing Management",
+      "correspondingFeature": "Minimized movement for staff",
+      "priority": "Low",
+      "estimationTime": "1 day",
+      "startTime": "2024-08-20",
+      "endTime": "2024-08-21",
+      "dependencies": [
+        "P2-T5"
+      ],
+      "responsiblePerson": "QA Engineer"
+    },
+    {
+      "id": "P2-T7",
+      "taskName": "Design Automated Billing System",
+      "correspondingPhase": "Task and Billing Management",
+      "correspondingFeature": "Automate billing",
+      "priority": "High",
+      "estimationTime": "3 days",
+      "startTime": "2024-08-22",
+      "endTime": "2024-08-25",
+      "dependencies": [
+        "P2-T2"
+      ],
+      "responsiblePerson": "UI Designer"
+    },
+    {
+      "id": "P2-T8",
+      "taskName": "Implement Automated Billing System",
+      "correspondingPhase": "Task and Billing Management",
+      "correspondingFeature": "Automate billing",
+      "priority": "High",
+      "estimationTime": "5 days",
+      "startTime": "2024-08-26",
+      "endTime": "2024-08-30",
+      "dependencies": [
+        "P2-T7"
+      ],
+      "responsiblePerson": "Backend Developer"
+    },
+    {
+      "id": "P2-T9",
+      "taskName": "Test Automated Billing System",
+      "correspondingPhase": "Task and Billing Management",
+      "correspondingFeature": "Automate billing",
+      "priority": "Medium",
+      "estimationTime": "2 days",
+      "startTime": "2024-08-31",
+      "endTime": "2024-09-02",
+      "dependencies": [
+        "P2-T8"
+      ],
+      "responsiblePerson": "QA Engineer"
+    },
+    {
+      "id": "P2-T10",
+      "taskName": "Integrate Task and Billing Management",
+      "correspondingPhase": "Task and Billing Management",
+      "correspondingFeature": "",
+      "priority": "High",
+      "estimationTime": "4 days",
+      "startTime": "2024-09-03",
+      "endTime": "2024-09-08",
+      "dependencies": [
+        "P2-T3",
+        "P2-T6",
+        "P2-T9"
+      ],
+      "responsiblePerson": "Backend Developer"
+    }
+  ],
+  [
+    {
+      "id": "P3-T1",
+      "taskName": "Design report layout for individual branch revenue",
+      "correspondingPhase": "Reporting and Analytics",
+      "correspondingFeature": "Generate revenue reports for individual branches",
+      "priority": "High",
+      "estimationTime": "2 days",
+      "startTime": "2024-09-09",
+      "endTime": "2024-09-11",
+      "dependencies": [],
+      "responsiblePerson": "John Doe"
+    },
+    {
+      "id": "P3-T2",
+      "taskName": "Implement report generation for individual branch revenue",
+      "correspondingPhase": "Reporting and Analytics",
+      "correspondingFeature": "Generate revenue reports for individual branches",
+      "priority": "High",
+      "estimationTime": "3 days",
+      "startTime": "2024-09-12",
+      "endTime": "2024-09-15",
+      "dependencies": [
+        "P3-T1"
+      ],
+      "responsiblePerson": "Jane Smith"
+    },
+    {
+      "id": "P3-T3",
+      "taskName": "Test report generation for individual branch revenue",
+      "correspondingPhase": "Reporting and Analytics",
+      "correspondingFeature": "Generate revenue reports for individual branches",
+      "priority": "Medium",
+      "estimationTime": "1 day",
+      "startTime": "2024-09-16",
+      "endTime": "2024-09-17",
+      "dependencies": [
+        "P3-T2"
+      ],
+      "responsiblePerson": "Bob Johnson"
+    },
+    {
+      "id": "P3-T4",
+      "taskName": "Design report layout for entire chain revenue",
+      "correspondingPhase": "Reporting and Analytics",
+      "correspondingFeature": "Generate revenue reports for the entire chain",
+      "priority": "High",
+      "estimationTime": "2 days",
+      "startTime": "2024-09-18",
+      "endTime": "2024-09-20",
+      "dependencies": [],
+      "responsiblePerson": "John Doe"
+    },
+    {
+      "id": "P3-T5",
+      "taskName": "Implement report generation for entire chain revenue",
+      "correspondingPhase": "Reporting and Analytics",
+      "correspondingFeature": "Generate revenue reports for the entire chain",
+      "priority": "High",
+      "estimationTime": "3 days",
+      "startTime": "2024-09-21",
+      "endTime": "2024-09-24",
+      "dependencies": [
+        "P3-T4"
+      ],
+      "responsiblePerson": "Jane Smith"
+    },
+    {
+      "id": "P3-T6",
+      "taskName": "Test report generation for entire chain revenue",
+      "correspondingPhase": "Reporting and Analytics",
+      "correspondingFeature": "Generate revenue reports for the entire chain",
+      "priority": "Medium",
+      "estimationTime": "1 day",
+      "startTime": "2024-09-25",
+      "endTime": "2024-09-26",
+      "dependencies": [
+        "P3-T5"
+      ],
+      "responsiblePerson": "Bob Johnson"
+    }
+  ]
+]

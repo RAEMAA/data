@@ -1,0 +1,368 @@
+[
+  [
+    {
+      "id": "P1-T1",
+      "taskName": "Design User Profile Interface",
+      "correspondingPhase": "User Profile Development",
+      "correspondingFeature": "User Profile",
+      "priority": "High",
+      "estimationTime": "2 days",
+      "startTime": "2024-09-16",
+      "endTime": "2024-09-17",
+      "dependencies": [],
+      "responsiblePerson": "John Doe"
+    },
+    {
+      "id": "P1-T2",
+      "taskName": "Implement User Profile Backend",
+      "correspondingPhase": "User Profile Development",
+      "correspondingFeature": "User Profile",
+      "priority": "High",
+      "estimationTime": "3 days",
+      "startTime": "2024-09-17",
+      "endTime": "2024-09-19",
+      "dependencies": [
+        "P1-T1"
+      ],
+      "responsiblePerson": "Jane Smith"
+    },
+    {
+      "id": "P1-T3",
+      "taskName": "Develop User ID Feature",
+      "correspondingPhase": "User Profile Development",
+      "correspondingFeature": "user_id",
+      "priority": "High",
+      "estimationTime": "1 day",
+      "startTime": "2024-09-16",
+      "endTime": "2024-09-16",
+      "dependencies": [],
+      "responsiblePerson": "John Doe"
+    },
+    {
+      "id": "P1-T4",
+      "taskName": "Develop Username Feature",
+      "correspondingPhase": "User Profile Development",
+      "correspondingFeature": "username",
+      "priority": "High",
+      "estimationTime": "1 day",
+      "startTime": "2024-09-16",
+      "endTime": "2024-09-16",
+      "dependencies": [],
+      "responsiblePerson": "John Doe"
+    },
+    {
+      "id": "P1-T5",
+      "taskName": "Develop Profile Picture Feature",
+      "correspondingPhase": "User Profile Development",
+      "correspondingFeature": "profile_picture",
+      "priority": "High",
+      "estimationTime": "1 day",
+      "startTime": "2024-09-17",
+      "endTime": "2024-09-17",
+      "dependencies": [],
+      "responsiblePerson": "Jane Smith"
+    },
+    {
+      "id": "P1-T6",
+      "taskName": "Develop Bio Feature",
+      "correspondingPhase": "User Profile Development",
+      "correspondingFeature": "bio",
+      "priority": "Medium",
+      "estimationTime": "1 day",
+      "startTime": "2024-09-17",
+      "endTime": "2024-09-17",
+      "dependencies": [],
+      "responsiblePerson": "Jane Smith"
+    },
+    {
+      "id": "P1-T7",
+      "taskName": "Develop Join Date Feature",
+      "correspondingPhase": "User Profile Development",
+      "correspondingFeature": "join_date",
+      "priority": "Medium",
+      "estimationTime": "1 day",
+      "startTime": "2024-09-18",
+      "endTime": "2024-09-18",
+      "dependencies": [],
+      "responsiblePerson": "John Doe"
+    },
+    {
+      "id": "P1-T8",
+      "taskName": "Develop Privacy Settings Feature",
+      "correspondingPhase": "User Profile Development",
+      "correspondingFeature": "privacy_settings",
+      "priority": "High",
+      "estimationTime": "2 days",
+      "startTime": "2024-09-18",
+      "endTime": "2024-09-19",
+      "dependencies": [],
+      "responsiblePerson": "Jane Smith"
+    },
+    {
+      "id": "P1-T9",
+      "taskName": "Test User Profile",
+      "correspondingPhase": "User Profile Development",
+      "correspondingFeature": "User Profile",
+      "priority": "High",
+      "estimationTime": "1 day",
+      "startTime": "2024-09-19",
+      "endTime": "2024-09-19",
+      "dependencies": [
+        "P1-T2"
+      ],
+      "responsiblePerson": "John Doe"
+    }
+  ],
+  [
+    {
+      "id": "P2-T1",
+      "taskName": "Design Content Sharing and Engagement UI",
+      "correspondingPhase": "Content Sharing and Engagement",
+      "correspondingFeature": "Content Sharing",
+      "priority": "High",
+      "estimationTime": "2 days",
+      "startTime": "2024-09-16",
+      "endTime": "2024-09-18",
+      "dependencies": [],
+      "responsiblePerson": "John Doe"
+    },
+    {
+      "id": "P2-T2",
+      "taskName": "Implement Post Creation Feature",
+      "correspondingPhase": "Content Sharing and Engagement",
+      "correspondingFeature": "post_id",
+      "priority": "High",
+      "estimationTime": "3 days",
+      "startTime": "2024-09-18",
+      "endTime": "2024-09-21",
+      "dependencies": [
+        "P2-T1"
+      ],
+      "responsiblePerson": "Jane Smith"
+    },
+    {
+      "id": "P2-T3",
+      "taskName": "Implement User Engagement Features (Likes, Comments, Shares, Views)",
+      "correspondingPhase": "Content Sharing and Engagement",
+      "correspondingFeature": "Engagement",
+      "priority": "High",
+      "estimationTime": "4 days",
+      "startTime": "2024-09-18",
+      "endTime": "2024-09-22",
+      "dependencies": [
+        "P2-T2"
+      ],
+      "responsiblePerson": "Bob Johnson"
+    },
+    {
+      "id": "P2-T4",
+      "taskName": "Test Content Sharing and Engagement Features",
+      "correspondingPhase": "Content Sharing and Engagement",
+      "correspondingFeature": "Content Sharing",
+      "priority": "High",
+      "estimationTime": "2 days",
+      "startTime": "2024-09-20",
+      "endTime": "2024-09-22",
+      "dependencies": [
+        "P2-T3"
+      ],
+      "responsiblePerson": "Alice Brown"
+    },
+    {
+      "id": "P2-T5",
+      "taskName": "Implement Content Type Feature",
+      "correspondingPhase": "Content Sharing and Engagement",
+      "correspondingFeature": "content_type",
+      "priority": "Medium",
+      "estimationTime": "1 day",
+      "startTime": "2024-09-19",
+      "endTime": "2024-09-20",
+      "dependencies": [
+        "P2-T2"
+      ],
+      "responsiblePerson": "Mike Davis"
+    },
+    {
+      "id": "P2-T6",
+      "taskName": "Implement Timestamps for Content (created_at, updated_at)",
+      "correspondingPhase": "Content Sharing and Engagement",
+      "correspondingFeature": "created_at",
+      "priority": "Medium",
+      "estimationTime": "1 day",
+      "startTime": "2024-09-19",
+      "endTime": "2024-09-20",
+      "dependencies": [
+        "P2-T2"
+      ],
+      "responsiblePerson": "Emily Taylor"
+    },
+    {
+      "id": "P2-T7",
+      "taskName": "Implement Visibility Feature",
+      "correspondingPhase": "Content Sharing and Engagement",
+      "correspondingFeature": "visibility",
+      "priority": "Medium",
+      "estimationTime": "1 day",
+      "startTime": "2024-09-20",
+      "endTime": "2024-09-21",
+      "dependencies": [
+        "P2-T5"
+      ],
+      "responsiblePerson": "Kevin White"
+    }
+  ],
+  [
+    {
+      "id": "P3-T1",
+      "taskName": "Design User Connection and Aspiration Tracking Features",
+      "correspondingPhase": "User Connection and Aspiration Tracking",
+      "correspondingFeature": "followers, following, friendships, connection_requests",
+      "priority": "High",
+      "estimationTime": "2 days",
+      "startTime": "2024-09-16",
+      "endTime": "2024-09-18",
+      "dependencies": [],
+      "responsiblePerson": "John Doe"
+    },
+    {
+      "id": "P3-T2",
+      "taskName": "Implement User Connection Features",
+      "correspondingPhase": "User Connection and Aspiration Tracking",
+      "correspondingFeature": "followers, following, friendships, connection_requests",
+      "priority": "High",
+      "estimationTime": "3 days",
+      "startTime": "2024-09-18",
+      "endTime": "2024-09-21",
+      "dependencies": [
+        "P3-T1"
+      ],
+      "responsiblePerson": "Jane Smith"
+    },
+    {
+      "id": "P3-T3",
+      "taskName": "Design Aspiration Tracking Features",
+      "correspondingPhase": "User Connection and Aspiration Tracking",
+      "correspondingFeature": "aspiration_id, user_id, description, progress_status, achievement_status, creation_date, last_updated",
+      "priority": "High",
+      "estimationTime": "1 day",
+      "startTime": "2024-09-16",
+      "endTime": "2024-09-17",
+      "dependencies": [],
+      "responsiblePerson": "John Doe"
+    },
+    {
+      "id": "P3-T4",
+      "taskName": "Implement Aspiration Tracking Features",
+      "correspondingPhase": "User Connection and Aspiration Tracking",
+      "correspondingFeature": "aspiration_id, user_id, description, progress_status, achievement_status, creation_date, last_updated",
+      "priority": "High",
+      "estimationTime": "2 days",
+      "startTime": "2024-09-17",
+      "endTime": "2024-09-19",
+      "dependencies": [
+        "P3-T3"
+      ],
+      "responsiblePerson": "Jane Smith"
+    },
+    {
+      "id": "P3-T5",
+      "taskName": "Test User Connection Features",
+      "correspondingPhase": "User Connection and Aspiration Tracking",
+      "correspondingFeature": "followers, following, friendships, connection_requests",
+      "priority": "High",
+      "estimationTime": "1 day",
+      "startTime": "2024-09-20",
+      "endTime": "2024-09-21",
+      "dependencies": [
+        "P3-T2"
+      ],
+      "responsiblePerson": "Bob Johnson"
+    },
+    {
+      "id": "P3-T6",
+      "taskName": "Test Aspiration Tracking Features",
+      "correspondingPhase": "User Connection and Aspiration Tracking",
+      "correspondingFeature": "aspiration_id, user_id, description, progress_status, achievement_status, creation_date, last_updated",
+      "priority": "High",
+      "estimationTime": "1 day",
+      "startTime": "2024-09-21",
+      "endTime": "2024-09-22",
+      "dependencies": [
+        "P3-T4"
+      ],
+      "responsiblePerson": "Bob Johnson"
+    }
+  ],
+  [
+    {
+      "id": "P4-T1",
+      "taskName": "Design Content Analysis and Feedback Mechanism UI",
+      "correspondingPhase": "Content Analysis and Feedback Mechanism",
+      "correspondingFeature": "sentiment_analysis, topic_extraction, hashtag_extraction, feedback_id, post_id, user_id, feedback_text, rating, created_at",
+      "priority": "High",
+      "estimationTime": "2 days",
+      "startTime": "2024-09-19",
+      "endTime": "2024-09-20",
+      "dependencies": [],
+      "responsiblePerson": "John Doe"
+    },
+    {
+      "id": "P4-T2",
+      "taskName": "Implement Sentiment Analysis Feature",
+      "correspondingPhase": "Content Analysis and Feedback Mechanism",
+      "correspondingFeature": "sentiment_analysis",
+      "priority": "High",
+      "estimationTime": "3 days",
+      "startTime": "2024-09-20",
+      "endTime": "2024-09-22",
+      "dependencies": [
+        "P4-T1"
+      ],
+      "responsiblePerson": "Jane Smith"
+    },
+    {
+      "id": "P4-T3",
+      "taskName": "Implement Topic Extraction and Hashtag Extraction Features",
+      "correspondingPhase": "Content Analysis and Feedback Mechanism",
+      "correspondingFeature": "topic_extraction, hashtag_extraction",
+      "priority": "Medium",
+      "estimationTime": "2 days",
+      "startTime": "2024-09-22",
+      "endTime": "2024-09-23",
+      "dependencies": [
+        "P4-T2"
+      ],
+      "responsiblePerson": "Bob Johnson"
+    },
+    {
+      "id": "P4-T4",
+      "taskName": "Design and Implement Feedback Mechanism",
+      "correspondingPhase": "Content Analysis and Feedback Mechanism",
+      "correspondingFeature": "feedback_id, post_id, user_id, feedback_text, rating, created_at",
+      "priority": "High",
+      "estimationTime": "3 days",
+      "startTime": "2024-09-19",
+      "endTime": "2024-09-22",
+      "dependencies": [
+        "P4-T1"
+      ],
+      "responsiblePerson": "Maria Rodriguez"
+    },
+    {
+      "id": "P4-T5",
+      "taskName": "Test Content Analysis and Feedback Mechanism",
+      "correspondingPhase": "Content Analysis and Feedback Mechanism",
+      "correspondingFeature": "sentiment_analysis, topic_extraction, hashtag_extraction, feedback_id, post_id, user_id, feedback_text, rating, created_at",
+      "priority": "High",
+      "estimationTime": "2 days",
+      "startTime": "2024-09-23",
+      "endTime": "2024-09-25",
+      "dependencies": [
+        "P4-T2",
+        "P4-T3",
+        "P4-T4"
+      ],
+      "responsiblePerson": "David Lee"
+    }
+  ]
+]

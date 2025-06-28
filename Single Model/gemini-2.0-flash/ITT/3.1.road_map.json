@@ -1,0 +1,1307 @@
+[
+    [
+        {
+            "id": "P1-T1",
+            "taskName": "Design Homepage Layout and UI",
+            "correspondingPhase": "Phase 1: Homepage Development",
+            "correspondingFeature": "Company introduction, Spotlight on popular tour options, News and exclusive deals updates",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2023-10-26",
+            "endTime": "2023-10-31",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T2",
+            "taskName": "Develop Company Introduction Section",
+            "correspondingPhase": "Phase 1: Homepage Development",
+            "correspondingFeature": "Company introduction",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2023-11-01",
+            "endTime": "2023-11-03",
+            "dependencies": [
+                "P1-T1"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P1-T3",
+            "taskName": "Implement Spotlight on Popular Tour Options",
+            "correspondingPhase": "Phase 1: Homepage Development",
+            "correspondingFeature": "Spotlight on popular tour options",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2023-11-03",
+            "endTime": "2023-11-07",
+            "dependencies": [
+                "P1-T1"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P1-T4",
+            "taskName": "Develop News and Exclusive Deals Updates Section",
+            "correspondingPhase": "Phase 1: Homepage Development",
+            "correspondingFeature": "News and exclusive deals updates",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2023-11-07",
+            "endTime": "2023-11-11",
+            "dependencies": [
+                "P1-T1"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P1-T5",
+            "taskName": "Backend Integration for Homepage Content",
+            "correspondingPhase": "Phase 1: Homepage Development",
+            "correspondingFeature": "Company introduction, Spotlight on popular tour options, News and exclusive deals updates",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2023-11-13",
+            "endTime": "2023-11-17",
+            "dependencies": [
+                "P1-T2",
+                "P1-T3",
+                "P1-T4"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T6",
+            "taskName": "Testing and QA for Homepage Functionality",
+            "correspondingPhase": "Phase 1: Homepage Development",
+            "correspondingFeature": "Company introduction, Spotlight on popular tour options, News and exclusive deals updates",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2023-11-20",
+            "endTime": "2023-11-22",
+            "dependencies": [
+                "P1-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T7",
+            "taskName": "Homepage Deployment",
+            "correspondingPhase": "Phase 1: Homepage Development",
+            "correspondingFeature": "Company introduction, Spotlight on popular tour options, News and exclusive deals updates",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2023-11-23",
+            "endTime": "2023-11-23",
+            "dependencies": [
+                "P1-T6"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P2-T1",
+            "taskName": "Design Tour Category Structure and Navigation",
+            "correspondingPhase": "Phase 2: Tour Packages - Structure & Categorization",
+            "correspondingFeature": "Categorization of tours (Special Tours, Japan Tours, Asia Tours, Europe Tours, Australia Tours, America Tours)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2023-10-26",
+            "endTime": "2023-10-29",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T2",
+            "taskName": "Implement Tour Category Model in Database",
+            "correspondingPhase": "Phase 2: Tour Packages - Structure & Categorization",
+            "correspondingFeature": "Categorization of tours (Special Tours, Japan Tours, Asia Tours, Europe Tours, Australia Tours, America Tours)",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2023-10-29",
+            "endTime": "2023-11-02",
+            "dependencies": [],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T3",
+            "taskName": "Develop API Endpoints for Tour Categories",
+            "correspondingPhase": "Phase 2: Tour Packages - Structure & Categorization",
+            "correspondingFeature": "Categorization of tours (Special Tours, Japan Tours, Asia Tours, Europe Tours, Australia Tours, America Tours)",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2023-11-02",
+            "endTime": "2023-11-06",
+            "dependencies": [
+                "P2-T2"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T4",
+            "taskName": "Implement Frontend Components for Category Display",
+            "correspondingPhase": "Phase 2: Tour Packages - Structure & Categorization",
+            "correspondingFeature": "Categorization of tours (Special Tours, Japan Tours, Asia Tours, Europe Tours, Australia Tours, America Tours)",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2023-11-06",
+            "endTime": "2023-11-10",
+            "dependencies": [
+                "P2-T1",
+                "P2-T3"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T5",
+            "taskName": "Test Tour Category Functionality",
+            "correspondingPhase": "Phase 2: Tour Packages - Structure & Categorization",
+            "correspondingFeature": "Categorization of tours (Special Tours, Japan Tours, Asia Tours, Europe Tours, Australia Tours, America Tours)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2023-11-10",
+            "endTime": "2023-11-13",
+            "dependencies": [
+                "P2-T4"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P2-T6",
+            "taskName": "Refine Category Display Based on Testing Feedback",
+            "correspondingPhase": "Phase 2: Tour Packages - Structure & Categorization",
+            "correspondingFeature": "Categorization of tours (Special Tours, Japan Tours, Asia Tours, Europe Tours, Australia Tours, America Tours)",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2023-11-13",
+            "endTime": "2023-11-15",
+            "dependencies": [
+                "P2-T5"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T7",
+            "taskName": "Final Testing and Deployment of Tour Categories",
+            "correspondingPhase": "Phase 2: Tour Packages - Structure & Categorization",
+            "correspondingFeature": "Categorization of tours (Special Tours, Japan Tours, Asia Tours, Europe Tours, Australia Tours, America Tours)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2023-11-15",
+            "endTime": "2023-11-16",
+            "dependencies": [
+                "P2-T6"
+            ],
+            "responsiblePerson": "QA Tester"
+        }
+    ],
+    [
+        {
+            "id": "P3-T1",
+            "taskName": "Design Contact Form UI",
+            "correspondingPhase": "Phase 3: Customer Support - Contact Information Setup",
+            "correspondingFeature": "Contact form",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2023-11-16",
+            "endTime": "2023-11-17",
+            "dependencies": [],
+            "responsiblePerson": "UI Designer"
+        },
+        {
+            "id": "P3-T2",
+            "taskName": "Implement Contact Form Functionality",
+            "correspondingPhase": "Phase 3: Customer Support - Contact Information Setup",
+            "correspondingFeature": "Contact form",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2023-11-17",
+            "endTime": "2023-11-19",
+            "dependencies": [
+                "P3-T1"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P3-T3",
+            "taskName": "Implement Contact Form Submission and Email Notification",
+            "correspondingPhase": "Phase 3: Customer Support - Contact Information Setup",
+            "correspondingFeature": "Contact form",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2023-11-19",
+            "endTime": "2023-11-21",
+            "dependencies": [
+                "P3-T2"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T4",
+            "taskName": "Test Contact Form Submission and Email Notification",
+            "correspondingPhase": "Phase 3: Customer Support - Contact Information Setup",
+            "correspondingFeature": "Contact form",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2023-11-21",
+            "endTime": "2023-11-22",
+            "dependencies": [
+                "P3-T3"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P3-T5",
+            "taskName": "Configure Specialized Hotlines Information Page",
+            "correspondingPhase": "Phase 3: Customer Support - Contact Information Setup",
+            "correspondingFeature": "Specialized hotlines",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2023-11-16",
+            "endTime": "2023-11-17",
+            "dependencies": [],
+            "responsiblePerson": "Content Writer"
+        },
+        {
+            "id": "P3-T6",
+            "taskName": "Implement Specialized Hotlines Display",
+            "correspondingPhase": "Phase 3: Customer Support - Contact Information Setup",
+            "correspondingFeature": "Specialized hotlines",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2023-11-17",
+            "endTime": "2023-11-18",
+            "dependencies": [
+                "P3-T5"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P3-T7",
+            "taskName": "Test Specialized Hotlines Display",
+            "correspondingPhase": "Phase 3: Customer Support - Contact Information Setup",
+            "correspondingFeature": "Specialized hotlines",
+            "priority": "Medium",
+            "estimationTime": "0.5 day",
+            "startTime": "2023-11-18",
+            "endTime": "2023-11-18",
+            "dependencies": [
+                "P3-T6"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P3-T8",
+            "taskName": "Configure Email Addresses Information Page",
+            "correspondingPhase": "Phase 3: Customer Support - Contact Information Setup",
+            "correspondingFeature": "Email addresses",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2023-11-16",
+            "endTime": "2023-11-17",
+            "dependencies": [],
+            "responsiblePerson": "Content Writer"
+        },
+        {
+            "id": "P3-T9",
+            "taskName": "Implement Email Addresses Display",
+            "correspondingPhase": "Phase 3: Customer Support - Contact Information Setup",
+            "correspondingFeature": "Email addresses",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2023-11-17",
+            "endTime": "2023-11-18",
+            "dependencies": [
+                "P3-T8"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P3-T10",
+            "taskName": "Test Email Addresses Display",
+            "correspondingPhase": "Phase 3: Customer Support - Contact Information Setup",
+            "correspondingFeature": "Email addresses",
+            "priority": "Medium",
+            "estimationTime": "0.5 day",
+            "startTime": "2023-11-18",
+            "endTime": "2023-11-18",
+            "dependencies": [
+                "P3-T9"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P3-T11",
+            "taskName": "Configure Office Location Details Page",
+            "correspondingPhase": "Phase 3: Customer Support - Contact Information Setup",
+            "correspondingFeature": "Office location details",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2023-11-22",
+            "endTime": "2023-11-23",
+            "dependencies": [],
+            "responsiblePerson": "Content Writer"
+        },
+        {
+            "id": "P3-T12",
+            "taskName": "Implement Office Location Details Display (Map Integration)",
+            "correspondingPhase": "Phase 3: Customer Support - Contact Information Setup",
+            "correspondingFeature": "Office location details",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2023-11-23",
+            "endTime": "2023-11-25",
+            "dependencies": [
+                "P3-T11"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P3-T13",
+            "taskName": "Test Office Location Details and Map Integration",
+            "correspondingPhase": "Phase 3: Customer Support - Contact Information Setup",
+            "correspondingFeature": "Office location details",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2023-11-25",
+            "endTime": "2023-11-26",
+            "dependencies": [
+                "P3-T12"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P3-T14",
+            "taskName": "Implement Prominently Displayed Hotline Numbers",
+            "correspondingPhase": "Phase 3: Customer Support - Contact Information Setup",
+            "correspondingFeature": "Prominently displayed hotline numbers",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2023-11-26",
+            "endTime": "2023-11-27",
+            "dependencies": [],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P3-T15",
+            "taskName": "Test Hotline Numbers Display",
+            "correspondingPhase": "Phase 3: Customer Support - Contact Information Setup",
+            "correspondingFeature": "Prominently displayed hotline numbers",
+            "priority": "High",
+            "estimationTime": "0.5 day",
+            "startTime": "2023-11-27",
+            "endTime": "2023-11-27",
+            "dependencies": [
+                "P3-T14"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P3-T16",
+            "taskName": "Final Review and Integration of All Contact Information",
+            "correspondingPhase": "Phase 3: Customer Support - Contact Information Setup",
+            "correspondingFeature": "Contact form, Specialized hotlines, Email addresses, Office location details, Prominently displayed hotline numbers",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2023-11-28",
+            "endTime": "2023-11-29",
+            "dependencies": [
+                "P3-T4",
+                "P3-T7",
+                "P3-T10",
+                "P3-T13",
+                "P3-T15"
+            ],
+            "responsiblePerson": "Project Manager"
+        },
+        {
+            "id": "P3-T17",
+            "taskName": "Final Testing and Bug Fixes",
+            "correspondingPhase": "Phase 3: Customer Support - Contact Information Setup",
+            "correspondingFeature": "Contact form, Specialized hotlines, Email addresses, Office location details, Prominently displayed hotline numbers",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2023-11-29",
+            "endTime": "2023-11-30",
+            "dependencies": [
+                "P3-T16"
+            ],
+            "responsiblePerson": "QA Tester"
+        }
+    ],
+    [
+        {
+            "id": "P4-T1",
+            "taskName": "Design Detailed Tour Information Page",
+            "correspondingPhase": "Phase 4: Tour Packages - Detailed Information",
+            "correspondingFeature": "Detailed daily schedule for each tour",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2023-11-23",
+            "endTime": "2023-11-27",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T2",
+            "taskName": "Implement Detailed Daily Schedule Section",
+            "correspondingPhase": "Phase 4: Tour Packages - Detailed Information",
+            "correspondingFeature": "Detailed daily schedule for each tour",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2023-11-28",
+            "endTime": "2023-12-04",
+            "dependencies": [
+                "P4-T1"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T3",
+            "taskName": "Test Detailed Daily Schedule Functionality",
+            "correspondingPhase": "Phase 4: Tour Packages - Detailed Information",
+            "correspondingFeature": "Detailed daily schedule for each tour",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2023-12-05",
+            "endTime": "2023-12-06",
+            "dependencies": [
+                "P4-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T4",
+            "taskName": "Design Trip Highlights Section",
+            "correspondingPhase": "Phase 4: Tour Packages - Detailed Information",
+            "correspondingFeature": "Trip highlights",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2023-11-23",
+            "endTime": "2023-11-24",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T5",
+            "taskName": "Implement Trip Highlights Section",
+            "correspondingPhase": "Phase 4: Tour Packages - Detailed Information",
+            "correspondingFeature": "Trip highlights",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2023-12-07",
+            "endTime": "2023-12-12",
+            "dependencies": [
+                "P4-T4"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T6",
+            "taskName": "Test Trip Highlights Functionality",
+            "correspondingPhase": "Phase 4: Tour Packages - Detailed Information",
+            "correspondingFeature": "Trip highlights",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2023-12-13",
+            "endTime": "2023-12-13",
+            "dependencies": [
+                "P4-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T7",
+            "taskName": "Design Service Details (Accommodations, Flights, Meals) Section",
+            "correspondingPhase": "Phase 4: Tour Packages - Detailed Information",
+            "correspondingFeature": "Service details (accommodations, flights, meals)",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2023-11-27",
+            "endTime": "2023-11-29",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T8",
+            "taskName": "Implement Service Details Section",
+            "correspondingPhase": "Phase 4: Tour Packages - Detailed Information",
+            "correspondingFeature": "Service details (accommodations, flights, meals)",
+            "priority": "Medium",
+            "estimationTime": "5 days",
+            "startTime": "2023-12-14",
+            "endTime": "2023-12-20",
+            "dependencies": [
+                "P4-T7"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T9",
+            "taskName": "Test Service Details Functionality",
+            "correspondingPhase": "Phase 4: Tour Packages - Detailed Information",
+            "correspondingFeature": "Service details (accommodations, flights, meals)",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2023-12-21",
+            "endTime": "2023-12-22",
+            "dependencies": [
+                "P4-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T10",
+            "taskName": "Design Transparent Pricing Section",
+            "correspondingPhase": "Phase 4: Tour Packages - Detailed Information",
+            "correspondingFeature": "Transparent pricing",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2023-11-30",
+            "endTime": "2023-12-01",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T11",
+            "taskName": "Implement Transparent Pricing Section",
+            "correspondingPhase": "Phase 4: Tour Packages - Detailed Information",
+            "correspondingFeature": "Transparent pricing",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2023-12-25",
+            "endTime": "2023-12-28",
+            "dependencies": [
+                "P4-T10"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T12",
+            "taskName": "Test Transparent Pricing Functionality",
+            "correspondingPhase": "Phase 4: Tour Packages - Detailed Information",
+            "correspondingFeature": "Transparent pricing",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2023-12-29",
+            "endTime": "2023-12-29",
+            "dependencies": [
+                "P4-T11"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T13",
+            "taskName": "Design Inclusions and Exclusions Section",
+            "correspondingPhase": "Phase 4: Tour Packages - Detailed Information",
+            "correspondingFeature": "Inclusions and exclusions",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2023-12-04",
+            "endTime": "2023-12-05",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T14",
+            "taskName": "Implement Inclusions and Exclusions Section",
+            "correspondingPhase": "Phase 4: Tour Packages - Detailed Information",
+            "correspondingFeature": "Inclusions and exclusions",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-01-02",
+            "endTime": "2024-01-05",
+            "dependencies": [
+                "P4-T13"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T15",
+            "taskName": "Test Inclusions and Exclusions Functionality",
+            "correspondingPhase": "Phase 4: Tour Packages - Detailed Information",
+            "correspondingFeature": "Inclusions and exclusions",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-01-08",
+            "endTime": "2024-01-08",
+            "dependencies": [
+                "P4-T14"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T16",
+            "taskName": "Design Captivating Visuals Integration",
+            "correspondingPhase": "Phase 4: Tour Packages - Detailed Information",
+            "correspondingFeature": "Captivating visuals",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2023-12-06",
+            "endTime": "2023-12-07",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T17",
+            "taskName": "Implement Captivating Visuals Integration",
+            "correspondingPhase": "Phase 4: Tour Packages - Detailed Information",
+            "correspondingFeature": "Captivating visuals",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-01-09",
+            "endTime": "2024-01-12",
+            "dependencies": [
+                "P4-T16"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T18",
+            "taskName": "Test Captivating Visuals Display",
+            "correspondingPhase": "Phase 4: Tour Packages - Detailed Information",
+            "correspondingFeature": "Captivating visuals",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-01-15",
+            "endTime": "2024-01-15",
+            "dependencies": [
+                "P4-T17"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T19",
+            "taskName": "Design Guide Information Section",
+            "correspondingPhase": "Phase 4: Tour Packages - Detailed Information",
+            "correspondingFeature": "Guide information",
+            "priority": "Low",
+            "estimationTime": "1 day",
+            "startTime": "2023-12-08",
+            "endTime": "2023-12-08",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T20",
+            "taskName": "Implement Guide Information Section",
+            "correspondingPhase": "Phase 4: Tour Packages - Detailed Information",
+            "correspondingFeature": "Guide information",
+            "priority": "Low",
+            "estimationTime": "3 days",
+            "startTime": "2024-01-16",
+            "endTime": "2024-01-18",
+            "dependencies": [
+                "P4-T19"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T21",
+            "taskName": "Test Guide Information Display",
+            "correspondingPhase": "Phase 4: Tour Packages - Detailed Information",
+            "correspondingFeature": "Guide information",
+            "priority": "Low",
+            "estimationTime": "1 day",
+            "startTime": "2024-01-18",
+            "endTime": "2024-01-18",
+            "dependencies": [
+                "P4-T20"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T22",
+            "taskName": "Design Payment Options Section",
+            "correspondingPhase": "Phase 4: Tour Packages - Detailed Information",
+            "correspondingFeature": "Payment options",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2023-12-11",
+            "endTime": "2023-12-12",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T23",
+            "taskName": "Implement Payment Options Section",
+            "correspondingPhase": "Phase 4: Tour Packages - Detailed Information",
+            "correspondingFeature": "Payment options",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2023-12-18",
+            "endTime": "2023-12-21",
+            "dependencies": [
+                "P4-T22"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T24",
+            "taskName": "Test Payment Options Functionality",
+            "correspondingPhase": "Phase 4: Tour Packages - Detailed Information",
+            "correspondingFeature": "Payment options",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2023-12-22",
+            "endTime": "2023-12-22",
+            "dependencies": [
+                "P4-T23"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T25",
+            "taskName": "Design Cancellation Policies Section",
+            "correspondingPhase": "Phase 4: Tour Packages - Detailed Information",
+            "correspondingFeature": "Cancellation policies",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2023-12-13",
+            "endTime": "2023-12-14",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T26",
+            "taskName": "Implement Cancellation Policies Section",
+            "correspondingPhase": "Phase 4: Tour Packages - Detailed Information",
+            "correspondingFeature": "Cancellation policies",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2023-12-26",
+            "endTime": "2023-12-29",
+            "dependencies": [
+                "P4-T25"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T27",
+            "taskName": "Test Cancellation Policies Display",
+            "correspondingPhase": "Phase 4: Tour Packages - Detailed Information",
+            "correspondingFeature": "Cancellation policies",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-01-02",
+            "endTime": "2024-01-02",
+            "dependencies": [
+                "P4-T26"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T28",
+            "taskName": "Final Integration and Testing of Tour Details Page",
+            "correspondingPhase": "Phase 4: Tour Packages - Detailed Information",
+            "correspondingFeature": "Detailed daily schedule for each tour, Trip highlights, Service details (accommodations, flights, meals), Transparent pricing, Inclusions and exclusions, Captivating visuals, Guide information, Payment options, Cancellation policies",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-01-16",
+            "endTime": "2024-01-18",
+            "dependencies": [
+                "P4-T3",
+                "P4-T6",
+                "P4-T9",
+                "P4-T12",
+                "P4-T15",
+                "P4-T18",
+                "P4-T21",
+                "P4-T24",
+                "P4-T27"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P5-T1",
+            "taskName": "Design Article Listing Page",
+            "correspondingPhase": "Phase 5: Informational Content - Articles Implementation",
+            "correspondingFeature": "Travel articles, Cultural articles, Personal travel narratives",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2023-11-30",
+            "endTime": "2023-12-02",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P5-T2",
+            "taskName": "Design Article Detail Page",
+            "correspondingPhase": "Phase 5: Informational Content - Articles Implementation",
+            "correspondingFeature": "Travel articles, Cultural articles, Personal travel narratives",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2023-12-03",
+            "endTime": "2023-12-05",
+            "dependencies": [
+                "P5-T1"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P5-T3",
+            "taskName": "Implement Article Listing Page",
+            "correspondingPhase": "Phase 5: Informational Content - Articles Implementation",
+            "correspondingFeature": "Travel articles, Cultural articles, Personal travel narratives",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2023-12-06",
+            "endTime": "2023-12-09",
+            "dependencies": [
+                "P5-T2"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P5-T4",
+            "taskName": "Implement Article Detail Page",
+            "correspondingPhase": "Phase 5: Informational Content - Articles Implementation",
+            "correspondingFeature": "Travel articles, Cultural articles, Personal travel narratives",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2023-12-10",
+            "endTime": "2023-12-13",
+            "dependencies": [
+                "P5-T3"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P5-T5",
+            "taskName": "Implement API for Article Retrieval",
+            "correspondingPhase": "Phase 5: Informational Content - Articles Implementation",
+            "correspondingFeature": "Travel articles, Cultural articles, Personal travel narratives",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2023-12-06",
+            "endTime": "2023-12-11",
+            "dependencies": [],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P5-T6",
+            "taskName": "Connect Frontend to Article API",
+            "correspondingPhase": "Phase 5: Informational Content - Articles Implementation",
+            "correspondingFeature": "Travel articles, Cultural articles, Personal travel narratives",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2023-12-14",
+            "endTime": "2023-12-16",
+            "dependencies": [
+                "P5-T4",
+                "P5-T5"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P5-T7",
+            "taskName": "Testing Article Listing and Detail Pages",
+            "correspondingPhase": "Phase 5: Informational Content - Articles Implementation",
+            "correspondingFeature": "Travel articles, Cultural articles, Personal travel narratives",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2023-12-17",
+            "endTime": "2023-12-19",
+            "dependencies": [
+                "P5-T6"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T8",
+            "taskName": "Fix Bugs and Issues from Testing",
+            "correspondingPhase": "Phase 5: Informational Content - Articles Implementation",
+            "correspondingFeature": "Travel articles, Cultural articles, Personal travel narratives",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2023-12-20",
+            "endTime": "2023-12-23",
+            "dependencies": [
+                "P5-T7"
+            ],
+            "responsiblePerson": "Frontend Developer, Backend Developer"
+        },
+        {
+            "id": "P5-T9",
+            "taskName": "Deploy Article Feature to Staging",
+            "correspondingPhase": "Phase 5: Informational Content - Articles Implementation",
+            "correspondingFeature": "Travel articles, Cultural articles, Personal travel narratives",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2023-12-24",
+            "endTime": "2023-12-24",
+            "dependencies": [
+                "P5-T8"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        },
+        {
+            "id": "P5-T10",
+            "taskName": "User Acceptance Testing (UAT) on Staging",
+            "correspondingPhase": "Phase 5: Informational Content - Articles Implementation",
+            "correspondingFeature": "Travel articles, Cultural articles, Personal travel narratives",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2023-12-25",
+            "endTime": "2023-12-26",
+            "dependencies": [
+                "P5-T9"
+            ],
+            "responsiblePerson": "Product Owner, Key Stakeholders"
+        },
+        {
+            "id": "P5-T11",
+            "taskName": "Address UAT Feedback and Bug Fixes",
+            "correspondingPhase": "Phase 5: Informational Content - Articles Implementation",
+            "correspondingFeature": "Travel articles, Cultural articles, Personal travel narratives",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2023-12-27",
+            "endTime": "2023-12-27",
+            "dependencies": [
+                "P5-T10"
+            ],
+            "responsiblePerson": "Frontend Developer, Backend Developer"
+        },
+        {
+            "id": "P5-T12",
+            "taskName": "Deploy Article Feature to Production",
+            "correspondingPhase": "Phase 5: Informational Content - Articles Implementation",
+            "correspondingFeature": "Travel articles, Cultural articles, Personal travel narratives",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2023-12-28",
+            "endTime": "2023-12-28",
+            "dependencies": [
+                "P5-T11"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P6-T1",
+            "taskName": "Design Visa Consultation Service Page",
+            "correspondingPhase": "Phase 6: Customer Support - Visa Consultation",
+            "correspondingFeature": "Visa consultation services",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2023-11-30",
+            "endTime": "2023-12-02",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P6-T2",
+            "taskName": "Develop Visa Consultation Form",
+            "correspondingPhase": "Phase 6: Customer Support - Visa Consultation",
+            "correspondingFeature": "Visa consultation services",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2023-12-03",
+            "endTime": "2023-12-06",
+            "dependencies": [
+                "P6-T1"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P6-T3",
+            "taskName": "Implement Backend Logic for Visa Consultation Requests",
+            "correspondingPhase": "Phase 6: Customer Support - Visa Consultation",
+            "correspondingFeature": "Visa consultation services",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2023-12-07",
+            "endTime": "2023-12-11",
+            "dependencies": [
+                "P6-T2"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P6-T4",
+            "taskName": "Integrate Payment Gateway for Visa Consultation Fees",
+            "correspondingPhase": "Phase 6: Customer Support - Visa Consultation",
+            "correspondingFeature": "Visa consultation services",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2023-12-12",
+            "endTime": "2023-12-14",
+            "dependencies": [
+                "P6-T3"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P6-T5",
+            "taskName": "Test Visa Consultation Service Functionality",
+            "correspondingPhase": "Phase 6: Customer Support - Visa Consultation",
+            "correspondingFeature": "Visa consultation services",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2023-12-15",
+            "endTime": "2023-12-17",
+            "dependencies": [
+                "P6-T4"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P6-T6",
+            "taskName": "Deploy Visa Consultation Service to Production",
+            "correspondingPhase": "Phase 6: Customer Support - Visa Consultation",
+            "correspondingFeature": "Visa consultation services",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2023-12-18",
+            "endTime": "2023-12-18",
+            "dependencies": [
+                "P6-T5"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        },
+        {
+            "id": "P6-T7",
+            "taskName": "Create User Flow Diagram for Visa Consultation",
+            "correspondingPhase": "Phase 6: Customer Support - Visa Consultation",
+            "correspondingFeature": "Visa consultation services",
+            "priority": "Medium",
+            "estimationTime": "4 hours",
+            "startTime": "2023-11-30",
+            "endTime": "2023-11-30",
+            "dependencies": [],
+            "responsiblePerson": "Business Analyst"
+        },
+        {
+            "id": "P6-T8",
+            "taskName": "Design Wireframes for Visa Consultation Screens",
+            "correspondingPhase": "Phase 6: Customer Support - Visa Consultation",
+            "correspondingFeature": "Visa consultation services",
+            "priority": "Medium",
+            "estimationTime": "8 hours",
+            "startTime": "2023-12-01",
+            "endTime": "2023-12-01",
+            "dependencies": [
+                "P6-T7"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P6-T9",
+            "taskName": "Develop Screen: Visa Consultation Information Page",
+            "correspondingPhase": "Phase 6: Customer Support - Visa Consultation",
+            "correspondingFeature": "Visa consultation services",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2023-12-03",
+            "endTime": "2023-12-06",
+            "dependencies": [
+                "P6-T8"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P6-T10",
+            "taskName": "Develop Screen: Visa Consultation Form",
+            "correspondingPhase": "Phase 6: Customer Support - Visa Consultation",
+            "correspondingFeature": "Visa consultation services",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2023-12-03",
+            "endTime": "2023-12-06",
+            "dependencies": [
+                "P6-T8"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P6-T11",
+            "taskName": "Develop Screen: Payment Confirmation Page",
+            "correspondingPhase": "Phase 6: Customer Support - Visa Consultation",
+            "correspondingFeature": "Visa consultation services",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2023-12-12",
+            "endTime": "2023-12-13",
+            "dependencies": [
+                "P6-T4"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P6-T12",
+            "taskName": "Develop Screen: Consultation Confirmation Page",
+            "correspondingPhase": "Phase 6: Customer Support - Visa Consultation",
+            "correspondingFeature": "Visa consultation services",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2023-12-12",
+            "endTime": "2023-12-13",
+            "dependencies": [
+                "P6-T4"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P6-T13",
+            "taskName": "User Acceptance Testing and Bug Fixes",
+            "correspondingPhase": "Phase 6: Customer Support - Visa Consultation",
+            "correspondingFeature": "Visa consultation services",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2023-12-19",
+            "endTime": "2023-12-20",
+            "dependencies": [
+                "P6-T6"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P6-T14",
+            "taskName": "Final Review and Sign Off",
+            "correspondingPhase": "Phase 6: Customer Support - Visa Consultation",
+            "correspondingFeature": "Visa consultation services",
+            "priority": "High",
+            "estimationTime": "4 hours",
+            "startTime": "2023-12-21",
+            "endTime": "2023-12-21",
+            "dependencies": [
+                "P6-T13"
+            ],
+            "responsiblePerson": "Product Owner"
+        }
+    ],
+    [
+        {
+            "id": "P7-T1",
+            "taskName": "Design Testimonials and Reviews Section",
+            "correspondingPhase": "Phase 7: Social Proof - Testimonials and Reviews",
+            "correspondingFeature": "Customer testimonials and reviews",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-01-18",
+            "endTime": "2024-01-21",
+            "dependencies": [
+                "P4-TBD"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P7-T2",
+            "taskName": "Implement Testimonials and Reviews Display",
+            "correspondingPhase": "Phase 7: Social Proof - Testimonials and Reviews",
+            "correspondingFeature": "Customer testimonials and reviews",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-01-22",
+            "endTime": "2024-01-26",
+            "dependencies": [
+                "P7-T1"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P7-T3",
+            "taskName": "Implement Testimonials Submission Form (if applicable)",
+            "correspondingPhase": "Phase 7: Social Proof - Testimonials and Reviews",
+            "correspondingFeature": "Customer testimonials and reviews",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-01-22",
+            "endTime": "2024-01-25",
+            "dependencies": [
+                "P7-T1"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P7-T4",
+            "taskName": "Backend Integration for Testimonials Submission and Retrieval",
+            "correspondingPhase": "Phase 7: Social Proof - Testimonials and Reviews",
+            "correspondingFeature": "Customer testimonials and reviews",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-01-26",
+            "endTime": "2024-01-29",
+            "dependencies": [
+                "P7-T3"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P7-T5",
+            "taskName": "Testing of Testimonials and Reviews Functionality",
+            "correspondingPhase": "Phase 7: Social Proof - Testimonials and Reviews",
+            "correspondingFeature": "Customer testimonials and reviews",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-01-30",
+            "endTime": "2024-02-01",
+            "dependencies": [
+                "P7-T2",
+                "P7-T4"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P7-T6",
+            "taskName": "Flow: User views testimonials",
+            "correspondingPhase": "Phase 7: Social Proof - Testimonials and Reviews",
+            "correspondingFeature": "Customer testimonials and reviews",
+            "priority": "High",
+            "estimationTime": "1 hour",
+            "startTime": "2024-01-30",
+            "endTime": "2024-01-30",
+            "dependencies": [
+                "P7-T5"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P7-T7",
+            "taskName": "Flow: User submits a testimonial (if applicable)",
+            "correspondingPhase": "Phase 7: Social Proof - Testimonials and Reviews",
+            "correspondingFeature": "Customer testimonials and reviews",
+            "priority": "Medium",
+            "estimationTime": "1 hour",
+            "startTime": "2024-01-30",
+            "endTime": "2024-01-30",
+            "dependencies": [
+                "P7-T5"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P7-T8",
+            "taskName": "Screen: Testimonials Section Display",
+            "correspondingPhase": "Phase 7: Social Proof - Testimonials and Reviews",
+            "correspondingFeature": "Customer testimonials and reviews",
+            "priority": "High",
+            "estimationTime": "1 hour",
+            "startTime": "2024-01-30",
+            "endTime": "2024-01-30",
+            "dependencies": [
+                "P7-T5"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P7-T9",
+            "taskName": "Screen: Testimonial Submission Form (if applicable)",
+            "correspondingPhase": "Phase 7: Social Proof - Testimonials and Reviews",
+            "correspondingFeature": "Customer testimonials and reviews",
+            "priority": "Medium",
+            "estimationTime": "1 hour",
+            "startTime": "2024-01-30",
+            "endTime": "2024-01-30",
+            "dependencies": [
+                "P7-T5"
+            ],
+            "responsiblePerson": "QA Tester"
+        }
+    ]
+]

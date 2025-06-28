@@ -1,0 +1,34 @@
+[
+  {
+    "category": "Study Material Exchange",
+    "list_feature": [
+      "Upload and share study materials",
+      "Download and access materials",
+      "Peer review and comments"
+    ]
+  },
+  {
+    "category": "Course Ratings",
+    "list_feature": [
+      "Rate courses",
+      "View aggregated ratings",
+      "Submit detailed reviews"
+    ]
+  },
+  {
+    "category": "Multi-Network Support",
+    "list_feature": [
+      "Integration with various educational networks",
+      "Cross-platform access",
+      "Unified login system"
+    ]
+  },
+  {
+    "category": "Student-Researcher Interaction",
+    "list_feature": [
+      "Direct messaging between students and researchers",
+      "Forum for academic queries",
+      "Collaborative project features"
+    ]
+  }
+]

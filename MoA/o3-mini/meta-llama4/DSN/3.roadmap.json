@@ -1,0 +1,133 @@
+[
+    {
+        "id": "P1",
+        "phase": "User Account & Profile Setup",
+        "feature_list": [
+            "User registration/login",
+            "Profile creation (username, bio, interests)",
+            "Profile editing",
+            "Privacy settings"
+        ],
+        "estimatedTime": 28,
+        "startTime": "2024-09-02",
+        "endTime": "2024-09-29",
+        "dependencies": []
+    },
+    {
+        "id": "P2",
+        "phase": "Content Sharing & Expression Development",
+        "feature_list": [
+            "Text posts (thoughts, opinions, emotions)",
+            "Multimedia posts (images, video, audio)",
+            "Dream/Idea journaling",
+            "Content tagging and categorization"
+        ],
+        "estimatedTime": 21,
+        "startTime": "2024-09-30",
+        "endTime": "2024-10-20",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P4",
+        "phase": "Connections & Networking Development",
+        "feature_list": [
+            "User search (by interests, dreams)",
+            "Following users",
+            "Connection requests",
+            "User matching (like-minded, shared dreams, soul mates)",
+            "Direct messaging"
+        ],
+        "estimatedTime": 21,
+        "startTime": "2024-09-30",
+        "endTime": "2024-10-20",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P3",
+        "phase": "Interaction & Feedback Implementation",
+        "feature_list": [
+            "Commenting on posts",
+            "Liking and reactions",
+            "Sharing posts",
+            "User mentions",
+            "Providing/Receiving feedback on ideas"
+        ],
+        "estimatedTime": 21,
+        "startTime": "2024-10-21",
+        "endTime": "2024-11-10",
+        "dependencies": [
+            "P2"
+        ]
+    },
+    {
+        "id": "P6",
+        "phase": "Motivation & Goal Tracking Development",
+        "feature_list": [
+            "Goal setting features",
+            "Progress tracking for goals/ideas",
+            "Reminders (for goals or activities)",
+            "Inspirational content feed"
+        ],
+        "estimatedTime": 14,
+        "startTime": "2024-10-21",
+        "endTime": "2024-11-03",
+        "dependencies": [
+            "P2"
+        ]
+    },
+    {
+        "id": "P7",
+        "phase": "Community Spaces Creation",
+        "feature_list": [
+            "Groups (based on shared interests, dreams, goals)",
+            "Forums and discussion boards",
+            "Events (community meetups, online sessions)"
+        ],
+        "estimatedTime": 21,
+        "startTime": "2024-10-21",
+        "endTime": "2024-11-10",
+        "dependencies": [
+            "P2",
+            "P4"
+        ]
+    },
+    {
+        "id": "P5",
+        "phase": "Support & Guidance Features Implementation",
+        "feature_list": [
+            "Resource sharing",
+            "Advice giving and seeking",
+            "Solution finding",
+            "Support groups"
+        ],
+        "estimatedTime": 14,
+        "startTime": "2024-11-11",
+        "endTime": "2024-11-24",
+        "dependencies": [
+            "P3",
+            "P4"
+        ]
+    },
+    {
+        "id": "P8",
+        "phase": "Platform Utilities & Safety Implementation",
+        "feature_list": [
+            "Search functionality (users, content, groups)",
+            "Notifications and alerts",
+            "User blocking",
+            "Content reporting and moderation"
+        ],
+        "estimatedTime": 21,
+        "startTime": "2024-11-11",
+        "endTime": "2024-12-01",
+        "dependencies": [
+            "P1",
+            "P2",
+            "P7"
+        ]
+    }
+]

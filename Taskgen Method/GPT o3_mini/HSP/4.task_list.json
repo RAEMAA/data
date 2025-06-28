@@ -1,0 +1,665 @@
+[
+  [
+    [
+      {
+        "id": "P1-T1",
+        "taskName": "Design Animal Registration & Identification",
+        "correspondingPhase": "Animal Management Module",
+        "correspondingFeature": "Animal Registration & Identification",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2023-10-12",
+        "endTime": "2023-11-09",
+        "dependencies": [],
+        "responsiblePerson": "Designer A"
+      },
+      {
+        "id": "P1-T2",
+        "taskName": "Implementation Animal Registration & Identification",
+        "correspondingPhase": "Animal Management Module",
+        "correspondingFeature": "Animal Registration & Identification",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2023-10-12",
+        "endTime": "2023-11-09",
+        "dependencies": ["P1-T1"],
+        "responsiblePerson": "Developer A"
+      },
+      {
+        "id": "P1-T3",
+        "taskName": "Test Animal Registration & Identification",
+        "correspondingPhase": "Animal Management Module",
+        "correspondingFeature": "Animal Registration & Identification",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-12",
+        "endTime": "2023-11-09",
+        "dependencies": ["P1-T2"],
+        "responsiblePerson": "QA A"
+      },
+      {
+        "id": "P1-T4",
+        "taskName": "Design Growth Monitoring",
+        "correspondingPhase": "Animal Management Module",
+        "correspondingFeature": "Growth Monitoring",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2023-10-12",
+        "endTime": "2023-11-09",
+        "dependencies": [],
+        "responsiblePerson": "Designer A"
+      },
+      {
+        "id": "P1-T5",
+        "taskName": "Implementation Growth Monitoring",
+        "correspondingPhase": "Animal Management Module",
+        "correspondingFeature": "Growth Monitoring",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2023-10-12",
+        "endTime": "2023-11-09",
+        "dependencies": ["P1-T4"],
+        "responsiblePerson": "Developer A"
+      },
+      {
+        "id": "P1-T6",
+        "taskName": "Test Growth Monitoring",
+        "correspondingPhase": "Animal Management Module",
+        "correspondingFeature": "Growth Monitoring",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-12",
+        "endTime": "2023-11-09",
+        "dependencies": ["P1-T5"],
+        "responsiblePerson": "QA A"
+      },
+      {
+        "id": "P1-T7",
+        "taskName": "Design Breeding Records",
+        "correspondingPhase": "Animal Management Module",
+        "correspondingFeature": "Breeding Records",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2023-10-12",
+        "endTime": "2023-11-09",
+        "dependencies": [],
+        "responsiblePerson": "Designer A"
+      },
+      {
+        "id": "P1-T8",
+        "taskName": "Implementation Breeding Records",
+        "correspondingPhase": "Animal Management Module",
+        "correspondingFeature": "Breeding Records",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2023-10-12",
+        "endTime": "2023-11-09",
+        "dependencies": ["P1-T7"],
+        "responsiblePerson": "Developer A"
+      },
+      {
+        "id": "P1-T9",
+        "taskName": "Test Breeding Records",
+        "correspondingPhase": "Animal Management Module",
+        "correspondingFeature": "Breeding Records",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-12",
+        "endTime": "2023-11-09",
+        "dependencies": ["P1-T8"],
+        "responsiblePerson": "QA A"
+      },
+      {
+        "id": "P1-T10",
+        "taskName": "Design Health Status Tracking",
+        "correspondingPhase": "Animal Management Module",
+        "correspondingFeature": "Health Status Tracking",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2023-10-12",
+        "endTime": "2023-11-09",
+        "dependencies": [],
+        "responsiblePerson": "Designer A"
+      },
+      {
+        "id": "P1-T11",
+        "taskName": "Implementation Health Status Tracking",
+        "correspondingPhase": "Animal Management Module",
+        "correspondingFeature": "Health Status Tracking",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2023-10-12",
+        "endTime": "2023-11-09",
+        "dependencies": ["P1-T10"],
+        "responsiblePerson": "Developer A"
+      },
+      {
+        "id": "P1-T12",
+        "taskName": "Test Health Status Tracking",
+        "correspondingPhase": "Animal Management Module",
+        "correspondingFeature": "Health Status Tracking",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-12",
+        "endTime": "2023-11-09",
+        "dependencies": ["P1-T11"],
+        "responsiblePerson": "QA A"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": "P2-T1",
+        "taskName": "Design Feed Inventory Control Module",
+        "correspondingPhase": "Feed Management Module",
+        "correspondingFeature": "Feed Inventory Control",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-12",
+        "endTime": "2023-10-13",
+        "dependencies": [],
+        "responsiblePerson": "Team Member"
+      },
+      {
+        "id": "P2-T2",
+        "taskName": "Implement Feed Inventory Control Module",
+        "correspondingPhase": "Feed Management Module",
+        "correspondingFeature": "Feed Inventory Control",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2023-10-14",
+        "endTime": "2023-10-16",
+        "dependencies": [],
+        "responsiblePerson": "Team Member"
+      },
+      {
+        "id": "P2-T3",
+        "taskName": "Test Feed Inventory Control Module",
+        "correspondingPhase": "Feed Management Module",
+        "correspondingFeature": "Feed Inventory Control",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-17",
+        "endTime": "2023-10-18",
+        "dependencies": [],
+        "responsiblePerson": "Team Member"
+      },
+      {
+        "id": "P2-T4",
+        "taskName": "Design Feed Consumption Analysis Module",
+        "correspondingPhase": "Feed Management Module",
+        "correspondingFeature": "Feed Consumption Analysis",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-12",
+        "endTime": "2023-10-13",
+        "dependencies": [],
+        "responsiblePerson": "Team Member"
+      },
+      {
+        "id": "P2-T5",
+        "taskName": "Implement Feed Consumption Analysis Module",
+        "correspondingPhase": "Feed Management Module",
+        "correspondingFeature": "Feed Consumption Analysis",
+        "priority": "Medium",
+        "estimatedTime": "3 days",
+        "startTime": "2023-10-14",
+        "endTime": "2023-10-16",
+        "dependencies": [],
+        "responsiblePerson": "Team Member"
+      },
+      {
+        "id": "P2-T6",
+        "taskName": "Test Feed Consumption Analysis Module",
+        "correspondingPhase": "Feed Management Module",
+        "correspondingFeature": "Feed Consumption Analysis",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-17",
+        "endTime": "2023-10-18",
+        "dependencies": [],
+        "responsiblePerson": "Team Member"
+      },
+      {
+        "id": "P2-T7",
+        "taskName": "Design Supplier Management Module",
+        "correspondingPhase": "Feed Management Module",
+        "correspondingFeature": "Supplier Management",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-12",
+        "endTime": "2023-10-13",
+        "dependencies": [],
+        "responsiblePerson": "Team Member"
+      },
+      {
+        "id": "P2-T8",
+        "taskName": "Implement Supplier Management Module",
+        "correspondingPhase": "Feed Management Module",
+        "correspondingFeature": "Supplier Management",
+        "priority": "Medium",
+        "estimatedTime": "3 days",
+        "startTime": "2023-10-14",
+        "endTime": "2023-10-16",
+        "dependencies": [],
+        "responsiblePerson": "Team Member"
+      },
+      {
+        "id": "P2-T9",
+        "taskName": "Test Supplier Management Module",
+        "correspondingPhase": "Feed Management Module",
+        "correspondingFeature": "Supplier Management",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-17",
+        "endTime": "2023-10-18",
+        "dependencies": [],
+        "responsiblePerson": "Team Member"
+      }
+    ],
+    "Based on the global context of the Hoàng Sĩ Pig Farm advanced management system project and the provided project roadmap and feature list, the detailed tasks for Phase P2 (Feed Management Module) have been clearly defined. This phase focuses on three core features, each with three tasks (design, implementation, and testing). The tasks and their details (id, taskName, correspondingPhase, correspondingFeature, priority, estimatedTime, startTime, endTime, dependencies, and responsiblePerson) have been provided as follows:\n\n1. P2-T1: Design Feed Inventory Control Module\n   - Phase: Feed Management Module\n   - Feature: Feed Inventory Control\n   - Priority: High\n   - Estimation Time: 2 days\n   - Start: 2023-10-12, End: 2023-10-13\n   - Dependencies: []\n   - Responsible Person: Team Member\n\n2. P2-T2: Implement Feed Inventory Control Module\n   - Phase: Feed Management Module\n   - Feature: Feed Inventory Control\n   - Priority: High\n   - Estimation Time: 3 days\n   - Start: 2023-10-14, End: 2023-10-16\n   - Dependencies: []\n   - Responsible Person: Team Member\n\n3. P2-T3: Test Feed Inventory Control Module\n   - Phase: Feed Management Module\n   - Feature: Feed Inventory Control\n   - Priority: High\n   - Estimation Time: 2 days\n   - Start: 2023-10-17, End: 2023-10-18\n   - Dependencies: []\n   - Responsible Person: Team Member\n\n4. P2-T4: Design Feed Consumption Analysis Module\n   - Phase: Feed Management Module\n   - Feature: Feed Consumption Analysis\n   - Priority: Medium\n   - Estimation Time: 2 days\n   - Start: 2023-10-12, End: 2023-10-13\n   - Dependencies: []\n   - Responsible Person: Team Member\n\n5. P2-T5: Implement Feed Consumption Analysis Module\n   - Phase: Feed Management Module\n   - Feature: Feed Consumption Analysis\n   - Priority: Medium\n   - Estimation Time: 3 days\n   - Start: 2023-10-14, End: 2023-10-16\n   - Dependencies: []\n   - Responsible Person: Team Member\n\n6. P2-T6: Test Feed Consumption Analysis Module\n   - Phase: Feed Management Module\n   - Feature: Feed Consumption Analysis\n   - Priority: Medium\n   - Estimation Time: 2 days\n   - Start: 2023-10-17, End: 2023-10-18\n   - Dependencies: []\n   - Responsible Person: Team Member\n\n7. P2-T7: Design Supplier Management Module\n   - Phase: Feed Management Module\n   - Feature: Supplier Management\n   - Priority: Medium\n   - Estimation Time: 2 days\n   - Start: 2023-10-12, End: 2023-10-13\n   - Dependencies: []\n   - Responsible Person: Team Member\n\n8. P2-T8: Implement Supplier Management Module\n   - Phase: Feed Management Module\n   - Feature: Supplier Management\n   - Priority: Medium\n   - Estimation Time: 3 days\n   - Start: 2023-10-14, End: 2023-10-16\n   - Dependencies: []\n   - Responsible Person: Team Member\n\n9. P2-T9: Test Supplier Management Module\n   - Phase: Feed Management Module\n   - Feature: Supplier Management\n   - Priority: Medium\n   - Estimation Time: 2 days\n   - Start: 2023-10-17, End: 2023-10-18\n   - Dependencies: []\n   - Responsible Person: Team Member\n\nThis task list strictly follows the provided information and ensures that every required subtask for the Feed Management Module is captured without generating any new information. Each task is self-contained and follows the sequential identification convention (P2-T1 to P2-T9), in line with the required project description, roadmap, and feature list."
+  ],
+  [
+    [
+      {
+        "id": "P3-T1",
+        "taskName": "Design Vaccination Scheduling",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Vaccination Scheduling",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2023-10-12",
+        "endTime": "2023-10-14",
+        "dependencies": [],
+        "responsiblePerson": "Alice"
+      },
+      {
+        "id": "P3-T2",
+        "taskName": "Implement Vaccination Scheduling",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Vaccination Scheduling",
+        "priority": "High",
+        "estimatedTime": "4 days",
+        "startTime": "2023-10-15",
+        "endTime": "2023-10-18",
+        "dependencies": ["P3-T1"],
+        "responsiblePerson": "Bob"
+      },
+      {
+        "id": "P3-T3",
+        "taskName": "Test Vaccination Scheduling",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Vaccination Scheduling",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-19",
+        "endTime": "2023-10-20",
+        "dependencies": ["P3-T2"],
+        "responsiblePerson": "Charlie"
+      },
+      {
+        "id": "P3-T4",
+        "taskName": "Design Disease Outbreak Monitoring",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Disease Outbreak Monitoring",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2023-10-12",
+        "endTime": "2023-10-14",
+        "dependencies": [],
+        "responsiblePerson": "David"
+      },
+      {
+        "id": "P3-T5",
+        "taskName": "Implement Disease Outbreak Monitoring",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Disease Outbreak Monitoring",
+        "priority": "High",
+        "estimatedTime": "4 days",
+        "startTime": "2023-10-15",
+        "endTime": "2023-10-18",
+        "dependencies": ["P3-T4"],
+        "responsiblePerson": "Eve"
+      },
+      {
+        "id": "P3-T6",
+        "taskName": "Test Disease Outbreak Monitoring",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Disease Outbreak Monitoring",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-19",
+        "endTime": "2023-10-20",
+        "dependencies": ["P3-T5"],
+        "responsiblePerson": "Frank"
+      },
+      {
+        "id": "P3-T7",
+        "taskName": "Design Veterinary Consultations",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Veterinary Consultations",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2023-10-12",
+        "endTime": "2023-10-14",
+        "dependencies": [],
+        "responsiblePerson": "Grace"
+      },
+      {
+        "id": "P3-T8",
+        "taskName": "Implement Veterinary Consultations",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Veterinary Consultations",
+        "priority": "High",
+        "estimatedTime": "4 days",
+        "startTime": "2023-10-15",
+        "endTime": "2023-10-18",
+        "dependencies": ["P3-T7"],
+        "responsiblePerson": "Heidi"
+      },
+      {
+        "id": "P3-T9",
+        "taskName": "Test Veterinary Consultations",
+        "correspondingPhase": "P3",
+        "correspondingFeature": "Veterinary Consultations",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-19",
+        "endTime": "2023-10-20",
+        "dependencies": ["P3-T8"],
+        "responsiblePerson": "Ivan"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": "P4-T1",
+        "taskName": "Design Expense and Revenue Tracking",
+        "correspondingPhase": "Financial & Production Management Module",
+        "correspondingFeature": "Expense and Revenue Tracking",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-09",
+        "endTime": "2023-11-10",
+        "dependencies": ["P1", "P2", "P3"],
+        "responsiblePerson": "Design Lead"
+      },
+      {
+        "id": "P4-T2",
+        "taskName": "Implement Expense and Revenue Tracking",
+        "correspondingPhase": "Financial & Production Management Module",
+        "correspondingFeature": "Expense and Revenue Tracking",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-11-10",
+        "endTime": "2023-11-12",
+        "dependencies": ["P1", "P2", "P3"],
+        "responsiblePerson": "Developer Lead"
+      },
+      {
+        "id": "P4-T3",
+        "taskName": "Test Expense and Revenue Tracking",
+        "correspondingPhase": "Financial & Production Management Module",
+        "correspondingFeature": "Expense and Revenue Tracking",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-12",
+        "endTime": "2023-11-13",
+        "dependencies": ["P1", "P2", "P3"],
+        "responsiblePerson": "QA Lead"
+      },
+      {
+        "id": "P4-T4",
+        "taskName": "Design Production Yield Analysis",
+        "correspondingPhase": "Financial & Production Management Module",
+        "correspondingFeature": "Production Yield Analysis",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-13",
+        "endTime": "2023-11-14",
+        "dependencies": ["P1", "P2", "P3"],
+        "responsiblePerson": "Design Lead"
+      },
+      {
+        "id": "P4-T5",
+        "taskName": "Implement Production Yield Analysis",
+        "correspondingPhase": "Financial & Production Management Module",
+        "correspondingFeature": "Production Yield Analysis",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-11-14",
+        "endTime": "2023-11-16",
+        "dependencies": ["P1", "P2", "P3"],
+        "responsiblePerson": "Developer Lead"
+      },
+      {
+        "id": "P4-T6",
+        "taskName": "Test Production Yield Analysis",
+        "correspondingPhase": "Financial & Production Management Module",
+        "correspondingFeature": "Production Yield Analysis",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-16",
+        "endTime": "2023-11-17",
+        "dependencies": ["P1", "P2", "P3"],
+        "responsiblePerson": "QA Lead"
+      },
+      {
+        "id": "P4-T7",
+        "taskName": "Design Cost Optimization",
+        "correspondingPhase": "Financial & Production Management Module",
+        "correspondingFeature": "Cost Optimization",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-17",
+        "endTime": "2023-11-18",
+        "dependencies": ["P1", "P2", "P3"],
+        "responsiblePerson": "Design Lead"
+      },
+      {
+        "id": "P4-T8",
+        "taskName": "Implement Cost Optimization",
+        "correspondingPhase": "Financial & Production Management Module",
+        "correspondingFeature": "Cost Optimization",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-11-18",
+        "endTime": "2023-11-20",
+        "dependencies": ["P1", "P2", "P3"],
+        "responsiblePerson": "Developer Lead"
+      },
+      {
+        "id": "P4-T9",
+        "taskName": "Test Cost Optimization",
+        "correspondingPhase": "Financial & Production Management Module",
+        "correspondingFeature": "Cost Optimization",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-20",
+        "endTime": "2023-11-21",
+        "dependencies": ["P1", "P2", "P3"],
+        "responsiblePerson": "QA Lead"
+      }
+    ]
+  ],
+  [
+    {
+      "id": "P1",
+      "phase": "Animal Management Module",
+      "feature list": [
+        "Animal Registration & Identification",
+        "Growth Monitoring",
+        "Breeding Records",
+        "Health Status Tracking"
+      ],
+      "estimatedTime": "4 weeks",
+      "startTime": "2023-10-12",
+      "endTime": "2023-11-09",
+      "dependencies": []
+    },
+    {
+      "id": "P2",
+      "phase": "Feed Management Module",
+      "feature list": [
+        "Feed Inventory Control",
+        "Feed Consumption Analysis",
+        "Supplier Management"
+      ],
+      "estimatedTime": "3 weeks",
+      "startTime": "2023-10-12",
+      "endTime": "2023-11-02",
+      "dependencies": []
+    },
+    {
+      "id": "P3",
+      "phase": "Health & Veterinary Management Module",
+      "feature list": [
+        "Vaccination Scheduling",
+        "Disease Outbreak Monitoring",
+        "Veterinary Consultations"
+      ],
+      "estimatedTime": "3 weeks",
+      "startTime": "2023-10-12",
+      "endTime": "2023-11-02",
+      "dependencies": []
+    },
+    {
+      "id": "P4",
+      "phase": "Financial & Production Management Module",
+      "feature list": [
+        "Expense and Revenue Tracking",
+        "Production Yield Analysis",
+        "Cost Optimization"
+      ],
+      "estimatedTime": "2 weeks",
+      "startTime": "2023-11-09",
+      "endTime": "2023-11-23",
+      "dependencies": ["P1", "P2", "P3"]
+    },
+    {
+      "id": "P5",
+      "phase": "Reporting & Analytics Module",
+      "feature list": [
+        "Customizable Reports",
+        "Dashboard Analytics",
+        "Compliance Reporting"
+      ],
+      "estimatedTime": "2 weeks",
+      "startTime": "2023-11-23",
+      "endTime": "2023-12-07",
+      "dependencies": ["P1", "P2", "P3", "P4"],
+      "tasks": [
+        {
+          "id": "P5-T1",
+          "taskName": "Design Customizable Reports",
+          "correspondingPhase": "Reporting & Analytics Module",
+          "correspondingFeature": "Customizable Reports",
+          "priority": "High",
+          "estimatedTime": "2 days",
+          "startTime": "2023-11-23",
+          "endTime": "2023-11-25",
+          "dependencies": [],
+          "responsiblePerson": "Alice"
+        },
+        {
+          "id": "P5-T2",
+          "taskName": "Implement Customizable Reports",
+          "correspondingPhase": "Reporting & Analytics Module",
+          "correspondingFeature": "Customizable Reports",
+          "priority": "Medium",
+          "estimatedTime": "3 days",
+          "startTime": "2023-11-26",
+          "endTime": "2023-11-29",
+          "dependencies": ["P5-T1"],
+          "responsiblePerson": "Bob"
+        },
+        {
+          "id": "P5-T3",
+          "taskName": "Test Customizable Reports",
+          "correspondingPhase": "Reporting & Analytics Module",
+          "correspondingFeature": "Customizable Reports",
+          "priority": "Low",
+          "estimatedTime": "1 day",
+          "startTime": "2023-11-30",
+          "endTime": "2023-12-01",
+          "dependencies": ["P5-T2"],
+          "responsiblePerson": "Charlie"
+        },
+        {
+          "id": "P5-T4",
+          "taskName": "Design Dashboard Analytics",
+          "correspondingPhase": "Reporting & Analytics Module",
+          "correspondingFeature": "Dashboard Analytics",
+          "priority": "High",
+          "estimatedTime": "2 days",
+          "startTime": "2023-11-23",
+          "endTime": "2023-11-25",
+          "dependencies": [],
+          "responsiblePerson": "Alice"
+        },
+        {
+          "id": "P5-T5",
+          "taskName": "Implement Dashboard Analytics",
+          "correspondingPhase": "Reporting & Analytics Module",
+          "correspondingFeature": "Dashboard Analytics",
+          "priority": "Medium",
+          "estimatedTime": "3 days",
+          "startTime": "2023-11-26",
+          "endTime": "2023-11-29",
+          "dependencies": ["P5-T4"],
+          "responsiblePerson": "Bob"
+        },
+        {
+          "id": "P5-T6",
+          "taskName": "Test Dashboard Analytics",
+          "correspondingPhase": "Reporting & Analytics Module",
+          "correspondingFeature": "Dashboard Analytics",
+          "priority": "Low",
+          "estimatedTime": "1 day",
+          "startTime": "2023-11-30",
+          "endTime": "2023-12-01",
+          "dependencies": ["P5-T5"],
+          "responsiblePerson": "Charlie"
+        },
+        {
+          "id": "P5-T7",
+          "taskName": "Design Compliance Reporting",
+          "correspondingPhase": "Reporting & Analytics Module",
+          "correspondingFeature": "Compliance Reporting",
+          "priority": "High",
+          "estimatedTime": "2 days",
+          "startTime": "2023-11-23",
+          "endTime": "2023-11-25",
+          "dependencies": [],
+          "responsiblePerson": "Alice"
+        },
+        {
+          "id": "P5-T8",
+          "taskName": "Implement Compliance Reporting",
+          "correspondingPhase": "Reporting & Analytics Module",
+          "correspondingFeature": "Compliance Reporting",
+          "priority": "Medium",
+          "estimatedTime": "3 days",
+          "startTime": "2023-11-26",
+          "endTime": "2023-11-29",
+          "dependencies": ["P5-T7"],
+          "responsiblePerson": "Bob"
+        },
+        {
+          "id": "P5-T9",
+          "taskName": "Test Compliance Reporting",
+          "correspondingPhase": "Reporting & Analytics Module",
+          "correspondingFeature": "Compliance Reporting",
+          "priority": "Low",
+          "estimatedTime": "1 day",
+          "startTime": "2023-11-30",
+          "endTime": "2023-12-01",
+          "dependencies": ["P5-T8"],
+          "responsiblePerson": "Charlie"
+        }
+      ]
+    }
+  ]
+]

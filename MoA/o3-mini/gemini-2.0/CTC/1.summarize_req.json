@@ -1,0 +1,22 @@
+{
+    "projectSummary": {
+        "overview": "Cơm Tấm Cali (CTC) is a high-end broken rice restaurant chain in Ho Chi Minh City with over 10 branches offering a variety of broken rice dishes and special drinks in luxurious, professionally styled spaces. CTC aims to develop and deploy a comprehensive system for branch management and online ordering to enhance customer experience and operational efficiency.",
+        "onlineOrdering": {
+            "features": "Customers can easily browse the website to select and place food orders. The system automatically routes each order to the nearest branch, ensuring prompt service. The ordering platform also supports tracking and application of promotions.",
+            "targetAudience": "This service specifically targets office workers and other clients who demand a quick and reliable online ordering option."
+        },
+        "onlinePayment": {
+            "integration": "The website features online payment capabilities through platforms such as www.nganluong.vn and similar systems, ensuring secure and quick transactions."
+        },
+        "branchManagement": {
+            "functionality": "The system centralizes branch management by collating orders, updating dish prices regularly, and handling multi-branch operations. This setup will facilitate data analysis to support strategic business decisions."
+        },
+        "customerFeedback": {
+            "feedbackMechanism": "Customers can leave feedback and rate the restaurant directly on the website, reflecting CTC's commitment to continuous improvement based on customer input."
+        },
+        "additionalFeatures": {
+            "priceUpdates": "Menu pricing is updated regularly to maintain accuracy and build customer trust.",
+            "promotions": "Regular promotions are integrated into the system, allowing users to track and apply discounts while ordering."
+        }
+    }
+}

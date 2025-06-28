@@ -1,0 +1,37 @@
+[
+    {
+        "category": "Business Information Management",
+        "list_feature": [
+            "Consolidated business information across all locations",
+            "Multi-branch management"
+        ]
+    },
+    {
+        "category": "Operations Management",
+        "list_feature": [
+            "Order taking management",
+            "Automated billing",
+            "Streamlined operations"
+        ]
+    },
+    {
+        "category": "Staff Management",
+        "list_feature": [
+            "Support for local staff"
+        ]
+    },
+    {
+        "category": "Reporting and Analytics",
+        "list_feature": [
+            "Comprehensive revenue reporting",
+            "Individual branch revenue reporting",
+            "Entire chain revenue reporting"
+        ]
+    },
+    {
+        "category": "Automation and Efficiency",
+        "list_feature": [
+            "Minimize manual tasks"
+        ]
+    }
+]

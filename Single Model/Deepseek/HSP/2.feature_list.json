@@ -1,0 +1,71 @@
+[
+  {
+    "category": "Piglet Health and Growth Management",
+    "list_feature": [
+      "Track growth metrics (weight, size)",
+      "Record feeding regimens and schedules",
+      "Monitor health status and medical history",
+      "Vaccination protocol tracking"
+    ]
+  },
+  {
+    "category": "Environmental Monitoring",
+    "list_feature": [
+      "Real-time temperature tracking",
+      "Environmental condition logging (humidity, air quality)",
+      "Alerts for deviations from optimal conditions"
+    ]
+  },
+  {
+    "category": "Farm Operations Management",
+    "list_feature": [
+      "Import-export activity logs",
+      "Common disease tracking and prevention guidelines",
+      "Revenue analytics dashboard",
+      "Inventory management for piglet breeds"
+    ]
+  },
+  {
+    "category": "Farmer Interaction Portal",
+    "list_feature": [
+      "Farmer account creation and authentication",
+      "Browse available piglet breeds with detailed descriptions",
+      "Online order placement and payment integration",
+      "Order history and status tracking"
+    ]
+  },
+  {
+    "category": "Post-Purchase Support System",
+    "list_feature": [
+      "Care practice coordination platform (feeding, vaccination)",
+      "Automated feeding schedule reminders",
+      "Disease diagnosis and troubleshooting support",
+      "Direct communication channel with farm staff"
+    ]
+  },
+  {
+    "category": "Administrative and Reporting Tools",
+    "list_feature": [
+      "Centralized record-keeping for farm data",
+      "Promotional announcement distribution",
+      "Customizable reports (monthly, quarterly, annual)",
+      "Strategic decision-making analytics"
+    ]
+  },
+  {
+    "category": "Logistics and Remote Coordination",
+    "list_feature": [
+      "Piglet exchange management for remote farmers",
+      "Logistics coordination (transportation, delivery tracking)",
+      "Remote access to care guidelines and resources"
+    ]
+  },
+  {
+    "category": "User Access and Security",
+    "list_feature": [
+      "Role-based access control (staff, farmers, owner)",
+      "Data encryption and security protocols",
+      "Audit logs for system activities"
+    ]
+  }
+]

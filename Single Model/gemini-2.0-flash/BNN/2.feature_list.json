@@ -1,0 +1,79 @@
+[
+    {
+        "category": "Farmer Registration",
+        "list_feature": [
+            "Account creation",
+            "Profile management (including farm details)",
+            "Produce listing (description, images, pricing)",
+            "Payment receiving setup"
+        ]
+    },
+    {
+        "category": "Product Listing",
+        "list_feature": [
+            "Detailed product descriptions",
+            "Image uploads",
+            "Pricing and quantity management",
+            "Categorization of produce (rice, fruits, fish, etc.)"
+        ]
+    },
+    {
+        "category": "Product Browsing & Search",
+        "list_feature": [
+            "Browse by category",
+            "Search functionality",
+            "Product comparison",
+            "Filtering options (e.g., price, location)"
+        ]
+    },
+    {
+        "category": "Shopping Cart & Checkout",
+        "list_feature": [
+            "Add to cart",
+            "View cart",
+            "Secure checkout process",
+            "Order summary"
+        ]
+    },
+    {
+        "category": "Payment Processing",
+        "list_feature": [
+            "Secure online payment gateway integration",
+            "Multiple payment options (e.g., bank transfer)",
+            "Transaction history"
+        ]
+    },
+    {
+        "category": "Order Management",
+        "list_feature": [
+            "Order placement",
+            "Order tracking",
+            "Order history for both farmers and customers",
+            "Order status updates"
+        ]
+    },
+    {
+        "category": "Shipping & Delivery",
+        "list_feature": [
+            "Delivery arrangement options",
+            "Shipping cost calculation",
+            "Address management"
+        ]
+    },
+    {
+        "category": "User Accounts",
+        "list_feature": [
+            "Customer account creation and management",
+            "Farmer account creation and management"
+        ]
+    },
+    {
+        "category": "Website Functionality",
+        "list_feature": [
+            "Homepage with featured products",
+            "About Us section",
+            "Contact Us section",
+            "FAQ section"
+        ]
+    }
+]

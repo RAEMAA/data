@@ -1,0 +1,50 @@
+[
+  {
+    "id": "P1",
+    "phase": "Phase 1: Core Platform Launch",
+    "feature_list": [
+      "Bank-verified farmer accounts",
+      "Farmer product listings with categories",
+      "Cart functionality with bulk ordering",
+      "Secure escrow payment system",
+      "In-app messaging between farmers/customers",
+      "Automated order notifications"
+    ],
+    "estimatedTime": "3 months",
+    "startTime": "2023-10-10",
+    "endTime": "2024-01-10",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Phase 2: Scalability & Advanced Features",
+    "feature_list": [
+      "Real-time inventory tracking",
+      "Dynamic pricing adjustments",
+      "Order status tracking",
+      "Multiple currency support",
+      "Transaction dispute resolution",
+      "Farmer rating system",
+      "Product quality reviews",
+      "Broadcast announcements"
+    ],
+    "estimatedTime": "3 months",
+    "startTime": "2024-01-11",
+    "endTime": "2024-04-11",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P3",
+    "phase": "Phase 3: User Experience & Analytics",
+    "feature_list": [
+      "Customer profiles with purchase history",
+      "Multi-factor authentication system",
+      "Automated delivery scheduling",
+      "Verified purchase badges"
+    ],
+    "estimatedTime": "3 months",
+    "startTime": "2024-04-12",
+    "endTime": "2024-07-12",
+    "dependencies": ["P2"]
+  }
+]

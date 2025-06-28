@@ -1,0 +1,2082 @@
+[
+    [
+        {
+            "id": "P1-T1",
+            "taskName": "Design User Registration Flow and Screens",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "User Registration",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2023-10-26",
+            "endTime": "2023-10-29",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T2",
+            "taskName": "Implement User Registration Backend",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "User Registration",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2023-10-29",
+            "endTime": "2023-11-03",
+            "dependencies": [
+                "P1-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T3",
+            "taskName": "Implement User Registration Frontend",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "User Registration",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2023-11-03",
+            "endTime": "2023-11-07",
+            "dependencies": [
+                "P1-T1",
+                "P1-T2"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P1-T4",
+            "taskName": "Test User Registration",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "User Registration",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2023-11-07",
+            "endTime": "2023-11-09",
+            "dependencies": [
+                "P1-T3"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T5",
+            "taskName": "Design User Profile Flow and Screens (Students, Researchers, Teachers)",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "User Profiles (Students, Researchers, Teachers)",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2023-10-26",
+            "endTime": "2023-10-30",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T6",
+            "taskName": "Implement User Profile Backend (Students, Researchers, Teachers)",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "User Profiles (Students, Researchers, Teachers)",
+            "priority": "High",
+            "estimationTime": "6 days",
+            "startTime": "2023-10-30",
+            "endTime": "2023-11-05",
+            "dependencies": [
+                "P1-T5"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T7",
+            "taskName": "Implement User Profile Frontend (Students, Researchers, Teachers)",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "User Profiles (Students, Researchers, Teachers)",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2023-11-05",
+            "endTime": "2023-11-10",
+            "dependencies": [
+                "P1-T5",
+                "P1-T6"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P1-T8",
+            "taskName": "Test User Profiles (Students, Researchers, Teachers)",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "User Profiles (Students, Researchers, Teachers)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2023-11-10",
+            "endTime": "2023-11-13",
+            "dependencies": [
+                "P1-T7"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T9",
+            "taskName": "Design Profile Customization Flow and Screens",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Profile Customization",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2023-11-13",
+            "endTime": "2023-11-16",
+            "dependencies": [
+                "P1-T5"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T10",
+            "taskName": "Implement Profile Customization Backend",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Profile Customization",
+            "priority": "Medium",
+            "estimationTime": "5 days",
+            "startTime": "2023-11-16",
+            "endTime": "2023-11-21",
+            "dependencies": [
+                "P1-T6",
+                "P1-T9"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T11",
+            "taskName": "Implement Profile Customization Frontend",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Profile Customization",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2023-11-21",
+            "endTime": "2023-11-25",
+            "dependencies": [
+                "P1-T7",
+                "P1-T9",
+                "P1-T10"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P1-T12",
+            "taskName": "Test Profile Customization",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Profile Customization",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2023-11-25",
+            "endTime": "2023-11-27",
+            "dependencies": [
+                "P1-T11"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T13",
+            "taskName": "Design Account Management Flow and Screens",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Account Management",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2023-11-27",
+            "endTime": "2023-11-30",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T14",
+            "taskName": "Implement Account Management Backend",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Account Management",
+            "priority": "Medium",
+            "estimationTime": "5 days",
+            "startTime": "2023-11-30",
+            "endTime": "2023-12-05",
+            "dependencies": [
+                "P1-T13",
+                "P1-T2"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T15",
+            "taskName": "Implement Account Management Frontend",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Account Management",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2023-12-05",
+            "endTime": "2023-12-09",
+            "dependencies": [
+                "P1-T13",
+                "P1-T14"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P1-T16",
+            "taskName": "Test Account Management",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Account Management",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2023-12-09",
+            "endTime": "2023-12-11",
+            "dependencies": [
+                "P1-T15"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T17",
+            "taskName": "Design University-Specific Networks and Affiliation Flow and Screens",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "University-Specific Networks",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2023-11-13",
+            "endTime": "2023-11-17",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T18",
+            "taskName": "Implement University-Specific Networks and Affiliation Backend",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "University-Specific Networks",
+            "priority": "High",
+            "estimationTime": "6 days",
+            "startTime": "2023-11-17",
+            "endTime": "2023-11-23",
+            "dependencies": [
+                "P1-T17",
+                "P1-T2"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T19",
+            "taskName": "Implement University-Specific Networks and Affiliation Frontend",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "University-Specific Networks",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2023-11-23",
+            "endTime": "2023-11-28",
+            "dependencies": [
+                "P1-T17",
+                "P1-T18"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P1-T20",
+            "taskName": "Test University-Specific Networks and Affiliation",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "University-Specific Networks",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2023-11-28",
+            "endTime": "2023-12-01",
+            "dependencies": [
+                "P1-T19"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T21",
+            "taskName": "Final Integration Testing",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "User Registration, User Profiles (Students, Researchers, Teachers), Profile Customization, Account Management, University-Specific Networks, University Affiliation (during registration)",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2023-12-11",
+            "endTime": "2023-12-16",
+            "dependencies": [
+                "P1-T4",
+                "P1-T8",
+                "P1-T12",
+                "P1-T16",
+                "P1-T20"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T22",
+            "taskName": "Deployment to Staging Environment",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "User Registration, User Profiles (Students, Researchers, Teachers), Profile Customization, Account Management, University-Specific Networks, University Affiliation (during registration)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2023-12-16",
+            "endTime": "2023-12-18",
+            "dependencies": [
+                "P1-T21"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        },
+        {
+            "id": "P1-T23",
+            "taskName": "User Acceptance Testing (UAT)",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "User Registration, User Profiles (Students, Researchers, Teachers), Profile Customization, Account Management, University-Specific Networks, University Affiliation (during registration)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2023-12-18",
+            "endTime": "2023-12-21",
+            "dependencies": [
+                "P1-T22"
+            ],
+            "responsiblePerson": "Product Owner"
+        }
+    ],
+    [
+        {
+            "id": "P2-T1",
+            "taskName": "Design Document Upload Feature",
+            "correspondingPhase": "Phase 2: Resource Sharing & Basic Search",
+            "correspondingFeature": "Document Upload (Learning Materials, Research Papers)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2023-12-22",
+            "endTime": "2023-12-26",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T2",
+            "taskName": "Implement Document Upload API",
+            "correspondingPhase": "Phase 2: Resource Sharing & Basic Search",
+            "correspondingFeature": "Document Upload (Learning Materials, Research Papers)",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2023-12-27",
+            "endTime": "2024-01-02",
+            "dependencies": [
+                "P2-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T3",
+            "taskName": "Implement Document Upload UI",
+            "correspondingPhase": "Phase 2: Resource Sharing & Basic Search",
+            "correspondingFeature": "Document Upload (Learning Materials, Research Papers)",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-01-03",
+            "endTime": "2024-01-08",
+            "dependencies": [
+                "P2-T1",
+                "P2-T2"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T4",
+            "taskName": "Test Document Upload Feature",
+            "correspondingPhase": "Phase 2: Resource Sharing & Basic Search",
+            "correspondingFeature": "Document Upload (Learning Materials, Research Papers)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-01-09",
+            "endTime": "2024-01-10",
+            "dependencies": [
+                "P2-T3"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T5",
+            "taskName": "Design Resource Categorization Schema",
+            "correspondingPhase": "Phase 2: Resource Sharing & Basic Search",
+            "correspondingFeature": "Resource Categorization (by Subject, Course, etc.)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2023-12-22",
+            "endTime": "2023-12-26",
+            "dependencies": [],
+            "responsiblePerson": "Data Architect"
+        },
+        {
+            "id": "P2-T6",
+            "taskName": "Implement Resource Categorization API",
+            "correspondingPhase": "Phase 2: Resource Sharing & Basic Search",
+            "correspondingFeature": "Resource Categorization (by Subject, Course, etc.)",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2023-12-27",
+            "endTime": "2024-01-02",
+            "dependencies": [
+                "P2-T5"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T7",
+            "taskName": "Implement Resource Categorization UI",
+            "correspondingPhase": "Phase 2: Resource Sharing & Basic Search",
+            "correspondingFeature": "Resource Categorization (by Subject, Course, etc.)",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-01-03",
+            "endTime": "2024-01-08",
+            "dependencies": [
+                "P2-T5",
+                "P2-T6"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T8",
+            "taskName": "Test Resource Categorization Feature",
+            "correspondingPhase": "Phase 2: Resource Sharing & Basic Search",
+            "correspondingFeature": "Resource Categorization (by Subject, Course, etc.)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-01-09",
+            "endTime": "2024-01-10",
+            "dependencies": [
+                "P2-T7"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T9",
+            "taskName": "Design Resource Search & Filtering UI/UX",
+            "correspondingPhase": "Phase 2: Resource Sharing & Basic Search",
+            "correspondingFeature": "Resource Search & Filtering",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-01-11",
+            "endTime": "2024-01-16",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T10",
+            "taskName": "Implement Resource Search & Filtering API",
+            "correspondingPhase": "Phase 2: Resource Sharing & Basic Search",
+            "correspondingFeature": "Resource Search & Filtering",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-01-17",
+            "endTime": "2024-01-23",
+            "dependencies": [
+                "P2-T9",
+                "P2-T6"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T11",
+            "taskName": "Implement Resource Search & Filtering UI",
+            "correspondingPhase": "Phase 2: Resource Sharing & Basic Search",
+            "correspondingFeature": "Resource Search & Filtering",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-01-24",
+            "endTime": "2024-01-29",
+            "dependencies": [
+                "P2-T9",
+                "P2-T10"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T12",
+            "taskName": "Test Resource Search & Filtering",
+            "correspondingPhase": "Phase 2: Resource Sharing & Basic Search",
+            "correspondingFeature": "Resource Search & Filtering",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-01-30",
+            "endTime": "2024-01-31",
+            "dependencies": [
+                "P2-T11"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T13",
+            "taskName": "Implement Resource Download Functionality",
+            "correspondingPhase": "Phase 2: Resource Sharing & Basic Search",
+            "correspondingFeature": "Resource Download",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-01-11",
+            "endTime": "2024-01-16",
+            "dependencies": [
+                "P2-T2"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T14",
+            "taskName": "Implement Resource Download UI",
+            "correspondingPhase": "Phase 2: Resource Sharing & Basic Search",
+            "correspondingFeature": "Resource Download",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-01-17",
+            "endTime": "2024-01-19",
+            "dependencies": [
+                "P2-T13"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T15",
+            "taskName": "Test Resource Download Functionality",
+            "correspondingPhase": "Phase 2: Resource Sharing & Basic Search",
+            "correspondingFeature": "Resource Download",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-01-22",
+            "endTime": "2024-01-22",
+            "dependencies": [
+                "P2-T14"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T16",
+            "taskName": "Implement Resource Preview Functionality",
+            "correspondingPhase": "Phase 2: Resource Sharing & Basic Search",
+            "correspondingFeature": "Resource Preview",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-01-23",
+            "endTime": "2024-01-29",
+            "dependencies": [
+                "P2-T2"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T17",
+            "taskName": "Implement Resource Preview UI",
+            "correspondingPhase": "Phase 2: Resource Sharing & Basic Search",
+            "correspondingFeature": "Resource Preview",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-01-30",
+            "endTime": "2024-02-01",
+            "dependencies": [
+                "P2-T16"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T18",
+            "taskName": "Test Resource Preview Functionality",
+            "correspondingPhase": "Phase 2: Resource Sharing & Basic Search",
+            "correspondingFeature": "Resource Preview",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-02-01",
+            "endTime": "2024-02-01",
+            "dependencies": [
+                "P2-T17"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T19",
+            "taskName": "Design Content Filtering by University Logic",
+            "correspondingPhase": "Phase 2: Resource Sharing & Basic Search",
+            "correspondingFeature": "Content Filtering by University",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2023-12-22",
+            "endTime": "2023-12-26",
+            "dependencies": [],
+            "responsiblePerson": "System Architect"
+        },
+        {
+            "id": "P2-T20",
+            "taskName": "Implement Content Filtering API",
+            "correspondingPhase": "Phase 2: Resource Sharing & Basic Search",
+            "correspondingFeature": "Content Filtering by University",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2023-12-27",
+            "endTime": "2024-01-02",
+            "dependencies": [
+                "P2-T19",
+                "P1-TBD"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T21",
+            "taskName": "Implement Content Filtering UI",
+            "correspondingPhase": "Phase 2: Resource Sharing & Basic Search",
+            "correspondingFeature": "Content Filtering by University",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-01-03",
+            "endTime": "2024-01-08",
+            "dependencies": [
+                "P2-T19",
+                "P2-T20"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T22",
+            "taskName": "Test Content Filtering by University",
+            "correspondingPhase": "Phase 2: Resource Sharing & Basic Search",
+            "correspondingFeature": "Content Filtering by University",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-01-09",
+            "endTime": "2024-01-10",
+            "dependencies": [
+                "P2-T21"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P3-T1",
+            "taskName": "Design Course Review Submission Flow and Screens",
+            "correspondingPhase": "Phase 3: Course & Teacher Reviews",
+            "correspondingFeature": "Course Review Submission",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-02-02",
+            "endTime": "2024-02-05",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T2",
+            "taskName": "Implement Course Review Submission Feature",
+            "correspondingPhase": "Phase 3: Course & Teacher Reviews",
+            "correspondingFeature": "Course Review Submission",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-02-06",
+            "endTime": "2024-02-11",
+            "dependencies": [
+                "P3-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T3",
+            "taskName": "Test Course Review Submission Feature",
+            "correspondingPhase": "Phase 3: Course & Teacher Reviews",
+            "correspondingFeature": "Course Review Submission",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-02-12",
+            "endTime": "2024-02-14",
+            "dependencies": [
+                "P3-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T4",
+            "taskName": "Design Teacher Review Submission Flow and Screens",
+            "correspondingPhase": "Phase 3: Course & Teacher Reviews",
+            "correspondingFeature": "Teacher Review Submission",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-02-02",
+            "endTime": "2024-02-05",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T5",
+            "taskName": "Implement Teacher Review Submission Feature",
+            "correspondingPhase": "Phase 3: Course & Teacher Reviews",
+            "correspondingFeature": "Teacher Review Submission",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-02-06",
+            "endTime": "2024-02-11",
+            "dependencies": [
+                "P3-T4"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T6",
+            "taskName": "Test Teacher Review Submission Feature",
+            "correspondingPhase": "Phase 3: Course & Teacher Reviews",
+            "correspondingFeature": "Teacher Review Submission",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-02-12",
+            "endTime": "2024-02-14",
+            "dependencies": [
+                "P3-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T7",
+            "taskName": "Design Review Display Flow and Screens",
+            "correspondingPhase": "Phase 3: Course & Teacher Reviews",
+            "correspondingFeature": "Review Display",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-02-15",
+            "endTime": "2024-02-18",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T8",
+            "taskName": "Implement Review Display Feature",
+            "correspondingPhase": "Phase 3: Course & Teacher Reviews",
+            "correspondingFeature": "Review Display",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-02-19",
+            "endTime": "2024-02-24",
+            "dependencies": [
+                "P3-T7",
+                "P3-T3",
+                "P3-T6"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P3-T9",
+            "taskName": "Test Review Display Feature",
+            "correspondingPhase": "Phase 3: Course & Teacher Reviews",
+            "correspondingFeature": "Review Display",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-02-25",
+            "endTime": "2024-02-27",
+            "dependencies": [
+                "P3-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T10",
+            "taskName": "Design Review Moderation Flow and Screens",
+            "correspondingPhase": "Phase 3: Course & Teacher Reviews",
+            "correspondingFeature": "Review Moderation",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-02-28",
+            "endTime": "2024-03-02",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T11",
+            "taskName": "Implement Review Moderation Feature",
+            "correspondingPhase": "Phase 3: Course & Teacher Reviews",
+            "correspondingFeature": "Review Moderation",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-03-03",
+            "endTime": "2024-03-06",
+            "dependencies": [
+                "P3-T10"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T12",
+            "taskName": "Test Review Moderation Feature",
+            "correspondingPhase": "Phase 3: Course & Teacher Reviews",
+            "correspondingFeature": "Review Moderation",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-03-07",
+            "endTime": "2024-03-07",
+            "dependencies": [
+                "P3-T11"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T13",
+            "taskName": "Design Rating System Flow and Screens",
+            "correspondingPhase": "Phase 3: Course & Teacher Reviews",
+            "correspondingFeature": "Rating System (for Courses & Teachers)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-02-15",
+            "endTime": "2024-02-17",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T14",
+            "taskName": "Implement Rating System Feature",
+            "correspondingPhase": "Phase 3: Course & Teacher Reviews",
+            "correspondingFeature": "Rating System (for Courses & Teachers)",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-02-18",
+            "endTime": "2024-02-22",
+            "dependencies": [
+                "P3-T13"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T15",
+            "taskName": "Test Rating System Feature",
+            "correspondingPhase": "Phase 3: Course & Teacher Reviews",
+            "correspondingFeature": "Rating System (for Courses & Teachers)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-02-23",
+            "endTime": "2024-02-23",
+            "dependencies": [
+                "P3-T14"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P4-T1",
+            "taskName": "Design User Search Feature",
+            "correspondingPhase": "Phase 4: Networking & Collaboration Features",
+            "correspondingFeature": "User Search",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-03-08",
+            "endTime": "2024-03-11",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T2",
+            "taskName": "Implement User Search Functionality",
+            "correspondingPhase": "Phase 4: Networking & Collaboration Features",
+            "correspondingFeature": "User Search",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-03-12",
+            "endTime": "2024-03-17",
+            "dependencies": [
+                "P4-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T3",
+            "taskName": "Test User Search Feature",
+            "correspondingPhase": "Phase 4: Networking & Collaboration Features",
+            "correspondingFeature": "User Search",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-03-18",
+            "endTime": "2024-03-20",
+            "dependencies": [
+                "P4-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T4",
+            "taskName": "Design Direct Messaging Feature",
+            "correspondingPhase": "Phase 4: Networking & Collaboration Features",
+            "correspondingFeature": "Direct Messaging",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-03-08",
+            "endTime": "2024-03-12",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T5",
+            "taskName": "Implement Direct Messaging Functionality",
+            "correspondingPhase": "Phase 4: Networking & Collaboration Features",
+            "correspondingFeature": "Direct Messaging",
+            "priority": "High",
+            "estimationTime": "1 week",
+            "startTime": "2024-03-13",
+            "endTime": "2024-03-20",
+            "dependencies": [
+                "P4-T4"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T6",
+            "taskName": "Implement Direct Messaging UI",
+            "correspondingPhase": "Phase 4: Networking & Collaboration Features",
+            "correspondingFeature": "Direct Messaging",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-03-21",
+            "endTime": "2024-03-25",
+            "dependencies": [
+                "P4-T4",
+                "P4-T5"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T7",
+            "taskName": "Test Direct Messaging Feature",
+            "correspondingPhase": "Phase 4: Networking & Collaboration Features",
+            "correspondingFeature": "Direct Messaging",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-03-26",
+            "endTime": "2024-03-29",
+            "dependencies": [
+                "P4-T5",
+                "P4-T6"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T8",
+            "taskName": "Design Group/Community Creation Feature",
+            "correspondingPhase": "Phase 4: Networking & Collaboration Features",
+            "correspondingFeature": "Group/Community Creation (within University Networks)",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-03-21",
+            "endTime": "2024-03-25",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T9",
+            "taskName": "Implement Group/Community Creation Functionality",
+            "correspondingPhase": "Phase 4: Networking & Collaboration Features",
+            "correspondingFeature": "Group/Community Creation (within University Networks)",
+            "priority": "Medium",
+            "estimationTime": "1 week",
+            "startTime": "2024-03-26",
+            "endTime": "2024-04-02",
+            "dependencies": [
+                "P4-T8"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T10",
+            "taskName": "Implement Group/Community Creation UI",
+            "correspondingPhase": "Phase 4: Networking & Collaboration Features",
+            "correspondingFeature": "Group/Community Creation (within University Networks)",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-04-03",
+            "endTime": "2024-04-07",
+            "dependencies": [
+                "P4-T8",
+                "P4-T9"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T11",
+            "taskName": "Test Group/Community Creation Feature",
+            "correspondingPhase": "Phase 4: Networking & Collaboration Features",
+            "correspondingFeature": "Group/Community Creation (within University Networks)",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-04-08",
+            "endTime": "2024-04-11",
+            "dependencies": [
+                "P4-T9",
+                "P4-T10"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T12",
+            "taskName": "Design Forum/Discussion Boards Feature",
+            "correspondingPhase": "Phase 4: Networking & Collaboration Features",
+            "correspondingFeature": "Forum/Discussion Boards",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-04-03",
+            "endTime": "2024-04-07",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T13",
+            "taskName": "Implement Forum/Discussion Boards Functionality",
+            "correspondingPhase": "Phase 4: Networking & Collaboration Features",
+            "correspondingFeature": "Forum/Discussion Boards",
+            "priority": "Medium",
+            "estimationTime": "1 week",
+            "startTime": "2024-04-08",
+            "endTime": "2024-04-15",
+            "dependencies": [
+                "P4-T12"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T14",
+            "taskName": "Implement Forum/Discussion Boards UI",
+            "correspondingPhase": "Phase 4: Networking & Collaboration Features",
+            "correspondingFeature": "Forum/Discussion Boards",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-04-16",
+            "endTime": "2024-04-20",
+            "dependencies": [
+                "P4-T12",
+                "P4-T13"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T15",
+            "taskName": "Test Forum/Discussion Boards Feature",
+            "correspondingPhase": "Phase 4: Networking & Collaboration Features",
+            "correspondingFeature": "Forum/Discussion Boards",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-04-21",
+            "endTime": "2024-04-24",
+            "dependencies": [
+                "P4-T13",
+                "P4-T14"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P5-T1",
+            "taskName": "Design Global Search UI/UX",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Global Search (across all resources and users)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-04-26",
+            "endTime": "2024-04-29",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P5-T2",
+            "taskName": "Implement Global Search Backend Logic",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Global Search (across all resources and users)",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-04-29",
+            "endTime": "2024-05-03",
+            "dependencies": [
+                "P5-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P5-T3",
+            "taskName": "Test Global Search Functionality",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Global Search (across all resources and users)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-03",
+            "endTime": "2024-05-05",
+            "dependencies": [
+                "P5-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T4",
+            "taskName": "Design Advanced Search Filters UI/UX",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Advanced Search Filters",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-04-26",
+            "endTime": "2024-04-29",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P5-T5",
+            "taskName": "Implement Advanced Search Filters Backend Logic",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Advanced Search Filters",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-04-29",
+            "endTime": "2024-05-03",
+            "dependencies": [
+                "P5-T4"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P5-T6",
+            "taskName": "Test Advanced Search Filters Functionality",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Advanced Search Filters",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-03",
+            "endTime": "2024-05-05",
+            "dependencies": [
+                "P5-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T7",
+            "taskName": "Design Recommendation Submission Form UI/UX",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Recommendation Submission",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-06",
+            "endTime": "2024-05-08",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P5-T8",
+            "taskName": "Implement Recommendation Submission Backend Logic",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Recommendation Submission",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-05-08",
+            "endTime": "2024-05-12",
+            "dependencies": [
+                "P5-T7"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P5-T9",
+            "taskName": "Test Recommendation Submission Functionality",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Recommendation Submission",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-12",
+            "endTime": "2024-05-13",
+            "dependencies": [
+                "P5-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T10",
+            "taskName": "Design Recommendation Display UI/UX",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Recommendation Display",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-06",
+            "endTime": "2024-05-08",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P5-T11",
+            "taskName": "Implement Recommendation Display Backend Logic",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Recommendation Display",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-05-08",
+            "endTime": "2024-05-12",
+            "dependencies": [
+                "P5-T10"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P5-T12",
+            "taskName": "Test Recommendation Display Functionality",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Recommendation Display",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-12",
+            "endTime": "2024-05-13",
+            "dependencies": [
+                "P5-T11"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T13",
+            "taskName": "Design Recommendation Categorization UI/UX",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Recommendation Categorization",
+            "priority": "Low",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-13",
+            "endTime": "2024-05-15",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P5-T14",
+            "taskName": "Implement Recommendation Categorization Backend Logic",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Recommendation Categorization",
+            "priority": "Low",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-15",
+            "endTime": "2024-05-18",
+            "dependencies": [
+                "P5-T13"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P5-T15",
+            "taskName": "Test Recommendation Categorization Functionality",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Recommendation Categorization",
+            "priority": "Low",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-18",
+            "endTime": "2024-05-19",
+            "dependencies": [
+                "P5-T14"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T16",
+            "taskName": "Integrate Global Search with Existing Resource Database",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Global Search (across all resources and users)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-05",
+            "endTime": "2024-05-08",
+            "dependencies": [
+                "P5-T3"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P5-T17",
+            "taskName": "Integrate Advanced Search Filters with Existing Resource Database",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Advanced Search Filters",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-05",
+            "endTime": "2024-05-08",
+            "dependencies": [
+                "P5-T6"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P5-T18",
+            "taskName": "Create Flows and Screens for Global Search",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Global Search (across all resources and users)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-19",
+            "endTime": "2024-05-21",
+            "dependencies": [
+                "P5-T1",
+                "P5-T2",
+                "P5-T3",
+                "P5-T16"
+            ],
+            "responsiblePerson": "Product Owner"
+        },
+        {
+            "id": "P5-T19",
+            "taskName": "Create Flows and Screens for Advanced Search Filters",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Advanced Search Filters",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-19",
+            "endTime": "2024-05-21",
+            "dependencies": [
+                "P5-T4",
+                "P5-T5",
+                "P5-T6",
+                "P5-T17"
+            ],
+            "responsiblePerson": "Product Owner"
+        },
+        {
+            "id": "P5-T20",
+            "taskName": "Create Flows and Screens for Recommendation Submission",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Recommendation Submission",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-19",
+            "endTime": "2024-05-21",
+            "dependencies": [
+                "P5-T7",
+                "P5-T8",
+                "P5-T9"
+            ],
+            "responsiblePerson": "Product Owner"
+        },
+        {
+            "id": "P5-T21",
+            "taskName": "Create Flows and Screens for Recommendation Display",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Recommendation Display",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-19",
+            "endTime": "2024-05-21",
+            "dependencies": [
+                "P5-T10",
+                "P5-T11",
+                "P5-T12"
+            ],
+            "responsiblePerson": "Product Owner"
+        },
+        {
+            "id": "P5-T22",
+            "taskName": "Create Flows and Screens for Recommendation Categorization",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Recommendation Categorization",
+            "priority": "Low",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-19",
+            "endTime": "2024-05-21",
+            "dependencies": [
+                "P5-T13",
+                "P5-T14",
+                "P5-T15"
+            ],
+            "responsiblePerson": "Product Owner"
+        },
+        {
+            "id": "P5-T23",
+            "taskName": "User Acceptance Testing (UAT) for Global Search",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Global Search (across all resources and users)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-21",
+            "endTime": "2024-05-24",
+            "dependencies": [
+                "P5-T18"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T24",
+            "taskName": "User Acceptance Testing (UAT) for Advanced Search Filters",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Advanced Search Filters",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-21",
+            "endTime": "2024-05-24",
+            "dependencies": [
+                "P5-T19"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T25",
+            "taskName": "User Acceptance Testing (UAT) for Recommendation Submission",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Recommendation Submission",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-21",
+            "endTime": "2024-05-23",
+            "dependencies": [
+                "P5-T20"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T26",
+            "taskName": "User Acceptance Testing (UAT) for Recommendation Display",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Recommendation Display",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-21",
+            "endTime": "2024-05-23",
+            "dependencies": [
+                "P5-T21"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T27",
+            "taskName": "User Acceptance Testing (UAT) for Recommendation Categorization",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Recommendation Categorization",
+            "priority": "Low",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-21",
+            "endTime": "2024-05-22",
+            "dependencies": [
+                "P5-T22"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T28",
+            "taskName": "Address UAT Feedback and Bug Fixes for Global Search",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Global Search (across all resources and users)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-24",
+            "endTime": "2024-05-27",
+            "dependencies": [
+                "P5-T23"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P5-T29",
+            "taskName": "Address UAT Feedback and Bug Fixes for Advanced Search Filters",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Advanced Search Filters",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-24",
+            "endTime": "2024-05-27",
+            "dependencies": [
+                "P5-T24"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P5-T30",
+            "taskName": "Address UAT Feedback and Bug Fixes for Recommendation Submission",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Recommendation Submission",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-23",
+            "endTime": "2024-05-25",
+            "dependencies": [
+                "P5-T25"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P5-T31",
+            "taskName": "Address UAT Feedback and Bug Fixes for Recommendation Display",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Recommendation Display",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-23",
+            "endTime": "2024-05-25",
+            "dependencies": [
+                "P5-T26"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P5-T32",
+            "taskName": "Address UAT Feedback and Bug Fixes for Recommendation Categorization",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Recommendation Categorization",
+            "priority": "Low",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-22",
+            "endTime": "2024-05-23",
+            "dependencies": [
+                "P5-T27"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P5-T33",
+            "taskName": "Final Testing and Deployment Preparation for Global Search",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Global Search (across all resources and users)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-27",
+            "endTime": "2024-05-29",
+            "dependencies": [
+                "P5-T28"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T34",
+            "taskName": "Final Testing and Deployment Preparation for Advanced Search Filters",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Advanced Search Filters",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-27",
+            "endTime": "2024-05-29",
+            "dependencies": [
+                "P5-T29"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T35",
+            "taskName": "Final Testing and Deployment Preparation for Recommendation Submission",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Recommendation Submission",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-25",
+            "endTime": "2024-05-26",
+            "dependencies": [
+                "P5-T30"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T36",
+            "taskName": "Final Testing and Deployment Preparation for Recommendation Display",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Recommendation Display",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-25",
+            "endTime": "2024-05-26",
+            "dependencies": [
+                "P5-T31"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T37",
+            "taskName": "Final Testing and Deployment Preparation for Recommendation Categorization",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Recommendation Categorization",
+            "priority": "Low",
+            "estimationTime": "0.5 days",
+            "startTime": "2024-05-23",
+            "endTime": "2024-05-23",
+            "dependencies": [
+                "P5-T32"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T38",
+            "taskName": "Deploy Global Search to Production",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Global Search (across all resources and users)",
+            "priority": "High",
+            "estimationTime": "0.5 days",
+            "startTime": "2024-05-29",
+            "endTime": "2024-05-29",
+            "dependencies": [
+                "P5-T33"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        },
+        {
+            "id": "P5-T39",
+            "taskName": "Deploy Advanced Search Filters to Production",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Advanced Search Filters",
+            "priority": "High",
+            "estimationTime": "0.5 days",
+            "startTime": "2024-05-29",
+            "endTime": "2024-05-29",
+            "dependencies": [
+                "P5-T34"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        },
+        {
+            "id": "P5-T40",
+            "taskName": "Deploy Recommendation Submission to Production",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Recommendation Submission",
+            "priority": "Medium",
+            "estimationTime": "0.5 days",
+            "startTime": "2024-05-26",
+            "endTime": "2024-05-26",
+            "dependencies": [
+                "P5-T35"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        },
+        {
+            "id": "P5-T41",
+            "taskName": "Deploy Recommendation Display to Production",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Recommendation Display",
+            "priority": "Medium",
+            "estimationTime": "0.5 days",
+            "startTime": "2024-05-26",
+            "endTime": "2024-05-26",
+            "dependencies": [
+                "P5-T36"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        },
+        {
+            "id": "P5-T42",
+            "taskName": "Deploy Recommendation Categorization to Production",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Recommendation Categorization",
+            "priority": "Low",
+            "estimationTime": "0.5 days",
+            "startTime": "2024-05-23",
+            "endTime": "2024-05-23",
+            "dependencies": [
+                "P5-T37"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        },
+        {
+            "id": "P5-T43",
+            "taskName": "Monitor and Support Global Search Post-Deployment",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Global Search (across all resources and users)",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-05-29",
+            "endTime": "2024-06-03",
+            "dependencies": [
+                "P5-T38"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        },
+        {
+            "id": "P5-T44",
+            "taskName": "Monitor and Support Advanced Search Filters Post-Deployment",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Advanced Search Filters",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-05-29",
+            "endTime": "2024-06-03",
+            "dependencies": [
+                "P5-T39"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        },
+        {
+            "id": "P5-T45",
+            "taskName": "Monitor and Support Recommendation Submission Post-Deployment",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Recommendation Submission",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-26",
+            "endTime": "2024-05-29",
+            "dependencies": [
+                "P5-T40"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        },
+        {
+            "id": "P5-T46",
+            "taskName": "Monitor and Support Recommendation Display Post-Deployment",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Recommendation Display",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-26",
+            "endTime": "2024-05-29",
+            "dependencies": [
+                "P5-T41"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        },
+        {
+            "id": "P5-T47",
+            "taskName": "Monitor and Support Recommendation Categorization Post-Deployment",
+            "correspondingPhase": "Phase 5: Advanced Search & Recommendations",
+            "correspondingFeature": "Recommendation Categorization",
+            "priority": "Low",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-23",
+            "endTime": "2024-05-25",
+            "dependencies": [
+                "P5-T42"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P6-T1",
+            "taskName": "Design Content Moderation System",
+            "correspondingPhase": "Phase 6: Content Management & Notifications",
+            "correspondingFeature": "Content Moderation",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-06-07",
+            "endTime": "2024-06-10",
+            "dependencies": [],
+            "responsiblePerson": "UX Designer"
+        },
+        {
+            "id": "P6-T2",
+            "taskName": "Implement Content Moderation Backend",
+            "correspondingPhase": "Phase 6: Content Management & Notifications",
+            "correspondingFeature": "Content Moderation",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-06-11",
+            "endTime": "2024-06-16",
+            "dependencies": [
+                "P6-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P6-T3",
+            "taskName": "Implement Content Moderation Frontend",
+            "correspondingPhase": "Phase 6: Content Management & Notifications",
+            "correspondingFeature": "Content Moderation",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-06-17",
+            "endTime": "2024-06-21",
+            "dependencies": [
+                "P6-T1",
+                "P6-T2"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P6-T4",
+            "taskName": "Test Content Moderation Functionality",
+            "correspondingPhase": "Phase 6: Content Management & Notifications",
+            "correspondingFeature": "Content Moderation",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-06-22",
+            "endTime": "2024-06-24",
+            "dependencies": [
+                "P6-T3"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P6-T5",
+            "taskName": "Design Reporting Inappropriate Content Feature",
+            "correspondingPhase": "Phase 6: Content Management & Notifications",
+            "correspondingFeature": "Reporting Inappropriate Content",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-06-07",
+            "endTime": "2024-06-09",
+            "dependencies": [],
+            "responsiblePerson": "UX Designer"
+        },
+        {
+            "id": "P6-T6",
+            "taskName": "Implement Reporting Inappropriate Content Backend",
+            "correspondingPhase": "Phase 6: Content Management & Notifications",
+            "correspondingFeature": "Reporting Inappropriate Content",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-06-10",
+            "endTime": "2024-06-14",
+            "dependencies": [
+                "P6-T5"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P6-T7",
+            "taskName": "Implement Reporting Inappropriate Content Frontend",
+            "correspondingPhase": "Phase 6: Content Management & Notifications",
+            "correspondingFeature": "Reporting Inappropriate Content",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-06-15",
+            "endTime": "2024-06-18",
+            "dependencies": [
+                "P6-T5",
+                "P6-T6"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P6-T8",
+            "taskName": "Test Reporting Inappropriate Content Functionality",
+            "correspondingPhase": "Phase 6: Content Management & Notifications",
+            "correspondingFeature": "Reporting Inappropriate Content",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-06-19",
+            "endTime": "2024-06-20",
+            "dependencies": [
+                "P6-T7"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P6-T9",
+            "taskName": "Design Notifications System",
+            "correspondingPhase": "Phase 6: Content Management & Notifications",
+            "correspondingFeature": "Notifications for new resources, messages, reviews, etc.",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-06-25",
+            "endTime": "2024-06-28",
+            "dependencies": [],
+            "responsiblePerson": "UX Designer"
+        },
+        {
+            "id": "P6-T10",
+            "taskName": "Implement Notifications Backend",
+            "correspondingPhase": "Phase 6: Content Management & Notifications",
+            "correspondingFeature": "Notifications for new resources, messages, reviews, etc.",
+            "priority": "High",
+            "estimationTime": "6 days",
+            "startTime": "2024-06-29",
+            "endTime": "2024-07-04",
+            "dependencies": [
+                "P6-T9"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P6-T11",
+            "taskName": "Implement Notifications Frontend",
+            "correspondingPhase": "Phase 6: Content Management & Notifications",
+            "correspondingFeature": "Notifications for new resources, messages, reviews, etc.",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-06-25",
+            "endTime": "2024-06-29",
+            "dependencies": [
+                "P6-T9"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P6-T12",
+            "taskName": "Test Notifications Functionality",
+            "correspondingPhase": "Phase 6: Content Management & Notifications",
+            "correspondingFeature": "Notifications for new resources, messages, reviews, etc.",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-01",
+            "endTime": "2024-07-03",
+            "dependencies": [
+                "P6-T10",
+                "P6-T11"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P7-T1",
+            "taskName": "Market Research & Analysis for High School Integration",
+            "correspondingPhase": "Phase 7: Expansion Planning & Design",
+            "correspondingFeature": "Support for High Schools",
+            "priority": "High",
+            "estimationTime": "1 week",
+            "startTime": "2024-07-05",
+            "endTime": "2024-07-12",
+            "dependencies": [
+                "P6-TBD"
+            ],
+            "responsiblePerson": "Market Analyst"
+        },
+        {
+            "id": "P7-T2",
+            "taskName": "Market Research & Analysis for Elementary School Integration",
+            "correspondingPhase": "Phase 7: Expansion Planning & Design",
+            "correspondingFeature": "Support for Elementary Schools",
+            "priority": "High",
+            "estimationTime": "1 week",
+            "startTime": "2024-07-05",
+            "endTime": "2024-07-12",
+            "dependencies": [
+                "P6-TBD"
+            ],
+            "responsiblePerson": "Market Analyst"
+        },
+        {
+            "id": "P7-T3",
+            "taskName": "Design: High School User Flows & Screens",
+            "correspondingPhase": "Phase 7: Expansion Planning & Design",
+            "correspondingFeature": "Support for High Schools",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-12",
+            "endTime": "2024-07-15",
+            "dependencies": [
+                "P7-T1"
+            ],
+            "responsiblePerson": "UX Designer"
+        },
+        {
+            "id": "P7-T4",
+            "taskName": "Design: Elementary School User Flows & Screens",
+            "correspondingPhase": "Phase 7: Expansion Planning & Design",
+            "correspondingFeature": "Support for Elementary Schools",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-12",
+            "endTime": "2024-07-15",
+            "dependencies": [
+                "P7-T2"
+            ],
+            "responsiblePerson": "UX Designer"
+        },
+        {
+            "id": "P7-T5",
+            "taskName": "Implementation: High School User Interface Components",
+            "correspondingPhase": "Phase 7: Expansion Planning & Design",
+            "correspondingFeature": "Support for High Schools",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-07-15",
+            "endTime": "2024-07-19",
+            "dependencies": [
+                "P7-T3"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P7-T6",
+            "taskName": "Implementation: Elementary School User Interface Components",
+            "correspondingPhase": "Phase 7: Expansion Planning & Design",
+            "correspondingFeature": "Support for Elementary Schools",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-07-15",
+            "endTime": "2024-07-19",
+            "dependencies": [
+                "P7-T4"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P7-T7",
+            "taskName": "Backend Adjustments for High School Data",
+            "correspondingPhase": "Phase 7: Expansion Planning & Design",
+            "correspondingFeature": "Support for High Schools",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-07-19",
+            "endTime": "2024-07-23",
+            "dependencies": [
+                "P7-T5"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P7-T8",
+            "taskName": "Backend Adjustments for Elementary School Data",
+            "correspondingPhase": "Phase 7: Expansion Planning & Design",
+            "correspondingFeature": "Support for Elementary Schools",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-07-19",
+            "endTime": "2024-07-23",
+            "dependencies": [
+                "P7-T6"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P7-T9",
+            "taskName": "Testing: High School User Flows",
+            "correspondingPhase": "Phase 7: Expansion Planning & Design",
+            "correspondingFeature": "Support for High Schools",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-23",
+            "endTime": "2024-07-25",
+            "dependencies": [
+                "P7-T7"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P7-T10",
+            "taskName": "Testing: Elementary School User Flows",
+            "correspondingPhase": "Phase 7: Expansion Planning & Design",
+            "correspondingFeature": "Support for Elementary Schools",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-23",
+            "endTime": "2024-07-25",
+            "dependencies": [
+                "P7-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P7-T11",
+            "taskName": "Documentation Update for High School and Elementary School Support",
+            "correspondingPhase": "Phase 7: Expansion Planning & Design",
+            "correspondingFeature": "Support for High Schools",
+            "priority": "Low",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-25",
+            "endTime": "2024-07-27",
+            "dependencies": [
+                "P7-T9",
+                "P7-T10"
+            ],
+            "responsiblePerson": "Technical Writer"
+        },
+        {
+            "id": "P7-T12",
+            "taskName": "Prepare Release Notes for High School and Elementary School Support",
+            "correspondingPhase": "Phase 7: Expansion Planning & Design",
+            "correspondingFeature": "Support for Elementary Schools",
+            "priority": "Low",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-27",
+            "endTime": "2024-07-28",
+            "dependencies": [
+                "P7-T11"
+            ],
+            "responsiblePerson": "Product Owner"
+        },
+        {
+            "id": "P7-T13",
+            "taskName": "Final Testing and Bug Fixes",
+            "correspondingPhase": "Phase 7: Expansion Planning & Design",
+            "correspondingFeature": "Support for High Schools",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-28",
+            "endTime": "2024-07-31",
+            "dependencies": [
+                "P7-T9",
+                "P7-T10"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P7-T14",
+            "taskName": "Deployment to Production",
+            "correspondingPhase": "Phase 7: Expansion Planning & Design",
+            "correspondingFeature": "Support for Elementary Schools",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-31",
+            "endTime": "2024-08-01",
+            "dependencies": [
+                "P7-T13"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        }
+    ]
+]

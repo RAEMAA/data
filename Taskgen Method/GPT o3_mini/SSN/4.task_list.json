@@ -1,0 +1,479 @@
+[
+  [
+    [
+      {
+        "id": "P1-T1",
+        "taskName": "Design Platform Architecture",
+        "correspondingPhase": "Platform Architecture & Design",
+        "correspondingFeature": "N/A",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2023-10-05",
+        "endTime": "2023-10-07",
+        "dependencies": [],
+        "responsiblePerson": "Architect"
+      },
+      {
+        "id": "P1-T2",
+        "taskName": "Implement Platform Architecture",
+        "correspondingPhase": "Platform Architecture & Design",
+        "correspondingFeature": "N/A",
+        "priority": "High",
+        "estimatedTime": "7 days",
+        "startTime": "2023-10-08",
+        "endTime": "2023-10-14",
+        "dependencies": ["P1-T1"],
+        "responsiblePerson": "Lead Developer"
+      },
+      {
+        "id": "P1-T3",
+        "taskName": "Test Platform Architecture",
+        "correspondingPhase": "Platform Architecture & Design",
+        "correspondingFeature": "N/A",
+        "priority": "Medium",
+        "estimatedTime": "5 days",
+        "startTime": "2023-10-15",
+        "endTime": "2023-10-19",
+        "dependencies": ["P1-T2"],
+        "responsiblePerson": "QA Engineer"
+      }
+    ]
+  ],
+  [
+    {
+      "id": "P1",
+      "phase": "Platform Architecture & Design",
+      "feature list": [],
+      "estimatedTime": "2 weeks",
+      "startTime": "2023-10-05",
+      "endTime": "2023-10-19",
+      "dependencies": []
+    },
+    {
+      "id": "P2",
+      "phase": "Develop Study Material Exchange Module",
+      "feature list": [
+        "Upload and share study materials",
+        "Download and access materials",
+        "Peer review and comments"
+      ],
+      "estimatedTime": "4 weeks",
+      "startTime": "2023-10-19",
+      "endTime": "2023-11-16",
+      "dependencies": ["P1"],
+      "tasks": [
+        {
+          "id": "P2-T1",
+          "taskName": "Design Upload and Share Study Materials",
+          "correspondingPhase": "P2",
+          "correspondingFeature": "Upload and share study materials",
+          "priority": "High",
+          "estimatedTime": "1 day",
+          "startTime": "2023-10-19",
+          "endTime": "2023-10-20",
+          "dependencies": [],
+          "responsiblePerson": "DesignLead"
+        },
+        {
+          "id": "P2-T2",
+          "taskName": "Implement Upload and Share Study Materials",
+          "correspondingPhase": "P2",
+          "correspondingFeature": "Upload and share study materials",
+          "priority": "High",
+          "estimatedTime": "2 days",
+          "startTime": "2023-10-20",
+          "endTime": "2023-10-22",
+          "dependencies": ["P2-T1"],
+          "responsiblePerson": "DeveloperLead"
+        },
+        {
+          "id": "P2-T3",
+          "taskName": "Test Upload and Share Study Materials",
+          "correspondingPhase": "P2",
+          "correspondingFeature": "Upload and share study materials",
+          "priority": "Medium",
+          "estimatedTime": "1 day",
+          "startTime": "2023-10-22",
+          "endTime": "2023-10-23",
+          "dependencies": ["P2-T2"],
+          "responsiblePerson": "QAEngineer"
+        },
+        {
+          "id": "P2-T4",
+          "taskName": "Design Download and Access Materials",
+          "correspondingPhase": "P2",
+          "correspondingFeature": "Download and access materials",
+          "priority": "Medium",
+          "estimatedTime": "1 day",
+          "startTime": "2023-10-23",
+          "endTime": "2023-10-24",
+          "dependencies": [],
+          "responsiblePerson": "DesignLead"
+        },
+        {
+          "id": "P2-T5",
+          "taskName": "Implement Download and Access Materials",
+          "correspondingPhase": "P2",
+          "correspondingFeature": "Download and access materials",
+          "priority": "Medium",
+          "estimatedTime": "2 days",
+          "startTime": "2023-10-24",
+          "endTime": "2023-10-26",
+          "dependencies": ["P2-T4"],
+          "responsiblePerson": "DeveloperLead"
+        },
+        {
+          "id": "P2-T6",
+          "taskName": "Test Download and Access Materials",
+          "correspondingPhase": "P2",
+          "correspondingFeature": "Download and access materials",
+          "priority": "Low",
+          "estimatedTime": "1 day",
+          "startTime": "2023-10-26",
+          "endTime": "2023-10-27",
+          "dependencies": ["P2-T5"],
+          "responsiblePerson": "QAEngineer"
+        },
+        {
+          "id": "P2-T7",
+          "taskName": "Design Peer Review and Comments",
+          "correspondingPhase": "P2",
+          "correspondingFeature": "Peer review and comments",
+          "priority": "Medium",
+          "estimatedTime": "1 day",
+          "startTime": "2023-10-27",
+          "endTime": "2023-10-28",
+          "dependencies": [],
+          "responsiblePerson": "DesignLead"
+        },
+        {
+          "id": "P2-T8",
+          "taskName": "Implement Peer Review and Comments",
+          "correspondingPhase": "P2",
+          "correspondingFeature": "Peer review and comments",
+          "priority": "Medium",
+          "estimatedTime": "2 days",
+          "startTime": "2023-10-28",
+          "endTime": "2023-10-30",
+          "dependencies": ["P2-T7"],
+          "responsiblePerson": "DeveloperLead"
+        },
+        {
+          "id": "P2-T9",
+          "taskName": "Test Peer Review and Comments",
+          "correspondingPhase": "P2",
+          "correspondingFeature": "Peer review and comments",
+          "priority": "Medium",
+          "estimatedTime": "1 day",
+          "startTime": "2023-10-30",
+          "endTime": "2023-10-31",
+          "dependencies": ["P2-T8"],
+          "responsiblePerson": "QAEngineer"
+        }
+      ]
+    },
+    {
+      "id": "P3",
+      "phase": "Develop Course Ratings Module",
+      "feature list": [
+        "Rate courses",
+        "View aggregated ratings",
+        "Submit detailed reviews"
+      ],
+      "estimatedTime": "3 weeks",
+      "startTime": "2023-10-19",
+      "endTime": "2023-11-09",
+      "dependencies": ["P1"]
+    },
+    {
+      "id": "P4",
+      "phase": "Develop Multi-Network Support Module",
+      "feature list": [
+        "Integration with various educational networks",
+        "Cross-platform access",
+        "Unified login system"
+      ],
+      "estimatedTime": "3 weeks",
+      "startTime": "2023-10-19",
+      "endTime": "2023-11-09",
+      "dependencies": ["P1"]
+    },
+    {
+      "id": "P5",
+      "phase": "Develop Student-Researcher Interaction Module",
+      "feature list": [
+        "Direct messaging between students and researchers",
+        "Forum for academic queries",
+        "Collaborative project features"
+      ],
+      "estimatedTime": "3 weeks",
+      "startTime": "2023-10-19",
+      "endTime": "2023-11-09",
+      "dependencies": ["P1"]
+    }
+  ],
+  [
+    [
+      {
+        "id": "P3-T1",
+        "taskName": "Design for Rate courses",
+        "correspondingPhase": "Develop Course Ratings Module",
+        "correspondingFeature": "Rate courses",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-19",
+        "endTime": "2023-10-20",
+        "dependencies": [],
+        "responsiblePerson": "Alice"
+      },
+      {
+        "id": "P3-T2",
+        "taskName": "Implementation for Rate courses",
+        "correspondingPhase": "Develop Course Ratings Module",
+        "correspondingFeature": "Rate courses",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-20",
+        "endTime": "2023-10-22",
+        "dependencies": ["P3-T1"],
+        "responsiblePerson": "Bob"
+      },
+      {
+        "id": "P3-T3",
+        "taskName": "Testing for Rate courses",
+        "correspondingPhase": "Develop Course Ratings Module",
+        "correspondingFeature": "Rate courses",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-22",
+        "endTime": "2023-10-23",
+        "dependencies": ["P3-T2"],
+        "responsiblePerson": "Charlie"
+      },
+      {
+        "id": "P3-T4",
+        "taskName": "Design for View aggregated ratings",
+        "correspondingPhase": "Develop Course Ratings Module",
+        "correspondingFeature": "View aggregated ratings",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-19",
+        "endTime": "2023-10-20",
+        "dependencies": [],
+        "responsiblePerson": "Alice"
+      },
+      {
+        "id": "P3-T5",
+        "taskName": "Implementation for View aggregated ratings",
+        "correspondingPhase": "Develop Course Ratings Module",
+        "correspondingFeature": "View aggregated ratings",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-20",
+        "endTime": "2023-10-22",
+        "dependencies": ["P3-T4"],
+        "responsiblePerson": "Bob"
+      },
+      {
+        "id": "P3-T6",
+        "taskName": "Testing for View aggregated ratings",
+        "correspondingPhase": "Develop Course Ratings Module",
+        "correspondingFeature": "View aggregated ratings",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-22",
+        "endTime": "2023-10-23",
+        "dependencies": ["P3-T5"],
+        "responsiblePerson": "Charlie"
+      },
+      {
+        "id": "P3-T7",
+        "taskName": "Design for Submit detailed reviews",
+        "correspondingPhase": "Develop Course Ratings Module",
+        "correspondingFeature": "Submit detailed reviews",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-19",
+        "endTime": "2023-10-20",
+        "dependencies": [],
+        "responsiblePerson": "Alice"
+      },
+      {
+        "id": "P3-T8",
+        "taskName": "Implementation for Submit detailed reviews",
+        "correspondingPhase": "Develop Course Ratings Module",
+        "correspondingFeature": "Submit detailed reviews",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-20",
+        "endTime": "2023-10-22",
+        "dependencies": ["P3-T7"],
+        "responsiblePerson": "Bob"
+      },
+      {
+        "id": "P3-T9",
+        "taskName": "Testing for Submit detailed reviews",
+        "correspondingPhase": "Develop Course Ratings Module",
+        "correspondingFeature": "Submit detailed reviews",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-22",
+        "endTime": "2023-10-23",
+        "dependencies": ["P3-T8"],
+        "responsiblePerson": "Charlie"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": "P4-T1",
+        "taskName": "Design Multi-Network Support for Educational Integration",
+        "correspondingPhase": "Develop Multi-Network Support Module",
+        "correspondingFeature": "Integration with various educational networks",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2023-10-19",
+        "endTime": "2023-10-25",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Designer"
+      },
+      {
+        "id": "P4-T2",
+        "taskName": "Implement Cross-Platform Access Features",
+        "correspondingPhase": "Develop Multi-Network Support Module",
+        "correspondingFeature": "Cross-platform access",
+        "priority": "Medium",
+        "estimatedTime": "10 days",
+        "startTime": "2023-10-26",
+        "endTime": "2023-11-05",
+        "dependencies": ["P4-T1"],
+        "responsiblePerson": "Full Stack Developer"
+      },
+      {
+        "id": "P4-T3",
+        "taskName": "Test Unified Login System Integration",
+        "correspondingPhase": "Develop Multi-Network Support Module",
+        "correspondingFeature": "Unified login system",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2023-11-06",
+        "endTime": "2023-11-09",
+        "dependencies": ["P4-T2"],
+        "responsiblePerson": "QA Engineer"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": "P5-T1",
+        "taskName": "Design Direct Messaging Module",
+        "correspondingPhase": "Develop Student-Researcher Interaction Module",
+        "correspondingFeature": "Direct messaging",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-19",
+        "endTime": "2023-10-20",
+        "dependencies": [],
+        "responsiblePerson": "Alice"
+      },
+      {
+        "id": "P5-T2",
+        "taskName": "Implement Direct Messaging Module",
+        "correspondingPhase": "Develop Student-Researcher Interaction Module",
+        "correspondingFeature": "Direct messaging",
+        "priority": "High",
+        "estimatedTime": "1 week",
+        "startTime": "2023-10-21",
+        "endTime": "2023-10-27",
+        "dependencies": ["P5-T1"],
+        "responsiblePerson": "Alice"
+      },
+      {
+        "id": "P5-T3",
+        "taskName": "Test Direct Messaging Module",
+        "correspondingPhase": "Develop Student-Researcher Interaction Module",
+        "correspondingFeature": "Direct messaging",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-28",
+        "endTime": "2023-10-29",
+        "dependencies": ["P5-T2"],
+        "responsiblePerson": "Alice"
+      },
+      {
+        "id": "P5-T4",
+        "taskName": "Design Forum Module",
+        "correspondingPhase": "Develop Student-Researcher Interaction Module",
+        "correspondingFeature": "Forum",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-19",
+        "endTime": "2023-10-20",
+        "dependencies": [],
+        "responsiblePerson": "Bob"
+      },
+      {
+        "id": "P5-T5",
+        "taskName": "Implement Forum Module",
+        "correspondingPhase": "Develop Student-Researcher Interaction Module",
+        "correspondingFeature": "Forum",
+        "priority": "High",
+        "estimatedTime": "1 week",
+        "startTime": "2023-10-21",
+        "endTime": "2023-10-27",
+        "dependencies": ["P5-T4"],
+        "responsiblePerson": "Bob"
+      },
+      {
+        "id": "P5-T6",
+        "taskName": "Test Forum Module",
+        "correspondingPhase": "Develop Student-Researcher Interaction Module",
+        "correspondingFeature": "Forum",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-28",
+        "endTime": "2023-10-29",
+        "dependencies": ["P5-T5"],
+        "responsiblePerson": "Bob"
+      },
+      {
+        "id": "P5-T7",
+        "taskName": "Design Collaborative Project Module",
+        "correspondingPhase": "Develop Student-Researcher Interaction Module",
+        "correspondingFeature": "Collaborative project",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-19",
+        "endTime": "2023-10-20",
+        "dependencies": [],
+        "responsiblePerson": "Charlie"
+      },
+      {
+        "id": "P5-T8",
+        "taskName": "Implement Collaborative Project Module",
+        "correspondingPhase": "Develop Student-Researcher Interaction Module",
+        "correspondingFeature": "Collaborative project",
+        "priority": "High",
+        "estimatedTime": "1 week",
+        "startTime": "2023-10-21",
+        "endTime": "2023-10-27",
+        "dependencies": ["P5-T7"],
+        "responsiblePerson": "Charlie"
+      },
+      {
+        "id": "P5-T9",
+        "taskName": "Test Collaborative Project Module",
+        "correspondingPhase": "Develop Student-Researcher Interaction Module",
+        "correspondingFeature": "Collaborative project",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-28",
+        "endTime": "2023-10-29",
+        "dependencies": ["P5-T8"],
+        "responsiblePerson": "Charlie"
+      }
+    ]
+  ]
+]

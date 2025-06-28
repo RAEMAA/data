@@ -1,0 +1,60 @@
+[
+    {
+        "category": "User Management",
+        "list_feature": [
+            "Farmer Registration",
+            "User Access (Farm Staff, Farmers, Farm Owner)"
+        ]
+    },
+    {
+        "category": "Piglet Management",
+        "list_feature": [
+            "Piglet Type Management",
+            "Piglet Growth Monitoring and Updating",
+            "Piglet Health Monitoring and Updating",
+            "Common Diseases Management",
+            "Piglet Import Status Management",
+            "Piglet Export Status Management"
+        ]
+    },
+    {
+        "category": "Operational Criteria Management",
+        "list_feature": [
+            "Feeding Criteria Management (per Piglet Type)",
+            "Temperature Criteria Management (per Piglet Type)",
+            "Environmental Criteria Management (per Piglet Type)"
+        ]
+    },
+    {
+        "category": "Order Management",
+        "list_feature": [
+            "Browse Available Piglet Types",
+            "Place Orders"
+        ]
+    },
+    {
+        "category": "Communication and Guidance",
+        "list_feature": [
+            "Post-Purchase Communication",
+            "Raising Techniques Guidance",
+            "Feeding Procedures Guidance",
+            "Vaccination Procedures Guidance"
+        ]
+    },
+    {
+        "category": "Reporting and Analytics",
+        "list_feature": [
+            "Revenue Statistics Handling",
+            "Monthly Report Generation",
+            "Quarterly Report Generation",
+            "Annual Report Generation"
+        ]
+    },
+    {
+        "category": "Farm Administration",
+        "list_feature": [
+            "Farm Information Management and Updating",
+            "Promotion Announcement"
+        ]
+    }
+]

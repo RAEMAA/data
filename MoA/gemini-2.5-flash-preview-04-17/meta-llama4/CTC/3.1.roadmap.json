@@ -1,0 +1,100 @@
+[
+    {
+        "id": "P1",
+        "phase": "Requirement Analysis and Planning",
+        "feature_list": [],
+        "estimatedTime": 2,
+        "startTime": "2024-09-16",
+        "endTime": "2024-09-17",
+        "dependencies": []
+    },
+    {
+        "id": "P2",
+        "phase": "Customer Functionalities Development",
+        "feature_list": [
+            "browse menu",
+            "place food orders",
+            "track and apply promotions",
+            "provide feedback",
+            "rate the restaurant"
+        ],
+        "estimatedTime": 8,
+        "startTime": "2024-09-18",
+        "endTime": "2024-09-25",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P3",
+        "phase": "Website Functionalities Development",
+        "feature_list": [
+            "display regularly updated and accurate prices",
+            "automatic order transfer to nearest branch"
+        ],
+        "estimatedTime": 6,
+        "startTime": "2024-09-20",
+        "endTime": "2024-09-26",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P4",
+        "phase": "Management Functionalities Development",
+        "feature_list": [
+            "efficient handling of all branches",
+            "facilitate menu updates",
+            "facilitate promotion updates",
+            "robust data analysis capabilities"
+        ],
+        "estimatedTime": 8,
+        "startTime": "2024-09-22",
+        "endTime": "2024-09-29",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P5",
+        "phase": "Payment Integration Development",
+        "feature_list": [
+            "secure online payment integration"
+        ],
+        "estimatedTime": 4,
+        "startTime": "2024-09-24",
+        "endTime": "2024-09-28",
+        "dependencies": [
+            "P2"
+        ]
+    },
+    {
+        "id": "P6",
+        "phase": "Delivery Service Development",
+        "feature_list": [
+            "broken rice delivery service"
+        ],
+        "estimatedTime": 3,
+        "startTime": "2024-09-25",
+        "endTime": "2024-09-28",
+        "dependencies": [
+            "P2",
+            "P3"
+        ]
+    },
+    {
+        "id": "P7",
+        "phase": "System Testing and Deployment",
+        "feature_list": [],
+        "estimatedTime": 5,
+        "startTime": "2024-09-30",
+        "endTime": "2024-10-05",
+        "dependencies": [
+            "P2",
+            "P3",
+            "P4",
+            "P5",
+            "P6"
+        ]
+    }
+]

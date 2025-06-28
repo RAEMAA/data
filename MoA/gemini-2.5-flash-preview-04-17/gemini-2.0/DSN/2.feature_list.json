@@ -1,0 +1,49 @@
+[
+  {
+      "feature_category": "User Profile & Personal Space",
+      "features": [
+          "User Profile Creation and Management",
+          "Personal Space Dashboard"
+      ]
+  },
+  {
+      "feature_category": "Content Sharing",
+      "features": [
+          "Dream Posting",
+          "Mood Sharing",
+          "Opinion Sharing",
+          "Idea Sharing"
+      ]
+  },
+  {
+      "feature_category": "Content Interaction",
+      "features": [
+          "Commenting and Feedback",
+          "Opinion Survey Creation",
+          "Opinion Survey Participation"
+      ]
+  },
+  {
+      "feature_category": "Connection",
+      "features": [
+          "Similar Dream Matching",
+          "Soulmate Connection",
+          "Direct Messaging"
+      ]
+  },
+  {
+      "feature_category": "Support",
+      "features": [
+          "Seeking Support/Solutions",
+          "Offering Support/Solutions"
+      ]
+  },
+  {
+      "feature_category": "Platform Core",
+      "features": [
+          "Content Feed",
+          "Search Functionality",
+          "Notifications"
+      ]
+  }
+]

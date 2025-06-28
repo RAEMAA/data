@@ -1,0 +1,47 @@
+[
+  {
+    "category": "Tour Operations",
+    "list_feature": [
+      "Special Tours",
+      "Japan Tours",
+      "Asia Tours",
+      "Europe-Australia-America Tours"
+    ]
+  },
+  {
+    "category": "Visa Services",
+    "list_feature": [
+      "Multi-Country Visa Consultation",
+      "Visa Documentation Review Services"
+    ]
+  },
+  {
+    "category": "Informational Displays",
+    "list_feature": [
+      "Day-by-Day Itinerary Schedules",
+      "Detailed Hotel Specifications",
+      "Flight Inclusion Summaries",
+      "Meal Plan Descriptions",
+      "Pricing Tier Breakdowns",
+      "Destination Image Galleries",
+      "Tour Guide Qualification Overviews",
+      "Cancellation & Policy Disclosures"
+    ]
+  },
+  {
+    "category": "Content Modules",
+    "list_feature": [
+      "Cultural Insight Articles",
+      "User Review & Travel Story Aggregator"
+    ]
+  },
+  {
+    "category": "Support Services",
+    "list_feature": [
+      "Visa Application Guidance",
+      "24/7 Booking Assistance",
+      "Emergency Travel Hotline",
+      "Multilingual Customer Support"
+    ]
+  }
+]

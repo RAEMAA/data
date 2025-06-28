@@ -1,0 +1,80 @@
+[
+    {
+        "id": "P1",
+        "phase": "Phase 1: Core Functionality Development",
+        "feature list": [
+            "Product Listing Management",
+            "Order Management",
+            "Product Browsing & Search",
+            "Shopping Cart",
+            "Order Placement",
+            "User Account Management",
+            "Product Catalog",
+            "Product Details Page",
+            "Product Image Gallery",
+            "Product Categories & Subcategories",
+            "Product Search & Filtering",
+            "Multiple Payment Gateway Integration",
+            "Secure Payment Processing",
+            "Order Summary with Payment Options"
+        ],
+        "estimatedTime": "8 weeks",
+        "startTime": "2024-01-26",
+        "endTime": "2024-03-22",
+        "dependencies": []
+    },
+    {
+        "id": "P2",
+        "phase": "Phase 2: Enhanced Functionality and User Experience",
+        "feature list": [
+            "Seller Profile Management",
+            "Sales Reporting",
+            "Order Tracking",
+            "Wishlist",
+            "Product Variations (size, color, etc.)",
+            "Product Recommendations",
+            "Payment History",
+            "Shipping Address Management"
+        ],
+        "estimatedTime": "6 weeks",
+        "startTime": "2024-03-25",
+        "endTime": "2024-05-03",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P3",
+        "phase": "Phase 3: Shipping and Customer Support",
+        "feature list": [
+            "Shipping Method Selection",
+            "Shipping Cost Calculation",
+            "Order Tracking",
+            "Shipping Notifications",
+            "Customer Support Access",
+            "Product Reviews & Ratings"
+        ],
+        "estimatedTime": "4 weeks",
+        "startTime": "2024-05-06",
+        "endTime": "2024-05-31",
+        "dependencies": [
+            "P1",
+            "P2"
+        ]
+    },
+    {
+        "id": "P4",
+        "phase": "Phase 4: Seller Communication, Inventory, and Refunds",
+        "feature list": [
+            "Communication with Buyers",
+            "Inventory Management",
+            "Refund Processing"
+        ],
+        "estimatedTime": "4 weeks",
+        "startTime": "2024-05-06",
+        "endTime": "2024-05-31",
+        "dependencies": [
+            "P1"
+        ]
+    }
+]

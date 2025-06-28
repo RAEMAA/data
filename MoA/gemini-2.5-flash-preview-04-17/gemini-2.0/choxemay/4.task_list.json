@@ -1,0 +1,1358 @@
+[
+  [
+      {
+          "id": "P1-T1",
+          "taskName": "Define Project Scope and Requirements",
+          "correspondingPhase": "Phase 1: Planning & Setup",
+          "correspondingFeature": null,
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-01",
+          "endTime": "2024-08-02",
+          "dependencies": [],
+          "responsiblePerson": "Project Manager"
+      },
+      {
+          "id": "P1-T2",
+          "taskName": "Choose Technology Stack and Architecture",
+          "correspondingPhase": "Phase 1: Planning & Setup",
+          "correspondingFeature": null,
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-02",
+          "endTime": "2024-08-03",
+          "dependencies": [],
+          "responsiblePerson": "Lead Architect"
+      },
+      {
+          "id": "P1-T3",
+          "taskName": "Set up Development Environment",
+          "correspondingPhase": "Phase 1: Planning & Setup",
+          "correspondingFeature": null,
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-03",
+          "endTime": "2024-08-04",
+          "dependencies": [],
+          "responsiblePerson": "DevOps Engineer"
+      },
+      {
+          "id": "P1-T4",
+          "taskName": "Design Database Schema",
+          "correspondingPhase": "Phase 1: Planning & Setup",
+          "correspondingFeature": null,
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-04",
+          "endTime": "2024-08-05",
+          "dependencies": [],
+          "responsiblePerson": "Database Administrator"
+      },
+      {
+          "id": "P1-T5",
+          "taskName": "Create Project Timeline and Budget",
+          "correspondingPhase": "Phase 1: Planning & Setup",
+          "correspondingFeature": null,
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-05",
+          "endTime": "2024-08-06",
+          "dependencies": [],
+          "responsiblePerson": "Project Manager"
+      },
+      {
+          "id": "P1-T6",
+          "taskName": "Define Testing Strategy",
+          "correspondingPhase": "Phase 1: Planning & Setup",
+          "correspondingFeature": null,
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-06",
+          "endTime": "2024-08-07",
+          "dependencies": [],
+          "responsiblePerson": "QA Lead"
+      }
+  ],
+  [
+      {
+          "id": "P2-T1",
+          "taskName": "Design User Registration UI",
+          "correspondingPhase": "Phase 2: User Management & Basic Listings",
+          "correspondingFeature": "User Registration",
+          "priority": "High",
+          "estimationTime": "8 hours",
+          "startTime": "2024-08-08",
+          "endTime": "2024-08-09",
+          "dependencies": [],
+          "responsiblePerson": "UI Designer"
+      },
+      {
+          "id": "P2-T2",
+          "taskName": "Implement User Registration",
+          "correspondingPhase": "Phase 2: User Management & Basic Listings",
+          "correspondingFeature": "User Registration",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-09",
+          "endTime": "2024-08-10",
+          "dependencies": [
+              "P2-T1"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P2-T3",
+          "taskName": "Test User Registration",
+          "correspondingPhase": "Phase 2: User Management & Basic Listings",
+          "correspondingFeature": "User Registration",
+          "priority": "High",
+          "estimationTime": "4 hours",
+          "startTime": "2024-08-10",
+          "endTime": "2024-08-10",
+          "dependencies": [
+              "P2-T2"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P2-T4",
+          "taskName": "Design User Login UI",
+          "correspondingPhase": "Phase 2: User Management & Basic Listings",
+          "correspondingFeature": "User Login",
+          "priority": "High",
+          "estimationTime": "8 hours",
+          "startTime": "2024-08-10",
+          "endTime": "2024-08-11",
+          "dependencies": [],
+          "responsiblePerson": "UI Designer"
+      },
+      {
+          "id": "P2-T5",
+          "taskName": "Implement User Login",
+          "correspondingPhase": "Phase 2: User Management & Basic Listings",
+          "correspondingFeature": "User Login",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-11",
+          "endTime": "2024-08-12",
+          "dependencies": [
+              "P2-T4"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P2-T6",
+          "taskName": "Test User Login",
+          "correspondingPhase": "Phase 2: User Management & Basic Listings",
+          "correspondingFeature": "User Login",
+          "priority": "High",
+          "estimationTime": "4 hours",
+          "startTime": "2024-08-12",
+          "endTime": "2024-08-12",
+          "dependencies": [
+              "P2-T5"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P2-T7",
+          "taskName": "Design User Profile Management UI",
+          "correspondingPhase": "Phase 2: User Management & Basic Listings",
+          "correspondingFeature": "User Profile Management",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-12",
+          "endTime": "2024-08-13",
+          "dependencies": [],
+          "responsiblePerson": "UI Designer"
+      },
+      {
+          "id": "P2-T8",
+          "taskName": "Implement User Profile Management",
+          "correspondingPhase": "Phase 2: User Management & Basic Listings",
+          "correspondingFeature": "User Profile Management",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-13",
+          "endTime": "2024-08-14",
+          "dependencies": [
+              "P2-T7"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P2-T9",
+          "taskName": "Test User Profile Management",
+          "correspondingPhase": "Phase 2: User Management & Basic Listings",
+          "correspondingFeature": "User Profile Management",
+          "priority": "Medium",
+          "estimationTime": "4 hours",
+          "startTime": "2024-08-14",
+          "endTime": "2024-08-14",
+          "dependencies": [
+              "P2-T8"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P2-T10",
+          "taskName": "Design Search Listings UI",
+          "correspondingPhase": "Phase 2: User Management & Basic Listings",
+          "correspondingFeature": "Search Listings",
+          "priority": "High",
+          "estimationTime": "8 hours",
+          "startTime": "2024-08-14",
+          "endTime": "2024-08-15",
+          "dependencies": [],
+          "responsiblePerson": "UI Designer"
+      },
+      {
+          "id": "P2-T11",
+          "taskName": "Implement Search Listings",
+          "correspondingPhase": "Phase 2: User Management & Basic Listings",
+          "correspondingFeature": "Search Listings",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-15",
+          "endTime": "2024-08-16",
+          "dependencies": [
+              "P2-T10"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P2-T12",
+          "taskName": "Test Search Listings",
+          "correspondingPhase": "Phase 2: User Management & Basic Listings",
+          "correspondingFeature": "Search Listings",
+          "priority": "High",
+          "estimationTime": "4 hours",
+          "startTime": "2024-08-16",
+          "endTime": "2024-08-16",
+          "dependencies": [
+              "P2-T11"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P2-T13",
+          "taskName": "Design Filter Listings UI",
+          "correspondingPhase": "Phase 2: User Management & Basic Listings",
+          "correspondingFeature": "Filter Listings",
+          "priority": "Medium",
+          "estimationTime": "8 hours",
+          "startTime": "2024-08-16",
+          "endTime": "2024-08-17",
+          "dependencies": [],
+          "responsiblePerson": "UI Designer"
+      },
+      {
+          "id": "P2-T14",
+          "taskName": "Implement Filter Listings",
+          "correspondingPhase": "Phase 2: User Management & Basic Listings",
+          "correspondingFeature": "Filter Listings",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-17",
+          "endTime": "2024-08-18",
+          "dependencies": [
+              "P2-T13"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P2-T15",
+          "taskName": "Test Filter Listings",
+          "correspondingPhase": "Phase 2: User Management & Basic Listings",
+          "correspondingFeature": "Filter Listings",
+          "priority": "Medium",
+          "estimationTime": "4 hours",
+          "startTime": "2024-08-18",
+          "endTime": "2024-08-18",
+          "dependencies": [
+              "P2-T14"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P2-T16",
+          "taskName": "Design Sort Listings UI",
+          "correspondingPhase": "Phase 2: User Management & Basic Listings",
+          "correspondingFeature": "Sort Listings",
+          "priority": "Medium",
+          "estimationTime": "4 hours",
+          "startTime": "2024-08-18",
+          "endTime": "2024-08-19",
+          "dependencies": [],
+          "responsiblePerson": "UI Designer"
+      },
+      {
+          "id": "P2-T17",
+          "taskName": "Implement Sort Listings",
+          "correspondingPhase": "Phase 2: User Management & Basic Listings",
+          "correspondingFeature": "Sort Listings",
+          "priority": "Medium",
+          "estimationTime": "8 hours",
+          "startTime": "2024-08-19",
+          "endTime": "2024-08-20",
+          "dependencies": [
+              "P2-T16"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P2-T18",
+          "taskName": "Test Sort Listings",
+          "correspondingPhase": "Phase 2: User Management & Basic Listings",
+          "correspondingFeature": "Sort Listings",
+          "priority": "Medium",
+          "estimationTime": "4 hours",
+          "startTime": "2024-08-20",
+          "endTime": "2024-08-20",
+          "dependencies": [
+              "P2-T17"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P2-T19",
+          "taskName": "Design View Listing Details UI",
+          "correspondingPhase": "Phase 2: User Management & Basic Listings",
+          "correspondingFeature": "View Listing Details",
+          "priority": "High",
+          "estimationTime": "8 hours",
+          "startTime": "2024-08-20",
+          "endTime": "2024-08-21",
+          "dependencies": [],
+          "responsiblePerson": "UI Designer"
+      },
+      {
+          "id": "P2-T20",
+          "taskName": "Implement View Listing Details",
+          "correspondingPhase": "Phase 2: User Management & Basic Listings",
+          "correspondingFeature": "View Listing Details",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-21",
+          "endTime": "2024-08-21",
+          "dependencies": [
+              "P2-T19"
+          ],
+          "responsiblePerson": "Frontend Developer"
+      },
+      {
+          "id": "P2-T21",
+          "taskName": "Test View Listing Details",
+          "correspondingPhase": "Phase 2: User Management & Basic Listings",
+          "correspondingFeature": "View Listing Details",
+          "priority": "High",
+          "estimationTime": "4 hours",
+          "startTime": "2024-08-21",
+          "endTime": "2024-08-21",
+          "dependencies": [
+              "P2-T20"
+          ],
+          "responsiblePerson": "QA Engineer"
+      }
+  ],
+  [
+      {
+          "id": "P3-T1",
+          "taskName": "Design Create Listing Functionality",
+          "correspondingPhase": "Phase 3: Listing Management",
+          "correspondingFeature": "Create Listing (Motorcycles, Parts, Accessories)",
+          "priority": "High",
+          "estimationTime": "8 hours",
+          "startTime": "2024-08-22",
+          "endTime": "2024-08-22",
+          "dependencies": [
+              "P2"
+          ],
+          "responsiblePerson": "Designer"
+      },
+      {
+          "id": "P3-T2",
+          "taskName": "Implement Create Listing Functionality",
+          "correspondingPhase": "Phase 3: Listing Management",
+          "correspondingFeature": "Create Listing (Motorcycles, Parts, Accessories)",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-08-23",
+          "endTime": "2024-08-24",
+          "dependencies": [
+              "P3-T1"
+          ],
+          "responsiblePerson": "Developer"
+      },
+      {
+          "id": "P3-T3",
+          "taskName": "Test Create Listing Functionality",
+          "correspondingPhase": "Phase 3: Listing Management",
+          "correspondingFeature": "Create Listing (Motorcycles, Parts, Accessories)",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-26",
+          "endTime": "2024-08-26",
+          "dependencies": [
+              "P3-T2"
+          ],
+          "responsiblePerson": "Tester"
+      },
+      {
+          "id": "P3-T4",
+          "taskName": "Design Edit Listing Functionality",
+          "correspondingPhase": "Phase 3: Listing Management",
+          "correspondingFeature": "Edit Listing",
+          "priority": "Medium",
+          "estimationTime": "4 hours",
+          "startTime": "2024-08-27",
+          "endTime": "2024-08-27",
+          "dependencies": [
+              "P2"
+          ],
+          "responsiblePerson": "Designer"
+      },
+      {
+          "id": "P3-T5",
+          "taskName": "Implement Edit Listing Functionality",
+          "correspondingPhase": "Phase 3: Listing Management",
+          "correspondingFeature": "Edit Listing",
+          "priority": "Medium",
+          "estimationTime": "1.5 days",
+          "startTime": "2024-08-28",
+          "endTime": "2024-08-29",
+          "dependencies": [
+              "P3-T4"
+          ],
+          "responsiblePerson": "Developer"
+      },
+      {
+          "id": "P3-T6",
+          "taskName": "Test Edit Listing Functionality",
+          "correspondingPhase": "Phase 3: Listing Management",
+          "correspondingFeature": "Edit Listing",
+          "priority": "Medium",
+          "estimationTime": "6 hours",
+          "startTime": "2024-08-30",
+          "endTime": "2024-08-30",
+          "dependencies": [
+              "P3-T5"
+          ],
+          "responsiblePerson": "Tester"
+      },
+      {
+          "id": "P3-T7",
+          "taskName": "Design Delete Listing Functionality",
+          "correspondingPhase": "Phase 3: Listing Management",
+          "correspondingFeature": "Delete Listing",
+          "priority": "Medium",
+          "estimationTime": "4 hours",
+          "startTime": "2024-08-27",
+          "endTime": "2024-08-27",
+          "dependencies": [
+              "P2"
+          ],
+          "responsiblePerson": "Designer"
+      },
+      {
+          "id": "P3-T8",
+          "taskName": "Implement Delete Listing Functionality",
+          "correspondingPhase": "Phase 3: Listing Management",
+          "correspondingFeature": "Delete Listing",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-28",
+          "endTime": "2024-08-28",
+          "dependencies": [
+              "P3-T7"
+          ],
+          "responsiblePerson": "Developer"
+      },
+      {
+          "id": "P3-T9",
+          "taskName": "Test Delete Listing Functionality",
+          "correspondingPhase": "Phase 3: Listing Management",
+          "correspondingFeature": "Delete Listing",
+          "priority": "Medium",
+          "estimationTime": "4 hours",
+          "startTime": "2024-08-29",
+          "endTime": "2024-08-29",
+          "dependencies": [
+              "P3-T8"
+          ],
+          "responsiblePerson": "Tester"
+      },
+      {
+          "id": "P3-T10",
+          "taskName": "Design Manage My Listings Functionality",
+          "correspondingPhase": "Phase 3: Listing Management",
+          "correspondingFeature": "Manage My Listings",
+          "priority": "Medium",
+          "estimationTime": "6 hours",
+          "startTime": "2024-08-29",
+          "endTime": "2024-08-29",
+          "dependencies": [
+              "P2"
+          ],
+          "responsiblePerson": "Designer"
+      },
+      {
+          "id": "P3-T11",
+          "taskName": "Implement Manage My Listings Functionality",
+          "correspondingPhase": "Phase 3: Listing Management",
+          "correspondingFeature": "Manage My Listings",
+          "priority": "Medium",
+          "estimationTime": "1.5 days",
+          "startTime": "2024-08-30",
+          "endTime": "2024-08-31",
+          "dependencies": [
+              "P3-T10"
+          ],
+          "responsiblePerson": "Developer"
+      },
+      {
+          "id": "P3-T12",
+          "taskName": "Test Manage My Listings Functionality",
+          "correspondingPhase": "Phase 3: Listing Management",
+          "correspondingFeature": "Manage My Listings",
+          "priority": "Medium",
+          "estimationTime": "6 hours",
+          "startTime": "2024-08-31",
+          "endTime": "2024-08-31",
+          "dependencies": [
+              "P3-T11"
+          ],
+          "responsiblePerson": "Tester"
+      }
+  ],
+  [
+      {
+          "id": "P4-T1",
+          "taskName": "Design Bidding Functionality UI",
+          "correspondingPhase": "Phase 4: Buying & Selling Core",
+          "correspondingFeature": "Bidding Functionality",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-01",
+          "endTime": "2024-09-02",
+          "dependencies": [
+              "P3-T12"
+          ],
+          "responsiblePerson": "UI Designer"
+      },
+      {
+          "id": "P4-T2",
+          "taskName": "Implement Bidding Functionality",
+          "correspondingPhase": "Phase 4: Buying & Selling Core",
+          "correspondingFeature": "Bidding Functionality",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-09-02",
+          "endTime": "2024-09-05",
+          "dependencies": [
+              "P4-T1"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P4-T3",
+          "taskName": "Test Bidding Functionality",
+          "correspondingPhase": "Phase 4: Buying & Selling Core",
+          "correspondingFeature": "Bidding Functionality",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-05",
+          "endTime": "2024-09-06",
+          "dependencies": [
+              "P4-T2"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P4-T4",
+          "taskName": "Design Buy Now Functionality UI",
+          "correspondingPhase": "Phase 4: Buying & Selling Core",
+          "correspondingFeature": "Buy Now Functionality",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-01",
+          "endTime": "2024-09-02",
+          "dependencies": [
+              "P3-T12"
+          ],
+          "responsiblePerson": "UI Designer"
+      },
+      {
+          "id": "P4-T5",
+          "taskName": "Implement Buy Now Functionality",
+          "correspondingPhase": "Phase 4: Buying & Selling Core",
+          "correspondingFeature": "Buy Now Functionality",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-09-02",
+          "endTime": "2024-09-04",
+          "dependencies": [
+              "P4-T4"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P4-T6",
+          "taskName": "Test Buy Now Functionality",
+          "correspondingPhase": "Phase 4: Buying & Selling Core",
+          "correspondingFeature": "Buy Now Functionality",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-04",
+          "endTime": "2024-09-05",
+          "dependencies": [
+              "P4-T5"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P4-T7",
+          "taskName": "Design Checkout Process UI",
+          "correspondingPhase": "Phase 4: Buying & Selling Core",
+          "correspondingFeature": "Checkout Process",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-06",
+          "endTime": "2024-09-07",
+          "dependencies": [
+              "P3-T12"
+          ],
+          "responsiblePerson": "UI Designer"
+      },
+      {
+          "id": "P4-T8",
+          "taskName": "Implement Checkout Process",
+          "correspondingPhase": "Phase 4: Buying & Selling Core",
+          "correspondingFeature": "Checkout Process",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-09-07",
+          "endTime": "2024-09-10",
+          "dependencies": [
+              "P4-T7"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P4-T9",
+          "taskName": "Test Checkout Process",
+          "correspondingPhase": "Phase 4: Buying & Selling Core",
+          "correspondingFeature": "Checkout Process",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-10",
+          "endTime": "2024-09-11",
+          "dependencies": [
+              "P4-T8"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P4-T10",
+          "taskName": "Research Payment Gateway Options",
+          "correspondingPhase": "Phase 4: Buying & Selling Core",
+          "correspondingFeature": "Payment Gateway Integration",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-09-01",
+          "endTime": "2024-09-03",
+          "dependencies": [
+              "P3-T12"
+          ],
+          "responsiblePerson": "Business Analyst"
+      },
+      {
+          "id": "P4-T11",
+          "taskName": "Design Payment Gateway Integration",
+          "correspondingPhase": "Phase 4: Buying & Selling Core",
+          "correspondingFeature": "Payment Gateway Integration",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-03",
+          "endTime": "2024-09-04",
+          "dependencies": [
+              "P4-T10"
+          ],
+          "responsiblePerson": "Software Architect"
+      },
+      {
+          "id": "P4-T12",
+          "taskName": "Implement Payment Gateway Integration",
+          "correspondingPhase": "Phase 4: Buying & Selling Core",
+          "correspondingFeature": "Payment Gateway Integration",
+          "priority": "High",
+          "estimationTime": "5 days",
+          "startTime": "2024-09-11",
+          "endTime": "2024-09-16",
+          "dependencies": [
+              "P4-T9",
+              "P4-T11"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P4-T13",
+          "taskName": "Test Payment Gateway Integration",
+          "correspondingPhase": "Phase 4: Buying & Selling Core",
+          "correspondingFeature": "Payment Gateway Integration",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-09-16",
+          "endTime": "2024-09-18",
+          "dependencies": [
+              "P4-T12"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P4-T14",
+          "taskName": "Final Testing and Bug Fixing",
+          "correspondingPhase": "Phase 4: Buying & Selling Core",
+          "correspondingFeature": "Bidding Functionality",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-09-18",
+          "endTime": "2024-09-21",
+          "dependencies": [
+              "P4-T3",
+              "P4-T6",
+              "P4-T13"
+          ],
+          "responsiblePerson": "QA Engineer"
+      }
+  ],
+  [
+      {
+          "id": "P5-T1",
+          "taskName": "Design Credibility Score Calculation",
+          "correspondingPhase": "Phase 5: Credibility System",
+          "correspondingFeature": "Credibility Score Calculation (based on transactions, feedback, value)",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-22",
+          "endTime": "2024-09-23",
+          "dependencies": [
+              "P4-T1"
+          ],
+          "responsiblePerson": "Lead Designer"
+      },
+      {
+          "id": "P5-T2",
+          "taskName": "Implement Credibility Score Calculation",
+          "correspondingPhase": "Phase 5: Credibility System",
+          "correspondingFeature": "Credibility Score Calculation (based on transactions, feedback, value)",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-09-23",
+          "endTime": "2024-09-25",
+          "dependencies": [
+              "P5-T1"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P5-T3",
+          "taskName": "Test Credibility Score Calculation",
+          "correspondingPhase": "Phase 5: Credibility System",
+          "correspondingFeature": "Credibility Score Calculation (based on transactions, feedback, value)",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-25",
+          "endTime": "2024-09-26",
+          "dependencies": [
+              "P5-T2"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P5-T4",
+          "taskName": "Design Display Credibility Score",
+          "correspondingPhase": "Phase 5: Credibility System",
+          "correspondingFeature": "Display Credibility Score",
+          "priority": "Medium",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-09-23",
+          "endTime": "2024-09-23",
+          "dependencies": [
+              "P5-T1"
+          ],
+          "responsiblePerson": "UI/UX Designer"
+      },
+      {
+          "id": "P5-T5",
+          "taskName": "Implement Display Credibility Score",
+          "correspondingPhase": "Phase 5: Credibility System",
+          "correspondingFeature": "Display Credibility Score",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-26",
+          "endTime": "2024-09-27",
+          "dependencies": [
+              "P5-T4",
+              "P5-T2"
+          ],
+          "responsiblePerson": "Frontend Developer"
+      },
+      {
+          "id": "P5-T6",
+          "taskName": "Test Display Credibility Score",
+          "correspondingPhase": "Phase 5: Credibility System",
+          "correspondingFeature": "Display Credibility Score",
+          "priority": "Medium",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-09-27",
+          "endTime": "2024-09-27",
+          "dependencies": [
+              "P5-T5"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P5-T7",
+          "taskName": "Design Submit Transaction Feedback",
+          "correspondingPhase": "Phase 5: Credibility System",
+          "correspondingFeature": "Submit Transaction Feedback",
+          "priority": "Medium",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-09-24",
+          "endTime": "2024-09-24",
+          "dependencies": [
+              "P5-T1"
+          ],
+          "responsiblePerson": "UI/UX Designer"
+      },
+      {
+          "id": "P5-T8",
+          "taskName": "Implement Submit Transaction Feedback",
+          "correspondingPhase": "Phase 5: Credibility System",
+          "correspondingFeature": "Submit Transaction Feedback",
+          "priority": "Medium",
+          "estimationTime": "1.5 days",
+          "startTime": "2024-09-27",
+          "endTime": "2024-09-29",
+          "dependencies": [
+              "P5-T7",
+              "P5-T2"
+          ],
+          "responsiblePerson": "Backend & Frontend Developers"
+      },
+      {
+          "id": "P5-T9",
+          "taskName": "Test Submit Transaction Feedback",
+          "correspondingPhase": "Phase 5: Credibility System",
+          "correspondingFeature": "Submit Transaction Feedback",
+          "priority": "Medium",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-09-29",
+          "endTime": "2024-09-29",
+          "dependencies": [
+              "P5-T8"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P5-T10",
+          "taskName": "Design View Transaction Feedback",
+          "correspondingPhase": "Phase 5: Credibility System",
+          "correspondingFeature": "View Transaction Feedback",
+          "priority": "Medium",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-09-25",
+          "endTime": "2024-09-25",
+          "dependencies": [
+              "P5-T1"
+          ],
+          "responsiblePerson": "UI/UX Designer"
+      },
+      {
+          "id": "P5-T11",
+          "taskName": "Implement View Transaction Feedback",
+          "correspondingPhase": "Phase 5: Credibility System",
+          "correspondingFeature": "View Transaction Feedback",
+          "priority": "Medium",
+          "estimationTime": "1.5 days",
+          "startTime": "2024-09-30",
+          "endTime": "2024-10-01",
+          "dependencies": [
+              "P5-T10",
+              "P5-T8"
+          ],
+          "responsiblePerson": "Frontend Developer"
+      },
+      {
+          "id": "P5-T12",
+          "taskName": "Test View Transaction Feedback",
+          "correspondingPhase": "Phase 5: Credibility System",
+          "correspondingFeature": "View Transaction Feedback",
+          "priority": "Medium",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-10-01",
+          "endTime": "2024-10-01",
+          "dependencies": [
+              "P5-T11"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P5-T13",
+          "taskName": "Design Listing Ranking based on Credibility",
+          "correspondingPhase": "Phase 5: Credibility System",
+          "correspondingFeature": "Listing Ranking based on Credibility",
+          "priority": "High",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-09-26",
+          "endTime": "2024-09-26",
+          "dependencies": [
+              "P5-T1"
+          ],
+          "responsiblePerson": "Lead Designer"
+      },
+      {
+          "id": "P5-T14",
+          "taskName": "Implement Listing Ranking based on Credibility",
+          "correspondingPhase": "Phase 5: Credibility System",
+          "correspondingFeature": "Listing Ranking based on Credibility",
+          "priority": "High",
+          "estimationTime": "1.5 days",
+          "startTime": "2024-10-01",
+          "endTime": "2024-10-03",
+          "dependencies": [
+              "P5-T13",
+              "P5-T2"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P5-T15",
+          "taskName": "Test Listing Ranking based on Credibility",
+          "correspondingPhase": "Phase 5: Credibility System",
+          "correspondingFeature": "Listing Ranking based on Credibility",
+          "priority": "High",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-10-03",
+          "endTime": "2024-10-03",
+          "dependencies": [
+              "P5-T14"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P5-T16",
+          "taskName": "Design Listing Visibility based on Credibility",
+          "correspondingPhase": "Phase 5: Credibility System",
+          "correspondingFeature": "Listing Visibility based on Credibility",
+          "priority": "High",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-09-27",
+          "endTime": "2024-09-27",
+          "dependencies": [
+              "P5-T1"
+          ],
+          "responsiblePerson": "Lead Designer"
+      },
+      {
+          "id": "P5-T17",
+          "taskName": "Implement Listing Visibility based on Credibility",
+          "correspondingPhase": "Phase 5: Credibility System",
+          "correspondingFeature": "Listing Visibility based on Credibility",
+          "priority": "High",
+          "estimationTime": "1.5 days",
+          "startTime": "2024-10-03",
+          "endTime": "2024-10-05",
+          "dependencies": [
+              "P5-T16",
+              "P5-T14"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P5-T18",
+          "taskName": "Test Listing Visibility based on Credibility",
+          "correspondingPhase": "Phase 5: Credibility System",
+          "correspondingFeature": "Listing Visibility based on Credibility",
+          "priority": "High",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-10-05",
+          "endTime": "2024-10-05",
+          "dependencies": [
+              "P5-T17"
+          ],
+          "responsiblePerson": "QA Tester"
+      }
+  ],
+  [
+      {
+          "id": "P6-T1",
+          "taskName": "Design Forum UI",
+          "correspondingPhase": "Phase 6: Community Forum",
+          "correspondingFeature": "Browse Forum",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-22",
+          "endTime": "2024-08-23",
+          "dependencies": [
+              "P2-T10"
+          ],
+          "responsiblePerson": "UI Designer"
+      },
+      {
+          "id": "P6-T2",
+          "taskName": "Implement Forum Browsing",
+          "correspondingPhase": "Phase 6: Community Forum",
+          "correspondingFeature": "Browse Forum",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-08-23",
+          "endTime": "2024-08-25",
+          "dependencies": [
+              "P6-T1"
+          ],
+          "responsiblePerson": "Frontend Developer"
+      },
+      {
+          "id": "P6-T3",
+          "taskName": "Test Forum Browsing",
+          "correspondingPhase": "Phase 6: Community Forum",
+          "correspondingFeature": "Browse Forum",
+          "priority": "High",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-08-25",
+          "endTime": "2024-08-25",
+          "dependencies": [
+              "P6-T2"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P6-T4",
+          "taskName": "Design Thread Creation UI",
+          "correspondingPhase": "Phase 6: Community Forum",
+          "correspondingFeature": "Create Forum Thread",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-25",
+          "endTime": "2024-08-26",
+          "dependencies": [
+              "P2-T10"
+          ],
+          "responsiblePerson": "UI Designer"
+      },
+      {
+          "id": "P6-T5",
+          "taskName": "Implement Thread Creation",
+          "correspondingPhase": "Phase 6: Community Forum",
+          "correspondingFeature": "Create Forum Thread",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-08-26",
+          "endTime": "2024-08-28",
+          "dependencies": [
+              "P6-T4"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P6-T6",
+          "taskName": "Test Thread Creation",
+          "correspondingPhase": "Phase 6: Community Forum",
+          "correspondingFeature": "Create Forum Thread",
+          "priority": "High",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-08-28",
+          "endTime": "2024-08-28",
+          "dependencies": [
+              "P6-T5"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P6-T7",
+          "taskName": "Design Post/Reply UI",
+          "correspondingPhase": "Phase 6: Community Forum",
+          "correspondingFeature": "Post / Reply in Forum",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-28",
+          "endTime": "2024-08-29",
+          "dependencies": [
+              "P2-T10"
+          ],
+          "responsiblePerson": "UI Designer"
+      },
+      {
+          "id": "P6-T8",
+          "taskName": "Implement Post/Reply Functionality",
+          "correspondingPhase": "Phase 6: Community Forum",
+          "correspondingFeature": "Post / Reply in Forum",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-08-29",
+          "endTime": "2024-08-31",
+          "dependencies": [
+              "P6-T7"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P6-T9",
+          "taskName": "Test Post/Reply Functionality",
+          "correspondingPhase": "Phase 6: Community Forum",
+          "correspondingFeature": "Post / Reply in Forum",
+          "priority": "High",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-08-31",
+          "endTime": "2024-08-31",
+          "dependencies": [
+              "P6-T8"
+          ],
+          "responsiblePerson": "QA Engineer"
+      }
+  ],
+  [
+      {
+          "id": "P7-T1",
+          "taskName": "Design Admin Panel",
+          "correspondingPhase": "Phase 7: Platform Administration",
+          "correspondingFeature": "Admin Panel",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-01",
+          "endTime": "2024-09-02",
+          "dependencies": [
+              "P2"
+          ],
+          "responsiblePerson": "UI/UX Designer"
+      },
+      {
+          "id": "P7-T2",
+          "taskName": "Implement Admin Panel",
+          "correspondingPhase": "Phase 7: Platform Administration",
+          "correspondingFeature": "Admin Panel",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-09-02",
+          "endTime": "2024-09-05",
+          "dependencies": [
+              "P7-T1"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P7-T3",
+          "taskName": "Test Admin Panel",
+          "correspondingPhase": "Phase 7: Platform Administration",
+          "correspondingFeature": "Admin Panel",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-05",
+          "endTime": "2024-09-06",
+          "dependencies": [
+              "P7-T2"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P7-T4",
+          "taskName": "Design Category Management",
+          "correspondingPhase": "Phase 7: Platform Administration",
+          "correspondingFeature": "Category Management",
+          "priority": "Medium",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-09-01",
+          "endTime": "2024-09-01",
+          "dependencies": [
+              "P2"
+          ],
+          "responsiblePerson": "UI/UX Designer"
+      },
+      {
+          "id": "P7-T5",
+          "taskName": "Implement Category Management",
+          "correspondingPhase": "Phase 7: Platform Administration",
+          "correspondingFeature": "Category Management",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-09-02",
+          "endTime": "2024-09-04",
+          "dependencies": [
+              "P7-T4"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P7-T6",
+          "taskName": "Test Category Management",
+          "correspondingPhase": "Phase 7: Platform Administration",
+          "correspondingFeature": "Category Management",
+          "priority": "Medium",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-09-04",
+          "endTime": "2024-09-04",
+          "dependencies": [
+              "P7-T5"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P7-T7",
+          "taskName": "Integrate Category Management with Admin Panel",
+          "correspondingPhase": "Phase 7: Platform Administration",
+          "correspondingFeature": "Admin Panel",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-05",
+          "endTime": "2024-09-06",
+          "dependencies": [
+              "P7-T3",
+              "P7-T6"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P7-T8",
+          "taskName": "Test Admin Panel with Category Management",
+          "correspondingPhase": "Phase 7: Platform Administration",
+          "correspondingFeature": "Admin Panel",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-06",
+          "endTime": "2024-09-07",
+          "dependencies": [
+              "P7-T7"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P7-T9",
+          "taskName": "Deploy Admin Panel and Category Management",
+          "correspondingPhase": "Phase 7: Platform Administration",
+          "correspondingFeature": "Admin Panel",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-09",
+          "endTime": "2024-09-10",
+          "dependencies": [
+              "P7-T8"
+          ],
+          "responsiblePerson": "DevOps Engineer"
+      }
+  ],
+  [
+      {
+          "id": "P8-T1",
+          "taskName": "Design Transaction Management UI",
+          "correspondingPhase": "Phase 8: Transaction Management & Communication",
+          "correspondingFeature": "Transaction Management (Buyer & Seller)",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-22",
+          "endTime": "2024-09-23",
+          "dependencies": [],
+          "responsiblePerson": "UI Designer"
+      },
+      {
+          "id": "P8-T2",
+          "taskName": "Implement Transaction Management Logic",
+          "correspondingPhase": "Phase 8: Transaction Management & Communication",
+          "correspondingFeature": "Transaction Management (Buyer & Seller)",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-09-23",
+          "endTime": "2024-09-26",
+          "dependencies": [
+              "P8-T1"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P8-T3",
+          "taskName": "Test Transaction Management Functionality",
+          "correspondingPhase": "Phase 8: Transaction Management & Communication",
+          "correspondingFeature": "Transaction Management (Buyer & Seller)",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-26",
+          "endTime": "2024-09-27",
+          "dependencies": [
+              "P8-T2"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P8-T4",
+          "taskName": "Design Buyer-Seller Communication Interface",
+          "correspondingPhase": "Phase 8: Transaction Management & Communication",
+          "correspondingFeature": "Buyer-Seller Communication",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-27",
+          "endTime": "2024-09-28",
+          "dependencies": [],
+          "responsiblePerson": "UI Designer"
+      },
+      {
+          "id": "P8-T5",
+          "taskName": "Implement Buyer-Seller Communication System",
+          "correspondingPhase": "Phase 8: Transaction Management & Communication",
+          "correspondingFeature": "Buyer-Seller Communication",
+          "priority": "High",
+          "estimationTime": "4 days",
+          "startTime": "2024-09-28",
+          "endTime": "2024-10-02",
+          "dependencies": [
+              "P8-T4"
+          ],
+          "responsiblePerson": "Frontend Developer"
+      },
+      {
+          "id": "P8-T6",
+          "taskName": "Integrate Communication with Transaction Management",
+          "correspondingPhase": "Phase 8: Transaction Management & Communication",
+          "correspondingFeature": "Buyer-Seller Communication",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-10-02",
+          "endTime": "2024-10-03",
+          "dependencies": [
+              "P8-T2",
+              "P8-T5"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P8-T7",
+          "taskName": "Test Buyer-Seller Communication",
+          "correspondingPhase": "Phase 8: Transaction Management & Communication",
+          "correspondingFeature": "Buyer-Seller Communication",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-10-03",
+          "endTime": "2024-10-04",
+          "dependencies": [
+              "P8-T5",
+              "P8-T6"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P8-T8",
+          "taskName": "Final Testing and Bug Fixing",
+          "correspondingPhase": "Phase 8: Transaction Management & Communication",
+          "correspondingFeature": "Transaction Management (Buyer & Seller)",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-10-04",
+          "endTime": "2024-10-05",
+          "dependencies": [
+              "P8-T3",
+              "P8-T7"
+          ],
+          "responsiblePerson": "QA Engineer"
+      }
+  ]
+]

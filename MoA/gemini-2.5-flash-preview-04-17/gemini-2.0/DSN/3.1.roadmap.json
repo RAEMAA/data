@@ -1,0 +1,65 @@
+[
+  {
+      "id": "P1",
+      "phase": "Phase 1: Foundation & Core",
+      "feature_list": [
+          "User Profile Creation and Management",
+          "Personal Space Dashboard",
+          "Content Feed",
+          "Search Functionality",
+          "Notifications"
+      ],
+      "estimatedTime": 28,
+      "startTime": "2024-07-22",
+      "endTime": "2024-08-18",
+      "dependencies": []
+  },
+  {
+      "id": "P2",
+      "phase": "Phase 2: Content Sharing & Basic Interaction",
+      "feature_list": [
+          "Dream Posting",
+          "Mood Sharing",
+          "Opinion Sharing",
+          "Idea Sharing",
+          "Commenting and Feedback"
+      ],
+      "estimatedTime": 21,
+      "startTime": "2024-08-19",
+      "endTime": "2024-09-08",
+      "dependencies": [
+          "P1"
+      ]
+  },
+  {
+      "id": "P3",
+      "phase": "Phase 3: Advanced Interaction & Support",
+      "feature_list": [
+          "Opinion Survey Creation",
+          "Opinion Survey Participation",
+          "Seeking Support/Solutions",
+          "Offering Support/Solutions"
+      ],
+      "estimatedTime": 21,
+      "startTime": "2024-09-09",
+      "endTime": "2024-09-29",
+      "dependencies": [
+          "P2"
+      ]
+  },
+  {
+      "id": "P4",
+      "phase": "Phase 4: Connection Features",
+      "feature_list": [
+          "Similar Dream Matching",
+          "Soulmate Connection",
+          "Direct Messaging"
+      ],
+      "estimatedTime": 21,
+      "startTime": "2024-09-30",
+      "endTime": "2024-10-20",
+      "dependencies": [
+          "P3"
+      ]
+  }
+]

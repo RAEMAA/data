@@ -1,0 +1,62 @@
+[
+    {
+        "category": "User Account Management",
+        "list_feature": [
+            "Farmer Registration (including bank account details)",
+            "Customer Registration",
+            "User Login (Farmer and Customer)",
+            "User Profile Management (basic)"
+        ]
+    },
+    {
+        "category": "Product Listing and Management",
+        "list_feature": [
+            "Farmer Product Posting (Title, Description, Price)",
+            "Product Image Upload (for listings)",
+            "Product Categorization (e.g., rice, fruits, fish)",
+            "Edit/Delete Product Listings (by farmer)"
+        ]
+    },
+    {
+        "category": "Product Discovery and Browsing",
+        "list_feature": [
+            "Homepage/Product Listing View",
+            "Product Search",
+            "Product Filtering (by category)",
+            "Product Details Page",
+            "Product Comparison"
+        ]
+    },
+    {
+        "category": "Shopping Cart and Ordering",
+        "list_feature": [
+            "Shopping Cart Management",
+            "Checkout Process",
+            "Order Placement",
+            "Order History (for Customers)"
+        ]
+    },
+    {
+        "category": "Payment Processing",
+        "list_feature": [
+            "Online Payment Gateway Integration",
+            "Secure Transaction Processing",
+            "Payment Confirmation"
+        ]
+    },
+    {
+        "category": "Shipping Management",
+        "list_feature": [
+            "Shipping Address Input (during checkout)",
+            "Shipping Information Display (basic)"
+        ]
+    },
+    {
+        "category": "Basic System and Security",
+        "list_feature": [
+            "User Authentication",
+            "Secure Data Transmission (SSL)",
+            "Basic Site Navigation"
+        ]
+    }
+]

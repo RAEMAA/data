@@ -1,0 +1,1349 @@
+[
+  [
+      {
+          "id": "P1-T1",
+          "taskName": "Design User Registration and Authentication",
+          "correspondingPhase": "Foundation & User Profiles",
+          "correspondingFeature": "User Registration and Authentication",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-08-01",
+          "endTime": "2024-08-02",
+          "dependencies": [],
+          "responsiblePerson": "Alice"
+      },
+      {
+          "id": "P1-T2",
+          "taskName": "Implement User Registration and Authentication",
+          "correspondingPhase": "Foundation & User Profiles",
+          "correspondingFeature": "User Registration and Authentication",
+          "priority": "High",
+          "estimationTime": "4 days",
+          "startTime": "2024-08-05",
+          "endTime": "2024-08-08",
+          "dependencies": [
+              "P1-T1"
+          ],
+          "responsiblePerson": "Bob"
+      },
+      {
+          "id": "P1-T3",
+          "taskName": "Test User Registration and Authentication",
+          "correspondingPhase": "Foundation & User Profiles",
+          "correspondingFeature": "User Registration and Authentication",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-08-09",
+          "endTime": "2024-08-10",
+          "dependencies": [
+              "P1-T2"
+          ],
+          "responsiblePerson": "Charlie"
+      },
+      {
+          "id": "P1-T4",
+          "taskName": "Design University-Specific Networks (Joining/Switching)",
+          "correspondingPhase": "Foundation & User Profiles",
+          "correspondingFeature": "University-Specific Networks (Joining/Switching)",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-01",
+          "endTime": "2024-08-01",
+          "dependencies": [],
+          "responsiblePerson": "Alice"
+      },
+      {
+          "id": "P1-T5",
+          "taskName": "Implement University-Specific Networks (Joining/Switching)",
+          "correspondingPhase": "Foundation & User Profiles",
+          "correspondingFeature": "University-Specific Networks (Joining/Switching)",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-08-12",
+          "endTime": "2024-08-14",
+          "dependencies": [
+              "P1-T4",
+              "P1-T2"
+          ],
+          "responsiblePerson": "Bob"
+      },
+      {
+          "id": "P1-T6",
+          "taskName": "Test University-Specific Networks (Joining/Switching)",
+          "correspondingPhase": "Foundation & User Profiles",
+          "correspondingFeature": "University-Specific Networks (Joining/Switching)",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-15",
+          "endTime": "2024-08-15",
+          "dependencies": [
+              "P1-T5"
+          ],
+          "responsiblePerson": "Charlie"
+      },
+      {
+          "id": "P1-T7",
+          "taskName": "Design Student Profile",
+          "correspondingPhase": "Foundation & User Profiles",
+          "correspondingFeature": "Student Profile",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-16",
+          "endTime": "2024-08-16",
+          "dependencies": [],
+          "responsiblePerson": "Alice"
+      },
+      {
+          "id": "P1-T8",
+          "taskName": "Implement Student Profile",
+          "correspondingPhase": "Foundation & User Profiles",
+          "correspondingFeature": "Student Profile",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-08-19",
+          "endTime": "2024-08-21",
+          "dependencies": [
+              "P1-T7",
+              "P1-T2"
+          ],
+          "responsiblePerson": "Bob"
+      },
+      {
+          "id": "P1-T9",
+          "taskName": "Test Student Profile",
+          "correspondingPhase": "Foundation & User Profiles",
+          "correspondingFeature": "Student Profile",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-22",
+          "endTime": "2024-08-22",
+          "dependencies": [
+              "P1-T8"
+          ],
+          "responsiblePerson": "Charlie"
+      },
+      {
+          "id": "P1-T10",
+          "taskName": "Design Researcher Profile",
+          "correspondingPhase": "Foundation & User Profiles",
+          "correspondingFeature": "Researcher Profile",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-23",
+          "endTime": "2024-08-23",
+          "dependencies": [],
+          "responsiblePerson": "Alice"
+      },
+      {
+          "id": "P1-T11",
+          "taskName": "Implement Researcher Profile",
+          "correspondingPhase": "Foundation & User Profiles",
+          "correspondingFeature": "Researcher Profile",
+          "priority": "Medium",
+          "estimationTime": "3 days",
+          "startTime": "2024-08-26",
+          "endTime": "2024-08-28",
+          "dependencies": [
+              "P1-T10",
+              "P1-T2"
+          ],
+          "responsiblePerson": "Bob"
+      },
+      {
+          "id": "P1-T12",
+          "taskName": "Test Researcher Profile",
+          "correspondingPhase": "Foundation & User Profiles",
+          "correspondingFeature": "Researcher Profile",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-29",
+          "endTime": "2024-08-29",
+          "dependencies": [
+              "P1-T11"
+          ],
+          "responsiblePerson": "Charlie"
+      },
+      {
+          "id": "P1-T13",
+          "taskName": "Design Educator Profile",
+          "correspondingPhase": "Foundation & User Profiles",
+          "correspondingFeature": "Educator Profile",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-30",
+          "endTime": "2024-08-30",
+          "dependencies": [],
+          "responsiblePerson": "Alice"
+      },
+      {
+          "id": "P1-T14",
+          "taskName": "Implement Educator Profile",
+          "correspondingPhase": "Foundation & User Profiles",
+          "correspondingFeature": "Educator Profile",
+          "priority": "Medium",
+          "estimationTime": "3 days",
+          "startTime": "2024-09-02",
+          "endTime": "2024-09-04",
+          "dependencies": [
+              "P1-T13",
+              "P1-T2"
+          ],
+          "responsiblePerson": "Bob"
+      },
+      {
+          "id": "P1-T15",
+          "taskName": "Test Educator Profile",
+          "correspondingPhase": "Foundation & User Profiles",
+          "correspondingFeature": "Educator Profile",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-05",
+          "endTime": "2024-09-05",
+          "dependencies": [
+              "P1-T14"
+          ],
+          "responsiblePerson": "Charlie"
+      },
+      {
+          "id": "P1-T16",
+          "taskName": "Design Profile Information (e.g., name, role, university, discipline/major, interests)",
+          "correspondingPhase": "Foundation & User Profiles",
+          "correspondingFeature": "Profile Information (e.g., name, role, university, discipline/major, interests)",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-06",
+          "endTime": "2024-09-06",
+          "dependencies": [],
+          "responsiblePerson": "Alice"
+      },
+      {
+          "id": "P1-T17",
+          "taskName": "Implement Profile Information (e.g., name, role, university, discipline/major, interests)",
+          "correspondingPhase": "Foundation & User Profiles",
+          "correspondingFeature": "Profile Information (e.g., name, role, university, discipline/major, interests)",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-09-09",
+          "endTime": "2024-09-11",
+          "dependencies": [
+              "P1-T16",
+              "P1-T8",
+              "P1-T11",
+              "P1-T14"
+          ],
+          "responsiblePerson": "Bob"
+      },
+      {
+          "id": "P1-T18",
+          "taskName": "Test Profile Information (e.g., name, role, university, discipline/major, interests)",
+          "correspondingPhase": "Foundation & User Profiles",
+          "correspondingFeature": "Profile Information (e.g., name, role, university, discipline/major, interests)",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-11",
+          "endTime": "2024-09-11",
+          "dependencies": [
+              "P1-T17"
+          ],
+          "responsiblePerson": "Charlie"
+      },
+      {
+          "id": "P1-T19",
+          "taskName": "Design Profile Customization (e.g., profile picture, bio)",
+          "correspondingPhase": "Foundation & User Profiles",
+          "correspondingFeature": "Profile Customization (e.g., profile picture, bio)",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-06",
+          "endTime": "2024-09-06",
+          "dependencies": [],
+          "responsiblePerson": "Alice"
+      },
+      {
+          "id": "P1-T20",
+          "taskName": "Implement Profile Customization (e.g., profile picture, bio)",
+          "correspondingPhase": "Foundation & User Profiles",
+          "correspondingFeature": "Profile Customization (e.g., profile picture, bio)",
+          "priority": "Medium",
+          "estimationTime": "3 days",
+          "startTime": "2024-09-09",
+          "endTime": "2024-09-11",
+          "dependencies": [
+              "P1-T19",
+              "P1-T8",
+              "P1-T11",
+              "P1-T14"
+          ],
+          "responsiblePerson": "Bob"
+      },
+      {
+          "id": "P1-T21",
+          "taskName": "Test Profile Customization (e.g., profile picture, bio)",
+          "correspondingPhase": "Foundation & User Profiles",
+          "correspondingFeature": "Profile Customization (e.g., profile picture, bio)",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-11",
+          "endTime": "2024-09-11",
+          "dependencies": [
+              "P1-T20"
+          ],
+          "responsiblePerson": "Charlie"
+      }
+  ],
+  [
+      {
+          "id": "P2-T1",
+          "taskName": "Design Content Sharing UI",
+          "correspondingPhase": "Core Content Sharing",
+          "correspondingFeature": "Share Academic Resources (documents, notes, presentations)",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-09-12",
+          "endTime": "2024-09-15",
+          "dependencies": [],
+          "responsiblePerson": "UI Designer"
+      },
+      {
+          "id": "P2-T2",
+          "taskName": "Implement Content Upload Functionality",
+          "correspondingPhase": "Core Content Sharing",
+          "correspondingFeature": "Content Upload and Download",
+          "priority": "High",
+          "estimationTime": "4 days",
+          "startTime": "2024-09-16",
+          "endTime": "2024-09-20",
+          "dependencies": [],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P2-T3",
+          "taskName": "Implement Content Download Functionality",
+          "correspondingPhase": "Core Content Sharing",
+          "correspondingFeature": "Content Upload and Download",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-09-21",
+          "endTime": "2024-09-24",
+          "dependencies": [
+              "P2-T2"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P2-T4",
+          "taskName": "Design Content Categorization Schema",
+          "correspondingPhase": "Core Content Sharing",
+          "correspondingFeature": "Content Categorization (disciplines, subjects, resource types)",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-09-12",
+          "endTime": "2024-09-14",
+          "dependencies": [],
+          "responsiblePerson": "Data Architect"
+      },
+      {
+          "id": "P2-T5",
+          "taskName": "Implement Content Categorization",
+          "correspondingPhase": "Core Content Sharing",
+          "correspondingFeature": "Content Categorization (disciplines, subjects, resource types)",
+          "priority": "High",
+          "estimationTime": "5 days",
+          "startTime": "2024-09-25",
+          "endTime": "2024-09-30",
+          "dependencies": [
+              "P2-T4"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P2-T6",
+          "taskName": "Design Content Search UI",
+          "correspondingPhase": "Core Content Sharing",
+          "correspondingFeature": "Content Search and Filtering",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-09-16",
+          "endTime": "2024-09-18",
+          "dependencies": [],
+          "responsiblePerson": "UI Designer"
+      },
+      {
+          "id": "P2-T7",
+          "taskName": "Implement Content Search and Filtering",
+          "correspondingPhase": "Core Content Sharing",
+          "correspondingFeature": "Content Search and Filtering",
+          "priority": "High",
+          "estimationTime": "5 days",
+          "startTime": "2024-10-01",
+          "endTime": "2024-10-06",
+          "dependencies": [
+              "P2-T5",
+              "P2-T6"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P2-T8",
+          "taskName": "Implement Content Viewing",
+          "correspondingPhase": "Core Content Sharing",
+          "correspondingFeature": "Content Viewing",
+          "priority": "High",
+          "estimationTime": "4 days",
+          "startTime": "2024-10-07",
+          "endTime": "2024-10-11",
+          "dependencies": [
+              "P2-T3"
+          ],
+          "responsiblePerson": "Frontend Developer"
+      },
+      {
+          "id": "P2-T9",
+          "taskName": "Test Content Upload and Download",
+          "correspondingPhase": "Core Content Sharing",
+          "correspondingFeature": "Content Upload and Download",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-10-12",
+          "endTime": "2024-10-14",
+          "dependencies": [
+              "P2-T3"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P2-T10",
+          "taskName": "Test Content Categorization",
+          "correspondingPhase": "Core Content Sharing",
+          "correspondingFeature": "Content Categorization (disciplines, subjects, resource types)",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-10-15",
+          "endTime": "2024-10-17",
+          "dependencies": [
+              "P2-T5"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P2-T11",
+          "taskName": "Test Content Search and Filtering",
+          "correspondingPhase": "Core Content Sharing",
+          "correspondingFeature": "Content Search and Filtering",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-10-18",
+          "endTime": "2024-10-21",
+          "dependencies": [
+              "P2-T7"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P2-T12",
+          "taskName": "Test Content Viewing",
+          "correspondingPhase": "Core Content Sharing",
+          "correspondingFeature": "Content Viewing",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-10-22",
+          "endTime": "2024-10-23",
+          "dependencies": [
+              "P2-T8"
+          ],
+          "responsiblePerson": "QA Engineer"
+      }
+  ],
+  [
+      {
+          "id": "P3-T1",
+          "taskName": "Design Course Rating Feature",
+          "correspondingPhase": "Evaluation System",
+          "correspondingFeature": "Course Rating",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-09-12",
+          "endTime": "2024-09-13",
+          "dependencies": [
+              "P1"
+          ],
+          "responsiblePerson": "UI/UX Designer"
+      },
+      {
+          "id": "P3-T2",
+          "taskName": "Implement Course Rating Feature",
+          "correspondingPhase": "Evaluation System",
+          "correspondingFeature": "Course Rating",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-09-16",
+          "endTime": "2024-09-18",
+          "dependencies": [
+              "P3-T1"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P3-T3",
+          "taskName": "Test Course Rating Feature",
+          "correspondingPhase": "Evaluation System",
+          "correspondingFeature": "Course Rating",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-19",
+          "endTime": "2024-09-19",
+          "dependencies": [
+              "P3-T2"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P3-T4",
+          "taskName": "Design Instructor Rating Feature",
+          "correspondingPhase": "Evaluation System",
+          "correspondingFeature": "Instructor Rating",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-09-12",
+          "endTime": "2024-09-13",
+          "dependencies": [
+              "P1"
+          ],
+          "responsiblePerson": "UI/UX Designer"
+      },
+      {
+          "id": "P3-T5",
+          "taskName": "Implement Instructor Rating Feature",
+          "correspondingPhase": "Evaluation System",
+          "correspondingFeature": "Instructor Rating",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-09-16",
+          "endTime": "2024-09-18",
+          "dependencies": [
+              "P3-T4"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P3-T6",
+          "taskName": "Test Instructor Rating Feature",
+          "correspondingPhase": "Evaluation System",
+          "correspondingFeature": "Instructor Rating",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-19",
+          "endTime": "2024-09-19",
+          "dependencies": [
+              "P3-T5"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P3-T7",
+          "taskName": "Design Course Reviews Feature",
+          "correspondingPhase": "Evaluation System",
+          "correspondingFeature": "Course Reviews",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-09-12",
+          "endTime": "2024-09-13",
+          "dependencies": [
+              "P1"
+          ],
+          "responsiblePerson": "UI/UX Designer"
+      },
+      {
+          "id": "P3-T8",
+          "taskName": "Implement Course Reviews Feature",
+          "correspondingPhase": "Evaluation System",
+          "correspondingFeature": "Course Reviews",
+          "priority": "Medium",
+          "estimationTime": "3 days",
+          "startTime": "2024-09-16",
+          "endTime": "2024-09-18",
+          "dependencies": [
+              "P3-T7"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P3-T9",
+          "taskName": "Test Course Reviews Feature",
+          "correspondingPhase": "Evaluation System",
+          "correspondingFeature": "Course Reviews",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-19",
+          "endTime": "2024-09-19",
+          "dependencies": [
+              "P3-T8"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P3-T10",
+          "taskName": "Design Instructor Reviews Feature",
+          "correspondingPhase": "Evaluation System",
+          "correspondingFeature": "Instructor Reviews",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-09-12",
+          "endTime": "2024-09-13",
+          "dependencies": [
+              "P1"
+          ],
+          "responsiblePerson": "UI/UX Designer"
+      },
+      {
+          "id": "P3-T11",
+          "taskName": "Implement Instructor Reviews Feature",
+          "correspondingPhase": "Evaluation System",
+          "correspondingFeature": "Instructor Reviews",
+          "priority": "Medium",
+          "estimationTime": "3 days",
+          "startTime": "2024-09-16",
+          "endTime": "2024-09-18",
+          "dependencies": [
+              "P3-T10"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P3-T12",
+          "taskName": "Test Instructor Reviews Feature",
+          "correspondingPhase": "Evaluation System",
+          "correspondingFeature": "Instructor Reviews",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-19",
+          "endTime": "2024-09-19",
+          "dependencies": [
+              "P3-T11"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P3-T13",
+          "taskName": "Design Search and Filter Courses/Instructors Feature",
+          "correspondingPhase": "Evaluation System",
+          "correspondingFeature": "Search and Filter Courses/Instructors",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-09-23",
+          "endTime": "2024-09-24",
+          "dependencies": [
+              "P1"
+          ],
+          "responsiblePerson": "UI/UX Designer"
+      },
+      {
+          "id": "P3-T14",
+          "taskName": "Implement Search and Filter Courses/Instructors Feature",
+          "correspondingPhase": "Evaluation System",
+          "correspondingFeature": "Search and Filter Courses/Instructors",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-09-25",
+          "endTime": "2024-09-27",
+          "dependencies": [
+              "P3-T13"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P3-T15",
+          "taskName": "Test Search and Filter Courses/Instructors Feature",
+          "correspondingPhase": "Evaluation System",
+          "correspondingFeature": "Search and Filter Courses/Instructors",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-30",
+          "endTime": "2024-09-30",
+          "dependencies": [
+              "P3-T14"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P3-T16",
+          "taskName": "Design View Course Details Feature",
+          "correspondingPhase": "Evaluation System",
+          "correspondingFeature": "View Course Details",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-09-23",
+          "endTime": "2024-09-24",
+          "dependencies": [
+              "P1"
+          ],
+          "responsiblePerson": "UI/UX Designer"
+      },
+      {
+          "id": "P3-T17",
+          "taskName": "Implement View Course Details Feature",
+          "correspondingPhase": "Evaluation System",
+          "correspondingFeature": "View Course Details",
+          "priority": "Medium",
+          "estimationTime": "3 days",
+          "startTime": "2024-09-25",
+          "endTime": "2024-09-27",
+          "dependencies": [
+              "P3-T16"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P3-T18",
+          "taskName": "Test View Course Details Feature",
+          "correspondingPhase": "Evaluation System",
+          "correspondingFeature": "View Course Details",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-30",
+          "endTime": "2024-09-30",
+          "dependencies": [
+              "P3-T17"
+          ],
+          "responsiblePerson": "QA Tester"
+      }
+  ],
+  [
+      {
+          "id": "P4-T1",
+          "taskName": "Design Connect/Follow Users Feature",
+          "correspondingPhase": "Networking & Collaboration",
+          "correspondingFeature": "Connect/Follow Users",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-12",
+          "endTime": "2024-09-13",
+          "dependencies": [],
+          "responsiblePerson": "UI/UX Designer"
+      },
+      {
+          "id": "P4-T2",
+          "taskName": "Implement Connect/Follow Users Feature",
+          "correspondingPhase": "Networking & Collaboration",
+          "correspondingFeature": "Connect/Follow Users",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-09-13",
+          "endTime": "2024-09-16",
+          "dependencies": [],
+          "responsiblePerson": "Software Engineer"
+      },
+      {
+          "id": "P4-T3",
+          "taskName": "Test Connect/Follow Users Feature",
+          "correspondingPhase": "Networking & Collaboration",
+          "correspondingFeature": "Connect/Follow Users",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-16",
+          "endTime": "2024-09-17",
+          "dependencies": [
+              "P4-T2"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P4-T4",
+          "taskName": "Design Direct Messaging Feature",
+          "correspondingPhase": "Networking & Collaboration",
+          "correspondingFeature": "Direct Messaging",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-17",
+          "endTime": "2024-09-18",
+          "dependencies": [],
+          "responsiblePerson": "UI/UX Designer"
+      },
+      {
+          "id": "P4-T5",
+          "taskName": "Implement Direct Messaging Feature",
+          "correspondingPhase": "Networking & Collaboration",
+          "correspondingFeature": "Direct Messaging",
+          "priority": "High",
+          "estimationTime": "4 days",
+          "startTime": "2024-09-18",
+          "endTime": "2024-09-22",
+          "dependencies": [],
+          "responsiblePerson": "Software Engineer"
+      },
+      {
+          "id": "P4-T6",
+          "taskName": "Test Direct Messaging Feature",
+          "correspondingPhase": "Networking & Collaboration",
+          "correspondingFeature": "Direct Messaging",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-22",
+          "endTime": "2024-09-23",
+          "dependencies": [
+              "P4-T5"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P4-T7",
+          "taskName": "Design Create/Join Groups Feature",
+          "correspondingPhase": "Networking & Collaboration",
+          "correspondingFeature": "Create/Join Groups (e.g., study groups, research groups)",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-23",
+          "endTime": "2024-09-24",
+          "dependencies": [],
+          "responsiblePerson": "UI/UX Designer"
+      },
+      {
+          "id": "P4-T8",
+          "taskName": "Implement Create/Join Groups Feature",
+          "correspondingPhase": "Networking & Collaboration",
+          "correspondingFeature": "Create/Join Groups (e.g., study groups, research groups)",
+          "priority": "High",
+          "estimationTime": "4 days",
+          "startTime": "2024-09-24",
+          "endTime": "2024-09-28",
+          "dependencies": [],
+          "responsiblePerson": "Software Engineer"
+      },
+      {
+          "id": "P4-T9",
+          "taskName": "Test Create/Join Groups Feature",
+          "correspondingPhase": "Networking & Collaboration",
+          "correspondingFeature": "Create/Join Groups (e.g., study groups, research groups)",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-28",
+          "endTime": "2024-09-29",
+          "dependencies": [
+              "P4-T8"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P4-T10",
+          "taskName": "Integration Testing for Networking & Collaboration Features",
+          "correspondingPhase": "Networking & Collaboration",
+          "correspondingFeature": "Connect/Follow Users, Direct Messaging, Create/Join Groups",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-09-29",
+          "endTime": "2024-10-02",
+          "dependencies": [
+              "P4-T3",
+              "P4-T6",
+              "P4-T9"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P4-T11",
+          "taskName": "Documentation for Networking & Collaboration Features",
+          "correspondingPhase": "Networking & Collaboration",
+          "correspondingFeature": "Connect/Follow Users, Direct Messaging, Create/Join Groups",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-10-02",
+          "endTime": "2024-10-04",
+          "dependencies": [
+              "P4-T3",
+              "P4-T6",
+              "P4-T9"
+          ],
+          "responsiblePerson": "Technical Writer"
+      },
+      {
+          "id": "P4-T12",
+          "taskName": "Deployment of Networking & Collaboration Features",
+          "correspondingPhase": "Networking & Collaboration",
+          "correspondingFeature": "Connect/Follow Users, Direct Messaging, Create/Join Groups",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-10-04",
+          "endTime": "2024-10-05",
+          "dependencies": [
+              "P4-T10",
+              "P4-T11"
+          ],
+          "responsiblePerson": "DevOps Engineer"
+      }
+  ],
+  [
+      {
+          "id": "P5-T1",
+          "taskName": "Design Content Moderation",
+          "correspondingPhase": "Platform Utilities & Advanced Content",
+          "correspondingFeature": "Content Moderation",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-10-24",
+          "endTime": "2024-10-25",
+          "dependencies": [],
+          "responsiblePerson": "UX Designer"
+      },
+      {
+          "id": "P5-T2",
+          "taskName": "Implement Content Moderation",
+          "correspondingPhase": "Platform Utilities & Advanced Content",
+          "correspondingFeature": "Content Moderation",
+          "priority": "High",
+          "estimationTime": "5 days",
+          "startTime": "2024-10-28",
+          "endTime": "2024-11-01",
+          "dependencies": [
+              "P5-T1"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P5-T3",
+          "taskName": "Test Content Moderation",
+          "correspondingPhase": "Platform Utilities & Advanced Content",
+          "correspondingFeature": "Content Moderation",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-11-04",
+          "endTime": "2024-11-06",
+          "dependencies": [
+              "P5-T2"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P5-T4",
+          "taskName": "Design Notifications and Alerts",
+          "correspondingPhase": "Platform Utilities & Advanced Content",
+          "correspondingFeature": "Notifications and Alerts",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-10-24",
+          "endTime": "2024-10-25",
+          "dependencies": [],
+          "responsiblePerson": "UX Designer"
+      },
+      {
+          "id": "P5-T5",
+          "taskName": "Implement Notifications and Alerts",
+          "correspondingPhase": "Platform Utilities & Advanced Content",
+          "correspondingFeature": "Notifications and Alerts",
+          "priority": "High",
+          "estimationTime": "5 days",
+          "startTime": "2024-10-28",
+          "endTime": "2024-11-01",
+          "dependencies": [
+              "P5-T4"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P5-T6",
+          "taskName": "Test Notifications and Alerts",
+          "correspondingPhase": "Platform Utilities & Advanced Content",
+          "correspondingFeature": "Notifications and Alerts",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-11-04",
+          "endTime": "2024-11-06",
+          "dependencies": [
+              "P5-T5"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P5-T7",
+          "taskName": "Design Platform Search",
+          "correspondingPhase": "Platform Utilities & Advanced Content",
+          "correspondingFeature": "Platform Search (Users, Content, Courses, Groups)",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-10-24",
+          "endTime": "2024-10-25",
+          "dependencies": [],
+          "responsiblePerson": "UX Designer"
+      },
+      {
+          "id": "P5-T8",
+          "taskName": "Implement Platform Search",
+          "correspondingPhase": "Platform Utilities & Advanced Content",
+          "correspondingFeature": "Platform Search (Users, Content, Courses, Groups)",
+          "priority": "High",
+          "estimationTime": "5 days",
+          "startTime": "2024-10-28",
+          "endTime": "2024-11-01",
+          "dependencies": [
+              "P5-T7",
+              "P2-T6",
+              "P3-T6",
+              "P4-T6"
+          ],
+          "responsiblePerson": "Backend Developer"
+      },
+      {
+          "id": "P5-T9",
+          "taskName": "Test Platform Search",
+          "correspondingPhase": "Platform Utilities & Advanced Content",
+          "correspondingFeature": "Platform Search (Users, Content, Courses, Groups)",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-11-04",
+          "endTime": "2024-11-06",
+          "dependencies": [
+              "P5-T8"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P5-T10",
+          "taskName": "Design Share Research Findings",
+          "correspondingPhase": "Platform Utilities & Advanced Content",
+          "correspondingFeature": "Share Research Findings",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-11-07",
+          "endTime": "2024-11-07",
+          "dependencies": [],
+          "responsiblePerson": "UX Designer"
+      },
+      {
+          "id": "P5-T11",
+          "taskName": "Implement Share Research Findings",
+          "correspondingPhase": "Platform Utilities & Advanced Content",
+          "correspondingFeature": "Share Research Findings",
+          "priority": "Medium",
+          "estimationTime": "3 days",
+          "startTime": "2024-11-08",
+          "endTime": "2024-11-12",
+          "dependencies": [
+              "P5-T10",
+              "P2-T2"
+          ],
+          "responsiblePerson": "Frontend Developer"
+      },
+      {
+          "id": "P5-T12",
+          "taskName": "Test Share Research Findings",
+          "correspondingPhase": "Platform Utilities & Advanced Content",
+          "correspondingFeature": "Share Research Findings",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-11-13",
+          "endTime": "2024-11-14",
+          "dependencies": [
+              "P5-T11"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P5-T13",
+          "taskName": "Design Share Learning Experiences",
+          "correspondingPhase": "Platform Utilities & Advanced Content",
+          "correspondingFeature": "Share Learning Experiences (posts)",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-11-15",
+          "endTime": "2024-11-15",
+          "dependencies": [],
+          "responsiblePerson": "UX Designer"
+      },
+      {
+          "id": "P5-T14",
+          "taskName": "Implement Share Learning Experiences",
+          "correspondingPhase": "Platform Utilities & Advanced Content",
+          "correspondingFeature": "Share Learning Experiences (posts)",
+          "priority": "Medium",
+          "estimationTime": "3 days",
+          "startTime": "2024-11-18",
+          "endTime": "2024-11-20",
+          "dependencies": [
+              "P5-T13",
+              "P2-T2"
+          ],
+          "responsiblePerson": "Frontend Developer"
+      },
+      {
+          "id": "P5-T15",
+          "taskName": "Test Share Learning Experiences",
+          "correspondingPhase": "Platform Utilities & Advanced Content",
+          "correspondingFeature": "Share Learning Experiences (posts)",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-11-21",
+          "endTime": "2024-11-22",
+          "dependencies": [
+              "P5-T14"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P5-T16",
+          "taskName": "Design Share Teaching Experiences",
+          "correspondingPhase": "Platform Utilities & Advanced Content",
+          "correspondingFeature": "Share Teaching Experiences (posts)",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-11-25",
+          "endTime": "2024-11-25",
+          "dependencies": [],
+          "responsiblePerson": "UX Designer"
+      },
+      {
+          "id": "P5-T17",
+          "taskName": "Implement Share Teaching Experiences",
+          "correspondingPhase": "Platform Utilities & Advanced Content",
+          "correspondingFeature": "Share Teaching Experiences (posts)",
+          "priority": "Medium",
+          "estimationTime": "3 days",
+          "startTime": "2024-11-26",
+          "endTime": "2024-11-28",
+          "dependencies": [
+              "P5-T16",
+              "P2-T2"
+          ],
+          "responsiblePerson": "Frontend Developer"
+      },
+      {
+          "id": "P5-T18",
+          "taskName": "Test Share Teaching Experiences",
+          "correspondingPhase": "Platform Utilities & Advanced Content",
+          "correspondingFeature": "Share Teaching Experiences (posts)",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-11-29",
+          "endTime": "2024-12-02",
+          "dependencies": [
+              "P5-T17"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P5-T19",
+          "taskName": "Design Share Research Experiences",
+          "correspondingPhase": "Platform Utilities & Advanced Content",
+          "correspondingFeature": "Share Research Experiences (posts)",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-12-02",
+          "endTime": "2024-12-02",
+          "dependencies": [],
+          "responsiblePerson": "UX Designer"
+      },
+      {
+          "id": "P5-T20",
+          "taskName": "Implement Share Research Experiences",
+          "correspondingPhase": "Platform Utilities & Advanced Content",
+          "correspondingFeature": "Share Research Experiences (posts)",
+          "priority": "Medium",
+          "estimationTime": "3 days",
+          "startTime": "2024-12-03",
+          "endTime": "2024-12-05",
+          "dependencies": [
+              "P5-T19",
+              "P2-T2"
+          ],
+          "responsiblePerson": "Frontend Developer"
+      },
+      {
+          "id": "P5-T21",
+          "taskName": "Test Share Research Experiences",
+          "correspondingPhase": "Platform Utilities & Advanced Content",
+          "correspondingFeature": "Share Research Experiences (posts)",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-12-06",
+          "endTime": "2024-12-09",
+          "dependencies": [
+              "P5-T20"
+          ],
+          "responsiblePerson": "QA Tester"
+      }
+  ],
+  [
+      {
+          "id": "P6-T1",
+          "taskName": "Design Course Recommendation System Architecture",
+          "correspondingPhase": "Recommendation & Expansion Planning",
+          "correspondingFeature": "Course Recommendation System",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-12-05",
+          "endTime": "2024-12-07",
+          "dependencies": [
+              "P5-T1"
+          ],
+          "responsiblePerson": "Alice Smith"
+      },
+      {
+          "id": "P6-T2",
+          "taskName": "Implement Course Recommendation Engine",
+          "correspondingPhase": "Recommendation & Expansion Planning",
+          "correspondingFeature": "Course Recommendation System",
+          "priority": "High",
+          "estimationTime": "5 days",
+          "startTime": "2024-12-08",
+          "endTime": "2024-12-12",
+          "dependencies": [
+              "P6-T1"
+          ],
+          "responsiblePerson": "Bob Johnson"
+      },
+      {
+          "id": "P6-T3",
+          "taskName": "Test Course Recommendation System",
+          "correspondingPhase": "Recommendation & Expansion Planning",
+          "correspondingFeature": "Course Recommendation System",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-12-13",
+          "endTime": "2024-12-14",
+          "dependencies": [
+              "P6-T2"
+          ],
+          "responsiblePerson": "Charlie Williams"
+      },
+      {
+          "id": "P6-T4",
+          "taskName": "Design Integration Plan for High Schools",
+          "correspondingPhase": "Recommendation & Expansion Planning",
+          "correspondingFeature": "Integration Plan for High Schools",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-12-15",
+          "endTime": "2024-12-16",
+          "dependencies": [
+              "P5-T3"
+          ],
+          "responsiblePerson": "Diana Brown"
+      },
+      {
+          "id": "P6-T5",
+          "taskName": "Design Integration Plan for Elementary Schools",
+          "correspondingPhase": "Recommendation & Expansion Planning",
+          "correspondingFeature": "Integration Plan for Elementary Schools",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-12-17",
+          "endTime": "2024-12-18",
+          "dependencies": [
+              "P5-T3"
+          ],
+          "responsiblePerson": "Eve Davis"
+      },
+      {
+          "id": "P6-T6",
+          "taskName": "Implement Support for High School User Roles",
+          "correspondingPhase": "Recommendation & Expansion Planning",
+          "correspondingFeature": "Support for High School User Roles",
+          "priority": "Medium",
+          "estimationTime": "3 days",
+          "startTime": "2024-12-19",
+          "endTime": "2024-12-21",
+          "dependencies": [
+              "P6-T4"
+          ],
+          "responsiblePerson": "Alice Smith"
+      },
+      {
+          "id": "P6-T7",
+          "taskName": "Implement Support for Elementary School User Roles",
+          "correspondingPhase": "Recommendation & Expansion Planning",
+          "correspondingFeature": "Support for Elementary School User Roles",
+          "priority": "Medium",
+          "estimationTime": "3 days",
+          "startTime": "2024-12-22",
+          "endTime": "2024-12-24",
+          "dependencies": [
+              "P6-T5"
+          ],
+          "responsiblePerson": "Bob Johnson"
+      },
+      {
+          "id": "P6-T8",
+          "taskName": "Test High School User Roles",
+          "correspondingPhase": "Recommendation & Expansion Planning",
+          "correspondingFeature": "Support for High School User Roles",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-12-25",
+          "endTime": "2024-12-26",
+          "dependencies": [
+              "P6-T6"
+          ],
+          "responsiblePerson": "Charlie Williams"
+      },
+      {
+          "id": "P6-T9",
+          "taskName": "Test Elementary School User Roles",
+          "correspondingPhase": "Recommendation & Expansion Planning",
+          "correspondingFeature": "Support for Elementary School User Roles",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-12-27",
+          "endTime": "2024-12-28",
+          "dependencies": [
+              "P6-T7"
+          ],
+          "responsiblePerson": "Diana Brown"
+      },
+      {
+          "id": "P6-T10",
+          "taskName": "Finalize Expansion Planning Documentation",
+          "correspondingPhase": "Recommendation & Expansion Planning",
+          "correspondingFeature": "Integration Plan for High Schools",
+          "priority": "Low",
+          "estimationTime": "5 days",
+          "startTime": "2024-12-29",
+          "endTime": "2025-01-02",
+          "dependencies": [
+              "P6-T8",
+              "P6-T9"
+          ],
+          "responsiblePerson": "Eve Davis"
+      },
+      {
+          "id": "P6-T11",
+          "taskName": "Prepare Release Notes for Recommendation & Expansion Planning",
+          "correspondingPhase": "Recommendation & Expansion Planning",
+          "correspondingFeature": "Course Recommendation System",
+          "priority": "Low",
+          "estimationTime": "3 days",
+          "startTime": "2025-01-03",
+          "endTime": "2025-01-05",
+          "dependencies": [
+              "P6-T3",
+              "P6-T10"
+          ],
+          "responsiblePerson": "Alice Smith"
+      },
+      {
+          "id": "P6-T12",
+          "taskName": "Deploy Recommendation & Expansion Planning Updates",
+          "correspondingPhase": "Recommendation & Expansion Planning",
+          "correspondingFeature": "Course Recommendation System",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2025-01-06",
+          "endTime": "2025-01-08",
+          "dependencies": [
+              "P6-T11"
+          ],
+          "responsiblePerson": "Bob Johnson"
+      },
+      {
+          "id": "P6-T13",
+          "taskName": "Gather User Feedback on Recommendation System and Expansion Features",
+          "correspondingPhase": "Recommendation & Expansion Planning",
+          "correspondingFeature": "Course Recommendation System",
+          "priority": "Low",
+          "estimationTime": "5 days",
+          "startTime": "2025-01-09",
+          "endTime": "2025-01-13",
+          "dependencies": [
+              "P6-T12"
+          ],
+          "responsiblePerson": "Charlie Williams"
+      }
+  ]
+].

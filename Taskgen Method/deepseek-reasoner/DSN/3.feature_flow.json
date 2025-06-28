@@ -1,0 +1,179 @@
+[
+  {
+    "category": "Emotional & Idea Sharing",
+    "features": [
+      {
+        "featureName": "Emotional Post Creation",
+        "flow": "1. [Regular User] Opens Post Composer screen from main feed/dream tracker\n2. [Regular User] Selects emotional state category via Tag Selector screen with expandable mood clusters (Happiness/Sadness/Hopelessness/Silliness)\n3. [Regular User] Refines emotional context using Intensity Slider screen with emoji-to-percentage mapping (e.g., 😢 30% = Disappointment, 😢 90% = Grief)\n4. [Regular User] Creates bespoke tags in Custom Tag Creator screen with auto-suggestions preventing duplicates\n5. [Regular User] Configures audience via inline privacy controls (Public/Friends/Custom Groups) with persistent settings memory\n6. [Regular User] Validates emotional metadata alignment on Post Preview screen showing mood indicators + tag clouds\n7. [System] Publishes post, automatically linking to dream tracking analytics and triggering soul mate matching notifications with users sharing overlapping emotional contexts, while activating community support mechanisms (real-time encouragement prompts, accountability partner suggestions, and collaborative solution boards)",
+        "screens": [
+          "Tag Selector: [Regular User] Grid/tree view interface for selecting emotional categories with color-coded urgency levels and emotional context tooltips",
+          "Emotion Intensity Slider: [Regular User] Haptic-feedback slider with emoji-to-percentage mapping and system-generated explanations of emotional impact thresholds",
+          "Post Preview: [Regular User/System] Live render with emotional metadata sidebar showing compatibility triggers and preview of activated community support actions (encouragement prompts/solution boards)",
+          "Custom Tag Creator: [Regular User + System] AI-assisted tag generator combining user input with community trends analysis to prevent duplicates and suggest contextually relevant tags"
+        ]
+      },
+      {
+        "featureName": "Aspiration Documentation Feature",
+        "flow": "1) [Member] Navigates to 'Aspiration Documentation' via Dashboard widget\n2) [Member] Browses Template Gallery (Career/Personal Growth templates with success metric previews)\n3) [Member] Activates Goal Configuration screen to input title/description/category/deadline with privacy toggle\n4) [System] Validates deadline alignment with historical goal patterns and 10k+ user benchmarks\n5) [Member] Builds Milestone Timeline using drag-and-drop Gantt editor (sets task dependencies/priority levels)\n6) [System] Auto-generates resource suggestions (articles/mentors) based on aspiration category using NLP analysis\n7) [System] Activates Progress Dashboard streak counters & completion heatmaps upon first milestone creation\n8) [System] Triggers push notifications for deadline proximity/stagnation (48hr grace period before 'At Risk' tagging; auto-mentor matching at 72hrs)\n9) [Member] Shares achievements via customizable posts with unlockable badges (Community Feedback screen)\n10) [System] Updates digital footprint profile with completed aspiration metrics",
+        "screens": [
+          "Aspiration Hub Dashboard: Real-time goal vitals (completion %, next milestone, resource alerts)",
+          "Template Marketplace: Filterable templates with user ratings and complexity indicators",
+          "Milestone Architect: Dependency-aware timeline builder with critical path highlighting and system validation cues",
+          "Validation Center: Aggregates community reactions/expert feedback on shared achievements with sentiment analysis",
+          "Progress Analytics: Time-series graphs comparing planned vs actual milestone completion with peer benchmarking",
+          "Accountability Console: Visualizes active community commitments and overdue task impacts on success probability"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Dream Tracking",
+    "features": [
+      {
+        "featureName": "Dream Journal Entry & Evolution Tracking",
+        "flow": "1. [Member] Accesses Dream Journal via dashboard shortcut. 2. [Member] Initiates 'New Entry' with text input for dream narrative/goals (5000 character limit). 3. [Member] Uploads multimedia via drag-and-drop interface; [System] validates formats (JPG/MP4/WAV under 200MB) and displays preview thumbnails. 4. [System] Applies immutable UTC timestamp with timezone conversion. 5. [Member] Tags emotional states (sadness/hope/excitement) and goal categories via multi-select dropdown. 6. [Member] Sets entry visibility (private/friends/global) with granular permission controls. 7. [System] Compiles entry into encrypted journal with versioned cloud backups. 8. [Member] Triggers 'Evolution Map' to view animated timeline showing dream maturation patterns via AI analysis of semantic themes and engagement frequency. 9. [System] Generates milestone badges when detecting consistent progress patterns. 10. [Community] Interacts via contextual emoji reactions (❤️/🌟/🤝) and threaded comments on public entries.",
+        "screens": [
+          "Journal Dashboard - Grid/timeline view of entries with floating action button for new creations",
+          "Multimedia Editor - In-screen cropping/trimming tools with format-specific filters and metadata tagging",
+          "Temporal Analytics Hub - Heatmap showing entry frequency correlated with emotional tags and community engagement spikes",
+          "Evolution Map Interface - Zoomable node-based visualization showing conceptual connections between dreams over time",
+          "Privacy Matrix Screen - Matrix toggle for setting cross-platform sharing permissions (community subgroups/third-party integrations)",
+          "Collaborative Feedback Panel - Sidebar displaying aggregated community insights with sentiment analysis percentages",
+          "Milestone Celebrations UI - Full-screen achievement animations with shareable celebration cards and progress comparison charts"
+        ]
+      },
+      {
+        "featureName": "Progress Tracking System",
+        "flow": "1. [Member] Navigates to 'Progress Hub' via main menu. 2. [System] Displays aggregated emotional/aspiration analytics dashboard (last 30-day trends, milestone achievements). 3. [Member] Selects 'Pattern Analysis' tab. 4. [System] Generates time-series charts + Sankey diagrams showing emotion-goal correlations. 5. [Member] Activates 'Community Alignment' mode. 6. [System] Renders heatmap comparing personal goal timelines/categories against top 10% proactive members. 7. [System] Triggers auto-generated 'Insight Report' with priority actions if alignment <65%. 8. [Member] Shares report to accountability group or requests mentor match.",
+        "screens": [
+          "Progress Dashboard: Central hub with emotion sparklines, aspiration % rings, milestone timelines, and quick-glance KPIs",
+          "Pattern Analyzer: Interactive Sankey/time-series hybrid visualization with emotion-tag filters and goal category overlays",
+          "Alignment Matrix: Split-screen view with personal goal cards (left) vs. anonymized community success patterns (right) using heatmap gradients",
+          "Insight Engine: Vertical carousel displaying 'Focus Areas' with dynamic resource links, micro-task generators, and mentor connection CTAs"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Community Support",
+    "features": [
+      {
+        "featureName": "Community-Driven Feedback & Expert Guidance System",
+        "flow": "1. [User] Initiate feedback request: User selects 'Get Feedback' on their dream/idea post. 2. [System] Offer options: Choose between anonymous peer review or verified expert consultation. 3. [User] Customize request: Add specific questions/concerns and select expertise tags (for expert path). 4. [System] Match and distribute: Route peer requests to 5-10 anonymous community members with overlapping goal interests; expert requests to 3 pre-verified professionals in relevant fields. 5. [Peer/Expert] Review interface: Evaluators receive structured template asking to assess feasibility, suggest resources, and share similar experiences (peers) or provide professional analysis with citations (experts). 6. [System] Aggregate responses: Compile anonymized peer insights into thematic clusters; highlight expert consensus/divergence points. 7. [User] Interactive review: Toggle between aggregated views and raw feedback, with option to request clarifications (anonymous Q&A for peers; scheduled chat for experts). 8. [User] Integrate feedback: Create action plan directly from feedback interface, tagging used suggestions to notify contributors.",
+        "screens": [
+          {
+            "name": "Feedback Request Dashboard",
+            "purpose": "Central hub to track active/past requests and initiate new ones (User)"
+          },
+          {
+            "name": "Audience Selection Screen",
+            "purpose": "Compare peer vs expert path benefits through real community success metrics (User)"
+          },
+          {
+            "name": "Contextual Query Builder",
+            "purpose": "Structured form to define specific feedback needs with goal-aligned prompts (User)"
+          },
+          {
+            "name": "Evaluator Interface",
+            "purpose": "Unified workspace showing post details, evaluation rubric, and contribution metrics (Peer/Expert)"
+          },
+          {
+            "name": "Feedback Synthesis Viewer",
+            "purpose": "Layered visualization showing emotional validation (peer) vs practical analysis (expert) ratios (User)"
+          },
+          {
+            "name": "Accountability Integrator",
+            "purpose": "Convert feedback into SMART goals with automatic contributor acknowledgments (User)"
+          }
+        ]
+      },
+      {
+        "category": "Group Collaboration & Accountability",
+        "features": [
+          {
+            "featureName": "Group Creation Screen",
+            "flow": "Group Creator configures foundational parameters",
+            "screens": ["Group Creation Screen"]
+          },
+          {
+            "featureName": "Invite Screen",
+            "flow": "Curate group membership",
+            "screens": ["Invite Screen"]
+          },
+          {
+            "featureName": "Collaborative Goal Setting Screen",
+            "flow": "Define shared objectives",
+            "screens": ["Collaborative Goal Setting Screen"]
+          },
+          {
+            "featureName": "Real-time Workspace",
+            "flow": "Execute collaborative work",
+            "screens": ["Real-time Workspace"]
+          },
+          {
+            "featureName": "Progress Dashboard",
+            "flow": "Monitor collective advancement",
+            "screens": ["Progress Dashboard"]
+          },
+          {
+            "featureName": "Accountability Hub",
+            "flow": "Maintain participation standards",
+            "screens": ["Accountability Hub"]
+          },
+          {
+            "featureName": "Monthly Recap Interface",
+            "flow": "Reflect and recalibrate",
+            "screens": ["Monthly Recap Interface"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Connection",
+    "features": [
+      {
+        "featureName": "Algorithmic Matching",
+        "flow": "1. [Member] Input emotional state updates and long-term aspirations via Emotional Pattern Input screen. 2. [System] Continuously analyze user-generated data (emotional patterns, dream tracker entries, goal tags) and profile metadata (interests, interaction history). 3. [System] Generate compatibility scores using weighted metrics: emotional resonance (40%), goal alignment (35%), and interest overlap (25%). 4. [Member] View ranked matches on Compatibility Dashboard with filtering options (geography, activity level, dream phase). 5. [Member] Select match to view detailed compatibility breakdown via Match Details screen, including shared emotional milestones and collaborative opportunity prompts. 6. [System] Trigger Collaborative Action Prompt with AI-generated suggestions (e.g., joint goal-setting, resource exchange). 7. [Member/Community] Initiate collaboration via prompt or contribute encouragement (kudos, progress validation) through contextual buttons. 8. [System] Curate Dream Reinforcement Feed with real-time community interactions (collaboration milestones, peer validations) tied to the member’s goals. 9. [System] Update matches weekly based on new user data, interaction outcomes, and community reinforcement metrics. 10. [Member] Adjust collaboration scope or feedback frequency via reinforcement feed settings.",
+        "screens": [
+          "Emotional Pattern Input: Multi-field form with mood sliders, aspiration text editor, and dream phase selector (planning/executing/reflecting)",
+          "Compatibility Dashboard: Grid view with match cards displaying avatar, compatibility percentage, quick-action buttons, and a 'Reinforcement Activity' preview strip",
+          "Match Details: Expandable panels showing emotional alignment timelines, goal intersection maps, and AI-generated collaboration suggestions",
+          "Collaborative Action Prompt: Dynamic overlay with personalized collaboration templates (e.g., 'Co-Draft a Milestone Plan'), deadline picker, and permission settings for shared goal visibility",
+          "Dream Reinforcement Feed: Chronological scroll of community interactions (peer validations, collaboration progress updates) with emoji reactions and contextual commentary fields"
+        ]
+      },
+      [
+        {
+          "featureName": "Location-Based Dream Matching",
+          "flow": "1. User navigates to Discovery tab (Member role)\n2. App requests location permission via system dialog\n3. If denied: Display 'Local matches disabled' notice with option to manually set location\n4. If granted: Auto-detect location and apply default radius filter\n5. User selects emotional/aspirational filters (e.g., 'Hopefulness', 'Artistic Goals')\n6. System cross-references location data with dream/emotion profiles\n7. Display animated match carousel with compatibility percentages\n8. User swipes to bookmark matches or taps for detailed view\n9. Bookmarked profiles receive mutual connection suggestions",
+          "screens": [
+            "Discovery Dashboard (Main hub with filter controls and match previews)",
+            "Location Permission Prompt (Custom explanatory overlay with 'Enable'/'Skip' options)",
+            "Filter Configuration Screen (Multi-select emotional states, dream categories, and radius slider)",
+            "Match Results List (Card-based UI with profile snippets and compatibility badges)",
+            "Detailed Profile View (Expandable sections for dream timelines, shared interests, and connection history)"
+          ]
+        },
+        {
+          "featureName": "Ambition-Alert Push System",
+          "flow": "1. User enables 'Ambition Alerts' in settings (Member role)\n2. System monitors global user-generated dream updates\n3. When >3 users mention similar aspirations within 24hrs:\n   a. Generate push notification with match summary\n   b. Create temporary group chat with interested members\n   c. Display collaborative planning tools\n4. Users vote on discussion format (Text/Video/Audio)\n5. System archives session outcomes in Dream Journals",
+          "screens": [
+            "Alert Settings Screen (Toggle switches for different ambition types)",
+            "Live Collaboration Hub (Multi-pane interface with shared whiteboard and goal tracker)",
+            "Post-Session Summary Screen (Automated highlights and next-step suggestions)"
+          ]
+        },
+        {
+          "featureName": "Empathy Map Overlay",
+          "flow": "1. User long-presses any profile image (Member role)\n2. System displays emotional state visualization\n3. Overlay shows:\n   a. Recent emotional pattern graph\n   b. Active support requests\n   c. Compatibility heatmap\n4. User can send 'empathy boost' (pre-written encouragement)\n5. Recipient receives boost with option to start meaningful connection",
+          "screens": [
+            "Emotional Profile Overlay (Semi-transparent HUD with biometric-inspired graphics)",
+            "Empathy Composer (Pre-set supportive messages with tone customization)",
+            "Boost Reception Screen (Animated thank-you interface with connection prompts)"
+          ]
+        }
+      ]
+    ]
+  }
+]

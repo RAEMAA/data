@@ -1,0 +1,116 @@
+[
+  {
+    "id": "P1",
+    "phase": "Phase 1: Core System Setup & User Management",
+    "feature list": [
+      "Farm staff accounts with specific permissions",
+      "Farmer accounts with registration and login",
+      "Role-based access control (farm staff vs. farmers)"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-10-26",
+    "endTime": "2023-11-23",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Phase 2: Piglet Management Module",
+    "feature list": [
+      "Track piglet growth metrics (weight, height, etc.)",
+      "Record feeding schedules",
+      "Monitor temperature and environmental conditions",
+      "Categorize information by piglet type/breed",
+      "Maintain health records (vaccinations, medications)",
+      "Record common diseases and treatments",
+      "Track import/export status of piglets"
+    ],
+    "estimatedTime": "6 weeks",
+    "startTime": "2023-11-24",
+    "endTime": "2024-01-04",
+    "dependencies": [
+      "P1"
+    ]
+  },
+  {
+    "id": "P3",
+    "phase": "Phase 3: Farmer Features Development",
+    "feature list": [
+      "Browse available piglet breeds",
+      "Place orders for piglets",
+      "Communicate with the farm post-purchase",
+      "Access feeding guidelines",
+      "Access vaccination schedules"
+    ],
+    "estimatedTime": "5 weeks",
+    "startTime": "2023-11-24",
+    "endTime": "2023-12-29",
+    "dependencies": [
+      "P1"
+    ]
+  },
+  {
+    "id": "P4",
+    "phase": "Phase 4: Farm Staff Features Development",
+    "feature list": [
+      "Update piglet information (growth, health, etc.)",
+      "Manage piglet inventory",
+      "Record revenue statistics",
+      "Process farmer orders",
+      "Respond to farmer inquiries"
+    ],
+    "estimatedTime": "5 weeks",
+    "startTime": "2024-01-05",
+    "endTime": "2024-02-09",
+    "dependencies": [
+      "P2"
+    ]
+  },
+  {
+    "id": "P5",
+    "phase": "Phase 5: Reporting and Analytics Implementation",
+    "feature list": [
+      "Generate monthly reports",
+      "Generate quarterly reports",
+      "Generate annual reports"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2024-02-10",
+    "endTime": "2024-03-08",
+    "dependencies": [
+      "P2",
+      "P4"
+    ]
+  },
+  {
+    "id": "P6",
+    "phase": "Phase 6: Administrative Features (Farm Owner)",
+    "feature list": [
+      "Manage data",
+      "Provide updates to farmers",
+      "Announce promotions",
+      "Generate reports"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2024-03-09",
+    "endTime": "2024-03-29",
+    "dependencies": [
+      "P5"
+    ]
+  },
+  {
+    "id": "P7",
+    "phase": "Phase 7: Communication & Website Functionality",
+    "feature list": [
+      "Post-purchase communication between farmers and farm staff regarding piglet care",
+      "Piglet transaction capabilities",
+      "Information sharing with farmers in remote areas"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2024-03-30",
+    "endTime": "2024-04-26",
+    "dependencies": [
+      "P3",
+      "P4"
+    ]
+  }
+]

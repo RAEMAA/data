@@ -1,0 +1,70 @@
+[
+  {
+    "id": "P1",
+    "phase": "User Interface Development",
+    "feature_list": [
+      "Responsive Design",
+      "Intuitive Navigation",
+      "Mobile Compatibility",
+      "Customizable Themes"
+    ],
+    "estimatedTime": 15,
+    "startTime": "2023-10-06",
+    "endTime": "2023-10-20",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Backend Development",
+    "feature_list": [
+      "API Integration",
+      "Database Management",
+      "Server-side Logic",
+      "Scalability"
+    ],
+    "estimatedTime": 20,
+    "startTime": "2023-10-06",
+    "endTime": "2023-10-26",
+    "dependencies": []
+  },
+  {
+    "id": "P3",
+    "phase": "Security Implementation",
+    "feature_list": [
+      "User Authentication",
+      "Data Encryption",
+      "Access Control"
+    ],
+    "estimatedTime": 10,
+    "startTime": "2023-10-27",
+    "endTime": "2023-11-05",
+    "dependencies": ["P2"]
+  },
+  {
+    "id": "P4",
+    "phase": "Reputation System Development",
+    "feature_list": [
+      "Credibility Ranking",
+      "Successful Exchanges Tracking",
+      "Feedback Aggregation",
+      "Transaction Amount Monitoring"
+    ],
+    "estimatedTime": 12,
+    "startTime": "2023-10-27",
+    "endTime": "2023-11-07",
+    "dependencies": ["P2"]
+  },
+  {
+    "id": "P5",
+    "phase": "Marketplace Feature Integration",
+    "feature_list": [
+      "Buying Notifications",
+      "Selling Notifications",
+      "Community Interaction"
+    ],
+    "estimatedTime": 8,
+    "startTime": "2023-10-27",
+    "endTime": "2023-11-03",
+    "dependencies": ["P2"]
+  }
+]

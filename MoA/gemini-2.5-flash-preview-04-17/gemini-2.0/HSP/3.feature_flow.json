@@ -1,0 +1,116 @@
+[
+  {
+      "category": "Internal Farm Operations",
+      "features": [
+          {
+              "featureName": "Piglet Monitoring (growth, feeding, temperature, environmental criteria)",
+              "flow": "1. **Farm Staff** logs into the system.\n2. **Farm Staff** navigates to the Piglet Monitoring section.\n3. **Farm Staff** selects a specific piglet (identified by ID or other unique identifier).\n4. **Farm Staff** views the piglet's current data (e.g., age, breed).\n5. **Farm Staff** inputs new data for the piglet:\n    *   **Growth:** Weight, length (if applicable), and any observed growth issues.\n    *   **Feeding:** Type of feed, amount consumed, feeding schedule.\n    *   **Temperature:** Temperature of the piglet's environment (e.g., in the pen).\n    *   **Environmental Criteria:** Humidity, air quality (if measured), and any relevant environmental observations.\n6. **Farm Staff** saves the entered data.\n7. The system updates the piglet's record with the new information.\n8. **Farm Staff** can view historical data for the piglet (growth trends, feeding patterns, etc.).",
+              "screens": [
+                  "Dashboard: Displays an overview of the farm's status, including a link to the Piglet Monitoring section.",
+                  "Piglet Monitoring Dashboard: Lists all piglets with basic information (ID, breed, current status). Allows filtering and searching.",
+                  "Piglet Detail Screen: Displays detailed information for a selected piglet, including growth, feeding, temperature, and environmental data. Includes input fields for new data and a section for viewing historical data.",
+                  "Data Input Form: A form within the Piglet Detail Screen to input new growth, feeding, temperature, and environmental data. Includes fields for date/time, values, and notes."
+              ]
+          },
+          {
+              "featureName": "Piglet Health Management (health status, diseases, vaccination procedures)",
+              "flow": "1. **Farm Staff** logs into the system.\n2. **Farm Staff** navigates to the Piglet Health Management section.\n3. **Farm Staff** selects a specific piglet (identified by ID or other unique identifier).\n4. **Farm Staff** views the piglet's current health status.\n5. **Farm Staff** can:\n    *   Update the piglet's health status (e.g., healthy, sick, under treatment).\n    *   Record any observed diseases or symptoms.\n    *   Record vaccination procedures (vaccine type, date, dosage).\n    *   Record any treatments administered (medication, dosage, date).\n6. **Farm Staff** saves the entered health information.\n7. The system updates the piglet's health record.\n8. **Farm Staff** can view historical health data, including disease history, vaccination records, and treatment history.",
+              "screens": [
+                  "Dashboard: Displays an overview of the farm's status, including a link to the Piglet Health Management section.",
+                  "Piglet Health Management Dashboard: Lists all piglets with basic health information (ID, health status). Allows filtering and searching.",
+                  "Piglet Health Detail Screen: Displays detailed health information for a selected piglet, including health status, disease history, vaccination records, and treatment history. Includes input fields for new data.",
+                  "Health Status Update Form: A form within the Piglet Health Detail Screen to update the piglet's health status, record diseases, and record treatments.",
+                  "Vaccination Record Form: A form within the Piglet Health Detail Screen to record vaccination details (vaccine type, date, dosage)."
+              ]
+          },
+          {
+              "featureName": "Inventory Management (import/export status)",
+              "flow": "1. **Farm Staff** logs into the system.\n2. **Farm Staff** navigates to the Inventory Management section.\n3. **Farm Staff** can:\n    *   Record new piglet imports: Enter details such as the number of piglets, breed, date of import, and source.\n    *   Record piglet exports (sales): Enter details such as the number of piglets, breed, date of export, and the buyer (farmer).\n    *   View the current inventory: Display the total number of piglets, categorized by breed and status (e.g., available, sold, deceased).\n4. **Farm Staff** enters the relevant import/export data.\n5. **Farm Staff** saves the data.\n6. The system updates the inventory records.\n7. The system automatically updates the inventory count based on import and export entries.\n8. **Farm Staff** can generate reports on inventory levels and movements.",
+              "screens": [
+                  "Dashboard: Displays an overview of the farm's status, including a link to the Inventory Management section.",
+                  "Inventory Management Dashboard: Displays the current inventory levels, categorized by breed and status. Includes links to import and export functions.",
+                  "Piglet Import Form: A form to record new piglet imports, including details like breed, quantity, date, and source.",
+                  "Piglet Export Form: A form to record piglet exports (sales), including details like breed, quantity, date, and buyer.",
+                  "Inventory Report Screen: Displays reports on inventory levels, import/export history, and other relevant inventory data."
+              ]
+          }
+      ]
+  },
+  {
+      "category": "Sales and Farmer Engagement",
+      "features": [
+          {
+              "featureName": "Piglet Catalog Browsing",
+              "flow": "1. **Farmer (Customer) Role:** Navigates to the Piglet Catalog.\n2. **System:** Displays a list of available piglet breeds/kinds with relevant information (age, weight range, price, health status summary).\n3. **Farmer (Customer) Role:** Filters the catalog based on breed, age, weight, or price range.\n4. **System:** Updates the catalog display based on the applied filters.\n5. **Farmer (Customer) Role:** Selects a specific piglet from the catalog to view detailed information.\n6. **System:** Displays a detailed view of the selected piglet, including growth history, health records, vaccination schedule, and parentage (if available).",
+              "screens": [
+                  "Piglet Catalog: Displays a list of available piglets with brief details and filtering options.",
+                  "Piglet Detail View: Shows comprehensive information about a selected piglet."
+              ]
+          },
+          {
+              "featureName": "Online Ordering System",
+              "flow": "1. **Farmer (Customer) Role:** Browses the Piglet Catalog and selects piglets to add to their cart.\n2. **System:** Updates the shopping cart with the selected piglets and quantities.\n3. **Farmer (Customer) Role:** Reviews the shopping cart and adjusts quantities or removes piglets.\n4. **System:** Calculates the total order cost, including any applicable taxes or delivery fees.\n5. **Farmer (Customer) Role:** Proceeds to checkout.\n6. **System:** Prompts the farmer to confirm their shipping address and select a payment method.\n7. **Farmer (Customer) Role:** Enters shipping address and selects payment method.\n8. **System:** Displays an order confirmation screen with order details and a confirmation number.\n9. **System:** Sends an order confirmation email to the farmer.\n10. **Farm Staff Role:** Receives notification of the new order.\n11. **Farm Staff Role:** Processes the order (verifies inventory, prepares piglets for shipment).\n12. **System:** Updates the order status to 'Processing'.\n13. **Farm Staff Role:** Ships the order.\n14. **System:** Updates the order status to 'Shipped' and sends a shipping notification to the farmer with tracking information.\n15. **Farmer (Customer) Role:** Receives the order and confirms receipt (optional).\n16. **System:** Updates the order status to 'Delivered'.",
+              "screens": [
+                  "Shopping Cart: Displays selected piglets, quantities, and total cost.",
+                  "Checkout: Collects shipping address and payment information.",
+                  "Order Confirmation: Shows order details and confirmation number.",
+                  "Order Tracking (Farmer View): Displays the current status and tracking information for an order.",
+                  "Order Management (Farm Staff View): Allows farm staff to view and manage orders."
+              ]
+          },
+          {
+              "featureName": "Communication Platform (Farm-to-Farmer)",
+              "flow": "1. **Farmer (Customer) Role:** Logs into their account.\n2. **Farmer (Customer) Role:** Navigates to the communication platform (e.g., messaging section).\n3. **System:** Displays a list of past conversations or a 'New Message' option.\n4. **Farmer (Customer) Role:** Starts a new conversation or selects an existing one.\n5. **Farmer (Customer) Role:** Types and sends a message to the farm.\n6. **System:** Delivers the message to the farm staff.\n7. **Farm Staff Role:** Receives a notification of a new message.\n8. **Farm Staff Role:** Views the message and responds.\n9. **System:** Delivers the response to the farmer.\n10. **Farmer (Customer) Role:** Receives the response and continues the conversation as needed.",
+              "screens": [
+                  "Messaging Inbox: Lists all conversations with the farm.",
+                  "Conversation View: Displays the message history for a selected conversation.",
+                  "New Message: Allows the farmer to compose and send a new message to the farm."
+              ]
+          }
+      ]
+  },
+  {
+      "category": "System Administration and Reporting",
+      "features": [
+          {
+              "featureName": "User Account Management (Farmer registration, Admin management)",
+              "flow": "1. **Farmer Registration:**\n   - User Role: Farmer\n   - Action: Farmer accesses the registration screen.\n   - Action: Farmer enters required information (name, contact, address, etc.).\n   - Action: Farmer submits the registration form.\n   - System Action: System validates the information.\n   - System Action: Sends a verification email to the farmer.\n   - Action: Farmer verifies their email address.\n   - System Action: Activates the farmer's account.\n   - System Action: Farmer can now log in.\n\n2. **Admin Management:**\n   - User Role: Farm Owner/Admin\n   - Action: Admin logs into the system.\n   - Action: Admin navigates to the user management section.\n   - Action: Admin can view a list of all users (Farmers and Admins).\n   - Action: Admin can add new admin accounts (specifying permissions).\n   - Action: Admin can edit existing user accounts (Farmer and Admin details, permissions).\n   - Action: Admin can deactivate/activate user accounts.\n   - Action: Admin can reset user passwords.\n",
+              "screens": [
+                  "Registration Screen: Allows farmers to register with required fields (name, contact, address, etc.) and a submit button.",
+                  "Login Screen: Allows users (Farmers and Admins) to log in with their credentials.",
+                  "User Management Dashboard: Displays a list of all users (Farmers and Admins), with options to filter, search, and sort.",
+                  "Add User Screen: Allows the Admin to create new user accounts, specifying role (Farmer or Admin) and permissions.",
+                  "Edit User Screen: Allows the Admin to modify existing user details, including contact information, permissions, and account status.",
+                  "User Details Screen: Displays detailed information about a specific user (Farmer or Admin).",
+                  "Password Reset Screen: Allows users to reset their passwords (via email verification).",
+                  "Admin Dashboard: A landing page for the Admin after login, providing access to various management features."
+              ]
+          },
+          {
+              "featureName": "Promotions Management",
+              "flow": "1. **Promotion Creation:**\n   - User Role: Farm Owner/Admin\n   - Action: Admin logs into the system.\n   - Action: Admin navigates to the promotions management section.\n   - Action: Admin clicks 'Create New Promotion'.\n   - Action: Admin enters promotion details (promotion name, description, start date, end date, discount type (percentage/fixed amount), applicable piglet types, etc.).\n   - Action: Admin previews the promotion.\n   - Action: Admin saves the promotion.\n   - System Action: The promotion is saved and becomes active (based on start/end dates).\n\n2. **Promotion Viewing & Editing:**\n   - User Role: Farm Owner/Admin\n   - Action: Admin views a list of active and inactive promotions.\n   - Action: Admin selects a promotion to edit.\n   - Action: Admin modifies promotion details.\n   - Action: Admin saves the changes.\n\n3. **Promotion Announcement:**\n   - System Action: System automatically displays promotions on the Farmer's Piglet Catalog Browsing screen and/or sends notifications (e.g., SMS, in-app notifications) to farmers.",
+              "screens": [
+                  "Promotions Management Dashboard: Displays a list of all promotions (active, inactive, upcoming), with options to filter, search, and sort.",
+                  "Create Promotion Screen: Allows the Admin to create new promotions, including fields for promotion name, description, start/end dates, discount type, discount value, applicable piglet types, and a preview option.",
+                  "Edit Promotion Screen: Allows the Admin to modify existing promotion details.",
+                  "Promotion Details Screen: Displays detailed information about a specific promotion.",
+                  "Piglet Catalog Browsing Screen (Farmer View): Displays active promotions prominently.",
+                  "Notification Screen: Displays notifications about promotions to farmers."
+              ]
+          },
+          {
+              "featureName": "Reporting (Revenue statistics, periodic reports)",
+              "flow": "1. **Report Generation:**\n   - User Role: Farm Owner/Admin\n   - Action: Admin logs into the system.\n   - Action: Admin navigates to the reporting section.\n   - Action: Admin selects the report type (e.g., Revenue Statistics, Sales Report, Inventory Report).\n   - Action: Admin specifies the reporting period (e.g., daily, weekly, monthly, quarterly, custom date range).\n   - Action: Admin filters the report (e.g., by piglet type, sales channel).\n   - Action: Admin generates the report.\n   - System Action: The system generates the report based on the selected criteria.\n   - Action: Admin views the report (in a table or chart format).\n   - Action: Admin can download the report (e.g., as a PDF or CSV file).\n\n2. **Report Viewing:**\n   - User Role: Farm Owner/Admin\n   - Action: Admin views previously generated reports.\n   - Action: Admin can filter and sort the list of reports.\n\n3. **Report Data:**\n   - System Action: The system automatically collects and stores data required for reports (sales data, inventory data, etc.).",
+              "screens": [
+                  "Reporting Dashboard: Provides an overview of available reports and options to generate new reports.",
+                  "Report Generation Screen: Allows the Admin to select report type, reporting period, and apply filters.",
+                  "Revenue Statistics Report Screen: Displays revenue data in a table or chart format, with options to filter by date range, piglet type, etc.",
+                  "Sales Report Screen: Displays sales data, including piglet type, quantity sold, and revenue generated.",
+                  "Inventory Report Screen: Displays inventory data, including import/export status, and current stock levels.",
+                  "Report Viewing Screen: Displays a list of previously generated reports, with options to filter and sort.",
+                  "Report Details Screen: Displays the details of a selected report, including data visualization and download options."
+              ]
+          }
+      ]
+  }
+]

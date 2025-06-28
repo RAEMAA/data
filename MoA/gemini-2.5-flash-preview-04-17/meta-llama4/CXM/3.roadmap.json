@@ -1,0 +1,136 @@
+[
+    {
+        "id": "P1",
+        "phase": "User Management Development",
+        "feature_list": [
+            "user registration",
+            "user profile",
+            "user login"
+        ],
+        "estimatedTime": 5,
+        "startTime": "2023-12-01",
+        "endTime": "2023-12-05",
+        "dependencies": []
+    },
+    {
+        "id": "P2",
+        "phase": "Listing Management Development",
+        "feature_list": [
+            "post sale notification",
+            "post purchase notification",
+            "listing motorcycle for sale",
+            "listing parts and accessories for sale"
+        ],
+        "estimatedTime": 8,
+        "startTime": "2023-12-06",
+        "endTime": "2023-12-13",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P3",
+        "phase": "Credibility System Development",
+        "feature_list": [
+            "credibility score",
+            "successful transactions tracking",
+            "total cost of items exchanged tracking"
+        ],
+        "estimatedTime": 6,
+        "startTime": "2023-12-06",
+        "endTime": "2023-12-11",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P4",
+        "phase": "Transaction Management Development",
+        "feature_list": [
+            "transaction history",
+            "transaction tracking"
+        ],
+        "estimatedTime": 4,
+        "startTime": "2023-12-14",
+        "endTime": "2023-12-17",
+        "dependencies": [
+            "P2",
+            "P3"
+        ]
+    },
+    {
+        "id": "P5",
+        "phase": "Forum and Discussion Development",
+        "feature_list": [
+            "forum for discussion",
+            "experience sharing"
+        ],
+        "estimatedTime": 5,
+        "startTime": "2023-12-12",
+        "endTime": "2023-12-16",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P6",
+        "phase": "Search and Filtering Development",
+        "feature_list": [
+            "search motorcycle",
+            "search parts and accessories",
+            "filtering by category",
+            "filtering by location"
+        ],
+        "estimatedTime": 7,
+        "startTime": "2023-12-14",
+        "endTime": "2023-12-20",
+        "dependencies": [
+            "P2"
+        ]
+    },
+    {
+        "id": "P7",
+        "phase": "Sorting and Prioritization Development",
+        "feature_list": [
+            "prioritize posts by credibility score",
+            "sorting by post date",
+            "sorting by price"
+        ],
+        "estimatedTime": 4,
+        "startTime": "2023-12-21",
+        "endTime": "2023-12-24",
+        "dependencies": [
+            "P3",
+            "P6"
+        ]
+    },
+    {
+        "id": "P8",
+        "phase": "Notification Development",
+        "feature_list": [
+            "notification for new posts",
+            "notification for new messages"
+        ],
+        "estimatedTime": 3,
+        "startTime": "2023-12-17",
+        "endTime": "2023-12-19",
+        "dependencies": [
+            "P2",
+            "P5"
+        ]
+    },
+    {
+        "id": "P9",
+        "phase": "User Feedback Integration",
+        "feature_list": [
+            "user feedback"
+        ],
+        "estimatedTime": 2,
+        "startTime": "2023-12-18",
+        "endTime": "2023-12-19",
+        "dependencies": [
+            "P1",
+            "P4"
+        ]
+    }
+]

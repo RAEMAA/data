@@ -1,0 +1,55 @@
+[
+  {
+    "id": "P1",
+    "phase": "Phase 1: User Registration & Account Management",
+    "feature list": [
+      "User registration and profile creation",
+      "Profile management including credibility rating display",
+      "Transaction history tracking for individual users"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-10-11",
+    "endTime": "2023-11-07",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Phase 2: Marketplace Functionality",
+    "feature list": [
+      "Motorcycle listing creation with details (price, description, photos)",
+      "Listing for motorcycle parts and accessories",
+      "Search and filtering of listings"
+    ],
+    "estimatedTime": "6 weeks",
+    "startTime": "2023-11-08",
+    "endTime": "2023-12-20",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P3",
+    "phase": "Phase 3: Credibility and Rating System",
+    "feature list": [
+      "User credibility rating calculation based on completed transactions",
+      "Feedback mechanism from other users",
+      "Tracking of total value traded",
+      "Display algorithm that promotes posts from higher credibility users"
+    ],
+    "estimatedTime": "5 weeks",
+    "startTime": "2023-12-21",
+    "endTime": "2024-01-24",
+    "dependencies": ["P2"]
+  },
+  {
+    "id": "P4",
+    "phase": "Phase 4: Community Hub Implementation",
+    "feature list": [
+      "Discussion forums for enthusiasts",
+      "Experience and advice sharing platform",
+      "User-generated posts and interactions"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-12-21",
+    "endTime": "2024-01-17",
+    "dependencies": ["P1"]
+  }
+]

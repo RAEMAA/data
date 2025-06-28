@@ -1,0 +1,82 @@
+[
+    {
+        "category": "User Profile",
+        "list_feature": [
+            "user_id",
+            "username",
+            "email",
+            "role",
+            "institution",
+            "department"
+        ]
+    },
+    {
+        "category": "Content Sharing",
+        "list_feature": [
+            "material_id",
+            "material_type",
+            "material_title",
+            "material_description",
+            "material_file",
+            "material_rating"
+        ]
+    },
+    {
+        "category": "Course and Teacher Evaluation",
+        "list_feature": [
+            "course_id",
+            "course_name",
+            "teacher_id",
+            "teacher_name",
+            "course_rating",
+            "teacher_rating",
+            "review_text"
+        ]
+    },
+    {
+        "category": "Material Recommendation",
+        "list_feature": [
+            "recommended_material_id",
+            "recommended_material_title",
+            "recommendation_score"
+        ]
+    },
+    {
+        "category": "Academic Information",
+        "list_feature": [
+            "academic_event_id",
+            "academic_event_title",
+            "academic_event_description",
+            "academic_event_date"
+        ]
+    },
+    {
+        "category": "Network and Collaboration",
+        "list_feature": [
+            "network_id",
+            "network_name",
+            "user_network_status",
+            "collaborator_id",
+            "collaborator_name"
+        ]
+    },
+    {
+        "category": "Search and Filtering",
+        "list_feature": [
+            "search_query",
+            "search_result",
+            "filter_by_institution",
+            "filter_by_department",
+            "filter_by_material_type"
+        ]
+    },
+    {
+        "category": "Institution and Network",
+        "list_feature": [
+            "institution_id",
+            "institution_name",
+            "network_type",
+            "network_description"
+        ]
+    }
+]

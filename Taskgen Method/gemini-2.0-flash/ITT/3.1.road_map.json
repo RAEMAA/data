@@ -1,0 +1,78 @@
+[
+    {
+        "id": "P1",
+        "phase": "Information Provision - Phase 1",
+        "feature list": [
+            "Company Overview: Detailed information about ITT's history, mission, values, and global presence.",
+            "Business Segments: Dedicated sections for each of ITT's business segments (e.g., Industrial Process, Motion Technologies, Connect and Control Technologies), outlining their specific offerings and target markets.",
+            "Products & Solutions: Comprehensive catalog of ITT's products and solutions, with detailed specifications, datasheets, application examples, and high-quality images/videos."
+        ],
+        "estimatedTime": "4 weeks",
+        "startTime": "2024-07-03",
+        "endTime": "2024-07-31",
+        "dependencies": []
+    },
+    {
+        "id": "P2",
+        "phase": "Information Provision - Phase 2",
+        "feature list": [
+            "Industries Served: Information on the various industries ITT caters to, showcasing relevant products and solutions for each industry.",
+            "Investor Relations: Section for investors, including financial reports, stock information, corporate governance details, and investor presentations.",
+            "News & Events: Press releases, news articles, industry event participation, and company announcements.",
+            "Sustainability: Information on ITT's commitment to sustainability, including environmental, social, and governance (ESG) initiatives and performance metrics.",
+            "Careers: Job postings, information about ITT's culture, employee benefits, and career development opportunities."
+        ],
+        "estimatedTime": "4 weeks",
+        "startTime": "2024-07-31",
+        "endTime": "2024-08-28",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P3",
+        "phase": "Service Offerings",
+        "feature list": [
+            "Aftermarket Services: Information on ITT's aftermarket services, such as repair, maintenance, spare parts, and training.",
+            "Engineering Support: Details on ITT's engineering support capabilities, including design, testing, and consulting services.",
+            "Custom Solutions: Information on ITT's ability to provide custom-engineered solutions to meet specific customer requirements.",
+            "Training Programs: Details on available training programs for ITT products and solutions."
+        ],
+        "estimatedTime": "3 weeks",
+        "startTime": "2024-07-03",
+        "endTime": "2024-07-24",
+        "dependencies": []
+    },
+    {
+        "id": "P4",
+        "phase": "User Engagement",
+        "feature list": [
+            "Contact Forms: Forms for general inquiries, sales requests, and technical support.",
+            "Interactive Product Configurators: Tools to help users configure and select the right ITT products for their applications.",
+            "Resource Library: Downloadable resources such as brochures, catalogs, technical documents, case studies, and white papers.",
+            "Blog/Articles: Regularly updated blog or articles on industry trends, ITT innovations, and application insights.",
+            "Social Media Integration: Links to ITT's social media profiles (e.g., LinkedIn, Twitter, YouTube).",
+            "Webinars/Events: Promotion and registration for upcoming webinars and industry events.",
+            "Customer Portal: Secure portal for customers to access order information, track shipments, and manage accounts."
+        ],
+        "estimatedTime": "4 weeks",
+        "startTime": "2024-07-24",
+        "endTime": "2024-08-21",
+        "dependencies": []
+    },
+    {
+        "id": "P5",
+        "phase": "Support",
+        "feature list": [
+            "FAQ Section: Answers to frequently asked questions about ITT products, services, and the company.",
+            "Technical Support: Information on how to contact ITT's technical support team, including phone numbers, email addresses, and online support portals.",
+            "Warranty Information: Details on ITT's product warranties and how to file a warranty claim.",
+            "Distributor Locator: Tool to find authorized ITT distributors in specific geographic areas.",
+            "Chatbot: AI-powered chatbot to provide instant answers to common questions."
+        ],
+        "estimatedTime": "3 weeks",
+        "startTime": "2024-08-21",
+        "endTime": "2024-09-11",
+        "dependencies": []
+    }
+]

@@ -1,0 +1,418 @@
+[
+  [
+    [
+      {
+        "id": "P1-T1",
+        "taskName": "Design UI for bank account registration",
+        "correspondingPhase": "Farmer Registration",
+        "correspondingFeature": "Register using bank account details",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-11",
+        "endTime": "2023-10-11",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Designer"
+      },
+      {
+        "id": "P1-T2",
+        "taskName": "Implement backend logic for bank account registration",
+        "correspondingPhase": "Farmer Registration",
+        "correspondingFeature": "Register using bank account details",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2023-10-12",
+        "endTime": "2023-10-14",
+        "dependencies": ["P1-T1"],
+        "responsiblePerson": "Backend Developer"
+      },
+      {
+        "id": "P1-T3",
+        "taskName": "Test bank account registration module",
+        "correspondingPhase": "Farmer Registration",
+        "correspondingFeature": "Register using bank account details",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-15",
+        "endTime": "2023-10-15",
+        "dependencies": ["P1-T2"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P1-T4",
+        "taskName": "Design secure bank verification workflow",
+        "correspondingPhase": "Farmer Registration",
+        "correspondingFeature": "Secure bank account verification and validation",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-11",
+        "endTime": "2023-10-11",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Designer"
+      },
+      {
+        "id": "P1-T5",
+        "taskName": "Implement secure bank verification integration",
+        "correspondingPhase": "Farmer Registration",
+        "correspondingFeature": "Secure bank account verification and validation",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2023-10-12",
+        "endTime": "2023-10-14",
+        "dependencies": ["P1-T4"],
+        "responsiblePerson": "Backend Developer"
+      },
+      {
+        "id": "P1-T6",
+        "taskName": "Test bank verification process",
+        "correspondingPhase": "Farmer Registration",
+        "correspondingFeature": "Secure bank account verification and validation",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-15",
+        "endTime": "2023-10-15",
+        "dependencies": ["P1-T5"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P1-T7",
+        "taskName": "Design layout for comprehensive profile management",
+        "correspondingPhase": "Farmer Registration",
+        "correspondingFeature": "Comprehensive profile management for farmers",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-16",
+        "endTime": "2023-10-16",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Designer"
+      },
+      {
+        "id": "P1-T8",
+        "taskName": "Implement features for farmer profile management",
+        "correspondingPhase": "Farmer Registration",
+        "correspondingFeature": "Comprehensive profile management for farmers",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2023-10-17",
+        "endTime": "2023-10-19",
+        "dependencies": ["P1-T7"],
+        "responsiblePerson": "Backend Developer"
+      },
+      {
+        "id": "P1-T9",
+        "taskName": "Test farmer profile management system",
+        "correspondingPhase": "Farmer Registration",
+        "correspondingFeature": "Comprehensive profile management for farmers",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-20",
+        "endTime": "2023-10-20",
+        "dependencies": ["P1-T8"],
+        "responsiblePerson": "QA Engineer"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": "P2-T1",
+        "taskName": "Design for Detailed listings incorporating sensor data",
+        "correspondingPhase": "Produce Listings",
+        "correspondingFeature": "Detailed listings incorporating sensor data",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-25",
+        "endTime": "2023-11-07",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Designer"
+      },
+      {
+        "id": "P2-T2",
+        "taskName": "Implementation for Detailed listings incorporating sensor data",
+        "correspondingPhase": "Produce Listings",
+        "correspondingFeature": "Detailed listings incorporating sensor data",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-25",
+        "endTime": "2023-11-07",
+        "dependencies": ["P2-T1"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P2-T3",
+        "taskName": "Testing for Detailed listings incorporating sensor data",
+        "correspondingPhase": "Produce Listings",
+        "correspondingFeature": "Detailed listings incorporating sensor data",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-25",
+        "endTime": "2023-11-07",
+        "dependencies": ["P2-T2"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P2-T4",
+        "taskName": "Design for High-resolution images and descriptive content",
+        "correspondingPhase": "Produce Listings",
+        "correspondingFeature": "High-resolution images and descriptive content",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-25",
+        "endTime": "2023-11-07",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Designer"
+      },
+      {
+        "id": "P2-T5",
+        "taskName": "Implementation for High-resolution images and descriptive content",
+        "correspondingPhase": "Produce Listings",
+        "correspondingFeature": "High-resolution images and descriptive content",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-25",
+        "endTime": "2023-11-07",
+        "dependencies": ["P2-T4"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P2-T6",
+        "taskName": "Testing for High-resolution images and descriptive content",
+        "correspondingPhase": "Produce Listings",
+        "correspondingFeature": "High-resolution images and descriptive content",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-25",
+        "endTime": "2023-11-07",
+        "dependencies": ["P2-T5"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P2-T7",
+        "taskName": "Design for Real-time updates on produce quality",
+        "correspondingPhase": "Produce Listings",
+        "correspondingFeature": "Real-time updates on produce quality",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-25",
+        "endTime": "2023-11-07",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Designer"
+      },
+      {
+        "id": "P2-T8",
+        "taskName": "Implementation for Real-time updates on produce quality",
+        "correspondingPhase": "Produce Listings",
+        "correspondingFeature": "Real-time updates on produce quality",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-25",
+        "endTime": "2023-11-07",
+        "dependencies": ["P2-T7"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P2-T9",
+        "taskName": "Testing for Real-time updates on produce quality",
+        "correspondingPhase": "Produce Listings",
+        "correspondingFeature": "Real-time updates on produce quality",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-25",
+        "endTime": "2023-11-07",
+        "dependencies": ["P2-T8"],
+        "responsiblePerson": "QA Engineer"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": "P3-T1",
+        "taskName": "Design Online Payment Processing Architecture",
+        "correspondingPhase": "Online Payment Processing",
+        "correspondingFeature": "Seamless integration with payment gateways",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2023-10-25",
+        "endTime": "2023-10-27",
+        "dependencies": [],
+        "responsiblePerson": "System Architect"
+      },
+      {
+        "id": "P3-T2",
+        "taskName": "Implement Online Payment Processing Module",
+        "correspondingPhase": "Online Payment Processing",
+        "correspondingFeature": "Support for multiple payment methods",
+        "priority": "High",
+        "estimatedTime": "7 days",
+        "startTime": "2023-10-28",
+        "endTime": "2023-11-03",
+        "dependencies": ["P3-T1"],
+        "responsiblePerson": "Software Developer"
+      },
+      {
+        "id": "P3-T3",
+        "taskName": "Test Online Payment Processing Security and Functionality",
+        "correspondingPhase": "Online Payment Processing",
+        "correspondingFeature": "Robust security for transaction processing",
+        "priority": "Medium",
+        "estimatedTime": "4 days",
+        "startTime": "2023-11-04",
+        "endTime": "2023-11-07",
+        "dependencies": ["P3-T2"],
+        "responsiblePerson": "QA Engineer"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": "P4-T1",
+        "taskName": "Design Integrated shipping solutions",
+        "correspondingPhase": "Shipping Services",
+        "correspondingFeature": "Integrated shipping solutions",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-08",
+        "endTime": "2023-11-08",
+        "dependencies": [],
+        "responsiblePerson": "Design Lead"
+      },
+      {
+        "id": "P4-T2",
+        "taskName": "Implement Integrated shipping solutions",
+        "correspondingPhase": "Shipping Services",
+        "correspondingFeature": "Integrated shipping solutions",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-09",
+        "endTime": "2023-11-09",
+        "dependencies": ["P4-T1"],
+        "responsiblePerson": "Developer Lead"
+      },
+      {
+        "id": "P4-T3",
+        "taskName": "Test Integrated shipping solutions",
+        "correspondingPhase": "Shipping Services",
+        "correspondingFeature": "Integrated shipping solutions",
+        "priority": "Medium",
+        "estimatedTime": "0.5 day",
+        "startTime": "2023-11-10",
+        "endTime": "2023-11-10",
+        "dependencies": ["P4-T2"],
+        "responsiblePerson": "QA Lead"
+      },
+      {
+        "id": "P4-T4",
+        "taskName": "Design Real-time tracking of shipments",
+        "correspondingPhase": "Shipping Services",
+        "correspondingFeature": "Real-time tracking of shipments",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-11",
+        "endTime": "2023-11-11",
+        "dependencies": [],
+        "responsiblePerson": "Design Lead"
+      },
+      {
+        "id": "P4-T5",
+        "taskName": "Implement Real-time tracking of shipments",
+        "correspondingPhase": "Shipping Services",
+        "correspondingFeature": "Real-time tracking of shipments",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-12",
+        "endTime": "2023-11-12",
+        "dependencies": ["P4-T4"],
+        "responsiblePerson": "Developer Lead"
+      },
+      {
+        "id": "P4-T6",
+        "taskName": "Test Real-time tracking of shipments",
+        "correspondingPhase": "Shipping Services",
+        "correspondingFeature": "Real-time tracking of shipments",
+        "priority": "Medium",
+        "estimatedTime": "0.5 day",
+        "startTime": "2023-11-13",
+        "endTime": "2023-11-13",
+        "dependencies": ["P4-T5"],
+        "responsiblePerson": "QA Lead"
+      },
+      {
+        "id": "P4-T7",
+        "taskName": "Design Flexible delivery and logistic management",
+        "correspondingPhase": "Shipping Services",
+        "correspondingFeature": "Flexible delivery and logistic management",
+        "priority": "Low",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-14",
+        "endTime": "2023-11-14",
+        "dependencies": [],
+        "responsiblePerson": "Design Lead"
+      },
+      {
+        "id": "P4-T8",
+        "taskName": "Implement Flexible delivery and logistic management",
+        "correspondingPhase": "Shipping Services",
+        "correspondingFeature": "Flexible delivery and logistic management",
+        "priority": "Low",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-15",
+        "endTime": "2023-11-15",
+        "dependencies": ["P4-T7"],
+        "responsiblePerson": "Developer Lead"
+      },
+      {
+        "id": "P4-T9",
+        "taskName": "Test Flexible delivery and logistic management",
+        "correspondingPhase": "Shipping Services",
+        "correspondingFeature": "Flexible delivery and logistic management",
+        "priority": "Low",
+        "estimatedTime": "0.5 day",
+        "startTime": "2023-11-16",
+        "endTime": "2023-11-16",
+        "dependencies": ["P4-T8"],
+        "responsiblePerson": "QA Lead"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": "P5-T1",
+        "taskName": "Design Product Comparison UI/UX",
+        "correspondingPhase": "Product Comparison",
+        "correspondingFeature": "Side-by-side product comparisons",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-11-08",
+        "endTime": "2023-11-09",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Designer"
+      },
+      {
+        "id": "P5-T2",
+        "taskName": "Develop Product Comparison Functionality",
+        "correspondingPhase": "Product Comparison",
+        "correspondingFeature": "Filter options based on price, quality, and features",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2023-11-10",
+        "endTime": "2023-11-12",
+        "dependencies": ["P5-T1"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P5-T3",
+        "taskName": "Test Product Comparison Features",
+        "correspondingPhase": "Product Comparison",
+        "correspondingFeature": "User reviews and ratings integration similar to major e-commerce platforms",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-11-13",
+        "endTime": "2023-11-14",
+        "dependencies": ["P5-T2"],
+        "responsiblePerson": "QA Engineer"
+      }
+    ]
+  ]
+]

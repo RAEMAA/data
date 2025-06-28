@@ -1,0 +1,36 @@
+[
+  {
+    "category": "Marketplace Features",
+    "list_feature": [
+      "Motorcycle listing creation with details (price, description, photos)",
+      "Listing for motorcycle parts and accessories",
+      "Search and filtering of listings",
+      "Prioritization of listings based on user credibility ratings"
+    ]
+  },
+  {
+    "category": "Credibility and Rating System",
+    "list_feature": [
+      "User credibility rating calculation based on completed transactions",
+      "Feedback mechanism from other users",
+      "Tracking of total value traded",
+      "Display algorithm that promotes posts from higher credibility users"
+    ]
+  },
+  {
+    "category": "Community Hub",
+    "list_feature": [
+      "Discussion forums for enthusiasts",
+      "Experience and advice sharing platform",
+      "User-generated posts and interactions"
+    ]
+  },
+  {
+    "category": "User Account Management",
+    "list_feature": [
+      "User registration and profile creation",
+      "Profile management including credibility rating display",
+      "Transaction history tracking for individual users"
+    ]
+  }
+]

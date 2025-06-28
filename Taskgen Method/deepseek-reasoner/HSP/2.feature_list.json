@@ -1,0 +1,35 @@
+[
+  {
+    "category": "Environmental Monitoring",
+    "list_feature": [
+      "Real-time temperature tracking for facilities",
+      "Humidity and air quality monitoring",
+      "Equipment status alerts"
+    ]
+  },
+  {
+    "category": "Order Workflow",
+    "list_feature": [
+      "Inventory level tracking and alerts",
+      "Multi-step order approval automation",
+      "Order fulfillment status updates"
+    ]
+  },
+  {
+    "category": "Communication Hub",
+    "list_feature": [
+      "Stakeholder messaging with read receipts",
+      "Document collaboration and version control",
+      "Announcement broadcasting"
+    ]
+  },
+  {
+    "category": "Owner Analytics",
+    "list_feature": [
+      "Owner-facing sales performance dashboards",
+      "Inventory turnover rate reports",
+      "Compliance metrics visualization",
+      "Order fulfillment efficiency comparative analysis"
+    ]
+  }
+]

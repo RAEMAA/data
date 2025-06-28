@@ -1,0 +1,56 @@
+[
+    {
+        "category": "Business Information Management",
+        "features": [
+            {
+                "featureName": "Consolidated business information across all locations",
+                "flow": "1. The administrator logs into the system. 2. The system fetches data from all branches. 3. The administrator views consolidated reports. 4. The system updates data in real-time.",
+                "screens": [
+                    "Login Screen: Administrator authentication",
+                    "Dashboard: Displays consolidated business information",
+                    "Branch List Screen: Lists all branches with their current status"
+                ]
+            },
+            {
+                "featureName": "Multi-branch management",
+                "flow": "1. The administrator navigates to the branch management section. 2. The system displays a list of all branches. 3. The administrator can add, edit, or delete branch information. 4. The system updates the branch information accordingly.",
+                "screens": [
+                    "Branch Management Screen: Lists all branches and allows CRUD operations",
+                    "Add Branch Screen: Form to input new branch details",
+                    "Edit Branch Screen: Form to update existing branch details"
+                ]
+            }
+        ]
+    },
+    "```\n{\n  \"category\": \"Operations Management\",\n  \"features\": [\n    {\n      \"featureName\": \"Order taking management\",\n      \"flow\": \"The manager creates a new order menu (Admin). The staff views and takes orders from customers (Staff). The staff inputs the order details into the system (Staff). The system saves the order and notifies the kitchen (System). The kitchen prepares the order (Kitchen). The staff serves the order to the customer (Staff).\",\n      \"screens\": [\n        \"Order Menu Creation Screen: For creating and managing order menus.\",\n        \"Order Taking Screen: For staff to take orders from customers.\",\n        \"Order Summary Screen: For reviewing and confirming orders.\",\n        \"Kitchen Notification Screen: For notifying the kitchen of new orders.\",\n        \"Order Serving Screen: For staff to mark orders as served.\"\n      ]\n    },\n    {\n      \"featureName\": \"Automated billing\",\n      \"flow\": \"The staff inputs the order details into the system (Staff). The system calculates the total bill (System). The system generates an invoice (System). The staff serves the invoice to the customer (Staff). The customer makes payment (Customer).\",\n      \"screens\": [\n        \"Automated Billing Screen: For generating invoices automatically.\",\n        \"Invoice Summary Screen: For reviewing and confirming invoices.\",\n        \"Payment Processing Screen: For processing customer payments.\"\n      ]\n    },\n    {\n      \"featureName\": \"Streamlined operations\",\n      \"flow\": \"The manager sets up operational workflows (Admin). The staff views and follows workflows (Staff). The system tracks and monitors operations (System).\",\n      \"screens\": [\n        \"Workflow Setup Screen: For creating and managing operational workflows.\",\n        \"Workflow Viewing Screen: For staff to view and follow workflows.\",\n        \"Operations Monitoring Screen: For tracking and monitoring operations.\"\n      ]\n    }\n  ]\n}\n```",
+    {
+        "category": "Staff Management",
+        "features": [
+            {
+                "featureName": "Support for local staff",
+                "flow": "The system allows administrators to create and manage staff accounts for each branch. Local staff can log in to their accounts to access branch-specific information and perform tasks. Administrators can assign roles to staff members, controlling their access to different features. Staff members can view their schedules, manage orders, and access relevant branch information. The system also enables administrators to track staff performance and provide feedback.",
+                "screens": [
+                    "Staff Account Creation: A form for administrators to create new staff accounts, including assigning roles and branch affiliations.",
+                    "Staff Dashboard: A personalized dashboard for staff members to view their schedules, access branch information, and perform tasks.",
+                    "Staff Performance Tracking: A screen for administrators to monitor staff performance, including metrics on order management and customer service.",
+                    "Staff Feedback: A feature for administrators to provide feedback to staff members on their performance."
+                ]
+            }
+        ]
+    },
+    "```\n{\n  \"category\": \"Reporting and Analytics\",\n  \"features\": [\n    {\n      \"featureName\": \"Comprehensive revenue reporting\",\n      \"flow\": \"The user (Manager) logs into the system, navigates to the reporting section, selects the comprehensive revenue report option, chooses the date range, and views the report. The system generates the report based on the data from all branches.\",\n      \"screens\": [\n        \"Login Screen: For user authentication\",\n        \"Main Menu Screen: Navigation to reporting section\",\n        \"Reporting Menu Screen: Selection of comprehensive revenue report\",\n        \"Report Filter Screen: Choosing date range\",\n        \"Comprehensive Revenue Report Screen: Displaying the report\"\n      ]\n    },\n    {\n      \"featureName\": \"Individual branch revenue reporting\",\n      \"flow\": \"The user (Branch Manager) logs into the system, navigates to the reporting section, selects the individual branch revenue report option, chooses the branch and date range, and views the report. The system generates the report based on the data from the selected branch.\",\n      \"screens\": [\n        \"Login Screen: For user authentication\",\n        \"Main Menu Screen: Navigation to reporting section\",\n        \"Reporting Menu Screen: Selection of individual branch revenue report\",\n        \"Branch Selection Screen: Choosing the branch\",\n        \"Report Filter Screen: Choosing date range\",\n        \"Individual Branch Revenue Report Screen: Displaying the report\"\n      ]\n    },\n    {\n      \"featureName\": \"Entire chain revenue reporting\",\n      \"flow\": \"The user (Headquarters Manager) logs into the system, navigates to the reporting section, selects the entire chain revenue report option, chooses the date range, and views the report. The system generates the report based on the data from all branches.\",\n      \"screens\": [\n        \"Login Screen: For user authentication\",\n        \"Main Menu Screen: Navigation to reporting section\",\n        \"Reporting Menu Screen: Selection of entire chain revenue report\",\n        \"Report Filter Screen: Choosing date range\",\n        \"Entire Chain Revenue Report Screen: Displaying the report\"\n      ]\n    }\n  ]\n}\n```",
+    {
+        "category": "Automation and Efficiency",
+        "features": [
+            {
+                "featureName": "Minimize manual tasks",
+                "flow": "The system will analyze existing manual tasks across all branches, identify repetitive and time-consuming processes, and automate them. User roles involved include system administrators and branch staff. Step-by-step actions include: 1) System administrators configure automation rules based on business processes. 2) Branch staff perform tasks as usual. 3) The system automatically executes predefined tasks, such as data entry, report generation, and notification sending. 4) Branch staff verify the accuracy of automated tasks.",
+                "screens": [
+                    "Automation Rule Configuration: For system administrators to set up automation rules.",
+                    "Task Verification Dashboard: For branch staff to review and verify automated tasks.",
+                    "Automation Log: To track the history and status of automated tasks."
+                ]
+            }
+        ]
+    }
+]

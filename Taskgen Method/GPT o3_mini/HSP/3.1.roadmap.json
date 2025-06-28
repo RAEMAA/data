@@ -1,0 +1,68 @@
+[
+  {
+    "id": "P1",
+    "phase": "Animal Management Module",
+    "feature_list": [
+      "Animal Registration & Identification",
+      "Growth Monitoring",
+      "Breeding Records",
+      "Health Status Tracking"
+    ],
+    "estimatedTime": 4,
+    "startTime": "2023-10-12",
+    "endTime": "2023-11-09",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Feed Management Module",
+    "feature_list": [
+      "Feed Inventory Control",
+      "Feed Consumption Analysis",
+      "Supplier Management"
+    ],
+    "estimatedTime": 3,
+    "startTime": "2023-10-12",
+    "endTime": "2023-11-02",
+    "dependencies": []
+  },
+  {
+    "id": "P3",
+    "phase": "Health & Veterinary Management Module",
+    "feature_list": [
+      "Vaccination Scheduling",
+      "Disease Outbreak Monitoring",
+      "Veterinary Consultations"
+    ],
+    "estimatedTime": 3,
+    "startTime": "2023-10-12",
+    "endTime": "2023-11-02",
+    "dependencies": []
+  },
+  {
+    "id": "P4",
+    "phase": "Financial & Production Management Module",
+    "feature_list": [
+      "Expense and Revenue Tracking",
+      "Production Yield Analysis",
+      "Cost Optimization"
+    ],
+    "estimatedTime": 2,
+    "startTime": "2023-11-09",
+    "endTime": "2023-11-23",
+    "dependencies": ["P1", "P2", "P3"]
+  },
+  {
+    "id": "P5",
+    "phase": "Reporting & Analytics Module",
+    "feature_list": [
+      "Customizable Reports",
+      "Dashboard Analytics",
+      "Compliance Reporting"
+    ],
+    "estimatedTime": 2,
+    "startTime": "2023-11-23",
+    "endTime": "2023-12-07",
+    "dependencies": ["P1", "P2", "P3", "P4"]
+  }
+]

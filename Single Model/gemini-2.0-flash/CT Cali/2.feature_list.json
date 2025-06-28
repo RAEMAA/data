@@ -1,0 +1,35 @@
+[
+    {
+        "category": "Online Ordering",
+        "list_feature": [
+            "Menu browsing",
+            "Online order placement",
+            "Order routing to the nearest branch"
+        ]
+    },
+    {
+        "category": "Branch Management",
+        "list_feature": [
+            "N/A - Feature is implied but not explicitly detailed"
+        ]
+    },
+    {
+        "category": "Promotions",
+        "list_feature": [
+            "Promotion management",
+            "Promotion application"
+        ]
+    },
+    {
+        "category": "Payment",
+        "list_feature": [
+            "Online payment integration (www.nganluong.vn)"
+        ]
+    },
+    {
+        "category": "Customer Feedback",
+        "list_feature": [
+            "Customer feedback collection"
+        ]
+    }
+]

@@ -1,0 +1,115 @@
+[
+  {
+    "id": "P1",
+    "phase": "Planning & Core Structure",
+    "feature_list": [
+      "Define overall website structure, navigation, and sitemap",
+      "High-level design concepts and wireframes",
+      "Setup basic development environment",
+      "Implement base site layout and template structure",
+      "Implement tour categorization structure (Special Tours, Japan, Asia, Europe-Australia-America)"
+    ],
+    "estimatedTime": 10,
+    "startTime": "2024-07-22",
+    "endTime": "2024-08-02",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Tour Details Development",
+    "feature_list": [
+      "Develop dynamic structure for individual tour pages",
+      "Implement fields/sections for Day-by-day itinerary",
+      "Implement fields/sections for Tour highlights",
+      "Implement fields/sections for Service details (accommodation, flights, meals)",
+      "Implement fields/sections for Pricing information",
+      "Implement fields/sections for Terms and conditions (inclusions/exclusions)",
+      "Integrate image gallery functionality",
+      "Implement fields/sections for Guide information",
+      "Implement fields/sections for Payment policies",
+      "Implement fields/sections for Cancellation policies"
+    ],
+    "estimatedTime": 14,
+    "startTime": "2024-08-05",
+    "endTime": "2024-08-23",
+    "dependencies": [
+      "P1"
+    ]
+  },
+  {
+    "id": "P3",
+    "phase": "Content Management & Population",
+    "feature_list": [
+      "Develop CMS/structure for static content (articles, stories, reviews, news)",
+      "Create and populate Company services overview content",
+      "Design and implement Featured tour showcases section",
+      "Create and populate News and promotions section",
+      "Create and populate Cultural articles section",
+      "Create and populate Travel stories section",
+      "Integrate Customer reviews display functionality",
+      "Populate initial tour details using the structures from P2"
+    ],
+    "estimatedTime": 12,
+    "startTime": "2024-08-05",
+    "endTime": "2024-08-20",
+    "dependencies": [
+      "P1",
+      "P2"
+    ]
+  },
+  {
+    "id": "P4",
+    "phase": "Contact & Service Features Implementation",
+    "feature_list": [
+      "Develop and integrate Online inquiry form functionality",
+      "Implement prominent display areas for Dedicated hotlines (individual, group, visa services)",
+      "Integrate Email contact option links",
+      "Implement Office addresses display",
+      "Develop and integrate Visa consultation services feature/page"
+    ],
+    "estimatedTime": 8,
+    "startTime": "2024-08-12",
+    "endTime": "2024-08-21",
+    "dependencies": [
+      "P1"
+    ]
+  },
+  {
+    "id": "P5",
+    "phase": "Testing & Refinement",
+    "feature_list": [
+      "Perform functional testing across all features",
+      "Conduct usability testing",
+      "Review all website content for accuracy and clarity",
+      "Test responsiveness and compatibility across different devices and browsers",
+      "Optimize website performance (speed, loading times)",
+      "Identify and fix bugs"
+    ],
+    "estimatedTime": 7,
+    "startTime": "2024-08-26",
+    "endTime": "2024-09-03",
+    "dependencies": [
+      "P2",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "id": "P6",
+    "phase": "Deployment & Launch",
+    "feature_list": [
+      "Prepare server environment for production",
+      "Deploy website files and database",
+      "Configure domain and DNS settings",
+      "Perform final checks on live site",
+      "Launch announcement (optional)",
+      "Implement basic post-launch monitoring"
+    ],
+    "estimatedTime": 3,
+    "startTime": "2024-09-04",
+    "endTime": "2024-09-06",
+    "dependencies": [
+      "P5"
+    ]
+  }
+]

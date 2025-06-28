@@ -1,0 +1,34 @@
+[
+    {
+        "category": "User Expression",
+        "list_feature": [
+            "Share innovative ideas",
+            "Share dream narratives",
+            "Share personal feelings",
+            "Share opinions",
+            "Express joy",
+            "Express sorrow",
+            "Express other emotions"
+        ]
+    },
+    {
+        "category": "Community Interaction",
+        "list_feature": [
+            "Connect with others globally",
+            "Gather feedback on shared content",
+            "Find kindred spirits",
+            "Collaborate on ideas",
+            "Share content"
+        ]
+    },
+    {
+        "category": "Core Functionality",
+        "list_feature": [
+            "User profiles",
+            "Content sharing capabilities (text, images, etc.)",
+            "Feedback mechanisms (comments, reactions)",
+            "Search functionality",
+            "Connection/Following features"
+        ]
+    }
+]

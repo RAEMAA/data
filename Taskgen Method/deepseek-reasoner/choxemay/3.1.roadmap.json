@@ -1,0 +1,47 @@
+[
+  {
+    "id": "P1",
+    "phase": "Marketplace Infrastructure Setup",
+    "feature_list": ["Motorcycles", "Parts", "Accessories"],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-10-23",
+    "endTime": "2023-11-20",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Credibility System Implementation",
+    "feature_list": [
+      "Transaction history count",
+      "Peer feedback score",
+      "Monetary value of completed transactions"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2023-11-20",
+    "endTime": "2023-12-11",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P3",
+    "phase": "Visibility Prioritization Deployment",
+    "feature_list": ["Credibility tier prioritization"],
+    "estimatedTime": "2 weeks",
+    "startTime": "2023-12-11",
+    "endTime": "2023-12-25",
+    "dependencies": ["P1", "P2"]
+  },
+  {
+    "id": "P4",
+    "phase": "Pricing Trend Forum Integration",
+    "feature_list": [
+      "Dedicated threads for regional pricing trends",
+      "Real-time pricing dashboards",
+      "Historical price fluctuation analysis tools",
+      "Collaborative pricing strategy workshops"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2023-11-20",
+    "endTime": "2023-12-11",
+    "dependencies": ["P1"]
+  }
+]

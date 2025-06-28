@@ -1,0 +1,69 @@
+[
+  {
+      "id": "P1",
+      "phase": "Company Information and Basic Tours",
+      "feature_list": [
+          "Company Overview",
+          "Company Services Overview",
+          "Featured Tours",
+          "Tour Categories"
+      ],
+      "estimatedTime": 4,
+      "startTime": "2023-12-01",
+      "endTime": "2023-12-04",
+      "dependencies": []
+  },
+  {
+      "id": "P2",
+      "phase": "Detailed Tour Content",
+      "feature_list": [
+          "Tour Detail Pages",
+          "Itineraries",
+          "Tour Package Services",
+          "Pricing",
+          "Terms & Conditions",
+          "Tour Images",
+          "Tour Policies"
+      ],
+      "estimatedTime": 7,
+      "startTime": "2023-12-04",
+      "endTime": "2023-12-10",
+      "dependencies": [
+          "P1"
+      ]
+  },
+  {
+      "id": "P3",
+      "phase": "General Content and Articles",
+      "feature_list": [
+          "News",
+          "Promotions",
+          "Articles",
+          "Travel Stories",
+          "Cultural Articles"
+      ],
+      "estimatedTime": 5,
+      "startTime": "2023-12-04",
+      "endTime": "2023-12-08",
+      "dependencies": [
+          "P1"
+      ]
+  },
+  {
+      "id": "P4",
+      "phase": "Auxiliary Services and Contact",
+      "feature_list": [
+          "Visa Consultation",
+          "Customer Feedback",
+          "Customer Reviews",
+          "Contact Options",
+          "Hotlines"
+      ],
+      "estimatedTime": 4,
+      "startTime": "2023-12-08",
+      "endTime": "2023-12-11",
+      "dependencies": [
+          "P1"
+      ]
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "category": "Emotional & Idea Sharing",
+    "list_feature": [
+      "Emotion Spectrum Posting (customizable tags for emotional states)",
+      "Aspiration Documentation (goal-setting templates and milestone tracking)"
+    ]
+  },
+  {
+    "category": "Dream Tracking",
+    "list_feature": [
+      "Persistent Dream Journals (multimedia entries with date/time stamps)",
+      "Progress Tracking System (analytics for recurring themes and goal alignment)"
+    ]
+  },
+  {
+    "category": "Community Support",
+    "list_feature": [
+      "Feedback Framework (anonymous peer reviews and expert guidance channels)",
+      "Collaborative Tools (shared vision boards and group accountability hubs)"
+    ]
+  },
+  {
+    "category": "Connection",
+    "list_feature": [
+      "Algorithmic Matching (compatibility scoring based on aspirations and emotional patterns)",
+      "Discovery Features (geolocated dreamers and interest-based exploration filters)"
+    ]
+  }
+]

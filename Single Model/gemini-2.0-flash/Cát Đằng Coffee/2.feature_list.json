@@ -1,0 +1,30 @@
+[
+  {
+    "category": "Order Management",
+    "list_feature": [
+      "Simplified order taking for waiters",
+      "Automated bill generation",
+      "Minimize waiter movement during order taking"
+    ]
+  },
+  {
+    "category": "Reporting and Analytics",
+    "list_feature": [
+      "Revenue reports for individual branches",
+      "Revenue reports for the entire CDC chain",
+      "Comprehensive business oversight"
+    ]
+  },
+  {
+    "category": "Centralized System",
+    "list_feature": [
+      "Consolidation of business information from all branches"
+    ]
+  },
+  {
+    "category": "User Support",
+    "list_feature": [
+      "Support for local staff (waiters)"
+    ]
+  }
+]

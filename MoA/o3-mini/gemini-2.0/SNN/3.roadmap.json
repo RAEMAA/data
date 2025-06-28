@@ -1,0 +1,114 @@
+[
+    {
+        "id": "P1",
+        "phase": "User Authentication & Profile",
+        "feature_list": [
+            "User registration (for students, researchers, teachers)",
+            "User role identification (student, researcher, teacher)",
+            "University affiliation",
+            "Participation in multiple university networks"
+        ],
+        "estimatedTime": 15,
+        "startTime": "2024-07-18",
+        "endTime": "2024-08-01",
+        "dependencies": []
+    },
+    {
+        "id": "P2",
+        "phase": "Platform Core Structure & Basic Search",
+        "feature_list": [
+            "University-specific networks setup",
+            "Discipline-based organization setup",
+            "Basic Platform Search"
+        ],
+        "estimatedTime": 15,
+        "startTime": "2024-08-02",
+        "endTime": "2024-08-16",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P3",
+        "phase": "Content Sharing & Access",
+        "feature_list": [
+            "Sharing academic resources",
+            "Sharing research findings",
+            "Sharing learning experiences",
+            "Sharing teaching experiences",
+            "Sharing research experiences",
+            "Accessing study materials",
+            "Content categorization (by discipline)",
+            "Content upload",
+            "Content access/download"
+        ],
+        "estimatedTime": 25,
+        "startTime": "2024-08-17",
+        "endTime": "2024-09-10",
+        "dependencies": [
+            "P2"
+        ]
+    },
+    {
+        "id": "P4",
+        "phase": "Evaluation & Recommendation Engine",
+        "feature_list": [
+            "Course evaluation",
+            "Course rating",
+            "Instructor evaluation",
+            "Instructor rating",
+            "Course recommendation (by students)",
+            "Recommendation engine"
+        ],
+        "estimatedTime": 20,
+        "startTime": "2024-09-11",
+        "endTime": "2024-09-30",
+        "dependencies": [
+            "P3"
+        ]
+    },
+    {
+        "id": "P5",
+        "phase": "Networking & Collaboration",
+        "feature_list": [
+            "Connecting with potential collaborators",
+            "Sharing expertise",
+            "Collaboration tools",
+            "User search",
+            "Connection requests and management"
+        ],
+        "estimatedTime": 20,
+        "startTime": "2024-08-17",
+        "endTime": "2024-09-05",
+        "dependencies": [
+            "P2"
+        ]
+    },
+    {
+        "id": "P6",
+        "phase": "High School Expansion",
+        "feature_list": [
+            "High school network integration"
+        ],
+        "estimatedTime": 10,
+        "startTime": "2024-10-01",
+        "endTime": "2024-10-10",
+        "dependencies": [
+            "P4",
+            "P5"
+        ]
+    },
+    {
+        "id": "P7",
+        "phase": "Elementary School Expansion",
+        "feature_list": [
+            "Elementary school network integration"
+        ],
+        "estimatedTime": 10,
+        "startTime": "2024-10-11",
+        "endTime": "2024-10-20",
+        "dependencies": [
+            "P6"
+        ]
+    }
+]

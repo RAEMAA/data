@@ -1,0 +1,178 @@
+[
+  {
+    "category": "User Management",
+    "features": [
+      {
+        "featureName": "Farmer registration with bank account verification",
+        "flow": "1. Farmer visits the homepage on www.hailua.com.vn and selects the 'Register as Farmer' option. (Role: Farmer)\n2. Farmer is directed to the Registration Screen where they enter personal details, farm information, and bank account details. (Role: Farmer)\n3. Upon submission, the system validates the input and initiates bank account verification by interacting with the bank's API or through an OTP process. (Role: System & External Bank Service)\n4. Farmer is prompted on the Bank Verification Screen to complete the OTP verification or see live status of bank account validation. (Role: Farmer)\n5. The system confirms successful bank account verification and account creation. If verification fails, an error message is displayed with guidance to reattempt. (Role: System)\n6. Farmer receives a confirmation email and is directed to a Welcome/Confirmation Screen. (Role: System)\n7. Farmer then accesses the Farmer Dashboard where they can manage listings and profile settings. (Role: Farmer)",
+        "screens": [
+          "Homepage: Entry point for all users with options to register or login.",
+          "Farmer Registration Screen: Form for capturing personal, farm, and bank account details.",
+          "Bank Verification Screen: Interface for entering OTP or displaying bank verification progress and status.",
+          "Confirmation Screen: Displays success message and confirmation details after registration and verification.",
+          "Farmer Dashboard: Main interface for farmers to manage their farm produces, listings, and other account details."
+        ]
+      },
+      {
+        "featureName": "Customer registration and login",
+        "flow": "1. Customer visits www.hailua.com.vn and selects the 'Register/Sign In' option from the homepage. (Role: Customer)\n2. For new customers, the system directs them to the Customer Registration Screen where they enter personal details such as name, email, password, and optionally their delivery address. (Role: Customer)\n3. After submitting the registration form, the system sends a verification email for account confirmation. (Role: System)\n4. Customer clicks on the verification link in their email, confirming their account and being directed to a Confirmation Screen. (Role: Customer)\n5. If the customer already has an account, they can use the Login Screen to enter credentials. (Role: Customer)\n6. Upon successful login, the customer is taken to the Customer Dashboard where they can browse, search, and purchase products. (Role: Customer)",
+        "screens": [
+          "Homepage: Central landing page guiding users to registration or login.",
+          "Customer Registration Screen: Form to capture user information for account creation.",
+          "Email Verification Screen: Informative page instructing customers to verify their email address.",
+          "Login Screen: Secure login page for returning customers to input their credentials.",
+          "Customer Dashboard: Main user interface for customers to browse products, manage orders, and access profile settings."
+        ]
+      },
+      {
+        "featureName": "User profile management for both farmers and customers",
+        "flow": "1. After a successful login (whether farmer or customer), the user navigates to their 'My Profile' section via a menu or dashboard link. (Role: User)\n2. The Profile Overview Screen displays current user information, tailored to the user type (e.g., for farmers, bank details and farm info; for customers, shipping addresses and contact details). (Role: User)\n3. User selects the option to edit details, which takes them to the Edit Profile Screen. (Role: User)\n4. On the Edit Profile Screen, the user can update personal details, change their password, and manage notifications or preferences. (Role: User)\n5. After making changes, the user submits the updated information. The system validates the new data and saves the changes, then displays a Confirmation Screen indicating success. (Role: System)\n6. For sensitive updates (e.g., password changes), a secondary authentication (like re-entering current password) is requested. (Role: System)\n7. The user is then returned to their Profile Overview Screen with the updated information. (Role: User)",
+        "screens": [
+          "Profile Overview Screen: Displays current user information and status details for both farmers and customers.",
+          "Edit Profile Screen: Allows users to update personal details, contact information, and other preferences.",
+          "Change Password Screen: Dedicated interface for updating password and handling secondary authentication.",
+          "Confirmation Screen: Provides feedback that changes have been successfully saved and updated."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Product Listing",
+    "features": [
+      {
+        "featureName": "Create and manage product listings (rice, fruits, fish, etc.)",
+        "flow": "Step 1 (Farmer): Log in or register on the marketplace platform. Step 2 (Farmer): Navigate to the dashboard and click on 'Create New Listing'. Step 3 (Farmer): Fill in basic product information such as product name, category, and initial details. Step 4 (Farmer): Save the listing which directs the user to a management view. Step 5 (Farmer): From the management view, the user can edit, update, or delete listings. Step 6 (Farmer): Confirm changes and the system updates the listing status. Note: Admin role can monitor listings for compliance if required.",
+        "screens": [
+          "Dashboard Screen: Displays an overview of user account and listing snapshots, with options to create and manage listings.",
+          "Create Listing Screen: A form-driven interface where the farmer inputs basic product details such as name, category, and description.",
+          "Listing Management Screen: A screen to view, edit, or delete existing listings, featuring a list view with action buttons."
+        ]
+      },
+      {
+        "featureName": "Input detailed product descriptions and pricing information",
+        "flow": "Step 1 (Farmer): After initiating a new listing, navigate to the product details form. Step 2 (Farmer): Input a detailed product description, including quality, origin, and any unique selling points. Step 3 (Farmer): Enter pricing information including unit price, available discount or bulk rates if any. Step 4 (Farmer): Preview the entered information for accuracy. Step 5 (Farmer): Save the details which then become a part of the product listing. Note: If additional data is required, prompts/warnings will indicate missing details.",
+        "screens": [
+          "Product Description Screen: Dedicated interface to enter comprehensive product details and narratives.",
+          "Pricing Information Screen: A form where pricing details, including currency, price, discounts, and terms, are input.",
+          "Listing Preview Screen: Displays a combined view of the description and pricing information for review before final submission."
+        ]
+      },
+      {
+        "featureName": "Upload and manage product images",
+        "flow": "Step 1 (Farmer): While creating or editing a listing, access the image upload section. Step 2 (Farmer): Click on the 'Upload Images' button to select image files from the device. Step 3 (Farmer): Preview the uploaded images in the gallery view and add image captions if needed. Step 4 (Farmer): Save the images; the system performs basic validations (e.g., file type, size). Step 5 (Farmer): For any changes, the user can remove or re-upload images as required. Note: Image processing or cropping options may be available as advanced steps.",
+        "screens": [
+          "Image Upload Screen: Interface to select and upload product images with clear guidelines on file type and size.",
+          "Image Preview Screen: Provides a gallery view to review uploaded images along with options for editing captions or reordering.",
+          "Image Management Screen: Allows farmers to edit, delete, or add additional images to an existing product listing."
+        ]
+      },
+      {
+        "featureName": "Categorize products for easier discovery",
+        "flow": "Step 1 (Farmer): During the listing creation process, select an appropriate category from the provided dropdown menu (e.g., rice, fruits, fish, etc.). Step 2 (Farmer): The system may display sub-categories or related tags to further refine the listing classification. Step 3 (Farmer): Confirm the selected category. Step 4 (Farmer): Once confirmed, the listing is tagged with the chosen category for better filtering and searchability by buyers. Step 5 (Farmer): In the management screen, the user may update category selections if necessary. Note: This process may include role-based recommendations if anomalies are detected.",
+        "screens": [
+          "Category Selection Screen: An interface with a dropdown or list selection of available product categories and sub-categories for detailed classification.",
+          "Tagging and Confirmation Screen: Displays the selected category and permits manual adjustments before final submission.",
+          "Listing Review Screen: A summary page where all details, including product category, are displayed for final review and confirmation."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Product Discovery",
+    "features": [
+      {
+        "featureName": "Browse product catalog",
+        "flow": "1. User Role: Buyer or Guest visits the homepage and selects the 'Marketplace' or 'Product Catalog' section. 2. The system loads a grid or list view of available products with thumbnail images, basic prices, and short descriptions. 3. The user scrolls or uses pagination to navigate through the product listings. 4. If the user clicks on a product, they are taken to the product detail page. 5. A sidebar may suggest featured products or categories for quick navigation. Note: Farmers, as sellers, can also use a separate 'My Listings' dashboard but are not the primary users in this discovery flow.",
+        "screens": [
+          "Homepage: Displays navigation, featured banners, and a search bar to access the product catalog.",
+          "Product Catalog Screen: Lists product thumbnails, basic details, and navigation controls (such as pagination or infinite scroll).",
+          "Sidebar Navigation Panel: Offers category filters, featured products, or promotional content."
+        ]
+      },
+      {
+        "featureName": "Robust search functionality (by product type, price, etc.)",
+        "flow": "1. User Role: Buyer or Guest enters keywords into the search bar available on the homepage or within the catalog section. 2. The system displays a search bar with advanced filtering options such as product type, price range, and other attributes like location or rating. 3. The user applies one or more filters and submits the search query. 4. The system processes the query and returns a refined list of products matching the criteria. 5. If necessary, the user can modify the filters and re-submit the query until the optimal results are achieved.",
+        "screens": [
+          "Search Bar Component: Embedded in the header on the homepage and product catalog screens, allowing entry of search text.",
+          "Advanced Search Modal or Panel: Provides options for filtering by product type, price range, and other attributes.",
+          "Search Results Screen: Displays the filtered list of products with options to view product details or compare items."
+        ]
+      },
+      {
+        "featureName": "Product comparison features",
+        "flow": "1. User Role: Buyer navigates through the product catalog or search results and selects multiple products by clicking a 'Compare' checkbox or button on each item. 2. Once products are selected, the user clicks the 'Compare' action button. 3. The system aggregates and displays a side-by-side comparison highlighting key details such as price, product type, quality indicators, and available promotions. 4. The user reviews the comparison and may click on an individual product to see detailed information or return to the catalog to adjust the selection.",
+        "screens": [
+          "Product Listing Screen: Displays products with an option (e.g., checkbox or 'Add to Compare') for selection.",
+          "Comparison Screen: A dedicated layout showing selected products side by side with detailed feature comparisons and a 'Back' button to return to browsing.",
+          "Product Detail Link within Comparison: Allows transition to the individual product detail page by clicking on a specific product image or title."
+        ]
+      },
+      {
+        "featureName": "Individual product detail pages",
+        "flow": "1. User Role: Buyer clicks on a product from the catalog, search results, or comparison view. 2. The system loads the product detail page which displays comprehensive information including high-resolution images, detailed descriptions, pricing, seller information, and customer reviews, if available. 3. The user can interact with the content by viewing additional images in a gallery, reading extended descriptions, or checking out related products. 4. An 'Add to Cart' or 'Buy Now' button is prominently featured, enabling the user to proceed with the purchase process. 5. Navigation options allow the user to easily return to the catalog, search results, or compare additional items.",
+        "screens": [
+          "Product Detail Screen: Central page showing product images, detailed description, pricing, seller details, and reviews.",
+          "Image Gallery/Zoom Feature: Embedded within the product detail screen to allow detailed inspection of product images.",
+          "Related Products Panel: A section within or adjacent to the product detail screen showcasing similar items."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Transaction Processing",
+    "features": [
+      {
+        "featureName": "Online ordering system for purchasing products",
+        "flow": "1. Buyer visits the homepage and uses the search/filter functionality to browse products. (User Role: Buyer) 2. Buyer selects a product from the product listing, which opens the Product Detail Page with detailed descriptions, images, pricing, and availability. (User Role: Buyer) 3. Buyer clicks 'Add to Cart' to include the product in their shopping cart. (User Role: Buyer) 4. Buyer reviews the Shopping Cart to update quantities or remove items if needed. (User Role: Buyer) 5. Buyer proceeds to the Checkout Page, where they enter or confirm shipping information and select preferred payment options. (User Role: Buyer) 6. Buyer confirms the order; the system processes the order and displays an Order Confirmation Screen with the order number and details. (User Role: System) 7. The system notifies the Seller about the new order, triggering the Seller to prepare for shipment. (User Role: Seller)",
+        "screens": [
+          "Homepage: Displays product listings along with search and filter options.",
+          "Product Detail Page: Provides detailed information on a selected product, including images, description, and pricing.",
+          "Shopping Cart: Allows buyers to view and modify their selected items before checkout.",
+          "Checkout Page: Collects shipping information, displays order summary, and enables payment option selection.",
+          "Order Confirmation Screen: Confirms that the order has been successfully placed and provides order tracking details."
+        ]
+      },
+      {
+        "featureName": "Payment processing integration for secure transactions",
+        "flow": "1. During checkout, the Buyer selects a payment method (for example, credit/debit card, bank transfer). (User Role: Buyer) 2. The system prompts the Buyer to enter the payment details through a secure interface. (User Role: System) 3. Payment information is securely encrypted and transmitted to an external Payment Gateway. (User Role: System) 4. The Payment Gateway authenticates and processes the payment, returning a confirmation or error response. (User Role: Payment Gateway) 5. On receiving a successful confirmation, the system updates the order status as 'Paid' and notifies both Buyer and Seller by updating the order details. (User Role: System) 6. If a payment error occurs, the system displays an error message and requests the Buyer to reattempt payment. (User Role: System)",
+        "screens": [
+          "Payment Selection Screen: Part of the checkout process where the Buyer chooses a payment method.",
+          "Secure Payment Form: Embedded or redirected screen for the Buyer to enter sensitive payment details safely.",
+          "Payment Confirmation Screen: Displays the outcome of the payment process, whether successful or prompting error resolution."
+        ]
+      },
+      {
+        "featureName": "Order history and tracking for buyers and sellers",
+        "flow": "For Buyers: 1. Buyer logs into their account. (User Role: Buyer) 2. Buyer navigates to the 'Order History' section. (User Role: Buyer) 3. The system displays a list of past and current orders with summary details and statuses. (User Role: System) 4. Buyer selects a specific order to view detailed information including item details, payment confirmation, and shipping/tracking information. (User Role: Buyer) For Sellers: 1. Seller logs into their account and accesses the 'Seller Dashboard'. (User Role: Seller) 2. Seller navigates to the 'Order Management' area to view incoming and past orders. (User Role: Seller) 3. The system lists all orders with pertinent details, allowing the Seller to update shipping information and tracking numbers. (User Role: System) 4. Once the Seller updates the tracking information, Buyers are able to view these updates in their order detail pages. (User Role: Seller, System)",
+        "screens": [
+          "Buyer Order History Screen: Shows a list of all orders placed by the Buyer with summary statuses.",
+          "Order Detail Screen: Provides in-depth information about the selected order including items, payment, and shipping details.",
+          "Tracking Information Screen: Displays real-time updates and status details of the order for Buyers.",
+          "Seller Order Management Dashboard: Enables Sellers to view order lists, update shipping details, and manage order fulfillment."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Shipping Integration",
+    "features": [
+      {
+        "featureName": "Interface to arrange shipping for purchased items",
+        "flow": "Step 1 (Seller): After a sale is confirmed, the seller (farmer) receives a notification about the new purchase order. \nStep 2 (Seller): The seller logs into the system and accesses the Order Management screen where pending orders are listed. \nStep 3 (Seller): The seller selects a specific order and clicks on the 'Arrange Shipping' button. \nStep 4 (Seller): The system navigates the seller to the Shipping Arrangement Form screen. Here, the seller reviews the order’s delivery information and verifies the buyer’s shipping address. \nStep 5 (Seller): The seller selects a shipping provider from a dropdown list, enters package details (such as weight, dimensions, and any special instructions), and confirms or adjusts the shipping address if needed. \nStep 6 (System): After the seller clicks 'Confirm Shipping,' the system validates the details and prepares a shipping request. \nStep 7 (System/Shipping Provider): The application integrates with the selected shipping provider’s API to schedule a shipping pickup, returning a tracking number and expected pickup/delivery dates. \nStep 8 (System): The order status is updated with the shipping details, and the seller sees a confirmation along with available tracking information. \nStep 9 (System): An automatic notification is sent to the buyer with the shipping tracking details and links to monitor the delivery.",
+        "screens": [
+          "Order Management Screen: Lists all orders for the seller, highlighting orders pending shipment and providing access to shipping actions.",
+          "Shipping Arrangement Form: Collects necessary shipping details such as provider selection, package dimensions, weight, and confirmed shipping address.",
+          "Shipping Confirmation Screen: Displays confirmation of the shipping arrangement, including the tracking number, scheduled pickup, and delivery dates."
+        ]
+      },
+      {
+        "featureName": "Integration with shipping providers to schedule and track deliveries",
+        "flow": "Step 1 (Seller/System): Once the seller confirms the shipping arrangement, the system initiates an API call to the chosen shipping provider using the provided package and shipment details. \nStep 2 (Shipping Provider): The shipping provider processes the request to schedule a pickup and returns confirmation data, including a tracking number and initial status. \nStep 3 (System): The application receives the confirmation, updates the shipment status for the order, and stores the tracking information in the database. \nStep 4 (Buyer & Seller): Both the buyer and seller can now access the Shipping Tracking Screen from their dashboards to view real-time updates of the delivery process. \nStep 5 (System): The system periodically polls the shipping provider’s API or listens for webhooks to receive status updates regarding the pickup, in-transit events, and final delivery, then updates the tracking details accordingly. \nStep 6 (System): Notifications are automatically sent to the involved parties as significant shipping events occur (like pickup confirmation, delay alerts, or delivery confirmation).",
+        "screens": [
+          "Shipping Tracking Screen: Provides real-time updates on the shipment, displaying current status, tracking history, and estimated delivery dates for both buyers and sellers.",
+          "Order Details Screen (Extended): Enhances the existing order details view by integrating shipping provider information, tracking numbers, and status updates."
+        ]
+      }
+    ]
+  }
+]

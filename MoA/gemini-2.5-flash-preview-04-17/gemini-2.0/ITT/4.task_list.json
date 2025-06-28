@@ -1,0 +1,1014 @@
+[
+  [
+      {
+          "id": "P1-T1",
+          "taskName": "Define overall website structure, navigation, and sitemap",
+          "correspondingPhase": "Planning & Core Structure",
+          "correspondingFeature": "Define overall website structure, navigation, and sitemap",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-07-22",
+          "endTime": "2024-07-24",
+          "dependencies": [],
+          "responsiblePerson": "Project Manager"
+      },
+      {
+          "id": "P1-T2",
+          "taskName": "High-level design concepts and wireframes",
+          "correspondingPhase": "Planning & Core Structure",
+          "correspondingFeature": "High-level design concepts and wireframes",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-07-22",
+          "endTime": "2024-07-24",
+          "dependencies": [],
+          "responsiblePerson": "Designer"
+      },
+      {
+          "id": "P1-T3",
+          "taskName": "Setup basic development environment",
+          "correspondingPhase": "Planning & Core Structure",
+          "correspondingFeature": "Setup basic development environment",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-07-24",
+          "endTime": "2024-07-25",
+          "dependencies": [],
+          "responsiblePerson": "Developer"
+      },
+      {
+          "id": "P1-T4",
+          "taskName": "Implement base site layout and template structure",
+          "correspondingPhase": "Planning & Core Structure",
+          "correspondingFeature": "Implement base site layout and template structure",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-07-25",
+          "endTime": "2024-07-30",
+          "dependencies": [
+              "P1-T2",
+              "P1-T3"
+          ],
+          "responsiblePerson": "Developer"
+      },
+      {
+          "id": "P1-T5",
+          "taskName": "Implement tour categorization structure (Special Tours, Japan, Asia, Europe-Australia-America)",
+          "correspondingPhase": "Planning & Core Structure",
+          "correspondingFeature": "Implement tour categorization structure (Special Tours, Japan, Asia, Europe-Australia-America)",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-07-30",
+          "endTime": "2024-08-01",
+          "dependencies": [
+              "P1-T4"
+          ],
+          "responsiblePerson": "Developer"
+      },
+      {
+          "id": "P1-T6",
+          "taskName": "Testing of base site layout and tour categorization",
+          "correspondingPhase": "Planning & Core Structure",
+          "correspondingFeature": "Implement base site layout and template structure",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-01",
+          "endTime": "2024-08-02",
+          "dependencies": [
+              "P1-T4",
+              "P1-T5"
+          ],
+          "responsiblePerson": "QA Tester"
+      }
+  ],
+  [
+      {
+          "id": "P2-T1",
+          "taskName": "Design dynamic structure for individual tour pages",
+          "correspondingPhase": "Tour Details Development",
+          "correspondingFeature": "Develop dynamic structure for individual tour pages",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-05",
+          "endTime": "2024-08-06",
+          "dependencies": [
+              "P1"
+          ],
+          "responsiblePerson": "Designer A"
+      },
+      {
+          "id": "P2-T2",
+          "taskName": "Implement dynamic structure for individual tour pages",
+          "correspondingPhase": "Tour Details Development",
+          "correspondingFeature": "Develop dynamic structure for individual tour pages",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-08-06",
+          "endTime": "2024-08-08",
+          "dependencies": [
+              "P2-T1"
+          ],
+          "responsiblePerson": "Developer B"
+      },
+      {
+          "id": "P2-T3",
+          "taskName": "Test dynamic structure for individual tour pages",
+          "correspondingPhase": "Tour Details Development",
+          "correspondingFeature": "Develop dynamic structure for individual tour pages",
+          "priority": "High",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-08-08",
+          "endTime": "2024-08-08",
+          "dependencies": [
+              "P2-T2"
+          ],
+          "responsiblePerson": "QA Engineer C"
+      },
+      {
+          "id": "P2-T4",
+          "taskName": "Design fields/sections for Day-by-day itinerary",
+          "correspondingPhase": "Tour Details Development",
+          "correspondingFeature": "Implement fields/sections for Day-by-day itinerary",
+          "priority": "High",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-08-08",
+          "endTime": "2024-08-09",
+          "dependencies": [
+              "P2-T3"
+          ],
+          "responsiblePerson": "Designer A"
+      },
+      {
+          "id": "P2-T5",
+          "taskName": "Implement fields/sections for Day-by-day itinerary",
+          "correspondingPhase": "Tour Details Development",
+          "correspondingFeature": "Implement fields/sections for Day-by-day itinerary",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-09",
+          "endTime": "2024-08-10",
+          "dependencies": [
+              "P2-T4"
+          ],
+          "responsiblePerson": "Developer B"
+      },
+      {
+          "id": "P2-T6",
+          "taskName": "Test fields/sections for Day-by-day itinerary",
+          "correspondingPhase": "Tour Details Development",
+          "correspondingFeature": "Implement fields/sections for Day-by-day itinerary",
+          "priority": "High",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-08-10",
+          "endTime": "2024-08-10",
+          "dependencies": [
+              "P2-T5"
+          ],
+          "responsiblePerson": "QA Engineer C"
+      },
+      {
+          "id": "P2-T7",
+          "taskName": "Design fields/sections for Tour highlights",
+          "correspondingPhase": "Tour Details Development",
+          "correspondingFeature": "Implement fields/sections for Tour highlights",
+          "priority": "Medium",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-08-12",
+          "endTime": "2024-08-12",
+          "dependencies": [
+              "P2-T6"
+          ],
+          "responsiblePerson": "Designer A"
+      },
+      {
+          "id": "P2-T8",
+          "taskName": "Implement fields/sections for Tour highlights",
+          "correspondingPhase": "Tour Details Development",
+          "correspondingFeature": "Implement fields/sections for Tour highlights",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-13",
+          "endTime": "2024-08-14",
+          "dependencies": [
+              "P2-T7"
+          ],
+          "responsiblePerson": "Developer B"
+      },
+      {
+          "id": "P2-T9",
+          "taskName": "Test fields/sections for Tour highlights",
+          "correspondingPhase": "Tour Details Development",
+          "correspondingFeature": "Implement fields/sections for Tour highlights",
+          "priority": "Medium",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-08-14",
+          "endTime": "2024-08-14",
+          "dependencies": [
+              "P2-T8"
+          ],
+          "responsiblePerson": "QA Engineer C"
+      },
+      {
+          "id": "P2-T10",
+          "taskName": "Design fields/sections for Service details",
+          "correspondingPhase": "Tour Details Development",
+          "correspondingFeature": "Implement fields/sections for Service details (accommodation, flights, meals)",
+          "priority": "Medium",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-08-14",
+          "endTime": "2024-08-15",
+          "dependencies": [
+              "P2-T9"
+          ],
+          "responsiblePerson": "Designer A"
+      },
+      {
+          "id": "P2-T11",
+          "taskName": "Implement fields/sections for Service details",
+          "correspondingPhase": "Tour Details Development",
+          "correspondingFeature": "Implement fields/sections for Service details (accommodation, flights, meals)",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-15",
+          "endTime": "2024-08-16",
+          "dependencies": [
+              "P2-T10"
+          ],
+          "responsiblePerson": "Developer B"
+      },
+      {
+          "id": "P2-T12",
+          "taskName": "Test fields/sections for Service details",
+          "correspondingPhase": "Tour Details Development",
+          "correspondingFeature": "Implement fields/sections for Service details (accommodation, flights, meals)",
+          "priority": "Medium",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-08-16",
+          "endTime": "2024-08-16",
+          "dependencies": [
+              "P2-T11"
+          ],
+          "responsiblePerson": "QA Engineer C"
+      },
+      {
+          "id": "P2-T13",
+          "taskName": "Design fields/sections for Pricing information",
+          "correspondingPhase": "Tour Details Development",
+          "correspondingFeature": "Implement fields/sections for Pricing information",
+          "priority": "Medium",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-08-16",
+          "endTime": "2024-08-19",
+          "dependencies": [
+              "P2-T12"
+          ],
+          "responsiblePerson": "Designer A"
+      },
+      {
+          "id": "P2-T14",
+          "taskName": "Implement fields/sections for Pricing information",
+          "correspondingPhase": "Tour Details Development",
+          "correspondingFeature": "Implement fields/sections for Pricing information",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-19",
+          "endTime": "2024-08-20",
+          "dependencies": [
+              "P2-T13"
+          ],
+          "responsiblePerson": "Developer B"
+      },
+      {
+          "id": "P2-T15",
+          "taskName": "Test fields/sections for Pricing information",
+          "correspondingPhase": "Tour Details Development",
+          "correspondingFeature": "Implement fields/sections for Pricing information",
+          "priority": "Medium",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-08-20",
+          "endTime": "2024-08-20",
+          "dependencies": [
+              "P2-T14"
+          ],
+          "responsiblePerson": "QA Engineer C"
+      },
+      {
+          "id": "P2-T16",
+          "taskName": "Design fields/sections for Terms and conditions",
+          "correspondingPhase": "Tour Details Development",
+          "correspondingFeature": "Implement fields/sections for Terms and conditions (inclusions/exclusions)",
+          "priority": "Medium",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-08-20",
+          "endTime": "2024-08-21",
+          "dependencies": [
+              "P2-T15"
+          ],
+          "responsiblePerson": "Designer A"
+      },
+      {
+          "id": "P2-T17",
+          "taskName": "Implement fields/sections for Terms and conditions",
+          "correspondingPhase": "Tour Details Development",
+          "correspondingFeature": "Implement fields/sections for Terms and conditions (inclusions/exclusions)",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-21",
+          "endTime": "2024-08-22",
+          "dependencies": [
+              "P2-T16"
+          ],
+          "responsiblePerson": "Developer B"
+      },
+      {
+          "id": "P2-T18",
+          "taskName": "Test fields/sections for Terms and conditions",
+          "correspondingPhase": "Tour Details Development",
+          "correspondingFeature": "Implement fields/sections for Terms and conditions (inclusions/exclusions)",
+          "priority": "Medium",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-08-22",
+          "endTime": "2024-08-22",
+          "dependencies": [
+              "P2-T17"
+          ],
+          "responsiblePerson": "QA Engineer C"
+      },
+      {
+          "id": "P2-T19",
+          "taskName": "Integrate image gallery functionality",
+          "correspondingPhase": "Tour Details Development",
+          "correspondingFeature": "Integrate image gallery functionality",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-05",
+          "endTime": "2024-08-06",
+          "dependencies": [
+              "P1"
+          ],
+          "responsiblePerson": "Developer D"
+      },
+      {
+          "id": "P2-T20",
+          "taskName": "Test image gallery functionality",
+          "correspondingPhase": "Tour Details Development",
+          "correspondingFeature": "Integrate image gallery functionality",
+          "priority": "High",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-08-06",
+          "endTime": "2024-08-06",
+          "dependencies": [
+              "P2-T19"
+          ],
+          "responsiblePerson": "QA Engineer E"
+      },
+      {
+          "id": "P2-T21",
+          "taskName": "Design fields/sections for Guide information",
+          "correspondingPhase": "Tour Details Development",
+          "correspondingFeature": "Implement fields/sections for Guide information",
+          "priority": "Low",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-08-06",
+          "endTime": "2024-08-07",
+          "dependencies": [
+              "P2-T20"
+          ],
+          "responsiblePerson": "Designer A"
+      },
+      {
+          "id": "P2-T22",
+          "taskName": "Implement fields/sections for Guide information",
+          "correspondingPhase": "Tour Details Development",
+          "correspondingFeature": "Implement fields/sections for Guide information",
+          "priority": "Low",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-07",
+          "endTime": "2024-08-08",
+          "dependencies": [
+              "P2-T21"
+          ],
+          "responsiblePerson": "Developer B"
+      },
+      {
+          "id": "P2-T23",
+          "taskName": "Test fields/sections for Guide information",
+          "correspondingPhase": "Tour Details Development",
+          "correspondingFeature": "Implement fields/sections for Guide information",
+          "priority": "Low",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-08-08",
+          "endTime": "2024-08-08",
+          "dependencies": [
+              "P2-T22"
+          ],
+          "responsiblePerson": "QA Engineer C"
+      },
+      {
+          "id": "P2-T24",
+          "taskName": "Design fields/sections for Payment policies",
+          "correspondingPhase": "Tour Details Development",
+          "correspondingFeature": "Implement fields/sections for Payment policies",
+          "priority": "Low",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-08-08",
+          "endTime": "2024-08-09",
+          "dependencies": [
+              "P2-T23"
+          ],
+          "responsiblePerson": "Designer A"
+      },
+      {
+          "id": "P2-T25",
+          "taskName": "Implement fields/sections for Payment policies",
+          "correspondingPhase": "Tour Details Development",
+          "correspondingFeature": "Implement fields/sections for Payment policies",
+          "priority": "Low",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-09",
+          "endTime": "2024-08-10",
+          "dependencies": [
+              "P2-T24"
+          ],
+          "responsiblePerson": "Developer B"
+      },
+      {
+          "id": "P2-T26",
+          "taskName": "Test fields/sections for Payment policies",
+          "correspondingPhase": "Tour Details Development",
+          "correspondingFeature": "Implement fields/sections for Payment policies",
+          "priority": "Low",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-08-10",
+          "endTime": "2024-08-10",
+          "dependencies": [
+              "P2-T25"
+          ],
+          "responsiblePerson": "QA Engineer C"
+      },
+      {
+          "id": "P2-T27",
+          "taskName": "Design fields/sections for Cancellation policies",
+          "correspondingPhase": "Tour Details Development",
+          "correspondingFeature": "Implement fields/sections for Cancellation policies",
+          "priority": "Low",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-08-10",
+          "endTime": "2024-08-12",
+          "dependencies": [
+              "P2-T26"
+          ],
+          "responsiblePerson": "Designer A"
+      },
+      {
+          "id": "P2-T28",
+          "taskName": "Implement fields/sections for Cancellation policies",
+          "correspondingPhase": "Tour Details Development",
+          "correspondingFeature": "Implement fields/sections for Cancellation policies",
+          "priority": "Low",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-12",
+          "endTime": "2024-08-13",
+          "dependencies": [
+              "P2-T27"
+          ],
+          "responsiblePerson": "Developer B"
+      },
+      {
+          "id": "P2-T29",
+          "taskName": "Test fields/sections for Cancellation policies",
+          "correspondingPhase": "Tour Details Development",
+          "correspondingFeature": "Implement fields/sections for Cancellation policies",
+          "priority": "Low",
+          "estimationTime": "0.5 day",
+          "startTime": "2024-08-13",
+          "endTime": "2024-08-13",
+          "dependencies": [
+              "P2-T28"
+          ],
+          "responsiblePerson": "QA Engineer C"
+      }
+  ],
+  [
+      {
+          "id": "P3-T1",
+          "taskName": "Design CMS/structure for static content (articles, stories, reviews, news)",
+          "correspondingPhase": "Content Management & Population",
+          "correspondingFeature": "Website Content",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-08-05",
+          "endTime": "2024-08-07",
+          "dependencies": [
+              "P1-T1"
+          ],
+          "responsiblePerson": "Designer"
+      },
+      {
+          "id": "P3-T2",
+          "taskName": "Implement CMS/structure for static content (articles, stories, reviews, news)",
+          "correspondingPhase": "Content Management & Population",
+          "correspondingFeature": "Website Content",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-08-07",
+          "endTime": "2024-08-10",
+          "dependencies": [
+              "P3-T1"
+          ],
+          "responsiblePerson": "Developer"
+      },
+      {
+          "id": "P3-T3",
+          "taskName": "Test CMS/structure for static content (articles, stories, reviews, news)",
+          "correspondingPhase": "Content Management & Population",
+          "correspondingFeature": "Website Content",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-10",
+          "endTime": "2024-08-11",
+          "dependencies": [
+              "P3-T2"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P3-T4",
+          "taskName": "Create and populate Company services overview content",
+          "correspondingPhase": "Content Management & Population",
+          "correspondingFeature": "Website Content",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-05",
+          "endTime": "2024-08-06",
+          "dependencies": [
+              "P1-T1"
+          ],
+          "responsiblePerson": "Content Writer"
+      },
+      {
+          "id": "P3-T5",
+          "taskName": "Design and implement Featured tour showcases section",
+          "correspondingPhase": "Content Management & Population",
+          "correspondingFeature": "Website Content",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-08-07",
+          "endTime": "2024-08-09",
+          "dependencies": [
+              "P1-T1"
+          ],
+          "responsiblePerson": "Designer"
+      },
+      {
+          "id": "P3-T6",
+          "taskName": "Implement Featured tour showcases section",
+          "correspondingPhase": "Content Management & Population",
+          "correspondingFeature": "Website Content",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-08-09",
+          "endTime": "2024-08-11",
+          "dependencies": [
+              "P3-T5"
+          ],
+          "responsiblePerson": "Developer"
+      },
+      {
+          "id": "P3-T7",
+          "taskName": "Test Featured tour showcases section",
+          "correspondingPhase": "Content Management & Population",
+          "correspondingFeature": "Website Content",
+          "priority": "Medium",
+          "estimationTime": "0.5 days",
+          "startTime": "2024-08-11",
+          "endTime": "2024-08-11",
+          "dependencies": [
+              "P3-T6"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P3-T8",
+          "taskName": "Create and populate News and promotions section",
+          "correspondingPhase": "Content Management & Population",
+          "correspondingFeature": "Website Content",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-12",
+          "endTime": "2024-08-13",
+          "dependencies": [
+              "P3-T2"
+          ],
+          "responsiblePerson": "Content Writer"
+      },
+      {
+          "id": "P3-T9",
+          "taskName": "Create and populate Cultural articles section",
+          "correspondingPhase": "Content Management & Population",
+          "correspondingFeature": "Website Content",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-13",
+          "endTime": "2024-08-14",
+          "dependencies": [
+              "P3-T2"
+          ],
+          "responsiblePerson": "Content Writer"
+      },
+      {
+          "id": "P3-T10",
+          "taskName": "Create and populate Travel stories section",
+          "correspondingPhase": "Content Management & Population",
+          "correspondingFeature": "Website Content",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-14",
+          "endTime": "2024-08-15",
+          "dependencies": [
+              "P3-T2"
+          ],
+          "responsiblePerson": "Content Writer"
+      },
+      {
+          "id": "P3-T11",
+          "taskName": "Integrate Customer reviews display functionality",
+          "correspondingPhase": "Content Management & Population",
+          "correspondingFeature": "Website Content",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-08-15",
+          "endTime": "2024-08-17",
+          "dependencies": [
+              "P3-T2"
+          ],
+          "responsiblePerson": "Developer"
+      },
+      {
+          "id": "P3-T12",
+          "taskName": "Test Customer reviews display functionality",
+          "correspondingPhase": "Content Management & Population",
+          "correspondingFeature": "Website Content",
+          "priority": "Medium",
+          "estimationTime": "0.5 days",
+          "startTime": "2024-08-17",
+          "endTime": "2024-08-17",
+          "dependencies": [
+              "P3-T11"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P3-T13",
+          "taskName": "Populate initial tour details using the structures from P2",
+          "correspondingPhase": "Content Management & Population",
+          "correspondingFeature": "Tour Information",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-08-12",
+          "endTime": "2024-08-15",
+          "dependencies": [
+              "P2-T1"
+          ],
+          "responsiblePerson": "Content Writer"
+      }
+  ],
+  [
+      {
+          "id": "P4-T1",
+          "taskName": "Design Online Inquiry Form",
+          "correspondingPhase": "Contact & Service Features Implementation",
+          "correspondingFeature": "Online inquiry form functionality",
+          "priority": "High",
+          "estimationTime": "4 hours",
+          "startTime": "2024-08-12",
+          "endTime": "2024-08-12",
+          "dependencies": [],
+          "responsiblePerson": "Designer"
+      },
+      {
+          "id": "P4-T2",
+          "taskName": "Implement Online Inquiry Form",
+          "correspondingPhase": "Contact & Service Features Implementation",
+          "correspondingFeature": "Online inquiry form functionality",
+          "priority": "High",
+          "estimationTime": "8 hours",
+          "startTime": "2024-08-13",
+          "endTime": "2024-08-14",
+          "dependencies": [
+              "P4-T1"
+          ],
+          "responsiblePerson": "Developer"
+      },
+      {
+          "id": "P4-T3",
+          "taskName": "Test Online Inquiry Form",
+          "correspondingPhase": "Contact & Service Features Implementation",
+          "correspondingFeature": "Online inquiry form functionality",
+          "priority": "High",
+          "estimationTime": "4 hours",
+          "startTime": "2024-08-14",
+          "endTime": "2024-08-15",
+          "dependencies": [
+              "P4-T2"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P4-T4",
+          "taskName": "Implement Hotline Display",
+          "correspondingPhase": "Contact & Service Features Implementation",
+          "correspondingFeature": "Dedicated hotlines (individual, group, visa services)",
+          "priority": "Medium",
+          "estimationTime": "4 hours",
+          "startTime": "2024-08-15",
+          "endTime": "2024-08-15",
+          "dependencies": [],
+          "responsiblePerson": "Developer"
+      },
+      {
+          "id": "P4-T5",
+          "taskName": "Test Hotline Display",
+          "correspondingPhase": "Contact & Service Features Implementation",
+          "correspondingFeature": "Dedicated hotlines (individual, group, visa services)",
+          "priority": "Medium",
+          "estimationTime": "2 hours",
+          "startTime": "2024-08-16",
+          "endTime": "2024-08-16",
+          "dependencies": [
+              "P4-T4"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P4-T6",
+          "taskName": "Integrate Email Contact Links",
+          "correspondingPhase": "Contact & Service Features Implementation",
+          "correspondingFeature": "Email contact option links",
+          "priority": "Medium",
+          "estimationTime": "4 hours",
+          "startTime": "2024-08-16",
+          "endTime": "2024-08-19",
+          "dependencies": [],
+          "responsiblePerson": "Developer"
+      },
+      {
+          "id": "P4-T7",
+          "taskName": "Test Email Contact Links",
+          "correspondingPhase": "Contact & Service Features Implementation",
+          "correspondingFeature": "Email contact option links",
+          "priority": "Medium",
+          "estimationTime": "2 hours",
+          "startTime": "2024-08-19",
+          "endTime": "2024-08-19",
+          "dependencies": [
+              "P4-T6"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P4-T8",
+          "taskName": "Implement Office Addresses Display",
+          "correspondingPhase": "Contact & Service Features Implementation",
+          "correspondingFeature": "Office addresses display",
+          "priority": "Medium",
+          "estimationTime": "4 hours",
+          "startTime": "2024-08-20",
+          "endTime": "2024-08-20",
+          "dependencies": [],
+          "responsiblePerson": "Developer"
+      },
+      {
+          "id": "P4-T9",
+          "taskName": "Test Office Addresses Display",
+          "correspondingPhase": "Contact & Service Features Implementation",
+          "correspondingFeature": "Office addresses display",
+          "priority": "Medium",
+          "estimationTime": "2 hours",
+          "startTime": "2024-08-20",
+          "endTime": "2024-08-20",
+          "dependencies": [
+              "P4-T8"
+          ],
+          "responsiblePerson": "QA Engineer"
+      },
+      {
+          "id": "P4-T10",
+          "taskName": "Design Visa Consultation Page",
+          "correspondingPhase": "Contact & Service Features Implementation",
+          "correspondingFeature": "Visa consultation services feature/page",
+          "priority": "High",
+          "estimationTime": "4 hours",
+          "startTime": "2024-08-12",
+          "endTime": "2024-08-12",
+          "dependencies": [],
+          "responsiblePerson": "Designer"
+      },
+      {
+          "id": "P4-T11",
+          "taskName": "Implement Visa Consultation Page",
+          "correspondingPhase": "Contact & Service Features Implementation",
+          "correspondingFeature": "Visa consultation services feature/page",
+          "priority": "High",
+          "estimationTime": "8 hours",
+          "startTime": "2024-08-13",
+          "endTime": "2024-08-14",
+          "dependencies": [
+              "P4-T10"
+          ],
+          "responsiblePerson": "Developer"
+      },
+      {
+          "id": "P4-T12",
+          "taskName": "Test Visa Consultation Page",
+          "correspondingPhase": "Contact & Service Features Implementation",
+          "correspondingFeature": "Visa consultation services feature/page",
+          "priority": "High",
+          "estimationTime": "4 hours",
+          "startTime": "2024-08-14",
+          "endTime": "2024-08-15",
+          "dependencies": [
+              "P4-T11"
+          ],
+          "responsiblePerson": "QA Engineer"
+      }
+  ],
+  [
+      {
+          "id": "P5-T1",
+          "taskName": "Perform functional testing across all features",
+          "correspondingPhase": "Testing & Refinement",
+          "correspondingFeature": "Perform functional testing across all features",
+          "priority": "High",
+          "estimationTime": "2d",
+          "startTime": "2024-08-26",
+          "endTime": "2024-08-27",
+          "dependencies": [
+              "P2-T1",
+              "P3-T1",
+              "P4-T1"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P5-T2",
+          "taskName": "Conduct usability testing",
+          "correspondingPhase": "Testing & Refinement",
+          "correspondingFeature": "Conduct usability testing",
+          "priority": "High",
+          "estimationTime": "1d",
+          "startTime": "2024-08-28",
+          "endTime": "2024-08-28",
+          "dependencies": [
+              "P5-T1"
+          ],
+          "responsiblePerson": "UX Tester"
+      },
+      {
+          "id": "P5-T3",
+          "taskName": "Review all website content for accuracy and clarity",
+          "correspondingPhase": "Testing & Refinement",
+          "correspondingFeature": "Review all website content for accuracy and clarity",
+          "priority": "High",
+          "estimationTime": "1d",
+          "startTime": "2024-08-29",
+          "endTime": "2024-08-29",
+          "dependencies": [
+              "P3-T1"
+          ],
+          "responsiblePerson": "Content Reviewer"
+      },
+      {
+          "id": "P5-T4",
+          "taskName": "Test responsiveness and compatibility across different devices and browsers",
+          "correspondingPhase": "Testing & Refinement",
+          "correspondingFeature": "Test responsiveness and compatibility across different devices and browsers",
+          "priority": "High",
+          "estimationTime": "1d",
+          "startTime": "2024-08-30",
+          "endTime": "2024-08-30",
+          "dependencies": [
+              "P5-T1"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P5-T5",
+          "taskName": "Optimize website performance (speed, loading times)",
+          "correspondingPhase": "Testing & Refinement",
+          "correspondingFeature": "Optimize website performance (speed, loading times)",
+          "priority": "High",
+          "estimationTime": "1d",
+          "startTime": "2024-09-02",
+          "endTime": "2024-09-02",
+          "dependencies": [
+              "P5-T1"
+          ],
+          "responsiblePerson": "Developer"
+      },
+      {
+          "id": "P5-T6",
+          "taskName": "Identify and fix bugs",
+          "correspondingPhase": "Testing & Refinement",
+          "correspondingFeature": "Identify and fix bugs",
+          "priority": "High",
+          "estimationTime": "1d",
+          "startTime": "2024-09-03",
+          "endTime": "2024-09-03",
+          "dependencies": [
+              "P5-T1",
+              "P5-T2",
+              "P5-T3",
+              "P5-T4",
+              "P5-T5"
+          ],
+          "responsiblePerson": "Developer"
+      }
+  ],
+  [
+      {
+          "id": "P6-T1",
+          "taskName": "Prepare server environment for production",
+          "correspondingPhase": "Deployment & Launch",
+          "correspondingFeature": "Prepare server environment for production",
+          "priority": "High",
+          "estimationTime": "8 hours",
+          "startTime": "2024-09-04",
+          "endTime": "2024-09-04",
+          "dependencies": [
+              "P5-T6"
+          ],
+          "responsiblePerson": "Bob"
+      },
+      {
+          "id": "P6-T2",
+          "taskName": "Deploy website files and database",
+          "correspondingPhase": "Deployment & Launch",
+          "correspondingFeature": "Deploy website files and database",
+          "priority": "High",
+          "estimationTime": "4 hours",
+          "startTime": "2024-09-05",
+          "endTime": "2024-09-05",
+          "dependencies": [
+              "P6-T1"
+          ],
+          "responsiblePerson": "Alice"
+      },
+      {
+          "id": "P6-T3",
+          "taskName": "Configure domain and DNS settings",
+          "correspondingPhase": "Deployment & Launch",
+          "correspondingFeature": "Configure domain and DNS settings",
+          "priority": "High",
+          "estimationTime": "4 hours",
+          "startTime": "2024-09-05",
+          "endTime": "2024-09-05",
+          "dependencies": [
+              "P6-T2"
+          ],
+          "responsiblePerson": "Charlie"
+      },
+      {
+          "id": "P6-T4",
+          "taskName": "Perform final checks on live site",
+          "correspondingPhase": "Deployment & Launch",
+          "correspondingFeature": "Perform final checks on live site",
+          "priority": "High",
+          "estimationTime": "4 hours",
+          "startTime": "2024-09-06",
+          "endTime": "2024-09-06",
+          "dependencies": [
+              "P6-T3"
+          ],
+          "responsiblePerson": "David"
+      },
+      {
+          "id": "P6-T5",
+          "taskName": "Launch announcement (optional)",
+          "correspondingPhase": "Deployment & Launch",
+          "correspondingFeature": "Launch announcement (optional)",
+          "priority": "Low",
+          "estimationTime": "2 hours",
+          "startTime": "2024-09-06",
+          "endTime": "2024-09-06",
+          "dependencies": [
+              "P6-T4"
+          ],
+          "responsiblePerson": "Eve"
+      },
+      {
+          "id": "P6-T6",
+          "taskName": "Implement basic post-launch monitoring",
+          "correspondingPhase": "Deployment & Launch",
+          "correspondingFeature": "Implement basic post-launch monitoring",
+          "priority": "Medium",
+          "estimationTime": "2 hours",
+          "startTime": "2024-09-06",
+          "endTime": "2024-09-06",
+          "dependencies": [
+              "P6-T4"
+          ],
+          "responsiblePerson": "Frank"
+      }
+  ]
+]

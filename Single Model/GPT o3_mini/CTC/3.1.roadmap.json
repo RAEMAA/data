@@ -1,0 +1,94 @@
+[
+  {
+    "id": "P1",
+    "phase": "Phase 1: Branch Management Development",
+    "feature list": [
+      "Manage branch locations and details",
+      "Automatic routing of online orders to the nearest branch",
+      "Real-time branch status monitoring"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-10-11",
+    "endTime": "2023-11-07",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Phase 2: Online Ordering System Development",
+    "feature list": [
+      "Customer-friendly menu browsing with detailed meal descriptions",
+      "Selection and order placement interface",
+      "Order confirmation and status tracking",
+      "Integration for busy office workers with streamlined ordering process"
+    ],
+    "estimatedTime": "5 weeks",
+    "startTime": "2023-10-11",
+    "endTime": "2023-11-15",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P3",
+    "phase": "Phase 3: Payment Processing Integration",
+    "feature list": [
+      "Secure online payment gateway integration with www.nganluong.vn and similar services",
+      "Transaction verification and confirmation",
+      "Receipt generation and payment history tracking"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2023-11-08",
+    "endTime": "2023-11-29",
+    "dependencies": ["P2"]
+  },
+  {
+    "id": "P4",
+    "phase": "Phase 4: Menu and Pricing Management Implementation",
+    "feature list": [
+      "Dynamic menu management for all branches",
+      "Automatic dish price updates to maintain accuracy",
+      "Real-time synchronization across all branch menus"
+    ],
+    "estimatedTime": "2 weeks",
+    "startTime": "2023-10-11",
+    "endTime": "2023-10-25",
+    "dependencies": []
+  },
+  {
+    "id": "P5",
+    "phase": "Phase 5: Promotions and Discounts Module",
+    "feature list": [
+      "Tracking and managing promotional offers and coupons",
+      "Ability for customers to apply promotions during checkout",
+      "Promotion validity and usage analytics"
+    ],
+    "estimatedTime": "2 weeks",
+    "startTime": "2023-10-25",
+    "endTime": "2023-11-08",
+    "dependencies": ["P2"]
+  },
+  {
+    "id": "P6",
+    "phase": "Phase 6: Feedback and Rating Module",
+    "feature list": [
+      "Customer feedback submission interface",
+      "Rating system for dishes and dining experience",
+      "Mechanism to monitor and analyze customer satisfaction"
+    ],
+    "estimatedTime": "2 weeks",
+    "startTime": "2023-11-01",
+    "endTime": "2023-11-15",
+    "dependencies": ["P2"]
+  },
+  {
+    "id": "P7",
+    "phase": "Phase 7: Data Analytics and Reporting Implementation",
+    "feature list": [
+      "Reporting tools for sales, order statistics, and customer behavior",
+      "Data analysis to guide business decisions and strategic planning",
+      "Dashboard for monitoring key performance indicators (KPIs)"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2023-11-15",
+    "endTime": "2023-12-06",
+    "dependencies": ["P2", "P3", "P5", "P6"]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+      "featureCategory": "Internal Farm Operations",
+      "features": [
+          "Piglet Monitoring (growth, feeding, temperature, environmental criteria)",
+          "Piglet Health Management (health status, diseases, vaccination procedures)",
+          "Inventory Management (import/export status)"
+      ]
+  },
+  {
+      "featureCategory": "Sales and Farmer Engagement",
+      "features": [
+          "Piglet Catalog Browsing",
+          "Online Ordering System",
+          "Communication Platform (Farm-to-Farmer)"
+      ]
+  },
+  {
+      "featureCategory": "System Administration and Reporting",
+      "features": [
+          "User Account Management (Farmer registration, Admin management)",
+          "Promotions Management",
+          "Reporting (Revenue statistics, periodic reports)"
+      ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "category": "Online Ordering",
+        "list_feature": [
+            "Browse website menu",
+            "Select and place food orders",
+            "Automatic routing of orders to the nearest branch",
+            "Order tracking",
+            "Promotion application during ordering"
+        ]
+    },
+    {
+        "category": "Online Payment",
+        "list_feature": [
+            "Secure online payment integration (e.g., www.nganluong.vn)",
+            "Quick transaction processing"
+        ]
+    },
+    {
+        "category": "Branch Management",
+        "list_feature": [
+            "Centralized order collation from all branches",
+            "Regular dish price updates",
+            "Multi-branch operation management",
+            "Data analysis for strategic business decisions"
+        ]
+    },
+    {
+        "category": "Customer Feedback",
+        "list_feature": [
+            "Feedback submission from customers",
+            "Restaurant rating feature"
+        ]
+    },
+    {
+        "category": "Additional Features",
+        "list_feature": [
+            "Regular menu pricing updates to maintain accuracy",
+            "Promotion tracking and discount application integrated into the system"
+        ]
+    }
+]

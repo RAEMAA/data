@@ -1,0 +1,173 @@
+[
+  {
+    "category": "Environmental Monitoring",
+    "features": [
+      {
+        "featureName": "Real-time temperature tracking",
+        "flow": "1. Environmental monitoring staff view real-time temperature data from sensors via the dashboard. 2. System triggers an alert if temperature deviates from configured thresholds (set by administrators). 3. Staff acknowledge alerts and access adjustment controls to modify heating/cooling systems. 4. Veterinarians review temperature logs to correlate with disease outbreaks or health trends. 5. Resolved incidents are logged with timestamps and actions taken. 6. Temperature data is integrated into monthly operational reports for compliance auditing.",
+        "screens": [
+          "Real-Time Temperature Dashboard: Displays live temperature readings, historical trends, and zone-specific data.",
+          "Temperature Alert Screen: Shows critical alerts with severity levels and recommended mitigation steps.",
+          "Environmental Adjustment Interface: Allows staff to override automated systems and manually adjust temperature controls.",
+          "Incident Logging Screen: Captures details of temperature-related interventions (user, time, action taken).",
+          "Temperature History Report: Filters data by date/zone and exports to operational reports.",
+          "Threshold Configuration Panel: Admins set safe temperature ranges and alert escalation rules."
+        ]
+      },
+      {
+        "featureName": "Humidity/Air Quality Monitoring",
+        "flow": "1. [Administrator] Configures IoT sensors in pig pens via Sensor Management Screen with breed-specific thresholds.\n2. [Environmental Officer] Monitors live humidity (RH%) and air quality index (PM2.5/ammonia) via Dashboard with color-coded zones.\n3. System triggers SMS/app alerts to Veterinarians when readings exceed thresholds >72h (e.g., >70% humidity for weaned piglets).\n4. [Veterinarian] Reviews 48-hour trend overlays in Environmental Reports Screen to correlate with respiratory disease cases.\n5. [Farm Staff] Adjusts ventilation systems and logs interventions in Action Tracker with pre-defined tags (e.g., 'Fan Speed Increase', 'Mist System Activation').\n6. System auto-generates humidity compliance certificates for EU regulatory audits with farm owner digital signature integration.",
+        "screens": [
+          "Real-Time Environmental Dashboard - Heatmap of pens with pop-up sensor calibration status indicators",
+          "Threshold Configuration Screen - Age/breed-specific presets for Duroc vs. Landrace pigs",
+          "Alert History Log - Filterable by date/severity with weather API integration (rainfall/wind patterns)",
+          "Ventilation Control Interface - Remote actuator controls with safety confirmation dialogs",
+          "Intervention Impact Report - Compares pre/post-action environmental metrics over 24h periods",
+          "Certification Generator - Auto-populates audit templates with sensor IDs and calibration dates",
+          "Multi-Sensor Calibration Wizard - Guided process with QR code scanning for device registration"
+        ]
+      },
+      {
+        "featureName": "Equipment Status Alerts",
+        "flow": "1. [System] Sensors continuously monitor environmental parameters (temperature, humidity, air quality). 2. [System] AI-driven analytics detect anomalies (e.g., temperature exceeding 5% of preset thresholds). 3. [Automation] Priority-based alerts are generated: critical (red), warning (yellow), and resolved (green). 4. [Farm Staff] Receive push notifications/SMS for critical alerts with equipment ID and anomaly details. 5. [Administrators] Monitor aggregated alerts on the Alert Dashboard, filtering by zone/time/severity. 6. [Farm Staff] Navigate to Sensor Details screen to view real-time diagnostics (e.g., HVAC performance trends) and cross-reference with maintenance logs. 7. [Farm Staff] Initiate resolution: toggle equipment reboot, adjust settings via IoT controls, or escalate to maintenance teams via in-app task assignments. 8. [System] Auto-verifies resolution via sensor rechecks and updates alert status. 9. [Administrators] Audit resolved alerts with timestamps, action logs, and post-resolution sensor stability metrics.",
+        "screens": [
+          "Alert Dashboard: Role-based view showing live alerts (map overlay), historical trends, and equipment health scores. Features: filter by farm zone, export logs, and assign bulk actions (Farm Staff/Admin).",
+          "Sensor Details: Interactive panel with 3-axis sensor graphs, manual override controls, and incident history. Embedded protocol checklists and a ‚ÄúRequest Veterinary Review‚Äù button for environment-linked health alerts (Farm Staff)."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Order Workflow",
+    "features": [
+      {
+        "featureName": "Inventory Verification with Threshold Alerts",
+        "flow": "1. [Farmer] Initiates order placement via 'New Order' screen, selecting breed and quantity. 2. [System] Verifies real-time inventory against the requested breed/quantity using API-connected stock databases. 3a. [If Sufficient]: Proceeds to payment gateway with auto-generated fulfillment ETA (e.g., 'Ready for pickup in 3 days'). 3b. [If Insufficient]: Displays 'Out-of-Stock' warning with alternative breed suggestions ranked by genetic similarity and price parity. 4. [System] After order confirmation, executes post-transaction inventory check against role-specific thresholds (e.g., <20% stock for farmers, <15% for bulk buyers). 5. [If Threshold Breached]: Triggers 'Low Stock Alert' with severity levels (Warning/Critical) to assigned staff roles via prioritized in-app notifications (red badges) and SMS with acknowledgment links. 6. [Staff] Reviews alert in 'Priority Notifications' hub with drill-down options to initiate restocking workflows (supplier contact forms) or update breed availability (mark breeds as temporarily suspended).",
+        "screens": [
+          "Inventory Status Dashboard: Heatmap-style visualization of breed-specific stock levels (color-coded: green ≥30%, yellow 20-29%, red <20%). Includes real-time stock counters, age-group filters (piglets <3mo, juveniles 3-6mo), and exportable 90-day historical trends in CSV/PDF formats.",
+          "Alert Configuration Panel: Role-based access interface with granular settings: threshold type (%/absolute), escalation rules (e.g., auto-notify farm owner after 24hrs of unacknowledged Critical alerts), and channel preferences (SMS for veterinarians, email for inventory managers). Includes test-alert button and audit logs of past notifications."
+        ]
+      },
+      {
+        "featureName": "Multi-step Order Approval Automation",
+        "flow": "1. **Farmer** submits order via [Order Submission Form], specifying breed, quantity, and delivery preferences. 2. **System** auto-checks real-time inventory; if unavailable, sends [Inventory Alert Screen] to farmer. 3. If inventory is sufficient, order routes to **Sales Manager** for approval via [Approval Dashboard]. 4. **Sales Manager** reviews pricing/breed availability, approves/rejects. If rejected, farmer receives [Order Rejection Notification]. 5. Approved orders proceed to **Logistics Manager** via [Approval Dashboard] to confirm transport capacity/schedules. 6. **Logistics Manager** approves/denies; denial triggers [Logistics Adjustment Screen] for renegotiation. 7. Final approval triggers **system** to auto-generate fulfillment documents (delivery note, health certificate, invoice) on [Fulfillment Documentation Screen]. 8. **Logistics Staff** coordinates delivery, updates [Order Tracking Dashboard], and marks order as fulfilled. 9. **Farmer** receives real-time status updates via [Order Tracking Dashboard] and in-app notifications.",
+        "screens": [
+          "Order Submission Form: Farmer inputs breed selection, quantity, and delivery details.",
+          "Inventory Alert Screen: Displays unavailable breeds/quantities with alternative suggestions.",
+          "Approval Dashboard: Hierarchical interface for managers to view/approve/reject orders with contextual data (inventory levels, farmer history).",
+          "Order Rejection Notification: Explains rejection reasons (e.g., inventory shortage, pricing conflicts).",
+          "Logistics Adjustment Screen: Allows Logistics Manager to propose new delivery dates/routes if initial plan is unfeasible.",
+          "Fulfillment Documentation Screen: Auto-populates legal/financial documents for staff review and farmer access.",
+          "Order Tracking Dashboard: Real-time updates on order status (approved, in-transit, delivered) with document downloads and messaging links."
+        ]
+      },
+      {
+        "featureName": "Order Fulfillment Status Updates",
+        "flow": "1. Farmer submits order via **Order Placement Screen**, selecting breed/quantity. 2. System checks inventory availability; triggers **'Pending Approval'** status. 3. Staff reviews order via **Approval Dashboard**, approves/rejects with comments; farmer receives **'Order Approved'**/**'Rejected'** notification. 4. Logistics staff assigns shipment details (date/carrier) in **Logistics Coordination Screen**, updating status to **'Scheduled for Transfer'**. 5. During transit, environmental sensors (temperature/humidity) trigger **'Environmental Alert'** status events; staff resolves via **Alert Management Panel** (e.g., rerouting shipments). 6. Farmer confirms delivery via **Delivery Confirmation Screen**, changing status to **'Delivered'**. 7. System auto-generates fulfillment documents (e.g., health certificates) in **Order Documentation Hub**.",
+        "screens": [
+          "Order Status Dashboard: Displays milestones (e.g., 'Approved', 'Shipped', 'Delivered') with progress bars and contextual alerts (e.g., 'High Temperature Detected During Transit'). Farmers/staff can toggle between high-level summaries and granular details.",
+          "Fulfillment Timeline Screen: Chronological view of order events (e.g., 'Approved by Staff (June 5, 10:00 AM)', 'Environmental Alert: Humidity Exceeded Threshold (June 6, 2:30 PM)', 'Delivery Confirmed by Farmer'). Supports document downloads (e.g., inspection reports).",
+          "Notifications Hub: Filters alerts by type: fulfillment milestones ('Order #123 Shipped'), environmental alerts ('Temperature Stabilized'), and system-generated reminders ('Confirm Delivery Within 48 Hours').",
+          "Logistics Coordination Screen: Staff-only interface for assigning carriers, tracking shipment conditions in real-time, and uploading transfer documentation (e.g., veterinary clearance forms)."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Communication Hub",
+    "features": [
+      {
+        "featureName": "Stakeholder Messaging with Read Receipts",
+        "flow": "1. **Initiate Message**: Users (Farmers/Staff/Veterinarians/Suppliers) access the Communication Hub and select 'New Message.'\n2. **Compose**: Recipients are selected via role-based permissions (e.g., staff cannot message veterinarians without authorization). Attachments are managed with size-limited uploads.\n3. **Send**: Messages trigger in-app alerts and log entries.\n4. **Recipient Action**: Opening the message auto-generates a read receipt with role-specific timestamps.\n5. **Status Tracking**: Read receipts are displayed in message threads, showing precise access times.\n6. **Reply/Forward**: Threaded replies reuse the read receipt system.",
+        "screens": [
+          "Inbox Screen: Displays role-filtered messages with read/sent status indicators.",
+          "Compose Message Screen: Enables permission-validated recipient selection and document attachment integration.",
+          "Message Thread Screen: Shows embedded read receipts, document previews, and reply/forward options.",
+          "Document Attachments Screen: Provides cloud-integrated uploads with file previews and size validation.",
+          "Read Receipts Panel: Displays detailed access logs with timestamps and roles for auditing purposes."
+        ]
+      },
+      {
+        "featureName": "Document Collaboration & Version Control",
+        "flow": "1. Staff/Veterinarian uploads documents (health protocols/feeding guidelines) via Upload Screen. 2. Farmers/staff access shared files through Document Dashboard with role-based permissions. 3. Real-time co-editing in Collaboration Hub triggers automatic version snapshots with timestamp/author metadata. 4. Edited documents route through Approval Workflow Screen where administrators/veterinarians approve/reject changes with comments. 5. Approved versions become locked master documents; rejections return to editors with feedback. 6. Version History Screen allows comparison/rollback through visual diff tools. 7. All users receive in-app notifications for approvals/updates. 8. Full audit trail (user/IP/timestamp/action) recorded in Audit Log Screen for compliance reviews.",
+        "screens": [
+          "Document Dashboard: Role-filtered document grid (Admin: full CRUD; Vet: edit/approve health docs; Staff: upload/edit feeding schedules; Farmer: view-only access to purchased breed guidelines). Permissions enforced via attribute-based access control (ABAC).",
+          "Upload/Edit Screen: Drag-and-drop uploader with mandatory metadata (category/tags/expiry) and WYSIWYG editor. Post-approval, documents auto-lock with SHA-256 hash validation to prevent tampering.",
+          "Collaboration Hub: Multi-user editing panel with live cursors/comment threads. @mentions trigger in-app messages (via existing messaging API) and push notifications for urgent edits.",
+          "Version History Screen: Side-by-side comparison with diff tools. Locked versions display 'Approved by [Role]' badge and immutable watermark.",
+          "Approval Workflow Screen: Visual approval chain builder with escalation rules (48hr SLA for vets). Locking mechanism activates upon approval, requiring admin override for revisions.",
+          "Audit Log Screen: CSV export includes columns [Timestamp, User Role, IP Address, Action Type, Document ID, Version, Affected Field, Old/New Values]. Format aligns with FDA 21 CFR Part 11 compliance templates."
+        ]
+      },
+      {
+        "featureName": "Announcement Creation & Distribution",
+        "flow": "1. **Draft Creation (Farm Staff)**: Staff navigates to the Compose Announcement Screen, inputs title, content, and attaches documents (e.g., guidelines, promotional materials). Selects distribution channels (in-app hub, push notification, email). Submits for approval.\n2. **Approval (Farm Owner/Admin)**: Draft appears in Approval Queue Screen. Owner/admin reviews content, adjusts distribution channels if needed, and approves/rejects via Approval Screen. Rejected drafts return to staff with comments.\n3. **Distribution**: Approved announcement is automatically published to selected channels. Staff receives confirmation on Distribution Confirmation Screen.\n4. **Farmer Access (Farmers)**: Farmers receive real-time notifications. Access announcements via Announcement List Screen (in-app hub) or email. Read receipts are auto-logged upon opening.\n5. **Confirmation & Analytics**: Staff views delivery metrics (open rates, acknowledgments) on Sent Announcements Screen. Farm owner generates periodic reports via Confirmation Report Screen.",
+        "screens": [
+          "Compose Announcement Screen: Draft creation with fields for title, content, attachments, and channel selection.",
+          "Approval Queue Screen: Displays pending announcements for review by farm owner/admin.",
+          "Approval Screen: Detailed view of draft with options to approve, reject, or edit content/channels.",
+          "Distribution Confirmation Screen: Post-approval summary showing sent channels and timestamp.",
+          "Announcement List Screen (Farmers): Chronological list of received announcements with read/unread status.",
+          "Announcement Detail Screen (Farmers): Full announcement content with acknowledgment button and document downloads.",
+          "Sent Announcements Screen (Staff): Tracks sent announcements with metrics (views, acknowledgments, channel performance).",
+          "Confirmation Report Screen: Aggregates analytics for farm owner (e.g., engagement rates, farmer responsiveness)."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Owner Analytics",
+    "features": [
+      {
+        "featureName": "Owner Sales Dashboard & Reporting",
+        "flow": "1. (Owner) Access the login screen and enter valid credentials.\n2. System authenticates credentials via JWT token validation and redirects to Dashboard Home.\n3. (Owner) Select 'Sales Analytics' from the role-specific navigation menu.\n4. Dashboard loads default view showing aggregated monthly sales totals across all breeds.\n5. (Owner) Open Filter Configuration Panel to set granular parameters:\n   - Time Range: Monthly/Quarterly/Custom Date Picker\n   - Breed Filter: Multi-select dropdown (Duroc/Landrace/Yorkshire)\n   - Metric Type: Gross Revenue/Units Sold/Average Price per Breed\n6. System updates visualizations in real-time (line charts for trends, bar graphs for breed comparisons).\n7. (Owner) Click interactive data points (e.g., 'Q3 Duroc Sales') to trigger drill-down modal displaying:\n   - Per-transaction details\n   - Regional performance heatmap\n   - Linked health compliance metrics for shipped piglets\n8. (Owner) Select 'Export' from action toolbar, choose:\n   - Format: PDF (summary layout) or Excel (raw datasets)\n   - Scope: Current filtered view vs. full historical data\n9. System queues report generation, displays progress bar, and initiates download upon completion.",
+        "screens": [
+          "Login Screen: Role-based authentication with username/password fields and SSO integration placeholder.",
+          "Dashboard Home: Customizable widget grid showing YTD sales growth %, top-performing breeds, and regional distribution pie chart.",
+          "Filter Configuration Panel: Persistent sidebar with collapsible filter groups, preset saving capability, and live preview toggle.",
+          "Drill-Down Interface: Overlay modal with tabbed navigation for transaction lists, geographic data, and compliance correlations.",
+          "Export Interface: Modal with format presets, data scope radio buttons, and embedded preview pane for PDF exports."
+        ]
+      },
+      {
+        "featureName": "Inventory Turnover Analysis & Reporting",
+        "flow": "1. **Farm Owner/Admin** selects 'Inventory Analytics' from the main dashboard's reporting module. 2. Chooses 'Turnover Metrics' as the report type with preset inventory KPIs (e.g., stock aging rate, breed-specific turnover cycles). 3. Sets timeframe using calendar presets aligned with seasonal import/export patterns. 4. Configures parameters: stock age thresholds (slider input: 30-180 days), breed turnover priority tiers (dropdown: High/Medium/Low based on historical distribution data), and import/export status filters (multi-select: In Transit/Completed/On Hold). 5. Triggers system to cross-reference real-time inventory data with breed distribution logs and transfer histories. 6. Views heatmap showing turnover rates per breed/region (color-coded urgency) and trend lines comparing stock age against sales velocity. 7. Interacts with layered charts: toggle between 'Export-Focused' view (highlighting cross-region transfers) and 'Local Stock Aging' mode. 8. Exports report with embedded pivot tables showing stock retention costs OR shares via in-app comms to logistics staff with pre-filled context (e.g., 'Q3 Priority Breed Stock Aging Alert'). 9. Saves configuration as 'Inventory Health Template' for recurring use.",
+        "screens": [
+          "Report Configuration Screen: Features stacked parameter sections - stock age slider with warning thresholds (90+ days = red zone), breed priority matrix linked to distribution data, and import/export status toggles. Includes 'Simulate Replenishment' button to project turnover impacts.",
+          "Inventory Visualization Dashboard: Dual-panel interface with left-side heatmap (geographic breed turnover rates) and right-side combo chart (stock age vs. sales trends). Dynamic summary table flags slow-moving stock matching configured thresholds.",
+          "Export/Sharing Modal: New inventory-specific templates ('Urgent Replenishment Alert', 'Quarterly Turnover Summary') with pre-mapped data fields (breed codes, last export dates).",
+          "Report Archive: Enhanced metadata showing stock age ranges and priority tiers for quick scan. Export-status tags added to historical reports.",
+          "Template Manager: Inventory templates tagged with breed groups and turnover KPIs. Clone function auto-populates seasonal import/export presets."
+        ]
+      },
+      {
+        "featureName": "Compliance Metrics Dashboard",
+        "flow": "1. **[Farm Owner]** logs into the system via [Login Screen].\n2. Navigates to **'Compliance Hub'** from the main menu.\n3. Selects reporting period (monthly/quarterly/annual) using **[Period Selection Widget]**.\n4. Applies filters for breeds/locations/metrics via **[Dynamic Filter Panel]**, refining data scope.\n5. System retrieves **real-time metrics**: vaccination rates, disease outbreaks (geographic heatmaps), medication adherence (breed-specific trends), and quarantine compliance status.\n6. **[Farm Owner]** interacts with visualizations: hovers over outbreak density maps, drills into breed-specific medication charts, and toggles time-slider for historical comparisons.\n7. Triggers **[Report Generator Screen]** to export formatted summaries (PDF/Excel) with compliance scores and anomaly flags.\n8. Receives **[Automated Outbreak Alerts]** via [Notification Center] when threshold breaches occur during analysis.\n9. Shares compliance insights with veterinarians/staff via **[In-App Share Module]**, attaching annotated charts or raw datasets.",
+        "screens": [
+          "Login Screen: Role-based authentication for farm owners and staff",
+          "Compliance Hub Landing: Central access point for compliance tools and alerts",
+          "Metrics Explorer: Interactive dashboard with drill-down charts (heatmaps for outbreaks, stacked bars for vaccination progress)",
+          "Dynamic Filter Panel: Multi-select filters for breed, location, metric type, and compliance status",
+          "Period Configuration Widget: Custom time range selector with preset options (e.g., 'Last Fiscal Quarter')",
+          "Report Generator Screen: Export templates with farm branding, data granularity options, and compliance scoring legends",
+          "Outbreak Alert Log: Timestamped incidents with severity levels, affected breeds, and resolution status",
+          "Notification Center: Priority-ranked alerts with direct links to impacted metrics"
+        ]
+      },
+      {
+        "category": "Report Generation & Analytics",
+        "features": [
+          {
+            "featureName": "Enhanced Report Generation",
+            "flow": "1) Farm owner logs in and navigates to the analytics dashboard. 2) Selects comparison parameters via Filter Controls Sidebar (breed type, date range, health status). 3) System triggers API calls: a) Pulls vaccination rates from health module when breeds are selected. b) Retrieves transfer timelines via logistics API for chosen date ranges. 4) Dashboard Visualization Screen updates widgets in real-time (heatmaps for regional sales, trend lines for disease incidence). 5) Owner clicks on low-performance metrics to open Drill-Down Metrics Screen, showing linked logistics delays and health records. 6) Uses export function to generate PDF/CSV reports with embedded order tracking data (inventory IDs, fulfillment timestamps). 7) System displays error toast for invalid parameter combinations and shows tooltips explaining metric correlations.",
+            "screens": [
+              "Dashboard Visualization Screen: Combines real-time sales/health/breed data in configurable widgets (heatmaps, trend lines)",
+              "Filter Controls Sidebar: Enables multi-criteria parameter selection with live previews of dataset scope",
+              "Drill-Down Metrics Screen: Displays operational causality by linking sales figures to granular logistics/health records"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+      "id": "P1",
+      "phase": "Integration and Order Management Setup",
+      "feature_list": [
+          "Integrate business information across all locations",
+          "Streamline order taking"
+      ],
+      "estimatedTime": 4,
+      "startTime": "2024-07-01",
+      "endTime": "2024-07-28",
+      "dependencies": []
+  },
+  {
+      "id": "P2",
+      "phase": "Task and Billing Management",
+      "feature_list": [
+          "Easy task performance",
+          "Minimized movement for staff",
+          "Automate billing"
+      ],
+      "estimatedTime": 6,
+      "startTime": "2024-07-29",
+      "endTime": "2024-09-08",
+      "dependencies": [
+          "P1"
+      ]
+  },
+  {
+      "id": "P3",
+      "phase": "Reporting and Analytics",
+      "feature_list": [
+          "Generate revenue reports for individual branches",
+          "Generate revenue reports for the entire chain"
+      ],
+      "estimatedTime": 4,
+      "startTime": "2024-09-09",
+      "endTime": "2024-10-06",
+      "dependencies": [
+          "P2"
+      ]
+  }
+]

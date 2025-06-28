@@ -1,0 +1,124 @@
+[
+  {
+    "id": "P1",
+    "phase": "Phase 1: Planning & Setup",
+    "feature_list": [],
+    "estimatedTime": 7,
+    "startTime": "2024-08-01",
+    "endTime": "2024-08-07",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Phase 2: User Management & Basic Listings",
+    "feature_list": [
+      "User Registration",
+      "User Login",
+      "User Profile Management",
+      "Search Listings",
+      "Filter Listings",
+      "Sort Listings",
+      "View Listing Details"
+    ],
+    "estimatedTime": 14,
+    "startTime": "2024-08-08",
+    "endTime": "2024-08-21",
+    "dependencies": [
+      "P1"
+    ]
+  },
+  {
+    "id": "P3",
+    "phase": "Phase 3: Listing Management",
+    "feature_list": [
+      "Create Listing (Motorcycles, Parts, Accessories)",
+      "Edit Listing",
+      "Delete Listing",
+      "Manage My Listings"
+    ],
+    "estimatedTime": 10,
+    "startTime": "2024-08-22",
+    "endTime": "2024-08-31",
+    "dependencies": [
+      "P2"
+    ]
+  },
+  {
+    "id": "P4",
+    "phase": "Phase 4: Buying & Selling Core",
+    "feature_list": [
+      "Bidding Functionality",
+      "Buy Now Functionality",
+      "Checkout Process",
+      "Payment Gateway Integration"
+    ],
+    "estimatedTime": 21,
+    "startTime": "2024-09-01",
+    "endTime": "2024-09-21",
+    "dependencies": [
+      "P3"
+    ]
+  },
+  {
+    "id": "P5",
+    "phase": "Phase 5: Credibility System",
+    "feature_list": [
+      "Credibility Score Calculation (based on transactions, feedback, value)",
+      "Display Credibility Score",
+      "Submit Transaction Feedback",
+      "View Transaction Feedback",
+      "Listing Ranking based on Credibility",
+      "Listing Visibility based on Credibility"
+    ],
+    "estimatedTime": 14,
+    "startTime": "2024-09-22",
+    "endTime": "2024-10-05",
+    "dependencies": [
+      "P4"
+    ]
+  },
+  {
+    "id": "P6",
+    "phase": "Phase 6: Community Forum",
+    "feature_list": [
+      "Browse Forum",
+      "Create Forum Thread",
+      "Post / Reply in Forum"
+    ],
+    "estimatedTime": 10,
+    "startTime": "2024-08-22",
+    "endTime": "2024-08-31",
+    "dependencies": [
+      "P2"
+    ]
+  },
+  {
+    "id": "P7",
+    "phase": "Phase 7: Platform Administration",
+    "feature_list": [
+      "Admin Panel",
+      "Category Management"
+    ],
+    "estimatedTime": 10,
+    "startTime": "2024-09-01",
+    "endTime": "2024-09-10",
+    "dependencies": [
+      "P2"
+    ]
+  },
+  {
+    "id": "P8",
+    "phase": "Phase 8: Transaction Management & Communication",
+    "feature_list": [
+      "Transaction Management (Buyer & Seller)",
+      "Buyer-Seller Communication"
+    ],
+    "estimatedTime": 14,
+    "startTime": "2024-09-22",
+    "endTime": "2024-10-05",
+    "dependencies": [
+      "P4",
+      "P7"
+    ]
+  }
+]

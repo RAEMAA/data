@@ -1,0 +1,42 @@
+[
+    {
+        "category": "User Registration",
+        "list_feature": [
+            "Farmer account creation",
+            "Bank account verification for authenticity"
+        ]
+    },
+    {
+        "category": "Product Listing",
+        "list_feature": [
+            "Product posting by farmers",
+            "Detailed product descriptions",
+            "Product image uploads",
+            "Pricing information",
+            "Additional product details"
+        ]
+    },
+    {
+        "category": "Online Sales",
+        "list_feature": [
+            "Basic e-commerce transactions",
+            "Online product search",
+            "Product comparison",
+            "Online purchasing"
+        ]
+    },
+    {
+        "category": "Payment Processing",
+        "list_feature": [
+            "Secure online payment systems",
+            "Farmer earnings disbursement"
+        ]
+    },
+    {
+        "category": "Shipping Integration",
+        "list_feature": [
+            "Home delivery arrangement",
+            "Integrated shipping solutions"
+        ]
+    }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "P1",
+    "phase": "Phase 1: Foundational Integration & Branch Management",
+    "feature list": [
+      "Integration and management of operational data from all branches",
+      "Centralized management of multiple branches nationwide"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-10-11",
+    "endTime": "2023-11-07",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Phase 2: Order Processing, Billing & Staff Assistance",
+    "feature list": [
+      "Streamlined order taking by waiters",
+      "Seamless order transfer to the preparation area",
+      "Automatic bill generation",
+      "Simplifying processes and reducing unnecessary movement for waiters",
+      "Supporting local staff with operational tasks"
+    ],
+    "estimatedTime": "5 weeks",
+    "startTime": "2023-11-08",
+    "endTime": "2023-12-12",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P3",
+    "phase": "Phase 3: Reporting & Analytics",
+    "feature list": [
+      "Generation of detailed revenue reports for each branch",
+      "Comprehensive revenue reports for the entire chain"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2023-12-13",
+    "endTime": "2024-01-02",
+    "dependencies": ["P2"]
+  }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "category": "Order Management",
+        "list_feature": [
+            "Order taking interface for waiters",
+            "Order transmission to preparation room"
+        ]
+    },
+    {
+        "category": "Billing and Payments",
+        "list_feature": [
+            "Automated bill generation"
+        ]
+    },
+    {
+        "category": "Reporting and Analytics",
+        "list_feature": [
+            "Detailed revenue reports per branch",
+            "Comprehensive revenue reports for the entire chain"
+        ]
+    },
+    {
+        "category": "Branch Management",
+        "list_feature": [
+            "Centralized consolidation and management of business information from all locations"
+        ]
+    }
+]

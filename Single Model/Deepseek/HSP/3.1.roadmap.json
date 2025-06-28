@@ -1,0 +1,120 @@
+[
+  {
+    "id": "P1",
+    "phase": "Core System Infrastructure & Security Setup",
+    "feature list": [
+      "Role-based access control (staff, farmers, owner)",
+      "Data encryption and security protocols",
+      "Audit logs for system activities"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-10-11",
+    "endTime": "2023-11-08",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Piglet Health and Growth Management System",
+    "feature list": [
+      "Track growth metrics (weight, size)",
+      "Record feeding regimens and schedules",
+      "Monitor health status and medical history",
+      "Vaccination protocol tracking"
+    ],
+    "estimatedTime": "6 weeks",
+    "startTime": "2023-11-09",
+    "endTime": "2023-12-20",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P3",
+    "phase": "Environmental Monitoring Integration",
+    "feature list": [
+      "Real-time temperature tracking",
+      "Environmental condition logging (humidity, air quality)",
+      "Alerts for deviations from optimal conditions"
+    ],
+    "estimatedTime": "5 weeks",
+    "startTime": "2023-11-09",
+    "endTime": "2023-12-13",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P4",
+    "phase": "Farm Operations Management Module",
+    "feature list": [
+      "Import-export activity logs",
+      "Common disease tracking and prevention guidelines",
+      "Revenue analytics dashboard",
+      "Inventory management for piglet breeds"
+    ],
+    "estimatedTime": "6 weeks",
+    "startTime": "2023-12-21",
+    "endTime": "2024-01-31",
+    "dependencies": ["P2", "P3"]
+  },
+  {
+    "id": "P5",
+    "phase": "Farmer Interaction Portal Development",
+    "feature list": [
+      "Farmer account creation and authentication",
+      "Browse available piglet breeds with detailed descriptions",
+      "Online order placement and payment integration",
+      "Order history and status tracking"
+    ],
+    "estimatedTime": "8 weeks",
+    "startTime": "2024-02-01",
+    "endTime": "2024-03-28",
+    "dependencies": ["P4"]
+  },
+  {
+    "id": "P6",
+    "phase": "Post-Purchase Support System Implementation",
+    "feature list": [
+      "Care practice coordination platform (feeding, vaccination)",
+      "Automated feeding schedule reminders",
+      "Disease diagnosis and troubleshooting support",
+      "Direct communication channel with farm staff"
+    ],
+    "estimatedTime": "6 weeks",
+    "startTime": "2024-03-29",
+    "endTime": "2024-05-09",
+    "dependencies": ["P2", "P5"]
+  },
+  {
+    "id": "P7",
+    "phase": "Logistics and Remote Coordination Setup",
+    "feature list": [
+      "Piglet exchange management for remote farmers",
+      "Logistics coordination (transportation, delivery tracking)",
+      "Remote access to care guidelines and resources"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2024-03-29",
+    "endTime": "2024-04-26",
+    "dependencies": ["P4", "P5"]
+  },
+  {
+    "id": "P8",
+    "phase": "Administrative and Reporting Tools Deployment",
+    "feature list": [
+      "Centralized record-keeping for farm data",
+      "Promotional announcement distribution",
+      "Customizable reports (monthly, quarterly, annual)",
+      "Strategic decision-making analytics"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2024-05-10",
+    "endTime": "2024-06-07",
+    "dependencies": ["P4", "P5", "P6", "P7"]
+  },
+  {
+    "id": "P9",
+    "phase": "System Testing, Training, and Deployment",
+    "feature list": [],
+    "estimatedTime": "3 weeks",
+    "startTime": "2024-06-08",
+    "endTime": "2024-06-28",
+    "dependencies": ["P1", "P2", "P3", "P4", "P5", "P6", "P7", "P8"]
+  }
+]

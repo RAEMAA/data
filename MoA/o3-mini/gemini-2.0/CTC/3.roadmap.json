@@ -1,0 +1,125 @@
+[    {
+            "id": "P1",
+            "phase": "Requirement Gathering & Planning",
+            "feature_list": [],
+            "estimatedTime": 7,
+            "startTime": "2024-07-15",
+            "endTime": "2024-07-22",
+            "dependencies": []
+        },
+        {
+            "id": "P2",
+            "phase": "Online Ordering - Frontend Development",
+            "feature_list": [
+                "Browse website menu",
+                "Select and place food orders",
+                "Order tracking",
+                "Promotion application during ordering"
+            ],
+            "estimatedTime": 21,
+            "startTime": "2024-07-22",
+            "endTime": "2024-08-12",
+            "dependencies": [
+                "P1"
+            ]
+        },
+        {
+            "id": "P3",
+            "phase": "Online Ordering - Backend Development & Branch Integration",
+            "feature_list": [
+                "Automatic routing of orders to the nearest branch"
+            ],
+            "estimatedTime": 28,
+            "startTime": "2024-07-22",
+            "endTime": "2024-08-19",
+            "dependencies": [
+                "P1"
+            ]
+        },
+        {
+            "id": "P4",
+            "phase": "Online Payment Integration",
+            "feature_list": [
+                "Secure online payment integration (e.g., www.nganluong.vn)",
+                "Quick transaction processing"
+            ],
+            "estimatedTime": 14,
+            "startTime": "2024-08-12",
+            "endTime": "2024-08-26",
+            "dependencies": [
+                "P2",
+                "P3"
+            ]
+        },
+        {
+            "id": "P5",
+            "phase": "Branch Management System Development",
+            "feature_list": [
+                "Centralized order collation from all branches",
+                "Regular dish price updates",
+                "Multi-branch operation management",
+                "Data analysis for strategic business decisions"
+            ],
+            "estimatedTime": 35,
+            "startTime": "2024-08-19",
+            "endTime": "2024-09-23",
+            "dependencies": [
+                "P3"
+            ]
+        },
+        {
+            "id": "P6",
+            "phase": "Customer Feedback Implementation",
+            "feature_list": [
+                "Feedback submission from customers",
+                "Restaurant rating feature"
+            ],
+            "estimatedTime": 14,
+            "startTime": "2024-08-26",
+            "endTime": "2024-09-09",
+            "dependencies": [
+                "P2",
+                "P3"
+            ]
+        },
+        {
+            "id": "P7",
+            "phase": "Additional Features Integration",
+            "feature_list": [
+                "Regular menu pricing updates to maintain accuracy",
+                "Promotion tracking and discount application integrated into the system"
+            ],
+            "estimatedTime": 14,
+            "startTime": "2024-09-09",
+            "endTime": "2024-09-23",
+            "dependencies": [
+                "P2",
+                "P3"
+            ]
+        },
+        {
+            "id": "P8",
+            "phase": "Testing and Quality Assurance",
+            "feature_list": [],
+            "estimatedTime": 21,
+            "startTime": "2024-09-23",
+            "endTime": "2024-10-14",
+            "dependencies": [
+                "P4",
+                "P5",
+                "P6",
+                "P7"
+            ]
+        },
+        {
+            "id": "P9",
+            "phase": "Deployment and Training",
+            "feature_list": [],
+            "estimatedTime": 14,
+            "startTime": "2024-10-14",
+            "endTime": "2024-10-28",
+            "dependencies": [
+                "P8"
+            ]
+        }
+    ]

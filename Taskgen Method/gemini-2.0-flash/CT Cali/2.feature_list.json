@@ -1,0 +1,61 @@
+[
+    {
+        "category": "Online Ordering",
+        "list_feature": [
+            "Menu browsing and selection",
+            "Order customization (e.g., adding/removing items, specifying quantities)",
+            "Real-time order tracking",
+            "Order history",
+            "Scheduled orders",
+            "Delivery address management",
+            "Integration with delivery services (e.g., GrabFood, Baemin)",
+            "Order confirmation and notifications (SMS, email, push notifications)",
+            "Special instructions for orders"
+        ]
+    },
+    {
+        "category": "Branch Management",
+        "list_feature": [
+            "Branch locator (map integration)",
+            "Branch-specific menus and promotions",
+            "Branch operating hours",
+            "Branch contact information",
+            "Real-time inventory management per branch",
+            "Branch performance reporting (sales, order volume)",
+            "Role-based access control for branch staff"
+        ]
+    },
+    {
+        "category": "Promotion Tracking",
+        "list_feature": [
+            "Promotion creation and management (discount codes, special offers)",
+            "Automated promotion application",
+            "Promotion performance tracking (redemption rates, sales lift)",
+            "Targeted promotions (e.g., based on customer demographics, order history)",
+            "Promotion scheduling",
+            "Integration with loyalty programs"
+        ]
+    },
+    {
+        "category": "Online Payment",
+        "list_feature": [
+            "Secure payment gateway integration",
+            "Multiple payment options (credit/debit cards, e-wallets, bank transfers)",
+            "Payment confirmation and receipts",
+            "Refund processing",
+            "Fraud detection and prevention"
+        ]
+    },
+    {
+        "category": "Customer Feedback",
+        "list_feature": [
+            "Customer ratings and reviews",
+            "Feedback submission forms",
+            "Customer support chat/ticketing system",
+            "Sentiment analysis of customer feedback",
+            "Automated responses to common inquiries",
+            "Personalized responses to feedback",
+            "Feedback reporting and analysis"
+        ]
+    }
+]

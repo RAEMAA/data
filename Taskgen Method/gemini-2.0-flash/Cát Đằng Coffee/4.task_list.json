@@ -1,0 +1,4266 @@
+[
+    [
+        {
+            "id": "P1-T1",
+            "taskName": "Design Email/Phone Number Verification",
+            "correspondingPhase": "User Account and Profile Management",
+            "correspondingFeature": "Email/Phone number verification",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-16",
+            "endTime": "2024-05-17",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T2",
+            "taskName": "Implement Email/Phone Number Verification",
+            "correspondingPhase": "User Account and Profile Management",
+            "correspondingFeature": "Email/Phone number verification",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-17",
+            "endTime": "2024-05-20",
+            "dependencies": [
+                "P1-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T3",
+            "taskName": "Test Email/Phone Number Verification",
+            "correspondingPhase": "User Account and Profile Management",
+            "correspondingFeature": "Email/Phone number verification",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-20",
+            "endTime": "2024-05-21",
+            "dependencies": [
+                "P1-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T4",
+            "taskName": "Design Password Creation and Confirmation",
+            "correspondingPhase": "User Account and Profile Management",
+            "correspondingFeature": "Password creation and confirmation",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-21",
+            "endTime": "2024-05-22",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T5",
+            "taskName": "Implement Password Creation and Confirmation",
+            "correspondingPhase": "User Account and Profile Management",
+            "correspondingFeature": "Password creation and confirmation",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-22",
+            "endTime": "2024-05-25",
+            "dependencies": [
+                "P1-T4"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T1",
+            "taskName": "Design Product Listings",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product name",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-16",
+            "endTime": "2024-05-17",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T2",
+            "taskName": "Implement Product Listings",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product name",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-17",
+            "endTime": "2024-05-20",
+            "dependencies": [
+                "P2-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T3",
+            "taskName": "Test Product Listings",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product name",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-20",
+            "endTime": "2024-05-21",
+            "dependencies": [
+                "P2-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T1",
+            "taskName": "Design Secure Payment Gateway Integration",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Secure payment gateway integration (e.g., Stripe, PayPal)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-16",
+            "endTime": "2024-05-17",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T2",
+            "taskName": "Implement Secure Payment Gateway Integration",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Secure payment gateway integration (e.g., Stripe, PayPal)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-17",
+            "endTime": "2024-05-20",
+            "dependencies": [
+                "P3-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T3",
+            "taskName": "Test Secure Payment Gateway Integration",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Secure payment gateway integration (e.g., Stripe, PayPal)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-20",
+            "endTime": "2024-05-21",
+            "dependencies": [
+                "P3-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T1",
+            "taskName": "Design FAQ Section",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "FAQ section",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-16",
+            "endTime": "2024-05-17",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T2",
+            "taskName": "Implement FAQ Section",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "FAQ section",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-17",
+            "endTime": "2024-05-19",
+            "dependencies": [
+                "P4-T1"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T3",
+            "taskName": "Test FAQ Section",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "FAQ section",
+            "priority": "Medium",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-05-19",
+            "endTime": "2024-05-19",
+            "dependencies": [
+                "P4-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P2-T1",
+            "taskName": "Design Product Name Field",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "8 hours",
+            "startTime": "2024-05-16",
+            "endTime": "2024-05-17",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T2",
+            "taskName": "Implement Product Name Field",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "16 hours",
+            "startTime": "2024-05-17",
+            "endTime": "2024-05-19",
+            "dependencies": [
+                "P2-T1"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T3",
+            "taskName": "Test Product Name Field",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "4 hours",
+            "startTime": "2024-05-19",
+            "endTime": "2024-05-19",
+            "dependencies": [
+                "P2-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T4",
+            "taskName": "Design Product Description Field",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "8 hours",
+            "startTime": "2024-05-19",
+            "endTime": "2024-05-20",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T5",
+            "taskName": "Implement Product Description Field",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "24 hours",
+            "startTime": "2024-05-20",
+            "endTime": "2024-05-22",
+            "dependencies": [
+                "P2-T4"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T6",
+            "taskName": "Test Product Description Field",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "4 hours",
+            "startTime": "2024-05-22",
+            "endTime": "2024-05-22",
+            "dependencies": [
+                "P2-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T7",
+            "taskName": "Design Product Image Upload",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "16 hours",
+            "startTime": "2024-05-22",
+            "endTime": "2024-05-24",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T8",
+            "taskName": "Implement Product Image Upload",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "32 hours",
+            "startTime": "2024-05-24",
+            "endTime": "2024-05-28",
+            "dependencies": [
+                "P2-T7"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T9",
+            "taskName": "Test Product Image Upload",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "8 hours",
+            "startTime": "2024-05-28",
+            "endTime": "2024-05-29",
+            "dependencies": [
+                "P2-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T10",
+            "taskName": "Design Price and Unit Fields",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "8 hours",
+            "startTime": "2024-05-29",
+            "endTime": "2024-05-30",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T11",
+            "taskName": "Implement Price and Unit Fields",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "16 hours",
+            "startTime": "2024-05-30",
+            "endTime": "2024-06-01",
+            "dependencies": [
+                "P2-T10"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T12",
+            "taskName": "Test Price and Unit Fields",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "4 hours",
+            "startTime": "2024-06-01",
+            "endTime": "2024-06-01",
+            "dependencies": [
+                "P2-T11"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T13",
+            "taskName": "Design Available Quantity Field",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Medium",
+            "estimationTime": "8 hours",
+            "startTime": "2024-06-01",
+            "endTime": "2024-06-02",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T14",
+            "taskName": "Implement Available Quantity Field",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Medium",
+            "estimationTime": "16 hours",
+            "startTime": "2024-06-02",
+            "endTime": "2024-06-04",
+            "dependencies": [
+                "P2-T13"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T15",
+            "taskName": "Test Available Quantity Field",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Medium",
+            "estimationTime": "4 hours",
+            "startTime": "2024-06-04",
+            "endTime": "2024-06-04",
+            "dependencies": [
+                "P2-T14"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T16",
+            "taskName": "Design Harvest Date Field",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Medium",
+            "estimationTime": "8 hours",
+            "startTime": "2024-06-04",
+            "endTime": "2024-06-05",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T17",
+            "taskName": "Implement Harvest Date Field",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Medium",
+            "estimationTime": "16 hours",
+            "startTime": "2024-06-05",
+            "endTime": "2024-06-07",
+            "dependencies": [
+                "P2-T16"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T18",
+            "taskName": "Test Harvest Date Field",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Medium",
+            "estimationTime": "4 hours",
+            "startTime": "2024-06-07",
+            "endTime": "2024-06-07",
+            "dependencies": [
+                "P2-T17"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T19",
+            "taskName": "Design Delivery Options",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Medium",
+            "estimationTime": "8 hours",
+            "startTime": "2024-06-07",
+            "endTime": "2024-06-08",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T20",
+            "taskName": "Implement Delivery Options",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Medium",
+            "estimationTime": "24 hours",
+            "startTime": "2024-06-08",
+            "endTime": "2024-06-11",
+            "dependencies": [
+                "P2-T19"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T21",
+            "taskName": "Test Delivery Options",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Medium",
+            "estimationTime": "4 hours",
+            "startTime": "2024-06-11",
+            "endTime": "2024-06-11",
+            "dependencies": [
+                "P2-T20"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T22",
+            "taskName": "Design Organic/Certification Details",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Low",
+            "estimationTime": "8 hours",
+            "startTime": "2024-06-11",
+            "endTime": "2024-06-12",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T23",
+            "taskName": "Implement Organic/Certification Details",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Low",
+            "estimationTime": "16 hours",
+            "startTime": "2024-06-12",
+            "endTime": "2024-06-14",
+            "dependencies": [
+                "P2-T22"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T24",
+            "taskName": "Test Organic/Certification Details",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Low",
+            "estimationTime": "4 hours",
+            "startTime": "2024-06-14",
+            "endTime": "2024-06-14",
+            "dependencies": [
+                "P2-T23"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T25",
+            "taskName": "Design Product Category and Tags",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "8 hours",
+            "startTime": "2024-05-16",
+            "endTime": "2024-05-17",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T26",
+            "taskName": "Implement Product Category and Tags",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "24 hours",
+            "startTime": "2024-05-17",
+            "endTime": "2024-05-20",
+            "dependencies": [
+                "P2-T25"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T27",
+            "taskName": "Test Product Category and Tags",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "8 hours",
+            "startTime": "2024-05-20",
+            "endTime": "2024-05-21",
+            "dependencies": [
+                "P2-T26"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T28",
+            "taskName": "Design Add/Edit/Delete Listings Functionality",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "16 hours",
+            "startTime": "2024-05-21",
+            "endTime": "2024-05-23",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T29",
+            "taskName": "Implement Add/Edit/Delete Listings Functionality",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "40 hours",
+            "startTime": "2024-05-23",
+            "endTime": "2024-05-29",
+            "dependencies": [
+                "P2-T28"
+            ],
+            "responsiblePerson": "Fullstack Developer"
+        },
+        {
+            "id": "P2-T30",
+            "taskName": "Test Add/Edit/Delete Listings Functionality",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "16 hours",
+            "startTime": "2024-05-29",
+            "endTime": "2024-05-31",
+            "dependencies": [
+                "P2-T29"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T31",
+            "taskName": "Design Discount Options (Optional)",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Low",
+            "estimationTime": "8 hours",
+            "startTime": "2024-05-31",
+            "endTime": "2024-06-01",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T32",
+            "taskName": "Implement Discount Options (Optional)",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Low",
+            "estimationTime": "24 hours",
+            "startTime": "2024-06-01",
+            "endTime": "2024-06-04",
+            "dependencies": [
+                "P2-T31"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T33",
+            "taskName": "Test Discount Options (Optional)",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Low",
+            "estimationTime": "8 hours",
+            "startTime": "2024-06-04",
+            "endTime": "2024-06-05",
+            "dependencies": [
+                "P2-T32"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T34",
+            "taskName": "Design Packaging Options (Optional)",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Low",
+            "estimationTime": "8 hours",
+            "startTime": "2024-06-05",
+            "endTime": "2024-06-06",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T35",
+            "taskName": "Implement Packaging Options (Optional)",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Low",
+            "estimationTime": "24 hours",
+            "startTime": "2024-06-06",
+            "endTime": "2024-06-10",
+            "dependencies": [
+                "P2-T34"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T36",
+            "taskName": "Test Packaging Options (Optional)",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Low",
+            "estimationTime": "8 hours",
+            "startTime": "2024-06-10",
+            "endTime": "2024-06-11",
+            "dependencies": [
+                "P2-T35"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T37",
+            "taskName": "Design Keyword Search Bar",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Search and Browsing",
+            "priority": "High",
+            "estimationTime": "8 hours",
+            "startTime": "2024-05-16",
+            "endTime": "2024-05-17",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T38",
+            "taskName": "Implement Keyword Search Functionality",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Search and Browsing",
+            "priority": "High",
+            "estimationTime": "24 hours",
+            "startTime": "2024-05-17",
+            "endTime": "2024-05-20",
+            "dependencies": [
+                "P2-T37"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T39",
+            "taskName": "Test Keyword Search Functionality",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Search and Browsing",
+            "priority": "High",
+            "estimationTime": "8 hours",
+            "startTime": "2024-05-20",
+            "endTime": "2024-05-21",
+            "dependencies": [
+                "P2-T38"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T40",
+            "taskName": "Design Category Browsing Interface",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Search and Browsing",
+            "priority": "High",
+            "estimationTime": "8 hours",
+            "startTime": "2024-05-21",
+            "endTime": "2024-05-22",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T41",
+            "taskName": "Implement Category Browsing Logic",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Search and Browsing",
+            "priority": "High",
+            "estimationTime": "24 hours",
+            "startTime": "2024-05-22",
+            "endTime": "2024-05-25",
+            "dependencies": [
+                "P2-T40"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T42",
+            "taskName": "Test Category Browsing Functionality",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Search and Browsing",
+            "priority": "High",
+            "estimationTime": "8 hours",
+            "startTime": "2024-05-25",
+            "endTime": "2024-05-26",
+            "dependencies": [
+                "P2-T41"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T43",
+            "taskName": "Design Filtering Options Interface",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Search and Browsing",
+            "priority": "High",
+            "estimationTime": "8 hours",
+            "startTime": "2024-05-26",
+            "endTime": "2024-05-27",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T44",
+            "taskName": "Implement Filtering Logic (Organic, Price, Location)",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Search and Browsing",
+            "priority": "High",
+            "estimationTime": "32 hours",
+            "startTime": "2024-05-27",
+            "endTime": "2024-05-31",
+            "dependencies": [
+                "P2-T43"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T45",
+            "taskName": "Test Filtering Functionality",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Search and Browsing",
+            "priority": "High",
+            "estimationTime": "8 hours",
+            "startTime": "2024-05-31",
+            "endTime": "2024-06-01",
+            "dependencies": [
+                "P2-T44"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T46",
+            "taskName": "Design Sorting Options Interface",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Search and Browsing",
+            "priority": "High",
+            "estimationTime": "8 hours",
+            "startTime": "2024-06-01",
+            "endTime": "2024-06-02",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T47",
+            "taskName": "Implement Sorting Logic (Price, Popularity, Date)",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Search and Browsing",
+            "priority": "High",
+            "estimationTime": "32 hours",
+            "startTime": "2024-06-02",
+            "endTime": "2024-06-06",
+            "dependencies": [
+                "P2-T46"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T48",
+            "taskName": "Test Sorting Functionality",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Search and Browsing",
+            "priority": "High",
+            "estimationTime": "8 hours",
+            "startTime": "2024-06-06",
+            "endTime": "2024-06-07",
+            "dependencies": [
+                "P2-T47"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P3-T1",
+            "taskName": "Design Payment Gateway Integration",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Secure payment gateway integration (e.g., Stripe, PayPal)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-16",
+            "endTime": "2024-05-17",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T2",
+            "taskName": "Implement Stripe Integration",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Secure payment gateway integration (e.g., Stripe, PayPal)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-17",
+            "endTime": "2024-05-20",
+            "dependencies": [
+                "P3-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T3",
+            "taskName": "Implement PayPal Integration",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Secure payment gateway integration (e.g., Stripe, PayPal)",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-20",
+            "endTime": "2024-05-23",
+            "dependencies": [
+                "P3-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T4",
+            "taskName": "Test Stripe Integration",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Secure payment gateway integration (e.g., Stripe, PayPal)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-23",
+            "endTime": "2024-05-24",
+            "dependencies": [
+                "P3-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T5",
+            "taskName": "Test PayPal Integration",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Secure payment gateway integration (e.g., Stripe, PayPal)",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-24",
+            "endTime": "2024-05-25",
+            "dependencies": [
+                "P3-T3"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T6",
+            "taskName": "Design Multiple Payment Method Support",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Support for multiple payment methods (credit cards, debit cards, online wallets)",
+            "priority": "High",
+            "estimationTime": "0.5 days",
+            "startTime": "2024-05-25",
+            "endTime": "2024-05-25",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T7",
+            "taskName": "Implement Credit Card Payment",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Support for multiple payment methods (credit cards, debit cards, online wallets)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-25",
+            "endTime": "2024-05-27",
+            "dependencies": [
+                "P3-T6"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T8",
+            "taskName": "Implement Debit Card Payment",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Support for multiple payment methods (credit cards, debit cards, online wallets)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-27",
+            "endTime": "2024-05-29",
+            "dependencies": [
+                "P3-T6"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T9",
+            "taskName": "Implement Online Wallet Payment (e.g., Momo, ZaloPay)",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Support for multiple payment methods (credit cards, debit cards, online wallets)",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-29",
+            "endTime": "2024-06-01",
+            "dependencies": [
+                "P3-T6"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T10",
+            "taskName": "Test Credit Card Payment",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Support for multiple payment methods (credit cards, debit cards, online wallets)",
+            "priority": "High",
+            "estimationTime": "0.5 days",
+            "startTime": "2024-06-01",
+            "endTime": "2024-06-01",
+            "dependencies": [
+                "P3-T7"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T11",
+            "taskName": "Test Debit Card Payment",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Support for multiple payment methods (credit cards, debit cards, online wallets)",
+            "priority": "High",
+            "estimationTime": "0.5 days",
+            "startTime": "2024-06-01",
+            "endTime": "2024-06-02",
+            "dependencies": [
+                "P3-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T12",
+            "taskName": "Test Online Wallet Payment",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Support for multiple payment methods (credit cards, debit cards, online wallets)",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-06-02",
+            "endTime": "2024-06-03",
+            "dependencies": [
+                "P3-T9"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T13",
+            "taskName": "Design Payment Authorization and Capture Process",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Payment authorization and capture",
+            "priority": "High",
+            "estimationTime": "0.5 days",
+            "startTime": "2024-06-03",
+            "endTime": "2024-06-03",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T14",
+            "taskName": "Implement Payment Authorization",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Payment authorization and capture",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-06-03",
+            "endTime": "2024-06-05",
+            "dependencies": [
+                "P3-T13"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T15",
+            "taskName": "Implement Payment Capture",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Payment authorization and capture",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-06-05",
+            "endTime": "2024-06-07",
+            "dependencies": [
+                "P3-T14"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T16",
+            "taskName": "Test Payment Authorization",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Payment authorization and capture",
+            "priority": "High",
+            "estimationTime": "0.5 days",
+            "startTime": "2024-06-07",
+            "endTime": "2024-06-07",
+            "dependencies": [
+                "P3-T14"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T17",
+            "taskName": "Test Payment Capture",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Payment authorization and capture",
+            "priority": "High",
+            "estimationTime": "0.5 days",
+            "startTime": "2024-06-07",
+            "endTime": "2024-06-08",
+            "dependencies": [
+                "P3-T15"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T18",
+            "taskName": "Design Refund Processing System",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Refund processing",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-06-08",
+            "endTime": "2024-06-09",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T19",
+            "taskName": "Implement Refund Request Feature",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Refund processing",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-06-09",
+            "endTime": "2024-06-11",
+            "dependencies": [
+                "P3-T18"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T20",
+            "taskName": "Implement Refund Approval Workflow",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Refund processing",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-06-11",
+            "endTime": "2024-06-13",
+            "dependencies": [
+                "P3-T19"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T21",
+            "taskName": "Implement Payment Gateway Refund Integration",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Refund processing",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-06-13",
+            "endTime": "2024-06-15",
+            "dependencies": [
+                "P3-T20"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T22",
+            "taskName": "Test Refund Request Feature",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Refund processing",
+            "priority": "High",
+            "estimationTime": "0.5 days",
+            "startTime": "2024-06-15",
+            "endTime": "2024-06-15",
+            "dependencies": [
+                "P3-T19"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T23",
+            "taskName": "Test Refund Approval Workflow",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Refund processing",
+            "priority": "High",
+            "estimationTime": "0.5 days",
+            "startTime": "2024-06-15",
+            "endTime": "2024-06-16",
+            "dependencies": [
+                "P3-T20"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T24",
+            "taskName": "Test Payment Gateway Refund Integration",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Refund processing",
+            "priority": "High",
+            "estimationTime": "0.5 days",
+            "startTime": "2024-06-16",
+            "endTime": "2024-06-16",
+            "dependencies": [
+                "P3-T21"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T25",
+            "taskName": "Design Transaction History UI",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Transaction history",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-06-16",
+            "endTime": "2024-06-17",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T26",
+            "taskName": "Implement Transaction History Retrieval",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Transaction history",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-06-17",
+            "endTime": "2024-06-20",
+            "dependencies": [
+                "P3-T25"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T27",
+            "taskName": "Implement Transaction History Display",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Transaction history",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-06-20",
+            "endTime": "2024-06-22",
+            "dependencies": [
+                "P3-T26"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P3-T28",
+            "taskName": "Test Transaction History Retrieval",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Transaction history",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-06-22",
+            "endTime": "2024-06-23",
+            "dependencies": [
+                "P3-T26"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T29",
+            "taskName": "Test Transaction History Display",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Transaction history",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-06-23",
+            "endTime": "2024-06-24",
+            "dependencies": [
+                "P3-T27"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P1-T1",
+            "taskName": "Design Stock Level Tracking",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Stock level tracking (coffee beans, milk, sugar)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-01",
+            "endTime": "2024-07-01",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T2",
+            "taskName": "Implement Stock Level Tracking",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Stock level tracking (coffee beans, milk, sugar)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-02",
+            "endTime": "2024-07-04",
+            "dependencies": [
+                "P1-T1"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P1-T3",
+            "taskName": "Test Stock Level Tracking",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Stock level tracking (coffee beans, milk, sugar)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-05",
+            "endTime": "2024-07-05",
+            "dependencies": [
+                "P1-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T4",
+            "taskName": "Design Low Stock Alerts",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Low stock alerts (coffee beans, milk)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-05",
+            "endTime": "2024-07-05",
+            "dependencies": [
+                "P1-T3"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T5",
+            "taskName": "Implement Low Stock Alerts",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Low stock alerts (coffee beans, milk)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-06",
+            "endTime": "2024-07-08",
+            "dependencies": [
+                "P1-T4"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P1-T6",
+            "taskName": "Test Low Stock Alerts",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Low stock alerts (coffee beans, milk)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-09",
+            "endTime": "2024-07-09",
+            "dependencies": [
+                "P1-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T7",
+            "taskName": "Design Supplier Management",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Supplier management (coffee bean suppliers, milk suppliers)",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-09",
+            "endTime": "2024-07-09",
+            "dependencies": [
+                "P1-T6"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T8",
+            "taskName": "Implement Supplier Management",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Supplier management (coffee bean suppliers, milk suppliers)",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-07-10",
+            "endTime": "2024-07-15",
+            "dependencies": [
+                "P1-T7"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P1-T9",
+            "taskName": "Test Supplier Management",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Supplier management (coffee bean suppliers, milk suppliers)",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-16",
+            "endTime": "2024-07-16",
+            "dependencies": [
+                "P1-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T10",
+            "taskName": "Design Expiry Date Tracking",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Expiry date tracking (milk, pastries)",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-16",
+            "endTime": "2024-07-16",
+            "dependencies": [
+                "P1-T9"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T11",
+            "taskName": "Implement Expiry Date Tracking",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Expiry date tracking (milk, pastries)",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-07-17",
+            "endTime": "2024-07-22",
+            "dependencies": [
+                "P1-T10"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P1-T12",
+            "taskName": "Test Expiry Date Tracking",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Expiry date tracking (milk, pastries)",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-23",
+            "endTime": "2024-07-23",
+            "dependencies": [
+                "P1-T11"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P1-T1",
+            "taskName": "Design Stock Level Tracking Module",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Stock level tracking (coffee beans, milk, sugar)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-01",
+            "endTime": "2024-07-04",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T2",
+            "taskName": "Implement Stock Level Tracking Functionality",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Stock level tracking (coffee beans, milk, sugar)",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-07-05",
+            "endTime": "2024-07-10",
+            "dependencies": [
+                "P1-T1"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P1-T3",
+            "taskName": "Test Stock Level Tracking Module",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Stock level tracking (coffee beans, milk, sugar)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-11",
+            "endTime": "2024-07-12",
+            "dependencies": [
+                "P1-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T4",
+            "taskName": "Design Low Stock Alert System",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Low stock alerts (coffee beans, milk)",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-12",
+            "endTime": "2024-07-14",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T5",
+            "taskName": "Implement Low Stock Alert Functionality",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Low stock alerts (coffee beans, milk)",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-07-15",
+            "endTime": "2024-07-19",
+            "dependencies": [
+                "P1-T4"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P1-T6",
+            "taskName": "Test Low Stock Alert System",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Low stock alerts (coffee beans, milk)",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-20",
+            "endTime": "2024-07-21",
+            "dependencies": [
+                "P1-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T7",
+            "taskName": "Design Supplier Management Module",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Supplier management (coffee bean suppliers, milk suppliers)",
+            "priority": "Low",
+            "startTime": "2024-07-21",
+            "endTime": "2024-07-24",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T8",
+            "taskName": "Implement Supplier Management Functionality",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Supplier management (coffee bean suppliers, milk suppliers)",
+            "priority": "Low",
+            "estimationTime": "4 days",
+            "startTime": "2024-07-25",
+            "endTime": "2024-07-29",
+        },
+        {
+            "id": "P1-T16",
+            "taskName": "Implement Order History Tracking",
+            "correspondingPhase": "Order Placement and Management Core",
+            "correspondingFeature": "Order history tracking for customers",
+            "priority": "Low",
+            "estimatedTime": "1 day",
+            "startTime": "2024-02-16",
+            "endTime": "2024-02-17",
+            "dependencies": [
+                "P1-T8"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P1-T17",
+            "taskName": "Test Order Placement Options",
+            "correspondingPhase": "Order Placement and Management Core",
+            "correspondingFeature": "Multiple order placement options (e.g., in-person, online, phone)",
+            "priority": "High",
+            "estimatedTime": "1 day",
+            "startTime": "2024-02-17",
+            "endTime": "2024-02-18",
+            "dependencies": [
+                "P1-T9"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T18",
+            "taskName": "Test Table Management",
+            "correspondingPhase": "Order Placement and Management Core",
+            "correspondingFeature": "Table management (assigning orders to tables in different sections)",
+            "priority": "High",
+            "estimatedTime": "1 day",
+            "startTime": "2024-02-18",
+            "endTime": "2024-02-19",
+            "dependencies": [
+                "P1-T10"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T19",
+            "taskName": "Test Drink/Food Customization",
+            "correspondingPhase": "Order Placement and Management Core",
+            "correspondingFeature": "Customization options for drinks and food (e.g., sugar level, milk type, extra shots)",
+            "priority": "Medium",
+            "estimatedTime": "0.5 day",
+            "startTime": "2024-02-19",
+            "endTime": "2024-02-19",
+            "dependencies": [
+                "P1-T11"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T20",
+            "taskName": "Test Order Notes",
+            "correspondingPhase": "Order Placement and Management Core",
+            "correspondingFeature": "Order notes and special requests",
+            "priority": "Low",
+            "estimatedTime": "0.5 day",
+            "startTime": "2024-02-19",
+            "endTime": "2024-02-20",
+            "dependencies": [
+                "P1-T12"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T21",
+            "taskName": "Test Loyalty Program Integration",
+            "correspondingPhase": "Order Placement and Management Core",
+            "correspondingFeature": "Integration with loyalty programs for discounts and rewards",
+            "priority": "Medium",
+            "estimatedTime": "1 day",
+            "startTime": "2024-02-20",
+            "endTime": "2024-02-21",
+            "dependencies": [
+                "P1-T13"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T22",
+            "taskName": "Test Payment Method Selection",
+            "correspondingPhase": "Order Placement and Management Core",
+            "correspondingFeature": "Support for different payment methods (cash, credit card, mobile payment)",
+            "priority": "High",
+            "estimatedTime": "1 day",
+            "startTime": "2024-02-21",
+            "endTime": "2024-02-22",
+            "dependencies": [
+                "P1-T14"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T23",
+            "taskName": "Test Order Splitting/Merging",
+            "correspondingPhase": "Order Placement and Management Core",
+            "correspondingFeature": "Order splitting and merging",
+            "priority": "Medium",
+            "estimatedTime": "1 day",
+            "startTime": "2024-02-22",
+            "endTime": "2024-02-23",
+            "dependencies": [
+                "P1-T15"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T24",
+            "taskName": "Test Order History Tracking",
+            "correspondingPhase": "Order Placement and Management Core",
+            "correspondingFeature": "Order history tracking for customers",
+            "priority": "Low",
+            "estimatedTime": "0.5 day",
+            "startTime": "2024-02-23",
+            "endTime": "2024-02-23",
+            "dependencies": [
+                "P1-T16"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Taskgen Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+            "id": "P2-T1",
+            "taskName": "Design Sales Reporting Module",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Sales reporting (by product - coffee, pastries)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-29",
+            "endTime": "2024-08-01",
+            "dependencies": [
+                "P1-T7"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T2",
+            "taskName": "Implement Sales Reporting Functionality",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Sales reporting (by product - coffee, pastries)",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-08-02",
+            "endTime": "2024-08-07",
+            "dependencies": [
+                "P2-T1"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P2-T3",
+            "taskName": "Test Sales Reporting Module",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Sales reporting (by product - coffee, pastries)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-08",
+            "endTime": "2024-08-09",
+            "dependencies": [
+                "P2-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T4",
+            "taskName": "Design Discount Management Module",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Discount management (loyalty programs)",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-08-09",
+            "endTime": "2024-08-12",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T5",
+            "taskName": "Implement Discount Management Functionality",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Discount management (loyalty programs)",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-08-13",
+            "endTime": "2024-08-17",
+            "dependencies": [
+                "P2-T4"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P2-T6",
+            "taskName": "Test Discount Management Module",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Discount management (loyalty programs)",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-18",
+            "endTime": "2024-08-20",
+            "dependencies": [
+                "P2-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T7",
+            "taskName": "Design Customer Database",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Customer database (loyalty programs)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-20",
+            "endTime": "2024-08-22",
+            "dependencies": [],
+            "responsiblePerson": "Database Architect"
+        },
+        {
+            "id": "P2-T8",
+            "taskName": "Implement Customer Database",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Customer database (loyalty programs)",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-08-22",
+            "endTime": "2024-08-27",
+            "dependencies": [
+                "P2-T7"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P2-T9",
+            "taskName": "Test Customer Database",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Customer database (loyalty programs)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-27",
+            "endTime": "2024-08-29",
+            "dependencies": [
+                "P2-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T10",
+            "taskName": "Design Loyalty Programs Module",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Loyalty programs",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-08-29",
+            "endTime": "2024-08-31",
+            "dependencies": [
+                "P2-T7"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T11",
+            "taskName": "Implement Loyalty Programs Functionality",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Loyalty programs",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-09-01",
+            "endTime": "2024-09-06",
+            "dependencies": [
+                "P2-T10",
+                "P2-T8"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P2-T12",
+            "taskName": "Test Loyalty Programs Module",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Loyalty programs",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-07",
+            "endTime": "2024-09-09",
+            "dependencies": [
+                "P2-T11"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P1-T1",
+            "taskName": "Design Stock Level Tracking",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Stock level tracking (coffee beans, milk, sugar)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-01",
+            "endTime": "2024-07-04",
+            "dependencies": [],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P1-T2",
+            "taskName": "Implement Stock Level Tracking",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Stock level tracking (coffee beans, milk, sugar)",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-07-04",
+            "endTime": "2024-07-09",
+            "dependencies": [
+                "P1-T1"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P1-T3",
+            "taskName": "Test Stock Level Tracking",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Stock level tracking (coffee beans, milk, sugar)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-09",
+            "endTime": "2024-07-11",
+            "dependencies": [
+                "P1-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T4",
+            "taskName": "Design Low Stock Alerts",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Low stock alerts (coffee beans, milk)",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-11",
+            "endTime": "2024-07-13",
+            "dependencies": [],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P1-T5",
+            "taskName": "Implement Low Stock Alerts",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Low stock alerts (coffee beans, milk)",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-07-13",
+            "endTime": "2024-07-17",
+            "dependencies": [
+                "P1-T4"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P1-T6",
+            "taskName": "Test Low Stock Alerts",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Low stock alerts (coffee beans, milk)",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-17",
+            "endTime": "2024-07-18",
+            "dependencies": [
+                "P1-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T7",
+            "taskName": "Design Supplier Management Module",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Supplier management (coffee bean suppliers, milk suppliers)",
+            "priority": "Low",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-18",
+            "endTime": "2024-07-21",
+            "dependencies": [],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P1-T8",
+            "taskName": "Implement Supplier Management",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Supplier management (coffee bean suppliers, milk suppliers)",
+            "priority": "Low",
+            "estimationTime": "4 days",
+            "startTime": "2024-07-21",
+            "endTime": "2024-07-25",
+            "dependencies": [
+                "P1-T7"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P1-T9",
+            "taskName": "Test Supplier Management",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Supplier management (coffee bean suppliers, milk suppliers)",
+            "priority": "Low",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-25",
+            "endTime": "2024-07-26",
+            "dependencies": [
+                "P1-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T10",
+            "taskName": "Design Expiry Date Tracking",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Expiry date tracking (milk, pastries)",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-26",
+            "endTime": "2024-07-27",
+            "dependencies": [],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P1-T11",
+            "taskName": "Implement Expiry Date Tracking",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Expiry date tracking (milk, pastries)",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-27",
+            "endTime": "2024-07-29",
+            "dependencies": [
+                "P1-T10"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P1-T12",
+            "taskName": "Test Expiry Date Tracking",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Expiry date tracking (milk, pastries)",
+            "priority": "Medium",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-07-29",
+            "endTime": "2024-07-29",
+            "dependencies": [
+                "P1-T11"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T1",
+            "taskName": "Design Sales Reporting Module",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Sales reporting (by product - coffee, pastries)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-29",
+            "endTime": "2024-08-01",
+            "dependencies": [
+                "P1"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P2-T2",
+            "taskName": "Implement Sales Reporting",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Sales reporting (by product - coffee, pastries)",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-08-01",
+            "endTime": "2024-08-06",
+            "dependencies": [
+                "P2-T1"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P2-T3",
+            "taskName": "Test Sales Reporting",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Sales reporting (by product - coffee, pastries)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-06",
+            "endTime": "2024-08-08",
+            "dependencies": [
+                "P2-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T4",
+            "taskName": "Design Discount Management Module",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Discount management (loyalty programs)",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-08",
+            "endTime": "2024-08-10",
+            "dependencies": [
+                "P1"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P2-T5",
+            "taskName": "Implement Discount Management",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Discount management (loyalty programs)",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-08-10",
+            "endTime": "2024-08-14",
+            "dependencies": [
+                "P2-T4"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P2-T6",
+            "taskName": "Test Discount Management",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Discount management (loyalty programs)",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-14",
+            "endTime": "2024-08-15",
+            "dependencies": [
+                "P2-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T7",
+            "taskName": "Design Customer Database",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Customer database (loyalty programs)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-08-15",
+            "endTime": "2024-08-18",
+            "dependencies": [
+                "P1"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P2-T8",
+            "taskName": "Implement Customer Database",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Customer database (loyalty programs)",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-08-18",
+            "endTime": "2024-08-23",
+            "dependencies": [
+                "P2-T7"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P2-T9",
+            "taskName": "Test Customer Database",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Customer database (loyalty programs)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-23",
+            "endTime": "2024-08-25",
+            "dependencies": [
+                "P2-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T10",
+            "taskName": "Design Loyalty Programs Module",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Loyalty programs",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-25",
+            "endTime": "2024-08-26",
+            "dependencies": [
+                "P1"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P2-T11",
+            "taskName": "Implement Loyalty Programs",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Loyalty programs",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-26",
+            "endTime": "2024-08-28",
+            "dependencies": [
+                "P2-T10",
+                "P2-T8"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P2-T12",
+            "taskName": "Test Loyalty Programs",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Loyalty programs",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-28",
+            "endTime": "2024-08-29",
+            "dependencies": [
+                "P2-T11"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T1",
+            "taskName": "Design Order Placement Interface",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Order placement (in-store)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-26",
+            "endTime": "2024-08-27",
+            "dependencies": [
+                "P2"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T2",
+            "taskName": "Implement Order Placement Functionality",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Order placement (in-store)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-08-27",
+            "endTime": "2024-08-30",
+            "dependencies": [
+                "P3-T1"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P3-T3",
+            "taskName": "Test Order Placement Functionality",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Order placement (in-store)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-30",
+            "endTime": "2024-08-31",
+            "dependencies": [
+                "P3-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T4",
+            "taskName": "Design Payment Processing Module",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Payment processing (cash, credit card)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-31",
+            "endTime": "2024-09-01",
+            "dependencies": [
+                "P2"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T5",
+            "taskName": "Implement Payment Processing (Cash)",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Payment processing (cash, credit card)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-01",
+            "endTime": "2024-09-03",
+            "dependencies": [
+                "P3-T4"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P3-T6",
+            "taskName": "Implement Payment Processing (Credit Card)",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Payment processing (cash, credit card)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-09-03",
+            "endTime": "2024-09-06",
+            "dependencies": [
+                "P3-T4"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P3-T7",
+            "taskName": "Test Payment Processing",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Payment processing (cash, credit card)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-06",
+            "endTime": "2024-09-07",
+            "dependencies": [
+                "P3-T5",
+                "P3-T6"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T8",
+            "taskName": "Design Custom Order Options Interface",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Custom order options (milk alternatives, sugar levels)",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-07",
+            "endTime": "2024-09-08",
+            "dependencies": [
+                "P2"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T9",
+            "taskName": "Implement Custom Order Options",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Custom order options (milk alternatives, sugar levels)",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-08",
+            "endTime": "2024-09-10",
+            "dependencies": [
+                "P3-T8"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P3-T10",
+            "taskName": "Test Custom Order Options",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Custom order options (milk alternatives, sugar levels)",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-10",
+            "endTime": "2024-09-11",
+            "dependencies": [
+                "P3-T9"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T11",
+            "taskName": "Design Tax Calculation Module",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Tax calculation",
+            "priority": "High",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-09-11",
+            "endTime": "2024-09-11",
+            "dependencies": [
+                "P2"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P3-T12",
+            "taskName": "Implement Tax Calculation",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Tax calculation",
+            "priority": "High",
+            "estimationTime": "1.5 days",
+            "startTime": "2024-09-11",
+            "endTime": "2024-09-13",
+            "dependencies": [
+                "P3-T11"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P3-T13",
+            "taskName": "Test Tax Calculation",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Tax calculation",
+            "priority": "High",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-09-13",
+            "endTime": "2024-09-13",
+            "dependencies": [
+                "P3-T12"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T14",
+            "taskName": "Design Digital Receipt Module",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Digital receipts",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-13",
+            "endTime": "2024-09-14",
+            "dependencies": [
+                "P2"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T15",
+            "taskName": "Implement Digital Receipt Generation",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Digital receipts",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-14",
+            "endTime": "2024-09-16",
+            "dependencies": [
+                "P3-T14"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P3-T16",
+            "taskName": "Test Digital Receipt Generation",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Digital receipts",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-16",
+            "endTime": "2024-09-17",
+            "dependencies": [
+                "P3-T15"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T1",
+            "taskName": "Design Sales Revenue Reports Module",
+            "correspondingPhase": "Revenue Reporting - Phase 4",
+            "correspondingFeature": "Sales revenue reports (daily, weekly, monthly)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-23",
+            "endTime": "2024-09-25",
+            "dependencies": [
+                "P3"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P4-T2",
+            "taskName": "Implement Sales Revenue Reports",
+            "correspondingPhase": "Revenue Reporting - Phase 4",
+            "correspondingFeature": "Sales revenue reports (daily, weekly, monthly)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-09-25",
+            "endTime": "2024-09-28",
+            "dependencies": [
+                "P4-T1"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P4-T3",
+            "taskName": "Test Sales Revenue Reports",
+            "correspondingPhase": "Revenue Reporting - Phase 4",
+            "correspondingFeature": "Sales revenue reports (daily, weekly, monthly)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-28",
+            "endTime": "2024-09-29",
+            "dependencies": [
+                "P4-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T4",
+            "taskName": "Design Revenue by Product Category Module",
+            "correspondingPhase": "Revenue Reporting - Phase 4",
+            "correspondingFeature": "Revenue by product category (coffee, pastries)",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-29",
+            "endTime": "2024-10-01",
+            "dependencies": [
+                "P3"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P4-T5",
+            "taskName": "Implement Revenue by Product Category",
+            "correspondingPhase": "Revenue Reporting - Phase 4",
+            "correspondingFeature": "Revenue by product category (coffee, pastries)",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-10-01",
+            "endTime": "2024-10-04",
+            "dependencies": [
+                "P4-T4"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P4-T6",
+            "taskName": "Test Revenue by Product Category",
+            "correspondingPhase": "Revenue Reporting - Phase 4",
+            "correspondingFeature": "Revenue by product category (coffee, pastries)",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-10-04",
+            "endTime": "2024-10-05",
+            "dependencies": [
+                "P4-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T1",
+            "taskName": "Design Profit and Loss Statement Module",
+            "correspondingPhase": "Financial Reporting - Phase 5",
+            "correspondingFeature": "Profit and loss statement",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-10-14",
+            "endTime": "2024-10-17",
+            "dependencies": [
+                "P4"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P5-T2",
+            "taskName": "Implement Profit and Loss Statement",
+            "correspondingPhase": "Financial Reporting - Phase 5",
+            "correspondingFeature": "Profit and loss statement",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-10-17",
+            "endTime": "2024-10-22",
+            "dependencies": [
+                "P5-T1"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P5-T3",
+            "taskName": "Test Profit and Loss Statement",
+            "correspondingPhase": "Financial Reporting - Phase 5",
+            "correspondingFeature": "Profit and loss statement",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-10-22",
+            "endTime": "2024-10-24",
+            "dependencies": [
+                "P5-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T4",
+            "taskName": "Design Cash Flow Statement Module",
+            "correspondingPhase": "Financial Reporting - Phase 5",
+            "correspondingFeature": "Cash flow statement",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-10-24",
+            "endTime": "2024-10-27",
+            "dependencies": [
+                "P4"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P5-T5",
+            "taskName": "Implement Cash Flow Statement",
+            "correspondingPhase": "Financial Reporting - Phase 5",
+            "correspondingFeature": "Cash flow statement",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-10-27",
+            "endTime": "2024-11-01",
+            "dependencies": [
+                "P5-T4"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P5-T6",
+            "taskName": "Test Cash Flow Statement",
+            "correspondingPhase": "Financial Reporting - Phase 5",
+            "correspondingFeature": "Cash flow statement",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-11-01",
+            "endTime": "2024-11-03",
+            "dependencies": [
+                "P5-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T7",
+            "taskName": "Design Tax Reports Module",
+            "correspondingPhase": "Financial Reporting - Phase 5",
+            "correspondingFeature": "Tax reports",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-11-03",
+            "endTime": "2024-11-06",
+            "dependencies": [
+                "P4"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P5-T8",
+            "taskName": "Implement Tax Reports",
+            "correspondingPhase": "Financial Reporting - Phase 5",
+            "correspondingFeature": "Tax reports",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-11-06",
+            "endTime": "2024-11-11",
+            "dependencies": [
+                "P5-T7"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P5-T9",
+            "taskName": "Test Tax Reports",
+            "correspondingPhase": "Financial Reporting - Phase 5",
+            "correspondingFeature": "Tax reports",
+            "priority": "High",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-11-11",
+            "endTime": "2024-11-11",
+            "dependencies": [
+                "P5-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P1-T1",
+            "taskName": "Design Stock Level Tracking Interface",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Stock level tracking (coffee beans, milk, sugar)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-01",
+            "endTime": "2024-07-04",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T2",
+            "taskName": "Implement Coffee Bean Stock Tracking",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Stock level tracking (coffee beans, milk, sugar)",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-07-04",
+            "endTime": "2024-07-09",
+            "dependencies": [
+                "P1-T1"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P1-T3",
+            "taskName": "Implement Milk Stock Tracking",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Stock level tracking (coffee beans, milk, sugar)",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-07-09",
+            "endTime": "2024-07-14",
+            "dependencies": [
+                "P1-T1"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P1-T4",
+            "taskName": "Implement Sugar Stock Tracking",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Stock level tracking (coffee beans, milk, sugar)",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-07-14",
+            "endTime": "2024-07-19",
+            "dependencies": [
+                "P1-T1"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P1-T5",
+            "taskName": "Test Stock Level Tracking",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Stock level tracking (coffee beans, milk, sugar)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-19",
+            "endTime": "2024-07-21",
+            "dependencies": [
+                "P1-T2",
+                "P1-T3",
+                "P1-T4"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T6",
+            "taskName": "Design Low Stock Alert System",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Low stock alerts (coffee beans, milk)",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-01",
+            "endTime": "2024-07-03",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T7",
+            "taskName": "Implement Coffee Bean Low Stock Alert",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Low stock alerts (coffee beans, milk)",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-07-21",
+            "endTime": "2024-07-25",
+            "dependencies": [
+                "P1-T6",
+                "P1-T2"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P1-T8",
+            "taskName": "Implement Milk Low Stock Alert",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Low stock alerts (coffee beans, milk)",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-07-25",
+            "endTime": "2024-07-29",
+            "dependencies": [
+                "P1-T6",
+                "P1-T3"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P1-T9",
+            "taskName": "Test Low Stock Alerts",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Low stock alerts (coffee beans, milk)",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-29",
+            "endTime": "2024-07-30",
+            "dependencies": [
+                "P1-T7",
+                "P1-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T10",
+            "taskName": "Design Supplier Management Module",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Supplier management (coffee bean suppliers, milk suppliers)",
+            "priority": "Low",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-01",
+            "endTime": "2024-07-04",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T11",
+            "taskName": "Implement Coffee Bean Supplier Management",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Supplier management (coffee bean suppliers, milk suppliers)",
+            "priority": "Low",
+            "estimationTime": "5 days",
+            "startTime": "2024-07-04",
+            "endTime": "2024-07-09",
+            "dependencies": [
+                "P1-T10"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P1-T12",
+            "taskName": "Implement Milk Supplier Management",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Supplier management (coffee bean suppliers, milk suppliers)",
+            "priority": "Low",
+            "estimationTime": "5 days",
+            "startTime": "2024-07-09",
+            "endTime": "2024-07-14",
+            "dependencies": [
+                "P1-T10"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P1-T13",
+            "taskName": "Test Supplier Management",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Supplier management (coffee bean suppliers, milk suppliers)",
+            "priority": "Low",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-14",
+            "endTime": "2024-07-16",
+            "dependencies": [
+                "P1-T11",
+                "P1-T12"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T14",
+            "taskName": "Design Expiry Date Tracking System",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Expiry date tracking (milk, pastries)",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-01",
+            "endTime": "2024-07-03",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T15",
+            "taskName": "Implement Milk Expiry Date Tracking",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Expiry date tracking (milk, pastries)",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-07-16",
+            "endTime": "2024-07-20",
+            "dependencies": [
+                "P1-T14"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P1-T16",
+            "taskName": "Implement Pastries Expiry Date Tracking",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Expiry date tracking (milk, pastries)",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-07-20",
+            "endTime": "2024-07-24",
+            "dependencies": [
+                "P1-T14"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P1-T17",
+            "taskName": "Test Expiry Date Tracking",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Expiry date tracking (milk, pastries)",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-24",
+            "endTime": "2024-07-25",
+            "dependencies": [
+                "P1-T15",
+                "P1-T16"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T1",
+            "taskName": "Design Sales Reporting Interface",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Sales reporting (by product - coffee, pastries)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-29",
+            "endTime": "2024-08-01",
+            "dependencies": [
+                "P1"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T2",
+            "taskName": "Implement Coffee Sales Reporting",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Sales reporting (by product - coffee, pastries)",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-08-01",
+            "endTime": "2024-08-06",
+            "dependencies": [
+                "P2-T1"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P2-T3",
+            "taskName": "Implement Pastries Sales Reporting",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Sales reporting (by product - coffee, pastries)",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-08-06",
+            "endTime": "2024-08-11",
+            "dependencies": [
+                "P2-T1"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P2-T4",
+            "taskName": "Test Sales Reporting",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Sales reporting (by product - coffee, pastries)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-11",
+            "endTime": "2024-08-13",
+            "dependencies": [
+                "P2-T2",
+                "P2-T3"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T5",
+            "taskName": "Design Discount Management System",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Discount management (loyalty programs)",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-29",
+            "endTime": "2024-08-01",
+            "dependencies": [
+                "P1"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T6",
+            "taskName": "Implement Loyalty Program Discounts",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Discount management (loyalty programs)",
+            "priority": "Medium",
+            "estimationTime": "5 days",
+            "startTime": "2024-08-13",
+            "endTime": "2024-08-18",
+            "dependencies": [
+                "P2-T5"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P2-T7",
+            "taskName": "Test Discount Management",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Discount management (loyalty programs)",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-18",
+            "endTime": "2024-08-20",
+            "dependencies": [
+                "P2-T6"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T8",
+            "taskName": "Design Customer Database",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Customer database (loyalty programs)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-29",
+            "endTime": "2024-08-01",
+            "dependencies": [
+                "P1"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T9",
+            "taskName": "Implement Customer Database for Loyalty Programs",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Customer database (loyalty programs)",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-08-20",
+            "endTime": "2024-08-25",
+            "dependencies": [
+                "P2-T8"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P2-T10",
+            "taskName": "Test Customer Database",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Customer database (loyalty programs)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-25",
+            "endTime": "2024-08-26",
+            "dependencies": [
+                "P2-T9"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T11",
+            "taskName": "Design Loyalty Program Interface",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Loyalty programs",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-29",
+            "endTime": "2024-08-01",
+            "dependencies": [
+                "P1"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T12",
+            "taskName": "Implement Loyalty Program Functionality",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Loyalty programs",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-08-20",
+            "endTime": "2024-08-25",
+            "dependencies": [
+                "P2-T11",
+                "P2-T9"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P2-T13",
+            "taskName": "Test Loyalty Program",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Loyalty programs",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-25",
+            "endTime": "2024-08-26",
+            "dependencies": [
+                "P2-T12"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T1",
+            "taskName": "Design Order Placement Interface",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Order placement (in-store)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-08-26",
+            "endTime": "2024-08-29",
+            "dependencies": [
+                "P2"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T2",
+            "taskName": "Implement In-Store Order Placement",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Order placement (in-store)",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-08-29",
+            "endTime": "2024-09-03",
+            "dependencies": [
+                "P3-T1"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P3-T3",
+            "taskName": "Test Order Placement",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Order placement (in-store)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-03",
+            "endTime": "2024-09-05",
+            "dependencies": [
+                "P3-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T4",
+            "taskName": "Design Payment Processing Module",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Payment processing (cash, credit card)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-08-26",
+            "endTime": "2024-08-29",
+            "dependencies": [
+                "P2"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T5",
+            "taskName": "Implement Cash Payment Processing",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Payment processing (cash, credit card)",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-09-05",
+            "endTime": "2024-09-09",
+            "dependencies": [
+                "P3-T4"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P3-T6",
+            "taskName": "Implement Credit Card Payment Processing",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Payment processing (cash, credit card)",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-09-09",
+            "endTime": "2024-09-13",
+            "dependencies": [
+                "P3-T4"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P3-T7",
+            "taskName": "Test Payment Processing",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Payment processing (cash, credit card)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-13",
+            "endTime": "2024-09-15",
+            "dependencies": [
+                "P3-T5",
+                "P3-T6"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T8",
+            "taskName": "Design Custom Order Options Interface",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Custom order options (milk alternatives, sugar levels)",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-26",
+            "endTime": "2024-08-28",
+            "dependencies": [
+                "P2"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T9",
+            "taskName": "Implement Milk Alternatives Option",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Custom order options (milk alternatives, sugar levels)",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-09-15",
+            "endTime": "2024-09-18",
+            "dependencies": [
+                "P3-T8"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P3-T10",
+            "taskName": "Implement Sugar Levels Option",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Custom order options (milk alternatives, sugar levels)",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-09-18",
+            "endTime": "2024-09-21",
+            "dependencies": [
+                "P3-T8"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P3-T11",
+            "taskName": "Test Custom Order Options",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Custom order options (milk alternatives, sugar levels)",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-21",
+            "endTime": "2024-09-22",
+            "dependencies": [
+                "P3-T9",
+                "P3-T10"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T12",
+            "taskName": "Design Tax Calculation Module",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Tax calculation",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-26",
+            "endTime": "2024-08-28",
+            "dependencies": [
+                "P2"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T13",
+            "taskName": "Implement Tax Calculation",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Tax calculation",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-09-22",
+            "endTime": "2024-09-25",
+            "dependencies": [
+                "P3-T12"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P3-T14",
+            "taskName": "Test Tax Calculation",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Tax calculation",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-25",
+            "endTime": "2024-09-26",
+            "dependencies": [
+                "P3-T13"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T15",
+            "taskName": "Design Digital Receipt Module",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Digital receipts",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-26",
+            "endTime": "2024-08-28",
+            "dependencies": [
+                "P2"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T16",
+            "taskName": "Implement Digital Receipt Generation",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Digital receipts",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-09-26",
+            "endTime": "2024-09-29",
+            "dependencies": [
+                "P3-T15"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P3-T17",
+            "taskName": "Test Digital Receipts",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Digital receipts",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-29",
+            "endTime": "2024-09-30",
+            "dependencies": [
+                "P3-T16"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T1",
+            "taskName": "Design Sales Revenue Reports",
+            "correspondingPhase": "Revenue Reporting - Phase 4",
+            "correspondingFeature": "Sales revenue reports (daily, weekly, monthly)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-23",
+            "endTime": "2024-09-24",
+            "dependencies": [
+                "P3"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T2",
+            "taskName": "Implement Daily Sales Revenue Report",
+            "correspondingPhase": "Revenue Reporting - Phase 4",
+            "correspondingFeature": "Sales revenue reports (daily, weekly, monthly)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-09-24",
+            "endTime": "2024-09-27",
+            "dependencies": [
+                "P4-T1"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P4-T3",
+            "taskName": "Implement Weekly Sales Revenue Report",
+            "correspondingPhase": "Revenue Reporting - Phase 4",
+            "correspondingFeature": "Sales revenue reports (daily, weekly, monthly)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-09-27",
+            "endTime": "2024-09-30",
+            "dependencies": [
+                "P4-T1"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P4-T4",
+            "taskName": "Implement Monthly Sales Revenue Report",
+            "correspondingPhase": "Revenue Reporting - Phase 4",
+            "correspondingFeature": "Sales revenue reports (daily, weekly, monthly)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-09-30",
+            "endTime": "2024-10-03",
+            "dependencies": [
+                "P4-T1"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P4-T5",
+            "taskName": "Test Daily Sales Revenue Report",
+            "correspondingPhase": "Revenue Reporting - Phase 4",
+            "correspondingFeature": "Sales revenue reports (daily, weekly, monthly)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-10-03",
+            "endTime": "2024-10-04",
+            "dependencies": [
+                "P4-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T6",
+            "taskName": "Test Weekly Sales Revenue Report",
+            "correspondingPhase": "Revenue Reporting - Phase 4",
+            "correspondingFeature": "Sales revenue reports (daily, weekly, monthly)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-10-04",
+            "endTime": "2024-10-05",
+            "dependencies": [
+                "P4-T3"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T7",
+            "taskName": "Test Monthly Sales Revenue Report",
+            "correspondingPhase": "Revenue Reporting - Phase 4",
+            "correspondingFeature": "Sales revenue reports (daily, weekly, monthly)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-10-05",
+            "endTime": "2024-10-06",
+            "dependencies": [
+                "P4-T4"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T8",
+            "taskName": "Design Revenue by Product Category Report",
+            "correspondingPhase": "Revenue Reporting - Phase 4",
+            "correspondingFeature": "Revenue by product category (coffee, pastries)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-23",
+            "endTime": "2024-09-24",
+            "dependencies": [
+                "P3"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T9",
+            "taskName": "Implement Revenue by Coffee Report",
+            "correspondingPhase": "Revenue Reporting - Phase 4",
+            "correspondingFeature": "Revenue by product category (coffee, pastries)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-09-24",
+            "endTime": "2024-09-27",
+            "dependencies": [
+                "P4-T8"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P4-T10",
+            "taskName": "Implement Revenue by Pastries Report",
+            "correspondingPhase": "Revenue Reporting - Phase 4",
+            "correspondingFeature": "Revenue by product category (coffee, pastries)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-09-27",
+            "endTime": "2024-09-30",
+            "dependencies": [
+                "P4-T8"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P4-T11",
+            "taskName": "Test Revenue by Coffee Report",
+            "correspondingPhase": "Revenue Reporting - Phase 4",
+            "correspondingFeature": "Revenue by product category (coffee, pastries)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-30",
+            "endTime": "2024-10-01",
+            "dependencies": [
+                "P4-T9"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T12",
+            "taskName": "Test Revenue by Pastries Report",
+            "correspondingPhase": "Revenue Reporting - Phase 4",
+            "correspondingFeature": "Revenue by product category (coffee, pastries)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-10-01",
+            "endTime": "2024-10-02",
+            "dependencies": [
+                "P4-T10"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T1",
+            "taskName": "Design Profit and Loss Statement Module",
+            "correspondingPhase": "Financial Reporting - Phase 5",
+            "correspondingFeature": "Profit and loss statement",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-10-14",
+            "endTime": "2024-10-17",
+            "dependencies": [
+                "P4"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P5-T2",
+            "taskName": "Implement Profit and Loss Statement",
+            "correspondingPhase": "Financial Reporting - Phase 5",
+            "correspondingFeature": "Profit and loss statement",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-10-17",
+            "endTime": "2024-10-22",
+            "dependencies": [
+                "P5-T1"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P5-T3",
+            "taskName": "Test Profit and Loss Statement",
+            "correspondingPhase": "Financial Reporting - Phase 5",
+            "correspondingFeature": "Profit and loss statement",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-10-22",
+            "endTime": "2024-10-24",
+            "dependencies": [
+                "P5-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T4",
+            "taskName": "Design Cash Flow Statement Module",
+            "correspondingPhase": "Financial Reporting - Phase 5",
+            "correspondingFeature": "Cash flow statement",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-10-14",
+            "endTime": "2024-10-17",
+            "dependencies": [
+                "P4"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P5-T5",
+            "taskName": "Implement Cash Flow Statement",
+            "correspondingPhase": "Financial Reporting - Phase 5",
+            "correspondingFeature": "Cash flow statement",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-10-24",
+            "endTime": "2024-10-29",
+            "dependencies": [
+                "P5-T4"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P5-T6",
+            "taskName": "Test Cash Flow Statement",
+            "correspondingPhase": "Financial Reporting - Phase 5",
+            "correspondingFeature": "Cash flow statement",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-10-29",
+            "endTime": "2024-10-31",
+            "dependencies": [
+                "P5-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T7",
+            "taskName": "Design Tax Reports Module",
+            "correspondingPhase": "Financial Reporting - Phase 5",
+            "correspondingFeature": "Tax reports",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-10-14",
+            "endTime": "2024-10-17",
+            "dependencies": [
+                "P4"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P5-T8",
+            "taskName": "Implement Tax Reports",
+            "correspondingPhase": "Financial Reporting - Phase 5",
+            "correspondingFeature": "Tax reports",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-10-31",
+            "endTime": "2024-11-05",
+            "dependencies": [
+                "P5-T7"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P5-T9",
+            "taskName": "Test Tax Reports",
+            "correspondingPhase": "Financial Reporting - Phase 5",
+            "correspondingFeature": "Tax reports",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-11-05",
+            "endTime": "2024-11-07",
+            "dependencies": [
+                "P5-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P1-T1",
+            "taskName": "Design Stock Level Tracking",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Stock level tracking (coffee beans, milk, sugar)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-01",
+            "endTime": "2024-07-04",
+            "dependencies": [],
+            "responsiblePerson": "System Analyst"
+        },
+        {
+            "id": "P1-T2",
+            "taskName": "Implement Stock Level Tracking",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Stock level tracking (coffee beans, milk, sugar)",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-07-04",
+            "endTime": "2024-07-09",
+            "dependencies": [
+                "P1-T1"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P1-T3",
+            "taskName": "Test Stock Level Tracking",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Stock level tracking (coffee beans, milk, sugar)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-09",
+            "endTime": "2024-07-11",
+            "dependencies": [
+                "P1-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T4",
+            "taskName": "Design Low Stock Alerts",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Low stock alerts (coffee beans, milk)",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-11",
+            "endTime": "2024-07-13",
+            "dependencies": [],
+            "responsiblePerson": "System Analyst"
+        },
+        {
+            "id": "P1-T5",
+            "taskName": "Implement Low Stock Alerts",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Low stock alerts (coffee beans, milk)",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-07-13",
+            "endTime": "2024-07-17",
+            "dependencies": [
+                "P1-T4"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P1-T6",
+            "taskName": "Test Low Stock Alerts",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Low stock alerts (coffee beans, milk)",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-17",
+            "endTime": "2024-07-18",
+            "dependencies": [
+                "P1-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T7",
+            "taskName": "Design Supplier Management",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Supplier management (coffee bean suppliers, milk suppliers)",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-18",
+            "endTime": "2024-07-21",
+            "dependencies": [],
+            "responsiblePerson": "System Analyst"
+        },
+        {
+            "id": "P1-T8",
+            "taskName": "Implement Supplier Management",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Supplier management (coffee bean suppliers, milk suppliers)",
+            "priority": "Medium",
+            "estimationTime": "5 days",
+            "startTime": "2024-07-21",
+            "endTime": "2024-07-26",
+            "dependencies": [
+                "P1-T7"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P1-T9",
+            "taskName": "Test Supplier Management",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Supplier management (coffee bean suppliers, milk suppliers)",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-26",
+            "endTime": "2024-07-28",
+            "dependencies": [
+                "P1-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T10",
+            "taskName": "Design Expiry Date Tracking",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Expiry date tracking (milk, pastries)",
+            "priority": "Low",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-28",
+            "endTime": "2024-07-30",
+            "dependencies": [],
+            "responsiblePerson": "System Analyst"
+        },
+        {
+            "id": "P1-T11",
+            "taskName": "Implement Expiry Date Tracking",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Expiry date tracking (milk, pastries)",
+            "priority": "Low",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-30",
+            "endTime": "2024-08-02",
+            "dependencies": [
+                "P1-T10"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P1-T12",
+            "taskName": "Test Expiry Date Tracking",
+            "correspondingPhase": "Inventory Management - Phase 1",
+            "correspondingFeature": "Expiry date tracking (milk, pastries)",
+            "priority": "Low",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-02",
+            "endTime": "2024-08-03",
+            "dependencies": [
+                "P1-T11"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T1",
+            "taskName": "Design Sales Reporting",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Sales reporting (by product - coffee, pastries)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-29",
+            "endTime": "2024-08-01",
+            "dependencies": [
+                "P1"
+            ],
+            "responsiblePerson": "System Analyst"
+        },
+        {
+            "id": "P2-T2",
+            "taskName": "Implement Sales Reporting",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Sales reporting (by product - coffee, pastries)",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-08-01",
+            "endTime": "2024-08-06",
+            "dependencies": [
+                "P2-T1"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P2-T3",
+            "taskName": "Test Sales Reporting",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Sales reporting (by product - coffee, pastries)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-06",
+            "endTime": "2024-08-08",
+            "dependencies": [
+                "P2-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T4",
+            "taskName": "Design Discount Management",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Discount management (loyalty programs)",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-08",
+            "endTime": "2024-08-10",
+            "dependencies": [
+                "P1"
+            ],
+            "responsiblePerson": "System Analyst"
+        },
+        {
+            "id": "P2-T5",
+            "taskName": "Implement Discount Management",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Discount management (loyalty programs)",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-08-10",
+            "endTime": "2024-08-14",
+            "dependencies": [
+                "P2-T4"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P2-T6",
+            "taskName": "Test Discount Management",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Discount management (loyalty programs)",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-14",
+            "endTime": "2024-08-15",
+            "dependencies": [
+                "P2-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T7",
+            "taskName": "Design Customer Database",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Customer database (loyalty programs)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-08-15",
+            "endTime": "2024-08-18",
+            "dependencies": [
+                "P1"
+            ],
+            "responsiblePerson": "System Analyst"
+        },
+        {
+            "id": "P2-T8",
+            "taskName": "Implement Customer Database",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Customer database (loyalty programs)",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-08-18",
+            "endTime": "2024-08-23",
+            "dependencies": [
+                "P2-T7"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P2-T9",
+            "taskName": "Test Customer Database",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Customer database (loyalty programs)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-23",
+            "endTime": "2024-08-25",
+            "dependencies": [
+                "P2-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T10",
+            "taskName": "Design Loyalty Programs",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Loyalty programs",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-25",
+            "endTime": "2024-08-27",
+            "dependencies": [
+                "P1"
+            ],
+            "responsiblePerson": "System Analyst"
+        },
+        {
+            "id": "P2-T11",
+            "taskName": "Implement Loyalty Programs",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Loyalty programs",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-08-27",
+            "endTime": "2024-08-31",
+            "dependencies": [
+                "P2-T10"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P2-T12",
+            "taskName": "Test Loyalty Programs",
+            "correspondingPhase": "Sales and CRM Management - Phase 2",
+            "correspondingFeature": "Loyalty programs",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-31",
+            "endTime": "2024-09-01",
+            "dependencies": [
+                "P2-T11"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T1",
+            "taskName": "Design Order Placement",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Order placement (in-store)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-08-26",
+            "endTime": "2024-08-29",
+            "dependencies": [
+                "P2"
+            ],
+            "responsiblePerson": "System Analyst"
+        },
+        {
+            "id": "P3-T2",
+            "taskName": "Implement Order Placement",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Order placement (in-store)",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-08-29",
+            "endTime": "2024-09-03",
+            "dependencies": [
+                "P3-T1"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P3-T3",
+            "taskName": "Test Order Placement",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Order placement (in-store)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-03",
+            "endTime": "2024-09-05",
+            "dependencies": [
+                "P3-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T4",
+            "taskName": "Design Payment Processing",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Payment processing (cash, credit card)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-05",
+            "endTime": "2024-09-07",
+            "dependencies": [
+                "P2"
+            ],
+            "responsiblePerson": "System Analyst"
+        },
+        {
+            "id": "P3-T5",
+            "taskName": "Implement Payment Processing",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Payment processing (cash, credit card)",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-09-07",
+            "endTime": "2024-09-11",
+            "dependencies": [
+                "P3-T4"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P3-T6",
+            "taskName": "Test Payment Processing",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Payment processing (cash, credit card)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-11",
+            "endTime": "2024-09-12",
+            "dependencies": [
+                "P3-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T7",
+            "taskName": "Design Custom Order Options",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Custom order options (milk alternatives, sugar levels)",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-09-12",
+            "endTime": "2024-09-15",
+            "dependencies": [
+                "P2"
+            ],
+            "responsiblePerson": "System Analyst"
+        },
+        {
+            "id": "P3-T8",
+            "taskName": "Implement Custom Order Options",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Custom order options (milk alternatives, sugar levels)",
+            "priority": "Medium",
+            "estimationTime": "5 days",
+            "startTime": "2024-09-15",
+            "endTime": "2024-09-20",
+            "dependencies": [
+                "P3-T7"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P3-T9",
+            "taskName": "Test Custom Order Options",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Custom order options (milk alternatives, sugar levels)",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-20",
+            "endTime": "2024-09-22",
+            "dependencies": [
+                "P3-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T10",
+            "taskName": "Design Tax Calculation",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Tax calculation",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-22",
+            "endTime": "2024-09-24",
+            "dependencies": [
+                "P2"
+            ],
+            "responsiblePerson": "System Analyst"
+        },
+        {
+            "id": "P3-T11",
+            "taskName": "Implement Tax Calculation",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Tax calculation",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-09-24",
+            "endTime": "2024-09-28",
+            "dependencies": [
+                "P3-T10"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P3-T12",
+            "taskName": "Test Tax Calculation",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Tax calculation",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-28",
+            "endTime": "2024-09-29",
+            "dependencies": [
+                "P3-T11"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T13",
+            "taskName": "Design Digital Receipts",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Digital receipts",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-09-29",
+            "endTime": "2024-10-02",
+            "dependencies": [
+                "P2"
+            ],
+            "responsiblePerson": "System Analyst"
+        },
+        {
+            "id": "P3-T14",
+            "taskName": "Implement Digital Receipts",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Digital receipts",
+            "priority": "Medium",
+            "estimationTime": "5 days",
+            "startTime": "2024-10-02",
+            "endTime": "2024-10-07",
+            "dependencies": [
+                "P3-T13"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P3-T15",
+            "taskName": "Test Digital Receipts",
+            "correspondingPhase": "Order Management and Bill Generation - Phase 3",
+            "correspondingFeature": "Digital receipts",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-10-07",
+            "endTime": "2024-10-09",
+            "dependencies": [
+                "P3-T14"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T1",
+            "taskName": "Design Sales Revenue Reports",
+            "correspondingPhase": "Revenue Reporting - Phase 4",
+            "correspondingFeature": "Sales revenue reports (daily, weekly, monthly)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-09-23",
+            "endTime": "2024-09-26",
+            "dependencies": [
+                "P3"
+            ],
+            "responsiblePerson": "Financial Analyst"
+        },
+        {
+            "id": "P4-T2",
+            "taskName": "Implement Sales Revenue Reports",
+            "correspondingPhase": "Revenue Reporting - Phase 4",
+            "correspondingFeature": "Sales revenue reports (daily, weekly, monthly)",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-09-26",
+            "endTime": "2024-10-01",
+            "dependencies": [
+                "P4-T1"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P4-T3",
+            "taskName": "Test Sales Revenue Reports",
+            "correspondingPhase": "Revenue Reporting - Phase 4",
+            "correspondingFeature": "Sales revenue reports (daily, weekly, monthly)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-10-01",
+            "endTime": "2024-10-03",
+            "dependencies": [
+                "P4-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T4",
+            "taskName": "Design Revenue by Product Category",
+            "correspondingPhase": "Revenue Reporting - Phase 4",
+            "correspondingFeature": "Revenue by product category (coffee, pastries)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-10-03",
+            "endTime": "2024-10-06",
+            "dependencies": [
+                "P3"
+            ],
+            "responsiblePerson": "Financial Analyst"
+        },
+        {
+            "id": "P4-T5",
+            "taskName": "Implement Revenue by Product Category",
+            "correspondingPhase": "Revenue Reporting - Phase 4",
+            "correspondingFeature": "Revenue by product category (coffee, pastries)",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-10-06",
+            "endTime": "2024-10-11",
+            "dependencies": [
+                "P4-T4"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P4-T6",
+            "taskName": "Test Revenue by Product Category",
+            "correspondingPhase": "Revenue Reporting - Phase 4",
+            "correspondingFeature": "Revenue by product category (coffee, pastries)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-10-11",
+            "endTime": "2024-10-13",
+            "dependencies": [
+                "P4-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T1",
+            "taskName": "Design Profit and Loss Statement",
+            "correspondingPhase": "Financial Reporting - Phase 5",
+            "correspondingFeature": "Profit and loss statement",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-10-14",
+            "endTime": "2024-10-17",
+            "dependencies": [
+                "P4"
+            ],
+            "responsiblePerson": "Financial Analyst"
+        },
+        {
+            "id": "P5-T2",
+            "taskName": "Implement Profit and Loss Statement",
+            "correspondingPhase": "Financial Reporting - Phase 5",
+            "correspondingFeature": "Profit and loss statement",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-10-17",
+            "endTime": "2024-10-22",
+            "dependencies": [
+                "P5-T1"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P5-T3",
+            "taskName": "Test Profit and Loss Statement",
+            "correspondingPhase": "Financial Reporting - Phase 5",
+            "correspondingFeature": "Profit and loss statement",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-10-22",
+            "endTime": "2024-10-24",
+            "dependencies": [
+                "P5-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T4",
+            "taskName": "Design Cash Flow Statement",
+            "correspondingPhase": "Financial Reporting - Phase 5",
+            "correspondingFeature": "Cash flow statement",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-10-24",
+            "endTime": "2024-10-27",
+            "dependencies": [
+                "P4"
+            ],
+            "responsiblePerson": "Financial Analyst"
+        },
+        {
+            "id": "P5-T5",
+            "taskName": "Implement Cash Flow Statement",
+            "correspondingPhase": "Financial Reporting - Phase 5",
+            "correspondingFeature": "Cash flow statement",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-10-27",
+            "endTime": "2024-11-01",
+            "dependencies": [
+                "P5-T4"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P5-T6",
+            "taskName": "Test Cash Flow Statement",
+            "correspondingPhase": "Financial Reporting - Phase 5",
+            "correspondingFeature": "Cash flow statement",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-11-01",
+            "endTime": "2024-11-03",
+            "dependencies": [
+                "P5-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T7",
+            "taskName": "Design Tax Reports",
+            "correspondingPhase": "Financial Reporting - Phase 5",
+            "correspondingFeature": "Tax reports",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-11-03",
+            "endTime": "2024-11-06",
+            "dependencies": [
+                "P4"
+            ],
+            "responsiblePerson": "Financial Analyst"
+        },
+        {
+            "id": "P5-T8",
+            "taskName": "Implement Tax Reports",
+            "correspondingPhase": "Financial Reporting - Phase 5",
+            "correspondingFeature": "Tax reports",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-11-06",
+            "endTime": "2024-11-11",
+            "dependencies": [
+                "P5-T7"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P5-T9",
+            "taskName": "Test Tax Reports",
+            "correspondingPhase": "Financial Reporting - Phase 5",
+            "correspondingFeature": "Tax reports",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-11-11",
+            "endTime": "2024-11-13",
+            "dependencies": [
+                "P5-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ]
+]

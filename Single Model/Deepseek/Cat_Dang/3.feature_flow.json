@@ -1,0 +1,230 @@
+[
+  {
+    "category": "Order Management System",
+    "features": [
+      {
+        "featureName": "Digital order entry for waiters",
+        "flow": "1. Waiter logs into the system via a tablet or handheld device. 2. Selects the customer's table number or location. 3. Browses the digital menu, selects items, and specifies quantities. 4. Adds special instructions (e.g., dietary preferences). 5. Submits the order to the kitchen and billing system. 6. Receives a confirmation with an order ID.",
+        "screens": [
+          "Login Screen: Authenticates waiters with credentials.",
+          "Table Selection Screen: Displays a floor plan for selecting tables.",
+          "Digital Menu Screen: Shows categorized items, prices, and descriptions.",
+          "Order Customization Screen: Allows adding notes or modifying item details.",
+          "Order Confirmation Screen: Summarizes the order before submission."
+        ]
+      },
+      {
+        "featureName": "Real-time order routing to preparation team",
+        "flow": "1. Submitted orders are automatically routed to the kitchen's display system. 2. Preparation team views orders in real-time, sorted by priority (e.g., first-in-first-out or VIP tables). 3. Kitchen staff marks orders as 'In Progress' or 'Completed'. 4. System triggers notifications to waiters when orders are ready for delivery.",
+        "screens": [
+          "Kitchen Dashboard Screen: Central view of all active orders with timestamps.",
+          "Order Priority Screen: Highlights VIP or time-sensitive orders.",
+          "Order Status Update Screen: Lets kitchen staff update order progress."
+        ]
+      },
+      {
+        "featureName": "Order status tracking and notifications",
+        "flow": "1. Waiters and customers view real-time order status (e.g., 'Preparing', 'Ready'). 2. System sends automated notifications to waiters' devices when orders are ready. 3. Customers receive SMS or in-app alerts (if opted in). 4. Waiters confirm delivery to tables, updating the system status to 'Delivered'.",
+        "screens": [
+          "Order Tracking Screen: Displays live statuses of all active orders.",
+          "Notification Center Screen: Shows alerts for ready orders.",
+          "Delivery Confirmation Screen: Finalizes the order lifecycle after delivery."
+        ]
+      },
+      {
+        "featureName": "Support for order modifications/cancellations",
+        "flow": "1. Waiter selects an active order from the table’s history. 2. Edits items, quantities, or instructions (if the order is not yet in progress). 3. Submits changes, which reroute to the kitchen. 4. For cancellations, the system checks if the order is eligible and updates billing. 5. Confirmation is sent to the waiter and customer.",
+        "screens": [
+          "Order History Screen: Lists all orders for a selected table.",
+          "Modify Order Screen: Edits or removes items from the order.",
+          "Cancellation Confirmation Screen: Validates cancellation and updates billing."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Automated Billing & Payment",
+    "features": [
+      {
+        "featureName": "Automated invoice generation",
+        "flow": "1. Waiter finalizes order in the system. 2. System auto-generates invoice with itemized list, taxes, and total. 3. Customer reviews invoice on a handheld device or table-side screen. 4. Customer confirms accuracy or requests adjustments. 5. System locks invoice for payment processing.",
+        "screens": [
+          "Order Summary Screen: Displays selected items, quantities, and running total.",
+          "Invoice Preview Screen: Shows final invoice with breakdown (subtotal, taxes, discounts).",
+          "Payment Initiation Screen: Triggers payment after customer confirmation."
+        ]
+      },
+      {
+        "featureName": "Integration with multiple payment methods (cash, card, e-wallet)",
+        "flow": "1. Customer selects preferred payment method. 2. For card/e-wallet: System connects to POS terminal or displays QR code for scanning. 3. For cash: Waiter confirms cash received and processes change calculation. 4. System validates payment success/failure and updates order status.",
+        "screens": [
+          "Payment Method Selection Screen: Options for cash, card, e-wallet (e.g., Momo, ZaloPay).",
+          "Card Payment Screen: Fields for card details or contactless tap.",
+          "E-Wallet Redirect Screen: Displays QR/payment link for scanning.",
+          "Cash Handling Screen: Input received amount, auto-calculate change."
+        ]
+      },
+      {
+        "featureName": "Split billing options for group orders",
+        "flow": "1. Waiter selects 'Split Bill' option at order finalization. 2. Choose split method: equal split, by item, or custom % allocation. 3. Customers assign items to individual bills. 4. System generates separate invoices per split. 5. Each sub-invoice follows the standard payment flow.",
+        "screens": [
+          "Split Method Selection Screen: Choose equal/item-based/custom split.",
+          "Item Assignment Screen: Drag-and-drop items to individual customers.",
+          "Split Summary Screen: Preview all sub-invoices before confirmation."
+        ]
+      },
+      {
+        "featureName": "Discount and promotion management",
+        "flow": "1. Waiter applies pre-configured discounts (e.g., loyalty, seasonal) or enters promo code. 2. System validates eligibility (e.g., minimum spend, time constraints). 3. Approved discounts adjust invoice total. 4. Manager override screen for exceptions (role-based access).",
+        "screens": [
+          "Discount Selection Screen: List of available discounts/promotions.",
+          "Promo Code Entry Screen: Field for manual code input.",
+          "Discount Approval Screen: Manager authentication for overrides.",
+          "Updated Invoice Screen: Reflects discounted total post-application."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Centralized Reporting & Analytics",
+    "features": [
+      {
+        "featureName": "Branch-specific revenue reports",
+        "flow": "1. Manager selects a branch from a dropdown menu. 2. Chooses a date range (daily, weekly, monthly). 3. Clicks 'Generate Report' to fetch branch-specific revenue data. 4. Views summarized revenue metrics (total sales, popular items, peak hours). 5. Drills down into sub-categories (e.g., beverage vs. food sales). 6. Saves or exports the report.",
+        "screens": [
+          "Report Dashboard: Overview of available report types and quick-access templates.",
+          "Branch Selection Screen: Dropdown/list of all CDC branches.",
+          "Date Range Picker: Customizable calendar input for report timeframe.",
+          "Revenue Summary Screen: Key metrics and visual charts (bar graphs, pie charts).",
+          "Detailed Breakdown Screen: Itemized sales data and hourly/daily trends."
+        ]
+      },
+      {
+        "featureName": "Network-wide consolidated sales reports",
+        "flow": "1. Corporate analyst selects 'All Branches' from the branch filter. 2. Sets aggregation period (e.g., quarterly, annually). 3. Generates consolidated report showing total revenue, regional performance, and branch comparisons. 4. Analyzes cross-branch trends via interactive charts. 5. Shares report with stakeholders via email or cloud storage.",
+        "screens": [
+          "Network Overview Screen: Map visualization of all branches.",
+          "Consolidated Metrics Screen: Total revenue, average sales per branch, and growth rates.",
+          "Comparative Analysis Screen: Side-by-side branch performance tables.",
+          "Trend Overlay Screen: Time-based comparison of multiple branches."
+        ]
+      },
+      {
+        "featureName": "Customizable report templates (daily, weekly, monthly)",
+        "flow": "1. Manager navigates to 'Templates' section. 2. Chooses a base template (daily, weekly, monthly). 3. Customizes metrics (e.g., add labor cost percentage). 4. Saves template with a unique name. 5. Applies template to auto-generate future reports.",
+        "screens": [
+          "Template Gallery: Pre-built templates with preview thumbnails.",
+          "Template Builder Screen: Drag-and-drop interface to add/remove data fields.",
+          "Preview Screen: Mockup of the customized report format.",
+          "Template Management Screen: Edit, delete, or duplicate saved templates."
+        ]
+      },
+      {
+        "featureName": "Revenue trend analysis and forecasting",
+        "flow": "1. Analyst selects a branch or the entire network. 2. Chooses a metric (e.g., sales growth, seasonal trends). 3. Adjusts time range (past 6 months to 2 years). 4. Generates trend line charts with anomaly detection. 5. Uses forecasting tool to predict next quarter's revenue. 6. Saves scenario-based forecasts (optimistic/pessimistic).",
+        "screens": [
+          "Trend Analysis Screen: Interactive line/predictive charts with zoom functionality.",
+          "Forecast Configuration Screen: Inputs for adjusting variables (e.g., holiday impact).",
+          "Anomaly Alert Screen: Highlights unexpected dips/spikes in revenue.",
+          "Scenario Comparison Screen: Side-by-side view of forecast models."
+        ]
+      },
+      {
+        "featureName": "Exportable reports in PDF/Excel formats",
+        "flow": "1. User generates any report. 2. Clicks 'Export' button. 3. Selects format (PDF for print, Excel for data manipulation). 4. Chooses export scope (full report or filtered data). 5. Downloads file or sends to email.",
+        "screens": [
+          "Export Settings Screen: Format selection and data scope options.",
+          "Email Export Screen: Input recipient emails and add a message.",
+          "Download Confirmation Screen: Link to download file and history of past exports."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Multi-Branch Data Integration",
+    "features": [
+      {
+        "featureName": "Centralized database for all branches",
+        "flow": "1. Admin/Manager logs into the system via the Login Screen. 2. Accesses the Central Dashboard to view or manage branch data. 3. Inputs/edits branch-specific data (e.g., menu items, inventory, staff details) via the Data Entry Form. 4. Reviews and confirms changes on the Confirmation Screen. 5. Data is stored in the centralized database. 6. Users retrieve or query data via the Data Repository Screen.",
+        "screens": [
+          "Login Screen: Authenticates user credentials and redirects based on role.",
+          "Central Dashboard: Provides an overview of all branch data and navigation to management tools.",
+          "Data Entry Form: Allows input or modification of branch-specific data fields.",
+          "Confirmation Screen: Displays a summary of changes for final approval before submission.",
+          "Data Repository Screen: Enables viewing, filtering, and exporting centralized data."
+        ]
+      },
+      {
+        "featureName": "Real-time data synchronization across locations",
+        "flow": "1. Staff updates local data (e.g., inventory levels) via the Inventory Management Screen. 2. System automatically detects changes and initiates synchronization with the central database. 3. Real-time Sync Status Screen displays progress and confirmation. 4. Other branches instantly access updated data via their dashboards. 5. Notification Panel alerts users of sync success or errors.",
+        "screens": [
+          "Inventory Management Screen: Edits and tracks inventory levels for a specific branch.",
+          "Real-time Sync Status Screen: Visualizes synchronization progress across branches.",
+          "Notification Panel: Shows alerts for sync completion, conflicts, or failures."
+        ]
+      },
+      {
+        "featureName": "Role-based access controls (admin, manager, staff)",
+        "flow": "1. Admin configures access permissions via the Access Control Settings Screen. 2. User logs in via the Login Screen. 3. System validates credentials and redirects to role-specific dashboard (Admin: full system control, Manager: branch-level access, Staff: order input and limited data view). 4. User performs role-restricted actions (e.g., Admin adds a new branch, Staff updates order status).",
+        "screens": [
+          "Login Screen: Authenticates user credentials and redirects based on role.",
+          "Access Control Settings Screen: Admin defines permissions for each role (e.g., data editing rights).",
+          "Role-Specific Dashboard: Tailored interface with accessible features per role (e.g., Staff see order input, Managers see branch analytics)."
+        ]
+      },
+      {
+        "featureName": "Cloud-based storage for scalability",
+        "flow": "1. System automatically backs up branch data to cloud storage during off-peak hours. 2. Admin monitors storage usage and performance via the Storage Monitoring Dashboard. 3. Adjusts storage allocation or retention policies via the Cloud Storage Settings Screen. 4. Alert System notifies admins of issues (e.g., low storage, failed backups).",
+        "screens": [
+          "Cloud Storage Settings Screen: Configures storage allocation, backup frequency, and retention rules.",
+          "Storage Monitoring Dashboard: Displays real-time metrics on cloud storage usage and health.",
+          "Alert System: Sends in-app/email notifications for critical storage-related events."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Staff Operations & Support",
+    "features": [
+      {
+        "featureName": "Role-specific dashboards (waiters, managers)",
+        "flow": "1. **User Login**: Waiter/Manager logs into the system (Role: All Staff).\n2. **Role-Based Redirection**: System redirects to role-specific dashboard.\n3. **Waiter Dashboard**: Displays real-time table status, pending orders, and quick-access buttons for order input (Role: Waiter).\n4. **Manager Dashboard**: Shows branch performance summaries, staff activity, inventory alerts, and revenue trends (Role: Manager).\n5. **Action Triggers**: Waiters place orders or mark tables as cleaned; Managers generate reports or adjust schedules.",
+        "screens": [
+          "Login Screen: Authentication for staff with role selection.",
+          "Waiter Dashboard: Overview of assigned tables, order queue, and notifications for new requests.",
+          "Manager Dashboard: Interactive charts for revenue, staff efficiency metrics, and inventory status.",
+          "Order Input Screen (Waiter): Form for entering drink orders with customization options.",
+          "Report Generation Screen (Manager): Customizable filters for branch-specific or network-wide data analysis."
+        ]
+      },
+      {
+        "featureName": "In-system communication tools for staff coordination",
+        "flow": "1. **Access Chat**: Staff selects the 'Communication' tab (Role: All Staff).\n2. **Select Recipient**: Choose individual/team/channel (e.g., 'Kitchen Team').\n3. **Send Message**: Type text/attach files (e.g., special customer requests).\n4. **Receive Notification**: Recipient gets a pop-up alert for new messages.\n5. **Message History**: Archived threads for future reference.",
+        "screens": [
+          "Communication Hub: List of active chats, groups, and pinned messages.",
+          "Chat Window: Message input field, attachment options, and sent/received timestamps.",
+          "Notification Panel: Overlay alerts for new messages during active sessions."
+        ]
+      },
+      {
+        "featureName": "Training resources for new staff onboarding",
+        "flow": "1. **Onboarding Access**: New staff receives login credentials with 'Trainee' role.\n2. **Training Portal**: Trainee selects modules (e.g., POS usage, customer service).\n3. **Interactive Tutorials**: Step-by-step guides with simulations (e.g., processing a mock order).\n4. **Quiz Completion**: Trainee takes a scored assessment to validate understanding.\n5. **Certification**: System issues a completion certificate forwarded to the manager.",
+        "screens": [
+          "Training Library: Catalog of modules with progress indicators.",
+          "Interactive Tutorial Screen: Video demos and clickable simulations of workflows.",
+          "Quiz Screen: Multiple-choice questions with instant feedback.",
+          "Certification Summary: Printable/downloadable completion proof."
+        ]
+      },
+      {
+        "featureName": "Performance metrics tracking for staff efficiency",
+        "flow": "1. **Access Metrics**: Manager navigates to 'Performance' tab (Role: Manager).\n2. **Select Criteria**: Filter by staff member, date range, or branch.\n3. **View Metrics**: Display order accuracy, average service time, and upsell rates.\n4. **Generate Feedback**: Export data or trigger automated performance summaries.\n5. **Staff Self-Check**: Waiters view their own metrics via a restricted view (Role: Waiter).",
+        "screens": [
+          "Performance Overview: Grid/list of staff with key metrics and comparison charts.",
+          "Individual Performance Report: Detailed breakdown of a staff member’s efficiency trends.",
+          "Feedback Screen: Manager inputs comments or approves automated suggestions."
+        ]
+      }
+    ]
+  }
+]

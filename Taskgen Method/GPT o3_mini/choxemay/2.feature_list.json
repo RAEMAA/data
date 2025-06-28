@@ -1,0 +1,41 @@
+[
+  {
+    "category": "User Interface",
+    "list_feature": [
+      "Responsive Design",
+      "Intuitive Navigation",
+      "Mobile Compatibility",
+      "Customizable Themes"
+    ]
+  },
+  {
+    "category": "Backend",
+    "list_feature": [
+      "API Integration",
+      "Database Management",
+      "Server-side Logic",
+      "Scalability"
+    ]
+  },
+  {
+    "category": "Security",
+    "list_feature": ["User Authentication", "Data Encryption", "Access Control"]
+  },
+  {
+    "category": "Reputation",
+    "list_feature": [
+      "Credibility Ranking",
+      "Successful Exchanges Tracking",
+      "Feedback Aggregation",
+      "Transaction Amount Monitoring"
+    ]
+  },
+  {
+    "category": "Marketplace",
+    "list_feature": [
+      "Buying Notifications",
+      "Selling Notifications",
+      "Community Interaction"
+    ]
+  }
+]

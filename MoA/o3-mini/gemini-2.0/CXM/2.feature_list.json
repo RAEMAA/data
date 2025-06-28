@@ -1,0 +1,38 @@
+[
+    {
+        "category": "User Features",
+        "list_feature": [
+            "User registration and profile management",
+            "Credibility score system based on successful transactions, user feedback, and total traded value",
+            "User feedback and rating mechanism",
+            "User communication and messaging preferences"
+        ]
+    },
+    {
+        "category": "Listing Features",
+        "list_feature": [
+            "Motorcycle and parts/accessories listing creation (title, description, images, and specifications)",
+            "Listing management (edit, delete, update status)",
+            "Display of listings prioritized by the seller’s credibility",
+            "Notification system for new sell or buy postings"
+        ]
+    },
+    {
+        "category": "Transaction Features",
+        "list_feature": [
+            "Buy and sell functionality for motorcycles and related parts/accessories",
+            "Secure payment processing and transaction handling",
+            "Transaction tracking with history",
+            "Dispute resolution mechanism"
+        ]
+    },
+    {
+        "category": "Community Features",
+        "list_feature": [
+            "Discussion forums and community boards for motorcycle enthusiasts",
+            "User profiles with activity feeds",
+            "Space for sharing experiences, advice, and industry insights",
+            "Community moderation to maintain a supportive environment"
+        ]
+    }
+]

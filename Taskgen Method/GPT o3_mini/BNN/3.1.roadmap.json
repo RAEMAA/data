@@ -1,0 +1,67 @@
+[
+  {
+    "id": "P1",
+    "phase": "Farmer Registration",
+    "feature_list": [
+      "Register using bank account details",
+      "Secure bank account verification and validation",
+      "Comprehensive profile management for farmers"
+    ],
+    "estimatedTime": 14,
+    "startTime": "2023-10-11",
+    "endTime": "2023-10-24",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Produce Listings",
+    "feature_list": [
+      "Detailed listings incorporating sensor data",
+      "High-resolution images and descriptive content",
+      "Real-time updates on produce quality"
+    ],
+    "estimatedTime": 14,
+    "startTime": "2023-10-25",
+    "endTime": "2023-11-07",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P3",
+    "phase": "Online Payment Processing",
+    "feature_list": [
+      "Seamless integration with payment gateways",
+      "Support for multiple payment methods",
+      "Robust security for transaction processing"
+    ],
+    "estimatedTime": 14,
+    "startTime": "2023-10-25",
+    "endTime": "2023-11-07",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P4",
+    "phase": "Shipping Services",
+    "feature_list": [
+      "Integrated shipping solutions",
+      "Real-time tracking of shipments",
+      "Flexible delivery and logistic management"
+    ],
+    "estimatedTime": 10,
+    "startTime": "2023-11-08",
+    "endTime": "2023-11-17",
+    "dependencies": ["P3"]
+  },
+  {
+    "id": "P5",
+    "phase": "Product Comparison",
+    "feature_list": [
+      "Side-by-side product comparisons",
+      "Filter options based on price, quality, and features",
+      "User reviews and ratings integration similar to major e-commerce platforms"
+    ],
+    "estimatedTime": 7,
+    "startTime": "2023-11-08",
+    "endTime": "2023-11-14",
+    "dependencies": ["P2"]
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "id": "P1",
+    "phase": "Platform Architecture & Design",
+    "feature_list": [],
+    "estimatedTime": "2 weeks",
+    "startTime": "2023-10-05",
+    "endTime": "2023-10-19",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Develop Study Material Exchange Module",
+    "feature_list": [
+      "Upload and share study materials",
+      "Download and access materials",
+      "Peer review and comments"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-10-19",
+    "endTime": "2023-11-16",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P3",
+    "phase": "Develop Course Ratings Module",
+    "feature_list": [
+      "Rate courses",
+      "View aggregated ratings",
+      "Submit detailed reviews"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2023-10-19",
+    "endTime": "2023-11-09",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P4",
+    "phase": "Develop Multi-Network Support Module",
+    "feature_list": [
+      "Integration with various educational networks",
+      "Cross-platform access",
+      "Unified login system"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2023-10-19",
+    "endTime": "2023-11-09",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P5",
+    "phase": "Develop Student-Researcher Interaction Module",
+    "feature_list": [
+      "Direct messaging between students and researchers",
+      "Forum for academic queries",
+      "Collaborative project features"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2023-10-19",
+    "endTime": "2023-11-09",
+    "dependencies": ["P1"]
+  }
+]

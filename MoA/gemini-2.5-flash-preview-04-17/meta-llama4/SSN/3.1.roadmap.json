@@ -1,0 +1,142 @@
+[
+    {
+        "id": "P1",
+        "phase": "User Profile Development",
+        "feature_list": [
+            "user_id",
+            "username",
+            "email",
+            "role",
+            "institution",
+            "department"
+        ],
+        "estimatedTime": 4,
+        "startTime": "2024-09-16",
+        "endTime": "2024-09-19",
+        "dependencies": []
+    },
+    {
+        "id": "P8",
+        "phase": "Institution and Network Definition",
+        "feature_list": [
+            "institution_id",
+            "institution_name",
+            "network_id",
+            "network_name",
+            "network_type",
+            "network_description"
+        ],
+        "estimatedTime": 4,
+        "startTime": "2024-09-20",
+        "endTime": "2024-09-25",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P2",
+        "phase": "Content Sharing Development",
+        "feature_list": [
+            "material_id",
+            "material_type",
+            "material_title",
+            "material_description",
+            "material_file",
+            "material_rating"
+        ],
+        "estimatedTime": 6,
+        "startTime": "2024-09-20",
+        "endTime": "2024-09-30",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P3",
+        "phase": "Course and Teacher Evaluation Development",
+        "feature_list": [
+            "course_id",
+            "course_name",
+            "teacher_id",
+            "teacher_name",
+            "course_rating",
+            "teacher_rating",
+            "review_text"
+        ],
+        "estimatedTime": 6,
+        "startTime": "2024-09-20",
+        "endTime": "2024-09-30",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P5",
+        "phase": "Academic Information Development",
+        "feature_list": [
+            "academic_event_id",
+            "academic_event_title",
+            "academic_event_description",
+            "academic_event_date"
+        ],
+        "estimatedTime": 4,
+        "startTime": "2024-09-20",
+        "endTime": "2024-09-25",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P6",
+        "phase": "Network and Collaboration Development",
+        "feature_list": [
+            "user_network_status",
+            "collaborator_id",
+            "collaborator_name"
+        ],
+        "estimatedTime": 6,
+        "startTime": "2024-09-26",
+        "endTime": "2024-10-03",
+        "dependencies": [
+            "P1",
+            "P8"
+        ]
+    },
+    {
+        "id": "P4",
+        "phase": "Material Recommendation Development",
+        "feature_list": [
+            "recommended_material_id",
+            "recommended_material_title",
+            "recommendation_score"
+        ],
+        "estimatedTime": 4,
+        "startTime": "2024-10-01",
+        "endTime": "2024-10-04",
+        "dependencies": [
+            "P2",
+            "P3"
+        ]
+    },
+    {
+        "id": "P7",
+        "phase": "Search and Filtering Development",
+        "feature_list": [
+            "search_query",
+            "search_result",
+            "filter_by_institution",
+            "filter_by_department",
+            "filter_by_material_type"
+        ],
+        "estimatedTime": 4,
+        "startTime": "2024-10-04",
+        "endTime": "2024-10-09",
+        "dependencies": [
+            "P2",
+            "P3",
+            "P5",
+            "P6",
+            "P8"
+        ]
+    }
+]

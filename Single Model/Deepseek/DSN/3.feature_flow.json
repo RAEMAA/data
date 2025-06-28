@@ -1,0 +1,359 @@
+[
+  {
+    "category": "User Personalization Space",
+    "features": [
+      {
+        "featureName": "Customizable profile with themes and layouts",
+        "flow": "1. User navigates to 'Profile Settings' from the main menu. 2. User selects 'Themes & Layouts' to browse design options. 3. User previews and applies a theme. 4. User customizes layout by dragging/dropping modules (e.g., bio, recent posts). 5. User saves changes, updating their profile publicly.",
+        "screens": [
+          "Profile Settings: Hub for profile customization options.",
+          "Theme Gallery: Grid of theme options with preview thumbnails.",
+          "Layout Editor: Drag-and-drop interface for arranging profile elements.",
+          "Preview Screen: Live preview of the profile with selected theme/layout.",
+          "Confirmation Modal: Asks user to confirm changes before saving."
+        ]
+      },
+      {
+        "featureName": "Private/public journaling for emotions, dreams, and thoughts",
+        "flow": "1. User clicks 'New Journal Entry' on their profile. 2. User writes content and selects privacy (private/public). 3. User adds tags (e.g., #dream, #confession). 4. User saves the entry, which is stored in their journal. 5. Public entries appear in the user's feed for others to view/comment.",
+        "screens": [
+          "Journal Dashboard: Lists all entries with privacy status and tags.",
+          "Entry Creation Screen: Rich text editor with formatting tools.",
+          "Privacy Settings Toggle: Switch between private/public visibility.",
+          "Tag Selection Panel: Predefined/custom tags for categorization.",
+          "Entry Preview: Final review before publishing.",
+          "Journal Feed: Public entries displayed chronologically."
+        ]
+      },
+      {
+        "featureName": "Mood/emotion tagging for posts",
+        "flow": "1. User starts creating a post. 2. User selects 'Add Mood Tag' to choose from predefined emotions (e.g., happy, anxious). 3. Optionally, user creates a custom mood tag. 4. Post is published with the selected tags, making it searchable by mood.",
+        "screens": [
+          "Post Creation Screen: Text/image input with tagging options.",
+          "Mood Tag Selector: Grid of emojis/emotion labels for selection.",
+          "Custom Tag Modal: Field to define a new mood tag.",
+          "Post Preview: Displays tags alongside content for verification.",
+          "Confirmation Toast: Notifies user of successful post publication."
+        ]
+      },
+      {
+        "featureName": "Personal dashboard for tracking activity and connections",
+        "flow": "1. User accesses dashboard via homepage. 2. Dashboard displays activity stats (posts, reactions) and connection updates. 3. User filters data by date or category. 4. User clicks on a connection to view their profile or send a message.",
+        "screens": [
+          "Dashboard Home: Overview of metrics (weekly activity, new followers).",
+          "Activity Graph: Visualizes engagement trends over time.",
+          "Connection List: Scrollable list of recent connections with avatars.",
+          "Goal Progress Tracker: Bar charts showing progress on user-defined goals.",
+          "Filter/Sort Panel: Customizes dashboard data display."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Dream & Idea Sharing",
+    "features": [
+      {
+        "featureName": "Dream journal with multimedia support (text, images, audio)",
+        "flow": "1. **User** navigates to the Dream Journal section via the dashboard. 2. **User** selects 'New Entry' and chooses input format (text, image upload, or audio recording). 3. **User** adds title, content, and attaches media. 4. **User** saves as draft or publishes the entry. 5. **System** displays the entry in the journal timeline with multimedia previews. 6. **User** can later edit, delete, or share the entry publicly/anonymously.",
+        "screens": [
+          "Dashboard: Main navigation hub with access to journal, threads, and projects.",
+          "Journal Entry Creation: Form for text input, media upload buttons, and save/publish options.",
+          "Multimedia Preview: Displays uploaded images/audio with text content in a scrollable view.",
+          "Journal Timeline: Chronological list of entries with filters by media type or date."
+        ]
+      },
+      {
+        "featureName": "Idea/discussion threads with hashtags for categorization",
+        "flow": "1. **User** clicks 'Start a Thread' from the Discussion Hub. 2. **User** writes a title, description, and adds relevant hashtags (e.g., #LucidDreaming). 3. **User** posts publicly or anonymously. 4. **Other Users** discover the thread via hashtag search or feed recommendations. 5. **Users** reply, upvote, or share the thread. 6. **Moderator** monitors threads for inappropriate content and applies hashtag adjustments if needed.",
+        "screens": [
+          "Discussion Hub: Lists trending and recent threads with search/hashtag filters.",
+          "Thread Creation: Form for title, body, hashtag input, and privacy settings.",
+          "Thread Detail: Full thread view with comments, reactions, and sharing options.",
+          "Hashtag Search: Auto-suggestions and results for hashtag-based exploration."
+        ]
+      },
+      {
+        "featureName": "Collaborative project boards for shared goals",
+        "flow": "1. **User** creates a project board, sets a goal (e.g., 'Build a Dream Journal App'), and invites collaborators. 2. **Collaborators** add tasks, assign roles, and set deadlines. 3. **Users** update task statuses (To-Do, In Progress, Done). 4. **System** sends progress notifications to all members. 5. **Users** celebrate milestones via integrated comments or reactions. 6. **Admin** can archive or export the board upon completion.",
+        "screens": [
+          "Project Board List: Overview of active/archived projects with progress bars.",
+          "Board Creation: Setup for title, description, goals, and member invitations.",
+          "Task Management: Drag-and-drop interface for tasks with assignees and due dates.",
+          "Progress Dashboard: Visual charts showing task completion and member contributions."
+        ]
+      },
+      {
+        "featureName": "Option to share anonymously or publicly",
+        "flow": "1. **User** composes a post/entry/thread. 2. **User** toggles between 'Public' (displays username) and 'Anonymous' (uses generic avatar/pseudonym) sharing modes. 3. **System** warns if anonymous posts cannot be edited later. 4. **User** confirms and publishes. 5. **Other Users** interact with the content without seeing the author’s identity (if anonymous). 6. **Moderator** can still view the author’s identity for compliance purposes.",
+        "screens": [
+          "Privacy Toggle Screen: Selection interface during post creation with anonymity disclaimer.",
+          "Confirmation Modal: Final review of anonymity settings before publishing.",
+          "Anonymous Profile View: Generic avatar and placeholder name for anonymous posts.",
+          "Compliance Override: Moderator-only screen revealing anonymous authors when necessary."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Community Interaction & Collaboration",
+    "features": [
+      {
+        "featureName": "Global discussion forums by topic (e.g., aspirations, emotions)",
+        "flow": "1. User navigates to the 'Forums' section. 2. User selects a topic category (e.g., 'Aspirations'). 3. User browses existing threads or clicks 'Create New Thread'. 4. User writes a post, adds tags, and submits. 5. Other users comment, vote, or share the thread. Role: Regular User.",
+        "screens": [
+          "Forum Home Screen: Displays categorized topics and trending threads.",
+          "Topic Thread List Screen: Lists all threads under a selected topic with filters (e.g., 'Most Recent', 'Popular').",
+          "Thread Detail Screen: Shows full post, comments, and interaction options (e.g., react, reply, share).",
+          "Create New Thread Screen: Form for title, content, tags, and publishing."
+        ]
+      },
+      {
+        "featureName": "Reaction buttons (e.g., support, empathy, curiosity)",
+        "flow": "1. User views a post/comment. 2. User clicks the 'React' button. 3. User selects an emoji (e.g., ❤️ for support, 😢 for empathy). 4. Reaction is added to the post. 5. Original poster receives a notification. Role: Regular User.",
+        "screens": [
+          "Post/Thread Detail Screen: Displays reaction options below content.",
+          "Reaction Selection Modal: Pop-up with emoji choices and a preview of selected reactions.",
+          "Reactions Summary Screen: Shows aggregate reaction counts and user lists (accessible by tapping reaction icons)."
+        ]
+      },
+      {
+        "featureName": "Group chat and video call features for deeper connections",
+        "flow": "1. User joins or creates a group via the 'Groups' section. 2. User navigates to the group’s chat interface. 3. User starts a text chat or clicks 'Start Video Call'. 4. Participants receive invitations and join the session. 5. Users collaborate via screen-sharing or file uploads. Role: Regular User.",
+        "screens": [
+          "Group Details Screen: Overview of group members, rules, and activity history.",
+          "Group Chat Interface: Real-time messaging with multimedia support.",
+          "Video Call Lobby: Pre-call screen to configure audio/video settings.",
+          "Active Video Call Screen: Grid view of participants with controls (mute, screen share, exit)."
+        ]
+      },
+      {
+        "featureName": "Event creation for virtual meetups or workshops",
+        "flow": "1. User navigates to the 'Events' tab. 2. User clicks 'Create Event', fills in details (title, description, date/time, max attendees). 3. Event is published to a public calendar. 4. Users RSVP and receive reminders. 5. Host starts the event via a virtual meeting room. Role: Regular User (Host/Attendee).",
+        "screens": [
+          "Events Dashboard: Lists upcoming, ongoing, and past events with filters.",
+          "Create Event Form: Input fields for event metadata and customization (e.g., private/public).",
+          "Event Details Screen: Full description, RSVP button, and participant list.",
+          "Virtual Event Space: Live video/chat interface with breakout room options."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Goal Tracking & Motivation",
+    "features": [
+      {
+        "featureName": "Goal-setting templates with progress bars",
+        "flow": "1. **User** navigates to the 'Goals' section from the dashboard. 2. **User** selects a template (e.g., 'Fitness Goal', 'Career Milestone'). 3. **User** fills in goal details (title, description, milestones, deadlines). 4. **System** auto-generates a progress bar and saves the goal. 5. **User** views the goal dashboard with real-time progress updates. 6. **User** edits or archives goals as needed.",
+        "screens": [
+          "Goal Dashboard: Overview of all active/completed goals.",
+          "Template Gallery: Browse and select goal templates.",
+          "Goal Setup Form: Input fields for title, milestones, deadlines.",
+          "Progress Tracking Screen: Visual progress bar with milestone breakdown.",
+          "Edit Goal Screen: Modify goal details or delete goals."
+        ]
+      },
+      {
+        "featureName": "Milestone celebrations and badges",
+        "flow": "1. **System** detects milestone completion (e.g., 50% progress). 2. **System** triggers a celebration animation and badge notification. 3. **User** views the badge in their profile. 4. **User** shares the achievement publicly or with friends. 5. **Community Members** react/comment on shared milestones.",
+        "screens": [
+          "Milestone Pop-Up: Animated celebration with badge preview.",
+          "Badge Gallery: Collection of earned badges.",
+          "Share Achievement Screen: Options to post to feed or send privately.",
+          "Profile Badges Section: Displays badges with earned dates."
+        ]
+      },
+      {
+        "featureName": "Crowdsourced support requests (advice, resources, accountability partners)",
+        "flow": "1. **User** clicks 'Request Support' on a goal page. 2. **User** selects request type (advice, resources, or partners). 3. **User** writes a description and tags relevant categories. 4. **System** posts the request to the community feed or matches with potential partners. 5. **Community Members** respond with suggestions or volunteer. 6. **User** reviews and accepts support offers.",
+        "screens": [
+          "Support Request Form: Dropdown for type and text input for details.",
+          "Community Support Feed: List of open requests with filters.",
+          "Support Response Screen: View responses and message responders.",
+          "Accountability Partner Matching: Suggested profiles based on goal alignment."
+        ]
+      },
+      {
+        "featureName": "Public/private progress updates with community feedback",
+        "flow": "1. **User** clicks 'Share Update' on a goal page. 2. **User** writes an update, attaches media (optional), and selects visibility (public/private). 3. **System** posts the update to the user's profile or a public feed. 4. **Community Members** react, comment, or send encouragement. 5. **User** responds to feedback or edits the update.",
+        "screens": [
+          "Progress Update Editor: Rich text/media input with visibility toggle.",
+          "Public Updates Feed: Scrollable feed of community posts.",
+          "Private Journal Screen: User-only view of private updates.",
+          "Feedback Thread: Comments and reactions on public updates."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Feedback & Support Mechanisms",
+    "features": [
+      {
+        "featureName": "Polls and surveys for crowdsourced opinions",
+        "flow": "1. **User creates a poll/survey**: Member navigates to the 'Create Poll' option, selects type (multiple-choice, open-ended), adds questions, and sets a duration. 2. **Poll sharing**: The poll is posted to the user’s profile and relevant community feeds. 3. **Voting/response**: Followers or community members view the poll, submit responses, or share it further. 4. **Results aggregation**: After the deadline, results are automatically compiled and displayed visually. 5. **Notifications**: Voters receive updates when results are published.",
+        "screens": [
+          "Poll Creation Screen: Form for drafting poll questions, options, and settings.",
+          "Poll Feed Screen: Displays active polls in the user’s network with voting buttons.",
+          "Poll Voting Screen: Detailed view of a poll with interactive response options.",
+          "Results Screen: Charts/graphs showing aggregated responses and trends.",
+          "Notification Screen: Alerts users about new polls, voting reminders, or results."
+        ]
+      },
+      {
+        "featureName": "Q&A threads for problem-solving",
+        "flow": "1. **User posts a question**: Member starts a Q&A thread with tags (e.g., 'Career Advice', 'Creative Block'). 2. **Community engagement**: Others view the thread, upvote it for visibility, or submit answers. 3. **Answer validation**: The original poster marks a response as 'accepted solution.' 4. **Knowledge base integration**: Resolved threads are archived and searchable for future reference.",
+        "screens": [
+          "Q&A Creation Screen: Form to write a question, add tags, and set urgency.",
+          "Q&A Feed Screen: Lists active and trending questions with filters.",
+          "Thread Detail Screen: Displays the question, answers, and upvote/comment features.",
+          "Answer Submission Screen: Text editor for composing detailed responses.",
+          "Solution Highlight Screen: Shows the accepted answer prominently with badges."
+        ]
+      },
+      {
+        "featureName": "Mentorship/peer support matching system",
+        "flow": "1. **Profile setup**: Users specify areas of expertise or goals for mentorship. 2. **Algorithmic matching**: System suggests mentors/mentees based on interests, skills, and availability. 3. **Connection request**: User sends a mentorship request with a custom message. 4. **Session scheduling**: Matched pairs coordinate via an in-app calendar. 5. **Feedback loop**: Post-session ratings and reviews improve future matches.",
+        "screens": [
+          "Mentorship Profile Screen: Form to declare skills, goals, and preferences.",
+          "Matching Dashboard: Displays suggested mentors/mentees with bios and ratings.",
+          "Mentor/Mentee Profile Screen: Detailed view of a potential match’s background.",
+          "Connection Request Screen: Interface to send/accept mentorship invitations.",
+          "Session Chat Interface: In-app messaging with integrated video/call options."
+        ]
+      },
+      {
+        "featureName": "Feedback aggregation tools for ideas/dreams",
+        "flow": "1. **Idea submission**: User posts an idea/dream with context and goals. 2. **Community feedback**: Others react (e.g., emojis), comment, or suggest resources. 3. **Sentiment analysis**: Tool highlights recurring themes in feedback (e.g., '80% positive'). 4. **Progress tracking**: User updates the idea’s status, linking feedback to actionable steps.",
+        "screens": [
+          "Idea Submission Screen: Form to describe an idea/dream and attach media.",
+          "Idea Feed Screen: Displays community ideas with aggregated reaction metrics.",
+          "Feedback Overlay Screen: Pop-up for submitting comments or suggestions.",
+          "Feedback Dashboard: Visualizes sentiment trends, top contributors, and keywords.",
+          "Progress Update Screen: Allows users to log milestones influenced by feedback."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Privacy & Safety",
+    "features": [
+      {
+        "featureName": "Granular content visibility settings (public, friends-only, private)",
+        "flow": "1. User navigates to post creation or profile settings. [Role: User]\n2. User selects 'Visibility Settings' to choose audience (public, friends-only, private). [Role: User]\n3. User confirms selection, and the system applies visibility rules to the content. [Role: System]\n4. Content is displayed according to the selected visibility. [Role: System]",
+        "screens": [
+          "Post Creation Screen: Includes visibility dropdown menu for real-time audience selection.",
+          "Profile Settings Screen: Allows default visibility presets for future posts.",
+          "Preview Screen: Shows how content appears to different audiences (public/friends/private)."
+        ]
+      },
+      {
+        "featureName": "Anonymous posting and commenting",
+        "flow": "1. User toggles 'Anonymous Mode' before posting or commenting. [Role: User]\n2. System obscures user identity and assigns a temporary pseudonym. [Role: System]\n3. User submits content, which is displayed with the pseudonym. [Role: User]\n4. Moderators retain access to user identity for safety audits. [Role: Admin]",
+        "screens": [
+          "Anonymous Toggle Screen: Option to enable anonymity during content creation.",
+          "Confirmation Modal: Warns about irreversible anonymity once posted.",
+          "Anonymous Profile View: Displays pseudonym and generic avatar for anonymous interactions."
+        ]
+      },
+      {
+        "featureName": "AI-based content moderation for harmful material",
+        "flow": "1. AI scans new posts/comments in real-time for harmful content. [Role: System]\n2. Flagged content is hidden, and the user receives a moderation alert. [Role: System]\n3. User can appeal the decision via a form. [Role: User]\n4. Moderators review appeals and reinstate content if appropriate. [Role: Admin]",
+        "screens": [
+          "Moderation Alert Screen: Informs user of flagged content with violation details.",
+          "Appeal Submission Screen: Form for users to contest moderation decisions.",
+          "Moderator Dashboard: Lists flagged content and appeals for admin review."
+        ]
+      },
+      {
+        "featureName": "Block/report users with escalation protocols",
+        "flow": "1. User selects 'Block/Report' on a profile or post. [Role: User]\n2. User chooses report reason (e.g., harassment, spam). [Role: User]\n3. System blocks the reported user from interacting with the reporter. [Role: System]\n4. High-priority reports are escalated to moderators for immediate action. [Role: Admin]\n5. Moderators apply penalties (e.g., suspension) based on severity. [Role: Admin]",
+        "screens": [
+          "Report Modal: Dropdown menu for report type and optional details.",
+          "Block Confirmation Screen: Summarizes block consequences (e.g., no messages).",
+          "Moderator Escalation Dashboard: Prioritizes urgent reports for admins."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Discovery & Connection Tools",
+    "features": [
+      {
+        "featureName": "Algorithmic matching based on shared interests/dreams ('soulmate' feature)",
+        "flow": "1. User opts into 'Soulmate' feature in profile settings.\n2. System analyzes user's profile, interests, dreams, and activity history.\n3. User receives notifications for new matches.\n4. User navigates to Soulmate Hub to view suggestions.\n5. User clicks a match to view their profile (Match Profile Screen).\n6. User sends icebreaker message via pre-written templates.\n7. System updates suggestions based on interaction feedback.",
+        "screens": [
+          "Soulmate Hub: Grid/list of algorithmically suggested matches with compatibility scores.",
+          "Match Profile Screen: Detailed view of a soulmate's bio, shared interests, and recent activity.",
+          "Icebreaker Screen: Pre-written message templates and chat initiation interface."
+        ]
+      },
+      {
+        "featureName": "Advanced search filters (e.g., emotions, goals, locations)",
+        "flow": "1. User accesses Advanced Search from the discovery menu.\n2. User applies filters (emotion tags, goal categories, location radius).\n3. System displays real-time results with relevance sorting.\n4. User refines filters or selects a result to view full profile/discussion.\n5. User saves search criteria for future reuse.",
+        "screens": [
+          "Advanced Search Filters: Multi-select interface for emotions, goals, and map-based location picker.",
+          "Search Results: Paginated list of matching users, posts, or projects with filter highlights.",
+          "Saved Searches: Management panel for stored search configurations."
+        ]
+      },
+      {
+        "featureName": "Trending topics and highlighted community projects",
+        "flow": "1. User visits Trending section from the main navigation.\n2. System displays trending topics/projects based on engagement metrics.\n3. User selects a topic to view details, related discussions, and contributors.\n4. User joins discussion threads or follows projects for updates.",
+        "screens": [
+          "Trending Topics Feed: Carousel and list of trending items with engagement stats.",
+          "Project/Topic Detail Screen: Overview, participant count, milestones, and discussion previews.",
+          "Discussion Thread: Nested comments and multimedia support for collaborative conversations."
+        ]
+      },
+      {
+        "featureName": "Global map visualization of active users and discussions",
+        "flow": "1. User opens Global Map from discovery tools.\n2. System displays heatmap clusters of active discussions/users.\n3. User zooms/clicks a location to view activity summaries.\n4. User selects a discussion bubble to enter location-based threads.\n5. User participates in discussions or connects with local users.",
+        "screens": [
+          "Global Map View: Interactive world map with dynamic heatmap and clickable discussion clusters.",
+          "Location Activity Popup: Summary of active users, popular topics, and recent posts in the area.",
+          "Discussion Thread: Reused screen for location-specific conversations (linked from map)."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Notifications & Engagement",
+    "features": [
+      {
+        "featureName": "Personalized activity alerts (e.g., replies, milestones)",
+        "flow": "1. [System] Detects a user activity trigger (e.g., reply to a post, milestone achievement).\n2. [System] Sends a real-time push notification or in-app alert.\n3. [User] Views the notification in the Notification Center or via pop-up.\n4. [User] Clicks the notification to navigate to the relevant post, comment, or milestone details.\n5. [User] Optional: Dismisses or marks the notification as read.",
+        "screens": [
+          "Notification Center: Central hub for all alerts (replies, mentions, milestones).",
+          "Notification Settings: Customize alert types, frequency, and channels (push/email).",
+          "Milestone Celebration Screen: Displays celebratory animation/details when a milestone is achieved (e.g., 100 followers)."
+        ]
+      },
+      {
+        "featureName": "Daily/weekly inspiration based on user goals",
+        "flow": "1. [System] Analyzes user goals and activity patterns.\n2. [System] Curates personalized inspirational content (quotes, success stories, goal tips).\n3. [System] Delivers content via scheduled push notification or email.\n4. [User] Views inspiration in the 'Inspiration Feed' or via the notification link.\n5. [User] Optional: Saves, shares, or reacts to the content.",
+        "screens": [
+          "Inspiration Feed: Scrollable list of curated motivational content.",
+          "Goal Settings Screen: User defines/updates goals to tailor inspiration.",
+          "Inspiration History: Archive of past inspirational content for revisiting."
+        ]
+      },
+      {
+        "featureName": "Reminders for journaling or goal updates",
+        "flow": "1. [System] Schedules reminders based on user preferences (e.g., daily journaling at 8 PM).\n2. [System] Triggers a push notification or email reminder.\n3. [User] Views reminder and chooses to 'Dismiss' or 'Act Now'.\n4. [User] If 'Act Now', navigates to the Journal Entry or Goal Progress screen.\n5. [User] Completes journal entry/goal update, which syncs to their profile.",
+        "screens": [
+          "Reminder Settings: Set timing, frequency, and types of reminders.",
+          "Journal/Goal Update Screen: Interface to write entries or log progress.",
+          "Reminder Notification: Pop-up or banner prompting action."
+        ]
+      },
+      {
+        "featureName": "Community highlights newsletter",
+        "flow": "1. [System] Aggregates trending posts, popular goals, and community events weekly/monthly.\n2. [System] Generates and sends a newsletter via email or in-app message.\n3. [User] Opens newsletter to view curated highlights.\n4. [User] Clicks links to explore featured content or events.\n5. [User] Optional: Unsubscribes or adjusts newsletter preferences.",
+        "screens": [
+          "Newsletter Archive: Repository of past newsletters for reference.",
+          "Newsletter Subscription Settings: Manage frequency and content preferences.",
+          "Newsletter Content Screen: Formatted display of highlights with interactive links."
+        ]
+      }
+    ]
+  }
+]

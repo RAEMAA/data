@@ -1,0 +1,1764 @@
+[
+    [
+        {
+            "id": "P1-T1",
+            "taskName": "Design User Registration and Login UI",
+            "correspondingPhase": "Foundation",
+            "correspondingFeature": "User Registration and Login",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-03",
+            "endTime": "2024-07-03",
+            "dependencies": [],
+            "responsiblePerson": "UI Designer"
+        },
+        {
+            "id": "P1-T2",
+            "taskName": "Implement User Registration Functionality",
+            "correspondingPhase": "Foundation",
+            "correspondingFeature": "User Registration and Login",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-04",
+            "endTime": "2024-07-06",
+            "dependencies": [
+                "P1-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T3",
+            "taskName": "Implement User Login Functionality",
+            "correspondingPhase": "Foundation",
+            "correspondingFeature": "User Registration and Login",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-08",
+            "endTime": "2024-07-10",
+            "dependencies": [
+                "P1-T1",
+                "P1-T2"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T4",
+            "taskName": "Implement Password Reset Functionality",
+            "correspondingPhase": "Foundation",
+            "correspondingFeature": "User Registration and Login",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-11",
+            "endTime": "2024-07-12",
+            "dependencies": [
+                "P1-T2"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T5",
+            "taskName": "Test User Registration and Login",
+            "correspondingPhase": "Foundation",
+            "correspondingFeature": "User Registration and Login",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-15",
+            "endTime": "2024-07-16",
+            "dependencies": [
+                "P1-T2",
+                "P1-T3",
+                "P1-T4"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T6",
+            "taskName": "Design Profile Management UI",
+            "correspondingPhase": "Foundation",
+            "correspondingFeature": "Profile Management (including motorcycle garage)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-17",
+            "endTime": "2024-07-17",
+            "dependencies": [],
+            "responsiblePerson": "UI Designer"
+        },
+        {
+            "id": "P1-T7",
+            "taskName": "Implement Profile Creation Functionality",
+            "correspondingPhase": "Foundation",
+            "correspondingFeature": "Profile Management (including motorcycle garage)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-18",
+            "endTime": "2024-07-22",
+            "dependencies": [
+                "P1-T6"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T8",
+            "taskName": "Implement Profile Editing Functionality",
+            "correspondingPhase": "Foundation",
+            "correspondingFeature": "Profile Management (including motorcycle garage)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-23",
+            "endTime": "2024-07-25",
+            "dependencies": [
+                "P1-T6",
+                "P1-T7"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T9",
+            "taskName": "Design Motorcycle Garage UI",
+            "correspondingPhase": "Foundation",
+            "correspondingFeature": "Profile Management (including motorcycle garage)",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-26",
+            "endTime": "2024-07-26",
+            "dependencies": [
+                "P1-T6"
+            ],
+            "responsiblePerson": "UI Designer"
+        },
+        {
+            "id": "P1-T10",
+            "taskName": "Implement Motorcycle Garage Functionality",
+            "correspondingPhase": "Foundation",
+            "correspondingFeature": "Profile Management (including motorcycle garage)",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-07-29",
+            "endTime": "2024-08-01",
+            "dependencies": [
+                "P1-T7",
+                "P1-T9"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T11",
+            "taskName": "Test Profile Management and Motorcycle Garage",
+            "correspondingPhase": "Foundation",
+            "correspondingFeature": "Profile Management (including motorcycle garage)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-02",
+            "endTime": "2024-08-05",
+            "dependencies": [
+                "P1-T7",
+                "P1-T8",
+                "P1-T10"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T12",
+            "taskName": "Design Advanced Search Filters UI",
+            "correspondingPhase": "Foundation",
+            "correspondingFeature": "Advanced Search Filters (by make, model, year, price)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-06",
+            "endTime": "2024-08-06",
+            "dependencies": [],
+            "responsiblePerson": "UI Designer"
+        },
+        {
+            "id": "P1-T13",
+            "taskName": "Implement Make Filter",
+            "correspondingPhase": "Foundation",
+            "correspondingFeature": "Advanced Search Filters (by make, model, year, price)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-07",
+            "endTime": "2024-08-08",
+            "dependencies": [
+                "P1-T12"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T14",
+            "taskName": "Implement Model Filter",
+            "correspondingPhase": "Foundation",
+            "correspondingFeature": "Advanced Search Filters (by make, model, year, price)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-09",
+            "endTime": "2024-08-12",
+            "dependencies": [
+                "P1-T12"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T15",
+            "taskName": "Implement Year Filter",
+            "correspondingPhase": "Foundation",
+            "correspondingFeature": "Advanced Search Filters (by make, model, year, price)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-13",
+            "endTime": "2024-08-14",
+            "dependencies": [
+                "P1-T12"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T16",
+            "taskName": "Implement Price Filter",
+            "correspondingPhase": "Foundation",
+            "correspondingFeature": "Advanced Search Filters (by make, model, year, price)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-15",
+            "endTime": "2024-08-16",
+            "dependencies": [
+                "P1-T12"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T17",
+            "taskName": "Integrate Filters with Search Functionality",
+            "correspondingPhase": "Foundation",
+            "correspondingFeature": "Advanced Search Filters (by make, model, year, price)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-19",
+            "endTime": "2024-08-20",
+            "dependencies": [
+                "P1-T13",
+                "P1-T14",
+                "P1-T15",
+                "P1-T16"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T18",
+            "taskName": "Test Advanced Search Filters",
+            "correspondingPhase": "Foundation",
+            "correspondingFeature": "Advanced Search Filters (by make, model, year, price)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-21",
+            "endTime": "2024-08-22",
+            "dependencies": [
+                "P1-T17"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T19",
+            "taskName": "Design Detailed Listing UI",
+            "correspondingPhase": "Foundation",
+            "correspondingFeature": "Detailed Motorcycle Listings (with photos, descriptions, specifications)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-23",
+            "endTime": "2024-08-23",
+            "dependencies": [],
+            "responsiblePerson": "UI Designer"
+        },
+        {
+            "id": "P1-T20",
+            "taskName": "Implement Photo Upload Functionality",
+            "correspondingPhase": "Foundation",
+            "correspondingFeature": "Detailed Motorcycle Listings (with photos, descriptions, specifications)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-08-26",
+            "endTime": "2024-08-28",
+            "dependencies": [
+                "P1-T19"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P1-T21",
+            "taskName": "Implement Description Field",
+            "correspondingPhase": "Foundation",
+            "correspondingFeature": "Detailed Motorcycle Listings (with photos, descriptions, specifications)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-29",
+            "endTime": "2024-08-30",
+            "dependencies": [
+                "P1-T19"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P1-T22",
+            "taskName": "Implement Specifications Section",
+            "correspondingPhase": "Foundation",
+            "correspondingFeature": "Detailed Motorcycle Listings (with photos, descriptions, specifications)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-09-02",
+            "endTime": "2024-09-04",
+            "dependencies": [
+                "P1-T19"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P1-T23",
+            "taskName": "Integrate Listing Data with Database",
+            "correspondingPhase": "Foundation",
+            "correspondingFeature": "Detailed Motorcycle Listings (with photos, descriptions, specifications)",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-09-05",
+            "endTime": "2024-09-10",
+            "dependencies": [
+                "P1-T20",
+                "P1-T21",
+                "P1-T22"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T24",
+            "taskName": "Test Detailed Motorcycle Listings",
+            "correspondingPhase": "Foundation",
+            "correspondingFeature": "Detailed Motorcycle Listings (with photos, descriptions, specifications)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-11",
+            "endTime": "2024-09-12",
+            "dependencies": [
+                "P1-T23"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T25",
+            "taskName": "Design Seller Verification UI",
+            "correspondingPhase": "Foundation",
+            "correspondingFeature": "Seller Verification System",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-13",
+            "endTime": "2024-09-13",
+            "dependencies": [],
+            "responsiblePerson": "UI Designer"
+        },
+        {
+            "id": "P1-T26",
+            "taskName": "Implement ID Verification Module",
+            "correspondingPhase": "Foundation",
+            "correspondingFeature": "Seller Verification System",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-09-16",
+            "endTime": "2024-09-19",
+            "dependencies": [
+                "P1-T25"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T27",
+            "taskName": "Implement Address Verification Module",
+            "correspondingPhase": "Foundation",
+            "correspondingFeature": "Seller Verification System",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-09-20",
+            "endTime": "2024-09-24",
+            "dependencies": [
+                "P1-T25"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T28",
+            "taskName": "Implement Payment Method Verification",
+            "correspondingPhase": "Foundation",
+            "correspondingFeature": "Seller Verification System",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-09-25",
+            "endTime": "2024-09-27",
+            "dependencies": [
+                "P1-T25"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T29",
+            "taskName": "Integrate Verification Modules",
+            "correspondingPhase": "Foundation",
+            "correspondingFeature": "Seller Verification System",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-30",
+            "endTime": "2024-10-01",
+            "dependencies": [
+                "P1-T26",
+                "P1-T27",
+                "P1-T28"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T30",
+            "taskName": "Test Seller Verification System",
+            "correspondingPhase": "Foundation",
+            "correspondingFeature": "Seller Verification System",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-10-02",
+            "endTime": "2024-10-03",
+            "dependencies": [
+                "P1-T29"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P2-T1",
+            "taskName": "Design Forums/Discussion Boards UI",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Forums/Discussion Boards",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-08-29",
+            "endTime": "2024-09-02",
+            "dependencies": [
+                "P1-T1"
+            ],
+            "responsiblePerson": "UI Designer"
+        },
+        {
+            "id": "P2-T2",
+            "taskName": "Implement Forums/Discussion Boards Backend",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Forums/Discussion Boards",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-09-03",
+            "endTime": "2024-09-09",
+            "dependencies": [
+                "P2-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T3",
+            "taskName": "Implement Forums/Discussion Boards Frontend",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Forums/Discussion Boards",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-09-10",
+            "endTime": "2024-09-13",
+            "dependencies": [
+                "P2-T1",
+                "P2-T2"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T4",
+            "taskName": "Test Forums/Discussion Boards Functionality",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Forums/Discussion Boards",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-16",
+            "endTime": "2024-09-17",
+            "dependencies": [
+                "P2-T3"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P2-T5",
+            "taskName": "Design Forums Moderation Tools",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Forums/Discussion Boards",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-18",
+            "endTime": "2024-09-19",
+            "dependencies": [
+                "P2-T1"
+            ],
+            "responsiblePerson": "UI Designer"
+        },
+        {
+            "id": "P2-T6",
+            "taskName": "Implement Forums Moderation Tools",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Forums/Discussion Boards",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-09-20",
+            "endTime": "2024-09-24",
+            "dependencies": [
+                "P2-T5",
+                "P2-T2"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T7",
+            "taskName": "Test Forums Moderation Tools",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Forums/Discussion Boards",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-25",
+            "endTime": "2024-09-25",
+            "dependencies": [
+                "P2-T6"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P2-T8",
+            "taskName": "Design Seller Ratings and Reviews UI",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Seller Ratings and Reviews",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-09-26",
+            "endTime": "2024-09-30",
+            "dependencies": [
+                "P1-T1"
+            ],
+            "responsiblePerson": "UI Designer"
+        },
+        {
+            "id": "P2-T9",
+            "taskName": "Implement Seller Ratings and Reviews Backend",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Seller Ratings and Reviews",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-10-01",
+            "endTime": "2024-10-07",
+            "dependencies": [
+                "P2-T8"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T10",
+            "taskName": "Implement Seller Ratings and Reviews Frontend",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Seller Ratings and Reviews",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-10-08",
+            "endTime": "2024-10-11",
+            "dependencies": [
+                "P2-T8",
+                "P2-T9"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T11",
+            "taskName": "Test Seller Ratings and Reviews Functionality",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Seller Ratings and Reviews",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-10-14",
+            "endTime": "2024-10-15",
+            "dependencies": [
+                "P2-T10"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P2-T12",
+            "taskName": "Design Reporting Mechanism for Inappropriate Reviews",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Seller Ratings and Reviews",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-10-16",
+            "endTime": "2024-10-17",
+            "dependencies": [
+                "P2-T8"
+            ],
+            "responsiblePerson": "UI Designer"
+        },
+        {
+            "id": "P2-T13",
+            "taskName": "Implement Reporting Mechanism for Inappropriate Reviews",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Seller Ratings and Reviews",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-10-18",
+            "endTime": "2024-10-22",
+            "dependencies": [
+                "P2-T12",
+                "P2-T9"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T14",
+            "taskName": "Test Reporting Mechanism for Inappropriate Reviews",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Seller Ratings and Reviews",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-10-23",
+            "endTime": "2024-10-23",
+            "dependencies": [
+                "P2-T13"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P2-T15",
+            "taskName": "Research and Select VIN Lookup Service API",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Motorcycle History Reports (integration with VIN lookup services)",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-10-24",
+            "endTime": "2024-10-29",
+            "dependencies": [
+                "P1-T1"
+            ],
+            "responsiblePerson": "Technical Lead"
+        },
+        {
+            "id": "P2-T16",
+            "taskName": "Design Motorcycle History Report UI",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Motorcycle History Reports (integration with VIN lookup services)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-10-30",
+            "endTime": "2024-11-01",
+            "dependencies": [
+                "P2-T15"
+            ],
+            "responsiblePerson": "UI Designer"
+        },
+        {
+            "id": "P2-T17",
+            "taskName": "Implement VIN Lookup Service Integration",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Motorcycle History Reports (integration with VIN lookup services)",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-11-04",
+            "endTime": "2024-11-08",
+            "dependencies": [
+                "P2-T15",
+                "P2-T16"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T18",
+            "taskName": "Implement Motorcycle History Report Frontend",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Motorcycle History Reports (integration with VIN lookup services)",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-11-11",
+            "endTime": "2024-11-14",
+            "dependencies": [
+                "P2-T16",
+                "P2-T17"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T19",
+            "taskName": "Test Motorcycle History Report Functionality",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Motorcycle History Reports (integration with VIN lookup services)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-11-15",
+            "endTime": "2024-11-18",
+            "dependencies": [
+                "P2-T18"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P2-T20",
+            "taskName": "Implement Error Handling for VIN Lookup Failures",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Motorcycle History Reports (integration with VIN lookup services)",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-11-19",
+            "endTime": "2024-11-21",
+            "dependencies": [
+                "P2-T17"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T21",
+            "taskName": "Test Error Handling for VIN Lookup Failures",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Motorcycle History Reports (integration with VIN lookup services)",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-11-22",
+            "endTime": "2024-11-22",
+            "dependencies": [
+                "P2-T20"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P2-T22",
+            "taskName": "Define Criteria for Verified Seller Badges",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Verified Seller Badges",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-11-25",
+            "endTime": "2024-11-27",
+            "dependencies": [
+                "P1-T1"
+            ],
+            "responsiblePerson": "Product Owner"
+        },
+        {
+            "id": "P2-T23",
+            "taskName": "Design Verified Seller Badge UI",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Verified Seller Badges",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-11-28",
+            "endTime": "2024-11-29",
+            "dependencies": [
+                "P2-T22"
+            ],
+            "responsiblePerson": "UI Designer"
+        },
+        {
+            "id": "P2-T24",
+            "taskName": "Implement Verified Seller Badge System Backend",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Verified Seller Badges",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-12-02",
+            "endTime": "2024-12-06",
+            "dependencies": [
+                "P2-T22",
+                "P2-T23"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T25",
+            "taskName": "Implement Verified Seller Badge Display Frontend",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Verified Seller Badges",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-12-09",
+            "endTime": "2024-12-12",
+            "dependencies": [
+                "P2-T23",
+                "P2-T24"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T26",
+            "taskName": "Test Verified Seller Badge Functionality",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Verified Seller Badges",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-12-13",
+            "endTime": "2024-12-16",
+            "dependencies": [
+                "P2-T25"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P2-T27",
+            "taskName": "Implement Admin Interface for Managing Verified Sellers",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Verified Seller Badges",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-12-17",
+            "endTime": "2024-12-19",
+            "dependencies": [
+                "P2-T24"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T28",
+            "taskName": "Test Admin Interface for Managing Verified Sellers",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Verified Seller Badges",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-12-20",
+            "endTime": "2024-12-20",
+            "dependencies": [
+                "P2-T27"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P2-T29",
+            "taskName": "Design Community Moderation Dashboard UI",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Community Moderation",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-12-23",
+            "endTime": "2024-12-26",
+            "dependencies": [
+                "P1-T1"
+            ],
+            "responsiblePerson": "UI Designer"
+        },
+        {
+            "id": "P2-T30",
+            "taskName": "Implement Community Moderation Backend",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Community Moderation",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-12-27",
+            "endTime": "2025-01-02",
+            "dependencies": [
+                "P2-T29"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T31",
+            "taskName": "Implement Community Moderation Dashboard Frontend",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Community Moderation",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2025-01-03",
+            "endTime": "2025-01-08",
+            "dependencies": [
+                "P2-T29",
+                "P2-T30"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T32",
+            "taskName": "Test Community Moderation Functionality",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Community Moderation",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2025-01-09",
+            "endTime": "2025-01-10",
+            "dependencies": [
+                "P2-T31"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P2-T33",
+            "taskName": "Define Escalation Paths for Moderation Issues",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Community Moderation",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2025-01-13",
+            "endTime": "2025-01-14",
+            "dependencies": [
+                "P2-T30"
+            ],
+            "responsiblePerson": "Product Owner"
+        },
+        {
+            "id": "P2-T34",
+            "taskName": "Implement Automated Moderation Rules",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Community Moderation",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2025-01-15",
+            "endTime": "2025-01-17",
+            "dependencies": [
+                "P2-T30",
+                "P2-T33"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T35",
+            "taskName": "Test Automated Moderation Rules",
+            "correspondingPhase": "Community & Credibility - Phase 1",
+            "correspondingFeature": "Community Moderation",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2025-01-20",
+            "endTime": "2025-01-20",
+            "dependencies": [
+                "P2-T34"
+            ],
+            "responsiblePerson": "QA Tester"
+        }
+    ],
+    [
+        {
+            "id": "P3-T1",
+            "taskName": "Design Secure Payment Gateway Integration",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Secure Payment Options",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-10-10",
+            "endTime": "2024-10-11",
+            "dependencies": [],
+            "responsiblePerson": "Software Architect"
+        },
+        {
+            "id": "P3-T2",
+            "taskName": "Implement Secure Payment Gateway Integration",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Secure Payment Options",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-10-11",
+            "endTime": "2024-10-14",
+            "dependencies": [
+                "P3-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T3",
+            "taskName": "Design Payment Confirmation and Notification System",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Secure Payment Options",
+            "priority": "Medium",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-10-14",
+            "endTime": "2024-10-14",
+            "dependencies": [
+                "P3-T2"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T4",
+            "taskName": "Implement Payment Confirmation and Notification System",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Secure Payment Options",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-10-15",
+            "endTime": "2024-10-17",
+            "dependencies": [
+                "P3-T3"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P3-T5",
+            "taskName": "Implement Fraud Detection Measures",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Secure Payment Options",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-10-17",
+            "endTime": "2024-10-19",
+            "dependencies": [
+                "P3-T2"
+            ],
+            "responsiblePerson": "Security Engineer"
+        },
+        {
+            "id": "P3-T6",
+            "taskName": "Test Secure Payment Gateway Integration",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Secure Payment Options",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-10-19",
+            "endTime": "2024-10-20",
+            "dependencies": [
+                "P3-T4",
+                "P3-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T7",
+            "taskName": "Test Payment Confirmation and Notification System",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Secure Payment Options",
+            "priority": "Medium",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-10-20",
+            "endTime": "2024-10-20",
+            "dependencies": [
+                "P3-T6"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T8",
+            "taskName": "Test Fraud Detection Measures",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Secure Payment Options",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-10-21",
+            "endTime": "2024-10-22",
+            "dependencies": [
+                "P3-T6"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T9",
+            "taskName": "Design Shipping Options Interface",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Shipping/Transportation Options",
+            "priority": "Medium",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-10-22",
+            "endTime": "2024-10-22",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T10",
+            "taskName": "Implement Shipping Options Interface",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Shipping/Transportation Options",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-10-23",
+            "endTime": "2024-10-25",
+            "dependencies": [
+                "P3-T9"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P3-T11",
+            "taskName": "Design Integration with Shipping Providers",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Shipping/Transportation Options",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-10-25",
+            "endTime": "2024-10-26",
+            "dependencies": [],
+            "responsiblePerson": "Software Architect"
+        },
+        {
+            "id": "P3-T12",
+            "taskName": "Implement Integration with Shipping Providers (e.g., UPS, FedEx)",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Shipping/Transportation Options",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-10-26",
+            "endTime": "2024-10-29",
+            "dependencies": [
+                "P3-T11"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T13",
+            "taskName": "Implement Shipping Cost Calculation",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Shipping/Transportation Options",
+            "priority": "High",
+            "estimationTime": "1.5 days",
+            "startTime": "2024-10-29",
+            "endTime": "2024-10-31",
+            "dependencies": [
+                "P3-T12"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T14",
+            "taskName": "Implement Package Tracking Functionality",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Shipping/Transportation Options",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-10-31",
+            "endTime": "2024-11-02",
+            "dependencies": [
+                "P3-T12"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T15",
+            "taskName": "Test Shipping Options Interface",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Shipping/Transportation Options",
+            "priority": "Medium",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-11-02",
+            "endTime": "2024-11-02",
+            "dependencies": [
+                "P3-T10"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T16",
+            "taskName": "Test Integration with Shipping Providers",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Shipping/Transportation Options",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-11-03",
+            "endTime": "2024-11-04",
+            "dependencies": [
+                "P3-T12"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T17",
+            "taskName": "Test Shipping Cost Calculation",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Shipping/Transportation Options",
+            "priority": "High",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-11-04",
+            "endTime": "2024-11-04",
+            "dependencies": [
+                "P3-T13"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T18",
+            "taskName": "Test Package Tracking Functionality",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Shipping/Transportation Options",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-11-05",
+            "endTime": "2024-11-06",
+            "dependencies": [
+                "P3-T14"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T19",
+            "taskName": "Design Negotiation/Offer System Interface",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Negotiation/Offer System",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-11-06",
+            "endTime": "2024-11-07",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T20",
+            "taskName": "Implement Negotiation/Offer System Interface",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Negotiation/Offer System",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-11-07",
+            "endTime": "2024-11-09",
+            "dependencies": [
+                "P3-T19"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P3-T21",
+            "taskName": "Design Offer Submission and Management Logic",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Negotiation/Offer System",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-11-09",
+            "endTime": "2024-11-10",
+            "dependencies": [],
+            "responsiblePerson": "Software Architect"
+        },
+        {
+            "id": "P3-T22",
+            "taskName": "Implement Offer Submission and Management Logic",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Negotiation/Offer System",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-11-10",
+            "endTime": "2024-11-13",
+            "dependencies": [
+                "P3-T21"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T23",
+            "taskName": "Implement Real-time Offer Notifications",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Negotiation/Offer System",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-11-13",
+            "endTime": "2024-11-15",
+            "dependencies": [
+                "P3-T22"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T24",
+            "taskName": "Implement Offer Acceptance/Rejection Logic",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Negotiation/Offer System",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-11-15",
+            "endTime": "2024-11-17",
+            "dependencies": [
+                "P3-T22"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T25",
+            "taskName": "Test Negotiation/Offer System Interface",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Negotiation/Offer System",
+            "priority": "Medium",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-11-17",
+            "endTime": "2024-11-17",
+            "dependencies": [
+                "P3-T20"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T26",
+            "taskName": "Test Offer Submission and Management Logic",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Negotiation/Offer System",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-11-18",
+            "endTime": "2024-11-19",
+            "dependencies": [
+                "P3-T22"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T27",
+            "taskName": "Test Real-time Offer Notifications",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Negotiation/Offer System",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-11-19",
+            "endTime": "2024-11-20",
+            "dependencies": [
+                "P3-T23"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T28",
+            "taskName": "Test Offer Acceptance/Rejection Logic",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Negotiation/Offer System",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-11-20",
+            "endTime": "2024-11-21",
+            "dependencies": [
+                "P3-T24"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T29",
+            "taskName": "Design Purchase/Sale History Database Schema",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Purchase/Sale History",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-11-21",
+            "endTime": "2024-11-22",
+            "dependencies": [],
+            "responsiblePerson": "Database Architect"
+        },
+        {
+            "id": "P3-T30",
+            "taskName": "Implement Purchase/Sale History Database Schema",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Purchase/Sale History",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-11-22",
+            "endTime": "2024-11-24",
+            "dependencies": [
+                "P3-T29"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T31",
+            "taskName": "Design Purchase/Sale History Interface",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Purchase/Sale History",
+            "priority": "Medium",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-11-24",
+            "endTime": "2024-11-24",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T32",
+            "taskName": "Implement Purchase/Sale History Interface",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Purchase/Sale History",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-11-25",
+            "endTime": "2024-11-27",
+            "dependencies": [
+                "P3-T31",
+                "P3-T30"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P3-T33",
+            "taskName": "Implement Logic to Record Purchase/Sale Transactions",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Purchase/Sale History",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-11-25",
+            "endTime": "2024-11-27",
+            "dependencies": [
+                "P3-T30"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T34",
+            "taskName": "Test Purchase/Sale History Interface",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Purchase/Sale History",
+            "priority": "Medium",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-11-27",
+            "endTime": "2024-11-27",
+            "dependencies": [
+                "P3-T32"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T35",
+            "taskName": "Test Recording of Purchase/Sale Transactions",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Purchase/Sale History",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-11-27",
+            "endTime": "2024-11-28",
+            "dependencies": [
+                "P3-T33"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T36",
+            "taskName": "Design Two-Factor Authentication Flow",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Account Security Settings (two-factor authentication)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-11-28",
+            "endTime": "2024-11-29",
+            "dependencies": [],
+            "responsiblePerson": "Security Architect"
+        },
+        {
+            "id": "P3-T37",
+            "taskName": "Implement Two-Factor Authentication Flow",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Account Security Settings (two-factor authentication)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-11-29",
+            "endTime": "2024-12-02",
+            "dependencies": [
+                "P3-T36"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T38",
+            "taskName": "Design 2FA Settings Interface",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Account Security Settings (two-factor authentication)",
+            "priority": "Medium",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-12-02",
+            "endTime": "2024-12-02",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T39",
+            "taskName": "Implement 2FA Settings Interface",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Account Security Settings (two-factor authentication)",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-12-03",
+            "endTime": "2024-12-05",
+            "dependencies": [
+                "P3-T38"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P3-T40",
+            "taskName": "Implement 2FA Code Generation and Verification",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Account Security Settings (two-factor authentication)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-12-03",
+            "endTime": "2024-12-05",
+            "dependencies": [
+                "P3-T37"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T41",
+            "taskName": "Implement Recovery Code Generation and Storage",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Account Security Settings (two-factor authentication)",
+            "priority": "Medium",
+            "estimationTime": "1.5 days",
+            "startTime": "2024-12-05",
+            "endTime": "2024-12-06",
+            "dependencies": [
+                "P3-T37"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T42",
+            "taskName": "Test Two-Factor Authentication Flow",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Account Security Settings (two-factor authentication)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-12-06",
+            "endTime": "2024-12-07",
+            "dependencies": [
+                "P3-T37",
+                "P3-T39"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T43",
+            "taskName": "Test 2FA Settings Interface",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Account Security Settings (two-factor authentication)",
+            "priority": "Medium",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-12-07",
+            "endTime": "2024-12-07",
+            "dependencies": [
+                "P3-T39"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T44",
+            "taskName": "Test 2FA Code Generation and Verification",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Account Security Settings (two-factor authentication)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-12-08",
+            "endTime": "2024-12-09",
+            "dependencies": [
+                "P3-T40"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T45",
+            "taskName": "Test Recovery Code Generation and Storage",
+            "correspondingPhase": "Transactions & Security",
+            "correspondingFeature": "Account Security Settings (two-factor authentication)",
+            "priority": "Medium",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-12-09",
+            "endTime": "2024-12-09",
+            "dependencies": [
+                "P3-T41"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P4-T1",
+            "taskName": "Design Motorcycle Valuation Tool Interface",
+            "correspondingPhase": "Advanced Features & Community - Phase 2",
+            "correspondingFeature": "Motorcycle Valuation Tool",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-11-28",
+            "endTime": "2024-12-02",
+            "dependencies": [
+                "P2",
+                "P3"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T2",
+            "taskName": "Implement Motorcycle Valuation Algorithm",
+            "correspondingPhase": "Advanced Features & Community - Phase 2",
+            "correspondingFeature": "Motorcycle Valuation Tool",
+            "priority": "High",
+            "estimationTime": "1 week",
+            "startTime": "2024-12-03",
+            "endTime": "2024-12-10",
+            "dependencies": [
+                "P4-T1"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P4-T3",
+            "taskName": "Test Motorcycle Valuation Tool",
+            "correspondingPhase": "Advanced Features & Community - Phase 2",
+            "correspondingFeature": "Motorcycle Valuation Tool",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-12-11",
+            "endTime": "2024-12-13",
+            "dependencies": [
+                "P4-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T4",
+            "taskName": "Design Auction Functionality Interface",
+            "correspondingPhase": "Advanced Features & Community - Phase 2",
+            "correspondingFeature": "Auction Functionality",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-12-16",
+            "endTime": "2024-12-20",
+            "dependencies": [
+                "P2",
+                "P3"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T5",
+            "taskName": "Implement Auction Bidding System",
+            "correspondingPhase": "Advanced Features & Community - Phase 2",
+            "correspondingFeature": "Auction Functionality",
+            "priority": "High",
+            "estimationTime": "1.5 weeks",
+            "startTime": "2024-12-23",
+            "endTime": "2025-01-03",
+            "dependencies": [
+                "P4-T4"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P4-T6",
+            "taskName": "Test Auction Functionality",
+            "correspondingPhase": "Advanced Features & Community - Phase 2",
+            "correspondingFeature": "Auction Functionality",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2025-01-06",
+            "endTime": "2025-01-10",
+            "dependencies": [
+                "P4-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T7",
+            "taskName": "Design Saved Searches and Notifications System",
+            "correspondingPhase": "Advanced Features & Community - Phase 2",
+            "correspondingFeature": "Saved Searches and Notifications",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2025-01-13",
+            "endTime": "2025-01-15",
+            "dependencies": [
+                "P2",
+                "P3"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T8",
+            "taskName": "Implement Saved Searches and Notifications Logic",
+            "correspondingPhase": "Advanced Features & Community - Phase 2",
+            "correspondingFeature": "Saved Searches and Notifications",
+            "priority": "High",
+            "estimationTime": "1 week",
+            "startTime": "2025-01-16",
+            "endTime": "2025-01-23",
+            "dependencies": [
+                "P4-T7"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P4-T9",
+            "taskName": "Test Saved Searches and Notifications Functionality",
+            "correspondingPhase": "Advanced Features & Community - Phase 2",
+            "correspondingFeature": "Saved Searches and Notifications",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2025-01-24",
+            "endTime": "2025-01-28",
+            "dependencies": [
+                "P4-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T10",
+            "taskName": "Design Featured Listings Placement and Display",
+            "correspondingPhase": "Advanced Features & Community - Phase 2",
+            "correspondingFeature": "Featured Listings",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-11-28",
+            "endTime": "2024-12-02",
+            "dependencies": [
+                "P2",
+                "P3"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T11",
+            "taskName": "Implement Featured Listings Logic and Payment System",
+            "correspondingPhase": "Advanced Features & Community - Phase 2",
+            "correspondingFeature": "Featured Listings",
+            "priority": "High",
+            "estimationTime": "1 week",
+            "startTime": "2024-12-03",
+            "endTime": "2024-12-10",
+            "dependencies": [
+                "P4-T10"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P4-T12",
+            "taskName": "Test Featured Listings Functionality and Payment Flow",
+            "correspondingPhase": "Advanced Features & Community - Phase 2",
+            "correspondingFeature": "Featured Listings",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-12-11",
+            "endTime": "2024-12-13",
+            "dependencies": [
+                "P4-T11"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T13",
+            "taskName": "Design Motorcycle Comparison Interface",
+            "correspondingPhase": "Advanced Features & Community - Phase 2",
+            "correspondingFeature": "Compare Motorcycles Side-by-Side",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-12-16",
+            "endTime": "2024-12-20",
+            "dependencies": [
+                "P2",
+                "P3"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T14",
+            "taskName": "Implement Motorcycle Comparison Logic",
+            "correspondingPhase": "Advanced Features & Community - Phase 2",
+            "correspondingFeature": "Compare Motorcycles Side-by-Side",
+            "priority": "High",
+            "estimationTime": "1.5 weeks",
+            "startTime": "2024-12-23",
+            "endTime": "2025-01-03",
+            "dependencies": [
+                "P4-T13"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P4-T15",
+            "taskName": "Test Motorcycle Comparison Functionality",
+            "correspondingPhase": "Advanced Features & Community - Phase 2",
+            "correspondingFeature": "Compare Motorcycles Side-by-Side",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2025-01-06",
+            "endTime": "2025-01-10",
+            "dependencies": [
+                "P4-T14"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ]
+]

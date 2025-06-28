@@ -1,0 +1,288 @@
+[
+    {
+        "category": "User Profile",
+        "features": [
+            {
+                "featureName": "Creating a Profile",
+                "flow": "1. **User (New):** Navigates to the registration/sign-up page.2. **User (New):** Enters required information (username, email, password).3. **System:** Validates the entered information.4. **User (New):** Optionally adds profile details (bio, interests, dreams, location, profile picture).5. **User (New):** Confirms profile creation.6. **System:** Creates the user profile and redirects the user to their profile page or the main feed.",
+                "screens": [
+                    "Registration Screen: Allows new users to create an account with basic information.",
+                    "Profile Creation Screen: Allows users to add details to their profile (bio, interests, dreams, location, profile picture).",
+                    "Profile Confirmation Screen: Displays the entered information for review before final submission.",
+                    "Profile Page: Displays the user's profile information to themselves and other users."
+                ]
+            },
+            {
+                "featureName": "Editing a Profile",
+                "flow": "1. **User (Existing):** Navigates to their profile page.2. **User (Existing):** Clicks on the 'Edit Profile' button/link.3. **System:** Redirects the user to the profile editing screen.4. **User (Existing):** Modifies profile information (bio, interests, dreams, location, profile picture).5. **User (Existing):** Saves the changes.6. **System:** Updates the profile information and redirects the user back to their profile page.",
+                "screens": [
+                    "Profile Page: Displays the user's profile information.",
+                    "Edit Profile Screen: Allows users to modify their profile information.",
+                    "Profile Page: Displays the updated profile information."
+                ]
+            },
+            {
+                "featureName": "Viewing a Profile",
+                "flow": "1. **User:** Navigates to a user's profile (e.g., by clicking on their username in a post or search result).2. **System:** Displays the selected user's profile page.3. **User:** Views the profile information (username, bio, interests, dreams, posts).",
+                "screens": [
+                    "Profile Page: Displays the user's profile information to other users."
+                ]
+            },
+            {
+                "featureName": "Changing Profile Picture",
+                "flow": "1. **User (Existing):** Navigates to their profile page.2. **User (Existing):** Clicks on the 'Edit Profile' button/link.3. **System:** Redirects the user to the profile editing screen.4. **User (Existing):** Clicks on the 'Change Profile Picture' option.5. **System:** Opens a file selection dialog or camera interface.6. **User (Existing):** Selects a new profile picture.7. **System:** Previews the selected picture.8. **User (Existing):** Confirms the new profile picture.9. **System:** Updates the profile picture and redirects the user back to their profile page.",
+                "screens": [
+                    "Profile Page: Displays the user's profile information.",
+                    "Edit Profile Screen: Allows users to modify their profile information.",
+                    "Profile Picture Preview Screen: Allows users to preview the selected profile picture before saving.",
+                    "Profile Page: Displays the updated profile information."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "User Profile",
+        "features": [
+            {
+                "featureName": "Creating a Profile",
+                "flow": "1. **User (New User):** Navigates to the registration/signup page.2. **System:** Presents the registration form with fields for email, password, username, and potentially a profile picture upload.3. **User:** Enters required information and submits the form.4. **System:** Validates the entered information. If valid, creates a new user account. If invalid, displays error messages.5. **System:** Redirects the user to the profile creation page.6. **User:** Fills in profile details such as bio, interests, dreams, and other relevant information.7. **User:** Uploads a profile picture (optional).8. **User:** Saves the profile.9. **System:** Saves the profile information and redirects the user to their profile page.",
+                "screens": [
+                    "Registration Screen: Allows new users to create an account with email, password, and username.",
+                    "Profile Creation Screen: Allows users to enter their profile details, including bio, interests, dreams, and profile picture.",
+                    "Profile Page: Displays the user's profile information to themselves and other users."
+                ]
+            },
+            {
+                "featureName": "Editing a Profile",
+                "flow": "1. **User (Logged-in User):** Navigates to their profile page.2. **User:** Clicks on the 'Edit Profile' button/link.3. **System:** Redirects the user to the profile editing page, pre-populated with existing profile data.4. **User:** Modifies the profile details as desired.5. **User:** Uploads a new profile picture or removes the existing one (optional).6. **User:** Saves the changes.7. **System:** Validates the updated information. If valid, updates the profile information. If invalid, displays error messages.8. **System:** Redirects the user back to their profile page with the updated information.",
+                "screens": [
+                    "Profile Page: Displays the user's profile information and provides an 'Edit Profile' option.",
+                    "Profile Editing Screen: Allows users to modify their profile details, including bio, interests, dreams, and profile picture."
+                ]
+            },
+            {
+                "featureName": "Viewing a Profile",
+                "flow": "1. **User (Logged-in User):** Clicks on a user's name or profile picture from a post, search result, or friend list.2. **System:** Retrieves the profile information of the selected user.3. **System:** Displays the profile page of the selected user, showing their profile picture, bio, interests, dreams, and potentially recent posts or activity.",
+                "screens": [
+                    "Profile Page: Displays the profile information of a specific user."
+                ]
+            },
+            {
+                "featureName": "Changing Profile Picture",
+                "flow": "1. **User (Logged-in User):** Navigates to the profile editing screen.2. **User:** Clicks on the 'Change Profile Picture' option.3. **System:** Opens a file selection dialog or allows the user to take a new picture using their device's camera.4. **User:** Selects a new profile picture.5. **System:** Allows the user to crop and resize the image.6. **User:** Saves the changes.7. **System:** Updates the profile picture and redirects the user back to their profile page or the profile editing screen.",
+                "screens": [
+                    "Profile Editing Screen: Allows users to access the 'Change Profile Picture' option.",
+                    "Image Cropping/Resizing Screen: Allows users to crop and resize the selected image before setting it as their profile picture."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "User Profile",
+        "features": [
+            {
+                "featureName": "Creating a Profile",
+                "flow": "1. **User (New):** Navigates to the registration/signup page.2. **User (New):** Enters required information (username, email, password).3. **System:** Validates the entered information.4. **User (New):** Optionally adds profile details (bio, interests, profile picture).5. **User (New):** Confirms profile creation.6. **System:** Creates the user profile and redirects the user to the home feed or profile page.7. **User (Existing):** Navigates to the profile settings page.8. **User (Existing):** Edits profile details (bio, interests, profile picture, etc.).9. **User (Existing):** Saves changes.10. **System:** Updates the user profile and displays a confirmation message.",
+                "screens": [
+                    "Registration Screen: Allows new users to create an account.",
+                    "Profile Creation Screen: Allows users to add details to their profile (bio, interests, profile picture).",
+                    "Profile Settings Screen: Allows users to edit their profile information.",
+                    "Confirmation Screen/Message: Confirms successful profile creation or update."
+                ]
+            },
+            {
+                "featureName": "Viewing a Profile",
+                "flow": "1. **User:** Navigates to a user profile (e.g., by clicking on a username in a post or search result).2. **System:** Retrieves and displays the profile information of the selected user.3. **User:** Views the profile information (username, bio, posts, followers, following).",
+                "screens": [
+                    "User Profile Screen: Displays the profile information of a specific user."
+                ]
+            },
+            {
+                "featureName": "Editing Profile Information",
+                "flow": "1. **User:** Navigates to their own profile page.2. **User:** Clicks on the 'Edit Profile' button/link.3. **System:** Redirects the user to the profile editing screen.4. **User:** Modifies the desired profile fields (e.g., bio, interests, profile picture).5. **User:** Saves the changes.6. **System:** Updates the profile information and redirects the user back to their profile page with a confirmation message.",
+                "screens": [
+                    "User Profile Screen: Displays the user's profile information and an 'Edit Profile' button.",
+                    "Profile Editing Screen: Allows the user to modify their profile information.",
+                    "Confirmation Message: Displays a message confirming the successful update of the profile information."
+                ]
+            },
+            {
+                "featureName": "Changing Profile Picture",
+                "flow": "1. **User:** Navigates to their profile settings.2. **User:** Selects the option to change their profile picture.3. **System:** Presents options for uploading a new picture (e.g., from device, from camera).4. **User:** Selects a new picture.5. **System:** Allows the user to crop and resize the picture.6. **User:** Saves the changes.7. **System:** Updates the profile picture and displays a confirmation message.",
+                "screens": [
+                    "Profile Settings Screen: Contains the option to change the profile picture.",
+                    "Image Upload/Selection Screen: Allows the user to select a new profile picture.",
+                    "Image Cropping/Resizing Screen: Allows the user to crop and resize the selected picture.",
+                    "Confirmation Message: Displays a message confirming the successful update of the profile picture."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "User Profile",
+        "features": [
+            {
+                "featureName": "Creating a Profile",
+                "flow": "1. **User (New):** Navigates to the registration/signup page.2. **User (New):** Enters required information (username, email, password).3. **System:** Validates the entered information.4. **User (New):** Completes any CAPTCHA or verification steps.5. **System:** Creates a basic profile with default settings.6. **User (New):** Is redirected to the profile editing screen.7. **User:** Enters personal details (bio, interests, dreams, location, profile picture).8. **User:** Sets privacy settings for different profile sections.9. **User:** Saves the profile information.10. **System:** Updates the user's profile with the provided information.11. **User:** Is redirected to their profile view.",
+                "screens": [
+                    "Registration Screen: Allows new users to create an account.",
+                    "Profile Editing Screen: Allows users to input and modify their personal information, interests, and privacy settings.",
+                    "Profile View Screen: Displays the user's profile information to themselves and others based on privacy settings."
+                ]
+            },
+            {
+                "featureName": "Viewing a Profile",
+                "flow": "1. **User:** Navigates to a user's profile (e.g., by clicking on their username in a post or search result).2. **System:** Checks the privacy settings of the target profile.3. **System:** Displays the profile information according to the privacy settings.4. **User:** Views the profile information (posts, dreams, interests, etc.).5. **User:** Can follow the user (if not already following and if the option is available).6. **User:** Can send a message to the user (if the option is available and privacy settings allow).",
+                "screens": [
+                    "Profile View Screen: Displays the user's profile information to other users, respecting privacy settings.",
+                    "Follow/Unfollow Button: Allows users to follow or unfollow other users.",
+                    "Message Button: Allows users to send a direct message to the profile owner (subject to privacy settings)."
+                ]
+            },
+            {
+                "featureName": "Editing a Profile",
+                "flow": "1. **User:** Navigates to their profile page.2. **User:** Clicks on the 'Edit Profile' button or link.3. **System:** Redirects the user to the profile editing screen.4. **User:** Modifies the desired profile information (bio, interests, dreams, location, profile picture, privacy settings).5. **User:** Saves the changes.6. **System:** Validates the updated information.7. **System:** Updates the user's profile with the new information.8. **User:** Is redirected back to their profile view.",
+                "screens": [
+                    "Profile View Screen: Displays the user's profile with an 'Edit Profile' button/link.",
+                    "Profile Editing Screen: Allows users to modify their profile information.",
+                    "Confirmation/Success Message: Displays a message confirming that the profile has been updated."
+                ]
+            },
+            {
+                "featureName": "Changing Profile Picture",
+                "flow": "1. **User:** Navigates to the profile editing screen.2. **User:** Clicks on the 'Change Profile Picture' option.3. **System:** Presents options to upload a new picture or choose from existing ones (if applicable).4. **User:** Uploads a new picture from their device or selects an existing one.5. **System:** Allows the user to crop and resize the picture.6. **User:** Saves the changes.7. **System:** Updates the profile picture.8. **User:** Is redirected back to the profile view.",
+                "screens": [
+                    "Profile Editing Screen: Contains the 'Change Profile Picture' option.",
+                    "Image Upload/Selection Screen: Allows users to upload a new image or select from existing ones.",
+                    "Image Cropping/Resizing Tool: Allows users to adjust the profile picture.",
+                    "Profile View Screen: Displays the updated profile picture."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "User Profile",
+        "features": [
+            {
+                "featureName": "Create Profile",
+                "flow": "1. **User (New):** Navigates to the registration/signup page.2. **User:** Enters required information (email, password, username).3. **System:** Validates the entered information.4. **User:** Completes profile details (name, bio, interests, profile picture).5. **User:** Saves profile information.6. **System:** Stores profile information in the database.7. **User:** Redirected to the home feed or profile page.",
+                "screens": [
+                    "Registration Screen: Allows new users to create an account with email, password, and username.",
+                    "Profile Creation Screen: Allows users to enter personal details like name, bio, interests, and upload a profile picture.",
+                    "Home Feed Screen: Displays posts from other users after successful profile creation.",
+                    "Profile Screen: Displays the user's own profile information."
+                ]
+            },
+            {
+                "featureName": "Edit Profile",
+                "flow": "1. **User (Existing):** Navigates to their profile page.2. **User:** Selects the 'Edit Profile' option.3. **System:** Displays editable profile fields (name, bio, interests, profile picture).4. **User:** Modifies desired profile information.5. **User:** Saves the changes.6. **System:** Updates profile information in the database.7. **User:** Redirected back to their profile page with updated information.",
+                "screens": [
+                    "Profile Screen: Displays the user's profile information and provides an 'Edit Profile' button.",
+                    "Edit Profile Screen: Allows users to modify their profile details (name, bio, interests, profile picture).",
+                    "Profile Screen: Displays the updated user profile information after saving changes."
+                ]
+            },
+            {
+                "featureName": "View Profile",
+                "flow": "1. **User:** Navigates to a user's profile (e.g., by clicking on their username in a post or search result).2. **System:** Retrieves the profile information from the database.3. **System:** Displays the profile information (username, bio, posts, followers, following).4. **User:** Views the profile information.",
+                "screens": [
+                    "Profile Screen: Displays the profile information of a specific user, including their posts, bio, followers, and following."
+                ]
+            },
+            {
+                "featureName": "Follow/Unfollow User",
+                "flow": "1. **User:** Navigates to another user's profile.2. **System:** Displays a 'Follow' or 'Unfollow' button based on the current follow status.3. **User:** Clicks the 'Follow' or 'Unfollow' button.4. **System:** Updates the follow relationship in the database.5. **System:** Updates the button state (Follow -> Unfollow or Unfollow -> Follow).6. **System:** Notifies the followed user (optional).",
+                "screens": [
+                    "Profile Screen: Displays the profile of another user, including a 'Follow' or 'Unfollow' button.",
+                    "Notification Screen (Optional): Displays a notification to the user who was followed."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "User Profile",
+        "features": [
+            {
+                "featureName": "Creating a Profile",
+                "flow": "1. **User (New):** Navigates to the registration/signup page.2. **User (New):** Enters required information (username, email, password).3. **System:** Validates the entered information.4. **User (New):** Optionally adds profile details (bio, interests, dream categories).5. **User (New):** Uploads a profile picture (optional).6. **System:** Saves the profile information to the database.7. **User (New):** Is redirected to their profile page or the main feed.",
+                "screens": [
+                    "Registration Screen: Allows new users to create an account with basic information.",
+                    "Profile Creation Screen: Allows users to add details to their profile (bio, interests, dream categories, profile picture).",
+                    "Profile Picture Upload Screen: Allows users to upload or select a profile picture.",
+                    "Confirmation Screen/Modal: Confirms successful profile creation and redirects to the user's profile or main feed."
+                ]
+            },
+            {
+                "featureName": "Viewing a Profile",
+                "flow": "1. **User (Existing):** Navigates to a user's profile (e.g., by clicking on their username in a post or search result).2. **System:** Retrieves the profile information from the database.3. **System:** Displays the profile information to the user.4. **User (Existing):** Views the user's profile details, posts, and followers/following information.5. **User (Existing):** Can choose to follow the user or send a message (if enabled).",
+                "screens": [
+                    "Profile Screen: Displays the user's profile information, including bio, posts, followers, and following.",
+                    "Post List (within Profile Screen): Displays a list of posts made by the user.",
+                    "Follow/Unfollow Button (within Profile Screen): Allows the user to follow or unfollow the profile being viewed.",
+                    "Message Button (within Profile Screen): Allows the user to send a direct message to the profile being viewed (if enabled)."
+                ]
+            },
+            {
+                "featureName": "Editing a Profile",
+                "flow": "1. **User (Existing):** Navigates to their own profile page.2. **User (Existing):** Clicks on the 'Edit Profile' button.3. **System:** Redirects the user to the profile editing screen.4. **User (Existing):** Modifies profile details (bio, interests, dream categories, profile picture).5. **User (Existing):** Saves the changes.6. **System:** Updates the profile information in the database.7. **User (Existing):** Is redirected back to their profile page with the updated information.",
+                "screens": [
+                    "Profile Screen: Displays the user's profile information and includes an 'Edit Profile' button.",
+                    "Profile Edit Screen: Allows the user to modify their profile details (bio, interests, dream categories, profile picture).",
+                    "Profile Picture Upload Screen (within Profile Edit Screen): Allows users to upload or select a new profile picture.",
+                    "Confirmation Screen/Modal: Confirms successful profile update and redirects back to the user's profile."
+                ]
+            },
+            {
+                "featureName": "Following/Unfollowing a User",
+                "flow": "1. **User (Existing):** Navigates to another user's profile.2. **User (Existing):** Clicks the 'Follow' or 'Unfollow' button.3. **System:** Updates the follower/following relationship in the database.4. **System:** Updates the UI to reflect the new following status (e.g., changes the button text).",
+                "screens": [
+                    "Profile Screen: Displays the user's profile information and includes a 'Follow' or 'Unfollow' button.",
+                    "Confirmation Message (Optional): Briefly confirms the follow/unfollow action."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "User Profile",
+        "features": [
+            {
+                "featureName": "Creating a Profile",
+                "flow": "1. **User (New):** Navigates to the Sign-Up/Registration screen.2. **User (New):** Enters required information (username, email, password).3. **System:** Validates the entered information.4. **User (New):** Completes profile details (profile picture, bio, interests, dreams, moods, opinions).5. **User (New):** Saves the profile.6. **System:** Stores the profile information in the database.7. **User (New):** Redirected to the home feed or profile page.",
+                "screens": [
+                    "Sign-Up/Registration Screen: Allows new users to create an account.",
+                    "Profile Creation Screen: Allows users to enter their profile details (bio, interests, dreams, moods, opinions).",
+                    "Profile Picture Upload Screen: Allows users to upload or select a profile picture.",
+                    "Home Feed Screen: Displays the user's feed after profile creation.",
+                    "Profile Screen: Displays the user's own profile after creation."
+                ]
+            },
+            {
+                "featureName": "Editing a Profile",
+                "flow": "1. **User (Existing):** Navigates to their profile page.2. **User (Existing):** Clicks on the 'Edit Profile' button.3. **System:** Displays the editable profile fields.4. **User (Existing):** Modifies the desired profile information (bio, interests, dreams, moods, opinions, profile picture).5. **User (Existing):** Saves the changes.6. **System:** Updates the profile information in the database.7. **User (Existing):** Redirected back to their profile page with updated information.",
+                "screens": [
+                    "Profile Screen: Displays the user's profile information.",
+                    "Edit Profile Screen: Allows users to modify their profile details.",
+                    "Profile Picture Upload Screen: Allows users to upload or select a new profile picture.",
+                    "Confirmation/Success Message: Confirms that the profile has been updated."
+                ]
+            },
+            {
+                "featureName": "Viewing a Profile",
+                "flow": "1. **User:** Navigates to a user's profile (e.g., by clicking on their username in a post or search result).2. **System:** Retrieves the profile information from the database.3. **System:** Displays the profile information to the user, including profile picture, bio, interests, dreams, moods, opinions, and potentially recent posts or activity.",
+                "screens": [
+                    "Profile Screen: Displays the profile information of a specific user.",
+                    "Post/Activity Feed (Optional): Displays recent posts or activity of the user whose profile is being viewed."
+                ]
+            },
+            {
+                "featureName": "Searching for Users",
+                "flow": "1. **User:** Navigates to the 'Search' screen or uses a search bar.2. **User:** Enters a search query (username, name, interests, dreams, moods, opinions).3. **System:** Queries the database for users matching the search query.4. **System:** Displays a list of search results (user profiles) with relevant information (username, profile picture, short bio).5. **User:** Clicks on a user profile from the search results to view their full profile.",
+                "screens": [
+                    "Search Screen: Allows users to enter a search query.",
+                    "Search Results Screen: Displays a list of user profiles matching the search query.",
+                    "Profile Screen: Displays the profile information of a specific user."
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "category": "Buying/Selling",
+        "list_feature": [
+            "Advanced Search Filters (by make, model, year, price, mileage, condition, location, etc.)",
+            "Detailed Motorcycle Listings (with photos, descriptions, specifications, history reports)",
+            "Seller Verification System",
+            "Secure Payment Options",
+            "Shipping/Transportation Options",
+            "Motorcycle Valuation Tool",
+            "Auction Functionality",
+            "Negotiation/Offer System",
+            "Saved Searches and Notifications",
+            "Featured Listings",
+            "Compare Motorcycles Side-by-Side"
+        ]
+    },
+    {
+        "category": "User Accounts",
+        "list_feature": [
+            "User Registration and Login",
+            "Profile Management (including motorcycle garage)",
+            "Saved Listings",
+            "Messaging System (for communication between buyers and sellers)",
+            "Review and Rating System",
+            "Account Security Settings (two-factor authentication)",
+            "Notification Preferences",
+            "Purchase/Sale History"
+        ]
+    },
+    {
+        "category": "Community",
+        "list_feature": [
+            "Forums/Discussion Boards",
+            "Groups (based on motorcycle type, location, interests)",
+            "Events Calendar (local motorcycle events, rallies)",
+            "Blog/Articles (motorcycle news, reviews, maintenance tips)",
+            "Photo/Video Gallery",
+            "User Profiles with Activity Feeds",
+            "Social Media Integration",
+            "Ride Sharing/Planning Tools"
+        ]
+    },
+    {
+        "category": "Credibility",
+        "list_feature": [
+            "Seller Ratings and Reviews",
+            "Motorcycle History Reports (integration with VIN lookup services)",
+            "Verified Seller Badges",
+            "Secure Payment Guarantees",
+            "Dispute Resolution System",
+            "Escrow Services",
+            "Community Moderation",
+            "Transparency in Fees and Policies",
+            "Expert Reviews and Opinions"
+        ]
+    }
+]

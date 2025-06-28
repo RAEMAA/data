@@ -1,0 +1,78 @@
+[
+    {
+        "category": "Content Sharing",
+        "list_feature": [
+            "Post Dreams (text, images, videos)",
+            "Share Dreams to Groups/Communities",
+            "Share Dreams to External Platforms (e.g., Twitter, Facebook)",
+            "Repost/Share Dreams from other users",
+            "Dream drafts (save and edit before posting)",
+            "Scheduled posting (post dreams at a later time)"
+        ]
+    },
+    {
+        "category": "Expressing Reactions",
+        "list_feature": [
+            "Like/Dislike Dreams",
+            "Comment on Dreams",
+            "Dream Reactions (e.g., happy, sad, surprised, inspired)",
+            "Animated Reactions/GIFs",
+            "Reply to Comments",
+            "Upvote/Downvote Comments"
+        ]
+    },
+    {
+        "category": "Creative Expression",
+        "list_feature": [
+            "Dream Journal (private space for recording dreams)",
+            "Dream Interpretation Tools (AI-powered suggestions)",
+            "Dream Mood Boards (visual collections of dream themes)",
+            "Dream Collaboration (collaborate with others on dream interpretations)",
+            "Dream-inspired Art Creation (tools for creating art based on dreams)",
+            "Dream themes and templates for posts"
+        ]
+    },
+    {
+        "category": "Privacy and Control",
+        "list_feature": [
+            "Control who can see your dreams (public, friends, private)",
+            "Block/Mute users",
+            "Report inappropriate content",
+            "Comment moderation (delete/hide comments on your dreams)",
+            "Anonymous posting (share dreams without revealing your identity"
+        ]
+    },
+    {
+        "category": "Community Interaction",
+        "list_feature": [
+            "Dream Groups/Communities (based on themes, interests)",
+            "Forums/Discussion Boards",
+            "Live Dream Sharing Sessions (real-time dream narration)",
+            "Dream Challenges/Prompts (to inspire dream sharing)",
+            "User Profiles (with dream summaries, interests)",
+            "Follow other dreamers"
+        ]
+    },
+    {
+        "category": "Dream Analysis",
+        "list_feature": [
+            "Dream Pattern Recognition (identify recurring themes)",
+            "Symbol Dictionary (crowd-sourced interpretations)",
+            "Expert Dream Analyzers (connect with professionals)",
+            "Dream Journaling Prompts (guided reflection)",
+            "AI-Powered Dream Analysis (initial interpretation)",
+            "Personalized Dream Insights (based on user data"
+        ]
+    },
+    {
+        "category": "Problem-Solving",
+        "list_feature": [
+            "Dream Incubator (techniques for influencing dreams)",
+            "Lucid Dreaming Tools (training and support)",
+            "Shared Dream Interpretation (collaborative problem-solving)",
+            "Dream-Based Solutions (brainstorming solutions from dreams)",
+            "Nightmare Management (tools and techniques)",
+            "Dream Therapy Resources (links to professionals and support groups"
+        ]
+    }
+]

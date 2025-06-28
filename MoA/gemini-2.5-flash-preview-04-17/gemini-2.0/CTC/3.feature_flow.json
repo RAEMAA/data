@@ -1,0 +1,302 @@
+[
+  {
+    "category": "Online Ordering Platform",
+    "features": [
+      {
+        "featureName": "Meal selection and customization interface",
+        "flow": "1. Customer browses available meals on the homepage. 2. Customer selects a meal to view details (ingredients, pricing). 3. Customer customizes meal (e.g., extra toppings, spice level). 4. Customer adds customized meal to cart. 5. Customer reviews cart and proceeds to checkout.",
+        "screens": [
+          "Homepage: Displays meal categories, promotions, and search bar.",
+          "Meal Detail Screen: Shows meal description, customization options, and nutritional info.",
+          "Cart Review Screen: Summarizes selected items, quantities, and total cost.",
+          "Checkout Screen: Collects delivery/pickup preferences and payment method."
+        ]
+      },
+      {
+        "featureName": "Automatic order routing to nearest branch",
+        "flow": "1. Customer enters delivery address or enables GPS location sharing. 2. System calculates nearest branch based on distance and real-time capacity. 3. Order is automatically assigned to the selected branch. 4. Customer receives confirmation with branch details and estimated preparation time.",
+        "screens": [
+          "Location Permission Screen: Requests GPS access or manual address input.",
+          "Order Confirmation Screen: Displays assigned branch, contact info, and preparation timeline."
+        ]
+      },
+      {
+        "featureName": "Real-time order tracking for customers",
+        "flow": "1. After checkout, customer accesses order tracking via dashboard. 2. System updates statuses (preparing, out for delivery, delivered). 3. Customer receives push notifications for status changes. 4. Customer can contact branch directly via in-app chat.",
+        "screens": [
+          "Order Tracking Screen: Shows live status, delivery map, and preparation timer.",
+          "Status Update Notifications: Pop-up alerts for key milestones."
+        ]
+      },
+      {
+        "featureName": "Dedicated online ordering service for office workers (e.g., bulk/scheduled orders)",
+        "flow": "1. Office worker selects 'Group Order' mode. 2. Worker sets delivery time/date and shares a link with colleagues. 3. Colleagues add individual meals to a shared cart. 4. Worker reviews consolidated order, applies corporate discounts, and submits payment.",
+        "screens": [
+          "Group Order Dashboard: Manages shared carts, schedules, and participant lists.",
+          "Bulk Order Scheduling Screen: Sets cut-off times and delivery windows.",
+          "Corporate Checkout Screen: Applies bulk discounts and validates company codes."
+        ]
+      },
+      {
+        "featureName": "User account management with order history",
+        "flow": "1. Customer logs in/registers via email or social media. 2. Accesses profile to update personal details or payment methods. 3. Views order history with receipts and reorder options. 4. Manages saved addresses and dietary preferences.",
+        "screens": [
+          "Login/Registration Screen: Authenticates users and recovers passwords.",
+          "Profile Management Screen: Edits user info and privacy settings.",
+          "Order History Screen: Lists past orders with filters and reorder shortcuts."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Branch Operations Management",
+    "features": [
+      {
+        "featureName": "Centralized dashboard for multi-branch monitoring",
+        "flow": "1. **Head of Operations logs in** to the system. 2. **Views aggregated data** (sales, order volume, inventory status, customer ratings) from all branches. 3. **Filters data by branch, date, or metric** for granular analysis. 4. **Generates real-time reports** (e.g., daily sales trends, peak hours). 5. **Triggers alerts** for underperforming branches or anomalies.",
+        "screens": [
+          "Login Screen: Secure authentication for authorized users.",
+          "Dashboard Overview: Displays KPIs (revenue, orders, inventory levels) across branches.",
+          "Branch Detail Screen: Drill-down into specific branch performance metrics.",
+          "Report Generation Screen: Customizable PDF/Excel report export."
+        ]
+      },
+      {
+        "featureName": "Inventory management with real-time updates",
+        "flow": "1. **Branch Manager logs in** and **checks current stock levels** (rice, beverages, ingredients). 2. **Receives automated low-stock alerts** via the dashboard. 3. **Updates inventory** after deliveries or wastage (e.g., spoiled ingredients). 4. **Generates purchase orders** for suppliers. 5. **Tracks inventory turnover rates** to optimize restocking.",
+        "screens": [
+          "Inventory Dashboard: Real-time stock levels with color-coded warnings.",
+          "Low Stock Alerts Screen: Prioritized list of items needing replenishment.",
+          "Inventory Adjustment Screen: Manual entry for stock updates or corrections.",
+          "Purchase Order Screen: Pre-filled templates for supplier requests."
+        ]
+      },
+      {
+        "featureName": "Staff scheduling and performance tracking",
+        "flow": "1. **Manager accesses the scheduling module** and **views staff availability**. 2. **Creates weekly shifts** based on branch demand forecasts. 3. **Staff receive notifications** via the app for assigned shifts. 4. **Tracks attendance** (clock-in/out via PIN verification). 5. **Reviews performance metrics** (orders handled, customer ratings) for promotions/bonuses.",
+        "screens": [
+          "Schedule Management Screen: Drag-and-drop shift planner with conflict detection.",
+          "Performance Dashboard: Metrics like order accuracy and average service time.",
+          "Attendance Tracking Screen: Real-time clock-in/out status with geolocation tags.",
+          "Shift Notification Screen: Staff view schedules and request changes."
+        ]
+      },
+      {
+        "featureName": "Order distribution optimization across branches",
+        "flow": "1. **System receives online order** and **checks real-time branch capacity** (staff, inventory, prep time). 2. **Auto-assigns order** to the nearest branch with available resources. 3. **Branch staff receive order details** on the kitchen display system. 4. **Fallback option**: Manual reassignment if the selected branch cannot fulfill. 5. **Updates delivery ETA** based on branch workload.",
+        "screens": [
+          "Order Routing Dashboard: Visual map of order distribution across branches.",
+          "Branch Capacity Overview: Live status of staff, inventory, and active orders.",
+          "Order Assignment Log: Audit trail of order routing decisions.",
+          "Manual Override Screen: Reassign orders to alternate branches during exceptions."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Promotions & Discount Management",
+    "features": [
+      {
+        "featureName": "Promotional campaign tracking and analytics",
+        "flow": "1. Admin creates a promotional campaign (Admin role).\n2. System tracks campaign performance metrics (e.g., redemption rate, revenue impact).\n3. Admin views real-time analytics dashboard to monitor campaign status.\n4. Admin exports reports for historical data comparison.\n5. System sends automated alerts for underperforming campaigns.",
+        "screens": [
+          "Campaign Creation Screen: Form to set promo details (discount type, duration, target audience).",
+          "Analytics Dashboard: Visualizes metrics like redemption rates, revenue impact, and branch-specific performance.",
+          "Report Generation Screen: Allows date filtering and export of campaign data in CSV/PDF formats.",
+          "Alert Configuration Screen: Setup thresholds for automated performance alerts."
+        ]
+      },
+      {
+        "featureName": "Discount code application during checkout",
+        "flow": "1. Customer views cart and selects 'Apply Discount' (Customer role).\n2. Customer enters promo code or selects from available offers.\n3. System validates code against eligibility rules (e.g., expiry date, minimum order).\n4. Applied discount reflects in order summary.\n5. Customer proceeds to payment with adjusted total.",
+        "screens": [
+          "Cart Summary Screen: Displays items, subtotal, and promo code entry field.",
+          "Promo Code Validation Popup: Shows success/error messages for code entry.",
+          "Order Confirmation Screen: Highlights applied discount and final payable amount.",
+          "Payment Gateway Screen: Integrates discounted total with NganLuong.vn for secure payment."
+        ]
+      },
+      {
+        "featureName": "Dynamic promo code generation and validation",
+        "flow": "1. Admin defines promo parameters (e.g., usage limits, branch restrictions) (Admin role).\n2. System auto-generates unique codes or bulk-imports codes via CSV.\n3. Customer applies code during checkout, triggering real-time validation.\n4. System checks code against rules (e.g., validity period, user eligibility).\n5. Audit log records all code redemption attempts.",
+        "screens": [
+          "Promo Code Generator Screen: Input fields for code rules (type, quantity, expiry).",
+          "Bulk Import Screen: Upload CSV for predefined codes with validation preview.",
+          "Code Validation Interface: Backend system checks code status during checkout.",
+          "Redemption Log Screen: Displays code usage history with filters (date, branch, user)."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Payment System Integration",
+    "features": [
+      {
+        "featureName": "Secure payment processing via NganLuong.vn",
+        "flow": "1. [Customer] Proceeds to checkout and reviews order details on the Checkout Summary Screen.\n2. [Customer] Selects 'Pay via NganLuong.vn' as the payment method.\n3. [System] Redirects the customer to NganLuong.vn's secure payment gateway.\n4. [Customer] Authenticates and confirms payment on NganLuong.vn's interface.\n5. [System] Validates payment and redirects back to the CTC platform.\n6. [Customer] Views the Payment Success Screen with transaction summary.\n7. [System] Automatically generates and displays a Digital Receipt Screen with an option to save or email the receipt.",
+        "screens": [
+          "Checkout Summary Screen: Displays order details, total amount, and payment method selection.",
+          "Payment Gateway Redirect Screen: Informs the user about redirection to NganLuong.vn with a loading animation.",
+          "Payment Success Screen: Confirms successful payment with transaction ID, order summary, and branch details.",
+          "Digital Receipt Screen: Provides a detailed receipt with itemized costs, payment method, and resend options."
+        ]
+      },
+      {
+        "featureName": "Support for multiple payment methods (e.g., credit cards, e-wallets)",
+        "flow": "1. [Customer] Selects 'Choose Payment Method' on the Checkout Summary Screen.\n2. [Customer] Chooses a preferred method (e.g., credit card, e-wallet) from the Payment Method Selection Screen.\n3. [Credit Card Path] Customer enters card details on the Card Details Entry Screen and confirms.\n   [E-Wallet Path] System redirects to the selected e-wallet's gateway for authentication.\n4. [System] Processes the transaction and validates funds.\n5. [Customer] Views the Payment Success Screen upon approval.\n6. [System] Displays the Digital Receipt Screen with a universal 'Save Receipt' button.",
+        "screens": [
+          "Payment Method Selection Screen: Lists all available payment methods with icons (credit cards, e-wallets).",
+          "Card Details Entry Screen: Form for card number, expiry date, CVV, and cardholder name.",
+          "E-Wallet Redirect Screen: Loading screen with instructions during redirection to external wallets.",
+          "Payment Processing Screen: Real-time status animation during transaction validation."
+        ]
+      },
+      {
+        "featureName": "Instant payment confirmation and digital receipts",
+        "flow": "1. [System] Triggers instant confirmation upon payment success, updating the order status.\n2. [Customer] Sees the Payment Success Screen with a 'View Receipt' button.\n3. [Customer] Clicks 'View Receipt' to access the Digital Receipt Screen.\n4. [Customer] Opts to resend the receipt via email/SMS on the Receipt Delivery Options Screen.\n5. [System] Sends the receipt and confirms delivery via a notification.",
+        "screens": [
+          "Payment Success Screen: Immediate confirmation banner with order-ready timeframe.",
+          "Digital Receipt Screen: Scrollable receipt with tax details, branch contact info, and promo codes applied.",
+          "Receipt Delivery Options Screen: Input fields for email/phone and toggle for future auto-send preferences."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Customer Feedback & Insights",
+    "features": [
+      {
+        "featureName": "Post-order rating and review submission",
+        "flow": "1. Customer receives an email/SMS notification with a rating link after order completion (Role: Customer). 2. Customer clicks the link, redirecting to the rating interface (Role: Customer). 3. Customer selects a star rating (1-5) and optionally writes a review (Role: Customer). 4. Customer submits the review, which is stored in the system (Role: Customer). 5. System triggers a thank-you message and optionally offers a discount coupon for future orders (Role: System).",
+        "screens": [
+          "Rating Prompt Screen: Displays order summary and invites the user to rate their experience.",
+          "Review Submission Screen: Allows input of star rating, written review, and photo upload (optional).",
+          "Submission Confirmation Screen: Shows a success message and optional coupon code.",
+          "Review History Screen: Lists all past reviews submitted by the customer."
+        ]
+      },
+      {
+        "featureName": "Customer feedback analysis dashboard",
+        "flow": "1. Manager/Admin logs into the system (Role: Manager/Admin). 2. Navigates to the Feedback Dashboard from the main menu (Role: Manager/Admin). 3. Filters feedback by date range, branch, rating, or keywords (Role: Manager/Admin). 4. Views aggregated metrics (average rating, sentiment analysis, common keywords) and individual reviews (Role: Manager/Admin). 5. Exports data as CSV/PDF for further analysis (Role: Manager/Admin).",
+        "screens": [
+          "Login Screen: Authenticates management staff with credentials.",
+          "Dashboard Overview Screen: Displays high-level feedback metrics and trends.",
+          "Detailed Feedback Screen: Shows individual reviews with filters and search functionality.",
+          "Export Screen: Allows selection of data range and format for export."
+        ]
+      },
+      {
+        "featureName": "Branch-specific response management to reviews",
+        "flow": "1. Branch manager logs into the system (Role: Branch Manager). 2. Navigates to the 'Review Responses' section (Role: Branch Manager). 3. Selects a pending review from the list assigned to their branch (Role: Branch Manager). 4. Drafts a response and selects a predefined template (e.g., apology, gratitude) if needed (Role: Branch Manager). 5. Submits the response, which is published publicly or sent privately to the customer (Role: Branch Manager). 6. System logs the interaction and updates the review status (Role: System).",
+        "screens": [
+          "Branch Manager Login Screen: Authenticates branch managers with role-based access.",
+          "Review Inbox Screen: Lists all reviews assigned to the branch (filtered by status: pending/responded).",
+          "Response Composition Screen: Provides text editor, template suggestions, and preview functionality.",
+          "Response History Screen: Archives all branch responses for audit purposes."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Pricing Transparency & Updates",
+    "features": [
+      {
+        "featureName": "Automated price synchronization across branches and platforms",
+        "flow": "1. **Admin updates prices** (Admin role): Edit prices via the central management dashboard. 2. **System validates changes** (System role): Check for consistency and conflicts. 3. **Sync to branches** (System role): Automatically push updates to POS systems at all branches. 4. **Sync to online platforms** (System role): Update website/app menus in real-time. 5. **Branch manager confirmation** (Branch Manager role): Receive notification and review updated prices on their dashboard. 6. **Error handling** (System role): Flag sync failures and retry/notify admins.",
+        "screens": [
+          "Price Management Dashboard: Central interface for admins to edit/approve prices.",
+          "Sync Confirmation Screen: Displays success/failure status for each branch/platform.",
+          "Branch Manager Price Review Screen: Allows branch managers to view updated prices and acknowledge receipt.",
+          "Sync Status Report Screen: Overview of last sync timestamps and system health."
+        ]
+      },
+      {
+        "featureName": "Transparent pricing display with no hidden fees",
+        "flow": "1. **Customer views menu** (Customer role): Browse dishes with clear base prices. 2. **Price details interaction** (Customer role): Tap/click item to see breakdown (e.g., base price, taxes, service fees). 3. **Cart transparency** (Customer role): View itemized total with fees before checkout. 4. **Checkout validation** (System role): Ensure final amount matches displayed prices.",
+        "screens": [
+          "Menu Listing Screen: Displays all items with bold base prices and optional fee indicators.",
+          "Price Breakdown Modal: Pop-up showing detailed cost components per item.",
+          "Cart Summary Screen: Itemized list with subtotal, taxes, and service fees in separate rows.",
+          "Checkout Preview Screen: Final price confirmation with a 'No Hidden Fees' guarantee badge."
+        ]
+      },
+      {
+        "featureName": "Regular price update notifications",
+        "flow": "1. **System triggers notification** (System role): Detect price changes and schedule alerts. 2. **Customer notification** (Customer role): Receive email/app notification about updates (e.g., 'New Seasonal Pricing!'). 3. **Branch staff notification** (Branch Manager role): Get in-system alerts and PDF price change summaries. 4. **Feedback loop** (Customer role): Option to view changes or contact support for clarifications.",
+        "screens": [
+          "Notification Settings Screen: Allows users to choose notification preferences (email/push).",
+          "Price Update Alert Screen: In-app banner/modal highlighting changed items with old/new prices.",
+          "Price History Page: Log of historical pricing for transparency (accessible via item details).",
+          "Branch Price Update Digest Screen: Manager-focused view with change reasons (e.g., 'Ingredient Cost Increase') and compliance checklist."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Data Analytics & Business Strategy",
+    "features": [
+      {
+        "featureName": "Centralized sales and revenue reporting",
+        "flow": "1. Head Office Manager logs into the admin dashboard. 2. Selects 'Sales & Revenue' from the analytics menu. 3. Chooses branches, date range, and metrics (e.g., total revenue, average order value). 4. Generates consolidated or branch-specific reports. 5. Exports data to CSV/PDF for further analysis. Role: Head Office Manager, Branch Managers.",
+        "screens": [
+          "Sales Dashboard: Overview of real-time sales across branches with filters.",
+          "Report Customization Screen: Allows selection of branches, timeframes, and KPIs.",
+          "Detailed Sales Report Screen: Tabular and graphical representation of revenue data.",
+          "Export Screen: Options to download reports in CSV/PDF formats."
+        ]
+      },
+      {
+        "featureName": "Customer behavior and preference analytics",
+        "flow": "1. Marketing Manager accesses 'Customer Insights' in the analytics module. 2. Filters data by customer segments (e.g., office workers, time of day). 3. Reviews top-selling dishes, peak ordering times, and repeat order patterns. 4. Generates a report linking menu preferences to promotions. 5. Shares insights with the culinary team. Roles: Marketing Manager, Head Chef.",
+        "screens": [
+          "Customer Analytics Dashboard: Heatmaps of order frequency and menu popularity.",
+          "Behavior Segmentation Screen: Filters for demographics/order history.",
+          "Dish Popularity Trends Screen: Time-based trends for menu items.",
+          "Feedback Correlation Screen: Combines ratings with purchase data."
+        ]
+      },
+      {
+        "featureName": "Operational efficiency metrics (e.g., order fulfillment time)",
+        "flow": "1. Operations Manager selects 'Operational Metrics' in the dashboard. 2. Views real-time metrics (e.g., avg. order prep time, delivery delays). 3. Compares performance across branches via benchmarks. 4. Drills down into underperforming branches to identify bottlenecks. 5. Generates action plans (e.g., staff reallocation). Roles: Operations Manager, Branch Supervisors.",
+        "screens": [
+          "Operational Dashboard: Key metrics like fulfillment time and staff productivity.",
+          "Branch Comparison Screen: Side-by-side performance tables/charts.",
+          "Metrics Drill-Down Screen: Detailed breakdown of specific inefficiencies.",
+          "Action Plan Screen: Template for creating improvement strategies."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Security & Compliance",
+    "features": [
+      {
+        "featureName": "PCI-DSS compliant payment security",
+        "flow": "1. (Customer) Selects payment method at checkout. 2. (System) Redirects to PCI-DSS compliant payment gateway (NganLuong.vn). 3. (Customer) Enters payment details on the secured gateway interface. 4. (System) Tokenizes payment data and processes the transaction. 5. (System) Returns payment confirmation status to CTC platform. 6. (Customer) Receives order confirmation with transaction ID.",
+        "screens": [
+          "Checkout Screen: Displays order summary and payment method options.",
+          "Payment Gateway Redirect Screen: Informs user about redirection to a secure payment portal.",
+          "Payment Confirmation Screen: Shows transaction status and order details post-payment."
+        ]
+      },
+      {
+        "featureName": "Data encryption for user and transaction protection",
+        "flow": "1. (Customer/Admin) Enters sensitive data (e.g., personal info, payment details). 2. (System) Encrypts data in transit via TLS 1.3 during submission. 3. (System) Stores encrypted data at rest using AES-256. 4. (Admin) Accesses encrypted data via decryption keys (role-based permissions). 5. (System) Logs decryption attempts for audit trails.",
+        "screens": [
+          "User Registration/Profile Screen: Collects and encrypts personal data during input.",
+          "Transaction History Screen: Displays masked/encrypted transaction details to users.",
+          "Admin Data Management Screen: Allows authorized admins to view decrypted data with multi-factor authentication."
+        ]
+      },
+      {
+        "featureName": "Regular security audits and vulnerability assessments",
+        "flow": "1. (Admin) Schedules automated monthly audits via the admin dashboard. 2. (System) Scans for vulnerabilities (e.g., SQLi, XSS) and outdated dependencies. 3. (System) Generates audit report with severity levels and remediation steps. 4. (Admin) Reviews report and prioritizes fixes. 5. (System) Tracks remediation progress and re-scans resolved issues.",
+        "screens": [
+          "Audit Dashboard: Overview of audit schedules, historical reports, and system health metrics.",
+          "Vulnerability Report Screen: Detailed view of vulnerabilities, impacted components, and fixes.",
+          "Remediation Tracking Screen: Toggles to mark issues as resolved and monitors compliance status."
+        ]
+      }
+    ]
+  }
+]

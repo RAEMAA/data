@@ -1,0 +1,60 @@
+[
+  {
+      "feature_category": "User Management",
+      "features": [
+          "User Registration",
+          "User Login",
+          "User Profile Management"
+      ]
+  },
+  {
+      "feature_category": "Listing Management",
+      "features": [
+          "Create Listing (Motorcycles, Parts, Accessories)",
+          "Edit Listing",
+          "Delete Listing",
+          "Manage My Listings"
+      ]
+  },
+  {
+      "feature_category": "Buying & Selling",
+      "features": [
+          "Search Listings",
+          "Filter Listings",
+          "Sort Listings",
+          "View Listing Details",
+          "Bidding Functionality",
+          "Buy Now Functionality",
+          "Checkout Process",
+          "Payment Gateway Integration",
+          "Transaction Management (Buyer & Seller)",
+          "Buyer-Seller Communication"
+      ]
+  },
+  {
+      "feature_category": "Credibility System",
+      "features": [
+          "Credibility Score Calculation (based on transactions, feedback, value)",
+          "Display Credibility Score",
+          "Submit Transaction Feedback",
+          "View Transaction Feedback",
+          "Listing Ranking based on Credibility",
+          "Listing Visibility based on Credibility"
+      ]
+  },
+  {
+      "feature_category": "Community Forum",
+      "features": [
+          "Browse Forum",
+          "Create Forum Thread",
+          "Post / Reply in Forum"
+      ]
+  },
+  {
+      "feature_category": "Platform Administration",
+      "features": [
+          "Admin Panel",
+          "Category Management"
+      ]
+  }
+]

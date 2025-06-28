@@ -1,0 +1,124 @@
+[
+  {
+      "category": "Order Management",
+      "features": [
+          {
+              "featureName": "Digital order taking for waiters",
+              "flow": "1. **Waiter:** Opens the CDC app on their assigned device (tablet/phone).\n2. **Waiter:** Logs in using their credentials.\n3. **Waiter:** Selects the table number where the customer is seated.\n4. **Waiter:** Navigates through the menu categories (e.g., Coffee, Tea, Pastries, Food).\n5. **Waiter:** Selects the desired items from the menu.\n6. **Waiter:** Specifies quantity for each item.\n7. **Waiter:** Adds any special requests or notes for each item (e.g., 'Less sugar', 'Extra ice').\n8. **Waiter:** Reviews the order summary.\n9. **Waiter:** Confirms and submits the order.\n10. **System:** Sends the order to the kitchen/bar for preparation.\n11. **System:** Updates the order status in the app.\n12. **Waiter:** Receives notification when the order is ready (optional).",
+              "screens": [
+                  "Login Screen: Allows waiters to log in to the system using their credentials.",
+                  "Table Selection Screen: Displays a layout of the restaurant, allowing waiters to select the table number.",
+                  "Menu Category Screen: Displays a list of menu categories (e.g., Coffee, Tea, Pastries).",
+                  "Menu Item Screen: Displays the items within a selected category, including descriptions and prices.",
+                  "Order Summary Screen: Displays a summary of the current order, including items, quantities, special requests, and total price.",
+                  "Confirmation Screen: Confirms the order submission and displays a success message.",
+                  "Order Status Screen: (Optional) Displays the status of the order (e.g., 'Pending', 'Preparing', 'Ready')."
+              ]
+          },
+          {
+              "featureName": "Automated bill generation",
+              "flow": "1. **Waiter:** Selects the table number for which the bill needs to be generated.\n2. **Waiter:** Initiates the 'Generate Bill' action within the app.\n3. **System:** Retrieves the order details for the selected table.\n4. **System:** Calculates the total bill amount, including any applicable taxes or discounts.\n5. **System:** Displays the bill details on the screen.\n6. **Waiter:** Reviews the bill details with the customer.\n7. **Customer:** Confirms the bill.\n8. **Waiter:** Selects the payment method (e.g., Cash, Credit Card, Mobile Payment).\n9. **Waiter:** Processes the payment (if applicable, enters card details or scans QR code).\n10. **System:** Confirms the payment.\n11. **System:** Generates a digital receipt.\n12. **Waiter:** Offers to print the receipt (optional).\n13. **System:** Updates the order status to 'Paid'.",
+              "screens": [
+                  "Table Selection Screen: Allows waiters to select the table number for bill generation.",
+                  "Bill Details Screen: Displays the itemized bill details, including prices, quantities, taxes, and total amount.",
+                  "Payment Method Selection Screen: Allows waiters to select the payment method (e.g., Cash, Credit Card, Mobile Payment).",
+                  "Payment Processing Screen: Allows waiters to process the payment (e.g., enter card details, scan QR code).",
+                  "Payment Confirmation Screen: Displays a confirmation message after successful payment.",
+                  "Digital Receipt Screen: Displays the digital receipt with all relevant details.",
+                  "Print Receipt Screen: (Optional) Allows waiters to print the receipt."
+              ]
+          },
+          {
+              "featureName": "Minimize waiter movement during order process",
+              "flow": "1. **Customer:** Sits at a table.\n2. **Waiter:** Approaches the table with a tablet/phone.\n3. **Waiter:** Takes the order digitally using the app (as described in 'Digital order taking for waiters' feature).\n4. **System:** Sends the order directly to the kitchen/bar.\n5. **System:** Notifies the waiter when the order is ready (optional).\n6. **Waiter:** Brings the order to the customer.\n7. **Customer:** Consumes the order.\n8. **Waiter:** Generates the bill digitally using the app (as described in 'Automated bill generation' feature).\n9. **Customer:** Pays the bill.\n10. **Waiter:** Clears the table.",
+              "screens": [
+                  "Table Selection Screen: Allows waiters to select the table number.",
+                  "Menu Category Screen: Displays a list of menu categories.",
+                  "Menu Item Screen: Displays the items within a selected category.",
+                  "Order Summary Screen: Displays a summary of the current order.",
+                  "Confirmation Screen: Confirms the order submission.",
+                  "Order Status Screen: (Optional) Displays the status of the order.",
+                  "Bill Details Screen: Displays the itemized bill details.",
+                  "Payment Method Selection Screen: Allows waiters to select the payment method.",
+                  "Payment Processing Screen: Allows waiters to process the payment.",
+                  "Payment Confirmation Screen: Displays a confirmation message after successful payment.",
+                  "Digital Receipt Screen: Displays the digital receipt."
+              ]
+          }
+      ]
+  },
+  {
+      "category": "Reporting and Analytics",
+      "features": [
+          {
+              "featureName": "Revenue reports for individual branches",
+              "flow": "1. **User Role:** Branch Manager/Accountant logs into the system.\n2. **System:** Authenticates the user and redirects to the dashboard.\n3. **User Role:** Branch Manager/Accountant navigates to the 'Reports' section.\n4. **User Role:** Branch Manager/Accountant selects 'Branch Revenue Report'.\n5. **User Role:** Branch Manager/Accountant selects the specific branch from a dropdown list.\n6. **User Role:** Branch Manager/Accountant selects the desired date range (e.g., daily, weekly, monthly, custom).\n7. **User Role:** Branch Manager/Accountant clicks 'Generate Report'.\n8. **System:** Generates the revenue report for the selected branch and date range, displaying key metrics such as total sales, discounts, taxes, and net revenue.\n9. **User Role:** Branch Manager/Accountant views the report on screen.\n10. **User Role:** Branch Manager/Accountant can optionally download the report in a suitable format (e.g., PDF, CSV).",
+              "screens": [
+                  "Login Screen: Allows Branch Manager/Accountant to log in to the system.",
+                  "Dashboard Screen: Provides an overview of key metrics and navigation options.",
+                  "Reports Section: Lists available report types.",
+                  "Branch Revenue Report Selection Screen: Allows the user to select the branch and date range for the report.",
+                  "Branch Revenue Report Display Screen: Displays the generated revenue report with key metrics and options to download."
+              ]
+          },
+          {
+              "featureName": "Revenue reports for the entire CDC chain",
+              "flow": "1. **User Role:** Head Office Manager/Accountant logs into the system.\n2. **System:** Authenticates the user and redirects to the dashboard.\n3. **User Role:** Head Office Manager/Accountant navigates to the 'Reports' section.\n4. **User Role:** Head Office Manager/Accountant selects 'Chain Revenue Report'.\n5. **User Role:** Head Office Manager/Accountant selects the desired date range (e.g., daily, weekly, monthly, custom).\n6. **User Role:** Head Office Manager/Accountant clicks 'Generate Report'.\n7. **System:** Generates the consolidated revenue report for the entire CDC chain, displaying key metrics such as total sales, discounts, taxes, and net revenue across all branches.\n8. **User Role:** Head Office Manager/Accountant views the report on screen.\n9. **User Role:** Head Office Manager/Accountant can optionally download the report in a suitable format (e.g., PDF, CSV).\n10. **System:** Potentially allows drill-down into individual branch performance from the chain-wide report.",
+              "screens": [
+                  "Login Screen: Allows Head Office Manager/Accountant to log in to the system.",
+                  "Dashboard Screen: Provides an overview of key metrics and navigation options.",
+                  "Reports Section: Lists available report types.",
+                  "Chain Revenue Report Selection Screen: Allows the user to select the date range for the report.",
+                  "Chain Revenue Report Display Screen: Displays the generated revenue report with key metrics and options to download. May include drill-down functionality to branch-level data."
+              ]
+          },
+          {
+              "featureName": "Comprehensive business data management",
+              "flow": "1. **User Role:** System Administrator/Head Office Manager logs into the system.\n2. **System:** Authenticates the user and redirects to the dashboard.\n3. **User Role:** System Administrator/Head Office Manager navigates to the 'Data Management' section.\n4. **User Role:** System Administrator/Head Office Manager selects the desired data category (e.g., 'Menu Items', 'Inventory', 'Employee Data', 'Customer Data').\n5. **System:** Displays the selected data category in a tabular or list format.\n6. **User Role:** System Administrator/Head Office Manager can perform various actions, such as:\n    *   Adding new entries.\n    *   Editing existing entries.\n    *   Deleting entries (with appropriate confirmation).\n    *   Filtering and sorting the data.\n    *   Importing data from external sources (e.g., CSV files).\n    *   Exporting data to external sources.\n7. **System:** Validates data input and provides feedback to the user.\n8. **System:** Saves changes to the database.\n9. **User Role:** System Administrator/Head Office Manager logs out of the system.",
+              "screens": [
+                  "Login Screen: Allows System Administrator/Head Office Manager to log in to the system.",
+                  "Dashboard Screen: Provides an overview of key metrics and navigation options.",
+                  "Data Management Section: Lists available data categories.",
+                  "Data Category Display Screen: Displays the selected data category in a tabular or list format with options for adding, editing, deleting, filtering, sorting, importing, and exporting data.",
+                  "Add/Edit Data Entry Screen: Allows the user to add new entries or edit existing entries for the selected data category.",
+                  "Confirmation Dialog: Prompts the user to confirm deletion of data entries."
+              ]
+          }
+      ]
+  },
+  {
+      "category": "Centralized System",
+      "features": [
+          {
+              "featureName": "Integration of data from all branches nationwide",
+              "flow": "1. **System Administrator (CDC HQ):** Configures the system to accept data from new branches.\n2. **Branch Manager (Individual Branch):** Registers the branch with the centralized system, providing branch details (name, address, contact information, etc.).\n3. **System:** Validates the branch registration request.\n4. **System:** Creates a unique branch ID and associates it with the branch.\n5. **Branch Manager (Individual Branch):** Installs and configures the local branch system (e.g., POS system) to connect to the centralized system using the assigned branch ID.\n6. **Local Branch System (Individual Branch):** Periodically sends data (sales transactions, inventory updates, employee data, etc.) to the centralized system.\n7. **Centralized System:** Receives, validates, and stores the data from the branch.\n8. **System Administrator (CDC HQ):** Monitors the data integration process and resolves any errors or inconsistencies.\n9. **Centralized System:** Generates consolidated reports based on data from all branches.\n10. **Management (CDC HQ):** Accesses and analyzes the consolidated reports to gain insights into the overall performance of the CDC chain.",
+              "screens": [
+                  "Branch Registration Screen: Allows the Branch Manager to register their branch with the centralized system.",
+                  "Branch Configuration Screen: Allows the Branch Manager to configure the local branch system to connect to the centralized system.",
+                  "Data Integration Monitoring Dashboard: Displays the status of data integration from all branches, highlighting any errors or inconsistencies.",
+                  "Consolidated Reports Dashboard: Provides access to various consolidated reports based on data from all branches (e.g., sales reports, inventory reports, employee reports).",
+                  "Branch Details Screen: Displays detailed information about a specific branch, including its registration details and data integration status."
+              ]
+          }
+      ]
+  },
+  {
+      "category": "User Roles and Permissions",
+      "features": [
+          {
+              "featureName": "Functionality for local staff (waiters)",
+              "flow": "1. **Waiter Login:** Waiter enters their credentials (username/password or employee ID/password) on the login screen.\n2. **Authentication:** The system verifies the waiter's credentials against the central database.\n3. **Role Verification:** The system checks the waiter's assigned role (waiter) and associated permissions.\n4. **Dashboard Access:** Upon successful authentication and role verification, the waiter is redirected to their personalized dashboard.\n5. **Table Selection:** Waiter selects a table from the available tables on the floor plan.\n6. **Order Taking:** Waiter takes customer orders, adding items to the order from the menu.\n7. **Order Confirmation:** Waiter confirms the order with the customer.\n8. **Order Submission:** Waiter submits the order to the kitchen/bar.\n9. **Order Modification (Optional):** Waiter can modify the order (add/remove items, change quantities) before it's prepared, subject to certain time constraints or manager approval.\n10. **Bill Generation:** Waiter generates the bill for the table.\n11. **Payment Processing:** Waiter processes the payment (cash, card, mobile payment).\n12. **Order Completion:** Waiter marks the order as completed after payment.\n13. **Logout:** Waiter logs out of the system.",
+              "screens": [
+                  "Login Screen: Allows waiters to log in with their credentials.",
+                  "Waiter Dashboard: Displays available tables, order status, and other relevant information for the waiter.",
+                  "Table Selection Screen: Visual representation of the restaurant floor plan, allowing waiters to select tables.",
+                  "Menu Screen: Displays the menu with categories and items, allowing waiters to add items to the order.",
+                  "Order Summary Screen: Shows the current order details, allowing waiters to review and confirm the order.",
+                  "Payment Processing Screen: Allows waiters to process payments using various methods (cash, card, mobile payment).",
+                  "Order Completion Screen: Confirms the order is completed and allows printing of receipt.",
+                  "Order Modification Screen: Allows waiters to modify existing orders before they are prepared."
+              ]
+          }
+      ]
+  }
+]

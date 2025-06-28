@@ -1,0 +1,114 @@
+[
+        {
+            "id": "PP1",
+            "phase": "Planning & Requirements Analysis",
+            "feature_list": [
+                "Define and document project scope",
+                "Gather detailed requirements for Piglet Management, User Management, Farm Staff Functionality, Farmer Functionality, Farm Owner Functionality, and Reporting & Analytics",
+                "Set up initial project architecture and workflows"
+            ],
+            "estimatedTime": 7,
+            "startTime": "2024-07-19",
+            "endTime": "2024-07-26",
+            "dependencies": []
+        },
+        {
+            "id": "PP2",
+            "phase": "User Management Development",
+            "feature_list": [
+                "Manage user accounts for farm staff and farmers",
+                "Implement role-based access control for staff, farmers, and farm owner (admin)",
+                "Develop user registration and login functionality for farmers"
+            ],
+            "estimatedTime": 10,
+            "startTime": "2024-07-27",
+            "endTime": "2024-08-06",
+            "dependencies": [
+                "PP1"
+            ]
+        },
+        {
+            "id": "PP3",
+            "phase": "Piglet & Farm Data Management Development",
+            "feature_list": [
+                "Manage piglet categories (different types of piglets)",
+                "Track piglet growth (weight, size)",
+                "Record feeding data (schedule, feed type, amount)",
+                "Monitor temperature (ambient and/or piglet body temperature)",
+                "Monitor environmental conditions (humidity, air quality)",
+                "Track health issues and common diseases (symptoms, diagnosis, treatment)",
+                "Update and maintain piglet information",
+                "Record import and export data",
+                "Track revenue statistics",
+                "Monitor overall piglet wellbeing"
+            ],
+            "estimatedTime": 14,
+            "startTime": "2024-08-07",
+            "endTime": "2024-08-20",
+            "dependencies": [
+                "PP2"
+            ]
+        },
+        {
+            "id": "PP4",
+            "phase": "Farmer Functionality Development",
+            "feature_list": [
+                "Browse available piglets with detailed information",
+                "Place orders for piglets",
+                "Communicate with the farm regarding feeding and vaccination procedures"
+            ],
+            "estimatedTime": 10,
+            "startTime": "2024-08-21",
+            "endTime": "2024-08-31",
+            "dependencies": [
+                "PP2",
+                "PP3"
+            ]
+        },
+        {
+            "id": "PP5",
+            "phase": "Farm Owner Functionality & Reporting Setup",
+            "feature_list": [
+                "Maintain up-to-date piglet and farm information",
+                "Post promotional announcements",
+                "Generate detailed monthly, quarterly, and annual reports"
+            ],
+            "estimatedTime": 10,
+            "startTime": "2024-09-01",
+            "endTime": "2024-09-10",
+            "dependencies": [
+                "PP3"
+            ]
+        },
+        {
+            "id": "PP6",
+            "phase": "Reporting and Analytics Development",
+            "feature_list": [
+                "Generate revenue statistics reports",
+                "Generate growth and health performance reports"
+            ],
+            "estimatedTime": 7,
+            "startTime": "2024-09-11",
+            "endTime": "2024-09-18",
+            "dependencies": [
+                "PP5",
+                "PP4"
+            ]
+        },
+        {
+            "id": "PP7",
+            "phase": "Testing, Bug Fixing, Deployment & Training",
+            "feature_list": [
+                "Perform comprehensive testing for all functionalities (backend, frontend, integration)",
+                "Fix identified bugs and update documentation",
+                "Deploy the system to production environments",
+                "Provide training sessions for farm staff and owner"
+            ],
+            "estimatedTime": 14,
+            "startTime": "2024-09-19",
+            "endTime": "2024-10-03",
+            "dependencies": [
+                "PP6"
+            ]
+        }
+    ]

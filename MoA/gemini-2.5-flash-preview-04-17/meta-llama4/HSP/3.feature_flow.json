@@ -1,0 +1,216 @@
+[
+  {
+    "category": "Piglet Management",
+    "features": [
+      {
+        "featureName": "Piglet Growth Tracking",
+        "flow": "Farm staff log in to the system, navigate to the piglet management section, select a piglet, and update its growth details (weight, age, etc.). The system records the update date and staff member responsible. The farm owner can view growth records and generate reports on piglet growth.",
+        "screens": [
+          "Login Screen: For farm staff to log in",
+          "Piglet Management Dashboard: To navigate to piglet growth tracking",
+          "Piglet Details Screen: To update and view piglet growth details",
+          "Growth Record List Screen: To view historical growth records"
+        ]
+      },
+      {
+        "featureName": "Health Monitoring",
+        "flow": "Farm staff log in, navigate to the health monitoring section, select a piglet, and update its health status (healthy, sick, etc.). The system allows adding health records with details like diagnosis and treatment. The farm owner can view health records.",
+        "screens": [
+          "Health Monitoring Dashboard: To navigate to health monitoring",
+          "Piglet Health Details Screen: To update and view piglet health status",
+          "Health Record List Screen: To view historical health records"
+        ]
+      },
+      {
+        "featureName": "Feeding Management",
+        "flow": "Farm staff log in, navigate to the feeding management section, select a piglet or a group, and update feeding details (feed type, quantity, etc.). The system records feeding schedules and staff responsible. The farm owner can view feeding records.",
+        "screens": [
+          "Feeding Management Dashboard: To navigate to feeding management",
+          "Feeding Details Screen: To update and view feeding details",
+          "Feeding Record List Screen: To view historical feeding records"
+        ]
+      },
+      {
+        "featureName": "Environmental Conditions Monitoring",
+        "flow": "Farm staff log in, navigate to the environmental conditions monitoring section, and update environmental data (temperature, humidity, etc.). The system allows setting alerts for abnormal conditions. The farm owner can view environmental records.",
+        "screens": [
+          "Environmental Monitoring Dashboard: To navigate to environmental monitoring",
+          "Environmental Conditions Screen: To update and view environmental data",
+          "Environmental Record List Screen: To view historical environmental records"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Inventory Management",
+    "features": [
+      {
+        "featureName": "import tracking",
+        "flow": "Farm staff login to the system, navigate to import tracking section, add new import record, select piglet type and quantity, enter supplier information, upload supporting documents, and confirm the import. The farm owner can then review and approve the import record.",
+        "screens": [
+          "Login Screen: For farm staff to log in to the system",
+          "Dashboard Screen: Navigate to import tracking section",
+          "Import Tracking Screen: Form to add new import record",
+          "Piglet Type Selection Screen: Select type and quantity of piglets",
+          "Supplier Information Screen: Enter supplier details",
+          "Document Upload Screen: Upload supporting documents",
+          "Import Confirmation Screen: Confirm the import record",
+          "Approval Screen: For farm owner to review and approve import record"
+        ]
+      },
+      {
+        "featureName": "export tracking",
+        "flow": "Farm staff login to the system, navigate to export tracking section, add new export record, select piglet type and quantity, enter farmer information, upload supporting documents, and confirm the export. The farm owner can then review and approve the export record.",
+        "screens": [
+          "Login Screen: For farm staff to log in to the system",
+          "Dashboard Screen: Navigate to export tracking section",
+          "Export Tracking Screen: Form to add new export record",
+          "Piglet Type Selection Screen: Select type and quantity of piglets",
+          "Farmer Information Screen: Enter farmer details",
+          "Document Upload Screen: Upload supporting documents",
+          "Export Confirmation Screen: Confirm the export record",
+          "Approval Screen: For farm owner to review and approve export record"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Revenue Management",
+    "features": [
+      {
+        "featureName": "revenue statistics",
+        "flow": "The farm staff logs into the system, navigates to the revenue statistics section, selects the desired time period, and views the revenue statistics. The system generates a report showing total revenue, revenue by category (e.g., piglet sales), and other relevant statistics. The farm owner can also access this feature to review revenue performance.",
+        "screens": [
+          "Login Screen: Allows farm staff and farm owner to log into the system.",
+          "Revenue Statistics Screen: Displays revenue statistics for a selected time period, including total revenue and revenue by category."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Farmer Management",
+    "features": [
+      {
+        "featureName": "farmer account registration",
+        "flow": "Farmer accesses the system, fills in registration form with required details, submits the form for verification, farm staff verifies the farmer's information, and upon successful verification, the farmer's account is activated.",
+        "screens": [
+          "Registration Form: Farmer inputs personal and farm details.",
+          "Verification Screen: Farm staff reviews and verifies farmer's registration details.",
+          "Activation Confirmation: Notifies farmer of successful account activation."
+        ]
+      },
+      {
+        "featureName": "piglet browsing",
+        "flow": "Farmer logs in, navigates to piglet catalog, searches/filter piglets based on criteria, views detailed piglet information.",
+        "screens": [
+          "Login Screen: Farmer authenticates to access the system.",
+          "Piglet Catalog: Displays available piglets with basic information.",
+          "Piglet Details: Detailed view of selected piglet, including growth, health, and availability.",
+          "Search/Filter Screen: Farmer inputs criteria to find specific piglets."
+        ]
+      },
+      {
+        "featureName": "order placement",
+        "flow": "Farmer selects piglet(s) to order, inputs delivery and payment details, submits order for confirmation, farm staff reviews and confirms order, farmer receives order confirmation.",
+        "screens": [
+          "Order Form: Farmer selects piglet(s) and inputs order details.",
+          "Order Review: Farm staff reviews submitted orders for accuracy and feasibility.",
+          "Order Confirmation: Notifies farmer of order acceptance and provides delivery details."
+        ]
+      },
+      {
+        "featureName": "care and procedure inquiries",
+        "flow": "Farmer logs in, navigates to inquiry section, types and submits inquiry about piglet care or procedures, farm staff receives, reviews, and responds to inquiry.",
+        "screens": [
+          "Inquiry Form: Farmer inputs question or concern regarding piglet care or procedures.",
+          "Inquiry History: Farmer views previous inquiries and responses.",
+          "Response Screen: Farm staff composes and sends response to farmer's inquiry."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Farm Owner Management",
+    "features": [
+      {
+        "featureName": "information updating",
+        "flow": "The farm owner logs into the system, navigates to the information management section, selects the type of information to update (e.g., piglet details, farm policies), edits the relevant fields, and saves the changes. The system updates the information accordingly.",
+        "screens": [
+          "Login Screen: Allows the farm owner to log into the system.",
+          "Dashboard Screen: Provides an overview and navigation to different sections of the system.",
+          "Information Management Screen: Enables the farm owner to select and update various types of information.",
+          "Information Update Form Screen: Allows the farm owner to edit and save changes to the selected information."
+        ]
+      },
+      {
+        "featureName": "promotion announcements",
+        "flow": "The farm owner logs into the system, navigates to the promotion management section, creates a new promotion by filling in the details (e.g., promotion name, description, duration), and publishes it. The system makes the promotion visible to farmers and staff as configured.",
+        "screens": [
+          "Login Screen: Allows the farm owner to log into the system.",
+          "Dashboard Screen: Provides an overview and navigation to different sections of the system.",
+          "Promotion Management Screen: Enables the farm owner to manage promotions.",
+          "Create Promotion Screen: Allows the farm owner to fill in and publish promotion details."
+        ]
+      },
+      {
+        "featureName": "report generation",
+        "flow": "The farm owner logs into the system, navigates to the report generation section, selects the type of report needed (e.g., monthly, quarterly, annual), chooses the relevant parameters (e.g., date range, report format), and generates the report. The system produces the report based on the selected parameters.",
+        "screens": [
+          "Login Screen: Allows the farm owner to log into the system.",
+          "Dashboard Screen: Provides an overview and navigation to different sections of the system.",
+          "Report Generation Screen: Enables the farm owner to select the report type and parameters.",
+          "Report Preview Screen: Displays the generated report for review and download."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Communication",
+    "features": [
+      {
+        "featureName": "messaging between farm staff and farmers",
+        "flow": "Farmer initiates message to farm staff -> Farm staff receives and responds to message -> Farmer receives response from farm staff",
+        "screens": [
+          "Conversation List: Displays list of conversations between farmer and farm staff",
+          "Conversation Screen: Displays conversation history and allows users to send new messages",
+          "Message Composer: Allows users to compose and send new messages"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Reporting",
+    "features": [
+      {
+        "featureName": "monthly report",
+        "flow": "The farm owner requests a monthly report. The system generates the report based on piglet growth, health, feeding, environmental conditions, inventory, and revenue data. The farm owner views and downloads the report.",
+        "screens": [
+          "Report Request Screen: A screen for the farm owner to select the report type (monthly) and date range.",
+          "Report Generation Screen: A screen displaying the report generation process.",
+          "Report View Screen: A screen for the farm owner to view the generated report.",
+          "Report Download Screen: A screen allowing the farm owner to download the report in various formats (e.g., PDF, Excel)."
+        ]
+      },
+      {
+        "featureName": "quarterly report",
+        "flow": "The farm owner requests a quarterly report. The system generates the report based on piglet growth, health, feeding, environmental conditions, inventory, and revenue data. The farm owner views and downloads the report.",
+        "screens": [
+          "Report Request Screen: A screen for the farm owner to select the report type (quarterly) and date range.",
+          "Report Generation Screen: A screen displaying the report generation process.",
+          "Report View Screen: A screen for the farm owner to view the generated report.",
+          "Report Download Screen: A screen allowing the farm owner to download the report in various formats (e.g., PDF, Excel)."
+        ]
+      },
+      {
+        "featureName": "annual report",
+        "flow": "The farm owner requests an annual report. The system generates the report based on piglet growth, health, feeding, environmental conditions, inventory, and revenue data. The farm owner views and downloads the report.",
+        "screens": [
+          "Report Request Screen: A screen for the farm owner to select the report type (annual) and date range.",
+          "Report Generation Screen: A screen displaying the report generation process.",
+          "Report View Screen: A screen for the farm owner to view the generated report.",
+          "Report Download Screen: A screen allowing the farm owner to download the report in various formats (e.g., PDF, Excel)."
+        ]
+      }
+    ]
+  }
+]

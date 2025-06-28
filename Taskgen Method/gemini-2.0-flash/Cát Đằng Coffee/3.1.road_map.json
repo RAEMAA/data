@@ -1,0 +1,78 @@
+[
+    {
+        "id": "P1",
+        "phase": "Inventory Management - Phase 1",
+        "feature list": [
+            "Stock level tracking (coffee beans, milk, sugar)",
+            "Low stock alerts (coffee beans, milk)",
+            "Supplier management (coffee bean suppliers, milk suppliers)",
+            "Expiry date tracking (milk, pastries)"
+        ],
+        "estimatedTime": "4 weeks",
+        "startTime": "2024-07-01",
+        "endTime": "2024-07-29",
+        "dependencies": []
+    },
+    {
+        "id": "P2",
+        "phase": "Sales and CRM Management - Phase 2",
+        "feature list": [
+            "Sales reporting (by product - coffee, pastries)",
+            "Discount management (loyalty programs)",
+            "Customer database (loyalty programs)",
+            "Loyalty programs"
+        ],
+        "estimatedTime": "4 weeks",
+        "startTime": "2024-07-29",
+        "endTime": "2024-08-26",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P3",
+        "phase": "Order Management and Bill Generation - Phase 3",
+        "feature list": [
+            "Order placement (in-store)",
+            "Payment processing (cash, credit card)",
+            "Custom order options (milk alternatives, sugar levels)",
+            "Tax calculation",
+            "Digital receipts"
+        ],
+        "estimatedTime": "4 weeks",
+        "startTime": "2024-08-26",
+        "endTime": "2024-09-23",
+        "dependencies": [
+            "P2"
+        ]
+    },
+    {
+        "id": "P4",
+        "phase": "Revenue Reporting - Phase 4",
+        "feature list": [
+            "Sales revenue reports (daily, weekly, monthly)",
+            "Revenue by product category (coffee, pastries)"
+        ],
+        "estimatedTime": "3 weeks",
+        "startTime": "2024-09-23",
+        "endTime": "2024-10-14",
+        "dependencies": [
+            "P3"
+        ]
+    },
+    {
+        "id": "P5",
+        "phase": "Financial Reporting - Phase 5",
+        "feature list": [
+            "Profit and loss statement",
+            "Cash flow statement",
+            "Tax reports"
+        ],
+        "estimatedTime": "4 weeks",
+        "startTime": "2024-10-14",
+        "endTime": "2024-11-11",
+        "dependencies": [
+            "P4"
+        ]
+    }
+]

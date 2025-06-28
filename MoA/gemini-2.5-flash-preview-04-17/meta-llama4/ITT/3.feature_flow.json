@@ -1,0 +1,200 @@
+[
+  {
+    "category": "Company Information",
+    "features": [
+      {
+        "featureName": "Company Overview",
+        "flow": "User lands on homepage, navigates to About Us section, views company overview information",
+        "screens": [
+          "Homepage: displays navigation menu and links to different sections",
+          "About Us Page: provides an overview of the company, its mission, vision, and history"
+        ]
+      },
+      {
+        "featureName": "Company Services Overview",
+        "flow": "User lands on homepage, navigates to Services section, views overview of company services",
+        "screens": [
+          "Homepage: displays navigation menu and links to different sections",
+          "Services Page: provides an overview of the services offered by the company, including tour services, visa consultation, and others"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Tours",
+    "features": [
+      {
+        "featureName": "Featured Tours",
+        "flow": "User visits the homepage -> Views featured tours section -> Clicks on a featured tour -> Views tour details",
+        "screens": [
+          "Homepage: Displays featured tours section",
+          "Tour Details Page: Shows details of the selected featured tour"
+        ]
+      },
+      {
+        "featureName": "Tour Categories",
+        "flow": "User visits the homepage -> Clicks on tour categories -> Views list of tour categories -> Selects a category -> Views tours in that category",
+        "screens": [
+          "Homepage: Displays tour categories link",
+          "Tour Categories Page: Lists all tour categories",
+          "Category Tours Page: Displays tours in the selected category"
+        ]
+      },
+      {
+        "featureName": "Tour Detail Pages",
+        "flow": "User clicks on a tour -> Views tour details -> Views itinerary -> Views services -> Views pricing -> Views terms and conditions",
+        "screens": [
+          "Tour Details Page: Shows overview of the tour",
+          "Itinerary Page: Displays tour itinerary",
+          "Tour Package Services Page: Lists services included in the tour",
+          "Pricing Page: Shows pricing information for the tour",
+          "Terms & Conditions Page: Displays terms and conditions for the tour"
+        ]
+      },
+      {
+        "featureName": "Itineraries",
+        "flow": "User views tour details -> Clicks on itinerary -> Views detailed itinerary",
+        "screens": [
+          "Itinerary Page: Displays detailed tour itinerary"
+        ]
+      },
+      {
+        "featureName": "Tour Package Services",
+        "flow": "User views tour details -> Clicks on services -> Views services included in the tour",
+        "screens": [
+          "Tour Package Services Page: Lists services included in the tour"
+        ]
+      },
+      {
+        "featureName": "Pricing",
+        "flow": "User views tour details -> Clicks on pricing -> Views pricing information",
+        "screens": [
+          "Pricing Page: Shows pricing information for the tour"
+        ]
+      },
+      {
+        "featureName": "Terms & Conditions",
+        "flow": "User views tour details -> Clicks on terms and conditions -> Views terms and conditions",
+        "screens": [
+          "Terms & Conditions Page: Displays terms and conditions for the tour"
+        ]
+      },
+      {
+        "featureName": "Tour Images",
+        "flow": "User views tour details -> Views tour images",
+        "screens": [
+          "Tour Details Page: Displays tour images"
+        ]
+      },
+      {
+        "featureName": "Tour Policies",
+        "flow": "User views tour details -> Clicks on policies -> Views tour policies",
+        "screens": [
+          "Tour Policies Page: Displays policies for the tour"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Content",
+    "features": [
+      {
+        "featureName": "News",
+        "flow": "User navigates to the News section, views a list of news articles, selects an article to read, and views the full content of the selected news article. User role: Visitor.",
+        "screens": [
+          "News List Screen: Displays a list of news articles with titles and brief summaries.",
+          "News Detail Screen: Shows the full content of a selected news article, including title, date, and detailed text."
+        ]
+      },
+      {
+        "featureName": "Promotions",
+        "flow": "User navigates to the Promotions section, views a list of ongoing promotions, selects a promotion to view details, and views the full content of the selected promotion. User role: Visitor.",
+        "screens": [
+          "Promotions List Screen: Lists ongoing promotions with images and brief descriptions.",
+          "Promotion Detail Screen: Displays detailed information about a selected promotion, including terms and conditions."
+        ]
+      },
+      {
+        "featureName": "Articles",
+        "flow": "User navigates to the Articles section, views a list of articles, selects an article to read, and views the full content of the selected article. User role: Visitor.",
+        "screens": [
+          "Articles List Screen: Presents a list of articles with titles and summaries.",
+          "Article Detail Screen: Shows the full content of a selected article, including title and detailed text."
+        ]
+      },
+      {
+        "featureName": "Travel Stories",
+        "flow": "User navigates to the Travel Stories section, views a list of travel stories, selects a story to read, and views the full content of the selected travel story. User role: Visitor.",
+        "screens": [
+          "Travel Stories List Screen: Displays a list of travel stories with images and brief summaries.",
+          "Travel Story Detail Screen: Provides the full content of a selected travel story, including title, text, and possibly images or videos."
+        ]
+      },
+      {
+        "featureName": "Cultural Articles",
+        "flow": "User navigates to the Cultural Articles section, views a list of cultural articles, selects an article to read, and views the full content of the selected cultural article. User role: Visitor.",
+        "screens": [
+          "Cultural Articles List Screen: Lists cultural articles with titles and brief descriptions.",
+          "Cultural Article Detail Screen: Shows the full content of a selected cultural article, including title, text, and possibly images or related information."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Other Services",
+    "features": [
+      {
+        "featureName": "Visa Consultation",
+        "flow": "User visits the website, navigates to the 'Other Services' section, selects 'Visa Consultation', fills out a consultation form with required details (name, email, phone number, type of visa needed, travel dates), submits the form, receives a confirmation email with a reference number, and is contacted by a visa consultant for further assistance.",
+        "screens": [
+          "Home Screen: General website homepage",
+          "Other Services Screen: Lists all other services including Visa Consultation",
+          "Visa Consultation Screen: Provides information on visa consultation services and a form to fill out",
+          "Visa Consultation Form Screen: Detailed form for users to input their consultation request",
+          "Confirmation Screen: Displays a confirmation message and sends an email with a reference number"
+        ]
+      },
+      {
+        "featureName": "Customer Feedback",
+        "flow": "User navigates to the 'Other Services' section, selects 'Customer Feedback', is redirected to a feedback form, fills out the form with their feedback (rating, comments), submits it, and receives a confirmation that their feedback has been recorded.",
+        "screens": [
+          "Home Screen: General website homepage",
+          "Other Services Screen: Lists all other services including Customer Feedback",
+          "Customer Feedback Screen: Introduction to the feedback process",
+          "Feedback Form Screen: Form for users to input their feedback",
+          "Confirmation Screen: Acknowledges receipt of the feedback"
+        ]
+      },
+      {
+        "featureName": "Customer Reviews",
+        "flow": "User visits the 'Other Services' section, selects 'Customer Reviews', is taken to a page with a list of reviews, can filter reviews by rating or date, and can navigate to a detailed review page for more information.",
+        "screens": [
+          "Home Screen: General website homepage",
+          "Other Services Screen: Lists all other services including Customer Reviews",
+          "Customer Reviews Screen: Lists customer reviews with filtering options",
+          "Detailed Review Screen: Detailed view of a specific review"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Contact",
+    "features": [
+      {
+        "featureName": "Contact Options",
+        "flow": "User navigates to the Contact page, views available contact methods (e.g., email, contact form, physical address), and selects a preferred method to initiate contact. User role: Visitor/Customer. Steps: 1. Navigate to Contact page. 2. View contact options. 3. Choose a contact method. 4. Initiate contact.",
+        "screens": [
+          "Contact Page: Displays various contact options including email, contact form, and physical address."
+        ]
+      },
+      {
+        "featureName": "Hotlines",
+        "flow": "User navigates to the Contact page or clicks on a hotline link, views hotline numbers, and decides to call or save the number. User role: Visitor/Customer. Steps: 1. Navigate to Contact page or click hotline link. 2. View hotline numbers. 3. Call or save the hotline number.",
+        "screens": [
+          "Contact Page: Includes a section for hotlines with phone numbers and possibly a call button.",
+          "Hotline Link: A direct link to hotline numbers, possibly in the header or footer."
+        ]
+      }
+    ]
+  }
+]

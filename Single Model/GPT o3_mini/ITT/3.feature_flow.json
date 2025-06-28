@@ -1,0 +1,274 @@
+[
+  {
+    "category": "General Information & Company Overview",
+    "features": [
+      {
+        "featureName": "Overview of company services",
+        "flow": "Step 1: Visitor lands on the Homepage (Role: Visitor) where the main navigation is clearly visible. Step 2: Visitor clicks on the 'About' or 'Services' link in the navigation menu. Step 3: System routes the visitor to the Company Services Overview Page that provides detailed descriptions of all services offered including travel tours, visa consultations, and cultural experiences. Step 4: Visitor reviews service details, images, and any interactive elements such as links for additional information. Step 5: (Optional) A Content Manager may update this page with new service details or promotional content as required.",
+        "screens": [
+          "Homepage: Entry point that displays navigation menus, featured banners, and quick links to various sections.",
+          "Company Services Overview Page: Dedicated page that explains all company services in detail with images, descriptions, and links to further related content."
+        ]
+      },
+      {
+        "featureName": "Latest news updates",
+        "flow": "Step 1: Visitor accesses the Homepage and identifies the 'News' or 'Updates' link in the top or side navigation (Role: Visitor). Step 2: Visitor clicks the 'News' link, prompting the system to load the News Listing Page which displays headlines, summary snippets, and publication dates of current articles. Step 3: Visitor scrolls through and selects a news article to read more in detail. Step 4: System transitions to the News Article Detail Page that shows full content, multimedia assets, and related articles. Step 5: Visitor can navigate back to the News Listing Page or use internal links to visit other parts of the website, while a Content Manager ensures articles are up to date.",
+        "screens": [
+          "News Listing Page: Lists all news items with brief summaries, headlines, and publication dates for user perusal.",
+          "News Article Detail Page: Detailed view of a selected article, complete with full text, images, related articles, and share functionality."
+        ]
+      },
+      {
+        "featureName": "Special deals highlights",
+        "flow": "Step 1: Visitor lands on the Homepage and notices the Special Deals banner or link segment (Role: Visitor). Step 2: Visitor clicks on the banner or dedicated navigation link for special deals, redirecting to the Special Deals Landing Page. Step 3: System displays a curated list of current special deals, complete with enticing images, brief descriptions, and validity dates. Step 4: Visitor clicks on a specific deal to view more details. Step 5: System loads the Special Deal Detail Page that provides comprehensive deal information, terms and conditions, and call-to-action elements like 'Book Now' or 'Inquire'.",
+        "screens": [
+          "Special Deals Landing Page: Aggregated view of all active special deals with key summaries, images, and navigation links for deal details.",
+          "Special Deal Detail Page: Detailed page for a selected deal, featuring in-depth deal information, images, T&Cs, and booking/inquiry buttons."
+        ]
+      },
+      {
+        "featureName": "Featured tours spotlight",
+        "flow": "Step 1: Visitor visits the Homepage where a dedicated section highlights Featured Tours via a carousel or grid layout (Role: Visitor). Step 2: Visitor reviews the overview of featured tours displayed, where each tour card includes a brief itinerary and striking visuals. Step 3: Visitor clicks on a tour of interest for more detailed information. Step 4: System directs the user to the Featured Tour Detail Page that includes comprehensive tour itineraries, pricing details, images, guide information, and booking options. Step 5: Visitor can review the tour details and either navigate back to the Homepage or move forward with making a booking inquiry.",
+        "screens": [
+          "Featured Tours Section on Homepage: A dynamic section integrated on the Homepage that showcases highlighted tours with visual cards or a carousel layout.",
+          "Featured Tour Detail Page: Detailed page displaying specific tour information including itineraries, images, pricing, and action buttons for booking or inquiries."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Tour Categorization & Listings",
+    "features": [
+      {
+        "featureName": "Special Tours",
+        "flow": "Step 1: Visitor lands on the homepage and sees a navigation menu listing all tour categories. (Role: Visitor) Step 2: Visitor clicks on the 'Special Tours' menu item. (Role: Visitor) Step 3: The system directs the visitor to the Special Tours Listing page where a curated list of special tours is displayed along with featured images, brief descriptions, and highlighted deals. (Role: System) Step 4: Visitor can use filtering and sorting options (by price, duration, popularity, etc.) available on the listing page. (Role: Visitor) Step 5: Upon selecting a particular tour, the visitor clicks on the tour card to view complete details. (Role: Visitor) Step 6: The system loads the Detailed Tour Page showing daily itineraries, pricing details, accommodations, meals, images, guide information, and cancellation policies. (Role: System) Step 7: If interested, the visitor can then click on the inquiry or booking button to initiate contact with the company or to get further assistance. (Role: Visitor) Step 8: The system routes the visitor to the Inquiry Form or booking process page. (Role: System)",
+        "screens": [
+          "Special Tours Listing Screen: Displays a grid or list of special tours with images, brief descriptions, filter options, and sorting functionality.",
+          "Tour Details Screen: Provides comprehensive details of the selected special tour including day-to-day itinerary, pricing, inclusions/exclusions, images, and contact options.",
+          "Inquiry/Booking Screen: Contains the inquiry form or booking process details for the visitor to submit requests or queries regarding the special tour."
+        ]
+      },
+      {
+        "featureName": "Japan Tours",
+        "flow": "Step 1: Visitor accesses the homepage and locates the tour categories menu. (Role: Visitor) Step 2: Visitor selects 'Japan Tours' from the category list. (Role: Visitor) Step 3: The system displays the Japan Tours Listing page which features tours specific to Japan, highlighting cultural attractions, itineraries, and unique experiences. (Role: System) Step 4: Visitor filters and sorts tours based on preferences (such as tour length, price, or region within Japan). (Role: Visitor) Step 5: Visitor selects a tour of interest and clicks on its listing to view more detailed information. (Role: Visitor) Step 6: The Detail Page for the selected Japan tour loads, showing itinerary, service details (flights, accommodations, meals), images, and trip highlights. (Role: System) Step 7: Visitor proceeds to initiate an inquiry or booking by clicking the call-to-action button. (Role: Visitor) Step 8: The system navigates the visitor to the contact/inquiry form specifically designed for Japan Tours. (Role: System)",
+        "screens": [
+          "Japan Tours Listing Screen: Lists Japan-specific tours with images, short descriptions, and interactive filtering options.",
+          "Japan Tour Details Screen: Provides in-depth tour information, including day-wise itinerary, cultural highlights, pricing, and service inclusions.",
+          "Japan Tours Inquiry Screen: A dedicated inquiry form or booking interface for visitors to request further details or to book the tour."
+        ]
+      },
+      {
+        "featureName": "Asia Tours",
+        "flow": "Step 1: Visitor starts at the homepage and identifies the curated tour categories from the navigation header. (Role: Visitor) Step 2: Visitor clicks on the 'Asia Tours' category. (Role: Visitor) Step 3: The system routes the visitor to the Asia Tours Listing page, showcasing tours across various Asian countries with key details (highlighting attractions, special deals, and itineraries). (Role: System) Step 4: Visitor uses on-page filtering options to narrow down tours based on destination, duration, or price. (Role: Visitor) Step 5: Visitor selects a tour by clicking its card, prompting the system to load the Detailed Tour Page with a complete overview including daily itinerary, service information, and images. (Role: Visitor/System) Step 6: On reviewing tour details, the visitor may choose to enquire further by selecting the inquiry or booking button. (Role: Visitor) Step 7: The system then loads an Inquiry Form or initiates the booking process designed for Asia Tours. (Role: System)",
+        "screens": [
+          "Asia Tours Listing Screen: Displays a comprehensive list of tours within Asia with visual thumbnails, brief descriptions, and filter options.",
+          "Asia Tour Details Screen: Showcases complete tour details including itinerary, cultural insights, images, pricing, and services covered.",
+          "Asia Tours Inquiry/Booking Screen: Provides an interface for users to make inquiries or proceed with booking their desired Asia tour."
+        ]
+      },
+      {
+        "featureName": "Europe-Australia-America Tours",
+        "flow": "Step 1: Visitor visits the homepage and observes the tour categorization menu. (Role: Visitor) Step 2: Visitor selects the 'Europe-Australia-America Tours' category from the available options. (Role: Visitor) Step 3: The system presents a combined listing page for tours covering Europe, Australia, and America, each with relevant high-level details such as featured attractions, duration, pricing, and reviews. (Role: System) Step 4: Visitor can apply filtering options based on continent, tour type, trip duration, or price to refine results. (Role: Visitor) Step 5: Visitor clicks on a specific tour listing to view its detailed information. (Role: Visitor) Step 6: The Detailed Tour Page loads with a comprehensive breakdown of the selected tour, including daily itineraries, service inclusions (flights, accommodation, meals), high-resolution images, travel guides, and policies for cancellation. (Role: System) Step 7: Visitor decides to take action by clicking a button to inquire or book the tour. (Role: Visitor) Step 8: The system navigates the visitor to an Inquiry or Booking Form tailored for international tours encompassing Europe, Australia, and America. (Role: System)",
+        "screens": [
+          "Europe-Australia-America Tours Listing Screen: Shows a consolidated listing of tours from Europe, Australia, and America with filtering and sorting functionalities.",
+          "International Tour Details Screen: Provides detailed tour information for the selected international tour, including itineraries, services, images, guides, and testimonials.",
+          "International Tours Inquiry/Booking Screen: Features an inquiry form or booking interface for users interested in leaving a booking request or getting more information about the selected tour."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Visa Consultation & Support",
+    "features": [
+      {
+        "featureName": "Visa consultation for multiple countries",
+        "flow": "Step 1 – Visitor accesses the ITT website homepage and selects the 'Visa Consultation & Support' section from the main menu (User Role: Visitor). Step 2 – Visitor views an overview page with a list or filterable grid of available countries for visa consultation (User Role: Visitor). Step 3 – Visitor selects a specific country; the system loads detailed visa requirements, procedures, document lists, timelines, and application guidelines for that country (User Role: Visitor, System). Step 4 – Visitor is offered options to download detailed documents, view FAQs specific to the visa process, and read curated cultural insights or travel tips related to the destination (User Role: Visitor). Step 5 – Visitor may initiate the consultation process by clicking on a 'Start Consultation' or 'Schedule Appointment' button. This leads to a secure form where they can enter personal details, travel dates, and upload necessary documents (User Role: Visitor, System). Step 6 – Upon submission, the confirmation screen provides an appointment reference, and an email confirmation is sent with further instructions. The backend then routes the query to the visa specialist team for review and follow-up (User Role: Visitor, Visa Specialist).",
+        "screens": [
+          "Visa Overview Screen: Displays an introduction to visa consultation services with a list/filter of countries.",
+          "Country Selection Screen: Allows users to filter and select their country of interest for more detailed consultation.",
+          "Visa Details Screen: Shows specific visa requirements, application procedures, downloadable documents, FAQs, and cultural/travel tips for the selected country.",
+          "Consultation Form Screen: A secure screen where users input personal details, travel information, and attach necessary documents.",
+          "Confirmation Screen: Provides a confirmation message including appointment reference and next steps, along with email notification details."
+        ]
+      },
+      {
+        "featureName": "Support for visa inquiries",
+        "flow": "Step 1 – Visitor navigates to the 'Support for Visa Inquiries' option either from the visa consultation overview page or via a dedicated support link in the website header/footer (User Role: Visitor). Step 2 – Visitor is presented with multiple contact options: an online inquiry form, a live chat option, and hotline numbers for immediate support (User Role: Visitor). Step 3 – If the visitor selects the online inquiry form, they fill in basic details (name, email, inquiry details, preferred contact method) and submit the form. Alternatively, if the visitor chooses the live chat, they are connected to an automated chatbot that either resolves common inquiries or escalates to a human agent (User Role: Visitor, System). Step 4 – Upon form submission, a confirmation screen is displayed and an automated email acknowledgment is sent. The inquiry is then queued for response by a visa support agent (User Role: Visa Support Agent). Step 5 – The support agent reviews the inquiry through an internal dashboard and reaches out to the visitor via the preferred communication channel to provide further assistance or clarification (User Role: Visa Support Agent, Visitor).",
+        "screens": [
+          "Visa Inquiry Options Screen: Provides users with multiple support channels including an inquiry form, live chat, and prominent hotline information.",
+          "Inquiry Form Screen: A form screen where visitors enter their details and inquiry information for visa-related questions.",
+          "Live Chat Screen: An interface supporting instant messaging between the visitor and an automated chatbot or live support agent for real-time assistance.",
+          "Confirmation Screen: Displays a confirmation message after submission or chat initiation, confirming that the inquiry has been received.",
+          "Support Agent Dashboard (Internal): Although not directly accessible to the visitor, this screen is used by the support team to manage and respond to visa inquiries."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Cultural & Travel Articles",
+    "features": [
+      {
+        "featureName": "Cultural articles",
+        "flow": "Step 1: Visitor lands on the homepage and sees the main navigation bar including the 'Cultural Articles' option. (Role: Visitor) \nStep 2: Visitor clicks the 'Cultural Articles' link. (Role: Visitor) \nStep 3: The system routes the visitor to the Cultural Articles Listing page where multiple cultural articles are displayed as cards with featured images, headlines, and short excerpts. (Role: System) \nStep 4: Visitor scrolls through the list, filters by topics or keywords if available, and selects an article of interest. (Role: Visitor) \nStep 5: The system presents the Cultural Article Detail page with the full text of the article, additional media (photos, videos), and related links to other cultural content. (Role: System) \nStep 6: Visitor reads the article and has options to share on social media, bookmark for later, or leave a comment if logged in. (Role: Visitor) \nStep 7: If the visitor is an authenticated user, they may also rate or comment on the article, triggering backend moderation. (Role: Visitor and System)",
+        "screens": [
+          "Homepage - Navigation: Displays the main navigation menu with links to various sections including Cultural Articles.",
+          "Cultural Articles Listing: Presents a scrollable list of cultural articles with summaries and images, and filtering or sorting options.",
+          "Cultural Article Detail Page: Shows the complete content of a selected cultural article including text, media, related articles, social sharing options, and comment section."
+        ]
+      },
+      {
+        "featureName": "Stories of travel experiences",
+        "flow": "Step 1: Visitor accesses the homepage and notices a prominently featured section or menu item for 'Stories of Travel Experiences'. (Role: Visitor) \nStep 2: Visitor clicks the link, and the system loads the Travel Experiences Listing page, where personal travel stories are showcased with titles, brief descriptions, and preview images. (Role: System) \nStep 3: Visitor browses through the list and uses available filters such as destination, travel type, or date if provided. (Role: Visitor) \nStep 4: Visitor selects a specific travel story to read in detail. (Role: Visitor) \nStep 5: The system displays the Travel Experience Detail page with an in-depth narrative, images, maps if applicable, user comments or likes, and options to share the story with others. (Role: System) \nStep 6: If visitor wants more stories or related content, they may navigate via related links or an embedded carousel for more travel narratives. (Role: Visitor)",
+        "screens": [
+          "Homepage - Featured Section: Highlights the 'Stories of Travel Experiences' section with a call-to-action button or link.",
+          "Travel Experiences Listing: Lists all travel stories with relevant snippets, thumbnails, and filtering options to aid in searching.",
+          "Travel Experience Detail Page: Provides detailed content of the selected travel story, including visuals, maps, social engagement options, and links to similar content."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Customer Feedback & Reviews",
+    "features": [
+      {
+        "featureName": "Genuine customer reviews",
+        "flow": "1. Visitor Role: The user lands on the homepage and selects the 'Customer Feedback' menu option. 2. System Action: Redirects the user to the Genuine Customer Reviews page, loading a list of verified reviews. 3. Visitor Role: The user scrolls through the review list, with options to filter by rating, date, or tour category. 4. Visitor Role: The user clicks on an option to view more details of a specific review, prompting an in-page modal or a dedicated review details screen. 5. System Action: The modal or details screen displays comprehensive review information including reviewer name, star rating, travel experience, and attached images if available. 6. Visitor Role: Optionally, the user may click on navigation links to submit their review (if logged in) or return to the previous list. 7. Administrator Role (Optional): Admins can access an edit mode to moderate or respond to reviews via an internal dashboard. 8. Note: Further details (e.g., authentication flow for review submission) can be added based on requirements.",
+        "screens": [
+          "Customer Reviews List Screen: Displays a list of genuine customer reviews with summary details (star rating, brief comment, reviewer name).",
+          "Review Filter Panel: Provides filtering options (rating, date, tour category) to refine the list of reviews.",
+          "Review Detail Modal/Screen: Shows complete review details when a specific review is selected, including full text, images, and reviewer information.",
+          "Review Submission/Moderation Screen (for logged-in users or admins): Allows users to submit a new review or admins to moderate existing ones (if applicable)."
+        ]
+      },
+      {
+        "featureName": "Personal testimonials from previous clients",
+        "flow": "1. Visitor Role: The user navigates from the homepage or a promotional banner to the Personal Testimonials section. 2. System Action: The platform loads a dedicated Testimonials page featuring a curated list of detailed personal stories from previous clients. 3. Visitor Role: The user scrolls through the testimonial listing, which includes snippets of stories, client names, and images if available. 4. Visitor Role: The user clicks on a testimonial to view the full story, triggering either a dedicated testimonial detail screen or an overlay modal with expanded content and visual elements. 5. System Action: The detailed view provides in-depth narrative, contextual tour information, and optional links to related tour details. 6. Visitor Role: The user may use navigation or back options to return to the main testimonials listing or explore other sections of the site. 7. Note: The system may include story rating or share features for additional engagement, though these are placeholders pending further requirements.",
+        "screens": [
+          "Testimonials Listing Screen: Provides an overview of personal testimonials with thumbnails, summary text, and client names.",
+          "Testimonial Filter/Navigation Panel: Offers basic filtering or navigation options (e.g., by tour type or destination) to help users explore stories.",
+          "Testimonial Detail Screen/Modal: Displays the full testimonial story including detailed narrative, supporting images, and contextual tour information.",
+          "Related Tours/Call-to-Action Screen (Optional): Encourages further engagement by linking to related tour details or inquiry forms."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Contact Methods & Inquiry Options",
+    "features": [
+      {
+        "featureName": "Online inquiry form",
+        "flow": "1. Visitor lands on the homepage and selects the 'Contact Us' option. 2. The visitor navigates to the Contact page where multiple inquiry options are presented. 3. The visitor clicks on the 'Online Inquiry Form' button. 4. Visitor is presented with a form asking for details such as name, email address, subject, and message. 5. Visitor fills in the form and presses the 'Submit' button. 6. The system displays a confirmation screen thanking the visitor and confirms that the inquiry has been received. 7. In parallel, an email notification is sent to the support team. 8. Support team (admin role) reviews the inquiry and follows up via email or phone, as required.",
+        "screens": [
+          "Homepage: Introduction and navigation to the contact section.",
+          "Contact Page: Lists all available contact methods and inquiry options.",
+          "Online Inquiry Form Screen: A form where the visitor inputs personal details and their inquiry.",
+          "Submission Confirmation Screen: A thank-you message confirming that the inquiry has been successfully submitted."
+        ]
+      },
+      {
+        "featureName": "Dedicated hotlines for individual travelers, group tours, and visa consultations",
+        "flow": "1. Visitor accesses the website, either via homepage header or the Contact page. 2. The website clearly displays a list of dedicated hotlines for different service categories (individual travelers, group tours, and visa consultations). 3. Visitor reviews the hotline numbers and, if on a mobile device, taps on the number to initiate a call. 4. For desktop users, the visitor manually dials the number. 5. The call is received by the appropriate call center representative who handles inquiries for that specific category. 6. After the call, any follow-up actions are recorded by the support team.",
+        "screens": [
+          "Homepage Header: Prominently displays hotline numbers for quick access.",
+          "Contact Page: Provides a detailed list of hotline options categorized by service type.",
+          "Hotline Detail Modal (optional): A pop-up screen that shows additional details such as operating hours and additional instructions for each hotline when the visitor clicks on a hotline number."
+        ]
+      },
+      {
+        "featureName": "Email contact information",
+        "flow": "1. Visitor navigates to the Contact page where all contact options are listed. 2. Visitor finds the email contact information clearly displayed with a clickable 'mailto:' link. 3. On clicking the email address, the visitor’s default email client opens in a new window with the email address auto-filled in the recipient field. 4. The visitor composes and sends the email, initiating the inquiry process. 5. The support team receives the email and follows up as necessary.",
+        "screens": [
+          "Contact Page: Displays all contact information including the clickable email address.",
+          "Email Client Interaction (external): Although not a website screen, instructions or a tooltip might be provided to assist users on how to use the mailto link if needed."
+        ]
+      },
+      {
+        "featureName": "Office address details",
+        "flow": "1. Visitor visits the Contact page where the company’s office address is prominently listed. 2. Visitor reads the provided office address details. 3. Optionally, the visitor clicks on a 'View Map' link to see the physical location. 4. The map view is either integrated into the same page or loads as a separate screen with interactive map features, aiding visitors in locating the office.",
+        "screens": [
+          "Contact Page: Lists the office address along with other contact options.",
+          "Map Integration Screen: Provides an interactive map view detailing the office location, directions, and nearby landmarks."
+        ]
+      },
+      {
+        "featureName": "Prominently displayed hotline numbers",
+        "flow": "1. Visitor lands on the homepage and notices the hotline numbers featured prominently in the header section. 2. The hotline numbers are clearly labeled and categorized (e.g., for individual inquiries, group tours, and visa consultations). 3. Visitor can quickly identify and, if on mobile, tap the number to initiate a call or note it for reference. 4. For more details, visitor may navigate to the Contact page where the hotline information is repeated with additional context such as operating hours.",
+        "screens": [
+          "Homepage Header: Permanently displays key hotline numbers for immediate visitor recognition.",
+          "Contact Page: Offers a more detailed presentation of hotline information including descriptions and operating times."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Detailed Tour Information Pages",
+    "features": [
+      {
+        "featureName": "Daily itineraries",
+        "flow": "1. Visitor lands on the Detailed Tour Page and is presented with an overview of the tour along with navigation tabs. (Role: Visitor)\n2. Visitor selects the 'Daily Itineraries' tab to see day-by-day breakdowns of activities. (Role: Visitor)\n3. The system displays a chronological list of tour days with scheduled activities, timings, and brief descriptions for each day. (Role: System)\n4. Visitor can click on any specific day to view expanded details in a modal or a dedicated section. (Role: Visitor)\n5. Additional navigation is provided to return to the main tour details or switch to related sections. (Role: Visitor)\n6. Content Managers or Admins update itinerary details through the backend CMS when changes are required. (Role: Admin)",
+        "screens": [
+          "Tour Overview Screen: Displays a summary of tour information with navigation tabs for features like itinerary, highlights, pricing, etc.",
+          "Daily Itinerary Screen: Presents a day-by-day schedule with basic descriptions for each day of the tour.",
+          "Itinerary Detail Modal/Screen: Provides an expanded view including detailed schedules and additional notes when a specific day is selected."
+        ]
+      },
+      {
+        "featureName": "Trip highlights",
+        "flow": "1. Visitor accesses the Detailed Tour Page and scrolls to the 'Trip Highlights' section. (Role: Visitor)\n2. The system displays key attractions and unique selling points of the tour using icons, images, or bullet points. (Role: System)\n3. Visitor can click on any highlight for additional information, which opens a more detailed view. (Role: Visitor)\n4. Backend Content Managers update and curate highlights as needed. (Role: Admin)",
+        "screens": [
+          "Highlights Overview Screen: Features a visual summary of trip highlights with images, icons, and brief descriptions.",
+          "Highlight Detail Screen: Offers in-depth details about a specific highlight when a visitor selects it."
+        ]
+      },
+      {
+        "featureName": "Service information covering accommodations, flight tickets, and meals",
+        "flow": "1. Visitor navigates to the Detailed Tour Page and selects the 'Service Information' tab or section. (Role: Visitor)\n2. The system displays detailed information on services provided, including accommodations, flight tickets, and meal arrangements along with supporting images and descriptions. (Role: System)\n3. Visitor may click on any individual service to view a deeper breakdown of amenities, itinerary additions, or gallery images. (Role: Visitor)\n4. Content Managers ensure that the information is current and reflective of available services by updating the CMS. (Role: Admin)",
+        "screens": [
+          "Service Information Screen: Displays a comprehensive overview of accommodations, flight options, and meal plans available in the tour package.",
+          "Service Detail Modal/Screen: Provides an expanded view with detailed descriptions, images, and additional features for selected services."
+        ]
+      },
+      {
+        "featureName": "Comprehensive pricing details (inclusions and exclusions)",
+        "flow": "1. Visitor selects the 'Pricing Details' tab on the Detailed Tour Page. (Role: Visitor)\n2. The system shows a clear breakdown of pricing with separate sections for inclusions (such as accommodation, meals, and guided tour fees) and exclusions (such as personal expenses or optional tours). (Role: System)\n3. Visitor can hover or click on specific items to see tooltip explanations or detailed breakdowns. (Role: Visitor)\n4. If further clarification is needed, the system may offer a chat or direct contact link to customer support. (Role: Visitor / Support)\n5. Admin staff update pricing information and policy details via the CMS to reflect the latest offers and changes. (Role: Admin)",
+        "screens": [
+          "Pricing Overview Screen: Summarizes the total tour cost with sections clearly delineating inclusions and exclusions.",
+          "Detailed Pricing Screen: Provides a more granular breakdown of individual cost components along with tooltips or pop-ups for further explanations.",
+          "Support Chat/Contact Popup: Enables visitors to connect with customer support for pricing clarifications."
+        ]
+      },
+      {
+        "featureName": "Supporting images",
+        "flow": "1. As part of the Detailed Tour Page, the system automatically loads a gallery of relevant supporting images such as scenic views, accommodations, and previous tour experiences. (Role: System)\n2. Visitor browses through the image gallery integrated within the tour detail page. (Role: Visitor)\n3. On clicking an image, the system opens a lightbox or dedicated full-screen view with navigation options to browse further. (Role: Visitor)\n4. Content Managers maintain and update the gallery images based on the latest content and tour updates. (Role: Admin)",
+        "screens": [
+          "Image Gallery Screen: Displays a grid or carousel of supporting images related to the tour with brief captions or descriptions.",
+          "Image Lightbox Screen: Enlarged image view screen with navigation controls, including zoom and slideshow options."
+        ]
+      },
+      {
+        "featureName": "Guide information",
+        "flow": "1. Visitor scrolls to or clicks on the guide section on the Detailed Tour Page. (Role: Visitor)\n2. The system displays a brief overview of the tour guide including photo, name, and summary of qualifications. (Role: System)\n3. Visitor can click on the guide's profile to access more comprehensive details including bio, experience, language proficiency, and contact information. (Role: Visitor)\n4. If interested, visitor may use the provided contact options or inquiry forms to ask additional questions. (Role: Visitor)\n5. Admin or Guide Managers periodically update guide information to ensure accuracy and relevancy. (Role: Admin)",
+        "screens": [
+          "Guide Overview Screen: Provides a quick snapshot of the tour guide with a photo and a summary of credentials.",
+          "Guide Detail Screen: Offers in-depth information about the guide including their biography, experience, and additional contact details."
+        ]
+      },
+      {
+        "featureName": "Payment method policies",
+        "flow": "1. Visitor navigates to the 'Payment Policies' section within the Detailed Tour Page. (Role: Visitor)\n2. The system displays a list of accepted payment methods such as credit/debit cards, bank transfers, and online payment gateways along with policy details like deposit requirements and deadlines. (Role: System)\n3. Visitor can interact with the payment method details, clicking on items to see more detailed terms or FAQs. (Role: Visitor)\n4. For any unresolved queries, the visitor is provided with contact options to reach customer support. (Role: Visitor / Support)\n5. Admin updates the payment method policies periodically to reflect any changes in processing or third-party payment regulations. (Role: Admin)",
+        "screens": [
+          "Payment Policies Screen: Lists all acceptable payment methods alongside summarized policies for deposits, cancellation, and secure transactions.",
+          "Policy Detail Popup Screen: Displays an in-depth explanation for selected payment methods, including associated terms and conditions."
+        ]
+      },
+      {
+        "featureName": "Cancellation policies",
+        "flow": "1. Visitor accesses the 'Cancellation Policies' tab on the Detailed Tour Page. (Role: Visitor)\n2. The system displays comprehensive cancellation guidelines including deadlines, applicable fees, and refund conditions. (Role: System)\n3. Visitor reviews the policy details and has the option to download or print the policy information for future reference. (Role: Visitor)\n4. If needed, the system offers a contact option to answer any cancellation policy-related queries. (Role: Visitor / Support)\n5. Admin or Content Managers maintain and update cancellation policy details in line with organizational rules and legal requirements. (Role: Admin)",
+        "screens": [
+          "Cancellation Policy Screen: Clearly presents the cancellation terms, deadlines, and fee structures in a user-friendly layout.",
+          "Download/Print Option Screen: Provides functionality to download a PDF or print the cancellation policies for offline review."
+        ]
+      }
+    ]
+  }
+]

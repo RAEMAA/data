@@ -1,0 +1,1358 @@
+[
+    [
+        {
+            "id": "P1-T1",
+            "taskName": "Design Centralized Database Schema",
+            "correspondingPhase": "Phase 1: System Setup and Centralized Data Consolidation",
+            "correspondingFeature": "Consolidation of business information from all branches",
+            "priority": "High",
+            "estimationTime": "1 week",
+            "startTime": "2024-02-29",
+            "endTime": "2024-03-07",
+            "dependencies": [],
+            "responsiblePerson": "Database Architect"
+        },
+        {
+            "id": "P1-T2",
+            "taskName": "Set up Centralized Database Server",
+            "correspondingPhase": "Phase 1: System Setup and Centralized Data Consolidation",
+            "correspondingFeature": "Consolidation of business information from all branches",
+            "priority": "High",
+            "estimationTime": "1 week",
+            "startTime": "2024-03-07",
+            "endTime": "2024-03-14",
+            "dependencies": [
+                "P1-T1"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        },
+        {
+            "id": "P1-T3",
+            "taskName": "Develop Data Extraction Scripts for Each Branch",
+            "correspondingPhase": "Phase 1: System Setup and Centralized Data Consolidation",
+            "correspondingFeature": "Consolidation of business information from all branches",
+            "priority": "High",
+            "estimationTime": "2 weeks",
+            "startTime": "2024-03-14",
+            "endTime": "2024-03-28",
+            "dependencies": [
+                "P1-T2"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T4",
+            "taskName": "Implement Data Transformation and Loading (ETL) Process",
+            "correspondingPhase": "Phase 1: System Setup and Centralized Data Consolidation",
+            "correspondingFeature": "Consolidation of business information from all branches",
+            "priority": "High",
+            "estimationTime": "2 weeks",
+            "startTime": "2024-03-28",
+            "endTime": "2024-04-11",
+            "dependencies": [
+                "P1-T3"
+            ],
+            "responsiblePerson": "Data Engineer"
+        },
+        {
+            "id": "P1-T5",
+            "taskName": "Design Basic Admin Interface for Data Monitoring",
+            "correspondingPhase": "Phase 1: System Setup and Centralized Data Consolidation",
+            "correspondingFeature": "Consolidation of business information from all branches",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-03-14",
+            "endTime": "2024-03-19",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T6",
+            "taskName": "Implement Basic Admin Interface for Data Monitoring",
+            "correspondingPhase": "Phase 1: System Setup and Centralized Data Consolidation",
+            "correspondingFeature": "Consolidation of business information from all branches",
+            "priority": "Medium",
+            "estimationTime": "1 week",
+            "startTime": "2024-04-11",
+            "endTime": "2024-04-18",
+            "dependencies": [
+                "P1-T4",
+                "P1-T5"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P1-T7",
+            "taskName": "Test Data Consolidation Process and Admin Interface",
+            "correspondingPhase": "Phase 1: System Setup and Centralized Data Consolidation",
+            "correspondingFeature": "Consolidation of business information from all branches",
+            "priority": "High",
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+            "estimationTime": "1 week",
+            "startTime": "2024-04-18",
+            "endTime": "2024-04-25",
+=======
+            "estimatedTime": "3 days",
+            "startTime": "2023-12-14",
+            "endTime": "2023-12-18",
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+            "dependencies": [
+                "P1-T6"
+            ],
+            "responsiblePerson": "QA Engineer"
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+=======
+        },
+        {
+            "id": "P1-T8",
+            "taskName": "Document System Setup and Integration Process",
+            "correspondingPhase": "Phase 1: System Setup & Core Infrastructure",
+            "correspondingFeature": "Centralized System: Integration of data from all branches nationwide",
+            "priority": "Low",
+            "estimatedTime": "2 days",
+            "startTime": "2023-12-19",
+            "endTime": "2023-12-21",
+            "dependencies": [
+                "P1-T7"
+            ],
+            "responsiblePerson": "Technical Writer"
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+        }
+    ],
+    [
+        {
+            "id": "P2-T1",
+            "taskName": "Design Order Taking Interface",
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+            "correspondingPhase": "Phase 2",
+            "correspondingFeature": "Order Management: Simplified order taking for waiters",
+            "priority": "High",
+            "estimationTime": "1 week",
+            "startTime": "2024-04-26",
+            "endTime": "2024-05-03",
+=======
+            "correspondingPhase": "Phase 2a: Order Management Module Development",
+            "correspondingFeature": "Order Management: Digital order taking for waiters",
+            "priority": "High",
+            "estimatedTime": "5 days",
+            "startTime": "2023-12-22",
+            "endTime": "2023-12-27",
+            "dependencies": [
+                "P1-TBD"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T2",
+            "taskName": "Develop Waiter App Order Input Screen",
+            "correspondingPhase": "Phase 2a: Order Management Module Development",
+            "correspondingFeature": "Order Management: Digital order taking for waiters",
+            "priority": "High",
+            "estimatedTime": "1 week",
+            "startTime": "2023-12-28",
+            "endTime": "2024-01-04",
+            "dependencies": [
+                "P2-T1"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T3",
+            "taskName": "Implement Order Data Storage",
+            "correspondingPhase": "Phase 2a: Order Management Module Development",
+            "correspondingFeature": "Order Management: Digital order taking for waiters",
+            "priority": "High",
+            "estimatedTime": "1 week",
+            "startTime": "2023-12-28",
+            "endTime": "2024-01-04",
+            "dependencies": [
+                "P1-TBD"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T4",
+            "taskName": "Develop Real-time Order Updates",
+            "correspondingPhase": "Phase 2a: Order Management Module Development",
+            "correspondingFeature": "Order Management: Minimize waiter movement during order process",
+            "priority": "Medium",
+            "estimatedTime": "1 week",
+            "startTime": "2024-01-05",
+            "endTime": "2024-01-12",
+            "dependencies": [
+                "P2-T2",
+                "P2-T3"
+            ],
+            "responsiblePerson": "Fullstack Developer"
+        },
+        {
+            "id": "P2-T5",
+            "taskName": "Implement Kitchen Display System (KDS) Integration",
+            "correspondingPhase": "Phase 2a: Order Management Module Development",
+            "correspondingFeature": "Order Management: Minimize waiter movement during order process",
+            "priority": "Medium",
+            "estimatedTime": "1 week",
+            "startTime": "2024-01-13",
+            "endTime": "2024-01-19",
+            "dependencies": [
+                "P2-T3"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T6",
+            "taskName": "Design KDS Interface",
+            "correspondingPhase": "Phase 2a: Order Management Module Development",
+            "correspondingFeature": "Order Management: Minimize waiter movement during order process",
+            "priority": "Medium",
+            "estimatedTime": "3 days",
+            "startTime": "2024-01-13",
+            "endTime": "2024-01-16",
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+            "id": "P2-T2",
+            "taskName": "Develop Order Taking API",
+            "correspondingPhase": "Phase 2",
+            "correspondingFeature": "Order Management: Simplified order taking for waiters",
+            "priority": "High",
+            "estimationTime": "2 weeks",
+            "startTime": "2024-05-03",
+            "endTime": "2024-05-17",
+            "dependencies": [
+                "P2-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T3",
+            "taskName": "Implement Order Taking Interface",
+            "correspondingPhase": "Phase 2",
+            "correspondingFeature": "Order Management: Simplified order taking for waiters",
+            "priority": "High",
+            "estimationTime": "2 weeks",
+            "startTime": "2024-05-17",
+            "endTime": "2024-05-31",
+            "dependencies": [
+                "P2-T2"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T4",
+            "taskName": "Test Order Taking Functionality",
+            "correspondingPhase": "Phase 2",
+            "correspondingFeature": "Order Management: Simplified order taking for waiters",
+            "priority": "High",
+            "estimationTime": "1 week",
+            "startTime": "2024-05-31",
+            "endTime": "2024-06-07",
+            "dependencies": [
+                "P2-T3"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T5",
+            "taskName": "Design Automated Bill Generation Module",
+            "correspondingPhase": "Phase 2",
+            "correspondingFeature": "Order Management: Automated bill generation",
+            "priority": "High",
+            "estimationTime": "1 week",
+            "startTime": "2024-04-26",
+            "endTime": "2024-05-03",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T6",
+            "taskName": "Develop Bill Generation API",
+            "correspondingPhase": "Phase 2",
+            "correspondingFeature": "Order Management: Automated bill generation",
+            "priority": "High",
+            "estimationTime": "2 weeks",
+            "startTime": "2024-05-03",
+            "endTime": "2024-05-17",
+=======
+            "id": "P2-T7",
+            "taskName": "Develop KDS Display Screen",
+            "correspondingPhase": "Phase 2a: Order Management Module Development",
+            "correspondingFeature": "Order Management: Minimize waiter movement during order process",
+            "priority": "Medium",
+            "estimatedTime": "5 days",
+            "startTime": "2024-01-17",
+            "endTime": "2024-01-22",
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+            "dependencies": [
+                "P2-T5"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T7",
+            "taskName": "Implement Bill Generation Module",
+            "correspondingPhase": "Phase 2",
+            "correspondingFeature": "Order Management: Automated bill generation",
+            "priority": "High",
+            "estimationTime": "2 weeks",
+            "startTime": "2024-05-17",
+            "endTime": "2024-05-31",
+            "dependencies": [
+                "P2-T6"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T8",
+            "taskName": "Test Bill Generation Functionality",
+            "correspondingPhase": "Phase 2",
+            "correspondingFeature": "Order Management: Automated bill generation",
+            "priority": "High",
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+            "estimationTime": "1 week",
+            "startTime": "2024-05-31",
+            "endTime": "2024-06-07",
+=======
+            "estimatedTime": "3 days",
+            "startTime": "2024-01-23",
+            "endTime": "2024-01-26",
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+            "dependencies": [
+                "P2-T7"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T9",
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+            "taskName": "Design Waiter Movement Minimization Features",
+            "correspondingPhase": "Phase 2",
+            "correspondingFeature": "Order Management: Minimize waiter movement during order taking",
+            "priority": "Medium",
+            "estimationTime": "1 week",
+            "startTime": "2024-06-07",
+            "endTime": "2024-06-14",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T10",
+            "taskName": "Develop Location-Based Order Routing API",
+            "correspondingPhase": "Phase 2",
+            "correspondingFeature": "Order Management: Minimize waiter movement during order taking",
+            "priority": "Medium",
+            "estimationTime": "2 weeks",
+            "startTime": "2024-06-14",
+            "endTime": "2024-06-28",
+=======
+            "taskName": "Fix Bugs and Refine Order Management Module",
+            "correspondingPhase": "Phase 2a: Order Management Module Development",
+            "correspondingFeature": "Order Management: Digital order taking for waiters",
+            "priority": "High",
+            "estimatedTime": "3 days",
+            "startTime": "2024-01-27",
+            "endTime": "2024-01-30",
+            "dependencies": [
+                "P2-T8"
+            ],
+            "responsiblePerson": "Fullstack Developer"
+        },
+        {
+            "id": "P2-T10",
+            "taskName": "User Acceptance Testing (UAT) for Order Management",
+            "correspondingPhase": "Phase 2a: Order Management Module Development",
+            "correspondingFeature": "Order Management: Digital order taking for waiters",
+            "priority": "High",
+            "estimatedTime": "2 days",
+            "startTime": "2024-01-31",
+            "endTime": "2024-02-01",
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+            "dependencies": [
+                "P2-T9"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T11",
+            "taskName": "Implement Waiter Location Tracking",
+            "correspondingPhase": "Phase 2",
+            "correspondingFeature": "Order Management: Minimize waiter movement during order taking",
+            "priority": "Medium",
+            "estimationTime": "2 weeks",
+            "startTime": "2024-06-28",
+            "endTime": "2024-07-12",
+            "dependencies": [
+                "P2-T10"
+            ],
+            "responsiblePerson": "Mobile Developer"
+        },
+        {
+            "id": "P2-T12",
+            "taskName": "Test Waiter Movement Minimization Features",
+            "correspondingPhase": "Phase 2",
+            "correspondingFeature": "Order Management: Minimize waiter movement during order taking",
+            "priority": "Medium",
+            "estimationTime": "1 week",
+            "startTime": "2024-07-12",
+            "endTime": "2024-07-19",
+            "dependencies": [
+                "P2-T11"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P3-T1",
+            "taskName": "Design Revenue Report for Individual Branches",
+            "correspondingPhase": "Phase 3: Reporting and Analytics Implementation",
+            "correspondingFeature": "Reporting and Analytics: Revenue reports for individual branches",
+            "priority": "High",
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+            "estimationTime": "3 days",
+            "startTime": "2024-07-05",
+            "endTime": "2024-07-08",
+            "dependencies": [],
+=======
+            "estimatedTime": "3 days",
+            "startTime": "2023-12-22",
+            "endTime": "2023-12-25",
+            "dependencies": [
+                "P1-T10"
+            ],
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T2",
+            "taskName": "Implement Revenue Report for Individual Branches",
+            "correspondingPhase": "Phase 3: Reporting and Analytics Implementation",
+            "correspondingFeature": "Reporting and Analytics: Revenue reports for individual branches",
+            "priority": "High",
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+            "estimationTime": "1 week",
+            "startTime": "2024-07-09",
+            "endTime": "2024-07-16",
+=======
+            "estimatedTime": "5 days",
+            "startTime": "2023-12-26",
+            "endTime": "2023-12-31",
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+            "dependencies": [
+                "P3-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T3",
+            "taskName": "Test Revenue Report for Individual Branches",
+            "correspondingPhase": "Phase 3: Reporting and Analytics Implementation",
+            "correspondingFeature": "Reporting and Analytics: Revenue reports for individual branches",
+            "priority": "High",
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+            "estimationTime": "2 days",
+            "startTime": "2024-07-17",
+            "endTime": "2024-07-19",
+=======
+            "estimatedTime": "2 days",
+            "startTime": "2024-01-01",
+            "endTime": "2024-01-03",
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+            "dependencies": [
+                "P3-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T4",
+            "taskName": "Design Revenue Report for Entire CDC Chain",
+            "correspondingPhase": "Phase 3: Reporting and Analytics Implementation",
+            "correspondingFeature": "Reporting and Analytics: Revenue reports for the entire CDC chain",
+            "priority": "High",
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+            "estimationTime": "3 days",
+            "startTime": "2024-07-22",
+            "endTime": "2024-07-25",
+            "dependencies": [],
+=======
+            "estimatedTime": "3 days",
+            "startTime": "2023-12-22",
+            "endTime": "2023-12-25",
+            "dependencies": [
+                "P1-T10"
+            ],
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T5",
+            "taskName": "Implement Revenue Report for Entire CDC Chain",
+            "correspondingPhase": "Phase 3: Reporting and Analytics Implementation",
+            "correspondingFeature": "Reporting and Analytics: Revenue reports for the entire CDC chain",
+            "priority": "High",
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+            "estimationTime": "1 week",
+            "startTime": "2024-07-26",
+            "endTime": "2024-08-02",
+=======
+            "estimatedTime": "5 days",
+            "startTime": "2023-12-26",
+            "endTime": "2023-12-31",
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+            "dependencies": [
+                "P3-T4",
+                "P3-T2"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T6",
+            "taskName": "Test Revenue Report for Entire CDC Chain",
+            "correspondingPhase": "Phase 3: Reporting and Analytics Implementation",
+            "correspondingFeature": "Reporting and Analytics: Revenue reports for the entire CDC chain",
+            "priority": "High",
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+            "estimationTime": "2 days",
+            "startTime": "2024-08-05",
+            "endTime": "2024-08-07",
+=======
+            "estimatedTime": "2 days",
+            "startTime": "2024-01-01",
+            "endTime": "2024-01-03",
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+            "dependencies": [
+                "P3-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T7",
+            "taskName": "Design Comprehensive Business Oversight Dashboard",
+            "correspondingPhase": "Phase 3: Reporting and Analytics Implementation",
+            "correspondingFeature": "Reporting and Analytics: Comprehensive business oversight",
+            "priority": "Medium",
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+            "estimationTime": "4 days",
+            "startTime": "2024-08-08",
+            "endTime": "2024-08-12",
+            "dependencies": [],
+=======
+            "estimatedTime": "4 days",
+            "startTime": "2024-01-04",
+            "endTime": "2024-01-08",
+            "dependencies": [
+                "P1-T10"
+            ],
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T8",
+            "taskName": "Implement Comprehensive Business Oversight Dashboard",
+            "correspondingPhase": "Phase 3: Reporting and Analytics Implementation",
+            "correspondingFeature": "Reporting and Analytics: Comprehensive business oversight",
+            "priority": "Medium",
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+            "estimationTime": "1 week",
+            "startTime": "2024-08-13",
+            "endTime": "2024-08-20",
+=======
+            "estimatedTime": "1 week",
+            "startTime": "2024-01-09",
+            "endTime": "2024-01-16",
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+            "dependencies": [
+                "P3-T7",
+                "P3-T5"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P3-T9",
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+            "taskName": "Test Comprehensive Business Oversight Dashboard",
+            "correspondingPhase": "Phase 3: Reporting and Analytics Implementation",
+            "correspondingFeature": "Reporting and Analytics: Comprehensive business oversight",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-21",
+            "endTime": "2024-08-23",
+=======
+            "taskName": "Implement Data Aggregation for Business Data Management",
+            "correspondingPhase": "Phase 2b: Reporting and Analytics Module Development",
+            "correspondingFeature": "Reporting and Analytics: Comprehensive business data management",
+            "priority": "High",
+            "estimatedTime": "1 week",
+            "startTime": "2024-01-09",
+            "endTime": "2024-01-16",
+            "dependencies": [
+                "P3-T7"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T10",
+            "taskName": "Test Comprehensive Business Data Management Dashboard",
+            "correspondingPhase": "Phase 2b: Reporting and Analytics Module Development",
+            "correspondingFeature": "Reporting and Analytics: Comprehensive business data management",
+            "priority": "Medium",
+            "estimatedTime": "3 days",
+            "startTime": "2024-01-17",
+            "endTime": "2024-01-20",
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+            "dependencies": [
+                "P3-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+            "id": "P3-T10",
+            "taskName": "Finalize and Document Reporting and Analytics Implementation",
+            "correspondingPhase": "Phase 3: Reporting and Analytics Implementation",
+            "correspondingFeature": "Reporting and Analytics: Revenue reports for individual branches, Revenue reports for the entire CDC chain, Comprehensive business oversight",
+            "priority": "Low",
+            "estimationTime": "3 days",
+            "startTime": "2024-08-26",
+            "endTime": "2024-08-29",
+            "dependencies": [
+                "P3-T3",
+                "P3-T6",
+                "P3-T9"
+            ],
+            "responsiblePerson": "Project Manager"
+=======
+            "id": "P3-T11",
+            "taskName": "Refactor and Optimize Reporting Module",
+            "correspondingPhase": "Phase 2b: Reporting and Analytics Module Development",
+            "correspondingFeature": "Reporting and Analytics: Revenue reports for individual branches",
+            "priority": "Medium",
+            "estimatedTime": "4 days",
+            "startTime": "2024-01-22",
+            "endTime": "2024-01-26",
+            "dependencies": [
+                "P3-T3",
+                "P3-T6",
+                "P3-T10"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T12",
+            "taskName": "Prepare Documentation for Reporting and Analytics Module",
+            "correspondingPhase": "Phase 2b: Reporting and Analytics Module Development",
+            "correspondingFeature": "Reporting and Analytics: Comprehensive business data management",
+            "priority": "Low",
+            "estimatedTime": "3 days",
+            "startTime": "2024-01-29",
+            "endTime": "2024-02-01",
+            "dependencies": [
+                "P3-T11"
+            ],
+            "responsiblePerson": "Technical Writer"
+        },
+        {
+            "id": "P3-T13",
+            "taskName": "User Acceptance Testing (UAT) Preparation",
+            "correspondingPhase": "Phase 2b: Reporting and Analytics Module Development",
+            "correspondingFeature": "Reporting and Analytics: Comprehensive business data management",
+            "priority": "Medium",
+            "estimatedTime": "2 days",
+            "startTime": "2024-02-02",
+            "endTime": "2024-02-04",
+            "dependencies": [
+                "P3-T11"
+            ],
+            "responsiblePerson": "Project Manager"
+        },
+        {
+            "id": "P3-T14",
+            "taskName": "Address UAT Feedback and Bug Fixes",
+            "correspondingPhase": "Phase 2b: Reporting and Analytics Module Development",
+            "correspondingFeature": "Reporting and Analytics: Comprehensive business data management",
+            "priority": "High",
+            "estimatedTime": "3 days",
+            "startTime": "2024-02-05",
+            "endTime": "2024-02-08",
+            "dependencies": [
+                "P3-T13"
+            ],
+            "responsiblePerson": "Backend Developer"
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+        }
+    ],
+    [
+        {
+            "id": "P4-T1",
+            "taskName": "Develop User Training Materials",
+            "correspondingPhase": "Phase 4",
+            "correspondingFeature": "User Support: Support for local staff (waiters)",
+            "priority": "High",
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+            "estimationTime": "1 week",
+            "startTime": "2024-08-30",
+            "endTime": "2024-09-06",
+=======
+            "estimatedTime": "3 days",
+            "startTime": "2024-02-02",
+            "endTime": "2024-02-05",
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+            "dependencies": [
+                "P2-T5"
+            ],
+            "responsiblePerson": "Technical Writer"
+        },
+        {
+            "id": "P4-T2",
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+            "taskName": "Prepare Training Environment",
+            "correspondingPhase": "Phase 4",
+            "correspondingFeature": "User Support: Support for local staff (waiters)",
+            "priority": "Medium",
+            "estimationTime": "0.5 week",
+            "startTime": "2024-08-30",
+            "endTime": "2024-09-02",
+            "dependencies": [],
+            "responsiblePerson": "System Administrator"
+=======
+            "taskName": "Develop Waiter Role Functionality",
+            "correspondingPhase": "Phase 3: User Role & Permission Configuration",
+            "correspondingFeature": "User Roles and Permissions: Functionality for local staff (waiters)",
+            "priority": "High",
+            "estimatedTime": "5 days",
+            "startTime": "2024-02-06",
+            "endTime": "2024-02-11",
+            "dependencies": [
+                "P4-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+        },
+        {
+            "id": "P4-T3",
+            "taskName": "Conduct Initial Training Sessions",
+            "correspondingPhase": "Phase 4",
+            "correspondingFeature": "User Support: Support for local staff (waiters)",
+            "priority": "High",
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+            "estimationTime": "1 week",
+            "startTime": "2024-09-06",
+            "endTime": "2024-09-13",
+=======
+            "estimatedTime": "5 days",
+            "startTime": "2024-02-12",
+            "endTime": "2024-02-17",
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+            "dependencies": [
+                "P4-T1",
+                "P4-T2"
+            ],
+            "responsiblePerson": "Training Lead"
+        },
+        {
+            "id": "P4-T4",
+            "taskName": "Gather User Feedback and Iterate on Training Materials",
+            "correspondingPhase": "Phase 4",
+            "correspondingFeature": "User Support: Support for local staff (waiters)",
+            "priority": "Medium",
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+            "estimationTime": "0.5 week",
+            "startTime": "2024-09-13",
+            "endTime": "2024-09-16",
+=======
+            "estimatedTime": "3 days",
+            "startTime": "2024-02-18",
+            "endTime": "2024-02-21",
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+            "dependencies": [
+                "P4-T3"
+            ],
+            "responsiblePerson": "Training Lead"
+        },
+        {
+            "id": "P4-T5",
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+            "taskName": "Develop User Manual and FAQs",
+            "correspondingPhase": "Phase 4",
+            "correspondingFeature": "User Support: Support for local staff (waiters)",
+            "priority": "Medium",
+            "estimationTime": "0.5 week",
+            "startTime": "2024-09-16",
+            "endTime": "2024-09-19",
+            "dependencies": [],
+            "responsiblePerson": "Technical Writer"
+        },
+        {
+            "id": "P4-T6",
+            "taskName": "Conduct Follow-up Training Sessions",
+            "correspondingPhase": "Phase 4",
+            "correspondingFeature": "User Support: Support for local staff (waiters)",
+            "priority": "Medium",
+            "estimationTime": "0.5 week",
+            "startTime": "2024-09-19",
+            "endTime": "2024-09-22",
+=======
+            "taskName": "Implement Waiter Interface for Order Taking",
+            "correspondingPhase": "Phase 3: User Role & Permission Configuration",
+            "correspondingFeature": "User Roles and Permissions: Functionality for local staff (waiters)",
+            "priority": "High",
+            "estimatedTime": "4 days",
+            "startTime": "2024-02-22",
+            "endTime": "2024-02-26",
+            "dependencies": [
+                "P4-T4",
+                "P4-T3"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T6",
+            "taskName": "Test Waiter Role and Permissions",
+            "correspondingPhase": "Phase 3: User Role & Permission Configuration",
+            "correspondingFeature": "User Roles and Permissions: Functionality for local staff (waiters)",
+            "priority": "High",
+            "estimatedTime": "3 days",
+            "startTime": "2024-02-27",
+            "endTime": "2024-02-29",
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+            "dependencies": [
+                "P4-T4"
+            ],
+            "responsiblePerson": "Training Lead"
+        },
+        {
+            "id": "P4-T7",
+            "taskName": "Finalize Training Materials and Documentation",
+            "correspondingPhase": "Phase 4",
+            "correspondingFeature": "User Support: Support for local staff (waiters)",
+            "priority": "High",
+            "estimationTime": "0.5 week",
+            "startTime": "2024-09-22",
+            "endTime": "2024-09-26",
+            "dependencies": [
+                "P4-T5",
+                "P4-T6"
+            ],
+            "responsiblePerson": "Technical Writer"
+        }
+    ],
+    [
+        {
+            "id": "P5-T1",
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+=======
+            "taskName": "Design Automated Bill Generation Module",
+            "correspondingPhase": "Phase 5: Automated Bill Generation Integration",
+            "correspondingFeature": "Order Management: Automated bill generation",
+            "priority": "High",
+            "estimatedTime": "1 week",
+            "startTime": "2024-03-01",
+            "endTime": "2024-03-08",
+            "dependencies": [
+                "P2-TBD",
+                "P4-TBD"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P5-T2",
+            "taskName": "Develop API for Bill Generation",
+            "correspondingPhase": "Phase 5: Automated Bill Generation Integration",
+            "correspondingFeature": "Order Management: Automated bill generation",
+            "priority": "High",
+            "estimatedTime": "1 week",
+            "startTime": "2024-03-08",
+            "endTime": "2024-03-15",
+            "dependencies": [
+                "P5-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P5-T3",
+            "taskName": "Implement Bill Generation Logic",
+            "correspondingPhase": "Phase 5: Automated Bill Generation Integration",
+            "correspondingFeature": "Order Management: Automated bill generation",
+            "priority": "High",
+            "estimatedTime": "1 week",
+            "startTime": "2024-03-15",
+            "endTime": "2024-03-22",
+            "dependencies": [
+                "P5-T2"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P5-T4",
+            "taskName": "Integrate Bill Generation with Order Management",
+            "correspondingPhase": "Phase 5: Automated Bill Generation Integration",
+            "correspondingFeature": "Order Management: Automated bill generation",
+            "priority": "High",
+            "estimatedTime": "1 week",
+            "startTime": "2024-03-22",
+            "endTime": "2024-03-29",
+            "dependencies": [
+                "P5-T3"
+            ],
+            "responsiblePerson": "Full-Stack Developer"
+        },
+        {
+            "id": "P5-T5",
+            "taskName": "Test Automated Bill Generation",
+            "correspondingPhase": "Phase 5: Automated Bill Generation Integration",
+            "correspondingFeature": "Order Management: Automated bill generation",
+            "priority": "High",
+            "estimatedTime": "1 week",
+            "startTime": "2024-03-29",
+            "endTime": "2024-04-04",
+            "dependencies": [
+                "P5-T4"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T6",
+            "taskName": "Design Bill Generation Screen",
+            "correspondingPhase": "Phase 5: Automated Bill Generation Integration",
+            "correspondingFeature": "Order Management: Automated bill generation",
+            "priority": "High",
+            "estimatedTime": "0.5 week",
+            "startTime": "2024-03-01",
+            "endTime": "2024-03-05",
+            "dependencies": [
+                "P5-T1"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P5-T7",
+            "taskName": "Implement Bill Generation Screen",
+            "correspondingPhase": "Phase 5: Automated Bill Generation Integration",
+            "correspondingFeature": "Order Management: Automated bill generation",
+            "priority": "High",
+            "estimatedTime": "0.5 week",
+            "startTime": "2024-03-22",
+            "endTime": "2024-03-26",
+            "dependencies": [
+                "P5-T6"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P5-T8",
+            "taskName": "Test Bill Generation Screen",
+            "correspondingPhase": "Phase 5: Automated Bill Generation Integration",
+            "correspondingFeature": "Order Management: Automated bill generation",
+            "priority": "High",
+            "estimatedTime": "0.5 week",
+            "startTime": "2024-03-29",
+            "endTime": "2024-04-01",
+            "dependencies": [
+                "P5-T7"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P6-T1",
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+            "taskName": "Prepare Test Environment",
+            "correspondingPhase": "Phase 5: System Testing and Deployment",
+            "correspondingFeature": "N/A",
+            "priority": "High",
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+            "estimationTime": "3 days",
+            "startTime": "2024-09-27",
+            "endTime": "2024-09-29",
+=======
+            "estimatedTime": "3 days",
+            "startTime": "2024-04-05",
+            "endTime": "2024-04-08",
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+            "dependencies": [],
+            "responsiblePerson": "System Administrator"
+        },
+        {
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+            "id": "P5-T2",
+            "taskName": "Develop Test Cases and Scripts",
+            "correspondingPhase": "Phase 5: System Testing and Deployment",
+            "correspondingFeature": "N/A",
+            "priority": "High",
+            "estimationTime": "1 week",
+            "startTime": "2024-09-30",
+            "endTime": "2024-10-06",
+            "dependencies": [],
+            "responsiblePerson": "QA Engineer"
+=======
+            "id": "P6-T2",
+            "taskName": "Develop Test Cases for Order Management Module",
+            "correspondingPhase": "Phase 5: System Testing & Deployment",
+            "correspondingFeature": "Digital order taking for waiters, Automated bill generation, Minimize waiter movement during order process",
+            "priority": "High",
+            "estimatedTime": "4 days",
+            "startTime": "2024-04-08",
+            "endTime": "2024-04-12",
+            "dependencies": [
+                "P6-T1"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P6-T3",
+            "taskName": "Develop Test Cases for Reporting and Analytics Module",
+            "correspondingPhase": "Phase 5: System Testing & Deployment",
+            "correspondingFeature": "Revenue reports for individual branches, Revenue reports for the entire CDC chain, Comprehensive business data management",
+            "priority": "High",
+            "estimatedTime": "4 days",
+            "startTime": "2024-04-08",
+            "endTime": "2024-04-12",
+            "dependencies": [
+                "P6-T1"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P6-T4",
+            "taskName": "Develop Test Cases for User Roles and Permissions",
+            "correspondingPhase": "Phase 5: System Testing & Deployment",
+            "correspondingFeature": "Functionality for local staff (waiters)",
+            "priority": "High",
+            "estimatedTime": "2 days",
+            "startTime": "2024-04-12",
+            "endTime": "2024-04-14",
+            "dependencies": [
+                "P6-T1"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P6-T5",
+            "taskName": "Execute Test Cases for Order Management Module",
+            "correspondingPhase": "Phase 5: System Testing & Deployment",
+            "correspondingFeature": "Digital order taking for waiters, Automated bill generation, Minimize waiter movement during order process",
+            "priority": "High",
+            "estimatedTime": "5 days",
+            "startTime": "2024-04-15",
+            "endTime": "2024-04-19",
+            "dependencies": [
+                "P6-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P6-T6",
+            "taskName": "Execute Test Cases for Reporting and Analytics Module",
+            "correspondingPhase": "Phase 5: System Testing & Deployment",
+            "correspondingFeature": "Revenue reports for individual branches, Revenue reports for the entire CDC chain, Comprehensive business data management",
+            "priority": "High",
+            "estimatedTime": "5 days",
+            "startTime": "2024-04-15",
+            "endTime": "2024-04-19",
+            "dependencies": [
+                "P6-T3"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P6-T7",
+            "taskName": "Execute Test Cases for User Roles and Permissions",
+            "correspondingPhase": "Phase 5: System Testing & Deployment",
+            "correspondingFeature": "Functionality for local staff (waiters)",
+            "priority": "High",
+            "estimatedTime": "3 days",
+            "startTime": "2024-04-19",
+            "endTime": "2024-04-22",
+            "dependencies": [
+                "P6-T4"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P6-T8",
+            "taskName": "Fix Bugs Identified During Testing (Order Management)",
+            "correspondingPhase": "Phase 5: System Testing & Deployment",
+            "correspondingFeature": "Digital order taking for waiters, Automated bill generation, Minimize waiter movement during order process",
+            "priority": "High",
+            "estimatedTime": "5 days",
+            "startTime": "2024-04-22",
+            "endTime": "2024-04-26",
+            "dependencies": [
+                "P6-T5"
+            ],
+            "responsiblePerson": "Backend Developer, Frontend Developer"
+        },
+        {
+            "id": "P6-T9",
+            "taskName": "Fix Bugs Identified During Testing (Reporting and Analytics)",
+            "correspondingPhase": "Phase 5: System Testing & Deployment",
+            "correspondingFeature": "Revenue reports for individual branches, Revenue reports for the entire CDC chain, Comprehensive business data management",
+            "priority": "High",
+            "estimatedTime": "5 days",
+            "startTime": "2024-04-22",
+            "endTime": "2024-04-26",
+            "dependencies": [
+                "P6-T6"
+            ],
+            "responsiblePerson": "Backend Developer, Frontend Developer"
+        },
+        {
+            "id": "P6-T10",
+            "taskName": "Fix Bugs Identified During Testing (User Roles and Permissions)",
+            "correspondingPhase": "Phase 5: System Testing & Deployment",
+            "correspondingFeature": "Functionality for local staff (waiters)",
+            "priority": "High",
+            "estimatedTime": "3 days",
+            "startTime": "2024-04-26",
+            "endTime": "2024-04-29",
+            "dependencies": [
+                "P6-T7"
+            ],
+            "responsiblePerson": "Backend Developer, Frontend Developer"
+        },
+        {
+            "id": "P6-T11",
+            "taskName": "Regression Testing (Order Management)",
+            "correspondingPhase": "Phase 5: System Testing & Deployment",
+            "correspondingFeature": "Digital order taking for waiters, Automated bill generation, Minimize waiter movement during order process",
+            "priority": "High",
+            "estimatedTime": "3 days",
+            "startTime": "2024-04-29",
+            "endTime": "2024-05-02",
+            "dependencies": [
+                "P6-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P6-T12",
+            "taskName": "Regression Testing (Reporting and Analytics)",
+            "correspondingPhase": "Phase 5: System Testing & Deployment",
+            "correspondingFeature": "Revenue reports for individual branches, Revenue reports for the entire CDC chain, Comprehensive business data management",
+            "priority": "High",
+            "estimatedTime": "3 days",
+            "startTime": "2024-04-29",
+            "endTime": "2024-05-02",
+            "dependencies": [
+                "P6-T9"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P6-T13",
+            "taskName": "Regression Testing (User Roles and Permissions)",
+            "correspondingPhase": "Phase 5: System Testing & Deployment",
+            "correspondingFeature": "Functionality for local staff (waiters)",
+            "priority": "High",
+            "estimatedTime": "2 days",
+            "startTime": "2024-05-02",
+            "endTime": "2024-05-04",
+            "dependencies": [
+                "P6-T10"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P6-T14",
+            "taskName": "Prepare Deployment Plan",
+            "correspondingPhase": "Phase 5: System Testing & Deployment",
+            "correspondingFeature": "N/A",
+            "priority": "High",
+            "estimatedTime": "2 days",
+            "startTime": "2024-05-04",
+            "endTime": "2024-05-06",
+            "dependencies": [
+                "P6-T11",
+                "P6-T12",
+                "P6-T13"
+            ],
+            "responsiblePerson": "Project Manager, System Administrator"
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+        },
+        {
+            "id": "P5-T3",
+            "taskName": "Conduct Unit Testing",
+            "correspondingPhase": "Phase 5: System Testing and Deployment",
+            "correspondingFeature": "N/A",
+            "priority": "High",
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+            "estimationTime": "1 week",
+            "startTime": "2024-10-07",
+            "endTime": "2024-10-13",
+=======
+            "estimatedTime": "3 days",
+            "startTime": "2024-05-06",
+            "endTime": "2024-05-09",
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+            "dependencies": [
+                "P5-T2"
+            ],
+            "responsiblePerson": "Software Developer"
+        },
+        {
+            "id": "P5-T4",
+            "taskName": "Conduct Integration Testing",
+            "correspondingPhase": "Phase 5: System Testing and Deployment",
+            "correspondingFeature": "N/A",
+            "priority": "High",
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+            "estimationTime": "1 week",
+            "startTime": "2024-10-14",
+            "endTime": "2024-10-20",
+=======
+            "estimatedTime": "5 days",
+            "startTime": "2024-05-09",
+            "endTime": "2024-05-14",
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+            "dependencies": [
+                "P5-T3"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T5",
+            "taskName": "Conduct User Acceptance Testing (UAT)",
+            "correspondingPhase": "Phase 5: System Testing and Deployment",
+            "correspondingFeature": "N/A",
+            "priority": "High",
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+            "estimationTime": "1 week",
+            "startTime": "2024-10-21",
+            "endTime": "2024-10-27",
+=======
+            "estimatedTime": "2 days",
+            "startTime": "2024-05-14",
+            "endTime": "2024-05-16",
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+            "dependencies": [
+                "P5-T4"
+            ],
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+            "responsiblePerson": "Business Analyst"
+=======
+            "responsiblePerson": "Project Manager, Stakeholders"
+        }
+    ],
+    [
+        {
+            "id": "P7-T1",
+            "taskName": "Develop Training Materials for Waiters - Order Management",
+            "correspondingPhase": "Phase 6: Training & Documentation",
+            "correspondingFeature": "Digital order taking for waiters, Automated bill generation, Minimize waiter movement during order process",
+            "priority": "High",
+            "estimatedTime": "5 days",
+            "startTime": "2024-05-17",
+            "endTime": "2024-05-21",
+            "dependencies": [
+                "P6-T4"
+            ],
+            "responsiblePerson": "Training Specialist"
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+        },
+        {
+            "id": "P5-T6",
+            "taskName": "Address UAT Feedback and Bug Fixes",
+            "correspondingPhase": "Phase 5: System Testing and Deployment",
+            "correspondingFeature": "N/A",
+            "priority": "High",
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+            "estimationTime": "1 week",
+            "startTime": "2024-10-28",
+            "endTime": "2024-11-03",
+=======
+            "estimatedTime": "5 days",
+            "startTime": "2024-05-22",
+            "endTime": "2024-05-27",
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+            "dependencies": [
+                "P5-T5"
+            ],
+            "responsiblePerson": "Software Developer"
+        },
+        {
+            "id": "P5-T7",
+            "taskName": "Prepare Deployment Plan and Documentation",
+            "correspondingPhase": "Phase 5: System Testing and Deployment",
+            "correspondingFeature": "N/A",
+            "priority": "Medium",
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+            "estimationTime": "2 days",
+            "startTime": "2024-11-04",
+            "endTime": "2024-11-05",
+=======
+            "estimatedTime": "4 days",
+            "startTime": "2024-05-28",
+            "endTime": "2024-05-31",
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+            "dependencies": [
+                "P5-T6"
+            ],
+            "responsiblePerson": "Project Manager"
+        },
+        {
+            "id": "P5-T8",
+            "taskName": "Deploy System to Production",
+            "correspondingPhase": "Phase 5: System Testing and Deployment",
+            "correspondingFeature": "N/A",
+            "priority": "High",
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+            "estimationTime": "1 day",
+            "startTime": "2024-11-06",
+            "endTime": "2024-11-06",
+            "dependencies": [
+                "P5-T7"
+=======
+            "estimatedTime": "5 days",
+                "startTime": "2024-06-03",
+                "endTime": "2024-06-07",
+                "dependencies": [
+                    "P6-T4"
+                ],
+                "responsiblePerson": "Technical Writer"
+            },
+            {
+                "id": "P7-T5",
+                "taskName": "Prepare Training Environment and Data",
+                "correspondingPhase": "Phase 6: Training & Documentation",
+                "correspondingFeature": "Digital order taking for waiters, Automated bill generation, Minimize waiter movement during order process, Revenue reports for individual branches, Revenue reports for the entire CDC chain, Comprehensive business data management, Functionality for local staff (waiters), Integration of data from all branches nationwide",
+                "priority": "Medium",
+                "estimatedTime": "3 days",
+                "startTime": "2024-06-10",
+                "endTime": "2024-06-12",
+                "dependencies": [
+                    "P6-T4"
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+                ],
+                "responsiblePerson": "System Administrator"
+            },
+            {
+<<<<<<< HEAD:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.list_task.json
+            "id": "P5-T9",
+                "taskName": "Post-Deployment Monitoring and Support",
+                "correspondingPhase": "Phase 5: System Testing and Deployment",
+                "correspondingFeature": "N/A",
+                "priority": "Medium",
+                "estimationTime": "1 day",
+                "startTime": "2024-11-07",
+                "endTime": "2024-11-07",
+=======
+            "id": "P7-T6",
+                "taskName": "Final Review and Sign-off of Training Materials and Documentation",
+                "correspondingPhase": "Phase 6: Training & Documentation",
+                "correspondingFeature": "Digital order taking for waiters, Automated bill generation, Minimize waiter movement during order process, Revenue reports for individual branches, Revenue reports for the entire CDC chain, Comprehensive business data management, Functionality for local staff (waiters), Integration of data from all branches nationwide",
+                "priority": "High",
+                "estimatedTime": "1 day",
+                "startTime": "2024-06-13",
+                "endTime": "2024-06-13",
+>>>>>>> b2c0add62c5d296f106a93405018ddf9afac0d68:Raw Method/gemini-2.0-flash/Cát Đằng Coffee/4.task_list.json
+            "dependencies": [
+                    "P5-T8"
+                ],
+                "responsiblePerson": "Support Team"
+            }
+        ]
+    ]

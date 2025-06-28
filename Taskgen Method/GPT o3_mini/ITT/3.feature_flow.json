@@ -1,0 +1,515 @@
+[
+  {
+    "category": "Homepage",
+    "features": [
+      {
+        "featureName": "Banner Slideshow",
+        "flow": "Step 1: Page Load - Visitor navigates to the Homepage and the Banner Slideshow automatically initializes. The banner area displays the first promotional image with a fade-in transition.\nStep 2: Automatic Transition - The system automatically rotates banners every 5-7 seconds using a smooth transition effect (fade/slide). The visitor can observe upcoming banners indicated by navigational dots or arrows.\nStep 3: User Interaction - The visitor can hover over the banner to pause the automatic transition. If the visitor clicks on a banner, they are directed to a detailed banner click-through page containing more information about the selected tour or promotion.\nStep 4: Manual Navigation - The visitor can use left/right arrows to manually cycle through the banners if preferred.\nStep 5: Administrative Functions - An admin user can access the Banner Management Screen through the CMS. Here, admins can upload new banner images, define transition timings, set links for banner clicks, and schedule active periods. Admins also review analytics like click-through rates for each banner, and update content as needed.",
+        "screens": [
+          "Homepage Screen: Displays the banner slideshow at the top, along with navigation dots/arrows and visual indications of active banners. It is the first impression point where visitors can interact with the banners.",
+          "Banner Click-through Detail Screen: Provides the expanded information and details of the promotion or tour associated with the clicked banner, including images, descriptions, and call-to-action elements.",
+          "Admin Banner Management Screen: A backend CMS interface for administrators to add, remove, update, and schedule banners. It includes fields for image upload, banner title, click-through URLs, display settings, and analytics review."
+        ]
+      },
+      {
+        "featureName": "Navigation Menu",
+        "flow": "Step 1: A site visitor (role: Guest) navigates to the Homepage where the Navigation Menu is prominently displayed at the top of the page.\nStep 2: The system renders primary menu items such as Home, Tours, Visa Services, Cultural Articles, and Contact Us.\nStep 3: On desktop, the user hovers over menu items to reveal any available dropdown submenus; on mobile, a hamburger icon replaces the full menu, which, when tapped, expands into a side drawer listing the same options.\nStep 4: If the user is authenticated, the menu is augmented with additional options like Account/Profile, which routes to personalized settings and booking history.\nStep 5: When the user clicks (or taps) on a menu item (or selects a subcategory from a dropdown), the system processes the action by routing the user to the corresponding detailed page (e.g., Tours page, Visa Consultation page, or Cultural Articles page).\nStep 6: Throughout the flow, interaction data is captured for analytics to improve navigation efficiency.\nStep 7: Any errors such as a failed routing attempt prompt the system to display an error message along with a safe fallback to the Homepage, ensuring a seamless user experience.",
+        "screens": [
+          "Desktop Navigation Bar Screen: This screen displays the full navigation menu with visible menu items and dropdown capabilities for detailed options, accommodating both guest and authenticated users.",
+          "Mobile Navigation Drawer Screen: This screen, activated via a hamburger icon on mobile devices, presents a collapsible side menu ensuring responsive navigation.",
+          "Dropdown Menu Screen: This contextual screen appears when hovering or clicking on items that have submenus, listing additional navigation options relevant to the selected primary category."
+        ]
+      },
+      {
+        "featureName": "Search Functionality",
+        "flow": "Step 1: User lands on the Homepage, where a prominently placed search bar invites them to search for tours, news, or promotions. (User Role: Traveler)\nStep 2: As the user types into the search bar, the system activates an autocomplete feature that suggests possible matches based on keywords from tour categories, articles, or upcoming promotions. (User Role: Traveler)\nStep 3: The user selects a suggested item or completes their typing and presses enter. The system processes the query and navigates the user to a dedicated Search Results page that lists relevant matches. (User Role: Traveler)\nStep 4: On the Search Results page, users can refine their search using filters (e.g., tour type, price range, destination). (User Role: Traveler)\nStep 5: If the query returns no results, the system displays an alternative 'No Results Found' screen with suggestions on how to modify the search or links to popular categories. (User Role: Traveler)\nStep 6: Throughout the process, analytics data is captured to improve search accuracy and suggestions in future interactions. (User Role: System/Admin)",
+        "screens": [
+          "Homepage Search Bar Screen: Displays the search input field prominently on the homepage along with a static or animated placeholder text encouraging queries.",
+          "Autocomplete Suggestion Overlay: A dynamic overlay that appears as users type, providing clickable suggestions from tour listings, news articles, and promotions.",
+          "Search Results Page: A structured list of search outcomes with thumbnail images, brief descriptions, and filters for sorting results by tour type, date, and price.",
+          "No Results Screen: An informative screen that appears when no matches are found, offering alternative suggestions and links to popular travel sections."
+        ]
+      },
+      {
+        "featureName": "User Login/Signup",
+        "flow": "Step 1: Visitor lands on the Homepage where a prominent 'Login/Signup' button is displayed in the top navigation bar. (Role: Visitor)\nStep 2: Visitor clicks the 'Login/Signup' button, triggering navigation to the authentication interface. (Action: Initiate login/signup process)\nStep 3: The system presents an integrated interface offering three options: Login, Signup, and Forgot Password. (Role: Unauthenticated User)\nStep 4: If the user selects Login:\n   - Role: Existing User.\n   - Action: The user enters their registered username/email and password.\n   - System: Validates the credentials. If valid, redirects the user to their dashboard; if invalid, displays an error message prompting either a retry or the use of the Forgot Password option.\nStep 5: If the user selects Signup:\n   - Role: New User.\n   - Action: The user fills out the registration form with necessary details (name, email, password, etc.).\n   - System: Performs input validation and sends a verification email. Upon successful email verification, the account is activated and a welcome message is displayed along with redirection to the dashboard.\nStep 6: If the user selects Forgot Password:\n   - Role: User needing credential recovery.\n   - Action: The user is directed to a form where they enter their registered email address.\n   - System: Sends a password reset link and displays a confirmation message on the screen.",
+        "screens": [
+          {
+            "screenName": "Login Screen",
+            "description": "This screen allows existing users to enter their credentials to access their accounts."
+          },
+          {
+            "screenName": "Signup Screen",
+            "description": "This screen provides a registration form for new users to create an account with necessary personal and login information."
+          },
+          {
+            "screenName": "Forgot Password Screen",
+            "description": "This screen enables users to initiate a password recovery process by submitting their registered email address."
+          },
+          {
+            "screenName": "Error Screen",
+            "description": "This screen displays error messages for failed login or signup attempts, guiding users to rectify issues."
+          }
+        ]
+      },
+      {
+        "featureName": "Featured Tours",
+        "flow": "Step 1: Visitor lands on the Homepage and is immediately presented with a dynamic, visually engaging layout. (Role: Visitor)\nStep 2: The featured tours section auto-loads with a carousel or grid view of tour highlights. (Role: System)\nStep 3: Visitor reviews the brief tour snippets, including images, tour titles, and short descriptions, and selects a tour for more details. (Role: Visitor)\nStep 4: Upon clicking, the system navigates the visitor to the Tour Details Screen where comprehensive tour information is displayed, including itinerary, pricing, inclusions, exclusions, and vibrant imagery. (Role: System)\nStep 5: Visitor reviews the detailed content and has the option to initiate a booking inquiry or request further information, triggering the Booking Inquiry Screen. (Role: Visitor)\nStep 6: The system processes the inquiry request and routes it to customer service or relevant tour agents to ensure prompt personalized assistance. (Role: System/Agent)\nStep 7: Confirmation of the inquiry submission is presented, along with options for further interaction such as live chat or follow-up emails. (Role: System)",
+        "screens": [
+          "Homepage: The main entry point that displays overall site navigation and condensed featured tours highlights.",
+          "Featured Tours Section: A dedicated subsection on the homepage that visually promotes selected tours with images and teaser descriptions.",
+          "Tour Details Screen: A detailed view presenting comprehensive information about a selected tour including itineraries, pricing, service inclusions, and visual media.",
+          "Booking Inquiry Screen: An interactive form that enables visitors to submit questions or booking requests, launching a follow-up from customer service."
+        ]
+      },
+      {
+        "featureName": "Latest News",
+        "flow": "1. Homepage Entry: The visitor lands on the ITT homepage and sees a navigation menu that includes the Latest News section. (Role: Visitor initiates; System displays navigation.)\n2. Navigation Action: The visitor clicks on the Latest News tab from the header or footer. (Role: Visitor clicking; System processing the request.)\n3. Latest News Listing Page: The system loads a dedicated page that lists recent news articles in chronological order, displaying headlines, summaries, publication dates, and preview images. (Role: System delivers content.)\n4. Article Selection: The visitor browses the list and selects a specific news article by clicking on its title or image. (Role: Visitor selecting an article.)\n5. News Detail Page: The system retrieves and displays the full article, including complete text, high-quality images, author information, publication details, and interactive options like social media sharing and commenting. (Role: System displays content; Visitor reads content.)\n6. Interactive Engagement: If the visitor is logged in, options to bookmark, comment, or share the article become available. If not, the system may prompt the visitor to log in or register. (Role: Visitor interacting; System handling user authentication.)\n7. Navigation Back: The visitor can return to the Latest News listing or navigate to another section of the site using the persistent navigation menu. (Role: Visitor; System ensures smooth transition.)\n8. Background Content Management: Although not directly visible to the visitor, administrators use a content management interface to upload, update, and schedule news content, ensuring timely updates. (Role: Admin managing content; System scheduling updates.)",
+        "screens": [
+          "Homepage: The landing page featuring general navigation, including an entry point to Latest News.",
+          "Latest News Listing Page: A dedicated page displaying a curated list of news headlines with brief summaries, images, and publication dates.",
+          "News Detail Page: Displays the full content of a selected news article, along with interactive elements such as social sharing buttons, bookmark, and commenting features.",
+          "Authentication/Prompt Modal: An optional pop-up screen that appears when a user needs to be authenticated to use interactive features (e.g., commenting or bookmarking)."
+        ]
+      },
+      "{\"featureName\": \"Special Promotions\", \"flow\": \"Step 1: Homepage Load - A Visitor lands on the Homepage and views the prominently placed Special Promotions section. Role: Visitor.\\\nStep 2: Data Retrieval - The system retrieves current promotional data updated by an Admin/Content Manager via the CMS. Role: Admin, System.\\\nStep 3: Promotion Display - The Special Promotions are displayed in a dynamic carousel/banner with appealing visuals and a call-to-action button (e.g., 'Learn More'). Role: Visitor, System.\\\nStep 4: Promotion Selection - The Visitor clicks on a specific promotion, triggering a navigation to a detailed Promotion Detail Page. Role: Visitor.\\\nStep 5: Promotion Details - The Promotion Detail Page provides comprehensive information, including key highlights, itinerary snippets, special pricing, images, and travel package details. Role: Visitor.\\\nStep 6: Action Initiation - The Visitor can opt to engage further by clicking on a 'Book Now' or 'Inquire' button, leading them to an Inquiry/Booking Form. Role: Visitor, Customer Service.\\\nStep 7: Follow-up Interaction - After form submission, the system displays a confirmation screen and triggers a follow-up by Customer Service if necessary. Role: Customer Service, System.\", \"screens\": [\"Homepage Specials Banner: Displays the current special promotions in a visually engaging format with summary details and a call-to-action to learn more.\", \"Promotion Detail Page: Provides detailed information about the selected special promotion including travel itinerary highlights, pricing, images, and further action buttons.\", \"Inquiry/Booking Form: A form screen that enables visitors to submit inquiries or proceed with bookings, capturing personal and travel-specific details.\"]}"
+    ]
+  },
+  {
+    "category": "Travel Packages",
+    "features": [
+      {
+        "featureName": "Package Listing",
+        "flow": "Step 1: The user lands on the Travel Packages section by clicking the dedicated tab or link from the homepage. (User Role: Visitor or Registered User)\nStep 2: The Main Listing Page loads, displaying a grid/list of travel packages with summary details including destination, duration, price, and an appealing image. (User Role: Visitor or Registered User)\nStep 3: The user interacts with the Filter Options Panel to refine the list by criteria such as destination, price range, duration, and tour type. (User Role: Visitor or Registered User)\nStep 4: Upon applying filters, the system dynamically refreshes the package list to display only the packages that match the selected criteria. (System Process)\nStep 5: The user clicks on a specific package from the filtered list to view more details. (User Role: Visitor or Registered User)\nStep 6: The application navigates to the Package Details Page, which presents comprehensive information including detailed itinerary, highlights, package inclusions/exclusions, pricing, images, and booking inquiry options. (User Role: Visitor or Registered User)\nStep 7: Optional supporting flows such as a Search and Sort Overlay are available to let users quickly locate and organize packages based on different sorting parameters like popularity or price.",
+        "screens": [
+          "Main Listing Page: Displays a curated list of travel packages with brief details and images for quick scanning.",
+          "Filter Options Panel: A side or top panel providing filtering tools to narrow down the list based on multiple criteria.",
+          "Package Details Page: An in-depth view of the selected package detailing itinerary, pricing, inclusions/exclusions, images, and contact options for inquiries.",
+          "Search and Sort Overlay: An auxiliary screen that enables users to enter search terms and sort the results based on various attributes such as price, rating, or popularity."
+        ]
+      },
+      {
+        "featureName": "Filtering Options",
+        "flow": "Step 1: The user (either a Guest or Registered Traveler) lands on the Tour Listings page where a comprehensive filtering panel is prominently displayed. Step 2: The user reviews available filtering options (such as destination, price range, tour duration, tour type such as cultural, adventure, leisure, etc.) and selects one or multiple criteria. Step 3: Once the selections are made, the user clicks on the 'Apply Filters' button. Step 4: The system (backend) processes the criteria and instantly refreshes the tour listings to only show tours that match the selected filters. Step 5: If no matching tours are found, the system displays a 'No Results Found' message along with suggestions to modify the filter criteria. Step 6: The user may reset the filters using a 'Clear All' option or further refine the selections until the desired results appear. Step 7: In parallel, the Admin role can access the filters via an Admin Filter Management panel to update or add new filtering options based on evolving tour attributes.",
+        "screens": [
+          "Tour Listings Page - Displays all available tours with an integrated filtering panel on the side or top for quick access.",
+          "Filter Options Modal/Sidebar - Offers a detailed view for selecting multiple filter criteria, including advanced options for users seeking granular control.",
+          "Filtered Results Screen - Dynamically updates to show only tours that match the user-selected filters, including notifications for no results.",
+          "Tour Detail Page - Provides full details of a selected tour; accessed when a user clicks on a tour from the filtered list.",
+          "Admin Filter Management Screen - A backend interface that allows administrators to create, modify, or remove filter options to keep the feature in sync with current tour offerings."
+        ]
+      },
+      {
+        "featureName": "Sorting Options",
+        "flow": "Step 1: The Visitor lands on the Travel Packages page and views a list of available tours sorted by a default criterion (e.g. popularity or latest).\nStep 2: The Visitor locates and clicks the Sorting Options dropdown or icon on the page header.\nStep 3: The System responds by displaying a panel with various sorting criteria such as Price (Low to High, High to Low), Rating, Duration, and Departure Date.\nStep 4: The Visitor selects a sorting option, for example, 'Price: Low to High'.\nStep 5: The System processes the request by reordering the tour listings based on the selected criterion.\nStep 6: The Visitor sees the updated travel packages display and can further refine or combine with other filters if necessary.\nStep 7: If the Visitor wishes to review different sorting perspectives, they can reopen the Sorting Options panel and pick another criterion.\nUser Roles Involved: Visitor (initiates the action), System (processes and displays results), Administrator (manages predefined sorting configurations in the backend).",
+        "screens": [
+          "Travel Packages Listing Screen: Displays the main tour listings with default sorting and filtering options.",
+          "Sorting Options Panel: A pop-up or dropdown screen that provides various sorting criteria for the user to choose from.",
+          "Updated Results Screen: Refreshes the Travel Packages Listing with the new sort order applied, ensuring clarity and usability for the Visitor."
+        ]
+      },
+      {
+        "featureName": "Detailed Package Information",
+        "flow": "Step 1: The Journey Begins - A user (Visitor or Registered User) accesses the Travel Packages category from the homepage and selects a specific package to view its detailed information.\nStep 2: Package Overview - The system displays a comprehensive overview, including high-quality images, package highlights, and a summary itinerary, while analytics logs this interaction.\nStep 3: Detailed Itinerary Exploration - The user scrolls through a detailed day-by-day itinerary, reading descriptions of activities, accommodations, flight details, and meal plans. At this stage, tooltips or expandable sections may provide additional context.\nStep 4: Pricing and Inclusions/Exclusions - The flow emphasizes clear presentation of tour pricing alongside detailed notes on inclusions and exclusions. Users can compare package options if needed.\nStep 5: Contact and Support Initiation - Should the user require further assistance, they trigger the Contact Support flow by clicking on a 'Contact Support' or 'Request More Info' button, which leads to a dedicated enquiry process typically handled by a support agent.\nStep 6: Conversion Pathways - Alternatively, if the user opts to book the package, they are guided to a Booking/Request Information screen. Each transition is recorded by the system for process tracking and user behavior analysis.",
+        "screens": [
+          "Package List Screen: Lists all travel packages with brief overviews to facilitate initial selection.",
+          "Detailed Package Information Screen: Central hub displaying comprehensive package details including images, summary, itinerary, pricing, and key inclusions/exclusions.",
+          "Itinerary Detail Screen: Dedicated section or modal providing a day-by-day breakdown of activities, accommodations, and meal details.",
+          "Contact Support Screen: Offers an enquiry form, hotline numbers, and other contact methods to assist users needing more information.",
+          "Booking/Request Information Screen: Presents options to initiate booking or request additional details, integrating form inputs and confirmation steps."
+        ]
+      },
+      {
+        "featureName": "International Travel Packages",
+        "flow": "Step 1: Traveler lands on the ITT homepage and selects the \"International Travel Packages\" category from the navigation menu. (Role: Traveler)\nStep 2: The system displays a list of available international travel packages along with filtering options such as destination, duration, and price. (Role: System)\nStep 3: Traveler clicks on a specific package to view detailed information. (Role: Traveler)\nStep 4: The system navigates to the Package Detail Screen, presenting a comprehensive day-by-day itinerary, service details including hotel and flight information, pricing, images, and clear policies on inclusions, exclusions, payment, and cancellation. (Role: System, Traveler)\nStep 5: After reviewing, the traveler clicks \"Book Now\" or \"Request More Information\". (Role: Traveler)\nStep 6: The system redirects to the Booking/Inquiry Form Screen where the traveler submits personal details, travel dates, and may request visa consultation if needed. (Role: System, Traveler)\nStep 7: Upon submission, a confirmation process is triggered. The system displays a Booking Confirmation Screen, and backend administrators are notified for further inquiry processing if required. (Role: System, Admin)\nStep 8: Finally, additional options like viewing FAQs or detailed policy screens are available to provide further guidance on travel logistics. (Role: System, Traveler)",
+        "screens": [
+          "International Travel Packages Landing Screen: Displays all available international travel tours with options to filter and sort based on criteria such as destination, price, and duration.",
+          "International Travel Package Detail Screen: Provides a comprehensive view of the selected package including itinerary, images, detailed descriptions of services, payment methods, and cancellation policies.",
+          "Booking/Inquiry Form Screen: Allows travelers to enter their personal and travel details along with any specific requests such as visa consultation, initiating the booking or inquiry process.",
+          "Booking Confirmation Screen: Presents a summary of the traveler's booking or inquiry with confirmation details and further instructions, ensuring transparency and clarity.",
+          "FAQ/Policy Information Screen: Offers supporting information on payments, cancellations, and other travel-related policies to help travelers make informed decisions."
+        ]
+      },
+      {
+        "featureName": "Domestic Travel Packages",
+        "flow": "1. Home Page Entry: End-user (traveler) lands on the ITT website homepage where travel packages are prominently featured.\n2. Category Selection: The user navigates to the Travel Packages section and selects the filter for Domestic Travel Packages. (User Role: Traveler)\n3. Listing Page: A list view is rendered showing available domestic travel packages with summary details such as price, duration, and highlights. (User Role: Traveler, System Role: Content Renderer)\n4. Detailed View Request: The user clicks on a specific domestic travel package to view its detailed itinerary. (User Role: Traveler)\n5. Package Detail Page: The system loads a detailed page showing day-by-day itineraries, pricing, inclusions/exclusions, service information (hotels, meals, transport), guide information, images, and cancellation policies. (User Role: Traveler, System Role: Content Manager)\n6. Inquiry/Booking Process: The traveler can choose to inquire further or book the package. This triggers a pop-up modal or navigates to a dedicated Booking Inquiry Form. (User Role: Traveler)\n7. Form Submission: The traveler fills in contact information, selects travel dates, and submits the inquiry or booking request. (User Role: Traveler, System Role: Form Handler)\n8. Confirmation: The system sends a confirmation message and displays a confirmation screen with details of the inquiry/booking, along with customer support contact information. (User Role: Traveler, System Role: Notification Manager)",
+        "screens": [
+          "Homepage Screen: Displays featured tours and navigation to travel packages.",
+          "Domestic Package Listing Screen: Lists all available domestic travel packages with filter options.",
+          "Domestic Package Detail Screen: Provides a comprehensive view of selected package details including itinerary, pricing, images, and policies.",
+          "Booking Inquiry Form Screen: Allows users to enter their details and travel preferences to request additional information or initiate a booking.",
+          "Booking Confirmation Screen: Shows confirmation of the inquiry/booking submission and customer support contact details."
+        ]
+      },
+      {
+        "featureName": "Adventure Travel",
+        "flow": "1. Landing: The traveler lands on the ITT homepage and immediately sees a carousel featuring various tour categories, including a highlighted Adventure Travel option. (User Role: Traveler)\n2. Category Selection: The traveler clicks on the Adventure Travel category, which transitions to a listing page. (User Role: Traveler)\n3. Listing Page: The Adventure Travel Listing Screen displays different adventure packages with brief descriptions, images, and summary pricing. (User Role: Traveler)\n4. Package Details: Upon selecting a specific adventure package, the traveler is directed to the Adventure Tour Detail Screen, which includes detailed itinerary, highlights, guide information, accommodations, and policies. (User Role: Traveler, System)\n5. Registration/Booking: The traveler decides to book the tour; they are prompted to either register or log in via the Booking & Registration Screen. (User Roles: Traveler, System)\n6. Payment Process: After registration, the traveler enters payment details and confirms the booking on the Payment Screen. (User Roles: Traveler, Payment Gateway/System)\n7. Confirmation & Itinerary: Once payment is processed, the system displays a Confirmation Screen that provides a full itinerary and booking reference. (User Role: Traveler)\n8. Post-Booking Support: The traveler can access the Customer Support Screen for FAQs, contact details, or live chat support regarding their booking. (User Roles: Traveler, Customer Support)",
+        "screens": [
+          "Home Screen: Introduces all tour categories with featured images and quick links. It sets the stage for further exploration.",
+          "Adventure Travel Listing Screen: Displays a curated list of adventure packages including short descriptions and pricing, helping travelers compare options.",
+          "Adventure Tour Detail Screen: Provides in-depth details about the selected tour, including itinerary, inclusions, images, pricing breakdown, and policies.",
+          "Booking & Registration Screen: Allows travelers to sign up or log in to proceed with booking their chosen adventure tour.",
+          "Payment Screen: Secure interface for inputting payment information and processing the tour booking transaction.",
+          "Confirmation Screen: Summarizes the booking details and provides an itinerary reference number, confirming successful registration and payment.",
+          "Customer Support Screen: Offers FAQs, live chat, or telephone support for any post-booking queries or issues."
+        ]
+      },
+      {
+        "category": "Japan Tours",
+        "features": [
+          {
+            "featureName": "Tour Detail Page",
+            "flow": "1. Traveler visits the Japan Tours Listing page where all available Japan tour packages are presented with brief details and images. The traveler can use filter options to narrow down choices. 2. Traveler selects a desired tour to view more details. 3. System transitions to the Tour Detail Screen, displaying a comprehensive breakdown of the tour including a day-by-day itinerary, highlights, detailed service information (hotel accommodations, flight details, meals), pricing structure, inclusive and exclusive items, cancellation policies, and visual galleries. 4. Traveler reviews the detailed information and, if interested, clicks the 'Inquire Now' button. 5. System redirects the traveler to the Inquiry Form Screen where contact details and specific questions can be submitted. 6. After submission, the system shows an Inquiry Confirmation Screen, acknowledging receipt and providing further instructions. User roles involved include the Traveler (browsing, filtering, and selecting tours), the System (loading pages and processing actions), and Customer Support (available via hotline or email if further assistance is required).",
+            "screens": [
+              "Japan Tours Listing Screen - Displays a curated list of Japan tour packages with filter and selection options.",
+              "Tour Detail Screen - Provides an in-depth view of the selected tour with itinerary, images, pricing, and policy details.",
+              "Inquiry Form Screen - Offers a form for travelers to input their contact information and inquiries about the tour.",
+              "Inquiry Confirmation Screen - Confirms the successful submission of the traveler's inquiry and outlines next steps."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Visa Services",
+    "features": [
+      {
+        "featureName": "Online Visa Application",
+        "flow": "1. Registration: The applicant registers for an account if not already registered. [Applicant]\n2. Login: The applicant logs in to the system using their credentials. [Applicant]\n3. Access Visa Section: After logging in, the applicant navigates to the Visa Services section and chooses the Online Visa Application option. [Applicant]\n4. Form Completion: The applicant fills out the visa application form with personal details, travel itinerary, purpose of visit, and other relevant information. [Applicant]\n5. Document Upload: The applicant is prompted to upload mandatory documents such as passport copies, photographs, travel itinerary, and proof of funds. [Applicant]\n6. Review & Edit: The applicant reviews the filled information and uploaded documents. They can go back to edit any incorrect entries before final submission. [Applicant]\n7. Submission: The applicant submits the completed application form along with the documents. [Applicant]\n8. Application Processing: The system sends the application to the visa consultation team for review. A notification is sent to both the applicant and the visa consultant. [System / Visa Consultant]\n9. Final Confirmation: After review, the visa consultant finalizes the application status. The applicant receives an update on the application status via the dashboard and email. [Visa Consultant / Applicant]",
+        "screens": [
+          "Registration/Login Screen: Enables new applicants to create an account and existing users to log in securely.",
+          "Visa Application Form Screen: Presents the interactive form for collecting applicant details specific to the visa requirements.",
+          "Document Upload Screen: Facilitates the secure upload of necessary documents to support the application.",
+          "Review & Edit Screen: Displays a comprehensive summary of the application for verification and changes before submission.",
+          "Submission Confirmation Screen: Confirms that the application has been successfully submitted and provides next steps and timelines.",
+          "Application Status Dashboard: Allows applicants to track the progress and status of their visa application in real-time."
+        ]
+      },
+      "{\"featureName\": \"Required Document Checklist\", \"flow\": \"1. The user accesses the Visa Services section from the homepage, which lists all visa-related features, including the Required Document Checklist. (Role: Tourist)\\\n2. The user clicks on the \\\"Required Document Checklist\\\" feature, which navigates them to an overview screen that summarizes all necessary documents. (Action: Click; Role: Tourist)\\\n3. On the Checklist Overview screen, the system displays a clear list of required documents with brief instructions and status indicators. (Role: System, Tourist)\\\n4. Each document item is interactive; the user can click on a document to view detailed guidance, which transitions to the Document Detail Screen. (Action: Click; Role: Tourist)\\\n5. The Document Detail Screen presents detailed information including instructions, sample images, and special notes for that document. (Role: System)\\\n6. From the detailed view, the user can mark the document as \\\"Ready\\\" using an interactive checklist form on the Document Status Update Screen. This screen also allows for optional file uploads if digital copies are required. (Action: Check/upload; Role: Tourist)\\\n7. After updating the status for individual documents, the user proceeds to the Preview/Confirmation Screen, where all inputs are summarized and verified. (Action: Navigation; Role: Tourist)\\\n8. On the Preview/Confirmation Screen, the user can either confirm their checklist or go back and edit individual entries. (Role: Tourist)\\\n9. Once confirmed, the system provides options to download a PDF version of the completed checklist or send a confirmation via email on the Download/Email Confirmation Screen. (Action: Choose option; Role: Tourist)\\\n10. The final step directs the user to a Thank You/Completion Screen, confirming that the document checklist process has been completed and offering further guidance, such as connecting with a visa consultant if needed. (Role: System, Tourist)\", \"screens\": [\"Visa Services Home: Entry point screen that displays all visa-related services, including the link to the Required Document Checklist.\", \"Required Document Checklist Overview: Screen that lists all the documents with brief descriptions and visual status cues.\", \"Document Detail Screen: Provides comprehensive details for the selected document, including requirements, sample images, and additional tips.\", \"Document Status Update Screen: Interactive form where the user confirms document readiness and optionally uploads digital copies.\", \"Preview/Confirmation Screen: A summary screen for users to review and verify their checklist entries before submission.\", \"Download/Email Confirmation Screen: Options provided for the user to download the checklist as a PDF or send it via email.\", \"Thank You/Completion Screen: Final screen that confirms submission and offers next steps or additional support for visa services.\"]}",
+      {
+        "featureName": "Appointment Scheduling",
+        "flow": "Step 1: Visitor accesses the Appointment Scheduling feature from the homepage via the digital menu. Role: Visitor. Step 2: If the visitor is not logged in, they are prompted to either register or log in; alternatively, a guest mode may offer limited scheduling options. Role: Visitor. Step 3: Upon successful login or account creation, the user is directed to the Appointment Home Screen which outlines the available appointment types such as visa consultation or travel service inquiries. Role: Registered User. Step 4: The user selects the appropriate appointment type and is taken to the Appointment Scheduling Form Screen where they fill in personal details, specify service requirements, and indicate any additional notes. Role: Registered User. Step 5: The system directs the user to the Calendar and Time Slot Selection Screen showcasing available appointment slots in an interactive format. Role: Registered User. Step 6: After selecting a suitable time slot, the user reviews the input details on the Appointment Confirmation Screen, ensuring all information is correct before submission. Role: Registered User. Step 7: When the user confirms, the system records the appointment request and sends a notification to the relevant visa service agent. Role: System & Registered User. Step 8: The visa service agent logs into the Agent Dashboard Screen to review incoming appointment requests, verify details, and take necessary actions such as confirming, rescheduling, or requesting further information. Role: Visa Service Agent. Step 9: Upon confirmation by the agent, the appointment details are updated in the Appointment Details Screen, which provides both the user and the agent with a comprehensive summary of the scheduled appointment. Role: System, Registered User, and Visa Service Agent. Step 10: The user receives a final confirmation notification via the dashboard and email, concluding the appointment scheduling process. Role: Registered User.",
+        "screens": [
+          "Appointment Home Screen: Serves as the initial dashboard for scheduling, providing options to log in, register, or access guest scheduling features.",
+          "User Registration/Login Screen: Allows new users to create an account and existing users to authenticate, ensuring secure access to appointment functionalities.",
+          "Appointment Scheduling Form Screen: A detailed form for entering personal, service, and appointment-specific information required for visa consultation.",
+          "Calendar and Time Slot Selection Screen: An interactive calendar interface where users can view and select from available appointment slots.",
+          "Appointment Confirmation Screen: Displays a summary of the selected appointment details for the user to review before final submission.",
+          "Agent Dashboard Screen: An exclusive area for visa service agents to monitor, manage, and respond to incoming appointment requests.",
+          "Appointment Details Screen: Provides a comprehensive view of confirmed appointment details accessible to both the user and the agent for future reference and modifications."
+        ]
+      },
+      {
+        "featureName": "Application Status Tracking",
+        "flow": "Step 1: Login - The applicant accesses the platform and is prompted to log in with a secure user ID and password. (Role: Applicant)\nStep 2: Dashboard Access - Upon successful login, the applicant is taken to a personalized dashboard featuring an overview of all visa applications and related notifications. (Role: Applicant)\nStep 3: Application Submission Confirmation - The applicant selects an existing visa application or, if needed, is directed to a submission form to finalize any pending application details. (Role: Applicant)\nStep 4: Status Tracking - The applicant clicks on the 'Track Application' feature, which presents a timeline view detailing each stage of the application (submission, processing, approval/rejection). (Role: Applicant)\nStep 5: Notification and Update System - As the application status updates, automatic notifications are sent via email or in-app alerts. (Role: System; informed Applicant)\nStep 6: Support Interaction - If the applicant notices any discrepancies or requires assistance, they can click the 'Contact Support' button to initiate a chat or request a callback. (Role: Applicant, transitioning to Support Agent)\nStep 7: Support Escalation - A support agent views the inquiry, reviews the application details, and provides relevant guidance through a dedicated support portal. (Role: Support Agent)\nStep 8: Feedback Loop & Update Confirmation - After support interactions, the applicant is prompted to confirm that the issue is resolved. Subsequent changes or updates in application status are again notified with similar steps. (Role: Applicant and Support Agent)",
+        "screens": [
+          "Login Screen: Provides fields for secure login credentials and a password recovery option.",
+          "Dashboard Screen: Displays an overview of active visa applications, including statuses and upcoming notifications.",
+          "Application Details Screen: Offers in-depth information on the selected visa application, including timeline milestones and critical dates.",
+          "Status Tracking Screen: Presents a visual timeline that highlights each processing stage with real-time status updates.",
+          "Notifications Screen: Lists recent notifications and alerts related to application updates and support messages.",
+          "Support Contact/Interaction Screen: Facilitates a chat or message-based interaction between the applicant and a support agent for issue resolution."
+        ]
+      },
+      {
+        "featureName": "Visa Fee Calculator",
+        "flow": "1. Traveler Entry: The traveler accesses the ITT website and navigates to the Visa Services section. They select the Visa Fee Calculator option from the menu. (User Role: Traveler)\n2. Introductory Screen: The system presents an introductory page providing an overview of the calculator’s purpose, instructions on input requirements, and relevant visa information. (User Role: Traveler)\n3. Input Form Screen: The traveler is prompted to input details such as destination country, visa type, travel dates, and nationality. The form includes dropdowns and text fields for necessary information. (User Role: Traveler)\n4. Data Validation: The system validates the entered information, ensuring all required fields are correctly filled. If errors occur, appropriate error messages are displayed. (User Role: System)\n5. Fee Calculation: Once validated, the system calculates the visa fee by processing the input data against current fee structures and regulation data. (User Role: System)\n6. Results Summary Screen: The calculated fee, along with a detailed breakdown (visa fee, processing fees, additional service fees) is shown to the traveler. (User Role: Traveler)\n7. Action Options: The traveler is provided with options to proceed with visa application support, book a consultation, or contact customer service for further assistance. (User Role: Traveler)\n8. Support & Inquiry: If needed, the traveler can access a help section or live chat support from embedded contact options. (User Role: Traveler)\n9. End of Flow: The process concludes with the traveler either converting their inquiry into a service booking or exiting the flow after reviewing the information.",
+        "screens": [
+          "Introductory Page: Explains the purpose and usage of the Visa Fee Calculator and guides the user on how to proceed.",
+          "Input Form Screen: Collects user-specific details such as destination, visa type, travel dates, and nationality required for fee computation.",
+          "Results Summary Screen: Displays a breakdown of calculated fees including visa, processing, and any extra charges.",
+          "Additional Options Screen: Provides pathways for further interaction such as booking visa support services, accessing live support, or submitting inquiries."
+        ]
+      },
+      {
+        "featureName": "Visa Type Descriptions",
+        "flow": "Step 1: Visitor arrives at the ITT website homepage. [Role: Visitor]\nStep 2: Visitor identifies and clicks the Visa Services option in the main navigation menu. [Role: Visitor]\nStep 3: The system displays the Visa Services Home Screen, which highlights available visa types with brief overviews. [Role: System]\nStep 4: Visitor reviews the list and selects a specific visa type (e.g., Schengen Visa, Business Visa, etc.). [Role: Visitor]\nStep 5: The system navigates to the Visa Type Detail Screen, presenting comprehensive information including eligibility, required documents, processing times, fees, and step-by-step procedures. [Role: System]\nStep 6: Within the detailed view, an Inquiry/Consultation button is provided for users needing further assistance. [Role: System]\nStep 7: Visitor clicks the Inquiry/Consultation button, and the system routes them to the Inquiry/Consultation Form Screen. [Role: Visitor/System]\nStep 8: Visitor completes and submits the form, and a confirmation message is displayed. [Role: System]",
+        "screens": [
+          "Visa Services Home Screen: Provides an overview of all visa-related services and guides users to various visa options.",
+          "Visa Type List Screen: Displays a list of all available visa types with short descriptions for quick comparison.",
+          "Visa Type Detail Screen: Offers detailed information on the selected visa type, including documentation requirements, eligibility criteria, processing times, and fees.",
+          "Inquiry/Consultation Form Screen: Presents a user-friendly form for visitors to request further visa consultation, ensuring they receive personalized support."
+        ]
+      },
+      {
+        "featureName": "Document Preparation Assistance",
+        "flow": "1. User Initiation: The traveler logs into the ITT website and navigates to the Visa Services section. From here, they select the Document Preparation Assistance feature.\n2. Inquiry Submission: The traveler is presented with an inquiry form where they enter travel details, visa type, and any preliminary information required.\n3. Document Upload: After submitting the inquiry, the traveler is directed to the Document Upload page where they upload all required visa documentation.\n4. Internal Review: Once documents are uploaded, the system notifies a visa consultant. The consultant reviews the documentation and the inquiry details. They may send a message back via the system if additional documents or corrections are needed.\n5. Review Summary: After the consultant completes the review, a Review Summary page is generated that includes feedback, confirmation of received documents, and any additional instructions for the traveler.\n6. Submission confirmation: The traveler reviews the summary and submits a final confirmation. Upon confirmation, a final acknowledgement is presented confirming that the document preparation assistance process is complete and detailing the next steps (e.g., processing timeline, further communications).",
+        "screens": [
+          "Inquiry Form: A screen where travelers input their travel details, visa type, and additional prerequisites to initiate the document preparation assistance process.",
+          "Document Upload Page: A dedicated page designed for uploading required visa documents with instructions and file format guidelines.",
+          "Review Summary Screen: A screen presenting the details of the submission along with the visa consultant's review comments and any corrective actions, if necessary.",
+          "Confirmation Page: A final acknowledgement screen that confirms the submission has been processed, thanks the traveler, and provides details about the next steps."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Content",
+    "features": [
+      {
+        "featureName": "Travel Blogs",
+        "flow": "1. Visitor Entry: A user (visitor) lands on the homepage where a dedicated navigation link/button for Travel Blogs is clearly visible.\n2. Navigate to Travel Blogs: The user clicks the Travel Blogs link, triggering the blogs listing page. (User Role: Visitor)\n3. Blogs Listing View: The Travel Blogs home screen displays a grid or list of blog summaries with images, titles, short excerpts, publication dates, and tags. (User Role: Visitor)\n4. Search and Filter Interaction: The user can use search and filter options (by destination, topic, or date) to narrow down blog entries. (User Role: Visitor)\n5. Blog Detail Access: Upon selecting a blog summary, the user is taken to the Blog Post Detail Screen which shows the full blog text, additional images, comments section, and social share options. (User Role: Visitor)\n6. Author Profile Exploration: The detail screen includes a clickable link to the Author Profile Screen, allowing users to read more about the author and view other posts. (User Role: Visitor)\n7. Interaction and Commenting: On the Blog Post Detail Screen, authenticated users have the option to add comments or interact through likes. (User Role: Registered User)\n8. Navigation and Back Navigation: Users can either navigate to another blog via recommendation links or return to the main Travel Blogs screen using a persistent navbar or back button. (User Role: Visitor)",
+        "screens": [
+          "Travel Blogs Home Screen: Lists all available blogs with preview images, titles, and short summaries, allowing search and filter functionalities.",
+          "Search and Filter Screen: Provides input fields and filter criteria to refine displayed blogs by tag, date, or destination.",
+          "Blog Post Detail Screen: Displays the full article, images, author details, comments, and social media sharing options.",
+          "Author Profile Screen: Showcases the author’s bio, profile picture, and links to other posts by the same author.",
+          "Comment Interaction Screen: Embedded within the Blog Post Detail Screen, facilitates comment submission and viewing for logged-in users."
+        ]
+      },
+      {
+        "category": "Special Tours",
+        "features": [
+          {
+            "featureName": "Tour Detail Page",
+            "flow": "Step 1 (Visitor): User lands on the Special Tours overview page and selects a tour of interest. Step 2 (User): The user is directed to the Tour Detail Page where they review the detailed day-by-day itinerary, accommodation details, transportation information, and included services. Step 3 (User): The user scrolls through illustrative images, guide information, and pricing details. Step 4 (User): If interested, the user clicks on the booking or inquiry button. Step 5 (System/User): The system redirects the user to the Booking Screen or Inquiry Form, where further personal and payment details are provided. Step 6 (Admin): An administrator reviews the inquiry or booking request and sends confirmation notifications to the user. Step 7 (User): User receives booking confirmation on the Confirmation Screen along with next steps and contact details for further assistance.",
+            "screens": [
+              "Special Tours Overview Screen - Displays a list of featured tours with summaries and images.",
+              "Tour Detail Screen - Provides a detailed presentation of a selected tour including itinerary, images, booking options, and service information.",
+              "Booking/Inquiries Screen - Collects user data for tour booking or inquiry, including personal, payment, or travel requirements.",
+              "Confirmation Screen - Shows final booking or inquiry confirmation with detailed instructions and contact details."
+            ]
+          }
+        ]
+      },
+      {
+        "featureName": "FAQs",
+        "flow": "1. Visitor lands on the ITT website homepage (Role: Traveler) and selects the FAQ link from the top navigation or footer.\n2. The system routes the visitor to the FAQ Home Screen where a curated list of frequently asked questions is presented along with a search bar and filtering options (Roles: Traveler, Guest).\n3. The visitor can click on a specific question to expand the answer inline or be taken to a detailed FAQ Detail Screen that provides comprehensive information and additional context (Role: Traveler).\n4. If the visitor does not find their query resolved, they are prompted with an option to submit their own question via the FAQ Submission Screen (Role: Traveler).\n5. The submitted question generates a notification for the support team. In parallel, the Admin can review and respond to queries through the Admin FAQ Management Screen, ensuring that new common questions are integrated into the FAQ list over time (Role: Admin).\n6. Finally, any answer update is immediately reflected on the FAQ Home and Detail screens, keeping the content current and helpful.",
+        "screens": [
+          "FAQ Home Screen: This screen displays the list of frequently asked questions along with a search and filtering module to help users quickly find relevant topics.",
+          "FAQ Detail Screen: Upon selecting a question, this screen provides an expanded, detailed answer and additional context related to the question.",
+          "FAQ Submission Screen: Offers users an input form to submit their own questions if existing FAQs do not resolve their inquiry.",
+          "Admin FAQ Management Screen: A back-end interface for administrators to add, edit, and manage FAQ entries to keep the content updated."
+        ]
+      },
+      {
+        "featureName": "Destination Guides",
+        "flow": "1. Visitor Entry: A visitor lands on the ITT homepage and is greeted with a prominent navigation menu. They see a 'Destination Guides' section under the Content category. (Role: Visitor)\n2. Guides Landing: The visitor clicks on the Destination Guides link and is taken to a landing page that lists various travel destination guides, each with a brief overview and thumbnail image. (Role: Visitor)\n3. Search & Filter: The visitor can use search functionality and filtering options (e.g., by region, interest, or travel style) to narrow down the list of guides. (Role: Visitor)\n4. Select a Guide: After filtering or browsing, the visitor selects a specific destination guide which loads a detailed guide page. (Role: Visitor)\n5. Guide Detail Exploration: The detailed guide page provides comprehensive content including day-by-day itineraries, travel tips, photos, recommended activities, cultural insights, and local dining or accommodation recommendations. (Role: Visitor)\n6. User Interaction: The visitor can bookmark or share the guide and can optionally leave feedback or ratings. For authenticated users, there is an option to add the guide to a personalized list. (Role: Visitor / Authenticated User)\n7. Content Management: Behind the scenes, content managers and administrators use a dedicated CMS interface to create, update, and manage destination guide content. They also approve user-submitted reviews and ensure the guide content stays current. (Role: Content Manager / Administrator)",
+        "screens": [
+          "Guides Landing Page: Displays a summary list of all destination guides with filters and search options.",
+          "Guide Detail Page: Presents the full content of a selected guide including itineraries, images, and detailed travel tips.",
+          "Guide Search/Filter Page: Offers advanced search and filtering functionality to quickly find destination guides.",
+          "CMS Management Page: Interface for content managers and administrators to create, edit, and manage destination guides.",
+          "User Feedback Screen: Allows authenticated users to submit and view reviews or ratings for each destination guide."
+        ]
+      },
+      {
+        "featureName": "Local Culture Insights",
+        "flow": "Step 1: A visitor lands on the ITT website and navigates to the 'Local Culture Insights' section from the main menu. The landing page showcases a curated list of cultural articles, featured images, and teasers of local traditions and events.\nStep 2: The content manager logs into the administrative backend and accesses the Culture Insights Submission Form to create and upload new articles, including multimedia content such as images and videos.\nStep 3: Once an article is submitted, the admin reviews and approves it via the Culture Insights Editing Screen for quality assurance and consistency with the ITT brand.\nStep 4: On approval, the article gets published and appears on the 'Local Culture Insights' landing page.\nStep 5: The visitor clicks on an article preview which redirects to the Article Detail Page. Here, the visitor can read the full article, view the integrated media, and find additional resources like related articles and cultural tips.\nStep 6: The visitor can interact by commenting, rating, or sharing the article on social media. If commenting, the user might be prompted to log in.\nStep 7: Admins use the Comment Moderation Dashboard to monitor user engagement and manage comments, ensuring a respectful community environment.\nStep 8: Throughout the interaction, a Search/Filter functionality is available, allowing users to sort articles by themes, dates, or popularity, enhancing content discoverability.",
+        "screens": [
+          "Local Culture Insights Home: Landing page displaying a list of cultural articles with previews, visuals, and navigation options.",
+          "Article Detail Page: Detailed view for each article, including full text, multimedia content, author information, and social sharing tools.",
+          "Culture Insights Submission Form: Interface for content managers to input new articles, upload images/videos, and set metadata relevant to local culture topics.",
+          "Culture Insights Editing Screen: A workspace for content managers and administrators to edit and approve articles before publication.",
+          "Comment Moderation Dashboard: Admin tool for reviewing, approving, or removing user comments to maintain community standards.",
+          "Search/Filter Screen: Functional interface allowing users to filter articles by cultural themes, publication dates, or search keywords."
+        ]
+      },
+      {
+        "featureName": "Travel Tips",
+        "flow": "Step 1: A Visitor lands on the homepage and selects the 'Travel Tips' option from the main navigation menu. (User Role: Visitor)\nStep 2: The Travel Tips Listing Screen loads, displaying a series of travel tip previews with snapshots, titles, and brief descriptions. (User Role: Visitor)\nStep 3: The Visitor can utilize integrated filter and search options on the listing page to refine travel tips by destination, theme, or keyword. (User Role: Visitor)\nStep 4: Upon selecting a specific travel tip, the Visitor is directed to the Travel Tip Detail Screen, which provides comprehensive information including detailed advice, images, and social sharing tools. (User Role: Visitor)\nStep 5: If interactive features are enabled, the detail screen may allow the Visitor to comment or share their own experiences related to the tip. (User Role: Visitor)\nStep 6: Concurrently, Content Managers or Admins can access the Admin Travel Tips Management Screen to create new tips, edit existing content, and schedule publications. (User Role: Content Manager/Admin)\nStep 7: A preview function in the admin interface allows content managers to review the travel tip before it goes live, ensuring quality and consistency. (User Role: Content Manager/Admin)",
+        "screens": [
+          "Travel Tips Listing Screen: This screen displays a curated list of travel tips with preview cards, filtering options, and search functionality to help users quickly find relevant content.",
+          "Travel Tip Detail Screen: A detailed page that presents the full article of a selected travel tip including images, extended advice, social sharing features, and interactive comment sections.",
+          "Filter/Search Overlay: An integrated UI component within the listing page that enables users to refine travel tips based on specific criteria such as region or topic.",
+          "Admin Travel Tips Management Screen: A backend interface for content managers to add, modify, preview, and publish travel tip content, ensuring that all information is accurate and up-to-date."
+        ]
+      },
+      {
+        "category": "Travel Packages",
+        "features": [
+          {
+            "featureName": "Tour Detail Page",
+            "flow": "1. Homepage Access: A guest visitor lands on the ITT homepage where featured tours, news, and promotions are prominently displayed.\n2. Navigation to Travel Packages: The user clicks on the 'Travel Packages' tab to explore the available tour categories (Special Tours, Japan Tours, Asia Tours, and Europe-Australia-America Tours).\n3. Category Selection: The visitor selects a specific tour category, prompting the system to display a list of tours under that category.\n4. Tour Selection: The user reviews the tour listings and clicks on a specific tour to access more detailed information.\n5. Tour Detail Display: The system loads the Tour Detail Page, presenting a day-by-day itinerary, tour highlights, and comprehensive service information such as hotel accommodations, flight details, meals, pricing, inclusive/exclusive terms, illustrative images, guide info, as well as payment and cancellation policies.\n6. Engagement Options: Clear call-to-action buttons (e.g., booking or inquiry forms) are provided, allowing the user to proceed with a booking or request further information.\n7. Booking/Inquiries Flow: If the user opts for booking or inquiries, they are seamlessly redirected to a secure booking/inquiries screen where additional travel details are captured and further assistance is provided.\nRoles Involved: Guest Visitor initiates the process, and Customer Support Agent may assist during booking or inquiry interactions.",
+            "screens": [
+              "Homepage: Displays featured tours, news, and promotion banners with navigation options.",
+              "Travel Packages Listing: Shows categorized tour thumbnails allowing users to filter and select tours.",
+              "Tour Detail Screen: Offers a detailed view of the selected tour including itinerary, highlights, pricing, images, and policy details.",
+              "Booking/Inquiries Screen: Provides a secure form for users to submit booking requests or inquiries, along with contact options (hotlines, email, etc.)."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Contact Options",
+    "features": [
+      {
+        "featureName": "Contact Form",
+        "flow": "Step 1: User navigates to the 'Contact Us' page by clicking on the 'Contact' link available in the header or footer. (Role: Public User)\nStep 2: The Contact Form Screen loads, displaying required fields such as Name, Email, Subject, Message, and optionally, a phone number. (Role: Public User enters details)\nStep 3: As the user fills in the form, inline validation provides immediate feedback on any entry errors. (Role: System validates input)\nStep 4: The user submits the form by clicking the 'Submit' button. (Role: Public User initiates submission)\nStep 5: The system processes the submission, storing data and sending a notification to the support team for follow-up. (Roles: System handles validation and processing; Support Team receives notification)\nStep 6: Upon successful submission, the user is redirected to a Confirmation Screen that thanks them and outlines next steps. (Role: System displays confirmation)\nStep 7: If submission errors occur due to missing or invalid inputs, an Error Screen or inline error messages prompt the user to correct the mistakes. (Role: System error handling; Public User corrects inputs)",
+        "screens": [
+          "Contact Form Screen: The primary interface where users fill out their contact details and inquiry message.",
+          "Confirmation Screen: Displays a thank-you message and summary of the submitted inquiry, confirming receipt.",
+          "Error/Validation Screen: Provides clear instructions and messages to correct any input mistakes encountered during form submission."
+        ]
+      },
+      {
+        "featureName": "Live Chat Support",
+        "flow": "1. Initiate Chat: The traveler clicks on the live chat widget (available on every page) to request assistance. (Traveler)\n2. Pre-Chat Form: The system displays a form requesting the traveler’s name, email, and a brief description of the inquiry. (Traveler inputs data, System displays form)\n3. Request Routing: Upon submission, the system validates the information and routes the chat request to an available support agent. (System)\n4. Chat Activation: The support agent receives a notification and joins the chat session. A real-time conversation begins with introductory messages from the agent explaining the process. (Support Agent initiates, Traveler interacts)\n5. Issue Resolution: The traveler asks questions related to tours, visa consultation, or travel package details, and the support agent provides detailed, contextual responses. (Traveler and Support Agent interact)\n6. Session Termination: The traveler clicks the ‘End Chat’ button to conclude the session. The system then prompts the traveler to complete a brief feedback survey about their experience. (Traveler, System)",
+        "screens": [
+          "Chat Initiation Screen: Displays the live chat icon and a brief message inviting travelers to seek assistance.",
+          "Pre-Chat Form Screen: Presents a simple form to capture the traveler’s contact details and inquiry summary before starting the chat.",
+          "Active Chat Screen: Provides an interactive chat window for real-time messaging between the traveler and the support agent, including features like message history, timestamps, and agent details.",
+          "Chat End/Feedback Screen: Displays a confirmation of chat termination and offers a short survey for post-session feedback, helping improve service quality."
+        ]
+      },
+      {
+        "category": "Contact Options",
+        "features": [
+          {
+            "featureName": "Customer Support Hotline",
+            "flow": "Step 1: The customer navigates to the ITT website’s Customer Support section. Step 2: The customer selects the 'Customer Support Hotline' option from the available support choices. Step 3: The system displays the Support Hotline Info Screen showing hotline numbers for individual travel, group tours, and visa services along with brief instructions. Step 4: The customer taps or clicks on the desired hotline number, prompting the system to present a Call Initiation/Confirmation Screen. Step 5: Once the customer confirms the call initiation, the system transitions to a Waiting/Calling Screen, showing a visual indicator (spinner or countdown) that the call is being connected. Step 6: In parallel, a support agent (via the agent dashboard) is alerted about the incoming call. Step 7: When the agent becomes available, the call is connected and the system displays an Agent Connection/Call In Progress Screen, indicating that the call is active and both parties are connected. Step 8: After the call, the system shows a Post-Call Follow-up/Feedback Screen that offers further instructions or additional support options, and may collect customer feedback. (Roles Involved: Customer initiates the process, Automated System manages state and displays relevant screens, Support Agent connects and assists during the call.)",
+            "screens": [
+              {
+                "screenName": "Support Hotline Info Screen",
+                "description": "Displays a list of hotline numbers for various services with concise instructions for initiating a call."
+              },
+              {
+                "screenName": "Call Initiation/Confirmation Screen",
+                "description": "Prompts the customer to confirm their intention to start the call after selecting a hotline number."
+              },
+              {
+                "screenName": "Waiting/Calling Screen",
+                "description": "Shows a dynamic waiting state (e.g., spinner or countdown timer) while the system connects the call to an available agent."
+              },
+              {
+                "screenName": "Agent Connection/Call In Progress Screen",
+                "description": "Indicates that the call is active and connected with a support agent, providing real-time connection status and an option to end the call."
+              },
+              {
+                "screenName": "Post-Call Follow-up/Feedback Screen",
+                "description": "Offers additional support options and gathers feedback from the customer regarding their call experience."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Japan Tours",
+        "features": [
+          {
+            "featureName": "Tour Detail Page",
+            "flow": "1. Visitor lands on the Homepage, where promotions and tour categories are displayed. 2. Visitor selects the 'Japan Tours' category to view specific tour options. 3. The Japan Tours Listing Page loads showing a summary of available Japan tour packages. 4. Visitor clicks on a specific tour to see more details. 5. System displays the Tour Detail Page which includes a day-by-day itinerary, highlights, comprehensive service information (hotel accommodations, flight details, meals), detailed tour pricing, inclusions/exclusions, illustrative images, guide information, and relevant policies on payment and cancellation. 6. Visitor can choose to further inquire about the tour using a direct inquiry option available on the detail page. 7. If inquiry is initiated, the Visitor is routed to the Inquiry Form Page where they enter their details which are then handled by the support team.",
+            "screens": [
+              "Homepage - Provides an overview of featured tours, latest news, and promotional content.",
+              "Japan Tours Listing Page - Lists available Japan tour packages with brief summaries and thumbnails.",
+              "Tour Detail Page - Presents detailed information about the selected tour including itinerary, service details, pricing, images, and policies.",
+              "Inquiry Form Page - Enables users to submit inquiries regarding the tour, which are processed by the support services."
+            ]
+          }
+        ]
+      },
+      {
+        "featureName": "Social Media Integration",
+        "flow": "1. User lands on the ITT homepage and scrolls to the Contact Options section where social media icons are visible.\n2. The End User clicks on a social media icon (such as Facebook, Twitter, or Instagram).\n3. The system checks if the user is already authenticated with the chosen social media platform. If not, it redirects the user to the Social Media Login Screen for OAuth authentication. (Roles: End User, ITT System, Social Media API)\n4. Upon successful authentication, the user is redirected back to a dedicated Social Media Dashboard integrated seamlessly into the ITT website. (Roles: End User, ITT System)\n5. On the Social Media Dashboard, the user can view aggregated social media content including recent posts, promotions, and travel stories.\n6. The user can engage with the content by liking, commenting, or sharing directly from the dashboard. (Roles: End User, Social Media Platform)\n7. A Confirmation/Feedback Screen displays a success message with navigation prompts after an action, ensuring a smooth return to the ITT website.\n8. The user can navigate to detailed social media feeds or back to the Contact Options for further interactions.",
+        "screens": [
+          "Contact Options Section Screen: Displays social media icons along with other contact options, serving as the entry point for engagement.",
+          "Social Media Login Screen: Authenticates users via OAuth to ensure secure access to social media APIs.",
+          "Social Media Dashboard Screen: Aggregates and displays content from linked social media accounts allowing users to browse posts and updates.",
+          "Content Interaction Screen: Enables users to engage with posts (like, comment, share) with real-time feedback.",
+          "Confirmation/Feedback Screen: Provides immediate confirmation and tips after an action, ensuring users are informed of the next steps."
+        ]
+      },
+      {
+        "featureName": "24/7 Chatbot Assistance",
+        "flow": "Step 1: The website visitor identifies the persistent chatbot icon located at the bottom-right corner on any page. (User Role: Visitor)\nStep 2: The visitor clicks the icon, which opens a Chatbot Widget Screen displaying a friendly greeting and offering assistance options. (User Role: Automated Chatbot)\nStep 3: The Chatbot presents several pre-set options such as 'Tour Information', 'Visa Support', 'Special Promotions', and 'Other Inquiries'. The user selects an option relevant to their needs. (User Role: Visitor)\nStep 4: Based on the selection, the chatbot provides tailored responses. For instance, selecting Tour Information leads to further prompts about travel preferences, while choosing Visa Support directs the conversation towards visa consulting. (User Role: Automated Chatbot)\nStep 5: If the inquiry requires complex assistance or personal attention, the chatbot automatically triggers an escalation process by notifying a Customer Service Agent. This handoff is seamless, and the visitor is informed of the transition. (User Role: Chatbot/Customer Service Agent)\nStep 6: The Customer Service Agent joins the conversation via an Agent Escalation Screen, reviewing the chat history and providing detailed answers or further guidance. (User Role: Customer Service Agent)\nStep 7: After the query is resolved, the chatbot offers the user an option to receive an email transcript of the conversation for their records. (User Role: Automated Chatbot)\nStep 8: Finally, the visitor is prompted to rate the assistance provided, which helps in continuous improvement of service quality. (User Role: Visitor & System Monitor)",
+        "screens": [
+          "Chatbot Popup Screen: A floating chat interface that opens when the chatbot icon is clicked, presenting a welcome message and initial assistance options.",
+          "Chat Conversation Screen: The main interface where the dynamic interaction between the visitor and the chatbot (or Customer Service Agent) takes place.",
+          "Agent Escalation Screen: A transitional interface that informs the user of the handoff to a human agent and displays a summary of the conversation so far.",
+          "Transcript Request Screen: An interface allowing users to request an email or download of the complete conversation transcript once the chat concludes."
+        ]
+      },
+      {
+        "featureName": "Local Office Locator",
+        "flow": "1. User Landing: The user visits the ITT website and navigates to the Customer Support section where the Local Office Locator option is available. (User Role: Traveler/Visitor)\n2. Input Phase: The user is prompted to either enter their current location manually or allow geolocation detection. (User Role: Traveler/Visitor; System Action: Request permission or accept manual input)\n3. Processing Request: The system processes the entered location, performing a search against the office database to identify nearby local offices. (System Action: Backend processing using geo-coordinates and filtering criteria)\n4. Filtered Results Display: The matching offices are displayed in a list format alongside thumbnails and basic information. (User Role: Traveler/Visitor)\n5. Map Integration: In parallel, a map view is provided with interactive markers indicating the precise locations of the offices. Users can click markers for instant previews. (User Role: Traveler/Visitor)\n6. Selection and Detailed Information: The user selects a specific office either from the list or directly from the map. The system then displays a detailed information page outlining the office address, contact numbers, operating hours, and additional support information. (User Role: Traveler/Visitor; System Action: Retrieve detailed office information)\n7. Optional Contact Step: A call-to-action is presented allowing the user to initiate contact via phone, email, or by completing an inquiry form. (User Role: Traveler/Visitor)",
+        "screens": [
+          {
+            "screenName": "Location Input Screen",
+            "description": "Screen where the user inputs their location manually or approves geolocation detection to initiate the search."
+          },
+          {
+            "screenName": "Filtered Results Screen",
+            "description": "Screen that displays a list of nearby offices based on the user's location input, complete with brief details for each office."
+          },
+          {
+            "screenName": "Map Integration Screen",
+            "description": "Interactive map screen that marks office locations, allowing users to visually identify and select office locations."
+          },
+          {
+            "screenName": "Office Details Screen",
+            "description": "Detailed information screen that shows the selected office's full details, including contact information, operating hours, address, and inquiry options."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Tour Details",
+    "features": [
+      "{\n  \"category\": \"Special Tours\",\n  \"features\": [\n    {\n      \"featureName\": \"Tour Detail Page\",\n      \"flow\": \"1. Visitor navigates to the Special Tours landing page. (Visitor)\\\n2. Visitor selects a specific tour resulting in a request to load the Tour Detail Page. (Visitor, System)\\\n3. System displays comprehensive tour details including itinerary, accommodation, flight details, meal plans, pricing, and cancellation policy. (System)\\\n4. Visitor reviews tour details and clicks on the booking inquiry call-to-action if interested. (Visitor)\\\n5. System routes the visitor to the Booking Inquiry Page where personal details are collected. (System)\\\n6. If the visitor is a returning user, they can opt to log in to access personalized content and saved itineraries; the system accordingly displays appropriate options. (Visitor, System)\\\n7. Upon submission, the system confirms receipt of inquiry and provides booking steps. (System)\\\n8. Customer service is alerted to follow up if needed. (System, Support Team)\",\n      \"screens\": [\n        \"Special Tours Landing Screen: Lists all featured special tours with brief highlights and navigation options.\",\n        \"Tour Detail Screen: Provides detailed information about the selected tour including itinerary, pricing, images, and policies.\",\n        \"Booking Inquiry Screen: Allows visitors to submit their contact information and booking preferences.\",\n        \"Confirmation Screen: Displays confirmation of the inquiry submission and next steps for booking follow-up.\"\n      ]\n    }\n  ]\n}",
+      {
+        "featureName": "Pricing Details",
+        "flow": "Step 1: User logs in and navigates to the tour details page and selects the desired tour. (User Role: Traveler)\nStep 2: The system displays a summary of the tour including key pricing information. (System Action)\nStep 3: User clicks on the Pricing Overview button to view a concise snapshot of all available pricing options. (User Role: Traveler)\nStep 4: The Pricing Overview screen appears, showing basic pricing tiers and discounts. (Screen Action)\nStep 5: User selects a specific pricing option to see further details. (User Role: Traveler)\nStep 6: The system then redirects to the Detailed Pricing Breakdown screen, which includes a breakdown of base price, taxes, additional fees, and optional add-ons with explanatory notes. (System Action)\nStep 7: For any inquiries or revisions, the user can access the Admin Pricing Update functionality. (User Role: Admin/Support)\nStep 8: The Admin Pricing Update screen is available allowing authorized personnel to update pricing structures, edit discount rules, and adjust fees. (Screen Action)",
+        "screens": [
+          "Pricing Overview: A screen that offers a summarized view of available pricing options and discounts for quick decision making.",
+          "Detailed Pricing Breakdown: A comprehensive page displaying all cost components, additional fees, and pricing details in depth.",
+          "Admin Pricing Update screen: A back-end interface for administrators to update and manage pricing details as required."
+        ]
+      },
+      {
+        "featureName": "Map Integration",
+        "flow": "1. The Traveler accesses the Tour Details page which provides an overview of the tour, including a map preview. (User Role: Traveler)\n2. The Traveler clicks on the 'View Map' button or map icon embedded on the page. (User Role: Traveler)\n3. The system responds by loading the Interactive Map Screen, displaying a full-screen dynamic map with tour-specific markers. (System Action)\n4. The Traveler can zoom, pan, and interact with various markers that indicate significant tour points (e.g., pickup location, itinerary stops). (User Role: Traveler)\n5. Upon clicking a marker, a Marker Details Popup appears, offering detailed information about that location, such as nearby attractions, historical data, and relevant images. (User Role: Traveler)\n6. For enhanced functionality, a Map Filters Panel is available on the Interactive Map Screen, enabling the Traveler to apply filters (e.g., distance, type of site, accessibility) to customize the map view. (User Role: Traveler)\n7. After reviewing the map details, the Traveler can either close the map view to return to the Tour Details page or explore additional information by triggering linked content. (User Role: Traveler)\n8. In parallel, Tour Administrators or Content Managers use a backend management interface to update map data such as marker positions and descriptions to ensure accuracy and relevance. (User Role: Administrator)",
+        "screens": [
+          "Tour Details Page: Provides an overview of the tour with a map preview and a 'View Map' button to access the full map feature.",
+          "Interactive Map Screen: A full-screen interface where the Traveler can interact with a dynamic map, zoom, pan, and explore tour locations.",
+          "Marker Details Popup: An overlay that presents detailed information about a specific location when a marker is clicked.",
+          "Map Filters Panel: A sidebar component on the Interactive Map Screen that allows Travelers to apply filters and customize map data display."
+        ]
+      },
+      {
+        "featureName": "Amenities and Inclusions",
+        "flow": "1. The Traveler lands on the Tour Details page and scrolls to the Amenities and Inclusions section. Role: Traveler.\n2. The Traveler clicks to expand or view the section that lists all included amenities such as transportation, meals, accommodation, guide services, tickets, etc. Role: Traveler.\n3. The system dynamically loads a detailed list with brief descriptions for each amenity. Role: ITT Website.\n4. When a Traveler clicks an individual amenity, a detailed pop-up (or modal) opens that provides an in-depth overview, including images, policies (what's included and what is not), and further clarifications. Role: ITT Website, Traveler.\n5. If more information is required, a 'More Info' button guides the Traveler to a dedicated Amenity Detail screen offering extended insights and visuals. Role: Traveler, ITT Website.\n6. For unanswered queries, a link to the Contact/Inquiry form is provided, allowing the Traveler to initiate a direct query regarding the amenities. Role: Traveler, Customer Support.\n7. Upon reviewing, the Traveler can close the modal or navigate back to the main Tour Details page seamlessly. Role: Traveler.",
+        "screens": [
+          "Tour Details Page: Main page displaying overview, itinerary, and various sections (including a clickable Amenities and Inclusions section).",
+          "Amenities Overview Screen: Displays a concise list of all amenities and inclusions with short feature descriptions; users can click any amenity for more details.",
+          "Amenity Detail Screen: Dedicated screen or pop-up that provides detailed information of the selected amenity, including visuals, policy notes, and additional data.",
+          "Contact/Inquiry Screen: Provides a form or direct contact options for users needing further clarification or support regarding the amenities."
+        ]
+      },
+      "{\"featureName\": \"Detailed Day-to-Day Itinerary\", \"flow\": \"Step 1: The traveler lands on the Tour Overview page to browse available tours. (Role: Traveler)\\\nStep 2: The traveler selects a specific tour, and the system redirects to the Tour Details page where an overview, including key highlights, is displayed. (Role: System)\\\nStep 3: On the Tour Details page, the traveler navigates to the \\\"Detailed Day-to-Day Itinerary\\\" section, which is accessible via a clearly marked tab or link. (Role: Traveler)\\\nStep 4: The system presents a summarized itinerary, listing each day of the tour with essential activities, meal details, accommodation check-in/check-out times, and key landmarks. (Role: System, with data provided by tour operators)\\\nStep 5: The traveler clicks on a specific day to view its expanded details. The system then displays a dedicated view that includes precise timings, descriptions, local tips, and optional add-ons such as local experiences. (Role: Traveler, System)\\\nStep 6: The page also offers a call-to-action, allowing the traveler to inquire further or contact customer support for clarifications. (Role: Traveler, Customer Support)\\\nStep 7: Feedback options or a review prompt are available post-itinerary review, encouraging traveler engagement. (Role: Traveler, System)\", \"screens\": [\"Tour Overview Page: Lists available tours and serves as the entry point where travelers can select a tour to see more details.\", \"Tour Details Page: Provides a comprehensive summary of the tour, including the itinerary overview and other tour-related details.\", \"Itinerary Summary Section: Displays a high-level view of the day-to-day schedule with clickable entries for each day.\", \"Expanded Itinerary Detail Screen: Offers an in-depth look at a specific day\\'s plan including timings, descriptions, and additional options.\", \"Inquiry/Support Modal: A popup screen that allows travelers to request further information or assistance regarding the itinerary.\"]}",
+      {
+        "featureName": "Customizable Tour Options",
+        "flow": "1. The traveler navigates to the Tour Details page and selects the 'Customize Tour Options' button. (Role: Traveler)\n2. The system redirects the user to the Customization Interface Screen where available extra tour components (upgrades, add-ons, additional services) are displayed. (Role: System)\n3. The traveler reviews and selects desired tour components such as premium accommodations, additional activities, and transport options, with real-time pricing updates displayed. (Role: Traveler)\n4. A date selection module (calendar widget) is provided on the same screen for the traveler to choose preferred travel dates. (Role: Traveler)\n5. Upon selection, the system recalculates the pricing, accommodating package variations, seasonal changes, and group discounts as applicable. (Role: System)\n6. After finalizing choices, the traveler clicks on the 'Review Summary' button to proceed. (Role: Traveler)\n7. The Summary Screen appears, presenting a detailed breakdown of all custom selections, individual pricing, overall adjustments, and optional discounts. (Role: System)\n8. The traveler reviews the summary, and if needed, goes back to modify choices via an edit option. (Role: Traveler)\n9. Once confirmed, the traveler clicks on the 'Confirm Booking' button, triggering the Confirmation Screen. (Role: Traveler)\n10. The Confirmation Screen provides a final review of the customized itinerary along with clear next steps for payment processing and booking finalization. (Role: System)\n11. An optional follow-up step includes connecting with a travel consultant for further consultation if required. (Role: Support)",
+        "screens": [
+          "Customization Interface Screen: This screen offers an interactive interface for selecting extra tour elements, date choices, and real-time price adjustments.",
+          "Summary Screen: This screen presents a detailed summary of all custom choices, price breakdowns, and revision options before final confirmation.",
+          "Confirmation Screen: This final screen confirms the customized itinerary, displays final pricing, and outlines next steps for payment and further booking support."
+        ]
+      },
+      {
+        "featureName": "Seasonal Offers",
+        "flow": "1. Homepage Access: The traveler visits the ITT website homepage and notices a dedicated section for Seasonal Offers highlighted among featured tours. (User Role: Traveler)\n2. Overview Interaction: On clicking the Seasonal Offers banner, the traveler is directed to the Seasonal Offers Overview Page, where available seasonal promotions are listed with thumbnail images, brief descriptions, discount percentages, and validity dates. (User Role: Traveler)\n3. Offer Selection: The traveler reviews the list and selects a particular seasonal offer to get more information, which leads to a dedicated Seasonal Offer Detail Page. (User Role: Traveler)\n4. Detail Exploration: The Seasonal Offer Detail Page displays a comprehensive itinerary overview, special pricing, discount details, the duration of the offer, and any additional benefits (e.g., added excursions or perks). (User Role: Traveler)\n5. Booking Initiation: From the detail page, a clearly visible 'Book Now' button allows the traveler to initiate the reservation process. If the traveler is not logged in, they are routed to a Login/Signup Screen. (User Roles: Traveler, System)\n6. Booking Process: Once authenticated (or if already logged in), the traveler is taken to a Booking Form Screen where they enter personal details, select travel dates, apply any promotional codes for the offer, and provide payment information. (User Role: Traveler)\n7. Confirmation and Notification: After processing the booking, the system displays a Booking Confirmation Screen summarizing the reserved offer details along with the applied seasonal discount. An email confirmation is also sent automatically. (User Role: Traveler, System)\n8. Administrative Oversight: In parallel, administrative users have access to an Admin Seasonal Offers Dashboard where they can manage seasonal offers (create, update, or expire offers) and review analytics on offer engagement. (User Role: Admin)\n9. Reminder & Expiry: Prior to the offer’s expiration date, the system sends out notifications/reminders to prospective users about the limited time offer. (User Role: System)",
+        "screens": [
+          "Seasonal Offers Overview Screen: Lists all current seasonal offers with filters such as date, destination, and discount rate.",
+          "Seasonal Offer Detail Screen: Provides in-depth details of the selected offer including itinerary, pricing, and terms.",
+          "Login/Signup Screen: Facilitates user authentication for accessing booking services.",
+          "Booking Form Screen: Captures traveler information, promotional codes, travel dates, and payment details.",
+          "Booking Confirmation Screen: Confirms the successful booking with a detailed summary and seasonal discount information.",
+          "Admin Seasonal Offers Dashboard: Enables administrative users to add, modify, or remove seasonal offers and view performance analytics."
+        ]
+      },
+      {
+        "featureName": "Photo Gallery",
+        "flow": "1. Entry Point: The user (Guest or Registered) lands on the ITT homepage and selects the Photo Gallery from the main navigation menu.\n2. Gallery Overview: The system loads the Photo Gallery Home Screen displaying various albums or categories with featured images and filter options (by destination, theme, or date).\n3. Album Selection: The user clicks on a specific album or category thumbnail to view its contents.\n4. Album Detail: The system presents the Album Detail Screen, listing photo thumbnails with brief captions or metadata. The user can scroll and select any thumbnail.\n5. Photo Inspection: Upon clicking a photo thumbnail, the system opens the Photo Full-Screen View. Here, the user can view the photo in detail, navigate via arrows to adjacent photos, zoom in/out, or opt to view more details if available.\n6. Interactive Options: For registered users, options appear to like, comment on, or share the photo. The system handles these interactions via prompts or modal popups.\n7. Navigation: At any stage, the user can use breadcrumb links or back buttons to return to the previous screens (Album Detail or Photo Gallery Home).",
+        "screens": [
+          "Photo Gallery Home Screen - Displays a grid or list of photo albums with featured images and filters to help users quickly navigate through various travel tour images.",
+          "Album Detail Screen - Lists all photos belonging to a selected album with thumbnails and captions, enabling users to preview the collection.",
+          "Photo Full-Screen View - Provides an enlarged photo view with navigation arrows, zoom functionality, sharing options, and an interactive area for comments if the user is registered."
+        ]
+      }
+    ]
+  }
+]

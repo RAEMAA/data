@@ -1,0 +1,53 @@
+[
+    {
+        "category": "Centralized Management",
+        "list_feature": [
+            "Multi-branch operational dashboard",
+            "Real-time data synchronization across branches",
+            "Branch performance comparison"
+        ]
+    },
+    {
+        "category": "Order and Workflow Streamlining",
+        "list_feature": [
+            "Mobile/tablet-based POS for order taking (minimizing waiter movement)",
+            "Table/seat number integration for order routing",
+            "Real-time order status tracking",
+            "Automated order routing to preparation stations"
+        ]
+    },
+    {
+        "category": "Billing and Payment",
+        "list_feature": [
+            "Automatic bill generation",
+            "Multiple payment method integration",
+            "Split billing functionality"
+        ]
+    },
+    {
+        "category": "Reporting and Analytics",
+        "list_feature": [
+            "Branch-level revenue reporting",
+            "Chain-wide revenue reporting",
+            "Revenue trend analysis",
+            "Sales analytics",
+            "Customizable reports"
+        ]
+    },
+    {
+        "category": "Staff Support",
+        "list_feature": [
+            "Role-based access control",
+            "Staff scheduling",
+            "Staff performance tracking"
+        ]
+    },
+    {
+        "category": "System Integration and Security",
+        "list_feature": [
+            "Multi-branch integration capabilities",
+            "Data encryption and backup",
+            "Access control and authentication"
+        ]
+    }
+]

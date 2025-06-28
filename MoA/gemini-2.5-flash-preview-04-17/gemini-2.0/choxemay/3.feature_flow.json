@@ -1,0 +1,286 @@
+[
+  {
+      "category": "User Management",
+      "features": [
+          {
+              "featureName": "User Registration",
+              "flow": "1. **User (Buyer/Seller):** Clicks on 'Register' or 'Sign Up' button.\n2. **System:** Displays the registration form.\n3. **User:** Fills in the registration form with required information (e.g., Name, Email, Password, Phone Number, Address).\n4. **User:** Optionally, provides additional information (e.g., Profile Picture, Motorcycle Interests).\n5. **User:** Submits the form.\n6. **System:** Validates the input data (e.g., checks for valid email format, password strength, required fields).\n7. **System (if validation fails):** Displays error messages next to the corresponding fields.\n8. **User (if validation fails):** Corrects the input data and resubmits the form.\n9. **System (if validation succeeds):** Creates a new user account.\n10. **System:** Sends a verification email to the user's email address.\n11. **User:** Checks their email inbox.\n12. **User:** Clicks on the verification link in the email.\n13. **System:** Verifies the user's email address.\n14. **System:** Redirects the user to a success page or automatically logs the user in.\n15. **System:** (Optional) Displays a welcome message and prompts the user to explore the platform.",
+              "screens": [
+                  "Registration Screen: Form for entering user details (Name, Email, Password, Phone Number, Address, etc.). Includes input validation.",
+                  "Registration Success Screen: Confirmation message after successful registration, possibly with a link to verify email.",
+                  "Email Verification Screen: A screen displayed after clicking the verification link in the email, confirming successful verification.",
+                  "Error Screens: Screens displaying error messages for invalid input during registration (e.g., invalid email format, password mismatch)."
+              ]
+          },
+          {
+              "featureName": "User Login",
+              "flow": "1. **User (Buyer/Seller):** Navigates to the login page.\n2. **User:** Enters their registered email address and password.\n3. **User:** Clicks the 'Login' button.\n4. **System:** Validates the entered credentials against the stored user data.\n5. **System (if login fails):** Displays an error message (e.g., 'Invalid email or password').\n6. **User (if login fails):** Retries login with correct credentials or uses the 'Forgot Password' functionality.\n7. **System (if login succeeds):** Authenticates the user and redirects them to their dashboard or the page they were trying to access before login.\n8. **System:** Sets a session or stores a token to maintain the user's logged-in status.",
+              "screens": [
+                  "Login Screen: Form for entering email and password, with options for 'Forgot Password' and 'Remember Me'.",
+                  "Dashboard/Home Screen: The screen the user is redirected to after successful login (or the page they were trying to access).",
+                  "Error Screen: Displays error messages for incorrect login credentials."
+              ]
+          },
+          {
+              "featureName": "User Profile Management",
+              "flow": "1. **User (Buyer/Seller):** Logs into the platform.\n2. **User:** Navigates to their profile page (e.g., by clicking on their username or a 'My Profile' link).\n3. **System:** Displays the user's profile information (e.g., Name, Email, Profile Picture, Contact Information, Credibility Score, Listings, Transaction History).\n4. **User:** Clicks on an 'Edit Profile' button or similar.\n5. **System:** Displays an editable profile form with pre-filled user data.\n6. **User:** Modifies their profile information (e.g., updating contact details, changing password, uploading a new profile picture).\n7. **User:** Saves the changes.\n8. **System:** Validates the updated information.\n9. **System (if validation fails):** Displays error messages.\n10. **User (if validation fails):** Corrects the input and saves again.\n11. **System (if validation succeeds):** Saves the updated profile information.\n12. **System:** Displays a confirmation message and updates the profile page with the new information.",
+              "screens": [
+                  "Profile Screen: Displays user's profile information (Name, Email, Profile Picture, Contact Information, Credibility Score, Listings, Transaction History).",
+                  "Edit Profile Screen: Editable form for updating user profile information (Name, Email, Password, Contact Information, Profile Picture, etc.). Includes input validation.",
+                  "Change Password Screen: A dedicated screen for changing the user's password.",
+                  "Profile Update Confirmation Screen: A screen confirming successful profile updates."
+              ]
+          }
+      ]
+  },
+  {
+      "category": "Listing Management",
+      "features": [
+          {
+              "featureName": "Create Listing (Motorcycles, Parts, Accessories)",
+              "flow": "1. **User (Seller):** Navigates to the 'Sell' or 'Create Listing' page.\n2. **System:** Presents the user with a choice of listing categories (Motorcycles, Parts, Accessories).\n3. **User (Seller):** Selects the appropriate category.\n4. **System:** Displays the listing form specific to the selected category (e.g., Motorcycle form includes fields for make, model, year, mileage, etc.).\n5. **User (Seller):** Fills out the listing form, including details like title, description, price, condition, and uploads relevant images/videos.\n6. **User (Seller):** Reviews the listing details.\n7. **User (Seller):** Submits the listing.\n8. **System:** Validates the listing data.\n9. **System:** If validation fails, displays error messages and prompts the user to correct the errors.\n10. **System:** If validation is successful, saves the listing to the database.\n11. **System:** Displays a confirmation message to the user, indicating that the listing has been successfully created.\n12. **System:** Redirects the user to the 'Manage My Listings' page or the newly created listing's detail page.",
+              "screens": [
+                  "Sell/Create Listing Page: Entry point for creating a new listing, presents category options.",
+                  "Category Selection Page: Allows the user to choose between Motorcycles, Parts, and Accessories.",
+                  "Motorcycle Listing Form: Form for entering details about a motorcycle listing (make, model, year, etc.).",
+                  "Parts Listing Form: Form for entering details about a part listing (part number, compatibility, etc.).",
+                  "Accessories Listing Form: Form for entering details about an accessory listing (type, brand, etc.).",
+                  "Listing Preview Page: Allows the user to review the listing before submitting.",
+                  "Listing Confirmation Page: Confirms that the listing has been successfully created."
+              ]
+          },
+          {
+              "featureName": "Edit Listing",
+              "flow": "1. **User (Seller):** Navigates to the 'Manage My Listings' page.\n2. **System:** Displays a list of the user's active listings.\n3. **User (Seller):** Selects the listing they want to edit.\n4. **System:** Displays the listing details with an 'Edit' button/link.\n5. **User (Seller):** Clicks the 'Edit' button/link.\n6. **System:** Presents the user with the listing form, pre-populated with the existing listing data.\n7. **User (Seller):** Modifies the listing details as needed.\n8. **User (Seller):** Reviews the updated listing details.\n9. **User (Seller):** Submits the changes.\n10. **System:** Validates the updated listing data.\n11. **System:** If validation fails, displays error messages and prompts the user to correct the errors.\n12. **System:** If validation is successful, saves the updated listing to the database.\n13. **System:** Displays a confirmation message to the user, indicating that the listing has been successfully updated.\n14. **System:** Redirects the user to the 'Manage My Listings' page or the edited listing's detail page.",
+              "screens": [
+                  "Manage My Listings Page: Displays a list of the user's active listings.",
+                  "Listing Details Page: Displays the details of a specific listing, including an 'Edit' button.",
+                  "Motorcycle Listing Form (Edit Mode): Form for editing motorcycle listing details, pre-populated with existing data.",
+                  "Parts Listing Form (Edit Mode): Form for editing parts listing details, pre-populated with existing data.",
+                  "Accessories Listing Form (Edit Mode): Form for editing accessories listing details, pre-populated with existing data.",
+                  "Listing Preview Page: Allows the user to review the updated listing before submitting.",
+                  "Listing Update Confirmation Page: Confirms that the listing has been successfully updated."
+              ]
+          },
+          {
+              "featureName": "Delete Listing",
+              "flow": "1. **User (Seller):** Navigates to the 'Manage My Listings' page.\n2. **System:** Displays a list of the user's active listings.\n3. **User (Seller):** Selects the listing they want to delete.\n4. **System:** Displays the listing details with a 'Delete' button/link.\n5. **User (Seller):** Clicks the 'Delete' button/link.\n6. **System:** Displays a confirmation dialog asking the user to confirm the deletion.\n7. **User (Seller):** Confirms the deletion.\n8. **System:** Deletes the listing from the database.\n9. **System:** Displays a confirmation message to the user, indicating that the listing has been successfully deleted.\n10. **System:** Redirects the user to the 'Manage My Listings' page.",
+              "screens": [
+                  "Manage My Listings Page: Displays a list of the user's active listings.",
+                  "Listing Details Page: Displays the details of a specific listing, including a 'Delete' button.",
+                  "Delete Confirmation Dialog: Asks the user to confirm the deletion of the listing.",
+                  "Listing Deletion Confirmation Page: Confirms that the listing has been successfully deleted."
+              ]
+          },
+          {
+              "featureName": "Manage My Listings",
+              "flow": "1. **User (Seller):** Navigates to the 'My Account' or 'Dashboard' section.\n2. **User (Seller):** Clicks on the 'Manage My Listings' link/button.\n3. **System:** Retrieves and displays a list of all listings associated with the user's account.\n4. **System:** Provides options for each listing, such as 'Edit', 'Delete', 'View', and potentially 'Mark as Sold'.\n5. **User (Seller):** Can filter or sort the listings based on criteria like 'Active', 'Inactive', 'Sold', 'Date Created', etc. (Optional).\n6. **User (Seller):** Can navigate to specific listing details by clicking on a listing.\n7. **User (Seller):** Can perform actions on individual listings using the provided options (Edit, Delete, View, Mark as Sold).",
+              "screens": [
+                  "My Account/Dashboard Page: Entry point for accessing the 'Manage My Listings' page.",
+                  "Manage My Listings Page: Displays a list of the user's listings with options to edit, delete, view, and mark as sold.",
+                  "Listing Details Page: Displays the details of a specific listing.",
+                  "Filter/Sort Options (Optional): Allows the user to filter and sort their listings."
+              ]
+          }
+      ]
+  },
+  {
+      "category": "Buying & Selling",
+      "features": [
+          {
+              "featureName": "Search Listings",
+              "flow": "1. **User (Buyer):** Navigates to the marketplace homepage or a dedicated search page.\n2. **User (Buyer):** Enters search terms (e.g., motorcycle model, part name, accessory type) into the search bar.\n3. **System:** Displays a list of matching listings based on the search terms.\n4. **User (Buyer):** (Optional) Refines search using filters (see Filter Listings feature).\n5. **User (Buyer):** (Optional) Sorts search results (see Sort Listings feature).\n6. **User (Buyer):** Clicks on a listing to view its details (see View Listing Details feature).",
+              "screens": [
+                  "Homepage/Search Page: Contains a search bar and potentially featured listings.",
+                  "Search Results Page: Displays a list of listings matching the search query, including listing thumbnails, titles, prices, and brief descriptions."
+              ]
+          },
+          {
+              "featureName": "Filter Listings",
+              "flow": "1. **User (Buyer):** On the Search Results Page or Category Page.\n2. **User (Buyer):** Clicks on a 'Filter' button or opens a filter panel.\n3. **System:** Displays filter options (e.g., price range, make, model, year, condition, location, seller type).\n4. **User (Buyer):** Selects desired filter criteria.\n5. **System:** Refreshes the search results, displaying only listings that match the selected filters.",
+              "screens": [
+                  "Search Results Page/Category Page: Displays the listings and a filter option.",
+                  "Filter Panel: Allows users to select filter criteria (e.g., price range, make, model, year, condition, location)."
+              ]
+          },
+          {
+              "featureName": "Sort Listings",
+              "flow": "1. **User (Buyer):** On the Search Results Page or Category Page.\n2. **User (Buyer):** Clicks on a 'Sort by' dropdown or similar control.\n3. **System:** Displays sorting options (e.g., price (low to high/high to low), newest, oldest, relevance, distance).\n4. **User (Buyer):** Selects a sorting option.\n5. **System:** Refreshes the search results, displaying listings in the selected order.",
+              "screens": [
+                  "Search Results Page/Category Page: Displays the listings and a sort option.",
+                  "Sort Options Dropdown/Menu: Allows users to select sorting criteria (e.g., price, date, relevance)."
+              ]
+          },
+          {
+              "featureName": "View Listing Details",
+              "flow": "1. **User (Buyer):** Finds a listing through search, browsing, or a direct link.\n2. **User (Buyer):** Clicks on the listing title or thumbnail.\n3. **System:** Displays the Listing Details Page.\n4. **System:** Displays the listing details, including: title, description, images/videos, price, seller information (username, credibility score, feedback), location, and any relevant specifications.\n5. **User (Buyer):** Reviews the listing details.\n6. **User (Buyer):** (Optional) Uses the 'Contact Seller' feature (see Buyer-Seller Communication).\n7. **User (Buyer):** (Optional) Uses the 'Bidding Functionality' or 'Buy Now Functionality' (see respective features).",
+              "screens": [
+                  "Listing Details Page: Displays all information about a specific listing, including images, description, price, seller information, and options to interact with the listing (e.g., bid, buy now, contact seller)."
+              ]
+          },
+          {
+              "featureName": "Bidding Functionality",
+              "flow": "1. **User (Buyer):** On the Listing Details Page of an auction listing.\n2. **User (Buyer):** Enters a bid amount (must be higher than the current bid).\n3. **System:** Validates the bid (e.g., checks minimum bid increment, user's available funds).\n4. **System:** If valid, updates the listing with the new bid, displays the new highest bidder, and notifies the previous highest bidder (if applicable).\n5. **User (Buyer):** (Optional) Receives notifications about being outbid.\n6. **System:** At the end of the auction, the highest bidder wins the auction.\n7. **System:** Initiates the Checkout Process for the winning bidder (see Checkout Process).",
+              "screens": [
+                  "Listing Details Page (Auction): Displays the current bid, bidding history, and a field to enter a bid.",
+                  "Bid Confirmation/Error Message: Confirms successful bid or displays an error message if the bid is invalid.",
+                  "Outbid Notification (Email/In-App): Notifies users they have been outbid."
+              ]
+          },
+          {
+              "featureName": "Buy Now Functionality",
+              "flow": "1. **User (Buyer):** On the Listing Details Page of a 'Buy Now' listing.\n2. **User (Buyer):** Clicks the 'Buy Now' button.\n3. **System:** Redirects the user to the Checkout Process (see Checkout Process).",
+              "screens": [
+                  "Listing Details Page (Buy Now): Displays the 'Buy Now' button.",
+                  "Checkout Process (Initiated): The user is directly taken to the checkout process."
+              ]
+          },
+          {
+              "featureName": "Checkout Process",
+              "flow": "1. **User (Buyer):** Initiated after winning an auction or clicking 'Buy Now'.\n2. **System:** Displays the Checkout Page.\n3. **System:** Displays a summary of the purchase (listing details, price, shipping costs).\n4. **User (Buyer):** Enters/confirms shipping address.\n5. **User (Buyer):** Selects a payment method (see Payment Gateway Integration).\n6. **User (Buyer):** Reviews the order and confirms the purchase.\n7. **System:** Processes the payment (see Payment Gateway Integration).\n8. **System:** Confirms the order and displays an order confirmation page.\n9. **System:** Notifies the seller of the sale.",
+              "screens": [
+                  "Checkout Page: Displays order summary, shipping address form, payment method selection, and order confirmation button.",
+                  "Order Confirmation Page: Displays order details, payment confirmation, and shipping information."
+              ]
+          },
+          {
+              "featureName": "Payment Gateway Integration",
+              "flow": "1. **User (Buyer):** During the Checkout Process, selects a payment method (e.g., credit card, PayPal).\n2. **System:** Redirects the user to the payment gateway's secure payment page.\n3. **User (Buyer):** Enters payment details on the payment gateway's page.\n4. **Payment Gateway:** Processes the payment.\n5. **Payment Gateway:** Redirects the user back to the Motorcycle Market website.\n6. **System:** Receives payment confirmation from the payment gateway.\n7. **System:** Updates the order status to 'Paid'.",
+              "screens": [
+                  "Checkout Page: Payment method selection.",
+                  "Payment Gateway Page: Secure page for entering payment details (e.g., credit card information).",
+                  "Payment Confirmation/Error Page: Displays the result of the payment processing."
+              ]
+          },
+          {
+              "featureName": "Transaction Management (Buyer & Seller)",
+              "flow": "1. **User (Buyer/Seller):** After a successful transaction.\n2. **System:** Updates the transaction status (e.g., 'Payment Received', 'Shipped', 'Delivered').\n3. **User (Buyer/Seller):** Can view the transaction details in their account.\n4. **User (Buyer/Seller):** Can view the transaction history.\n5. **User (Buyer/Seller):** Can view the communication history (see Buyer-Seller Communication).\n6. **User (Buyer/Seller):** (Buyer) Can provide feedback on the transaction (see Submit Transaction Feedback).",
+              "screens": [
+                  "My Account - Transaction History: Displays a list of all transactions, with status, date, item, and amount.",
+                  "Transaction Details Page: Displays detailed information about a specific transaction, including item details, buyer/seller information, payment details, shipping information, and communication history."
+              ]
+          },
+          {
+              "featureName": "Buyer-Seller Communication",
+              "flow": "1. **User (Buyer/Seller):** Initiated from the Listing Details Page or Transaction Details Page.\n2. **User (Buyer/Seller):** Clicks on a 'Contact Seller/Buyer' button or similar.\n3. **System:** Opens a messaging interface.\n4. **User (Buyer/Seller):** Composes and sends a message.\n5. **System:** Sends the message to the other party.\n6. **System:** Stores the message history.\n7. **User (Buyer/Seller):** Receives and reads messages.\n8. **User (Buyer/Seller):** Replies to messages.",
+              "screens": [
+                  "Listing Details Page: 'Contact Seller' button.",
+                  "Transaction Details Page: 'Contact Buyer/Seller' button.",
+                  "Messaging Interface: Allows users to send and receive messages related to a specific listing or transaction. Includes message history."
+              ]
+          }
+      ]
+  },
+  {
+      "category": "Credibility System",
+      "features": [
+          {
+              "featureName": "Credibility Score Calculation (based on transactions, feedback, value)",
+              "flow": "1. **System:** Detects a completed transaction (sale confirmed, payment received). \n2. **System:** Retrieves transaction details (buyer, seller, item price). \n3. **System:** Checks if feedback has already been submitted for this transaction by both buyer and seller. \n4. **System:** Calculates initial credibility score impact based on transaction value. Higher value = higher potential score increase. \n5. **System:** Awaits feedback from buyer and seller. \n6. **User (Buyer/Seller):** Submits feedback (rating and optional comment). \n7. **System:** Processes feedback. Positive feedback increases score, negative feedback decreases score. The magnitude of the change depends on the rating given. \n8. **System:** Updates the credibility score for both buyer and seller based on transaction value and feedback received. \n9. **System:** Logs the score change and transaction details for auditing purposes.",
+              "screens": [
+                  "N/A - This feature is a background process and doesn't require a dedicated screen."
+              ]
+          },
+          {
+              "featureName": "Display Credibility Score",
+              "flow": "1. **User (Any):** Navigates to a user's profile or listing. \n2. **System:** Retrieves the user's credibility score from the database. \n3. **System:** Displays the credibility score on the profile or listing page. The display may include a visual representation (e.g., star rating, numerical score, badge).",
+              "screens": [
+                  "User Profile Screen: Displays the user's profile information, including their credibility score.",
+                  "Listing Details Screen: Displays the listing details, including the seller's credibility score."
+              ]
+          },
+          {
+              "featureName": "Submit Transaction Feedback",
+              "flow": "1. **User (Buyer/Seller):** Receives notification or navigates to their transaction history after a purchase/sale. \n2. **User (Buyer/Seller):** Selects the completed transaction for which they want to leave feedback. \n3. **User (Buyer/Seller):** Is presented with a feedback form (rating scale, comment box). \n4. **User (Buyer/Seller):** Submits the feedback. \n5. **System:** Saves the feedback to the database and triggers the credibility score calculation.",
+              "screens": [
+                  "Transaction History Screen: Lists the user's past transactions.",
+                  "Feedback Form Screen: Allows the user to submit feedback (rating and comment) for a specific transaction."
+              ]
+          },
+          {
+              "featureName": "View Transaction Feedback",
+              "flow": "1. **User (Any):** Navigates to a user's profile. \n2. **System:** Retrieves the user's received feedback from the database. \n3. **System:** Displays the feedback on the user's profile. This may include average rating, number of reviews, and individual feedback comments.",
+              "screens": [
+                  "User Profile Screen: Displays the user's profile information, including their received feedback (ratings and comments)."
+              ]
+          },
+          {
+              "featureName": "Listing Ranking based on Credibility",
+              "flow": "1. **User (Any):** Performs a search or browses listings. \n2. **System:** Retrieves listings matching the search criteria. \n3. **System:** Sorts the listings based on a combination of factors, including the seller's credibility score. Listings from sellers with higher credibility scores are ranked higher. Other factors like listing recency and relevance may also be considered. The exact weighting of credibility score in the ranking algorithm needs to be defined. \n4. **System:** Displays the sorted listings to the user.",
+              "screens": [
+                  "Search Results Screen: Displays the search results, with listings ranked based on credibility and other factors.",
+                  "Category Listings Screen: Displays listings within a specific category, ranked based on credibility and other factors."
+              ]
+          },
+          {
+              "featureName": "Listing Visibility based on Credibility",
+              "flow": "1. **User (Seller):** Creates a listing. \n2. **System:** Checks the seller's credibility score. \n3. **System:** Based on the credibility score, the listing's visibility is adjusted. Higher credibility may result in: \n    *   Increased placement in search results. \n    *   Featured listing status. \n    *   Placement in promotional sections. \n    *   Longer listing duration. \n    *   Lower credibility may result in: \n    *   Lower placement in search results. \n    *   Shorter listing duration. \n    *   Requirement for manual review before publication. \n4. **System:** Applies the visibility adjustments to the listing.",
+              "screens": [
+                  "Create Listing Screen: Allows the user to create a new listing. (No direct UI change, but the backend logic affects visibility).",
+                  "Admin Panel (Optional): Screen for administrators to manually adjust listing visibility or override the automated system."
+              ]
+          }
+      ]
+  },
+  {
+      "category": "Community Forum",
+      "features": [
+          {
+              "featureName": "Browse Forum",
+              "flow": "1. **User (Guest/Registered):** Navigates to the forum section of the website.\n2. **System:** Displays a list of forum categories (e.g., General Discussion, Technical Help, Classifieds).\n3. **User:** Selects a forum category.\n4. **System:** Displays a list of threads within the selected category, including thread titles, author, date of last post, and number of replies.\n5. **User:** Clicks on a thread title to view the thread's content.\n6. **System:** Displays the thread's initial post and subsequent replies.",
+              "screens": [
+                  "Forum Home Screen: Displays a list of forum categories.",
+                  "Category View Screen: Displays a list of threads within a selected category, including thread titles, author, date of last post, and number of replies.",
+                  "Thread View Screen: Displays the thread's initial post and subsequent replies."
+              ]
+          },
+          {
+              "featureName": "Create Forum Thread",
+              "flow": "1. **User (Registered):** Navigates to a specific forum category.\n2. **User:** Clicks on a 'Create Thread' button.\n3. **System:** Displays a 'Create Thread' form.\n4. **User:** Fills out the form, including thread title, and post content.\n5. **User:** Optionally, adds attachments (images, etc.).\n6. **User:** Clicks the 'Submit' button.\n7. **System:** Validates the input (e.g., checks for required fields, content restrictions).\n8. **System:** Creates the thread and displays it in the forum category.\n9. **System:** Sends a notification (optional) to subscribed users or moderators.",
+              "screens": [
+                  "Category View Screen: (Same as Browse Forum) Includes a 'Create Thread' button.",
+                  "Create Thread Form Screen: Allows the user to enter the thread title, post content, and optionally upload attachments.",
+                  "Thread View Screen: Displays the newly created thread."
+              ]
+          },
+          {
+              "featureName": "Post / Reply in Forum",
+              "flow": "1. **User (Registered):** Views a thread.\n2. **User:** Clicks on a 'Reply' button or uses a reply form at the bottom of the thread.\n3. **System:** Displays a reply form (e.g., a text editor).\n4. **User:** Enters their reply content.\n5. **User:** Optionally, adds attachments.\n6. **User:** Clicks the 'Submit' button.\n7. **System:** Validates the input.\n8. **System:** Adds the reply to the thread, displaying it in chronological order.\n9. **System:** Sends a notification (optional) to the thread author and/or subscribed users.",
+              "screens": [
+                  "Thread View Screen: (Same as Browse Forum) Includes a 'Reply' button and a reply form.",
+                  "Reply Form Screen: Allows the user to enter their reply content and optionally upload attachments.",
+                  "Thread View Screen: Displays the updated thread with the new reply."
+              ]
+          }
+      ]
+  },
+  {
+      "category": "Platform Administration",
+      "features": [
+          {
+              "featureName": "Admin Panel",
+              "flow": "1. **Admin User:** Navigates to the Admin Panel login page (e.g., /admin).\n2. **Admin User:** Enters their credentials (username/email and password).\n3. **System:** Authenticates the Admin User.\n4. **System:** If authentication is successful, redirects the Admin User to the Admin Dashboard.\n5. **Admin User:** Views the Admin Dashboard, which provides an overview of key metrics (e.g., total users, active listings, recent transactions, flagged content).\n6. **Admin User:** Navigates to different sections of the Admin Panel using the navigation menu (e.g., User Management, Listing Management, Category Management, Forum Management, Transaction Management, System Settings).\n7. **Admin User:** Performs administrative tasks within each section (e.g., banning users, approving listings, editing categories, moderating forum posts, resolving transaction disputes, configuring platform settings).\n8. **System:** Logs all Admin User actions for auditing purposes.\n9. **Admin User:** Logs out of the Admin Panel.",
+              "screens": [
+                  "Admin Login: Screen for admin users to enter their credentials.",
+                  "Admin Dashboard: Overview of key platform metrics and navigation to different admin sections.",
+                  "User Management: Screen for managing user accounts (e.g., view, edit, ban).",
+                  "Listing Management: Screen for managing listings (e.g., approve, reject, edit).",
+                  "Category Management: Screen for managing categories (e.g., add, edit, delete).",
+                  "Forum Management: Screen for moderating forum posts and threads.",
+                  "Transaction Management: Screen for resolving transaction disputes and viewing transaction history.",
+                  "System Settings: Screen for configuring platform settings (e.g., payment gateway settings, email settings)."
+              ]
+          },
+          {
+              "featureName": "Category Management",
+              "flow": "1. **Admin User:** Logs into the Admin Panel.\n2. **Admin User:** Navigates to the 'Category Management' section from the Admin Dashboard.\n3. **System:** Displays a list of existing categories (e.g., Motorcycles, Parts, Accessories) with their details (e.g., name, description, parent category).\n4. **Admin User:** Can perform the following actions:\n    a. **Add Category:** Clicks 'Add Category' button.\n        i. **System:** Displays a form to enter category details (name, description, parent category, image).\n        ii. **Admin User:** Enters the category details and submits the form.\n        iii. **System:** Validates the input and saves the new category to the database.\n        iv. **System:** Displays a success message and updates the category list.\n    b. **Edit Category:** Selects a category from the list and clicks 'Edit' button.\n        i. **System:** Displays a form pre-populated with the selected category's details.\n        ii. **Admin User:** Modifies the category details and submits the form.\n        iii. **System:** Validates the input and updates the category in the database.\n        iv. **System:** Displays a success message and updates the category list.\n    c. **Delete Category:** Selects a category from the list and clicks 'Delete' button.\n        i. **System:** Displays a confirmation dialog asking the Admin User to confirm the deletion.\n        ii. **Admin User:** Confirms the deletion.\n        iii. **System:** Deletes the category from the database.\n        iv. **System:** Displays a success message and updates the category list.  Note: System should prevent deleting categories that have associated listings or subcategories.\n5. **Admin User:** Logs out of the Admin Panel.",
+              "screens": [
+                  "Category Management: Lists existing categories with options to add, edit, and delete.",
+                  "Add Category: Form for creating a new category (name, description, parent category, image).",
+                  "Edit Category: Form for editing an existing category (pre-populated with category details).",
+                  "Delete Category Confirmation: Confirmation dialog before deleting a category."
+              ]
+          }
+      ]
+  }
+]

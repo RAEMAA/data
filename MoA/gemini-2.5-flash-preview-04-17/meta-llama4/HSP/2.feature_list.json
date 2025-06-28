@@ -1,0 +1,55 @@
+[
+  {
+      "category": "Piglet Management",
+      "list_feature": [
+          "piglet growth tracking",
+          "health monitoring",
+          "feeding management",
+          "environmental conditions monitoring"
+      ]
+  },
+  {
+      "category": "Inventory Management",
+      "list_feature": [
+          "import tracking",
+          "export tracking"
+      ]
+  },
+  {
+      "category": "Revenue Management",
+      "list_feature": [
+          "revenue statistics"
+      ]
+  },
+  {
+      "category": "Farmer Management",
+      "list_feature": [
+          "farmer account registration",
+          "piglet browsing",
+          "order placement",
+          "care and procedure inquiries"
+      ]
+  },
+  {
+      "category": "Farm Owner Management",
+      "list_feature": [
+          "information updating",
+          "promotion announcements",
+          "report generation"
+      ]
+  },
+  {
+      "category": "Communication",
+      "list_feature": [
+          "messaging between farm staff and farmers"
+      ]
+  },
+  {
+      "category": "Reporting",
+      "list_feature": [
+          "monthly report",
+          "quarterly report",
+          "annual report"
+      ]
+  }
+]

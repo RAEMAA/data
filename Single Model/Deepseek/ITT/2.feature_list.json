@@ -1,0 +1,59 @@
+[
+  {
+    "category": "Tour Packages & Categorization",
+    "list_feature": [
+      "Curated tour selections",
+      "Distinct categories: Special Tours, Japan Tours, Asia Tours, Europe-Australia-America Tours"
+    ]
+  },
+  {
+    "category": "Promotions & Updates",
+    "list_feature": ["Regular updates on promotions and special offers"]
+  },
+  {
+    "category": "Visa Assistance Services",
+    "list_feature": ["Comprehensive visa guidance for various destinations"]
+  },
+  {
+    "category": "Cultural & Travel Insights",
+    "list_feature": [
+      "Articles on cultural exploration",
+      "Firsthand travel narratives and stories"
+    ]
+  },
+  {
+    "category": "Client Testimonials & Reviews",
+    "list_feature": [
+      "Authentic client testimonials",
+      "User reviews to build trust"
+    ]
+  },
+  {
+    "category": "Contact & Support Channels",
+    "list_feature": [
+      "Online contact forms",
+      "Dedicated hotlines (individual, group, visa inquiries)",
+      "Email support",
+      "Office address information"
+    ]
+  },
+  {
+    "category": "Tour-Specific Details",
+    "list_feature": [
+      "Daily itineraries with schedules",
+      "Key attractions highlighted per tour",
+      "Logistical specifics (accommodations, flights, meals)",
+      "Transparent pricing with inclusions/exclusions",
+      "Visual galleries for tours",
+      "Tour guide profiles"
+    ]
+  },
+  {
+    "category": "Booking & Policy Information",
+    "list_feature": [
+      "Clear payment guidelines",
+      "Cancellation policies",
+      "Terms and conditions for bookings"
+    ]
+  }
+]

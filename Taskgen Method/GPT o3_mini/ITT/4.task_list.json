@@ -1,0 +1,762 @@
+[
+  [
+    [
+      {
+        "id": "P1-T1",
+        "taskName": "Design Package Listing",
+        "correspondingPhase": "Travel Packages",
+        "correspondingFeature": "Package Listing",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-28",
+        "endTime": "2023-11-28",
+        "dependencies": [],
+        "responsiblePerson": "UX Designer"
+      },
+      {
+        "id": "P1-T2",
+        "taskName": "Implement Package Listing",
+        "correspondingPhase": "Travel Packages",
+        "correspondingFeature": "Package Listing",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-29",
+        "endTime": "2023-11-29",
+        "dependencies": ["P1-T1"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P1-T3",
+        "taskName": "Test Package Listing",
+        "correspondingPhase": "Travel Packages",
+        "correspondingFeature": "Package Listing",
+        "priority": "Medium",
+        "estimatedTime": "0.5 day",
+        "startTime": "2023-11-30",
+        "endTime": "2023-11-30",
+        "dependencies": ["P1-T2"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P1-T4",
+        "taskName": "Design Filtering Options",
+        "correspondingPhase": "Travel Packages",
+        "correspondingFeature": "Filtering Options",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-28",
+        "endTime": "2023-11-28",
+        "dependencies": [],
+        "responsiblePerson": "UX Designer"
+      },
+      {
+        "id": "P1-T5",
+        "taskName": "Implement Filtering Options",
+        "correspondingPhase": "Travel Packages",
+        "correspondingFeature": "Filtering Options",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-29",
+        "endTime": "2023-11-29",
+        "dependencies": ["P1-T4"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P1-T6",
+        "taskName": "Test Filtering Options",
+        "correspondingPhase": "Travel Packages",
+        "correspondingFeature": "Filtering Options",
+        "priority": "Medium",
+        "estimatedTime": "0.5 day",
+        "startTime": "2023-11-30",
+        "endTime": "2023-11-30",
+        "dependencies": ["P1-T5"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P1-T7",
+        "taskName": "Design Sorting Options",
+        "correspondingPhase": "Travel Packages",
+        "correspondingFeature": "Sorting Options",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-28",
+        "endTime": "2023-11-28",
+        "dependencies": [],
+        "responsiblePerson": "UX Designer"
+      },
+      {
+        "id": "P1-T8",
+        "taskName": "Implement Sorting Options",
+        "correspondingPhase": "Travel Packages",
+        "correspondingFeature": "Sorting Options",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-29",
+        "endTime": "2023-11-29",
+        "dependencies": ["P1-T7"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P1-T9",
+        "taskName": "Test Sorting Options",
+        "correspondingPhase": "Travel Packages",
+        "correspondingFeature": "Sorting Options",
+        "priority": "Medium",
+        "estimatedTime": "0.5 day",
+        "startTime": "2023-11-30",
+        "endTime": "2023-11-30",
+        "dependencies": ["P1-T8"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P1-T10",
+        "taskName": "Design Detailed Package Information",
+        "correspondingPhase": "Travel Packages",
+        "correspondingFeature": "Detailed Package Information",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-28",
+        "endTime": "2023-11-28",
+        "dependencies": [],
+        "responsiblePerson": "UX Designer"
+      },
+      {
+        "id": "P1-T11",
+        "taskName": "Implement Detailed Package Information",
+        "correspondingPhase": "Travel Packages",
+        "correspondingFeature": "Detailed Package Information",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-29",
+        "endTime": "2023-11-29",
+        "dependencies": ["P1-T10"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P1-T12",
+        "taskName": "Test Detailed Package Information",
+        "correspondingPhase": "Travel Packages",
+        "correspondingFeature": "Detailed Package Information",
+        "priority": "Medium",
+        "estimatedTime": "0.5 day",
+        "startTime": "2023-11-30",
+        "endTime": "2023-11-30",
+        "dependencies": ["P1-T11"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P1-T13",
+        "taskName": "Design International Travel Packages",
+        "correspondingPhase": "Travel Packages",
+        "correspondingFeature": "International Travel Packages",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-28",
+        "endTime": "2023-11-28",
+        "dependencies": [],
+        "responsiblePerson": "UX Designer"
+      },
+      {
+        "id": "P1-T14",
+        "taskName": "Implement International Travel Packages",
+        "correspondingPhase": "Travel Packages",
+        "correspondingFeature": "International Travel Packages",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-29",
+        "endTime": "2023-11-29",
+        "dependencies": ["P1-T13"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P1-T15",
+        "taskName": "Test International Travel Packages",
+        "correspondingPhase": "Travel Packages",
+        "correspondingFeature": "International Travel Packages",
+        "priority": "Medium",
+        "estimatedTime": "0.5 day",
+        "startTime": "2023-11-30",
+        "endTime": "2023-11-30",
+        "dependencies": ["P1-T14"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P1-T16",
+        "taskName": "Design Domestic Travel Packages",
+        "correspondingPhase": "Travel Packages",
+        "correspondingFeature": "Domestic Travel Packages",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-28",
+        "endTime": "2023-11-28",
+        "dependencies": [],
+        "responsiblePerson": "UX Designer"
+      },
+      {
+        "id": "P1-T17",
+        "taskName": "Implement Domestic Travel Packages",
+        "correspondingPhase": "Travel Packages",
+        "correspondingFeature": "Domestic Travel Packages",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-29",
+        "endTime": "2023-11-29",
+        "dependencies": ["P1-T16"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P1-T18",
+        "taskName": "Test Domestic Travel Packages",
+        "correspondingPhase": "Travel Packages",
+        "correspondingFeature": "Domestic Travel Packages",
+        "priority": "Medium",
+        "estimatedTime": "0.5 day",
+        "startTime": "2023-11-30",
+        "endTime": "2023-11-30",
+        "dependencies": ["P1-T17"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P1-T19",
+        "taskName": "Design Adventure Travel",
+        "correspondingPhase": "Travel Packages",
+        "correspondingFeature": "Adventure Travel",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-28",
+        "endTime": "2023-11-28",
+        "dependencies": [],
+        "responsiblePerson": "UX Designer"
+      },
+      {
+        "id": "P1-T20",
+        "taskName": "Implement Adventure Travel",
+        "correspondingPhase": "Travel Packages",
+        "correspondingFeature": "Adventure Travel",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-29",
+        "endTime": "2023-11-29",
+        "dependencies": ["P1-T19"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P1-T21",
+        "taskName": "Test Adventure Travel",
+        "correspondingPhase": "Travel Packages",
+        "correspondingFeature": "Adventure Travel",
+        "priority": "Medium",
+        "estimatedTime": "0.5 day",
+        "startTime": "2023-11-30",
+        "endTime": "2023-11-30",
+        "dependencies": ["P1-T20"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P1-T22",
+        "taskName": "Design Family Travel Options",
+        "correspondingPhase": "Travel Packages",
+        "correspondingFeature": "Family Travel Options",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-28",
+        "endTime": "2023-11-28",
+        "dependencies": [],
+        "responsiblePerson": "UX Designer"
+      },
+      {
+        "id": "P1-T23",
+        "taskName": "Implement Family Travel Options",
+        "correspondingPhase": "Travel Packages",
+        "correspondingFeature": "Family Travel Options",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-29",
+        "endTime": "2023-11-29",
+        "dependencies": ["P1-T22"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P1-T24",
+        "taskName": "Test Family Travel Options",
+        "correspondingPhase": "Travel Packages",
+        "correspondingFeature": "Family Travel Options",
+        "priority": "Medium",
+        "estimatedTime": "0.5 day",
+        "startTime": "2023-11-30",
+        "endTime": "2023-11-30",
+        "dependencies": ["P1-T23"],
+        "responsiblePerson": "QA Engineer"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": "P2-T1",
+        "taskName": "Design for Online Visa Application",
+        "correspondingPhase": "Visa Services",
+        "correspondingFeature": "Online Visa Application",
+        "priority": "Medium",
+        "estimatedTime": "4 hours",
+        "startTime": "2023-11-28",
+        "endTime": "2023-11-28",
+        "dependencies": [],
+        "responsiblePerson": "Designer - Visa"
+      },
+      {
+        "id": "P2-T2",
+        "taskName": "Implementation for Online Visa Application",
+        "correspondingPhase": "Visa Services",
+        "correspondingFeature": "Online Visa Application",
+        "priority": "High",
+        "estimatedTime": "8 hours",
+        "startTime": "2023-11-29",
+        "endTime": "2023-11-29",
+        "dependencies": ["P2-T1"],
+        "responsiblePerson": "Developer - Visa"
+      },
+      {
+        "id": "P2-T3",
+        "taskName": "Testing for Online Visa Application",
+        "correspondingPhase": "Visa Services",
+        "correspondingFeature": "Online Visa Application",
+        "priority": "Medium",
+        "estimatedTime": "4 hours",
+        "startTime": "2023-11-30",
+        "endTime": "2023-11-30",
+        "dependencies": ["P2-T2"],
+        "responsiblePerson": "QA - Visa"
+      },
+      {
+        "id": "P2-T4",
+        "taskName": "Design for Required Document Checklist",
+        "correspondingPhase": "Visa Services",
+        "correspondingFeature": "Required Document Checklist",
+        "priority": "Medium",
+        "estimatedTime": "4 hours",
+        "startTime": "2023-11-28",
+        "endTime": "2023-11-28",
+        "dependencies": [],
+        "responsiblePerson": "Designer - Visa"
+      },
+      {
+        "id": "P2-T5",
+        "taskName": "Implementation for Required Document Checklist",
+        "correspondingPhase": "Visa Services",
+        "correspondingFeature": "Required Document Checklist",
+        "priority": "High",
+        "estimatedTime": "8 hours",
+        "startTime": "2023-11-29",
+        "endTime": "2023-11-29",
+        "dependencies": ["P2-T4"],
+        "responsiblePerson": "Developer - Visa"
+      },
+      {
+        "id": "P2-T6",
+        "taskName": "Testing for Required Document Checklist",
+        "correspondingPhase": "Visa Services",
+        "correspondingFeature": "Required Document Checklist",
+        "priority": "Medium",
+        "estimatedTime": "4 hours",
+        "startTime": "2023-11-30",
+        "endTime": "2023-11-30",
+        "dependencies": ["P2-T5"],
+        "responsiblePerson": "QA - Visa"
+      },
+      {
+        "id": "P2-T7",
+        "taskName": "Design for Appointment Scheduling",
+        "correspondingPhase": "Visa Services",
+        "correspondingFeature": "Appointment Scheduling",
+        "priority": "Medium",
+        "estimatedTime": "4 hours",
+        "startTime": "2023-11-28",
+        "endTime": "2023-11-28",
+        "dependencies": [],
+        "responsiblePerson": "Designer - Visa"
+      },
+      {
+        "id": "P2-T8",
+        "taskName": "Implementation for Appointment Scheduling",
+        "correspondingPhase": "Visa Services",
+        "correspondingFeature": "Appointment Scheduling",
+        "priority": "High",
+        "estimatedTime": "8 hours",
+        "startTime": "2023-11-29",
+        "endTime": "2023-11-29",
+        "dependencies": ["P2-T7"],
+        "responsiblePerson": "Developer - Visa"
+      },
+      {
+        "id": "P2-T9",
+        "taskName": "Testing for Appointment Scheduling",
+        "correspondingPhase": "Visa Services",
+        "correspondingFeature": "Appointment Scheduling",
+        "priority": "Medium",
+        "estimatedTime": "4 hours",
+        "startTime": "2023-11-30",
+        "endTime": "2023-11-30",
+        "dependencies": ["P2-T8"],
+        "responsiblePerson": "QA - Visa"
+      },
+      {
+        "id": "P2-T10",
+        "taskName": "Design for Application Status Tracking",
+        "correspondingPhase": "Visa Services",
+        "correspondingFeature": "Application Status Tracking",
+        "priority": "Medium",
+        "estimatedTime": "4 hours",
+        "startTime": "2023-11-28",
+        "endTime": "2023-11-28",
+        "dependencies": [],
+        "responsiblePerson": "Designer - Visa"
+      },
+      {
+        "id": "P2-T11",
+        "taskName": "Implementation for Application Status Tracking",
+        "correspondingPhase": "Visa Services",
+        "correspondingFeature": "Application Status Tracking",
+        "priority": "High",
+        "estimatedTime": "8 hours",
+        "startTime": "2023-11-29",
+        "endTime": "2023-11-29",
+        "dependencies": ["P2-T10"],
+        "responsiblePerson": "Developer - Visa"
+      },
+      {
+        "id": "P2-T12",
+        "taskName": "Testing for Application Status Tracking",
+        "correspondingPhase": "Visa Services",
+        "correspondingFeature": "Application Status Tracking",
+        "priority": "Medium",
+        "estimatedTime": "4 hours",
+        "startTime": "2023-11-30",
+        "endTime": "2023-11-30",
+        "dependencies": ["P2-T11"],
+        "responsiblePerson": "QA - Visa"
+      },
+      {
+        "id": "P2-T13",
+        "taskName": "Design for Visa Fee Calculator",
+        "correspondingPhase": "Visa Services",
+        "correspondingFeature": "Visa Fee Calculator",
+        "priority": "Medium",
+        "estimatedTime": "4 hours",
+        "startTime": "2023-11-28",
+        "endTime": "2023-11-28",
+        "dependencies": [],
+        "responsiblePerson": "Designer - Visa"
+      },
+      {
+        "id": "P2-T14",
+        "taskName": "Implementation for Visa Fee Calculator",
+        "correspondingPhase": "Visa Services",
+        "correspondingFeature": "Visa Fee Calculator",
+        "priority": "High",
+        "estimatedTime": "8 hours",
+        "startTime": "2023-11-29",
+        "endTime": "2023-11-29",
+        "dependencies": ["P2-T13"],
+        "responsiblePerson": "Developer - Visa"
+      },
+      {
+        "id": "P2-T15",
+        "taskName": "Testing for Visa Fee Calculator",
+        "correspondingPhase": "Visa Services",
+        "correspondingFeature": "Visa Fee Calculator",
+        "priority": "Medium",
+        "estimatedTime": "4 hours",
+        "startTime": "2023-11-30",
+        "endTime": "2023-11-30",
+        "dependencies": ["P2-T14"],
+        "responsiblePerson": "QA - Visa"
+      },
+      {
+        "id": "P2-T16",
+        "taskName": "Design for Visa Type Descriptions",
+        "correspondingPhase": "Visa Services",
+        "correspondingFeature": "Visa Type Descriptions",
+        "priority": "Medium",
+        "estimatedTime": "4 hours",
+        "startTime": "2023-11-28",
+        "endTime": "2023-11-28",
+        "dependencies": [],
+        "responsiblePerson": "Designer - Visa"
+      },
+      {
+        "id": "P2-T17",
+        "taskName": "Implementation for Visa Type Descriptions",
+        "correspondingPhase": "Visa Services",
+        "correspondingFeature": "Visa Type Descriptions",
+        "priority": "High",
+        "estimatedTime": "8 hours",
+        "startTime": "2023-11-29",
+        "endTime": "2023-11-29",
+        "dependencies": ["P2-T16"],
+        "responsiblePerson": "Developer - Visa"
+      },
+      {
+        "id": "P2-T18",
+        "taskName": "Testing for Visa Type Descriptions",
+        "correspondingPhase": "Visa Services",
+        "correspondingFeature": "Visa Type Descriptions",
+        "priority": "Medium",
+        "estimatedTime": "4 hours",
+        "startTime": "2023-11-30",
+        "endTime": "2023-11-30",
+        "dependencies": ["P2-T17"],
+        "responsiblePerson": "QA - Visa"
+      },
+      {
+        "id": "P2-T19",
+        "taskName": "Design for Document Preparation Assistance",
+        "correspondingPhase": "Visa Services",
+        "correspondingFeature": "Document Preparation Assistance",
+        "priority": "Medium",
+        "estimatedTime": "4 hours",
+        "startTime": "2023-11-28",
+        "endTime": "2023-11-28",
+        "dependencies": [],
+        "responsiblePerson": "Designer - Visa"
+      },
+      {
+        "id": "P2-T20",
+        "taskName": "Implementation for Document Preparation Assistance",
+        "correspondingPhase": "Visa Services",
+        "correspondingFeature": "Document Preparation Assistance",
+        "priority": "High",
+        "estimatedTime": "8 hours",
+        "startTime": "2023-11-29",
+        "endTime": "2023-11-29",
+        "dependencies": ["P2-T19"],
+        "responsiblePerson": "Developer - Visa"
+      },
+      {
+        "id": "P2-T21",
+        "taskName": "Testing for Document Preparation Assistance",
+        "correspondingPhase": "Visa Services",
+        "correspondingFeature": "Document Preparation Assistance",
+        "priority": "Medium",
+        "estimatedTime": "4 hours",
+        "startTime": "2023-11-30",
+        "endTime": "2023-11-30",
+        "dependencies": ["P2-T20"],
+        "responsiblePerson": "QA - Visa"
+      }
+    ],
+    "The project is divided into several phases as outlined in the global context: P1 (Travel Packages), P2 (Visa Services), P3 (Content), P4 (Contact Options), P5 (Tour Details), and P6 (Homepage). Each phase is defined with its own feature list, timeline, and dependencies. For example, P1 has features related to travel packages with a timeline from 2023-11-28 to 2023-12-18, while P6 (Homepage) depends on the completion of the preceding phases.\n\nFocusing on the P2 phase (Visa Services), which has an overall timeline from 2023-11-28 to 2023-12-13 and an estimated time of 15 (unspecified units), detailed subtasks have been explicitly defined and completed. For each of the seven features in Visa Services—namely, Online Visa Application, Required Document Checklist, Appointment Scheduling, Application Status Tracking, Visa Fee Calculator, Visa Type Descriptions, and Document Preparation Assistance—three tasks have been created:\n\n1. A design task:\n   • ID format: P2-T{x} (sequential starting from 1)\n   • Task name begins with “Design for ...”\n   • Start and end on 2023-11-28\n   • Estimation time is ‘4 hours’\n   • Priority set to Medium\n   • No dependencies\n   • Responsible person: Designer - Visa\n\n2. An implementation task:\n   • ID: The next sequential ID (e.g., P2-T2 following its corresponding design task)\n   • Task name begins with “Implementation for ...”\n   • Scheduled on 2023-11-29\n   • Estimation time is ‘8 hours’\n   • Priority set to High\n   • Dependency on the corresponding design task\n   • Responsible person: Developer - Visa\n\n3. A testing task:\n   • ID: The next sequential ID (e.g., P2-T3 following its corresponding implementation task)\n   • Task name begins with “Testing for ...”\n   • Scheduled on 2023-11-30\n   • Estimation time is ‘4 hours’\n   • Priority set to Medium\n   • Dependency on the corresponding implementation task\n   • Responsible person: QA - Visa\n\nThis results in a total of 21 tasks (7 features x 3 tasks each) for phase P2. Each task adheres to the required fields: id (formatted as P2-T1, P2-T2, …, P2-T21), taskName, correspondingPhase (Visa Services), correspondingFeature (one of the seven listed), priority, estimatedTime, startTime, endTime, dependencies, and responsiblePerson. The detailed breakdown ensures that no task is broken further and that the estimation times are as efficient as possible for skilled employees.\n\nThus, using only the information from the global context and the completed subtasks for phase P2, all necessary tasks have been identified, with the detailed breakdown demonstrating the clear sequence from design through implementation to testing. Other phases in the roadmap (P1, P3, P4, P5, and P6) have their overall details provided but do not have a further task breakdown in this instance. This complete structure meets the requirements specified by the project description and roadmap.",
+    "The provided global context defines a complete project roadmap with six phases: P1 (Travel Packages), P2 (Visa Services), P3 (Content), P4 (Contact Options), P5 (Tour Details), and P6 (Homepage). Each phase has clearly defined attributes such as feature lists, estimated times, timelines (startTime and endTime), and dependencies. For example, P1 (Travel Packages) has features like Package Listing, Filtering Options, etc. and is scheduled from 2023-11-28 to 2023-12-18, while P6 (Homepage) depends on the completion of the preceding phases (P1 through P5).\n\nThe detailed breakdown has been provided specifically for phase P2 (Visa Services). In P2, there are 7 features: Online Visa Application, Required Document Checklist, Appointment Scheduling, Application Status Tracking, Visa Fee Calculator, Visa Type Descriptions, and Document Preparation Assistance. For each of these features, exactly three tasks have been defined:\n\n1. A design task:\n   - ID format: P2-T{n} (starting with P2-T1 for the first feature).\n   - Task name: e.g., 'Design for Online Visa Application'.\n   - Start and End time: 2023-11-28.\n   - Estimation Time: 4 hours.\n   - Priority: Medium.\n   - No dependencies.\n   - Responsible Person: Designer - Visa.\n\n2. An implementation task:\n   - ID: Sequentially following the design task (e.g., P2-T2).\n   - Task name: e.g., 'Implementation for Online Visa Application'.\n   - Scheduled on: 2023-11-29.\n   - Estimation Time: 8 hours.\n   - Priority: High.\n   - Dependency: The corresponding design task (e.g., depends on P2-T1).\n   - Responsible Person: Developer - Visa.\n\n3. A testing task:\n   - ID: Sequentially following the implementation task (e.g., P2-T3).\n   - Task name: e.g., 'Testing for Online Visa Application'.\n   - Scheduled on: 2023-11-30.\n   - Estimation Time: 4 hours.\n   - Priority: Medium.\n   - Dependency: The corresponding implementation task (e.g., depends on P2-T2).\n   - Responsible Person: QA - Visa.\n\nThis pattern repeats for all 7 features in the Visa Services phase, resulting in a total of 21 tasks (7 features x 3 tasks each) with task IDs ranging from P2-T1 to P2-T21. The provided subtasks details list each task with all required fields: taskName, correspondingPhase (Visa Services), correspondingFeature (one of the seven features), priority, estimatedTime, startTime, endTime, dependencies, and responsiblePerson.\n\nThus, using only the information from the global context and the completed subtasks for phase P2, the project breakdown is as follows in the output format:\n\n[\n  {\"id\": \"P1\", \"phase\": \"Travel Packages\", \"feature list\": [\"Package Listing\", \"Filtering Options\", \"Sorting Options\", \"Detailed Package Information\", \"International Travel Packages\", \"Domestic Travel Packages\", \"Adventure Travel\", \"Family Travel Options\"], \"estimatedTime\": \"20\", \"startTime\": \"2023-11-28\", \"endTime\": \"2023-12-18\", \"dependencies\": []},\n  {\"id\": \"P2\", \"phase\": \"Visa Services\", \"feature list\": [\"Online Visa Application\", \"Required Document Checklist\", \"Appointment Scheduling\", \"Application Status Tracking\", \"Visa Fee Calculator\", \"Visa Type Descriptions\", \"Document Preparation Assistance\"], \"estimatedTime\": \"15\", \"startTime\": \"2023-11-28\", \"endTime\": \"2023-12-13\", \"dependencies\": []},\n  {\"id\": \"P3\", \"phase\": \"Content\", \"feature list\": [\"Travel Blogs\", \"User Reviews\", \"FAQs\", \"Destination Guides\", \"Local Culture Insights\", \"Travel Tips\", \"Customer Stories\"], \"estimatedTime\": \"25\", \"startTime\": \"2023-11-28\", \"endTime\": \"2023-12-23\", \"dependencies\": []},\n  {\"id\": \"P4\", \"phase\": \"Contact Options\", \"feature list\": [\"Contact Form\", \"Live Chat\", \"Customer Support Hotline\", \"Email Contact\", \"Social Media Integration\", \"24/7 Chatbot Assistance\", \"Local Office Locator\"], \"estimatedTime\": \"10\", \"startTime\": \"2023-11-28\", \"endTime\": \"2023-12-07\", \"dependencies\": []},\n  {\"id\": \"P5\", \"phase\": \"Tour Details\", \"feature list\": [\"Itinerary Overview\", \"Pricing Details\", \"Map Integration\", \"Amenities and Inclusions\", \"Detailed Day-to-Day Itinerary\", \"Customizable Tour Options\", \"Seasonal Offers\", \"Photo Gallery\"], \"estimatedTime\": \"18\", \"startTime\": \"2023-11-28\", \"endTime\": \"2023-12-16\", \"dependencies\": []},\n  {\"id\": \"P6\", \"phase\": \"Homepage\", \"feature list\": [\"Banner Slideshow\", \"Navigation Menu\", \"Search Functionality\", \"User Login/Signup\", \"Featured Tours\", \"Latest News\", \"Special Promotions\"], \"estimatedTime\": \"12\", \"startTime\": \"2023-12-24\", \"endTime\": \"2024-01-04\", \"dependencies\": [\"P1\", \"P2\", \"P3\", \"P4\", \"P5\"]}\n]\n\nAlongside, the detailed 21 subtasks for phase P2 have been generated as specified. This alignment demonstrates a clear sequence of design, implementation, and testing for each Visa Services feature, ensuring that all necessary tasks are included and adhering to the dependencies and scheduled timelines provided in the global context and subtasks documentation.",
+    "The project roadmap is defined with six phases that outline the complete scope of the ITT website. The details are as follows:\n\n1. Phase P1 – Travel Packages:\n   • Feature list: [Package Listing, Filtering Options, Sorting Options, Detailed Package Information, International Travel Packages, Domestic Travel Packages, Adventure Travel, Family Travel Options]\n   • Estimated Time: 20\n   • Start Time: 2023-11-28\n   • End Time: 2023-12-18\n   • Dependencies: []\n\n2. Phase P2 – Visa Services:\n   • Feature list: [Online Visa Application, Required Document Checklist, Appointment Scheduling, Application Status Tracking, Visa Fee Calculator, Visa Type Descriptions, Document Preparation Assistance]\n   • Estimated Time: 15\n   • Start Time: 2023-11-28\n   • End Time: 2023-12-13\n   • Dependencies: []\n   • Detailed Task Breakdown for P2 (Visa Services):\n     - For each of the seven features, exactly three tasks are defined:\n       a. A Design Task:\n          • ID: Sequentially formatted as P2-T1, P2-T4, P2-T7, P2-T10, P2-T13, P2-T16, P2-T19\n          • Task Name: e.g., ‘Design for Online Visa Application’ (and similarly for the other features)\n          • Start & End Time: 2023-11-28\n          • Estimation Time: 4 hours\n          • Priority: Medium\n          • Dependencies: []\n          • Responsible Person: Designer - Visa\n       b. An Implementation Task:\n          • ID: The immediate next sequential ID (e.g., P2-T2 for Online Visa Application, continuing in sequence)\n          • Task Name: e.g., ‘Implementation for Online Visa Application’\n          • Start & End Time: 2023-11-29\n          • Estimation Time: 8 hours\n          • Priority: High\n          • Dependencies: Depends on the corresponding design task (e.g., [P2-T1])\n          • Responsible Person: Developer - Visa\n       c. A Testing Task:\n          • ID: The following sequential ID (e.g., P2-T3 for Online Visa Application, continuing in sequence)\n          • Task Name: e.g., ‘Testing for Online Visa Application’\n          • Start & End Time: 2023-11-30\n          • Estimation Time: 4 hours\n          • Priority: Medium\n          • Dependencies: Depends on the corresponding implementation task (e.g., [P2-T2])\n          • Responsible Person: QA - Visa\n     - This pattern is repeated for the features in the following order:\n       • Online Visa Application (Tasks P2-T1 to P2-T3)\n       • Required Document Checklist (Tasks P2-T4 to P2-T6)\n       • Appointment Scheduling (Tasks P2-T7 to P2-T9)\n       • Application Status Tracking (Tasks P2-T10 to P2-T12)\n       • Visa Fee Calculator (Tasks P2-T13 to P2-T15)\n       • Visa Type Descriptions (Tasks P2-T16 to P2-T18)\n       • Document Preparation Assistance (Tasks P2-T19 to P2-T21)\n     - This totals 21 tasks for the Visa Services phase, ensuring that no task is further broken down and each task has the proper dependencies, scheduling, estimation time, priority, and responsible person.\n\n3. Phase P3 – Content:\n   • Feature list: [Travel Blogs, User Reviews, FAQs, Destination Guides, Local Culture Insights, Travel Tips, Customer Stories]\n   • Estimated Time: 25\n   • Start Time: 2023-11-28\n   • End Time: 2023-12-23\n   • Dependencies: []\n\n4. Phase P4 – Contact Options:\n   • Feature list: [Contact Form, Live Chat, Customer Support Hotline, Email Contact, Social Media Integration, 24/7 Chatbot Assistance, Local Office Locator]\n   • Estimated Time: 10\n   • Start Time: 2023-11-28\n   • End Time: 2023-12-07\n   • Dependencies: []\n\n5. Phase P5 – Tour Details:\n   • Feature list: [Itinerary Overview, Pricing Details, Map Integration, Amenities and Inclusions, Detailed Day-to-Day Itinerary, Customizable Tour Options, Seasonal Offers, Photo Gallery]\n   • Estimated Time: 18\n   • Start Time: 2023-11-28\n   • End Time: 2023-12-16\n   • Dependencies: []\n\n6. Phase P6 – Homepage:\n   • Feature list: [Banner Slideshow, Navigation Menu, Search Functionality, User Login/Signup, Featured Tours, Latest News, Special Promotions]\n   • Estimated Time: 12\n   • Start Time: 2023-12-24\n   • End Time: 2024-01-04\n   • Dependencies: [P1, P2, P3, P4, P5]\n\nThis detailed breakdown uses only the information provided by the global context and the completed subtasks for phase P2. It reflects a clear and systematic approach where every feature in the Visa Services phase is addressed through design, implementation, and testing tasks, with all necessary attributes explicitly defined. The format aligns with the output template that specifies an array of dictionaries representing each phase's overview along with the comprehensive subtasks for phase P2."
+  ],
+  [
+    {
+      "id": "P3-T1",
+      "phase": "Content",
+      "feature list": [
+        "Travel Blogs",
+        "User Reviews",
+        "FAQs",
+        "Destination Guides",
+        "Local Culture Insights",
+        "Travel Tips",
+        "Customer Stories"
+      ],
+      "taskName": "Design Content Section",
+      "priority": "High",
+      "estimatedTime": "1 day",
+      "startTime": "2023-11-28",
+      "endTime": "2023-11-29",
+      "dependencies": [],
+      "responsiblePerson": "Content Designer"
+    },
+    {
+      "id": "P3-T2",
+      "phase": "Content",
+      "feature list": [
+        "Travel Blogs",
+        "User Reviews",
+        "FAQs",
+        "Destination Guides",
+        "Local Culture Insights",
+        "Travel Tips",
+        "Customer Stories"
+      ],
+      "taskName": "Implement Content Section",
+      "priority": "High",
+      "estimatedTime": "2 days",
+      "startTime": "2023-11-29",
+      "endTime": "2023-11-30",
+      "dependencies": ["P3-T1"],
+      "responsiblePerson": "Content Developer"
+    },
+    {
+      "id": "P3-T3",
+      "phase": "Content",
+      "feature list": [
+        "Travel Blogs",
+        "User Reviews",
+        "FAQs",
+        "Destination Guides",
+        "Local Culture Insights",
+        "Travel Tips",
+        "Customer Stories"
+      ],
+      "taskName": "Test Content Section",
+      "priority": "Medium",
+      "estimatedTime": "1 day",
+      "startTime": "2023-11-30",
+      "endTime": "2023-12-01",
+      "dependencies": ["P3-T2"],
+      "responsiblePerson": "QA Engineer"
+    }
+  ],
+  [
+    [
+      {
+        "id": "P4-T1",
+        "taskName": "Design Contact Options Features",
+        "correspondingPhase": "Contact Options",
+        "correspondingFeature": "Contact Form, Live Chat, Customer Support Hotline, Email Contact, Social Media Integration, 24/7 Chatbot Assistance, Local Office Locator",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2023-11-28",
+        "endTime": "2023-11-30",
+        "dependencies": [],
+        "responsiblePerson": "Design Lead"
+      },
+      {
+        "id": "P4-T2",
+        "taskName": "Implement Contact Options Features",
+        "correspondingPhase": "Contact Options",
+        "correspondingFeature": "Contact Form, Live Chat, Customer Support Hotline, Email Contact, Social Media Integration, 24/7 Chatbot Assistance, Local Office Locator",
+        "priority": "High",
+        "estimatedTime": "5 days",
+        "startTime": "2023-12-01",
+        "endTime": "2023-12-05",
+        "dependencies": ["P4-T1"],
+        "responsiblePerson": "Implementation Lead"
+      },
+      {
+        "id": "P4-T3",
+        "taskName": "Test Contact Options Features",
+        "correspondingPhase": "Contact Options",
+        "correspondingFeature": "Contact Form, Live Chat, Customer Support Hotline, Email Contact, Social Media Integration, 24/7 Chatbot Assistance, Local Office Locator",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-12-06",
+        "endTime": "2023-12-07",
+        "dependencies": ["P4-T2"],
+        "responsiblePerson": "QA Lead"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": "P5-T1",
+        "taskName": "Design Tour Details Page",
+        "correspondingPhase": "Tour Details",
+        "correspondingFeature": [
+          "Itinerary Overview",
+          "Pricing Details",
+          "Map Integration",
+          "Amenities and Inclusions",
+          "Detailed Day-to-Day Itinerary",
+          "Customizable Tour Options",
+          "Seasonal Offers",
+          "Photo Gallery"
+        ],
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2023-11-28",
+        "endTime": "2023-11-30",
+        "dependencies": [],
+        "responsiblePerson": "Designer"
+      },
+      {
+        "id": "P5-T2",
+        "taskName": "Implement Tour Details Functionality",
+        "correspondingPhase": "Tour Details",
+        "correspondingFeature": [
+          "Itinerary Overview",
+          "Pricing Details",
+          "Map Integration",
+          "Amenities and Inclusions",
+          "Detailed Day-to-Day Itinerary",
+          "Customizable Tour Options",
+          "Seasonal Offers",
+          "Photo Gallery"
+        ],
+        "priority": "High",
+        "estimatedTime": "10 days",
+        "startTime": "2023-12-01",
+        "endTime": "2023-12-10",
+        "dependencies": ["P5-T1"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P5-T3",
+        "taskName": "Test Tour Details Functionality",
+        "correspondingPhase": "Tour Details",
+        "correspondingFeature": [
+          "Itinerary Overview",
+          "Pricing Details",
+          "Map Integration",
+          "Amenities and Inclusions",
+          "Detailed Day-to-Day Itinerary",
+          "Customizable Tour Options",
+          "Seasonal Offers",
+          "Photo Gallery"
+        ],
+        "priority": "Medium",
+        "estimatedTime": "5 days",
+        "startTime": "2023-12-11",
+        "endTime": "2023-12-16",
+        "dependencies": ["P5-T2"],
+        "responsiblePerson": "QA Engineer"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": "P6-T1",
+        "taskName": "Design Homepage Features",
+        "correspondingPhase": "Homepage",
+        "correspondingFeature": "Banner Slideshow, Navigation Menu, Search Functionality, User Login/Signup, Featured Tours, Latest News, Special Promotions",
+        "priority": "High",
+        "estimatedTime": "3 days",
+        "startTime": "2023-12-24",
+        "endTime": "2023-12-26",
+        "dependencies": [],
+        "responsiblePerson": "UX Designer"
+      },
+      {
+        "id": "P6-T2",
+        "taskName": "Implement Homepage Functionalities",
+        "correspondingPhase": "Homepage",
+        "correspondingFeature": "Banner Slideshow, Navigation Menu, Search Functionality, User Login/Signup, Featured Tours, Latest News, Special Promotions",
+        "priority": "High",
+        "estimatedTime": "6 days",
+        "startTime": "2023-12-27",
+        "endTime": "2024-01-01",
+        "dependencies": ["P6-T1"],
+        "responsiblePerson": "Frontend Developer"
+      },
+      {
+        "id": "P6-T3",
+        "taskName": "Test Homepage Features",
+        "correspondingPhase": "Homepage",
+        "correspondingFeature": "Banner Slideshow, Navigation Menu, Search Functionality, User Login/Signup, Featured Tours, Latest News, Special Promotions",
+        "priority": "Medium",
+        "estimatedTime": "3 days",
+        "startTime": "2024-01-02",
+        "endTime": "2024-01-04",
+        "dependencies": ["P6-T2"],
+        "responsiblePerson": "QA Engineer"
+      }
+    ]
+  ]
+]

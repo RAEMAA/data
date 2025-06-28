@@ -1,0 +1,50 @@
+[
+  {
+    "id": "P1",
+    "phase": "Emotional & Idea Sharing",
+    "feature_list": [
+      "Emotion Spectrum Posting (customizable tags for emotional states)",
+      "Aspiration Documentation (goal-setting templates and milestone tracking)"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-10-23",
+    "endTime": "2023-11-20",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Dream Tracking",
+    "feature_list": [
+      "Persistent Dream Journals (multimedia entries with date/time stamps)",
+      "Progress Tracking System (analytics for recurring themes and goal alignment)"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2023-11-21",
+    "endTime": "2023-12-11",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P3",
+    "phase": "Community Support",
+    "feature_list": [
+      "Feedback Framework (anonymous peer reviews and expert guidance channels)",
+      "Collaborative Tools (shared vision boards and group accountability hubs)"
+    ],
+    "estimatedTime": "5 weeks",
+    "startTime": "2023-12-12",
+    "endTime": "2024-01-15",
+    "dependencies": ["P1", "P2"]
+  },
+  {
+    "id": "P4",
+    "phase": "Connection",
+    "feature_list": [
+      "Algorithmic Matching (compatibility scoring based on aspirations and emotional patterns)",
+      "Discovery Features (geolocated dreamers and interest-based exploration filters)"
+    ],
+    "estimatedTime": "6 weeks",
+    "startTime": "2024-01-16",
+    "endTime": "2024-02-26",
+    "dependencies": ["P3"]
+  }
+]

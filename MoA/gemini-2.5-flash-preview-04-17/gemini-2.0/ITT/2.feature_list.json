@@ -1,0 +1,43 @@
+[
+  {
+      "category": "Tour Information",
+      "list_feature": [
+          "Tour categorization (Special Tours, Japan, Asia, Europe-Australia-America)",
+          "Day-by-day itinerary",
+          "Tour highlights",
+          "Service details (accommodation, flights, meals)",
+          "Pricing information",
+          "Terms and conditions (inclusions/exclusions)",
+          "Images",
+          "Guide information",
+          "Payment policies",
+          "Cancellation policies"
+      ]
+  },
+  {
+      "category": "Website Content",
+      "list_feature": [
+          "Company services overview",
+          "Featured tour showcases",
+          "News and promotions section",
+          "Cultural articles",
+          "Travel stories",
+          "Customer reviews"
+      ]
+  },
+  {
+      "category": "Contact & Support",
+      "list_feature": [
+          "Online inquiry form",
+          "Dedicated hotlines (individual, group, visa services)",
+          "Email contact option",
+          "Office addresses"
+      ]
+  },
+  {
+      "category": "Service Features",
+      "list_feature": [
+          "Visa consultation services"
+      ]
+  }
+]

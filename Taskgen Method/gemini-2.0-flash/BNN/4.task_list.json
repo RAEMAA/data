@@ -1,0 +1,2224 @@
+[
+    [
+        {
+            "id": "P1-T1",
+            "taskName": "Design Email/Phone Number Verification",
+            "correspondingPhase": "User Account and Profile Management",
+            "correspondingFeature": "Email/Phone number verification",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-16",
+            "endTime": "2024-05-17",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T2",
+            "taskName": "Implement Email/Phone Number Verification",
+            "correspondingPhase": "User Account and Profile Management",
+            "correspondingFeature": "Email/Phone number verification",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-17",
+            "endTime": "2024-05-20",
+            "dependencies": [
+                "P1-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T3",
+            "taskName": "Test Email/Phone Number Verification",
+            "correspondingPhase": "User Account and Profile Management",
+            "correspondingFeature": "Email/Phone number verification",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-20",
+            "endTime": "2024-05-21",
+            "dependencies": [
+                "P1-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T4",
+            "taskName": "Design Password Creation and Confirmation",
+            "correspondingPhase": "User Account and Profile Management",
+            "correspondingFeature": "Password creation and confirmation",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-21",
+            "endTime": "2024-05-22",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T5",
+            "taskName": "Implement Password Creation and Confirmation",
+            "correspondingPhase": "User Account and Profile Management",
+            "correspondingFeature": "Password creation and confirmation",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-22",
+            "endTime": "2024-05-25",
+            "dependencies": [
+                "P1-T4"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T1",
+            "taskName": "Design Product Listings",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product name",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-16",
+            "endTime": "2024-05-17",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T2",
+            "taskName": "Implement Product Listings",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product name",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-17",
+            "endTime": "2024-05-20",
+            "dependencies": [
+                "P2-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T3",
+            "taskName": "Test Product Listings",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product name",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-20",
+            "endTime": "2024-05-21",
+            "dependencies": [
+                "P2-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T1",
+            "taskName": "Design Secure Payment Gateway Integration",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Secure payment gateway integration (e.g., Stripe, PayPal)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-16",
+            "endTime": "2024-05-17",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T2",
+            "taskName": "Implement Secure Payment Gateway Integration",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Secure payment gateway integration (e.g., Stripe, PayPal)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-17",
+            "endTime": "2024-05-20",
+            "dependencies": [
+                "P3-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T3",
+            "taskName": "Test Secure Payment Gateway Integration",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Secure payment gateway integration (e.g., Stripe, PayPal)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-20",
+            "endTime": "2024-05-21",
+            "dependencies": [
+                "P3-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T1",
+            "taskName": "Design FAQ Section",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "FAQ section",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-16",
+            "endTime": "2024-05-17",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T2",
+            "taskName": "Implement FAQ Section",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "FAQ section",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-17",
+            "endTime": "2024-05-19",
+            "dependencies": [
+                "P4-T1"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T3",
+            "taskName": "Test FAQ Section",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "FAQ section",
+            "priority": "Medium",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-05-19",
+            "endTime": "2024-05-19",
+            "dependencies": [
+                "P4-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P2-T1",
+            "taskName": "Design Product Name Field",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "8 hours",
+            "startTime": "2024-05-16",
+            "endTime": "2024-05-17",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T2",
+            "taskName": "Implement Product Name Field",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "16 hours",
+            "startTime": "2024-05-17",
+            "endTime": "2024-05-19",
+            "dependencies": [
+                "P2-T1"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T3",
+            "taskName": "Test Product Name Field",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "4 hours",
+            "startTime": "2024-05-19",
+            "endTime": "2024-05-19",
+            "dependencies": [
+                "P2-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T4",
+            "taskName": "Design Product Description Field",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "8 hours",
+            "startTime": "2024-05-19",
+            "endTime": "2024-05-20",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T5",
+            "taskName": "Implement Product Description Field",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "24 hours",
+            "startTime": "2024-05-20",
+            "endTime": "2024-05-22",
+            "dependencies": [
+                "P2-T4"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T6",
+            "taskName": "Test Product Description Field",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "4 hours",
+            "startTime": "2024-05-22",
+            "endTime": "2024-05-22",
+            "dependencies": [
+                "P2-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T7",
+            "taskName": "Design Product Image Upload",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "16 hours",
+            "startTime": "2024-05-22",
+            "endTime": "2024-05-24",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T8",
+            "taskName": "Implement Product Image Upload",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "32 hours",
+            "startTime": "2024-05-24",
+            "endTime": "2024-05-28",
+            "dependencies": [
+                "P2-T7"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T9",
+            "taskName": "Test Product Image Upload",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "8 hours",
+            "startTime": "2024-05-28",
+            "endTime": "2024-05-29",
+            "dependencies": [
+                "P2-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T10",
+            "taskName": "Design Price and Unit Fields",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "8 hours",
+            "startTime": "2024-05-29",
+            "endTime": "2024-05-30",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T11",
+            "taskName": "Implement Price and Unit Fields",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "16 hours",
+            "startTime": "2024-05-30",
+            "endTime": "2024-06-01",
+            "dependencies": [
+                "P2-T10"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T12",
+            "taskName": "Test Price and Unit Fields",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "4 hours",
+            "startTime": "2024-06-01",
+            "endTime": "2024-06-01",
+            "dependencies": [
+                "P2-T11"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T13",
+            "taskName": "Design Available Quantity Field",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Medium",
+            "estimationTime": "8 hours",
+            "startTime": "2024-06-01",
+            "endTime": "2024-06-02",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T14",
+            "taskName": "Implement Available Quantity Field",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Medium",
+            "estimationTime": "16 hours",
+            "startTime": "2024-06-02",
+            "endTime": "2024-06-04",
+            "dependencies": [
+                "P2-T13"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T15",
+            "taskName": "Test Available Quantity Field",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Medium",
+            "estimationTime": "4 hours",
+            "startTime": "2024-06-04",
+            "endTime": "2024-06-04",
+            "dependencies": [
+                "P2-T14"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T16",
+            "taskName": "Design Harvest Date Field",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Medium",
+            "estimationTime": "8 hours",
+            "startTime": "2024-06-04",
+            "endTime": "2024-06-05",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T17",
+            "taskName": "Implement Harvest Date Field",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Medium",
+            "estimationTime": "16 hours",
+            "startTime": "2024-06-05",
+            "endTime": "2024-06-07",
+            "dependencies": [
+                "P2-T16"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T18",
+            "taskName": "Test Harvest Date Field",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Medium",
+            "estimationTime": "4 hours",
+            "startTime": "2024-06-07",
+            "endTime": "2024-06-07",
+            "dependencies": [
+                "P2-T17"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T19",
+            "taskName": "Design Delivery Options",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Medium",
+            "estimationTime": "8 hours",
+            "startTime": "2024-06-07",
+            "endTime": "2024-06-08",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T20",
+            "taskName": "Implement Delivery Options",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Medium",
+            "estimationTime": "24 hours",
+            "startTime": "2024-06-08",
+            "endTime": "2024-06-11",
+            "dependencies": [
+                "P2-T19"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T21",
+            "taskName": "Test Delivery Options",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Medium",
+            "estimationTime": "4 hours",
+            "startTime": "2024-06-11",
+            "endTime": "2024-06-11",
+            "dependencies": [
+                "P2-T20"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T22",
+            "taskName": "Design Organic/Certification Details",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Low",
+            "estimationTime": "8 hours",
+            "startTime": "2024-06-11",
+            "endTime": "2024-06-12",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T23",
+            "taskName": "Implement Organic/Certification Details",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Low",
+            "estimationTime": "16 hours",
+            "startTime": "2024-06-12",
+            "endTime": "2024-06-14",
+            "dependencies": [
+                "P2-T22"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T24",
+            "taskName": "Test Organic/Certification Details",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Low",
+            "estimationTime": "4 hours",
+            "startTime": "2024-06-14",
+            "endTime": "2024-06-14",
+            "dependencies": [
+                "P2-T23"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T25",
+            "taskName": "Design Product Category and Tags",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "8 hours",
+            "startTime": "2024-05-16",
+            "endTime": "2024-05-17",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T26",
+            "taskName": "Implement Product Category and Tags",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "24 hours",
+            "startTime": "2024-05-17",
+            "endTime": "2024-05-20",
+            "dependencies": [
+                "P2-T25"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T27",
+            "taskName": "Test Product Category and Tags",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "8 hours",
+            "startTime": "2024-05-20",
+            "endTime": "2024-05-21",
+            "dependencies": [
+                "P2-T26"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T28",
+            "taskName": "Design Add/Edit/Delete Listings Functionality",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "16 hours",
+            "startTime": "2024-05-21",
+            "endTime": "2024-05-23",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T29",
+            "taskName": "Implement Add/Edit/Delete Listings Functionality",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "40 hours",
+            "startTime": "2024-05-23",
+            "endTime": "2024-05-29",
+            "dependencies": [
+                "P2-T28"
+            ],
+            "responsiblePerson": "Fullstack Developer"
+        },
+        {
+            "id": "P2-T30",
+            "taskName": "Test Add/Edit/Delete Listings Functionality",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "High",
+            "estimationTime": "16 hours",
+            "startTime": "2024-05-29",
+            "endTime": "2024-05-31",
+            "dependencies": [
+                "P2-T29"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T31",
+            "taskName": "Design Discount Options (Optional)",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Low",
+            "estimationTime": "8 hours",
+            "startTime": "2024-05-31",
+            "endTime": "2024-06-01",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T32",
+            "taskName": "Implement Discount Options (Optional)",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Low",
+            "estimationTime": "24 hours",
+            "startTime": "2024-06-01",
+            "endTime": "2024-06-04",
+            "dependencies": [
+                "P2-T31"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T33",
+            "taskName": "Test Discount Options (Optional)",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Low",
+            "estimationTime": "8 hours",
+            "startTime": "2024-06-04",
+            "endTime": "2024-06-05",
+            "dependencies": [
+                "P2-T32"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T34",
+            "taskName": "Design Packaging Options (Optional)",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Low",
+            "estimationTime": "8 hours",
+            "startTime": "2024-06-05",
+            "endTime": "2024-06-06",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T35",
+            "taskName": "Implement Packaging Options (Optional)",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Low",
+            "estimationTime": "24 hours",
+            "startTime": "2024-06-06",
+            "endTime": "2024-06-10",
+            "dependencies": [
+                "P2-T34"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T36",
+            "taskName": "Test Packaging Options (Optional)",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Product Listings",
+            "priority": "Low",
+            "estimationTime": "8 hours",
+            "startTime": "2024-06-10",
+            "endTime": "2024-06-11",
+            "dependencies": [
+                "P2-T35"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T37",
+            "taskName": "Design Keyword Search Bar",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Search and Browsing",
+            "priority": "High",
+            "estimationTime": "8 hours",
+            "startTime": "2024-05-16",
+            "endTime": "2024-05-17",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T38",
+            "taskName": "Implement Keyword Search Functionality",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Search and Browsing",
+            "priority": "High",
+            "estimationTime": "24 hours",
+            "startTime": "2024-05-17",
+            "endTime": "2024-05-20",
+            "dependencies": [
+                "P2-T37"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T39",
+            "taskName": "Test Keyword Search Functionality",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Search and Browsing",
+            "priority": "High",
+            "estimationTime": "8 hours",
+            "startTime": "2024-05-20",
+            "endTime": "2024-05-21",
+            "dependencies": [
+                "P2-T38"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T40",
+            "taskName": "Design Category Browsing Interface",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Search and Browsing",
+            "priority": "High",
+            "estimationTime": "8 hours",
+            "startTime": "2024-05-21",
+            "endTime": "2024-05-22",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T41",
+            "taskName": "Implement Category Browsing Logic",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Search and Browsing",
+            "priority": "High",
+            "estimationTime": "24 hours",
+            "startTime": "2024-05-22",
+            "endTime": "2024-05-25",
+            "dependencies": [
+                "P2-T40"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T42",
+            "taskName": "Test Category Browsing Functionality",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Search and Browsing",
+            "priority": "High",
+            "estimationTime": "8 hours",
+            "startTime": "2024-05-25",
+            "endTime": "2024-05-26",
+            "dependencies": [
+                "P2-T41"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T43",
+            "taskName": "Design Filtering Options Interface",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Search and Browsing",
+            "priority": "High",
+            "estimationTime": "8 hours",
+            "startTime": "2024-05-26",
+            "endTime": "2024-05-27",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T44",
+            "taskName": "Implement Filtering Logic (Organic, Price, Location)",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Search and Browsing",
+            "priority": "High",
+            "estimationTime": "32 hours",
+            "startTime": "2024-05-27",
+            "endTime": "2024-05-31",
+            "dependencies": [
+                "P2-T43"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T45",
+            "taskName": "Test Filtering Functionality",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Search and Browsing",
+            "priority": "High",
+            "estimationTime": "8 hours",
+            "startTime": "2024-05-31",
+            "endTime": "2024-06-01",
+            "dependencies": [
+                "P2-T44"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T46",
+            "taskName": "Design Sorting Options Interface",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Search and Browsing",
+            "priority": "High",
+            "estimationTime": "8 hours",
+            "startTime": "2024-06-01",
+            "endTime": "2024-06-02",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T47",
+            "taskName": "Implement Sorting Logic (Price, Popularity, Date)",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Search and Browsing",
+            "priority": "High",
+            "estimationTime": "32 hours",
+            "startTime": "2024-06-02",
+            "endTime": "2024-06-06",
+            "dependencies": [
+                "P2-T46"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T48",
+            "taskName": "Test Sorting Functionality",
+            "correspondingPhase": "Product Listings, Search, Browsing, Shopping Cart, and Checkout",
+            "correspondingFeature": "Search and Browsing",
+            "priority": "High",
+            "estimationTime": "8 hours",
+            "startTime": "2024-06-06",
+            "endTime": "2024-06-07",
+            "dependencies": [
+                "P2-T47"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P3-T1",
+            "taskName": "Design Payment Gateway Integration",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Secure payment gateway integration (e.g., Stripe, PayPal)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-16",
+            "endTime": "2024-05-17",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T2",
+            "taskName": "Implement Stripe Integration",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Secure payment gateway integration (e.g., Stripe, PayPal)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-17",
+            "endTime": "2024-05-20",
+            "dependencies": [
+                "P3-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T3",
+            "taskName": "Implement PayPal Integration",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Secure payment gateway integration (e.g., Stripe, PayPal)",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-20",
+            "endTime": "2024-05-23",
+            "dependencies": [
+                "P3-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T4",
+            "taskName": "Test Stripe Integration",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Secure payment gateway integration (e.g., Stripe, PayPal)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-23",
+            "endTime": "2024-05-24",
+            "dependencies": [
+                "P3-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T5",
+            "taskName": "Test PayPal Integration",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Secure payment gateway integration (e.g., Stripe, PayPal)",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-24",
+            "endTime": "2024-05-25",
+            "dependencies": [
+                "P3-T3"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T6",
+            "taskName": "Design Multiple Payment Method Support",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Support for multiple payment methods (credit cards, debit cards, online wallets)",
+            "priority": "High",
+            "estimationTime": "0.5 days",
+            "startTime": "2024-05-25",
+            "endTime": "2024-05-25",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T7",
+            "taskName": "Implement Credit Card Payment",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Support for multiple payment methods (credit cards, debit cards, online wallets)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-25",
+            "endTime": "2024-05-27",
+            "dependencies": [
+                "P3-T6"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T8",
+            "taskName": "Implement Debit Card Payment",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Support for multiple payment methods (credit cards, debit cards, online wallets)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-27",
+            "endTime": "2024-05-29",
+            "dependencies": [
+                "P3-T6"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T9",
+            "taskName": "Implement Online Wallet Payment (e.g., Momo, ZaloPay)",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Support for multiple payment methods (credit cards, debit cards, online wallets)",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-29",
+            "endTime": "2024-06-01",
+            "dependencies": [
+                "P3-T6"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T10",
+            "taskName": "Test Credit Card Payment",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Support for multiple payment methods (credit cards, debit cards, online wallets)",
+            "priority": "High",
+            "estimationTime": "0.5 days",
+            "startTime": "2024-06-01",
+            "endTime": "2024-06-01",
+            "dependencies": [
+                "P3-T7"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T11",
+            "taskName": "Test Debit Card Payment",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Support for multiple payment methods (credit cards, debit cards, online wallets)",
+            "priority": "High",
+            "estimationTime": "0.5 days",
+            "startTime": "2024-06-01",
+            "endTime": "2024-06-02",
+            "dependencies": [
+                "P3-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T12",
+            "taskName": "Test Online Wallet Payment",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Support for multiple payment methods (credit cards, debit cards, online wallets)",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-06-02",
+            "endTime": "2024-06-03",
+            "dependencies": [
+                "P3-T9"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T13",
+            "taskName": "Design Payment Authorization and Capture Process",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Payment authorization and capture",
+            "priority": "High",
+            "estimationTime": "0.5 days",
+            "startTime": "2024-06-03",
+            "endTime": "2024-06-03",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T14",
+            "taskName": "Implement Payment Authorization",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Payment authorization and capture",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-06-03",
+            "endTime": "2024-06-05",
+            "dependencies": [
+                "P3-T13"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T15",
+            "taskName": "Implement Payment Capture",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Payment authorization and capture",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-06-05",
+            "endTime": "2024-06-07",
+            "dependencies": [
+                "P3-T14"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T16",
+            "taskName": "Test Payment Authorization",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Payment authorization and capture",
+            "priority": "High",
+            "estimationTime": "0.5 days",
+            "startTime": "2024-06-07",
+            "endTime": "2024-06-07",
+            "dependencies": [
+                "P3-T14"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T17",
+            "taskName": "Test Payment Capture",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Payment authorization and capture",
+            "priority": "High",
+            "estimationTime": "0.5 days",
+            "startTime": "2024-06-07",
+            "endTime": "2024-06-08",
+            "dependencies": [
+                "P3-T15"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T18",
+            "taskName": "Design Refund Processing System",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Refund processing",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-06-08",
+            "endTime": "2024-06-09",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T19",
+            "taskName": "Implement Refund Request Feature",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Refund processing",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-06-09",
+            "endTime": "2024-06-11",
+            "dependencies": [
+                "P3-T18"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T20",
+            "taskName": "Implement Refund Approval Workflow",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Refund processing",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-06-11",
+            "endTime": "2024-06-13",
+            "dependencies": [
+                "P3-T19"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T21",
+            "taskName": "Implement Payment Gateway Refund Integration",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Refund processing",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-06-13",
+            "endTime": "2024-06-15",
+            "dependencies": [
+                "P3-T20"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T22",
+            "taskName": "Test Refund Request Feature",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Refund processing",
+            "priority": "High",
+            "estimationTime": "0.5 days",
+            "startTime": "2024-06-15",
+            "endTime": "2024-06-15",
+            "dependencies": [
+                "P3-T19"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T23",
+            "taskName": "Test Refund Approval Workflow",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Refund processing",
+            "priority": "High",
+            "estimationTime": "0.5 days",
+            "startTime": "2024-06-15",
+            "endTime": "2024-06-16",
+            "dependencies": [
+                "P3-T20"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T24",
+            "taskName": "Test Payment Gateway Refund Integration",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Refund processing",
+            "priority": "High",
+            "estimationTime": "0.5 days",
+            "startTime": "2024-06-16",
+            "endTime": "2024-06-16",
+            "dependencies": [
+                "P3-T21"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T25",
+            "taskName": "Design Transaction History UI",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Transaction history",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-06-16",
+            "endTime": "2024-06-17",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T26",
+            "taskName": "Implement Transaction History Retrieval",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Transaction history",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-06-17",
+            "endTime": "2024-06-20",
+            "dependencies": [
+                "P3-T25"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T27",
+            "taskName": "Implement Transaction History Display",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Transaction history",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-06-20",
+            "endTime": "2024-06-22",
+            "dependencies": [
+                "P3-T26"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P3-T28",
+            "taskName": "Test Transaction History Retrieval",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Transaction history",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-06-22",
+            "endTime": "2024-06-23",
+            "dependencies": [
+                "P3-T26"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T29",
+            "taskName": "Test Transaction History Display",
+            "correspondingPhase": "Payment Processing, Order Management, and Shipping/Delivery",
+            "correspondingFeature": "Transaction history",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-06-23",
+            "endTime": "2024-06-24",
+            "dependencies": [
+                "P3-T27"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P4-T1",
+            "taskName": "Design FAQ Section",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "FAQ section",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-16",
+            "endTime": "2024-05-17",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T2",
+            "taskName": "Implement FAQ Section",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "FAQ section",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-17",
+            "endTime": "2024-05-20",
+            "dependencies": [
+                "P4-T1"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T3",
+            "taskName": "Test FAQ Section",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "FAQ section",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-20",
+            "endTime": "2024-05-21",
+            "dependencies": [
+                "P4-T2"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P4-T4",
+            "taskName": "Design Help Center with Articles and Tutorials",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Help center with articles and tutorials",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-21",
+            "endTime": "2024-05-23",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T5",
+            "taskName": "Implement Help Center with Articles and Tutorials",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Help center with articles and tutorials",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-05-23",
+            "endTime": "2024-05-28",
+            "dependencies": [
+                "P4-T4"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T6",
+            "taskName": "Test Help Center with Articles and Tutorials",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Help center with articles and tutorials",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-28",
+            "endTime": "2024-05-29",
+            "dependencies": [
+                "P4-T5"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P4-T7",
+            "taskName": "Design Contact Form for Inquiries",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Contact form for inquiries",
+            "priority": "Medium",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-05-29",
+            "endTime": "2024-05-29",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T8",
+            "taskName": "Implement Contact Form for Inquiries",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Contact form for inquiries",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-29",
+            "endTime": "2024-05-31",
+            "dependencies": [
+                "P4-T7"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T9",
+            "taskName": "Test Contact Form for Inquiries",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Contact form for inquiries",
+            "priority": "Medium",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-05-31",
+            "endTime": "2024-05-31",
+            "dependencies": [
+                "P4-T8"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P4-T10",
+            "taskName": "Configure Email Support",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Email support",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-06-01",
+            "endTime": "2024-06-03",
+            "dependencies": [],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T11",
+            "taskName": "Test Email Support",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Email support",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-06-03",
+            "endTime": "2024-06-04",
+            "dependencies": [
+                "P4-T10"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P4-T12",
+            "taskName": "Design Support Ticket System",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Support ticket system",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-06-04",
+            "endTime": "2024-06-06",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T13",
+            "taskName": "Implement Support Ticket System",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Support ticket system",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-06-06",
+            "endTime": "2024-06-11",
+            "dependencies": [
+                "P4-T12"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T14",
+            "taskName": "Test Support Ticket System",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Support ticket system",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-06-11",
+            "endTime": "2024-06-13",
+            "dependencies": [
+                "P4-T13"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P4-T15",
+            "taskName": "Design Knowledge Base Structure",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Knowledge base for common issues",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-16",
+            "endTime": "2024-05-17",
+            "dependencies": [],
+            "responsiblePerson": "Technical Writer"
+        },
+        {
+            "id": "P4-T16",
+            "taskName": "Implement Knowledge Base Structure",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Knowledge base for common issues",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-17",
+            "endTime": "2024-05-20",
+            "dependencies": [
+                "P4-T15"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T17",
+            "taskName": "Test Knowledge Base Functionality",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Knowledge base for common issues",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-20",
+            "endTime": "2024-05-21",
+            "dependencies": [
+                "P4-T16"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P4-T18",
+            "taskName": "Create Troubleshooting Guides Content",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Troubleshooting guides",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-21",
+            "endTime": "2024-05-23",
+            "dependencies": [],
+            "responsiblePerson": "Technical Writer"
+        },
+        {
+            "id": "P4-T19",
+            "taskName": "Implement Troubleshooting Guides Section",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Troubleshooting guides",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-23",
+            "endTime": "2024-05-28",
+            "dependencies": [
+                "P4-T18"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T20",
+            "taskName": "Test Troubleshooting Guides",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Troubleshooting guides",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-28",
+            "endTime": "2024-05-29",
+            "dependencies": [
+                "P4-T19"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P4-T21",
+            "taskName": "Design Dispute Submission Form",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Dispute submission form",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-16",
+            "endTime": "2024-05-17",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T22",
+            "taskName": "Implement Dispute Submission Form",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Dispute submission form",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-17",
+            "endTime": "2024-05-20",
+            "dependencies": [
+                "P4-T21"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T23",
+            "taskName": "Test Dispute Submission Form",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Dispute submission form",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-20",
+            "endTime": "2024-05-21",
+            "dependencies": [
+                "P4-T22"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P4-T24",
+            "taskName": "Design Evidence Submission Interface",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Evidence submission (photos, videos, descriptions)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-21",
+            "endTime": "2024-05-22",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T25",
+            "taskName": "Implement Evidence Submission Functionality",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Evidence submission (photos, videos, descriptions)",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-05-22",
+            "endTime": "2024-05-26",
+            "dependencies": [
+                "P4-T24"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T26",
+            "taskName": "Test Evidence Submission Functionality",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Evidence submission (photos, videos, descriptions)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-26",
+            "endTime": "2024-05-27",
+            "dependencies": [
+                "P4-T25"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P4-T27",
+            "taskName": "Set Up Communication Channels",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Communication channels between buyer and seller",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-27",
+            "endTime": "2024-05-29",
+            "dependencies": [],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T28",
+            "taskName": "Test Communication Channels",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Communication channels between buyer and seller",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-29",
+            "endTime": "2024-05-30",
+            "dependencies": [
+                "P4-T27"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P4-T29",
+            "taskName": "Design Mediation Process Workflow",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Mediation process",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-30",
+            "endTime": "2024-05-31",
+            "dependencies": [],
+            "responsiblePerson": "Business Analyst"
+        },
+        {
+            "id": "P4-T30",
+            "taskName": "Implement Mediation Process Workflow",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Mediation process",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-31",
+            "endTime": "2024-06-03",
+            "dependencies": [
+                "P4-T29"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T31",
+            "taskName": "Test Mediation Process Workflow",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Mediation process",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-06-03",
+            "endTime": "2024-06-04",
+            "dependencies": [
+                "P4-T30"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P4-T32",
+            "taskName": "Implement Escalation to Admin Functionality",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Escalation to platform admin",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-06-04",
+            "endTime": "2024-06-06",
+            "dependencies": [],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T33",
+            "taskName": "Test Escalation to Admin Functionality",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Escalation to platform admin",
+            "priority": "Medium",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-06-06",
+            "endTime": "2024-06-06",
+            "dependencies": [
+                "P4-T32"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P4-T34",
+            "taskName": "Configure Refund/Return Management System",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Refund/return management",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-06-06",
+            "endTime": "2024-06-10",
+            "dependencies": [],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T35",
+            "taskName": "Test Refund/Return Management System",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Refund/return management",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-06-10",
+            "endTime": "2024-06-11",
+            "dependencies": [
+                "P4-T34"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P4-T36",
+            "taskName": "Design Admin Review Interface",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Review of evidence by platform admin",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-06-11",
+            "endTime": "2024-06-12",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T37",
+            "taskName": "Implement Admin Review Functionality",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Review of evidence by platform admin",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-06-12",
+            "endTime": "2024-06-14",
+            "dependencies": [
+                "P4-T36"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T38",
+            "taskName": "Test Admin Review Functionality",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Review of evidence by platform admin",
+            "priority": "Medium",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-06-14",
+            "endTime": "2024-06-14",
+            "dependencies": [
+                "P4-T37"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P4-T39",
+            "taskName": "Draft Clear Dispute Resolution Policies",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Clear dispute resolution policies",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-16",
+            "endTime": "2024-05-18",
+            "dependencies": [],
+            "responsiblePerson": "Legal Team"
+        },
+        {
+            "id": "P4-T40",
+            "taskName": "Implement Dispute Resolution Policies Display",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Clear dispute resolution policies",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-18",
+            "endTime": "2024-05-19",
+            "dependencies": [
+                "P4-T39"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T41",
+            "taskName": "Test Dispute Resolution Policies Display",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Clear dispute resolution policies",
+            "priority": "High",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-05-19",
+            "endTime": "2024-05-19",
+            "dependencies": [
+                "P4-T40"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P4-T42",
+            "taskName": "Design User Management Interface",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "User management (add, edit, delete users)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-16",
+            "endTime": "2024-05-17",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T43",
+            "taskName": "Implement User Management Functionality",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "User management (add, edit, delete users)",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-05-17",
+            "endTime": "2024-05-21",
+            "dependencies": [
+                "P4-T42"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T44",
+            "taskName": "Test User Management Functionality",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "User management (add, edit, delete users)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-21",
+            "endTime": "2024-05-22",
+            "dependencies": [
+                "P4-T43"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P4-T45",
+            "taskName": "Design Role Management Interface",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Role management (admin, farmer, consumer)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-22",
+            "endTime": "2024-05-23",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T46",
+            "taskName": "Implement Role Management Functionality",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Role management (admin, farmer, consumer)",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-23",
+            "endTime": "2024-05-26",
+            "dependencies": [
+                "P4-T45"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T47",
+            "taskName": "Test Role Management Functionality",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Role management (admin, farmer, consumer)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-26",
+            "endTime": "2024-05-27",
+            "dependencies": [
+                "P4-T46"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P4-T48",
+            "taskName": "Design Content Management System (CMS)",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Content management (manage website content, blog posts, etc.)",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-27",
+            "endTime": "2024-05-29",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T49",
+            "taskName": "Implement Content Management System (CMS)",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Content management (manage website content, blog posts, etc.)",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-05-29",
+            "endTime": "2024-06-03",
+            "dependencies": [
+                "P4-T48"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T50",
+            "taskName": "Test Content Management System (CMS)",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Content management (manage website content, blog posts, etc.)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-06-03",
+            "endTime": "2024-06-04",
+            "dependencies": [
+                "P4-T49"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P4-T51",
+            "taskName": "Design Product Category Management Interface",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Product category management",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-06-04",
+            "endTime": "2024-06-05",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T52",
+            "taskName": "Implement Product Category Management",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Product category management",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-06-05",
+            "endTime": "2024-06-08",
+            "dependencies": [
+                "P4-T51"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T53",
+            "taskName": "Test Product Category Management",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Product category management",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-06-08",
+            "endTime": "2024-06-09",
+            "dependencies": [
+                "P4-T52"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P4-T54",
+            "taskName": "Define Farm Verification Process",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Farm verification process",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-16",
+            "endTime": "2024-05-18",
+            "dependencies": [],
+            "responsiblePerson": "Business Analyst"
+        },
+        {
+            "id": "P4-T55",
+            "taskName": "Implement Farm Verification Workflow",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Farm verification process",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-18",
+            "endTime": "2024-05-21",
+            "dependencies": [
+                "P4-T54"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T56",
+            "taskName": "Test Farm Verification Workflow",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Farm verification process",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-21",
+            "endTime": "2024-05-22",
+            "dependencies": [
+                "P4-T55"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P4-T57",
+            "taskName": "Configure Payment Gateway Integration",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Payment gateway configuration",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-22",
+            "endTime": "2024-05-25",
+            "dependencies": [],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T58",
+            "taskName": "Test Payment Gateway Integration",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Payment gateway configuration",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-25",
+            "endTime": "2024-05-26",
+            "dependencies": [
+                "P4-T57"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P4-T59",
+            "taskName": "Integrate Shipping Provider APIs",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Shipping provider integration",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-26",
+            "endTime": "2024-05-29",
+            "dependencies": [],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T60",
+            "taskName": "Test Shipping Provider Integration",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Shipping provider integration",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-29",
+            "endTime": "2024-05-30",
+            "dependencies": [
+                "P4-T59"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P4-T61",
+            "taskName": "Set Up Reporting and Analytics Dashboard",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Reporting and analytics (sales, user activity, etc.)",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-05-30",
+            "endTime": "2024-06-03",
+            "dependencies": [],
+            "responsiblePerson": "Data Analyst"
+        },
+        {
+            "id": "P4-T62",
+            "taskName": "Test Reporting and Analytics Functionality",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Reporting and analytics (sales, user activity, etc.)",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-06-03",
+            "endTime": "2024-06-04",
+            "dependencies": [
+                "P4-T61"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P4-T63",
+            "taskName": "Implement System Monitoring and Logging",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "System monitoring and logging",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-06-04",
+            "endTime": "2024-06-07",
+            "dependencies": [],
+            "responsiblePerson": "DevOps Engineer"
+        },
+        {
+            "id": "P4-T64",
+            "taskName": "Test System Monitoring and Logging",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "System monitoring and logging",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-06-07",
+            "endTime": "2024-06-08",
+            "dependencies": [
+                "P4-T63"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        },
+        {
+            "id": "P4-T65",
+            "taskName": "Implement Security Management (Access Control, Vulnerability Scanning)",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Security management (access control, vulnerability scanning)",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-06-08",
+            "endTime": "2024-06-12",
+            "dependencies": [],
+            "responsiblePerson": "Security Engineer"
+        },
+        {
+            "id": "P4-T66",
+            "taskName": "Test Security Management",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Security management (access control, vulnerability scanning)",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-06-12",
+            "endTime": "2024-06-13",
+            "dependencies": [
+                "P4-T65"
+            ],
+            "responsiblePerson": "Security Engineer"
+        },
+        {
+            "id": "P4-T67",
+            "taskName": "Set Up Backup and Recovery System",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Backup and recovery",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-16",
+            "endTime": "2024-05-19",
+            "dependencies": [],
+            "responsiblePerson": "DevOps Engineer"
+        },
+        {
+            "id": "P4-T68",
+            "taskName": "Test Backup and Recovery System",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Backup and recovery",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-19",
+            "endTime": "2024-05-20",
+            "dependencies": [
+                "P4-T67"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        },
+        {
+            "id": "P4-T69",
+            "taskName": "Manage Terms and Conditions",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Terms and conditions management",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-20",
+            "endTime": "2024-05-22",
+            "dependencies": [],
+            "responsiblePerson": "Legal Team"
+        },
+        {
+            "id": "P4-T70",
+            "taskName": "Implement Terms and Conditions Display",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Terms and conditions management",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-22",
+            "endTime": "2024-05-23",
+            "dependencies": [
+                "P4-T69"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T71",
+            "taskName": "Test Terms and Conditions Display",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Terms and conditions management",
+            "priority": "High",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-05-23",
+            "endTime": "2024-05-23",
+            "dependencies": [
+                "P4-T70"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P4-T72",
+            "taskName": "Manage Privacy Policy",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Privacy policy management",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-23",
+            "endTime": "2024-05-25",
+            "dependencies": [],
+            "responsiblePerson": "Legal Team"
+        },
+        {
+            "id": "P4-T73",
+            "taskName": "Implement Privacy Policy Display",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Privacy policy management",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-25",
+            "endTime": "2024-05-26",
+            "dependencies": [
+                "P4-T72"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T74",
+            "taskName": "Test Privacy Policy Display",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Privacy policy management",
+            "priority": "High",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-05-26",
+            "endTime": "2024-05-26",
+            "dependencies": [
+                "P4-T73"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P4-T75",
+            "taskName": "Manage Dispute Resolution Process",
+            "correspondingPhase": "Customer Support, Dispute Resolution, and Platform Administration",
+            "correspondingFeature": "Dispute resolution management",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-06-16",
+            "endTime": "2024-06-18",
+            "dependencies": [],
+            "responsiblePerson": "Operations Manager"
+        }
+    ]
+]

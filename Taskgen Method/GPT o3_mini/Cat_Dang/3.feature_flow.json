@@ -1,0 +1,492 @@
+[
+  {
+    "category": "User Management",
+    "features": [
+      {
+        "featureName": "User Registration",
+        "flow": "1. Visitor accesses the registration page (Role: Visitor/New User) via the landing or login page.\n2. The registration form prompts the user to input necessary details (e.g., name, email/phone, password) (Role: User).\n3. Upon submission, the system validates the input data (Role: System Validation Service).\n4. If validation passes, the system sends a verification code to the user's provided email or phone (Role: System, Communication Service).\n5. The user is then directed to the Verification Screen to enter the received code (Role: User).\n6. The system confirms the code; if correct, it creates the new user account and stores the details in the database (Role: System Database Service).\n7. The user is shown a confirmation message with next steps (Role: System) and offered navigation options like logging in or exploring the app.",
+        "screens": [
+          {
+            "name": "Registration Form Screen",
+            "description": "Screen displaying the sign-up form for new users to input their personal details and set a password."
+          },
+          {
+            "name": "Input Validation Screen",
+            "description": "Inline validation feedback on the Registration Form Screen to indicate data errors (if any) in real-time."
+          },
+          {
+            "name": "Verification Code Entry Screen",
+            "description": "Screen where users enter the verification code sent to their email or mobile number for account confirmation."
+          },
+          {
+            "name": "Registration Success Screen",
+            "description": "Screen confirming that registration was successful and providing next navigation steps such as login or home page access."
+          }
+        ]
+      },
+      {
+        "featureName": "User Login/Logout",
+        "flow": "Step 1: The user accesses the application and selects the Login option from the homepage. (User Role: Guest)\nStep 2: The Login Screen is presented where the user enters their username and password. (User Role: Guest)\nStep 3: Upon submission, the system validates the credentials. If the credentials are correct, the system creates a session and logs the user in; if incorrect, an error message is displayed. (User Role: System)\nStep 4: For a successful login, the user is redirected to the Dashboard/Home Screen where they can access further functionalities. (User Role: Registered User)\nStep 5: At any point during the session, the user can choose to log out by selecting the Logout option. The system then terminates the session and redirects the user back to the Login Screen. (User Role: Registered User and System)",
+        "screens": [
+          "Login Screen: Allows users to enter their credentials and initiate the login process; displays error messages if validation fails.",
+          "Dashboard/Home Screen: Serves as the landing page post-login, offering access to various application functionalities.",
+          "Error Prompt/Screen: Displays feedback when incorrect credentials are entered.",
+          "Logout Confirmation (Optional): Confirms the user's intent to log out before terminating the session."
+        ]
+      },
+      {
+        "category": "Unified Business Management System",
+        "features": [
+          {
+            "featureName": "Waiter Order Processing",
+            "flow": "1. Customer Order Initiation: The process starts when a customer is ready to order, either by verbally communicating to the waiter or through a digital interface if available. (User Role: Customer)\n2. Order Entry: The waiter uses the Order Entry Screen to input the customer order details into the system. (User Role: Waiter)\n3. Order Confirmation: The system displays the Order Confirmation Screen, where the waiter reviews and verifies the order details with the customer. (User Role: Waiter)\n4. Order Transmission: Upon confirmation, the system automatically forwards the order details to the Kitchen Display Screen in the preparation room. (User Roles: System, Kitchen Staff)\n5. Order Preparation: Kitchen staff view the order on the Kitchen Display Screen, acknowledge receipt, and begin preparing the order. (User Role: Kitchen Staff)\n6. Order Completion: Once the dish is prepared, a notification is sent to the waiter for delivery. (User Role: Waiter)\n7. Billing Automation: After order service, the Billing Screen generates an invoice automatically, which is reviewed and finalized by the cashier. (User Roles: Waiter, Cashier)\n8. Reporting: Completed transactions are recorded and aggregated, with data available on the Revenue Report Screen for branch and chain-wide performance analysis. (User Roles: Manager, System)",
+            "screens": [
+              "Order Entry Screen - Allows waiters to input and modify customer orders.",
+              "Order Confirmation Screen - Enables review and verification of orders before submission.",
+              "Kitchen Display Screen - Provides real-time order details and notifications for kitchen staff.",
+              "Billing Screen - Automates invoice generation and handles payment processing.",
+              "Revenue Report Screen - Displays detailed revenue and sales performance across branches."
+            ]
+          }
+        ]
+      },
+      "{\"featureName\": \"Password Recovery\", \"flow\": \"1. The user on the Login Screen clicks the \\\"Forgot Password?\\\" link indicating they cannot remember their password (User Role: End User).\\\n2. The system navigates to the Password Recovery Request Screen where the user is prompted to enter their registered email address or username (System Role: Web/Application Backend).\\\n3. The user inputs the necessary information and submits the form (User Role: End User).\\\n4. The system validates the submitted data and sends a secure, time-limited password recovery email containing a unique reset link (System Role: Authentication Service).\\\n5. The user accesses their email, locates the recovery email, and clicks on the secure reset link (User Role: End User).\\\n6. The secure link directs the user to the Password Reset Screen where the user is asked to enter and confirm a new password (System Role: Web/Application Backend).\\\n7. The user submits the new password entries, and the system verifies password strength and consistency (System Role: Backend Service).\\\n8. Upon successful validation, the system updates the user’s password in the database and displays a Confirmation Screen notifying success (System Role: Backend Service).\\\n9. The user is then given an option to return to the Login Screen to access their account with the new password (User Role: End User).\", \"screens\": [\"Login Screen: The main entry point where users can log in or choose to recover their password.\", \"Password Recovery Request Screen: A screen where users enter their email or username to initiate the password recovery process.\", \"Password Reset Screen: The interface where users set and confirm their new password after accessing the secure link.\", \"Confirmation Screen: A screen displaying a successful password update message and guiding users back to the Login Screen.\"]}"
+    ]
+  },
+  {
+    "category": "Menu and Product Catalog",
+    "features": [
+      [
+        {
+          "featureName": "Product Listing",
+          "flow": "Step 1: Customer navigates to the homepage and selects the ‘Menu’ option. [Customer]. Step 2: The system displays a curated list of available products with images and short descriptions. [System]. Step 3: Customer applies filters or searches for specific items. [Customer]. Step 4: Customer selects a product to view detailed information such as ingredients, price, and customization options. [Customer]. Step 5: Detailed product information is displayed. [System]. Step 6: Customer adds the product to the order by clicking ‘Add to Order’. [Customer]. Step 7: Order summary is presented for review and confirmation. [System].",
+          "screens": [
+            "Menu Home Screen - Displays list of menu products with images, brief descriptions, and filtering options.",
+            "Product Detail Screen - Shows detailed information for a selected product, including customization options.",
+            "Order Summary Screen - Provides an overview of the selected items with pricing and order total for confirmation."
+          ]
+        },
+        {
+          "featureName": "Product Listing",
+          "flow": "Step 1: Waiter or staff logs into the business management system and accesses the ‘Product Catalog’ module. [Waiter/Staff]. Step 2: The system displays a comprehensive, categorized list of products along with stock and pricing details. [System]. Step 3: Staff uses search and filter functions to locate a product quickly. [Waiter/Staff]. Step 4: Staff selects a product to view comprehensive details such as inventory status, price options, and preparation details. [Waiter/Staff]. Step 5: Detailed information is displayed along with an option to add the product directly to a customer’s order if needed. [System]. Step 6: An order processing flow is initiated if a product is added to an order, showing order confirmation details. [System].",
+          "screens": [
+            "Catalog Listing Screen - Presents all catalog products with filtering and categorization features.",
+            "Product Detail Screen - Displays extensive product information including stock levels, pricing, and custom options.",
+            "Order Processing Screen - Facilitates the addition of a product to a customer’s order and displays confirmation details."
+          ]
+        }
+      ],
+      {
+        "featureName": "Detailed Product View",
+        "flow": "1. Customer navigates to the product listing from the app’s main interface.\n2. Customer selects a product, which triggers the system to fetch detailed information including images, description, price, and customization options. (User Role: Customer)\n3. The Detailed Product View screen displays the comprehensive product information. (System Action)\n4. Customer reviews the product details and clicks on 'Order Now'. (User Action: Customer)\n5. The system prompts the customer to confirm customization details, if applicable. (System Action)\n6. Once confirmed, the order initiation process begins and a notification is sent to the waiter. (User Role: Waiter)\n7. The waiter reviews the order details on the Order Confirmation module and may verify details with the customer. (User Role: Waiter)\n8. Final confirmation sends the order to the kitchen and registers it in the billing system. (System Action)",
+        "screens": [
+          "Product Listing Screen - Lists all available products with filtering and search functionalities.",
+          "Detailed Product View Screen - Shows detailed information of a selected product including images, descriptions, prices, and customization options.",
+          "Order Initiation Screen - Allows customers to confirm product details and initiate the order process.",
+          "Order Confirmation Screen - Enables waiters to review, confirm, and forward the order details to the kitchen and billing systems."
+        ]
+      },
+      {
+        "featureName": "Product Filtering and Categorization",
+        "flow": "1. User (Local Staff or Waiter) logs into the system via the Login Screen. 2. The user accesses the Dashboard/Home Screen and selects the Product Management module. 3. The system displays the Product List Screen with all products from all CDC branches. 4. The user clicks the \"Filter\" button, prompting the Filtering Options Sidebar to slide in. 5. The user selects desired filtering criteria (e.g., product category such as beverages, snacks; price range; popularity) and applies the filters. 6. The system processes the criteria and refreshes the Product List Screen to show filtered results. 7. The user can click on any product to view detailed information on the Product Details Screen. 8. An additional option for advanced filtering or resetting filters is available directly on the Filtering Options Sidebar. 9. For administrative oversight, a Manager or Admin can review filter usage data via the analytics option within the Dashboard. Additional error handling steps like invalid filter entries are managed with informational pop-up alerts during the process.",
+        "screens": [
+          "Login Screen - Interface for users to securely log into the system.",
+          "Dashboard/Home Screen - Central hub providing quick access to various system modules including Product Management and analytics.",
+          "Product List Screen - Main listing of all products with real-time display of filtered results.",
+          "Filtering Options Sidebar - A dedicated panel for selecting and applying various product filtering criteria.",
+          "Product Details Screen - Detailed view of a selected product displaying category, price, ingredients, and stock availability.",
+          "Filter Confirmation Screen - Provides immediate visual feedback confirming the applied filter criteria and displaying updated product listings."
+        ]
+      },
+      {
+        "featureName": "Special Offers Display",
+        "flow": "Step 1: Customer Access – The customer navigates to the CDC application or website and selects the Menu and Product Catalog section. (User Role: Customer)\nStep 2: Special Offers Highlight – The system automatically displays a dedicated area for current special offers. The feature visually emphasizes time-bound discounts and promotional deals. (User Role: System)\nStep 3: Offer Selection – The customer clicks on a highlighted offer to see more details. (User Role: Customer)\nStep 4: Offer Details Display – The system presents a detailed view including terms, conditions, discount value, and expiry information. (User Role: System)\nStep 5: Redemption Process – If the offer requires a code, the customer is prompted to enter or confirm a special offer code. Otherwise, confirmation is processed automatically when the offer is selected. (User Role: Customer and System)\nStep 6: Verification and Confirmation – For in-store dining or specific promotions, branch staff (Waiter) may verify offer eligibility. The system then confirms the application of the offer to the order. (User Role: Waiter/Branch Staff)\nStep 7: Billing Adjustment – The order summary reflects the discounted price, and the system updates the billing information accordingly. (User Role: System)\nStep 8: Reporting – Post-transaction, branch managers and corporate offices receive data on redemption metrics via built-in reporting features. (User Role: Branch Manager and System)",
+        "screens": [
+          "Special Offers Landing Screen: Displays a grid or carousel of current special offers with banners, countdown timers, and short descriptions.",
+          "Offer Details Screen: Provides full details of an offer including redemption rules and terms to help customers make informed selections.",
+          "Redemption Input Screen: Allows customers to enter a promo code or confirm their selection; may include additional verification steps for in-store validation.",
+          "Order Confirmation Screen: Summarizes the order with the applied special offer, showing updated pricing and discount details.",
+          "Manager Reporting Screen: Dedicated interface for branch managers to view redemption statistics and financial impact reports of special offers."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Ordering and Payment",
+    "features": [
+      {
+        "category": "Business Management System",
+        "features": [
+          {
+            "featureName": "Waiter Order Processing",
+            "flow": "Step 1: The customer places an order either at their table or via a mobile interface. Step 2: The waiter verifies and enters the order into the system using a tablet or computer terminal. Step 3: The system transmits the order details directly to the preparation room where kitchen staff receives and begins order preparation. Step 4: The kitchen staff updates the order status upon completion. Step 5: The waiter receives notification and serves the completed order to the customer.",
+            "screens": [
+              "Order Entry Screen: Allows waiters to input detailed customer orders and review them before submission.",
+              "Order Confirmation Screen: Displays verification that the order has been successfully transmitted along with order details.",
+              "Kitchen Display Screen: Shows pending and in-progress orders for kitchen staff to manage and update."
+            ]
+          },
+          {
+            "featureName": "Automated Billing Processes",
+            "flow": "Step 1: After order completion and service, the system automatically compiles billing details based on the order information. Step 2: The billing screen is presented to the cashier for review and adjustments if necessary. Step 3: The customer confirms the billed amount and processes the payment through an integrated payment gateway. Step 4: A digital receipt is generated and shared with the customer, concluding the transaction.",
+            "screens": [
+              "Billing Overview Screen: Summarizes all order items, taxes, and total amounts for review.",
+              "Payment Processing Screen: Captures payment details and processes transactions securely.",
+              "Receipt Screen: Displays a digital receipt with transaction details for customer records."
+            ]
+          },
+          {
+            "featureName": "Revenue Reporting",
+            "flow": "Step 1: The system aggregates sales data from all branches at the end of each business day. Step 2: A manager selects criteria such as branch, date range, and report type via the reporting module. Step 3: The system generates detailed revenue reports, both branch-specific and chainwide. Step 4: Financial staff reviews the reports for insights and decision-making, using the information to plan strategies and improvements.",
+            "screens": [
+              "Revenue Dashboard: Provides an at-a-glance view of the key sales metrics and performance indicators.",
+              "Report Filter Screen: Allows managers to apply filters and set parameters for the report generation.",
+              "Detailed Report Screen: Offers an in-depth analysis of revenue data, trends, and comparisons over selected periods."
+            ]
+          }
+        ]
+      },
+      {
+        "featureName": "Secure Checkout",
+        "flow": "Step 1 (Customer): After completing their order at the table or via kiosk, the customer reviews the order details on the Order Summary Screen.\nStep 2 (Customer): The customer proceeds to click the \"Checkout\" button, thereby moving to the Payment Method Screen.\nStep 3 (Customer): On the Payment Method Screen, the customer selects a preferred payment method (credit/debit card, mobile wallet, or cash). For card payments, the system prompts for secure entry using encryption and may initiate two-factor authentication.\nStep 4 (System): The secure payment gateway receives encrypted payment details and processes the payment. A confirmation is awaited from the payment processor.\nStep 5 (Cashier/Waiter): In situations requiring manual oversight (e.g., if any discrepancy arises), the cashier or designated waiter reviews the payment details on a secure admin interface.\nStep 6 (System): Once payment is confirmed, the system generates a confirmation receipt and updates both local (branch) and centralized revenue records. Notifications are sent to branch management for record-keeping and further reporting.\nStep 7 (Customer): The final Receipt Screen displays the successful transaction details along with a digital receipt, and options for printing or emailing the receipt.",
+        "screens": [
+          "Order Summary Screen - Displays order details and total amount for customer verification.",
+          "Payment Method Screen - Allows customers to select a payment option and enter necessary payment details.",
+          "Payment Authentication Screen - Provides a secure interface for verification (with encryption and optional 2FA) for card payments.",
+          "Receipt Screen - Presents confirmation of the successful transaction and detailed receipt information."
+        ]
+      },
+      {
+        "featureName": "Payment Gateway Integration",
+        "flow": "Step 1: Payment Initiation – The customer reviews their order and clicks on 'Proceed to Payment'. (Role: Customer)\nStep 2: Payment Request Transmission – The system compiles the transaction details and sends a payment request to the integrated payment gateway. (Roles: System, Payment Gateway)\nStep 3: Payment Processing – The payment gateway processes the request. It verifies the payment credentials, checks for sufficient funds, and either approves or declines the transaction. (Role: Payment Gateway)\nStep 4: Payment Confirmation – Upon receiving the gateway response, the system displays a confirmation screen indicating success or failure. For a successful payment, the system triggers an order confirmation and invoice generation. (Roles: System, Cashier/Waiter, Customer)\nStep 5: Logging and Reporting – The transaction details are recorded in the system for revenue reporting and future audits across individual branches and the overall chain. (Role: Manager)",
+        "screens": [
+          "Payment Selection Screen: Allows the customer to choose their preferred payment method (credit card, mobile wallet, etc.).",
+          "Payment Details Input Screen: Secure interface where the customer enters payment credentials and other necessary details.",
+          "Processing Screen: Visual indicator (spinner or progress bar) that notifies the customer that the payment is being processed.",
+          "Payment Confirmation Screen: Displays a success message with transaction details or an error message with instructions in case of failure.",
+          "Receipt/Invoice Screen: Shows the generated invoice with print and email options for record-keeping."
+        ]
+      },
+      {
+        "featureName": "Order Tracking",
+        "flow": "Step 1: Customer logs into the mobile app or kiosk and navigates to the Order Tracking feature (User Role: Customer)\nStep 2: Customer places an order; the order details are stored in the system (User Role: Customer)\nStep 3: Waiter reviews the order in the Order Management Screen and confirms it before sending it to the preparation room (User Role: Waiter)\nStep 4: The kitchen or preparation room receives the order. Kitchen staff update the order status to 'In Progress' once preparation begins (User Role: Kitchen Staff)\nStep 5: Upon completion, kitchen staff update the order status to 'Ready for Pickup/Delivery' (User Role: Kitchen Staff)\nStep 6: The system updates the customer’s Order Tracking Dashboard in real time, notifying them that the order is ready (User Role: System/Customer)\nStep 7: Customer reviews the updated status and proceeds to confirm the order and make payment if not already completed (User Role: Customer)\nStep 8: A payment confirmation is generated and a receipt is created, which is then stored for revenue reporting (User Role: System, Manager)\nStep 9: Branch managers can access comprehensive revenue reports that include details of the order, payment, and branch performance (User Role: Branch Manager)",
+        "screens": [
+          "Login/Registration Screen: Enables customers to log into their accounts or register, providing a secure entry point for accessing order tracking features.",
+          "Order Tracking Dashboard: Displays all active and past orders with real-time status updates, ensuring transparency and ease of monitoring.",
+          "Order Detail Screen: Offers detailed insights into individual orders, including itemized lists, preparation status, and expected wait time.",
+          "Order Management Screen for Staff: An interface for waiters and kitchen staff to view, update, and manage order statuses during the preparation process.",
+          "Notification Screen: Provides timely alerts and notifications to the customer regarding order status changes and payment confirmations.",
+          "Receipt/Invoice Screen: Shows the final billing details and payment confirmations, which can be used for both customer reference and branch revenue reporting."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Store Information",
+    "features": [
+      {
+        "featureName": "Store Locator",
+        "flow": "Step 1 (Customer): Launch the CDC mobile or web application and navigate to the main menu to select 'Store Locator'.\nStep 2 (System): Automatically detect the user's current location using geolocation services and display an interactive map with nearby CDC branches.\nStep 3 (Customer): Use the provided filter options on the Filter Screen to narrow down results by branch type (e.g., luxurious section, romantic garden court) or distance.\nStep 4 (Customer): Select a desired branch either by tapping on its map marker or from a list view generated alongside the map.\nStep 5 (System): Display detailed branch information on the Branch Detail Screen, including address, contact information, operating hours, and special amenities.\nStep 6 (Customer): Choose to view additional options, such as obtaining navigation directions by launching the Navigation Screen integrated with mapping services.\nStep 7 (Admin - Backend Process): Allow authorized branch managers or system administrators to update branch data and location details through a dedicated backend dashboard, ensuring the locator remains current.\nStep 8 (Customer): Confirm the selected branch details and either proceed to reserve a table or return to the map for further exploration.",
+        "screens": [
+          "Map Screen: Displays an interactive map with CDC branch markers and real-time geolocation features.",
+          "Filter Screen: Provides filtering options for users to sort branches by attributes such as branch type, distance, and special features.",
+          "Branch Detail Screen: Presents detailed information about a selected branch including address, contact info, hours, and ambiance descriptions.",
+          "Navigation Screen: Integrates with mapping services to offer step-by-step directions to the chosen branch.",
+          "Confirmation Screen: Summarizes user actions and confirms selections, allowing users to finalize their choice or make additional adjustments."
+        ]
+      },
+      {
+        "featureName": "Contact Information",
+        "flow": "1. User Login and Access: The user (Store Manager or Admin) logs into the CDC management system and navigates to the Store Information dashboard.\n2. Accessing Contact Information: From the dashboard, the user selects the Contact Information section to view current details such as phone number, email, and physical address.\n3. Viewing Details: The system displays the current contact details. The user reviews the information for any necessary updates.\n4. Initiating Edit Mode: The user clicks the 'Edit' button to modify the contact details. The system then transitions to an editable form view.\n5. Updating Information: In the Edit Contact Information screen, the user updates or corrects the details as needed. Roles involved: Admin or Store Manager primarily.\n6. Validation and Submission: After completing the edits, the user submits the form. The system validates the input data and, if errors are found, prompts for corrections.\n7. Confirmation and Update: Upon passing validation, the system updates the contact information in the centralized database, and the updated details are reflected in the view screen. A confirmation message is displayed to the user.\n8. Final Review: The user can return to the Contact Information View Screen to ensure the changes are correctly applied.",
+        "screens": [
+          "Store Information Dashboard: The central access point for all store-related settings, including a link to Contact Information.",
+          "Contact Information View Screen: Displays current contact information (phone, email, address) for review and verification.",
+          "Edit Contact Information Screen: Provides a pre-populated form that allows users to update contact details; includes form validation and submission controls.",
+          "Confirmation/Notification Screen: Displays success or error messages after submission, ensuring the user is informed about the update status."
+        ]
+      },
+      {
+        "featureName": "Cafe Ambiance Gallery",
+        "flow": "1. Customer Entry: The user accesses the CDC mobile or web app and navigates to the Store Information section from the main menu. (User Role: Customer)\n2. Gallery Introduction: The user selects the Cafe Ambiance Gallery feature, which displays a grid of ambiance images along with brief captions describing the atmosphere at different locations or sections (e.g., luxurious section, garden court).\n3. Detailed View Selection: The user taps on a specific image to view an enlarged version. A detailed view screen opens showing high-resolution imagery, a more in-depth description, ambiance details, and user ratings/comments. (User Role: Customer)\n4. Image Filtering and Sorting: The user is provided options to filter images by branch or ambiance type and to sort images by popularity or recent additions. (User Role: Customer)\n5. Admin Management Flow: Separately, the admin logs in to the back-end system to manage gallery content. The admin navigates to the Cafe Ambiance Gallery management screen to add, update, or delete images. They also edit accompanying captions and details to ensure the gallery reflects the cafe’s current ambiance. (User Role: Admin)\n6. Confirmation and Feedback: After viewing the images, users may leave feedback or ratings directly on the image detail screen, providing CDC with insights into customer preferences.",
+        "screens": [
+          "Gallery Overview Screen: Displays all curated ambiance images in a grid layout with brief descriptions and filter options.",
+          "Image Detail Screen: Provides an enlarged view of the selected image with detailed information, ambiance description, and user comments.",
+          "Filter & Sort Screen: Offers users a set of tools to filter the gallery images by branch, ambiance style, and other criteria.",
+          "Admin Management Screen: A secured interface for administrators to upload new images, edit details, and manage existing gallery content."
+        ]
+      },
+      {
+        "featureName": "Operating Hours",
+        "flow": "Step 1: Manager logs in to the CDC Business Management System and lands on the main dashboard. Step 2: Manager navigates to the sidebar and selects the \"Store Information\" section. Step 3: Within Store Information, Manager clicks on the \"Operating Hours\" feature to view the current operational timings for each branch. Step 4: The Operating Hours Overview Screen is displayed, presenting regular scheduling information as well as designated special hours for holidays or events. Step 5: Manager selects a specific branch by clicking the associated Edit button to update its operating hours. Step 6: The system transitions to the Edit Operating Hours Screen, where Manager can modify start and end times for each day, and add notes for exceptions or special days. Step 7: After entering the desired changes, Manager clicks the \"Save\" button, triggering a validation process for the input data. Step 8: A Confirmation Screen is presented, summarizing the changes and asking for final affirmation. Step 9: Once confirmed, the system updates the operating hours across the database, logs the changes, and displays a Success Notification Screen. Step 10: Manager reviews the update and has the option to access the change history log before completing the session.",
+        "screens": [
+          "Dashboard Screen - Serves as the central access point with navigation to various sections including Store Information.",
+          "Operating Hours Overview Screen - Displays current operating hours for each branch along with options to edit or review special schedules.",
+          "Edit Operating Hours Screen - Provides input fields for each day of the week with the ability to set special timings for holidays or events.",
+          "Confirmation Screen - Offers a final review of the changes before they are applied, ensuring accurate data entry.",
+          "Success Notification Screen - Confirms that the operating hours have been successfully updated and logs the change for future reference."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Administration",
+    "features": [
+      "{\"featureName\": \"Content Management\", \"flow\": \"1. Login & Access: The Administrator logs into the unified business management system. (Role: Administrator)\\\n2. Navigation: The Administrator selects the Content Management section from the main dashboard to view existing content pieces such as branch announcements, promotions, and event updates. (Role: Administrator)\\\n3. Viewing Content List: The system displays a list of all current content items with status indicators (Draft, Published, Archived). (Role: Administrator)\\\n4. Creating Content: The Administrator/Editor clicks on the 'Create New Content' button and is taken to the Content Editor. Here, they fill in details such as title, body text, media uploads, and assign targeted branches. (Role: Editor/Administrator)\\\n5. Editing Content: The Administrator can select an existing content item to update details if necessary. (Role: Administrator)\\\n6. Submission & Review: For content subject to review, the Administrator submits the draft for approval. A Manager or Senior Administrator then reviews the content and either approves or requests modifications. (Roles: Administrator, Manager)\\\n7. Publishing Content: Once approved, the content is published, and the system triggers notifications to local staff at each branch. (Role: Administrator)\\\n8. Monitoring & Reporting: The system provides tools to monitor content performance, view edit history, and generate activity reports. (Role: Administrator)\", \"screens\": [\"Content Dashboard Screen: Offers an overview of content items, quick actions, and status filtering.\", \"Content List Screen: Displays a detailed list of all content items with options to view, edit, or delete content.\", \"Content Editor Screen: Provides a form-based interface for creating or editing content, including text editors and media upload features.\", \"Content Review Screen: Enables managers to review, approve, or reject content drafts during the workflow process.\", \"Content Preview Screen: Shows a simulation of how the content will appear to end users (both online and in branch systems).\"",
+      {
+        "featureName": "Inventory Control",
+        "flow": "1. Login: The inventory manager or admin logs into the unified business management system using secure credentials. (User Role: Inventory Manager/Admin)\n2. Dashboard Access: Upon successful login, the user navigates to the main dashboard and selects the 'Inventory Control' module. (User Role: Inventory Manager/Admin)\n3. Inventory Overview: The system displays an Inventory List Screen showing all inventory items, current stock levels, reorder thresholds, and locations across branches. (User Role: Inventory Manager/Admin)\n4. Search and Filter: The user can search for specific inventory items or apply filters (by category, branch, or stock status) to quickly locate items. (User Role: Inventory Manager/Admin)\n5. Item Detail Exploration: By selecting an inventory item from the list, the user is taken to the Item Detail Screen, where detailed information including recent stock movements and item history is visible. (User Role: Inventory Manager/Admin)\n6. Modify Inventory: The user can choose to update item details such as adjusting quantities, editing descriptions, or setting new reorder points. This process is facilitated on the Edit Inventory Item Screen. (User Role: Inventory Manager)\n7. Add New Items: If a new inventory item is needed, the user accesses the Add Inventory Item Screen, inputs necessary details (item name, quantity, cost, supplier info), and submits the entry. (User Role: Inventory Manager)\n8. Confirmation and Validation: After any addition or modification, the system presents a Confirmation Screen showing success messages or error alerts, allowing the user to review changes. (User Role: Inventory Manager/Admin)\n9. Reporting: The user can further generate inventory reports on the Inventory Report Screen, displaying current stock summaries, low-stock alerts, and historical data for audit and planning purposes. (User Role: Branch Manager/Inventory Manager/Admin)\n10. Logout: Once tasks are completed, the user securely logs out of the system. (User Role: Any authenticated user)",
+        "screens": [
+          "Dashboard Screen: A central navigation hub from which admins can access the Inventory Control module among other system functionalities.",
+          "Inventory List Screen: Displays all inventory items with essential details such as current stock levels, item categories, and branch locations.",
+          "Item Detail Screen: Provides comprehensive details about the selected inventory item including historical data and related actions.",
+          "Add Inventory Item Screen: A form-based interface designed for entering all necessary details to register a new item into the inventory.",
+          "Edit Inventory Item Screen: Similar to the add screen, but pre-populated with the selected item’s current data to allow for modifications.",
+          "Confirmation Screen: Offers feedback (success or error messages) post any inventory modifications or additions, ensuring user clarity.",
+          "Inventory Report Screen: Presents summarized inventory data in charts/tables, highlights low-stock items, and facilitates audit and forecasting activities."
+        ]
+      },
+      {
+        "featureName": "Order Management",
+        "flow": "Step 1: Order Initiation - A waiter logs into the system and selects the Order Management module to begin a new customer order entry. (Role: Waiter)\nStep 2: Order Entry - The waiter inputs customer selections, special instructions, and table number via a dedicated Order Entry Screen. (Role: Waiter)\nStep 3: Order Verification - The waiter reviews the entered order details for accuracy and confirms the order. (Role: Waiter)\nStep 4: Order Submission - The system routes the confirmed order to the preparation room via a dispatch mechanism. A notification is sent to the Kitchen Staff. (Roles: Waiter, System, Kitchen Staff)\nStep 5: Order Processing - Kitchen Staff accesses the Order Dispatch Screen to view and update order status as they prepare the meal. (Role: Kitchen Staff)\nStep 6: Status Update & Notification - As each stage of preparation is completed, the system updates the order status and notifies the waiter. (Roles: Kitchen Staff, System, Waiter)\nStep 7: Billing Initiation - Once the order is completed and delivered, the cashier or billing personnel initiates the billing process using the Billing Interface. (Roles: Waiter, Cashier)\nStep 8: Payment Processing - The Billing Interface captures payment methods and confirms payment receipt, updating the order status to closed. (Role: Cashier)\nStep 9: Order Closure & Reporting - The Administration Manager reviews completed orders via an Order Review Screen and archives the transaction. Revenue data is automatically aggregated for reporting across branches. (Roles: Administration Manager, Branch Manager)",
+        "screens": [
+          "Order Entry Screen: Interface for waiters to input and customize customer orders.",
+          "Order Review/Confirmation Screen: Screen that allows waiters to review order details before submission.",
+          "Order Dispatch Notification Screen: Dedicated interface for Kitchen Staff to receive and update order statuses.",
+          "Billing Interface: Screen facilitating payment processing and invoicing by cashiers or billing personnel.",
+          "Order Review & Reporting Dashboard: Screen for administrators to verify, archive orders, and generate revenue reports."
+        ]
+      },
+      "{\"featureName\": \"Report Generation\", \"flow\": \"1. User Login: A manager or accountant logs into the CDC Business Management System using secure credentials.\\\n2. Navigate to Reports Section: Upon successful login, the user accesses the main dashboard and selects the Reports module from the side menu.\\\n3. Select Report Generation: The user then clicks on the Report Generation feature to initiate the process.\\\n4. Filter Selection: The system directs the user to the Filter Selection Screen where they input necessary filters such as branch location, specific date ranges, and any other criteria (e.g., revenue thresholds).\\\n5. Generate Report: After setting filters, the user clicks the \\\"Generate\\\" button. The system processes the filters and compiles the required data from all branches.\\\n6. Report Preview: Once the data is aggregated, the user is directed to the Report Preview Screen where the generated report is displayed. The report includes comprehensive revenue details and summaries for both individual branches and the entire chain.\\\n7. Export/Print Options: The user then has the option to either export the report in various formats (PDF, Excel) or to send it to a connected printer directly.\\\n8. Confirmation and Log: Finally, the system confirms the action and logs the report generation event for future reference.\", \"screens\": [\"Dashboard Report Screen: A landing page that provides an overview of key metrics and navigation options for report-related tasks.\", \"Filter Selection Screen: An interface where users apply filters such as branch, date range, and other criteria to narrow down report data.\", \"Report Preview Screen: A detailed view displaying the generated report with summaries and visuals for review.\", \"Export/Print Options Screen: A dedicated screen offering multiple export formats (e.g., PDF, Excel) and printing capabilities.\"]}"
+    ]
+  },
+  {
+    "category": "Centralized Data Management",
+    "features": [
+      {
+        "featureName": "Unified Data Repository",
+        "flow": "1. Login and Module Access: The user (Admin, Business Manager, or Data Analyst) logs into the system using secure credentials and is redirected to the main dashboard. 2. Module Selection: From the dashboard, the user selects the Unified Data Repository module, which is clearly labeled among the system options. 3. Data Aggregation Overview: The system aggregates centralized data from all CDC branches, displaying key metrics such as total sales, orders, and revenue figures. User Role: Admin/Data Analyst. 4. Filtering and Sorting: The user is provided with options to filter data by branch, date range, or category (e.g., waiter orders, billing, revenue reports) and applies these filters to refine the dataset. 5. Detailed Data Exploration: The user selects a specific report or data segment, transitioning to a detailed view where granular data such as order details, billing breakdowns, and operational metrics are displayed. User Role: Business Manager/Data Analyst. 6. Drill-down and Analysis: The user interacts with data elements to drill down into further details, like individual branch performance. 7. Data Export and Reporting: The user exports the viewed data to formats such as CSV or PDF or generates real-time reports. 8. Logout or Navigation: The user either navigates back to the main dashboard or logs out, ensuring a secure end to the session.",
+        "screens": [
+          "Login Screen: Facilitates secure authentication for all user roles accessing the system.",
+          "Dashboard Screen: Provides an overview of system modules and quick access to the Unified Data Repository.",
+          "Unified Data Repository Home Screen: Displays aggregated data with key performance indicators and summary metrics from all CDC branches.",
+          "Filter and Sort Screen: Allows users to set parameters (date, branch, category) to refine and customize data views.",
+          "Detailed Data View Screen: Presents in-depth data analysis with interactive elements for drilling down into specific data points.",
+          "Data Export Screen: Enables users to export data insights in formats such as CSV or PDF, and generate printable reports.",
+          "User Management Screen: (Optional) Manages access roles and permissions related to repository data handling, ensuring proper security protocols."
+        ]
+      },
+      {
+        "featureName": "Real-time Data Synchronization",
+        "flow": "1. Order Initiation: A waiter or local staff uses the order-taking interface to register a new order. The system automatically collects order details including items, timestamps, and branch information.\n2. Local Data Capture: The local branch system logs the order data and stores it temporarily. Simultaneously, a data collector module prepares the information for synchronization.\n3. Synchronization Request: An automated service triggers a synchronization event. The system validates order completeness, stamps the data, and queues it for sending. User roles involved: Waiter/Local Staff and System Service.\n4. Data Transmission: The local system transmits the data to the central server using secure API calls. Real-time encryption and verification ensure data integrity. Role: System Service.\n5. Central Reception and Conflict Resolution: The central server receives the data, checks for conflicts or duplicate entries using unique order IDs. In case of conflicts, a conflict resolution process is initiated involving a System Administrator.\n6. Confirmation and Acknowledgement: Once data is accepted, a confirmation response is sent back to the local branch. The local dashboard updates the sync status to ‘completed’. Role: Central System and Local Branch Staff.\n7. Real-time Reporting: With updated data, real-time revenue reports and system dashboards refresh instantly, providing immediate insights for branch managers and corporate users.",
+        "screens": [
+          "Order Entry Screen: Allows waiters and staff to input and review orders with real-time sync status indicators.",
+          "Local Sync Status Dashboard: Displays the current state of data queued for synchronization and confirms successful sync events.",
+          "Central Sync Monitoring Dashboard: Provides system administrators with an overview of all incoming real-time data, alerts for conflicts, and sync success metrics.",
+          "Conflict Resolution Screen: In cases of data conflicts, enables administrators to manually review, compare, and resolve discrepancies.",
+          "Revenue Report Screen: Dynamically showcases updated revenue reports and order statistics post-synchronization for branch managers and corporate users."
+        ]
+      },
+      {
+        "featureName": "Data Security & Backup",
+        "flow": "1. Login: The System Administrator logs in using secure credentials.\n2. Security Settings Access: The administrator navigates to the Security Settings section of the central management system.\n3. Encryption Configuration: On the Encryption Settings Screen, the administrator configures data encryption protocols to ensure secure data transfers and storage.\n4. Backup Scheduling: The administrator accesses the Backup Schedule Screen to set up automated backup intervals and times, ensuring data is backed up regularly.\n5. Alert Configuration: The system is configured to send real-time alert notifications to administrators and branch managers via the Dashboard Screen if any backup anomalies occur.\n6. Backup Execution: At scheduled times, the system initiates the backup process, transmitting data securely to an off-site location or cloud storage.\n7. Monitoring and Logging: Backup processes are monitored and logged in detail. The Backup Report Screen displays logs and status details of each backup operation.\n8. Review and Incident Handling: The administrator reviews backup logs for any errors or failures and takes corrective action if needed.",
+        "screens": [
+          "Dashboard Screen: Provides an overview of system status including real-time notifications about backup statuses and alerts.",
+          "Backup Schedule Screen: Allows administrators to set, modify, and review automated backup scheduling details to ensure regular data protection.",
+          "Encryption Settings Screen: Offers configuration options for encryption protocols, ensuring that data is secure both in transit and at rest.",
+          "Backup Report Screen: Displays detailed logs and reports of past backup activities, enabling review and auditing for data security compliance."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Waiter Order Processing",
+    "features": [
+      {
+        "featureName": "Efficient Order Entry",
+        "flow": "Step 1 (Waiter): Log into the system using secure credentials and select the specific table that needs service. Step 2 (Waiter): Navigate to the Order Entry Screen to browse the menu and select items along with any customizations (e.g., special requests, dietary modifications). Step 3 (Waiter): Review the summarized order details on the Order Summary Screen and confirm the order. Step 4 (System & Kitchen Staff): Transmit the confirmed order to the Kitchen Display Screen where kitchen staff can view and acknowledge the order. Step 5 (Kitchen Staff): Mark the order as received on the Kitchen Management Screen and begin preparation. Step 6 (Waiter): Monitor order progress on the Order Tracking Screen for real-time updates. Step 7 (Kitchen Staff): Once the order is ready, update the order status to ‘Completed’, which triggers a notification on the Order Completion Screen. Step 8 (Waiter): Deliver the prepared items to the designated table, then transition to billing. Step 9 (Waiter): Access the Billing Screen to generate a detailed bill, incorporating taxes and any service charges. Step 10 (Waiter): Process payment through the Payment Processing Screen and finalize the transaction. Step 11 (System): Automatically compile order data for branch and chain revenue reporting, updated in the Revenue Reporting Screen.",
+        "screens": [
+          "Login Screen: Authenticates waiters to secure the system.",
+          "Table Selection Screen: Enables waiters to select the customer’s table and retrieve any associated order history.",
+          "Order Entry Screen: Provides an interface for waiters to select, customize, and add menu items to a customer’s order.",
+          "Order Summary Screen: Displays a complete summary of selected items along with customizations for final confirmation.",
+          "Kitchen Display Screen: Shows incoming orders for kitchen staff to review and acknowledge in real-time.",
+          "Kitchen Management Screen: Allows kitchen staff to update order statuses and track order preparation progress.",
+          "Order Tracking Screen: Offers a real-time view of order status updates to assist waiters in monitoring the progress.",
+          "Order Completion Screen: Notifies waiters when orders are fully prepared and ready for delivery.",
+          "Billing Screen: Summarizes final order details, taxes, and discounts to generate an accurate bill.",
+          "Payment Processing Screen: Facilitates secure processing of customer payments and transaction logging.",
+          "Revenue Reporting Screen: Aggregates data from completed transactions for financial analysis across branches."
+        ]
+      },
+      "{\"featureName\": \"Order Modification & Tracking\", \"flow\": \"1. Waiter Login & Order Selection: The waiter logs into the system and accesses the current orders list. They select the order needing modification, prompted either by a direct customer request or via system alert. (Role: Waiter)\\\n2. Order Modification Initiation: Upon selecting the order, the waiter accesses the Order Modification Screen. They can add new items, remove existing ones, or modify item details (e.g., spice level, portion size). (Role: Waiter)\\\n3. System Validation & Confirmation: Once modifications are made, the system validates changes (stock availability, pricing) and displays a confirmation prompt. The waiter confirms the modifications. (Roles: Waiter, System)\\\n4. Notifying Relevant Departments: The updated order is transmitted automatically to the kitchen via the Kitchen Order Update Screen and to the billing system for adjustment of charges. Notifications are sent out to both the kitchen staff and billing clerk. (Roles: System, Kitchen Staff, Billing Clerk)\\\n5. Order Tracking & Status Updates: A dedicated Order Tracking Screen presents the order’s statuses (e.g., \\\"Modified\\\", \\\"In Preparation\\\", \\\"Ready\\\"). Both the waiter and kitchen staff can view real-time updates. (Roles: Waiter, Kitchen Staff)\\\n6. Final Verification & Customer Handoff: Before serving, the waiter reviews the final updated order details on the Tracking Screen, ensuring consistency between kitchen output and billing. The updated bill is then presented to the customer. (Roles: Waiter, Billing Clerk)\", \"screens\": [\"Order List Screen: Displays all active orders, allowing waiters to select orders requiring modifications.\", \"Order Modification Screen: Provides an interface for adding, removing, or editing items in an order with options for special instructions.\", \"Validation & Confirmation Screen: Shows change summaries and prompts waiters to confirm or cancel modifications.\", \"Kitchen Order Update Screen: Automatically updates and displays modified orders for chef and kitchen staff action.\", \"Order Tracking Screen: Offers a step-by-step visual update of the order status post-modification, accessible by waiters and kitchen staff.\", \"Billing Update Screen: Reflects the adjusted charges and updated totals post modification for billing personnel.\"",
+      {
+        "featureName": "Real-time Status Updates",
+        "flow": "Step 1: Initiate Order Entry - A waiter logs into the Waiter Dashboard and selects a table to create a new order. The system captures all order details. (Role: Waiter)\nStep 2: Transmit Order to Kitchen - Once the order is confirmed, the system pushes the order details in real-time to the Kitchen Display. (Role: System/Waiter)\nStep 3: Monitor Order Status - Kitchen staff view the incoming order on the Kitchen Display. The chef selects the order and updates its status to 'In Progress'. (Role: Chef/Kitchen Staff)\nStep 4: Update Status During Preparation - As the chef works on the order, progress updates are automatically sent. Any modifications are immediately displayed on the Kitchen Display and flagged for manager review where necessary. (Role: Chef)\nStep 5: Order Completion - After preparation, the chef marks the order as 'Completed'. The status update triggers notifications to both the billing system and a customer notification module. (Role: Chef/Kitchen Staff)\nStep 6: Customer & Manager Notifications - The customer receives a notification on the mobile app or digital queue screen expressing that the order is ready. Simultaneously, managers receive a dashboard alert for oversight and potential quality checks. (Roles: Customer, Manager)\nStep 7: Billing & Analytics - The order completion automatically triggers the billing process and updates the revenue reports in real-time for branch and chain-level analytics. (Role: System Automation)",
+        "screens": [
+          "Waiter Dashboard: Displays active orders and allows waiters to place new orders, reflect order status, and manage table allocations.",
+          "Kitchen Display: Provides a real-time list of incoming orders, current status (e.g., New, In Progress, Completed), and specific order details for the kitchen staff.",
+          "Chef/Order Management Interface: Offers detailed control for chefs to pick up orders, update progress, apply modifications, and mark orders complete.",
+          "Customer Notification Screen: A mobile or digital interface that informs customers about the current status of their order in real-time.",
+          "Manager Analytics Dashboard: Visualizes key performance metrics including order throughput, status updates, and revenue reporting in real-time.",
+          "Billing Screen: Automates and displays the billing process post order completion, ensuring seamless integration with the payment system."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Billing Automation",
+    "features": [
+      {
+        "featureName": "Automated Invoice Generation",
+        "flow": "1. Order Consolidation: The system receives order details from waiters at various branches. (Role: Waiter)\n2. Data Verification and Preparation: The system verifies order details, cross-checks with menu pricing, and applies any discounts or promotions. (Role: System/Backend)\n3. Invoice Processing: Once verified, the system automatically generates an invoice with itemized details, tax calculations, and billed totals. (Role: System/Backend)\n4. Review Stage: A manager reviews the generated invoice for accuracy. If adjustments are required, the manager can make changes before finalizing. (Role: Branch Manager)\n5. Confirmation and Finalization: The finalized invoice is approved and marked as complete. (Role: Branch Manager/System)\n6. Distribution: The invoice is then transmitted to the customer through email or printed out at the branch. (Role: System/Front Desk)",
+        "screens": [
+          "Order Dashboard: Displays a summary of incoming orders and allows waiters to send orders to the system.",
+          "Invoice Preview Screen: Shows a draft of the generated invoice for review with options to edit or confirm.",
+          "Manager Review Screen: Provides a detailed view for the branch manager to inspect invoices before finalization.",
+          "Final Invoice Display: Presents the finalized invoice to be sent to the customer or printed.",
+          "Notification Screen: Communicates success or error messages during different stages of invoice processing."
+        ]
+      },
+      {
+        "featureName": "Accurate Tax & Discount Computation",
+        "flow": "Step 1: Order Initiation - The customer places an order and the waiter enters order details on the Order Summary Screen (Roles: Customer, Waiter).\nStep 2: Data Retrieval - The system automatically retrieves current tax rates and any active promotions or discounts applicable based on customer type (Role: System).\nStep 3: Input Collection & Validation - The cashier or billing operator accesses the Tax and Discount Input Screen to enter any additional discount codes or adjust tax settings as required, with the system validating the inputs (Role: Cashier/Billing Operator).\nStep 4: Computation - The system calculates applicable taxes on the subtotal and applies any relevant discounts, ensuring that customer-specific or promotion-based reductions are correctly computed (Role: System).\nStep 5: Review & Verification - The Computation Result Screen displays a detailed breakdown of subtotal, taxes, discounts, and final total for review by a supervisor or authorized cashier (Roles: Cashier, Supervisor).\nStep 6: Final Confirmation - The cashier confirms the final bill on the Final Bill Confirmation Screen (Role: Cashier).\nStep 7: Payment Processing - The finalized bill is processed on the Payment Processing Screen, facilitating payment by the customer and issuing a receipt (Roles: Cashier, Customer).",
+        "screens": [
+          "Order Summary Screen - Displays order items and preliminary totals before tax and discount computation.",
+          "Tax and Discount Input Screen - Provides an interface for entering or adjusting applicable tax rates, discount codes, and customer details.",
+          "Computation Result Screen - Shows a detailed breakdown of subtotal, taxes, discounts, and computed final amount for review.",
+          "Final Bill Confirmation Screen - Allows billing staff to verify and confirm the final computed bill before proceeding.",
+          "Payment Processing Screen - Facilitates the payment transaction and generates the receipt for the customer."
+        ]
+      },
+      {
+        "featureName": "Seamless Payment Integration",
+        "flow": "1. Customer reviews order summary on Order Summary Screen and confirms intent to pay (Customer). 2. System displays Payment Options Screen listing available payment methods such as credit/debit cards, mobile wallets, etc. (System). 3. Customer selects a payment method and is routed to the Payment Authentication Screen where payment details are securely entered (Customer). 4. Payment gateway processes the payment and returns a success or failure status (Payment Gateway). 5. On success, the system displays Payment Confirmation Screen with transaction details and digital receipt, and simultaneously notifies the cashier and the kitchen for further processing (System and Staff). 6. Cashier verifies and finalizes the transaction via the Management Dashboard (Staff). 7. System automatically updates billing records and generates revenue reports accessible via the Revenue Report Screen (System).",
+        "screens": [
+          "Order Summary Screen - Displays a detailed list of ordered items and total payable amount.",
+          "Payment Options Screen - Provides customers with multiple methods of payment.",
+          "Payment Authentication Screen - Securely captures and validates payment information.",
+          "Payment Confirmation Screen - Shows transaction confirmation along with a digital receipt.",
+          "Revenue Report Screen - Displays up-to-date financial metrics and transaction summaries for managerial review."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Revenue Reporting",
+    "features": [
+      {
+        "category": "Revenue Reporting",
+        "features": [
+          {
+            "featureName": "Daily/Monthly Revenue Reports",
+            "flow": "1. Login: The user (branch manager, accountant, or system admin) logs into the CDC business management system using secure credentials.\n2. Branch Selection: Once logged in, the user navigates to the dashboard and selects the specific branch from a dropdown or list view to focus on branch-specific data.\n3. Report Type Selection: The user then chooses the type of revenue report needed (daily or monthly) via clearly labeled buttons or tabs on the dashboard.\n4. Apply Filters: On the Report Filter Screen, the user applies additional filters such as date ranges, specific time periods, or transaction categories to narrow down the revenue data.\n5. View Detailed Revenue Report: The system processes the query and displays a comprehensive report on the Report Viewing Screen, detailing revenue breakdowns, categories, and trends.\n6. Export/Print Option: The user reviews the report and chooses to either export (in formats like CSV or PDF) or print the report. The system then prompts for confirmation on the Report Export Confirmation Screen, ensuring that the export or print action is executed correctly.\nNote: Throughout the flow, the branch manager confirms branch-specific revenue accuracy, the accountant verifies financial integrity, and the system admin ensures the system's operational stability.",
+            "screens": [
+              {
+                "screenName": "Login Screen",
+                "description": "Allows users to enter their credentials securely to access the system."
+              },
+              {
+                "screenName": "Main Dashboard",
+                "description": "Provides an overview of available options including branch selection and report type toggles."
+              },
+              {
+                "screenName": "Report Filter Screen",
+                "description": "Enables users to input and apply filters to customize the revenue report."
+              },
+              {
+                "screenName": "Report Viewing Screen",
+                "description": "Displays the detailed revenue report with breakdowns and visualizations for analysis."
+              },
+              {
+                "screenName": "Report Export Confirmation Screen",
+                "description": "Confirms the export or print action and offers options to finalize the output process."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "featureName": "Sales Analytics Dashboard",
+        "flow": "1. Login: The user enters credentials to login to the system (Role: Branch Manager/Analyst).\n2. Navigation to Dashboard: Upon login, the user is redirected to the homepage where the main menu is available. The user selects the 'Revenue Reports' section.\n3. Accessing Sales Analytics Dashboard: Inside the Revenue Reports section, the user clicks on the 'Sales Analytics Dashboard' option to view detailed sales data.\n4. Data Filtering: The user is presented with filtering options such as date range, branch selection, and sales categories. The user applies these filters to tailor the data visualization. (Role: Manager/Analyst)\n5. Visualization: Once filters are applied, dynamic graphs (bar charts, line graphs, pie charts) are rendered showing key performance indicators and revenue breakdowns.\n6. Detailed Analysis: The user can click on specific widgets or hover for more detailed insights, drilling down into daily/branch-specific performance.\n7. Report Export: The system offers an option to export the displayed data into formats such as PDF or Excel. The user selects the desired format, and the report is generated accordingly.\n8. Logout/Navigation: After analysis, the user can log out or return to the main menu for further actions.",
+        "screens": [
+          "Login Screen: Enables secure authentication with username and password fields.",
+          "Dashboard Landing Screen: Provides a centralized menu and summary of available reports and features.",
+          "Revenue Reports Screen: Lists all revenue related reports including access to the Sales Analytics Dashboard.",
+          "Sales Analytics Dashboard Screen: Displays interactive charts and KPIs reflecting the sales data with filter options.",
+          "Filter Modal Screen: A dedicated overlay for applying filters such as date, branch, and sales category.",
+          "Export Confirmation Screen: Confirms the successful exporting of reports and provides download options (PDF/Excel)."
+        ]
+      },
+      {
+        "featureName": "Trend Analysis & Forecasting",
+        "flow": "1. Login: The user (e.g., Revenue Analyst or Branch Manager) logs into the unified business management system via the Login Screen.\n2. Dashboard Navigation: Upon successful login, the user is directed to the Revenue Dashboard where key performance metrics and branch summaries are displayed.\n3. Feature Selection: The user selects the Trend Analysis & Forecasting feature from the dashboard menu.\n4. Trend Analysis Overview: The system presents a Trend Analysis Overview Screen summarizing recent revenue trends and highlighting areas for deeper analysis.\n5. Forecast Setup: The user proceeds to the Forecast Setup Screen, where they input or adjust forecasting parameters such as time intervals, filters (by branch, region, period), and data visualization preferences.\n6. Data Processing: After confirming the parameters, the system processes historical and real-time data, running trend analyses and predictive forecasting algorithms.\n7. Review Results: The system displays results on a Detailed Trend Report Screen and a Forecast Results Screen, which provide visual insights (graphs, charts) and numerical summaries.\n8. Export and Feedback: The user can export the reports through an Export Options Screen and has the option to submit feedback or modify parameters, triggering a re-analysis if necessary.",
+        "screens": [
+          "Login Screen: Screen where users enter credentials to access the system.",
+          "Revenue Dashboard: Overview screen displaying key metrics and navigation options for various revenue-related features.",
+          "Trend Analysis Overview Screen: Screen summarizing recent revenue trends and offering insights to cue further analysis.",
+          "Forecast Setup Screen: Interface for setting forecasting parameters such as date ranges, filters, and visualization options.",
+          "Detailed Trend Report Screen: Screen that presents in-depth trend analysis results with graphical and tabular data.",
+          "Forecast Results Screen: Screen displaying the forecasting outputs with projections, confidence intervals, and performance metrics.",
+          "Export Options Screen: Screen that allows users to export and share reports in various formats."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Ambiance & Customer Experience",
+    "features": [
+      {
+        "featureName": "Luxurious Interior Coordination Feature",
+        "flow": "Step 1: Manager Initiation - A manager logs into the system via the Dashboard Overview Screen and navigates to the Request Submission Screen to detail requirements for updating the luxurious interior area. (Role: Manager). Step 2: Design Proposal Drafting - The system notifies the assigned interior designer who accesses the Design Proposal Screen to draft a detailed interior plan including layout ideas, design elements, and visual mockups. (Role: Interior Designer). Step 3: Review and Approval - The design proposal is forwarded to a manager or administrator who reviews it on the Approval Screen, providing feedback, approving, or requesting revisions. (Role: Manager/Administrator). Step 4: Final Confirmation and Notification - Upon approval, the Final Confirmation Screen displays the approved design to all relevant stakeholders and logs the confirmation for audit purposes. (Role: Manager & Implementation Team)",
+        "screens": [
+          "Dashboard Overview Screen: Central hub displaying notifications, summaries, and quick access to various system functions.",
+          "Request Submission Screen: Form-based interface where managers enter and submit interior design requests.",
+          "Design Proposal Screen: Dedicated workspace for interior designers to draft, visualize, and annotate design proposals.",
+          "Approval Screen: Interactive review interface for managers or administrators to examine, comment, and either approve or request modifications to the proposal.",
+          "Final Confirmation Screen: Interface that clearly communicates approved design details and notifications to the implementation team and stakeholders."
+        ]
+      },
+      {
+        "featureName": "Romantic Lighting & Music Settings",
+        "flow": "1. User Authentication: The lighting technician or branch manager logs into the business management system via a secure Login Screen.\n2. Dashboard Access: After logging in, the user is directed to the Main Dashboard Screen where multiple ambiance settings are available.\n3. Feature Selection: The user selects the Romantic Lighting & Music Settings option to adjust ambiance in the garden court area.\n4. Lighting Adjustment: On the Romantic Mode Settings Screen, the user is presented with adjustable controls for lighting intensity, warmth, and color schemes tailored for a romantic atmosphere. Role Involved: Lighting Technician/Branch Staff.\n5. Music Selection: Still on the Romantic Mode Settings Screen, the user can browse curated playlists (e.g., soft jazz, classical, and ambient tracks) with preview options. Role Involved: Branch Staff/Manager.\n6. Preview and Simulation: The user can navigate to a Preview Screen that simulates the set lighting and plays a sample of the chosen music.\n7. Confirmation and Saving: On the Confirmation Screen, all chosen settings are reviewed; the user confirms and saves the configuration.\n8. Scheduling (Optional): The user can opt to schedule these settings to automatically activate during peak hours via the Schedule Settings Screen.\n9. System Update and Feedback: The system sends configuration commands to the physical ambiance controllers and provides an on-screen confirmation along with an audit log entry.",
+        "screens": [
+          {
+            "name": "Login Screen",
+            "description": "Authenticates users and directs them to the dashboard upon successful login."
+          },
+          {
+            "name": "Dashboard Screen",
+            "description": "Provides an overview of available ambiance settings and feature navigation."
+          },
+          {
+            "name": "Romantic Mode Settings Screen",
+            "description": "Allows adjustment of lighting intensity, color, and selection of music playlists."
+          },
+          {
+            "name": "Preview Screen",
+            "description": "Simulates the chosen lighting and plays a sample of selected music for user approval."
+          },
+          {
+            "name": "Confirmation Screen",
+            "description": "Displays a summary of all settings for final review and confirmation before saving."
+          },
+          {
+            "name": "Schedule Settings Screen",
+            "description": "Enables the user to set time-based rules for automatic activation of the configured ambiance."
+          }
+        ]
+      },
+      {
+        "featureName": "Personalized Customer Engagement",
+        "flow": "1. Customer Arrival & Identification: The customer arrives at CDC and logs into the mobile app or kiosk. The system identifies whether the customer is a return visitor (via loyalty program) or a new guest. (Roles: Customer, System)\n2. Initiation of Engagement: For returning customers, the system automatically highlights personalized offers based on previous orders and preferences. New customers are prompted to set initial preferences. (Roles: Customer, System)\n3. Waiter Notification and Interaction: When an order is placed, the waiter receives a notification that includes the customer’s past order history and suggested personalized recommendations. The waiter can engage with the customer to confirm and offer tailored suggestions. (Roles: Waiter, Customer)\n4. Automated Insights & Offers: The system processes real-time data including order frequency, product preferences, and timing to generate automated insights. These insights drive dynamic offers such as discounts or loyalty rewards that are immediately communicated to the customer. (Roles: System)\n5. Branch Manager Oversight: The branch manager reviews a daily summary of customer engagement activities and the effectiveness of personalized offers. This allows adjustments to strategies or confirmation of successful engagements. (Roles: Branch Manager, System)\n6. Continuous Feedback & Update: After the engagement, customers are invited to provide feedback via a short survey. The data collected refines future personalized recommendations, completing the feedback loop. (Roles: Customer, System, Branch Manager)",
+        "screens": [
+          "Customer App Home: Displays personalized deals, recent orders, and preference settings.",
+          "Preference Setup Screen: Allows new users to set their initial preferences and enables existing users to update their profile.",
+          "Waiter Notification Screen: Presents order details along with customer preferences and suggested recommendations.",
+          "Branch Manager Dashboard: Offers a comprehensive view of customer engagement metrics, personalized offer performance, and revenue impact.",
+          "Feedback & Survey Screen: Provides a simple interface for customers to rate their experience and suggest improvements."
+        ]
+      }
+    ]
+  }
+]

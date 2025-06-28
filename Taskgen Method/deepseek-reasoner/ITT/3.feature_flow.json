@@ -1,0 +1,307 @@
+[
+  {
+    "category": "Tour Operations",
+    "features": [
+      "{\"featureName\": \"Special Tour Booking and Customization\", \"flow\": \"1. Traveler navigates to Special Tours section via homepage or menu. 2. Filters tours by date, duration, price tier, or cultural theme using interactive controls. 3. Selects a tour to view its Detailed Itinerary screen with day-by-day schedule, hotel specifications, included meals, and guide qualifications. 4. Customizes tour by adding optional activities/upgrades via checkboxes/modals (e.g., private transfers, premium dining). 5. Proceeds to Booking Form to input traveler count, participant details, and special requests. 6. Reviews dynamic pricing breakdown with base cost + customization fees + cancellation policy disclaimer. 7. Selects payment method (credit card/digital wallet) on Payment Screen with SSL encryption indicators. 8. Receives instant confirmation via email/SMS and access to 24/7 support hotline for post-booking queries.\", \"screens\": [\"Special Tours Listings Screen - Grid/list view of tours with filterable columns (price, duration, difficulty). Each card displays hero images, starting price, key highlights, and 'Customize' CTA.\", \"Detailed Itinerary Screen - Tabbed interface showing daily schedules, accommodation photos, included services, and guide bios. Includes side-by-side price tier comparisons (Standard/Premium) with upgrade options.\", \"Tour Customization Screen - Modular form allowing date adjustments, activity add-ons, and private group upgrades. Real-time pricing calculator reflects selections.\", \"Booking Form Screen - Data entry fields for traveler names, contact info, dietary restrictions, and emergency contacts. Integrated with autofill for returning users.\", \"Payment Integration Screen - Secure gateway supporting credit cards, bank transfers, and regional payment methods (e.g., Alipay, PayPal). Displays finalized cost breakdown and cancellation policy acceptance checkbox.\", \"Confirmation Screen - Summary of booked tour with downloadable PDF itinerary. Prominently displays multilingual support hotline numbers and live chat access.\"]}'",
+      {
+        "featureName": "Japan Tour Booking with Customization",
+        "flow": "1. **Traveler Action**: Navigates to Japan Tours section. **System Response**: Displays filtered tours with thumbnails, pricing tiers (+15% premium for autumn foliage tours), and seasonal highlights. 2. **Traveler Action**: Applies activity-based filters (tea ceremonies, hiking intensity). **System Response**: Shows availability heatmap for selected activities. 3. **Traveler Action**: Compares two tours side-by-side. **System Response**: Displays comparison matrix for itineraries, included ryokan grades, and guide certifications (JGA Level 3+). 4. **Traveler Action**: Activates multilingual toggle (EN/CN/JA). **System Response**: Translates cancellation policy percentages (e.g., 30-day: 80% refund) and meal glossary. 5. **Traveler Action**: Adds private onsen upgrade. **System Response**: Updates pricing with real-time JPY conversion and geolocation-based tax adjustments. 6. **Traveler Action**: Confirms visa consultation. **System Response**: Pre-fills nationality data and displays required documents checklist with embassy SLAs.",
+        "screens": [
+          "Tour Comparator Screen: Side-by-side view with expandable sections for transportation types (Shinkansen vs bus), included cultural experiences, and premium add-on costs.",
+          "Multilingual Itinerary Screen: Day-by-day schedule with toggleable language layers showing translated activity descriptions and emergency contact localization.",
+          "Visa Integration Panel: Dynamic form showing Japan entry requirements per passport country, e-document upload portal, and consultation booking slots.",
+          "Real-Time Pricing Dashboard: Interactive interface displaying base price fluctuations based on group size (1-15pax) and seasonal surcharge timelines.",
+          "Post-Booking Portal: Post-payment hub with downloadable guide credentials (QR codes for verification), live weather alerts for booked dates, and AR preview of key landmarks."
+        ]
+      },
+      [
+        {
+          "featureName": "Asia Tour Selection",
+          "flow": "1. [Traveler] Navigates to Asia Tours landing page via main menu. 2. [Traveler] Applies filters (duration, price range, activity type) using interactive controls. 3. [Traveler] Views condensed tour cards with key details. 4. [Traveler] Selects 'Compare' option for up to 3 tours to view side-by-side on comparison screen. 5. [Traveler] Clicks 'View Details' on preferred tour to access full description, images, and inclusions. 6. [Traveler] Selects 'Choose This Tour' button to proceed.",
+          "screens": [
+            "Asia Tours Landing Page - Hub with promotional banners, filter panel, and tour grid",
+            "Tour Comparison Screen - Table layout showing differences in itineraries, prices, and inclusions across selected tours",
+            "Tour Details Screen - Full overview with gallery, itinerary tabs, hotel specs, and guide profiles"
+          ]
+        },
+        {
+          "featureName": "Tour Customization",
+          "flow": "1. [Traveler] Selects desired tour start date from calendar picker on Tour Details Screen. 2. [Traveler] Clicks 'Customize Itinerary' to access editor. 3. [Traveler] Adds/removes optional activities via drag-and-drop interface in Itinerary Editor. 4. [Traveler] Selects meal plan tier (Basic/Premium) with dietary preference indicators. 5. [Tour Consultant] Joins via live chat upon user request for customization assistance (optional). 6. [Traveler] Reviews all modifications in Customization Summary and clicks 'Confirm Changes'.",
+          "screens": [
+            "Customization Interface - Central panel showing base itinerary with modifiable components",
+            "Itinerary Editor - Day-by-day schedule editor with activity toggle switches and add-on marketplace",
+            "Meal Plan Selector - Grid comparing meal inclusions per tier with allergen filters",
+            "Customization Summary Screen - Consolidated view of personalized tour configuration with adjusted pricing"
+          ]
+        },
+        {
+          "featureName": "Secure Booking Process",
+          "flow": "1. [Traveler] Completes booking form with traveler names, contact info, and special requests. 2. [Traveler] Selects payment method (credit card/e-wallet/bank transfer) via radio buttons. 3. [Payment Gateway] Redirects user to secure payment portal for transaction processing. 4. [System] Validates payment success and displays confirmation. 5. [Traveler] Receives booking summary PDF via email and in-app download.",
+          "screens": [
+            "Booking Form - Data entry screen with real-time validation and progress indicators",
+            "Payment Gateway Screen - Third-party secure payment interface (e.g., Stripe, PayPal)",
+            "Booking Confirmation Screen - Visual success state with booking ID, next steps, and support contacts"
+          ]
+        },
+        {
+          "featureName": "Transparent Policy Display",
+          "flow": "1. [Traveler] Clicks 'Policies' tab on Tour Details Screen or policy icon during booking. 2. [System] Displays scrollable policy document with expandable sections. 3. [Traveler] Reviews cancellation deadlines, refund tiers, and payment terms. 4. [Traveler] Checks acknowledgment checkbox during booking flow to confirm policy understanding.",
+          "screens": [
+            "Policy Display Screen - Full-text view with highlighted key clauses and printable format option"
+          ]
+        }
+      ],
+      {
+        "featureName": "Tour Booking with Role-Based Flow",
+        "flow": "1. (Guest/Logged-in User) Browse Europe-Australia-America Tours via homepage carousel or category menu. 2. (Guest/Logged-in User) Apply filters (duration, price tier, departure date) or search by destination/keyword. 3. (Guest/Logged-in User) View tour listing with summaries (image, duration, starting price, highlights). 4. (Guest/Logged-in User) Select a tour to access details: day-by-day itinerary, hotel/flight inclusions, guide bios, cancellation policies. 5. (Guest/Logged-in User) Add to itinerary cart with optional customization (meal upgrades, private transfers). 6. (Guest) Trigger registration/login modal when initiating booking; (Logged-in User) Proceed directly. 7. (Logged-in User) Auto-fill traveler details from profile; (Guest) Manually input traveler information. 8. (Both) Select payment method: guest users enter credit card details; logged-in users choose saved payment options. 9. (Both) Review booking summary with cost breakdown and cancellation terms. 10. (Both) Confirm booking: receive on-screen confirmation code + automated email/SMS with voucher and guide contact details.",
+        "screens": [
+          "Homepage Tour Carousel - Highlights featured Europe/Australia/America tours",
+          "Tour Listing Screen - Filterable grid of tours with sorting options",
+          "Tour Detail Screen - Full itinerary, pricing tiers, hotel/flight specifics, and booking CTA",
+          "Customization Modal - Add-on selection interface for meals/transfers",
+          "Itinerary Cart - Summary of selected tours/customizations with total cost",
+          "Registration/Login Modal - Account creation or authentication gateway",
+          "Traveler Details Form - Passenger information input with validation",
+          "Payment Screen - Secure payment gateway integration with saved method toggle",
+          "Booking Confirmation Screen - Interactive summary with downloadable voucher and sharing options"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Visa Services",
+    "features": [
+      {
+        "featureName": "Multi-Country Visa Consultation",
+        "flow": "1. Applicant accesses Visa Consultation Landing Page via persistent header navigation. 2. Interactive map on Multi-Country Selector Screen highlights ITT's supported destinations with visa complexity indicators. 3. System cross-references applicant's profile data (nationality/residence from account settings) with selected countries in Visa Eligibility Calculator. 4. Dynamic Document Checklist Generator compares requirements across multiple embassies and flags conflicting documentation needs. 5. Applicant schedules 24/7 consultation slot via calendar picker integrated with specialist availability API. 6. Back Office Dashboard triggers priority routing to specialists matching language/region expertise. 7. During Live Consultation Interface session, specialist annotates documents using shared screen markup tools. 8. Automated Visa Process Tracker syncs deadlines with booked tour dates from ITT reservations system. 9. Multi-channel Notification Center sends reminders via user's preferred method (SMS/email/in-app alert). 10. Post-approval, Cross-Tour Visa Sync Screen auto-attaches digital visas to corresponding tour bookings.",
+        "screens": [
+          "Visa Consultation Landing Page - Hero section with '3-Step Visa Guarantee' badge and emergency contact floating button",
+          "Smart Country Matrix Screen - Filterable table comparing visa processing times/costs across selected nations",
+          "Visa Conflict Resolver - AI-powered interface highlighting overlapping embassy requirements",
+          "Specialist Matching Profile - Displays agent qualifications/languages/availability timezones",
+          "Collaborative Document Review Screen - Side-by-side view of application forms with live annotation tools",
+          "Visa-Itinerary Sync Interface - Calendar overlay showing visa validity periods against booked tour dates",
+          "Emergency Support Overlay - Full-screen assistance panel accessible from any visa screen during critical phases",
+          "Multi-Device Status Viewer - Responsive display of application progress with QR code sharing capability"
+        ]
+      },
+      {
+        "featureName": "Visa Application Process",
+        "flow": "1. User accesses the visa consultation service via the main navigation menu or dedicated banner (Role: Traveler). 2. User selects target country from a dynamic list with visa requirements preview (Role: Traveler). 3. System displays a tailored document checklist and eligibility criteria based on nationality and destination (Role: System). 4. User uploads scanned documents (e.g., passport, financial proofs) through drag-and-drop interface with real-time format validation (Role: Traveler). 5. User completes payment for consultation fees via integrated gateway supporting credit cards and local payment methods (Role: Traveler). 6. Application is routed to assigned visa expert, triggering email/SMS confirmation (Role: System). 7. Expert reviews documents within 24hrs, flags discrepancies via in-platform annotations, and requests supplementary files if needed (Role: Visa Expert). 8. User receives push notifications and email alerts for status changes (e.g., 'Under Review', 'Additional Documents Required', 'Approval Completed') (Role: System). 9. User accesses 24/7 support via persistent chat widget during any step to resolve queries (Role: Traveler/Support Agent).",
+        "screens": [
+          "Visa Service Landing Page - Overview of visa types, processing times, and FAQ links",
+          "Country Selection Interface - Interactive map/list with visa difficulty indicators and quick-filter options",
+          "Document Checklist Screen - Dynamic requirements list with upload progress tracker and tooltips",
+          "Document Upload Interface - File preview, auto-cropping for photos, and error alerts for invalid formats",
+          "Payment Gateway - Secure card processing with fee breakdown and invoice generation",
+          "Application Status Dashboard - Timeline visualization, expert comments section, and re-upload functionality for requested documents",
+          "Expert Review Interface - Side-by-side document viewer with annotation tools and decision dropdown for visa specialists",
+          "Notification Center - Consolidated view of all status updates with direct action buttons (e.g., 'Submit Missing Documents')"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Informational Displays",
+    "features": [
+      {
+        "category": "Tour Booking & Information",
+        "features": [
+          {
+            "featureName": "Tour Itinerary Access & Details",
+            "flow": "1. Traveler selects a tour category (Special/Japan/Asia/Europe-Australia-America) via Tour Categories Screen\n2. Traveler chooses specific tour package from filtered list\n3. System displays Tour Overview Screen with key details: pricing tiers, cancellation policy, and 'View Full Itinerary' CTA\n4. Traveler clicks itinerary CTA to access Itinerary Details Screen\n5. System displays day-by-day schedule with:\n   - Hotel specifications (name, star rating, room type)\n   - Meal plan inclusions (breakfast/lunch/dinner indicators)\n   - Activity descriptions with time slots and cultural context\n6. Traveler can toggle between days using date selector\n7. Persistent access to 24/7 assistance via floating chat/phone icon across all screens",
+            "screens": [
+              "Tour Categories Screen: Grid/list view of 4 tour categories with promotional images and quick-filter options",
+              "Tour Overview Screen: Displays tour duration, price range, guide qualifications, image gallery, and core policies",
+              "Itinerary Details Screen: Vertical timeline showing daily schedule with expandable sections for hotel specs (amenities, location map), meal icons per day, and activity descriptions (duration, included/excluded items)",
+              "Pricing & Policies Screen: Tabbed view showing cost breakdown per traveler type, payment milestones, and cancellation fee matrix by timeline"
+            ]
+          }
+        ]
+      },
+      {
+        "featureName": "Transparent Tour Details Exploration",
+        "flow": "1. [User] Selects a tour category (e.g., Japan Tours) from the homepage carousel. 2. [User] Navigates to a specific tour's overview page and scrolls to the itinerary section. 3. [User] Clicks on a day-specific itinerary card to access hotel specifications embedded in the schedule. 4. [User] Triggers a comparative view by selecting multiple hotels from different itinerary days. 5. [System] Displays side-by-side comparisons of room types, amenities, and cancellation policies.",
+        "screens": [
+          "Tour Overview Page: Central hub displaying day-by-day schedules, pricing tiers with cost breakdowns, guide qualifications, and illustrative images. Includes collapsible sections for cancellation policies and meal plans.",
+          "Hotel Details Modal: Pop-up showing hotel specifications (star rating, room size, amenities), geo-tagged location previews, and transparent payment terms for optional upgrades.",
+          "Comparative View Screen: Side-by-side grid comparing selected hotels across key metrics (price, distance to attractions, included amenities) with toggleable filters for user prioritization."
+        ]
+      },
+      {
+        "featureName": "Flight Detail Integration & Comparison",
+        "flow": "1. **Traveler/Agent Action**: Navigates to a tour page and scrolls to the 'Flight Inclusion' section in the itinerary. 2. **Interaction**: Expands the collapsible Flight Inclusion card to view a summary (airline, flight numbers, departure/arrival times, class). 3. **Comparison Initiation**: Clicks 'Compare Flight Options' to launch an overlay displaying flight details across pricing tiers (Basic, Premium, Luxury) with real-time availability. 4. **Tier Analysis**: Selects different tiers to compare flight durations, layover durations/locations, cabin amenities (e.g., legroom, Wi-Fi), and airline reputations via side-by-side panels. 5. **Policy Clarification**: Clicks 'Policy Clarifications' link to trigger a FAQ pop-up with expandable sections. 6. **FAQ Review**: Scrolls/search through FAQs covering baggage allowances, rebooking fees, cancellation penalties, and upgrade eligibility. 7. **Agency Workflow (Agent-specific)**: Toggles between multiple tours via a dropdown selector to compare flight inclusions agency-wide, including layover hotel partnerships and group booking discounts.",
+        "screens": [
+          "Flight Inclusion Card (Collapsible): Embedded in tour itinerary with airline logos, departure/arrival airports, and tier-specific icons. Includes 'Compare' CTA and policy link.",
+          "Flight Comparison Overlay: Modal with tier columns (Basic/Premium/Luxury), airline timetables, layover maps, amenity icons, and real-time seat availability indicators.",
+          "Flight FAQ Pop-up: Scrollable panel with categorized policies (baggage, cancellations, changes), search bar, and print/save options for agency documentation."
+        ]
+      },
+      {
+        "featureName": "Meal Plan Access & Customization",
+        "flow": "1. Traveler navigates to a tour itinerary page (Role: Traveler). 2. Clicks 'Meal Plan Details' in the day-by-day schedule section. 3. Views Meal Plan Overview screen with aggregated meal types (breakfast/lunch/dinner) per day. 4. Selects 'Filter by Dietary Needs' to trigger a pop-up interface (Decision Point: Dietary restrictions?). 5. Applies filters (e.g., vegetarian, gluten-free) and confirms. 6. System displays adjusted meal options with warning icons for mismatched days. 7. Traveler clicks a specific meal to open a Meal-Specific Modal with ingredients, chef notes, and allergen warnings. 8. For unresolved queries, traveler uses 'Contact Support' button on the modal (Role: Customer Support). 9. Support agent accesses meal details via backend search using tour/day/meal ID, then updates traveler via shared interface.",
+        "screens": [
+          "Tour Itinerary Screen: Displays day-by-day schedule with expandable meal plan sections.",
+          "Meal Plan Overview: Grid-style layout of all meals per day with icons for meal types and dietary tags.",
+          "Dietary Filter Interface: Pop-up with toggleable dietary preferences and allergy checkboxes.",
+          "Meal-Specific Modal: High-resolution images, nutritional info, cooking style, and option to request substitutions.",
+          "Support Meal Search Screen: Backend interface for agents to query meal data by tour/day/meal parameters.",
+          "Special Meal Request Submission: Form for travelers/customer support to log custom dietary needs for review."
+        ]
+      },
+      {
+        "featureName": "Pricing Tier Comparison & Analysis",
+        "flow": "1. [Individual Traveler/Group Planner] Navigates to tour page via category selection or search. 2. Clicks 'View Pricing Tiers' CTA below the tour overview. 3. Lands on Pricing Tier Overview screen with tier summaries (Basic, Premium, Luxury). 4. Selects 'Compare Tiers' to trigger a side-by-side modal displaying inclusions/exclusions, hotel upgrades, meal plan quality, and guide expertise levels. 5. Clicks 'Cost Breakdown' on any tier to expand visual charts showing base cost, add-on fees, and discounts. 6. Selects 'View Linked Policies' to access dynamically displayed cancellation rules/payment terms for the selected tier. 7. [Optional] Uses 'Save Comparison' to store data in user account for later review.",
+        "screens": [
+          "Pricing Tier Overview Screen - Grid/list layout of all tiers with key metrics (price range, popular inclusions, highlight badges like 'Best Value').",
+          "Comparison Modal - Split-view interface with columns for each tier and rows comparing itinerary depth, accommodation grades, transport class, and policy strictness.",
+          "Cost Breakdown Screen - Interactive pie/bar charts showing cost allocation (accommodation, meals, activities, taxes) with toggleable currency displays.",
+          "Policy Linkage Section - Embedded expandable policy snippets tied to each tier, with 'Full Policy' links redirecting to the main tour page’s policy accordion."
+        ]
+      },
+      [
+        {
+          "featureName": "Gallery Access & Browsing",
+          "flow": "1. User clicks 'View Gallery' button on a Tour Page or 'Related Photos' link in a Cultural Article. 2. Gallery Browser Screen loads with images pre-filtered by the context (e.g., tour category or article theme). 3. User selects browsing mode: 'Categories' (Special Tours, Japan, Asia, Europe-Australia-America) or 'Thematic' (e.g., Seasons, Landmarks, Cultural Events) via toggle. 4. Applies additional filters (e.g., 'Most Popular' or 'Recent') to refine results. 5. Clicks an image to open Image Detail Screen. Roles: Guests, Registered Users.",
+          "screens": [
+            "Gallery Browser Screen: Grid layout of images with filter toggles, search bar, and sorting options.",
+            "Image Detail Screen: Full-screen image with overlay metadata (tour name, location, photographer, date, description) and sharing/saving options."
+          ]
+        },
+        {
+          "featureName": "User Photo Contributions",
+          "flow": "1. User clicks 'Contribute Photo' button on Gallery Browser Screen. 2. If unauthenticated, redirected to Login/Signup Screen. 3. Uploads photo via drag-and-drop or file picker on Photo Upload Screen. 4. Enters metadata (title, description, tags) and selects associated tour/category. 5. Submits for moderation; sees Upload Confirmation Screen. Roles: Registered Users.",
+          "screens": [
+            "Photo Upload Screen: Form with image uploader, metadata fields, and submission agreement checkbox.",
+            "Upload Confirmation Screen: Success message with moderation timeframe and option to return to gallery."
+          ]
+        },
+        {
+          "featureName": "Photo Moderation Workflow",
+          "flow": "1. Admin logs into backend CMS and navigates to Moderation Dashboard via 'Pending Submissions' tab. 2. Selects a photo from the queue to open Photo Review Interface. 3. Reviews high-resolution image with original metadata (title, description, tags) and contributor details. 4. Approves with one-click button OR rejects with mandatory reason selection (e.g., 'Poor Quality', 'Irrelevant Content', 'Copyright Issues') from dropdown. 5. Confirms action via Moderation Confirmation Screen. 6. System automatically sends email/app notification to contributor with status update. Roles: Administrators.",
+          "screens": [
+            "Moderation Dashboard: Table/list view of pending submissions with thumbnails, contributor names, and submission dates.",
+            "Photo Review Interface: Split-screen layout showing image preview (left) and metadata/rejection reason selector (right). Includes admin notes field.",
+            "Moderation Confirmation Screen: Displays 'Approved'/'Rejected' status with timestamp and next steps. Option to return to dashboard.",
+            "Notification Management Screen: Log of sent contributor notifications with status filters and resend capability."
+          ]
+        },
+        {
+          "featureName": "Moderation History Tracking",
+          "flow": "1. Admin accesses 'Moderation History' tab in CMS. 2. Filters entries by date range, contributor, or approval status. 3. Exports records as CSV for auditing. Roles: Administrators.",
+          "screens": [
+            "Moderation History Screen: Searchable archive with columns for photo ID, moderator name, decision date, and action taken.",
+            "Audit Trail Detail Screen: Expanded view showing before/after metadata changes and full rejection rationale (if applicable)."
+          ]
+        }
+      ],
+      {
+        "featureName": "Guide Qualification Visibility",
+        "flow": "1. [User/Viewer] Navigates to the desired tour category (e.g., Japan Tours) and selects a specific tour. 2. [User/Viewer] Accesses the Tour Details Screen via a 'View Full Itinerary' button. 3. [User/Viewer] Scrolls to the 'Guide Information' section and clicks 'View Guide Profile'. 4. [User/Viewer] Reviews the Guide Profile Screen, including certifications, years of experience, and language proficiencies. 5. [User/Viewer] Clicks 'Verify Certifications' to open the Certifications Gallery, displaying high-resolution scans of credentials (e.g., First Aid Training, Tour Guide Licenses). 6. [User/Viewer] Toggles to the Language Proficiency Display tab to view fluency levels (e.g., 'Native Speaker', 'Advanced Conversational') and verified test results (e.g., JLPT N1 Certificate for Japanese).",
+        "screens": [
+          "Tour List Screen: Categorized tours with summaries, pricing previews, and 'Learn More' CTAs.",
+          "Tour Details Screen: Full itinerary, pricing tiers, and a 'Guide Information' subsection with guide photos and quick stats.",
+          "Guide Profile Screen: Detailed summary of qualifications, years of experience, guest ratings, and interactive buttons for certification/language verification.",
+          "Certifications Gallery: Scrollable grid of certifications with zoom functionality and issuance dates.",
+          "Language Proficiency Display: Visual progress bars for fluency levels, embedded third-party verification badges, and test score summaries."
+        ]
+      },
+      {
+        "featureName": "Cancellation Policy Management",
+        "flow": "1. **User** accesses the 'Cancellation Policy' section via a persistent link on the tour detail page. 2. **User** views a categorized policy breakdown (time-based penalties, refund tiers, force majeure clauses) with expandable sections. 3. **User** interacts with dynamic examples (e.g., 'Cancel 15 days before departure: 30% fee') using a visual refund calculator by inputting hypothetical cancellation dates. 4. **User** submits a cancellation request via an embedded form, attaching supporting documents (medical certificates, flight cancellations). 5. **System** triggers automated email/SMS confirmation with a case ID, policy compliance checklist, and expected resolution timeline. 6. **Support Agent** monitors real-time status updates and escalates disputes via the 24/7 multilingual hotline if user-initiated escalation occurs.",
+        "screens": [
+          "Policy Overview Screen: Collapsible sections display cancellation deadlines, penalty percentages per tour category, and refund eligibility criteria aligned with the tour’s payment policy.",
+          "Dynamic Examples Screen: Interactive widget with date picker and tour-type dropdown to simulate cancellation penalties; includes visual refund graphs and tiered examples.",
+          "Request Submission Screen: Multi-step form with auto-filled tour details, date validation, refund account fields, and document upload (PDF/JPEG, max 5MB).",
+          "Confirmation Screen: Displays case ID, policy summary PDF link, and escalation options (preloaded chat/phone with case context).",
+          "Support Access Screen: Embedded chat interface with AI-powered policy FAQs and direct hotline button; auto-attaches case details when initiated from cancellation flow."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Content Modules",
+    "features": [
+      {
+        "featureName": "Cultural Insight Articles Access",
+        "flow": "1. **Homepage Entry**: User (guest or registered) lands on ITT homepage.\n2. **Navigation**: User selects 'Cultural Insights' from the main navigation menu.\n3. **Article Browsing**: User views a paginated grid of articles with filters by region/culture (Japan, Asia, Europe, etc.) and search bar functionality.\n4. **Article Selection**: User clicks a card displaying article title, featured image, and teaser text.\n5. **Article Consumption**: Full article loads with embedded media, author credentials, and related articles section. Registered users see 'Save to Profile' and 'Share' buttons.\n6. **Post-Read Actions**: User shares via social media/email (all users) or saves article (registered users). Non-registered users receive a sign-up prompt when attempting to save.\n7. **Return Navigation**: User returns to listing via back button or uses breadcrumb navigation.",
+        "screens": [
+          "Homepage (Existing UI): Entry point with persistent navigation menu containing 'Cultural Insights' link.",
+          "Cultural Insights Listing Screen: Displays article cards with filters/search. Matches tour category UI patterns for consistency.",
+          "Article Detail Screen: Full-content display with responsive images, author bio section, and action buttons. Integrates comment/feedback module from customer sharing components.",
+          "Login Prompt Modal (Conditional): Appears when non-registered users attempt to save articles, using existing authentication UI flows.",
+          "Share Modal (Existing UI): Reuses platform's standardized sharing interface with email/social media options."
+        ]
+      },
+      {
+        "featureName": "User Review & Travel Story Aggregator",
+        "flow": "1. [User] Navigates to 'Share Your Experience' section via tour page CTA or main menu. 2. [User] Selects 'Write Review' or 'Submit Travel Story,' triggering role-specific forms (review: star ratings, text, photo uploads; story: title, narrative text, destination tags, multimedia). 3. [User] Submissions enter moderation queue with auto-generated metadata (tour ID, submission time). 4. [Admin] Receives dashboard alert for pending content, reviews via 'Moderation Hub' with filters (type, tour category, date). 5. [Admin] Evaluates compliance with guidelines, approves/rejects with optional feedback, or flags for edits. 6. Approved content publishes instantly: reviews populate tour pages/story cards in 'Travel Tales' gallery. 7. [User] Browses aggregated content with dynamic filters (tour category, rating range, story length, date) and sorting (most helpful, recent). 8. [User] Interacts via 'Helpful' votes, shares, or comment triggers, logged as real-time feedback.",
+        "screens": [
+          "Review Submission Screen: Form with rating sliders, text fields, photo uploader, and tour auto-detection.",
+          "Travel Story Submission Screen: Rich-text editor with title field, destination tagging, and multimedia carousel.",
+          "Moderation Hub (Admin): Grid view of submissions with quick-preview panels, bulk actions, and rejection reason templates.",
+          "Review Display Module: Embedded on tour pages with collapsible detailed text, photo gallery, and 'Helpful' button.",
+          "Travel Tales Gallery: Card-based layout showcasing stories with cover images, teaser text, and engagement metrics.",
+          "Content Filter Overlay: Sidebar with multi-select filters (e.g., 'Japan Tours', '4+ Stars'), date range picker, and search-by-keyword.",
+          "User Contribution Dashboard: Personal log of submitted content with status indicators (pending/published/rejected) and admin feedback."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Support Services",
+    "features": [
+      {
+        "featureName": "Visa Application Process",
+        "flow": "1. [Traveler] Accesses Visa Services section via main navigation. 2. [Traveler] Selects destination country from dynamic dropdown (auto-populated based on booked tours or manual entry). 3. [System] Displays visa requirements (documents, fees, processing time) filtered by traveler’s nationality and trip type. 4. [Traveler] Reviews interactive checklist with expandable document specifications (e.g., 'Bank Statement: 6-month history, stamped') and downloads templates. 5. [Traveler] Uploads documents via drag-and-drop interface; system validates file formats/sizes in real-time. 6. [Support Agent] Receives notification via dashboard, manually verifies documents, and flags errors via SMS/email with correction links. 7. [Traveler] Submits application via payment gateway (multi-currency support) after error resolution. 8. [System] Updates real-time tracker with granular statuses (Received/Under Review/Approved/Rejected) and consulate-specific timestamps. 9. [System] Automatically emails approved visas as password-protected PDFs; rejections include consulate-specific remediation steps. 10. [Support Agent] Initiates live chat or video call via tracker dashboard if supplemental documents are required.",
+        "screens": [
+          "Visa Country Selector: Searchable dropdown with visa-on-arrival indicators, embassy locations, and urgency labels (e.g., 'Philippines: 10-day processing').",
+          "Dynamic Requirements Matrix: Responsive table comparing document needs by nationality/travel purpose (tourist/business), with embassy hyperlinks.",
+          "Smart Document Upload: Grid interface with AI-powered scan quality checks, OCR previews, and auto-cropping for passports/ID cards.",
+          "Payment & Submission Hub: Fee calculator showing consulate vs. service fees, with currency conversion tool and invoice generation.",
+          "Visa Tracker Dashboard: Gantt-style timeline with hover details (e.g., 'Consulate received at 14:30 GMT'), document re-upload triggers, and escalation paths.",
+          "Agent Verification Console: Role-based access for document annotating (highlight missing fields), bulk approvals, and audit trail logging.",
+          "Post-Submission Action Center: Post-approval steps (e.g., biometrics scheduling), rejection appeal forms, and emergency courier coordination options."
+        ]
+      },
+      {
+        "featureName": "24/7 Multilingual Support Access",
+        "flow": "1. User clicks '24/7 Assistance' button on tour page/visa service page (User Role: Traveler).\n2. System displays Contact Assistance Overlay with language selection dropdown.\n3. User selects preferred language (e.g., English, Japanese).\n4. Overlay updates to show support channels: Live Chat, Phone Call, Email Support.\n5. User selects channel:\n   a. Live Chat: Direct connection to agent via Live Chat Screen.\n   b. Phone Call: Display of region-specific hotline numbers with click-to-call (User Role: Group Leader for group tour hotlines).\n   c. Email: Pre-filled form with tour/visa reference for structured inquiries.\n6. Post-interaction, system shows Confirmation Screen with summary and option to revisit assistance.\n7. For visa inquiries, system auto-links to visa application tracker if referenced in the interaction (User Role: Visa Applicant).",
+        "screens": [
+          "Contact Assistance Overlay: Modal for language/channel selection with persistent tour/visa context and emergency protocol disclaimer.",
+          "Live Chat Screen: Real-time chat interface with agent credentials, file-sharing for document verification, and chat history preview.",
+          "Phone Assistance Screen: Dynamic hotline list (group tours: +81-XXX, individual: +81-YYY, visa: +81-ZZZ) with local office hours tooltip and callback scheduling.",
+          "Email Support Screen: Form with auto-populated user/tour data, attachment upload for visa documents, and priority-level dropdown.",
+          "Confirmation Screen: Interaction summary with reference ID, estimated response time, and quick-access buttons to booking/visa dashboards."
+        ]
+      },
+      {
+        "featureName": "Emergency Travel Hotline",
+        "flow": "1. Traveler clicks 'Emergency Assistance' button on header/navigation bar (Role: Traveler) -> 2. System displays contact method options: voice call, live chat, or callback request (Role: System) -> 3. Traveler selects preferred method; if chat/callback chosen, enters brief issue description (Role: Traveler) -> 4. System routes request to next available agent with traveler's active booking data (Role: System) -> 5. Customer Service Agent reviews case details and initiates contact through selected channel (Role: Customer Service) -> 6. Collaborative problem resolution occurs with agent accessing real-time itinerary, location data, and emergency protocols (Role: Both) -> 7. System auto-generates follow-up ticket with resolution summary and next steps (Role: System)",
+        "screens": [
+          "Emergency Access Screen: Persistent button across all pages with SOS icon",
+          "Contact Method Selection: Modal with communication channel options and priority indicators",
+          "Issue Reporting Form: Multi-language input field with emergency type dropdown",
+          "Connection Status Screen: Real-time queue position/agent assignment display",
+          "Live Chat/Call Interface: Integrated comms panel with document sharing capability",
+          "Case Follow-Up Screen: Displays resolution summary, agent notes, and escalation options",
+          "Service Dashboard (Agent Side): Unified view of traveler profile, bookings, and emergency protocols"
+        ]
+      },
+      {
+        "featureName": "Multilingual Customer Support",
+        "flow": "1. Individual traveler/group organizer/visa applicant clicks '24/7 Support' button (persistently visible on all pages). 2. User selects preferred language from auto-detected browser settings or manual dropdown. 3. System routes user to dedicated hotline queue: [Individual Traveler → Booking/Payment Specialists, Group Organizer → Group Tour Coordinators, Visa Applicant → Visa Consultants]. 4. For live chat/email: User specifies inquiry type (booking modification, visa document review, itinerary customization) via pre-defined tags. 5. Agent accesses user’s active bookings/visa applications in real-time through integrated backend system. 6. Complex cases trigger multi-way conference calls between user, guide, and payment team. 7. Resolution confirmation sent via chosen channel (SMS/email/in-app notification) with case reference number.",
+        "screens": [
+          "Support Access Point (Floating Button) - Persistent UI element linking to assistance options",
+          "Language Selection Screen - Dropdown with 20+ languages and dialect indicators",
+          "Contact Channel Screen - Choice between phone call, live chat, or email with estimated wait times",
+          "Live Chat Interface - Real-time translated chat with file upload for document verification",
+          "Call Connecting Screen - Displays agent expertise profile + interactive menu for callback scheduling",
+          "Inquiry Form (Email) - Template-based form with contextual fields based on selected inquiry type",
+          "Feedback Screen - Post-interaction survey measuring resolution effectiveness & language proficiency",
+          "Case Follow-Up Screen - Displays ticket status, historical interactions, and escalation paths"
+        ]
+      }
+    ]
+  }
+]

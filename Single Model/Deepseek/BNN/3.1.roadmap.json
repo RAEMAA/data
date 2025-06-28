@@ -1,0 +1,88 @@
+[
+  {
+    "id": "P1",
+    "phase": "User Registration and Management Setup",
+    "feature list": [
+      "Farmer registration with bank account verification",
+      "Customer registration (basic details)",
+      "Profile management for farmers and customers",
+      "Secure login/authentication for users",
+      "Role-based access (farmer vs. customer)"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-10-11",
+    "endTime": "2023-11-08",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Product Listing and Management Implementation",
+    "feature list": [
+      "Product creation (title, description, images, price, category)",
+      "Product categorization (e.g., rice, fruits, fish)",
+      "Product editing/deletion by farmers",
+      "Image upload support for product listings"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2023-11-09",
+    "endTime": "2023-11-29",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P3",
+    "phase": "E-commerce Core Features Development",
+    "feature list": [
+      "Product browsing by category or keyword search",
+      "Product comparison tool for customers",
+      "Shopping cart functionality",
+      "Checkout process with order summary",
+      "Order confirmation and notifications"
+    ],
+    "estimatedTime": "5 weeks",
+    "startTime": "2023-11-30",
+    "endTime": "2024-01-03",
+    "dependencies": ["P2"]
+  },
+  {
+    "id": "P4",
+    "phase": "Payment and Transaction System Integration",
+    "feature list": [
+      "Secure online payment gateway integration",
+      "Direct bank transaction support for farmers",
+      "Payment confirmation and receipts",
+      "Transaction history tracking for users"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2024-01-04",
+    "endTime": "2024-01-31",
+    "dependencies": ["P3"]
+  },
+  {
+    "id": "P5",
+    "phase": "Order and Shipping Management Setup",
+    "feature list": [
+      "Order tracking system",
+      "Shipping address input and validation",
+      "Order status updates (e.g., pending, shipped, delivered)",
+      "Basic shipping cost calculation"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2024-01-04",
+    "endTime": "2024-01-24",
+    "dependencies": ["P3"]
+  },
+  {
+    "id": "P6",
+    "phase": "Administrative and Monitoring Tools Deployment",
+    "feature list": [
+      "Admin dashboard for user, product, and order management",
+      "Sales and transaction analytics",
+      "Farmer sales performance reports",
+      "System health and uptime monitoring"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2024-02-01",
+    "endTime": "2024-02-28",
+    "dependencies": ["P4", "P5"]
+  }
+]

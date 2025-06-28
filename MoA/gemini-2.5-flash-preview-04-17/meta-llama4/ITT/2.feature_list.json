@@ -1,0 +1,48 @@
+[
+  {
+      "category": "Company Information",
+      "list_feature": [
+          "Company Overview",
+          "Company Services Overview"
+      ]
+  },
+  {
+      "category": "Tours",
+      "list_feature": [
+          "Featured Tours",
+          "Tour Categories",
+          "Tour Detail Pages",
+          "Itineraries",
+          "Tour Package Services",
+          "Pricing",
+          "Terms & Conditions",
+          "Tour Images",
+          "Tour Policies"
+      ]
+  },
+  {
+      "category": "Content",
+      "list_feature": [
+          "News",
+          "Promotions",
+          "Articles",
+          "Travel Stories",
+          "Cultural Articles"
+      ]
+  },
+  {
+      "category": "Other Services",
+      "list_feature": [
+          "Visa Consultation",
+          "Customer Feedback",
+          "Customer Reviews"
+      ]
+  },
+  {
+      "category": "Contact",
+      "list_feature": [
+          "Contact Options",
+          "Hotlines"
+      ]
+  }
+]

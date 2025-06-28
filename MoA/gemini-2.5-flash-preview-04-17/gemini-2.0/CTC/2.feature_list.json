@@ -1,0 +1,17 @@
+{
+  "Customer Online Ordering Platform Features": [
+      "Menu Browsing and Item Selection",
+      "Online Order Placement",
+      "Promotions Display and Application",
+      "Integrated Online Payment (e.g., Nganluong.vn)",
+      "Customer Feedback Submission",
+      "Restaurant Rating Submission",
+      "Accurate and Updated Pricing Display"
+  ],
+  "Internal Management System Features": [
+      "Automatic Order Routing to Nearest Branch",
+      "Branch Operations Management",
+      "Business Data Analysis and Reporting",
+      "Menu and Pricing Management"
+  ]
+}

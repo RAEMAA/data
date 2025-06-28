@@ -1,0 +1,2073 @@
+[
+    [
+        {
+            "id": "P1-T1",
+            "taskName": "Design Company Overview Section",
+            "correspondingPhase": "Information Provision - Phase 1",
+            "correspondingFeature": "Company Overview",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-03",
+            "endTime": "2024-07-03",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T2",
+            "taskName": "Implement Company Overview Section",
+            "correspondingPhase": "Information Provision - Phase 1",
+            "correspondingFeature": "Company Overview",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-04",
+            "endTime": "2024-07-08",
+            "dependencies": [
+                "P1-T1"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P1-T3",
+            "taskName": "Test Company Overview Section",
+            "correspondingPhase": "Information Provision - Phase 1",
+            "correspondingFeature": "Company Overview",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-09",
+            "endTime": "2024-07-09",
+            "dependencies": [
+                "P1-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T4",
+            "taskName": "Design Business Segments Section",
+            "correspondingPhase": "Information Provision - Phase 1",
+            "correspondingFeature": "Business Segments",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-10",
+            "endTime": "2024-07-10",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T5",
+            "taskName": "Implement Business Segments Section",
+            "correspondingPhase": "Information Provision - Phase 1",
+            "correspondingFeature": "Business Segments",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-11",
+            "endTime": "2024-07-15",
+            "dependencies": [
+                "P1-T4"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P1-T6",
+            "taskName": "Test Business Segments Section",
+            "correspondingPhase": "Information Provision - Phase 1",
+            "correspondingFeature": "Business Segments",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-16",
+            "endTime": "2024-07-16",
+            "dependencies": [
+                "P1-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T7",
+            "taskName": "Design Products & Solutions Section",
+            "correspondingPhase": "Information Provision - Phase 1",
+            "correspondingFeature": "Products & Solutions",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-17",
+            "endTime": "2024-07-17",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P1-T8",
+            "taskName": "Implement Products & Solutions Section",
+            "correspondingPhase": "Information Provision - Phase 1",
+            "correspondingFeature": "Products & Solutions",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-07-18",
+            "endTime": "2024-07-23",
+            "dependencies": [
+                "P1-T7"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P1-T9",
+            "taskName": "Test Products & Solutions Section",
+            "correspondingPhase": "Information Provision - Phase 1",
+            "correspondingFeature": "Products & Solutions",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-24",
+            "endTime": "2024-07-24",
+            "dependencies": [
+                "P1-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T1",
+            "taskName": "Design Industries Served Section",
+            "correspondingPhase": "Information Provision - Phase 2",
+            "correspondingFeature": "Industries Served",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-31",
+            "endTime": "2024-07-31",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T2",
+            "taskName": "Implement Industries Served Section",
+            "correspondingPhase": "Information Provision - Phase 2",
+            "correspondingFeature": "Industries Served",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-08-01",
+            "endTime": "2024-08-03",
+            "dependencies": [
+                "P2-T1"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T3",
+            "taskName": "Design Investor Relations Section",
+            "correspondingPhase": "Information Provision - Phase 2",
+            "correspondingFeature": "Investor Relations",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-05",
+            "endTime": "2024-08-05",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T4",
+            "taskName": "Implement Investor Relations Section",
+            "correspondingPhase": "Information Provision - Phase 2",
+            "correspondingFeature": "Investor Relations",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-08-06",
+            "endTime": "2024-08-08",
+            "dependencies": [
+                "P2-T3"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T5",
+            "taskName": "Design News & Events Section",
+            "correspondingPhase": "Information Provision - Phase 2",
+            "correspondingFeature": "News & Events",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-09",
+            "endTime": "2024-08-09",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T6",
+            "taskName": "Implement News & Events Section",
+            "correspondingPhase": "Information Provision - Phase 2",
+            "correspondingFeature": "News & Events",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-08-12",
+            "endTime": "2024-08-14",
+            "dependencies": [
+                "P2-T5"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T7",
+            "taskName": "Test Industries Served Section",
+            "correspondingPhase": "Information Provision - Phase 2",
+            "correspondingFeature": "Industries Served",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-04",
+            "endTime": "2024-08-04",
+            "dependencies": [
+                "P2-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T8",
+            "taskName": "Test Investor Relations Section",
+            "correspondingPhase": "Information Provision - Phase 2",
+            "correspondingFeature": "Investor Relations",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-09",
+            "endTime": "2024-08-09",
+            "dependencies": [
+                "P2-T4"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T9",
+            "taskName": "Test News & Events Section",
+            "correspondingPhase": "Information Provision - Phase 2",
+            "correspondingFeature": "News & Events",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-15",
+            "endTime": "2024-08-15",
+            "dependencies": [
+                "P2-T6"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T10",
+            "taskName": "Design Sustainability Section",
+            "correspondingPhase": "Information Provision - Phase 2",
+            "correspondingFeature": "Sustainability",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-16",
+            "endTime": "2024-08-16",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T11",
+            "taskName": "Implement Sustainability Section",
+            "correspondingPhase": "Information Provision - Phase 2",
+            "correspondingFeature": "Sustainability",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-08-19",
+            "endTime": "2024-08-21",
+            "dependencies": [
+                "P2-T10"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T12",
+            "taskName": "Test Sustainability Section",
+            "correspondingPhase": "Information Provision - Phase 2",
+            "correspondingFeature": "Sustainability",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-22",
+            "endTime": "2024-08-22",
+            "dependencies": [
+                "P2-T11"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T13",
+            "taskName": "Design Careers Section",
+            "correspondingPhase": "Information Provision - Phase 2",
+            "correspondingFeature": "Careers",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-23",
+            "endTime": "2024-08-23",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P2-T14",
+            "taskName": "Implement Careers Section",
+            "correspondingPhase": "Information Provision - Phase 2",
+            "correspondingFeature": "Careers",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-08-26",
+            "endTime": "2024-08-28",
+            "dependencies": [
+                "P2-T13"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P2-T15",
+            "taskName": "Test Careers Section",
+            "correspondingPhase": "Information Provision - Phase 2",
+            "correspondingFeature": "Careers",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-29",
+            "endTime": "2024-08-29",
+            "dependencies": [
+                "P2-T14"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T1",
+            "taskName": "Design Aftermarket Services Section",
+            "correspondingPhase": "Service Offerings",
+            "correspondingFeature": "Aftermarket Services",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-03",
+            "endTime": "2024-07-03",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T2",
+            "taskName": "Implement Aftermarket Services Section",
+            "correspondingPhase": "Service Offerings",
+            "correspondingFeature": "Aftermarket Services",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-04",
+            "endTime": "2024-07-08",
+            "dependencies": [
+                "P3-T1"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P3-T3",
+            "taskName": "Test Aftermarket Services Section",
+            "correspondingPhase": "Service Offerings",
+            "correspondingFeature": "Aftermarket Services",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-09",
+            "endTime": "2024-07-09",
+            "dependencies": [
+                "P3-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T4",
+            "taskName": "Design Engineering Support Section",
+            "correspondingPhase": "Service Offerings",
+            "correspondingFeature": "Engineering Support",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-10",
+            "endTime": "2024-07-10",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T5",
+            "taskName": "Implement Engineering Support Section",
+            "correspondingPhase": "Service Offerings",
+            "correspondingFeature": "Engineering Support",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-11",
+            "endTime": "2024-07-15",
+            "dependencies": [
+                "P3-T4"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P3-T6",
+            "taskName": "Test Engineering Support Section",
+            "correspondingPhase": "Service Offerings",
+            "correspondingFeature": "Engineering Support",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-16",
+            "endTime": "2024-07-16",
+            "dependencies": [
+                "P3-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T7",
+            "taskName": "Design Custom Solutions Section",
+            "correspondingPhase": "Service Offerings",
+            "correspondingFeature": "Custom Solutions",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-17",
+            "endTime": "2024-07-17",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T8",
+            "taskName": "Implement Custom Solutions Section",
+            "correspondingPhase": "Service Offerings",
+            "correspondingFeature": "Custom Solutions",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-18",
+            "endTime": "2024-07-22",
+            "dependencies": [
+                "P3-T7"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P3-T9",
+            "taskName": "Test Custom Solutions Section",
+            "correspondingPhase": "Service Offerings",
+            "correspondingFeature": "Custom Solutions",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-23",
+            "endTime": "2024-07-23",
+            "dependencies": [
+                "P3-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T10",
+            "taskName": "Design Training Programs Section",
+            "correspondingPhase": "Service Offerings",
+            "correspondingFeature": "Training Programs",
+            "priority": "Low",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-17",
+            "endTime": "2024-07-17",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T11",
+            "taskName": "Implement Training Programs Section",
+            "correspondingPhase": "Service Offerings",
+            "correspondingFeature": "Training Programs",
+            "priority": "Low",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-18",
+            "endTime": "2024-07-22",
+            "dependencies": [
+                "P3-T10"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P3-T12",
+            "taskName": "Test Training Programs Section",
+            "correspondingPhase": "Service Offerings",
+            "correspondingFeature": "Training Programs",
+            "priority": "Low",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-23",
+            "endTime": "2024-07-23",
+            "dependencies": [
+                "P3-T11"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T1",
+            "taskName": "Design Contact Forms",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Contact Forms",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-24",
+            "endTime": "2024-07-24",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T2",
+            "taskName": "Implement Contact Forms",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Contact Forms",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-25",
+            "endTime": "2024-07-29",
+            "dependencies": [
+                "P4-T1"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T3",
+            "taskName": "Test Contact Forms",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Contact Forms",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-30",
+            "endTime": "2024-07-30",
+            "dependencies": [
+                "P4-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T4",
+            "taskName": "Design Interactive Product Configurators",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Interactive Product Configurators",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-31",
+            "endTime": "2024-08-01",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T5",
+            "taskName": "Implement Interactive Product Configurators",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Interactive Product Configurators",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-08-02",
+            "endTime": "2024-08-07",
+            "dependencies": [
+                "P4-T4"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T6",
+            "taskName": "Test Interactive Product Configurators",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Interactive Product Configurators",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-08",
+            "endTime": "2024-08-08",
+            "dependencies": [
+                "P4-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T7",
+            "taskName": "Design Resource Library",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Resource Library",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-09",
+            "endTime": "2024-08-09",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T8",
+            "taskName": "Implement Resource Library",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Resource Library",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-08-12",
+            "endTime": "2024-08-14",
+            "dependencies": [
+                "P4-T7"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T9",
+            "taskName": "Test Resource Library",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Resource Library",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-15",
+            "endTime": "2024-08-15",
+            "dependencies": [
+                "P4-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T10",
+            "taskName": "Design Blog/Articles Section",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Blog/Articles",
+            "priority": "Low",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-16",
+            "endTime": "2024-08-16",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T11",
+            "taskName": "Implement Blog/Articles Section",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Blog/Articles",
+            "priority": "Low",
+            "estimationTime": "3 days",
+            "startTime": "2024-08-19",
+            "endTime": "2024-08-21",
+            "dependencies": [
+                "P4-T10"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T12",
+            "taskName": "Test Blog/Articles Section",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Blog/Articles",
+            "priority": "Low",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-22",
+            "endTime": "2024-08-22",
+            "dependencies": [
+                "P4-T11"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T13",
+            "taskName": "Design Social Media Integration",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Social Media Integration",
+            "priority": "Low",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-16",
+            "endTime": "2024-08-16",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T14",
+            "taskName": "Implement Social Media Integration",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Social Media Integration",
+            "priority": "Low",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-19",
+            "endTime": "2024-08-20",
+            "dependencies": [
+                "P4-T13"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T15",
+            "taskName": "Test Social Media Integration",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Social Media Integration",
+            "priority": "Low",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-21",
+            "endTime": "2024-08-21",
+            "dependencies": [
+                "P4-T14"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T16",
+            "taskName": "Design Webinars/Events Section",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Webinars/Events",
+            "priority": "Low",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-16",
+            "endTime": "2024-08-16",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T17",
+            "taskName": "Implement Webinars/Events Section",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Webinars/Events",
+            "priority": "Low",
+            "estimationTime": "3 days",
+            "startTime": "2024-08-19",
+            "endTime": "2024-08-21",
+            "dependencies": [
+                "P4-T16"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T18",
+            "taskName": "Test Webinars/Events Section",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Webinars/Events",
+            "priority": "Low",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-22",
+            "endTime": "2024-08-22",
+            "dependencies": [
+                "P4-T17"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T19",
+            "taskName": "Design Customer Portal",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Customer Portal",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-19",
+            "endTime": "2024-08-20",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T20",
+            "taskName": "Implement Customer Portal",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Customer Portal",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-08-21",
+            "endTime": "2024-08-27",
+            "dependencies": [
+                "P4-T19"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T21",
+            "taskName": "Test Customer Portal",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Customer Portal",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-28",
+            "endTime": "2024-08-28",
+            "dependencies": [
+                "P4-T20"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T1",
+            "taskName": "Design FAQ Section",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "FAQ Section",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-21",
+            "endTime": "2024-08-21",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P5-T2",
+            "taskName": "Implement FAQ Section",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "FAQ Section",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-08-22",
+            "endTime": "2024-08-26",
+            "dependencies": [
+                "P5-T1"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P5-T3",
+            "taskName": "Test FAQ Section",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "FAQ Section",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-27",
+            "endTime": "2024-08-27",
+            "dependencies": [
+                "P5-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T4",
+            "taskName": "Design Technical Support Section",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Technical Support",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-28",
+            "endTime": "2024-08-28",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P5-T5",
+            "taskName": "Implement Technical Support Section",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Technical Support",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-08-29",
+            "endTime": "2024-09-02",
+            "dependencies": [
+                "P5-T4"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P5-T6",
+            "taskName": "Test Technical Support Section",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Technical Support",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-03",
+            "endTime": "2024-09-03",
+            "dependencies": [
+                "P5-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T7",
+            "taskName": "Design Warranty Information Section",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Warranty Information",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-04",
+            "endTime": "2024-09-04",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P5-T8",
+            "taskName": "Implement Warranty Information Section",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Warranty Information",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-09-05",
+            "endTime": "2024-09-09",
+            "dependencies": [
+                "P5-T7"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P5-T9",
+            "taskName": "Test Warranty Information Section",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Warranty Information",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-10",
+            "endTime": "2024-09-10",
+            "dependencies": [
+                "P5-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T10",
+            "taskName": "Design Distributor Locator",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Distributor Locator",
+            "priority": "Low",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-04",
+            "endTime": "2024-09-05",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P5-T11",
+            "taskName": "Implement Distributor Locator",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Distributor Locator",
+            "priority": "Low",
+            "estimationTime": "4 days",
+            "startTime": "2024-09-06",
+            "endTime": "2024-09-10",
+            "dependencies": [
+                "P5-T10"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P5-T12",
+            "taskName": "Test Distributor Locator",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Distributor Locator",
+            "priority": "Low",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-11",
+            "endTime": "2024-09-11",
+            "dependencies": [
+                "P5-T11"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T13",
+            "taskName": "Design Chatbot",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Chatbot",
+            "priority": "Low",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-04",
+            "endTime": "2024-09-05",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P5-T14",
+            "taskName": "Implement Chatbot",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Chatbot",
+            "priority": "Low",
+            "estimationTime": "4 days",
+            "startTime": "2024-09-06",
+            "endTime": "2024-09-10",
+            "dependencies": [
+                "P5-T13"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P5-T15",
+            "taskName": "Test Chatbot",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Chatbot",
+            "priority": "Low",
+            "estimationTime": "1 day",
+            "startTime": "2024-09-11",
+            "endTime": "2024-09-11",
+            "dependencies": [
+                "P5-T14"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ],
+    [
+        {
+            "id": " P2-T1",
+            "taskName": " Design Industries Served Section",
+            "correspondingPhase": "Information Provision - Phase 2",
+            "correspondingFeature": "Industries Served",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-31",
+            "endTime": "2024-07-31",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": " P2-T2",
+            "taskName": "Implement Industries Served Section",
+            "correspondingPhase": "Information Provision - Phase 2",
+            "correspondingFeature": "Industries Served",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-08-01",
+            "endTime": "2024-08-03",
+            "dependencies": [
+                "P2-T1"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": " P2-T2",
+            "taskName": "Implement Industries Served Section",
+            "correspondingPhase": "Information Provision - Phase 2",
+            "correspondingFeature": "Industries Served",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-08-01",
+            "endTime": "2024-08-03",
+            "dependencies": [
+                "P2-T1"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": " P2-T4",
+            "taskName": "Implement Investor Relations Section",
+            "correspondingPhase": "Information Provision - Phase 2",
+            "correspondingFeature": "Investor Relations",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-08-06",
+            "endTime": "2024-08-08",
+            "dependencies": [
+                "P2-T3"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": " P2-T5",
+            "taskName": "Design News & Events Section",
+            "correspondingPhase": "Information Provision - Phase 2",
+            "correspondingFeature": "News & Events",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-09",
+            "endTime": "2024-08-09",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        }
+    ],
+    [
+        {
+            "id": "P3-T1",
+            "taskName": "Design Aftermarket Services Page",
+            "correspondingPhase": "Service Offerings",
+            "correspondingFeature": "Aftermarket Services",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-03",
+            "endTime": "2024-07-04",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T2",
+            "taskName": "Implement Aftermarket Services Page",
+            "correspondingPhase": "Service Offerings",
+            "correspondingFeature": "Aftermarket Services",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-04",
+            "endTime": "2024-07-06",
+            "dependencies": [
+                "P3-T1"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P3-T3",
+            "taskName": "Test Aftermarket Services Page",
+            "correspondingPhase": "Service Offerings",
+            "correspondingFeature": "Aftermarket Services",
+            "priority": "High",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-07-06",
+            "endTime": "2024-07-06",
+            "dependencies": [
+                "P3-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T4",
+            "taskName": "Design Engineering Support Page",
+            "correspondingPhase": "Service Offerings",
+            "correspondingFeature": "Engineering Support",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-03",
+            "endTime": "2024-07-04",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T5",
+            "taskName": "Implement Engineering Support Page",
+            "correspondingPhase": "Service Offerings",
+            "correspondingFeature": "Engineering Support",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-04",
+            "endTime": "2024-07-06",
+            "dependencies": [
+                "P3-T4"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P3-T6",
+            "taskName": "Test Engineering Support Page",
+            "correspondingPhase": "Service Offerings",
+            "correspondingFeature": "Engineering Support",
+            "priority": "High",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-07-06",
+            "endTime": "2024-07-06",
+            "dependencies": [
+                "P3-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T7",
+            "taskName": "Design Custom Solutions Page",
+            "correspondingPhase": "Service Offerings",
+            "correspondingFeature": "Custom Solutions",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-08",
+            "endTime": "2024-07-09",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T8",
+            "taskName": "Implement Custom Solutions Page",
+            "correspondingPhase": "Service Offerings",
+            "correspondingFeature": "Custom Solutions",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-09",
+            "endTime": "2024-07-11",
+            "dependencies": [
+                "P3-T7"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P3-T9",
+            "taskName": "Test Custom Solutions Page",
+            "correspondingPhase": "Service Offerings",
+            "correspondingFeature": "Custom Solutions",
+            "priority": "Medium",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-07-11",
+            "endTime": "2024-07-11",
+            "dependencies": [
+                "P3-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T10",
+            "taskName": "Design Training Programs Page",
+            "correspondingPhase": "Service Offerings",
+            "correspondingFeature": "Training Programs",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-08",
+            "endTime": "2024-07-09",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T11",
+            "taskName": "Implement Training Programs Page",
+            "correspondingPhase": "Service Offerings",
+            "correspondingFeature": "Training Programs",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-09",
+            "endTime": "2024-07-11",
+            "dependencies": [
+                "P3-T10"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P3-T12",
+            "taskName": "Test Training Programs Page",
+            "correspondingPhase": "Service Offerings",
+            "correspondingFeature": "Training Programs",
+            "priority": "Medium",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-07-11",
+            "endTime": "2024-07-11",
+            "dependencies": [
+                "P3-T11"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P4-T1",
+            "taskName": "Design Contact Forms UI",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Contact Forms",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-24",
+            "endTime": "2024-07-25",
+            "dependencies": [],
+            "responsiblePerson": "UI Designer"
+        },
+        {
+            "id": "P4-T2",
+            "taskName": "Implement Contact Forms Backend",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Contact Forms",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-25",
+            "endTime": "2024-07-27",
+            "dependencies": [
+                "P4-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T3",
+            "taskName": "Implement Contact Forms Frontend",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Contact Forms",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-25",
+            "endTime": "2024-07-27",
+            "dependencies": [
+                "P4-T1"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T4",
+            "taskName": "Test Contact Forms Functionality",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Contact Forms",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-27",
+            "endTime": "2024-07-28",
+            "dependencies": [
+                "P4-T2",
+                "P4-T3"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P4-T5",
+            "taskName": "Deploy Contact Forms",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Contact Forms",
+            "priority": "High",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-07-28",
+            "endTime": "2024-07-28",
+            "dependencies": [
+                "P4-T4"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        },
+        {
+            "id": "P4-T6",
+            "taskName": "Design Interactive Product Configurator UI/UX",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Interactive Product Configurators",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-24",
+            "endTime": "2024-07-26",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T7",
+            "taskName": "Develop Product Configuration Logic",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Interactive Product Configurators",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-26",
+            "endTime": "2024-07-29",
+            "dependencies": [
+                "P4-T6"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T8",
+            "taskName": "Implement Frontend for Product Configurator",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Interactive Product Configurators",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-26",
+            "endTime": "2024-07-29",
+            "dependencies": [
+                "P4-T6"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T9",
+            "taskName": "Integrate with Product Database",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Interactive Product Configurators",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-29",
+            "endTime": "2024-07-31",
+            "dependencies": [
+                "P4-T7",
+                "P4-T8"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T10",
+            "taskName": "Test Product Configurator Functionality",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Interactive Product Configurators",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-31",
+            "endTime": "2024-08-01",
+            "dependencies": [
+                "P4-T9"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P4-T11",
+            "taskName": "Deploy Product Configurator",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Interactive Product Configurators",
+            "priority": "High",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-08-01",
+            "endTime": "2024-08-01",
+            "dependencies": [
+                "P4-T10"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        },
+        {
+            "id": "P4-T12",
+            "taskName": "Design Resource Library UI",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Resource Library",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-24",
+            "endTime": "2024-07-25",
+            "dependencies": [],
+            "responsiblePerson": "UI Designer"
+        },
+        {
+            "id": "P4-T13",
+            "taskName": "Implement Resource Upload Functionality",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Resource Library",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-25",
+            "endTime": "2024-07-27",
+            "dependencies": [
+                "P4-T12"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T14",
+            "taskName": "Implement Resource Download Functionality",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Resource Library",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-25",
+            "endTime": "2024-07-27",
+            "dependencies": [
+                "P4-T12"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T15",
+            "taskName": "Implement Resource Search Functionality",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Resource Library",
+            "priority": "Medium",
+            "estimationTime": "1.5 days",
+            "startTime": "2024-07-27",
+            "endTime": "2024-07-28",
+            "dependencies": [
+                "P4-T13",
+                "P4-T14"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T16",
+            "taskName": "Test Resource Library Functionality",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Resource Library",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-28",
+            "endTime": "2024-07-29",
+            "dependencies": [
+                "P4-T15"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P4-T17",
+            "taskName": "Deploy Resource Library",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Resource Library",
+            "priority": "High",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-07-29",
+            "endTime": "2024-07-29",
+            "dependencies": [
+                "P4-T16"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        },
+        {
+            "id": "P4-T18",
+            "taskName": "Design Blog/Articles Section UI",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Blog/Articles",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-24",
+            "endTime": "2024-07-25",
+            "dependencies": [],
+            "responsiblePerson": "UI Designer"
+        },
+        {
+            "id": "P4-T19",
+            "taskName": "Implement Blog Posting Functionality",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Blog/Articles",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-25",
+            "endTime": "2024-07-27",
+            "dependencies": [
+                "P4-T18"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T20",
+            "taskName": "Implement Article Display Frontend",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Blog/Articles",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-25",
+            "endTime": "2024-07-27",
+            "dependencies": [
+                "P4-T18"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T21",
+            "taskName": "Implement Commenting System",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Blog/Articles",
+            "priority": "Medium",
+            "estimationTime": "1.5 days",
+            "startTime": "2024-07-27",
+            "endTime": "2024-07-28",
+            "dependencies": [
+                "P4-T19",
+                "P4-T20"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T22",
+            "taskName": "Test Blog/Articles Functionality",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Blog/Articles",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-28",
+            "endTime": "2024-07-29",
+            "dependencies": [
+                "P4-T21"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P4-T23",
+            "taskName": "Deploy Blog/Articles Section",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Blog/Articles",
+            "priority": "High",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-07-29",
+            "endTime": "2024-07-29",
+            "dependencies": [
+                "P4-T22"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        },
+        {
+            "id": "P4-T24",
+            "taskName": "Design Social Media Integration UI Elements",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Social Media Integration",
+            "priority": "Medium",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-07-24",
+            "endTime": "2024-07-24",
+            "dependencies": [],
+            "responsiblePerson": "UI Designer"
+        },
+        {
+            "id": "P4-T25",
+            "taskName": "Implement Social Media Sharing Functionality",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Social Media Integration",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-24",
+            "endTime": "2024-07-26",
+            "dependencies": [
+                "P4-T24"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T26",
+            "taskName": "Implement Social Media Feed Integration",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Social Media Integration",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-26",
+            "endTime": "2024-07-28",
+            "dependencies": [
+                "P4-T24"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P4-T27",
+            "taskName": "Configure API Keys and Authentication",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Social Media Integration",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-26",
+            "endTime": "2024-07-27",
+            "dependencies": [],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P4-T28",
+            "taskName": "Test Social Media Integration",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Social Media Integration",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-28",
+            "endTime": "2024-07-29",
+            "dependencies": [
+                "P4-T25",
+                "P4-T26",
+                "P4-T27"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P4-T29",
+            "taskName": "Deploy Social Media Integration",
+            "correspondingPhase": "User Engagement",
+            "correspondingFeature": "Social Media Integration",
+            "priority": "High",
+            "estimationTime": "0.5 day",
+            "startTime": "2024-07-29",
+            "endTime": "2024-07-29",
+            "dependencies": [
+                "P4-T28"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P5-T1",
+            "taskName": "Design FAQ Section Layout and Content Structure",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "FAQ Section",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-21",
+            "endTime": "2024-08-22",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P5-T2",
+            "taskName": "Implement FAQ Section Frontend",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "FAQ Section",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-22",
+            "endTime": "2024-08-24",
+            "dependencies": [
+                "P5-T1"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P5-T3",
+            "taskName": "Implement FAQ Section Backend Logic",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "FAQ Section",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-24",
+            "endTime": "2024-08-26",
+            "dependencies": [
+                "P5-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P5-T4",
+            "taskName": "Populate FAQ Section with Initial Content",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "FAQ Section",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-26",
+            "endTime": "2024-08-27",
+            "dependencies": [
+                "P5-T2",
+                "P5-T3"
+            ],
+            "responsiblePerson": "Content Writer"
+        },
+        {
+            "id": "P5-T5",
+            "taskName": "Test FAQ Section Functionality and Content Accuracy",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "FAQ Section",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-27",
+            "endTime": "2024-08-28",
+            "dependencies": [
+                "P5-T4"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P5-T6",
+            "taskName": "Deploy FAQ Section to Production",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "FAQ Section",
+            "priority": "High",
+            "estimationTime": "0.5 days",
+            "startTime": "2024-08-28",
+            "endTime": "2024-08-28",
+            "dependencies": [
+                "P5-T5"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        },
+        {
+            "id": "P5-T7",
+            "taskName": "Design Technical Support Page Layout and Forms",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Technical Support",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-21",
+            "endTime": "2024-08-22",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P5-T8",
+            "taskName": "Implement Technical Support Contact Form Frontend",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Technical Support",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-22",
+            "endTime": "2024-08-24",
+            "dependencies": [
+                "P5-T7"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P5-T9",
+            "taskName": "Implement Technical Support Ticket Routing Backend",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Technical Support",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-08-24",
+            "endTime": "2024-08-27",
+            "dependencies": [
+                "P5-T7"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P5-T10",
+            "taskName": "Integrate Technical Support with CRM System",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Technical Support",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-27",
+            "endTime": "2024-08-29",
+            "dependencies": [
+                "P5-T9"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P5-T11",
+            "taskName": "Test Technical Support Form Submission and Ticket Routing",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Technical Support",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-29",
+            "endTime": "2024-08-30",
+            "dependencies": [
+                "P5-T8",
+                "P5-T10"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P5-T12",
+            "taskName": "Configure Email Notifications for Support Tickets",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Technical Support",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-30",
+            "endTime": "2024-08-31",
+            "dependencies": [
+                "P5-T9"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        },
+        {
+            "id": "P5-T13",
+            "taskName": "Deploy Technical Support Feature to Production",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Technical Support",
+            "priority": "High",
+            "estimationTime": "0.5 days",
+            "startTime": "2024-08-31",
+            "endTime": "2024-08-31",
+            "dependencies": [
+                "P5-T11",
+                "P5-T12"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        },
+        {
+            "id": "P5-T14",
+            "taskName": "Design Warranty Information Page Layout and Content Structure",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Warranty Information",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-21",
+            "endTime": "2024-08-22",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P5-T15",
+            "taskName": "Implement Warranty Information Frontend",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Warranty Information",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-22",
+            "endTime": "2024-08-24",
+            "dependencies": [
+                "P5-T14"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P5-T16",
+            "taskName": "Develop Warranty Claim Submission Form Backend Logic",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Warranty Information",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-08-24",
+            "endTime": "2024-08-27",
+            "dependencies": [
+                "P5-T14"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P5-T17",
+            "taskName": "Integrate Warranty System with Existing Product Database",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Warranty Information",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-27",
+            "endTime": "2024-08-29",
+            "dependencies": [
+                "P5-T16"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P5-T18",
+            "taskName": "Test Warranty Claim Submission and Processing",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Warranty Information",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-29",
+            "endTime": "2024-08-30",
+            "dependencies": [
+                "P5-T15",
+                "P5-T17"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P5-T19",
+            "taskName": "Create Documentation for Warranty Claim Process",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Warranty Information",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-30",
+            "endTime": "2024-08-31",
+            "dependencies": [
+                "P5-T18"
+            ],
+            "responsiblePerson": "Technical Writer"
+        },
+        {
+            "id": "P5-T20",
+            "taskName": "Deploy Warranty Information Feature to Production",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Warranty Information",
+            "priority": "High",
+            "estimationTime": "0.5 days",
+            "startTime": "2024-08-31",
+            "endTime": "2024-08-31",
+            "dependencies": [
+                "P5-T18",
+                "P5-T19"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        },
+        {
+            "id": "P5-T21",
+            "taskName": "Design Distributor Locator Map Interface",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Distributor Locator",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-21",
+            "endTime": "2024-08-22",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P5-T22",
+            "taskName": "Implement Distributor Locator Frontend with Map Integration",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Distributor Locator",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-22",
+            "endTime": "2024-08-24",
+            "dependencies": [
+                "P5-T21"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P5-T23",
+            "taskName": "Develop Distributor Data API Endpoint",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Distributor Locator",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-08-24",
+            "endTime": "2024-08-27",
+            "dependencies": [
+                "P5-T21"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P5-T24",
+            "taskName": "Populate Distributor Database with Initial Data",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Distributor Locator",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-27",
+            "endTime": "2024-08-29",
+            "dependencies": [
+                "P5-T23"
+            ],
+            "responsiblePerson": "Data Entry Specialist"
+        },
+        {
+            "id": "P5-T25",
+            "taskName": "Test Distributor Locator Functionality and Data Accuracy",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Distributor Locator",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-29",
+            "endTime": "2024-08-30",
+            "dependencies": [
+                "P5-T22",
+                "P5-T24"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P5-T26",
+            "taskName": "Implement Search and Filtering Options for Distributors",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Distributor Locator",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-30",
+            "endTime": "2024-09-01",
+            "dependencies": [
+                "P5-T23"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P5-T27",
+            "taskName": "Deploy Distributor Locator Feature to Production",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Distributor Locator",
+            "priority": "High",
+            "estimationTime": "0.5 days",
+            "startTime": "2024-09-01",
+            "endTime": "2024-09-01",
+            "dependencies": [
+                "P5-T25",
+                "P5-T26"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        },
+        {
+            "id": "P5-T28",
+            "taskName": "Design Chatbot Conversation Flows and UI",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Chatbot",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-21",
+            "endTime": "2024-08-23",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P5-T29",
+            "taskName": "Develop Chatbot Backend Logic and AI Integration",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Chatbot",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-08-23",
+            "endTime": "2024-08-27",
+            "dependencies": [
+                "P5-T28"
+            ],
+            "responsiblePerson": "AI Engineer"
+        },
+        {
+            "id": "P5-T30",
+            "taskName": "Implement Chatbot Frontend Interface",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Chatbot",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-08-27",
+            "endTime": "2024-08-29",
+            "dependencies": [
+                "P5-T28"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P5-T31",
+            "taskName": "Train Chatbot with ITT Product and Service Information",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Chatbot",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-08-29",
+            "endTime": "2024-08-31",
+            "dependencies": [
+                "P5-T29"
+            ],
+            "responsiblePerson": "Data Scientist"
+        },
+        {
+            "id": "P5-T32",
+            "taskName": "Test Chatbot Functionality and Accuracy",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Chatbot",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-08-31",
+            "endTime": "2024-09-01",
+            "dependencies": [
+                "P5-T30",
+                "P5-T31"
+            ],
+            "responsiblePerson": "QA Tester"
+        },
+        {
+            "id": "P5-T33",
+            "taskName": "Integrate Chatbot with Website and CRM",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Chatbot",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-09-01",
+            "endTime": "2024-09-03",
+            "dependencies": [
+                "P5-T29"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P5-T34",
+            "taskName": "Deploy Chatbot Feature to Production",
+            "correspondingPhase": "Support",
+            "correspondingFeature": "Chatbot",
+            "priority": "High",
+            "estimationTime": "0.5 days",
+            "startTime": "2024-09-03",
+            "endTime": "2024-09-03",
+            "dependencies": [
+                "P5-T32",
+                "P5-T33"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        }
+    ]
+]

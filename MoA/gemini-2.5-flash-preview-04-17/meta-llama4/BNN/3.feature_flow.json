@@ -1,0 +1,152 @@
+[
+  {
+    "category": "User Management",
+    "features": [
+      {
+        "featureName": "farmer registration",
+        "flow": "User (Farmer) initiates registration by providing basic information -> System verifies farmer's identity and contact details -> Farmer receives confirmation and account activation link -> Farmer activates account and sets up profile",
+        "screens": [
+          "Registration Form: Collects farmer's basic information (name, email, phone number, address)",
+          "Verification Screen: Displays verification status and sends verification link",
+          "Activation Screen: Farmer activates account and sets up profile",
+          "Login Screen: Farmer logs in to access the system"
+        ]
+      },
+      {
+        "featureName": "user profile management",
+        "flow": "Logged-in User (Farmer/ Customer) accesses profile management section -> User views and edits profile information -> User updates profile picture and other details -> User saves changes",
+        "screens": [
+          "Profile Screen: Displays user's current profile information",
+          "Edit Profile Screen: Allows user to edit profile details",
+          "Profile Picture Upload Screen: Allows user to upload profile picture",
+          "Profile Confirmation Screen: Confirms profile changes"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Product Management",
+    "features": [
+      {
+        "featureName": "product posting",
+        "flow": "Seller clicks on 'Post Product' button, fills in product details, uploads images, and submits for review. Admin reviews and approves/rejects the product.",
+        "screens": [
+          "Product Post Form: Form for seller to input product details",
+          "Product Review Screen: Screen for admin to review and approve/reject product",
+          "Product Post Confirmation: Confirmation screen for seller after product is posted"
+        ]
+      },
+      {
+        "featureName": "product description",
+        "flow": "Seller inputs product description during product posting. Buyer views product description on product details page.",
+        "screens": [
+          "Product Post Form: Includes field for product description",
+          "Product Details Page: Displays product description for buyer"
+        ]
+      },
+      {
+        "featureName": "product images",
+        "flow": "Seller uploads product images during product posting. Buyer views product images on product details page.",
+        "screens": [
+          "Product Post Form: Includes field for image upload",
+          "Product Details Page: Displays product images for buyer"
+        ]
+      },
+      {
+        "featureName": "price management",
+        "flow": "Seller inputs product price during product posting. Admin can manage and update product prices.",
+        "screens": [
+          "Product Post Form: Includes field for product price",
+          "Price Management Screen: Screen for admin to manage and update product prices"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Payment Processing",
+    "features": [
+      {
+        "featureName": "online payment processing for sellers",
+        "flow": "1. Seller navigates to the payment section. 2. System displays available payment methods. 3. Seller selects a payment method. 4. System redirects to the payment gateway. 5. Seller completes the payment. 6. System updates the payment status. 7. System notifies the seller of payment success or failure.",
+        "screens": [
+          "Payment Method Selection: Allows sellers to choose their preferred payment method.",
+          "Payment Gateway Redirect: Redirects the seller to the chosen payment gateway.",
+          "Payment Status Update: Displays the outcome of the payment transaction."
+        ]
+      },
+      {
+        "featureName": "online payment processing for buyers",
+        "flow": "1. Buyer adds items to cart and proceeds to checkout. 2. System displays available payment methods. 3. Buyer selects a payment method. 4. System redirects to the payment gateway. 5. Buyer completes the payment. 6. System updates the payment status. 7. System notifies the buyer of payment success or failure. 8. System updates the order status to 'paid'.",
+        "screens": [
+          "Checkout: Allows buyers to review their order before proceeding to payment.",
+          "Payment Method Selection: Allows buyers to choose their preferred payment method.",
+          "Payment Gateway Redirect: Redirects the buyer to the chosen payment gateway.",
+          "Payment Status Update: Displays the outcome of the payment transaction.",
+          "Order Confirmation: Confirms the order status after successful payment."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Shipping and Logistics",
+    "features": [
+      {
+        "featureName": "shipping arrangements",
+        "flow": "Buyer selects shipping option during checkout -> Seller receives shipping request -> Seller confirms shipping details -> Buyer receives shipping confirmation -> Shipping carrier picks up package from seller -> Package is delivered to buyer",
+        "screens": [
+          "Shipping Options Screen: Displays available shipping options and estimated costs to the buyer",
+          "Shipping Request Screen: Displays shipping request details to the seller",
+          "Confirm Shipping Details Screen: Allows seller to confirm shipping details",
+          "Shipping Confirmation Screen: Displays shipping confirmation to the buyer",
+          "Tracking Screen: Allows buyer and seller to track package status"
+        ]
+      },
+      {
+        "featureName": "shipping management",
+        "flow": "Seller receives shipping requests -> Seller manages shipping requests (print labels, update tracking) -> Shipping carrier updates package status -> Seller updates package status in system",
+        "screens": [
+          "Shipping Dashboard Screen: Displays list of shipping requests for the seller",
+          "Shipping Request Details Screen: Displays detailed shipping request information",
+          "Print Label Screen: Allows seller to print shipping labels",
+          "Tracking Management Screen: Allows seller to update and view package tracking status"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Core Functionality",
+    "features": [
+      {
+        "featureName": "online posting",
+        "flow": "1. Farmer logs in to the system. 2. Farmer navigates to the product posting section. 3. Farmer fills in product details (description, images, price). 4. Farmer submits the product for posting. 5. System validates the input data. 6. System posts the product on the platform. 7. System notifies the farmer of successful posting.",
+        "screens": [
+          "Login Screen: Farmer authentication",
+          "Product Posting Screen: Form for farmer to input product details",
+          "Product Preview Screen: Displays the product details before posting",
+          "Posting Confirmation Screen: Notifies farmer of successful posting"
+        ]
+      },
+      {
+        "featureName": "selling",
+        "flow": "1. Buyer searches for products on the platform. 2. Buyer selects a product to purchase. 3. Buyer reviews product details and price. 4. Buyer adds the product to cart. 5. Buyer proceeds to checkout. 6. System redirects to payment processing. 7. Buyer completes payment. 8. System notifies the seller of a sale.",
+        "screens": [
+          "Product Search Screen: Allows buyer to search for products",
+          "Product Details Screen: Displays product information",
+          "Shopping Cart Screen: Lists selected products for purchase",
+          "Checkout Screen: Summarizes purchase details before payment"
+        ]
+      },
+      {
+        "featureName": "buying",
+        "flow": "1. Buyer searches for products on the platform. 2. Buyer selects a product to purchase. 3. Buyer reviews product details and price. 4. Buyer adds the product to cart. 5. Buyer proceeds to checkout. 6. System redirects to payment processing. 7. Buyer completes payment. 8. System confirms the purchase to the buyer.",
+        "screens": [
+          "Product Search Screen: Allows buyer to search for products",
+          "Product Details Screen: Displays product information",
+          "Shopping Cart Screen: Lists selected products for purchase",
+          "Checkout Screen: Summarizes purchase details before payment",
+          "Purchase Confirmation Screen: Notifies buyer of successful purchase"
+        ]
+      }
+    ]
+  }
+]

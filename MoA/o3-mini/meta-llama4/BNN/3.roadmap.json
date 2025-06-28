@@ -1,0 +1,99 @@
+[
+    {
+        "id": "P1",
+        "phase": "User Account and Basic System Setup",
+        "feature_list": [
+            "Farmer Registration (including bank account details)",
+            "Customer Registration",
+            "User Login (Farmer and Customer)",
+            "User Profile Management (basic)",
+            "User Authentication",
+            "Secure Data Transmission (SSL)",
+            "Basic Site Navigation"
+        ],
+        "estimatedTime": 3,
+        "startTime": "2025-01-06",
+        "endTime": "2025-01-24",
+        "dependencies": []
+    },
+    {
+        "id": "P2",
+        "phase": "Product Listing and Management",
+        "feature_list": [
+            "Farmer Product Posting (Title, Description, Price)",
+            "Product Image Upload (for listings)",
+            "Product Categorization (e.g., rice, fruits, fish)",
+            "Edit/Delete Product Listings (by farmer)"
+        ],
+        "estimatedTime": 3,
+        "startTime": "2025-01-27",
+        "endTime": "2025-02-14",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P3",
+        "phase": "Product Discovery and Browsing",
+        "feature_list": [
+            "Homepage/Product Listing View",
+            "Product Search",
+            "Product Filtering (by category)",
+            "Product Details Page",
+            "Product Comparison"
+        ],
+        "estimatedTime": 4,
+        "startTime": "2025-02-17",
+        "endTime": "2025-03-14",
+        "dependencies": [
+            "P2"
+        ]
+    },
+    {
+        "id": "P4",
+        "phase": "Payment Processing",
+        "feature_list": [
+            "Online Payment Gateway Integration",
+            "Secure Transaction Processing",
+            "Payment Confirmation"
+        ],
+        "estimatedTime": 4,
+        "startTime": "2025-01-27",
+        "endTime": "2025-02-21",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P5",
+        "phase": "Shipping Management",
+        "feature_list": [
+            "Shipping Address Input (during checkout)",
+            "Shipping Information Display (basic)"
+        ],
+        "estimatedTime": 3,
+        "startTime": "2025-01-27",
+        "endTime": "2025-02-14",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P6",
+        "phase": "Shopping Cart and Ordering",
+        "feature_list": [
+            "Shopping Cart Management",
+            "Checkout Process",
+            "Order Placement",
+            "Order History (for Customers)"
+        ],
+        "estimatedTime": 3,
+        "startTime": "2025-03-17",
+        "endTime": "2025-04-04",
+        "dependencies": [
+            "P3",
+            "P4",
+            "P5"
+        ]
+    }
+]

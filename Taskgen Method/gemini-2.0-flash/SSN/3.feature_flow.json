@@ -1,0 +1,845 @@
+[
+    {
+        "category": "User Account and Profile",
+        "features": [
+            {
+                "featureName": "User Authentication and Authorization",
+                "flow": "1. **User Role:** New User\
+         **Action:** User navigates to the registration page.\
+      2. **User Role:** New User\
+         **Action:** User fills in the registration form with required information (e.g., email, password, name, user role). User roles include Student, Teacher, and Researcher.\
+      3. **User Role:** New User\
+         **Action:** User submits the registration form.\
+      4. **System:** The system validates the input data.\
+      5. **System:** If validation is successful, the system creates a new user account and sends a verification email (optional).\
+      6. **User Role:** New User\
+         **Action:** User clicks the verification link in the email (optional).\
+      7. **System:** The system verifies the user's email address (optional).\
+      8. **User Role:** Any User\
+         **Action:** User navigates to the login page.\
+      9. **User Role:** Any User\
+         **Action:** User enters their email and password.\
+      10. **User Role:** Any User\
+          **Action:** User submits the login form.\
+      11. **System:** The system authenticates the user's credentials.\
+      12. **System:** If authentication is successful, the system creates a session and redirects the user to the home page or their profile page, based on their role.\
+      13. **User Role:** Authenticated User\
+          **Action:** User selects the logout option.\
+      14. **System:** The system invalidates the user's session and redirects them to the login page.\
+      15. **User Role:** User (forgot password)\
+          **Action:** User clicks on the \\"Forgot Password\\" link on the login page.\
+      16. **User Role:** User (forgot password)\
+          **Action:** User enters their email address.\
+      17. **User Role:** User (forgot password)\
+          **Action:** User submits the password reset request.\
+      18. **System:** The system sends a password reset email to the user.\
+      19. **User Role:** User (forgot password)\
+          **Action:** User clicks on the password reset link in the email.\
+      20. **System:** The system redirects the user to the password reset page.\
+      21. **User Role:** User (forgot password)\
+          **Action:** User enters a new password and confirms it.\
+      22. **User Role:** User (forgot password)\
+          **Action:** User submits the new password.\
+      23. **System:** The system validates the new password.\
+      24. **System:** If validation is successful, the system updates the user's password and redirects them to the login page.\
+      25. **Admin Role (if applicable):** Admin navigates to the user management section.\
+      26. **Admin Role (if applicable):** Admin selects a user to manage.\
+      27. **Admin Role (if applicable):** Admin can view and modify the user's role and permissions.\
+      28. **System (if applicable):** The system updates the user's role and permissions in the database.",
+                "screens": [
+                    "Registration Screen: Allows new users to create an account by providing necessary information (email, password, name, role selection (Student, Teacher, Researcher)).",
+                    "Login Screen: Allows existing users to log in using their email and password. Includes a \\"Forgot Password\\" link.",
+                    "Password Reset Screen: Allows users to reset their password after requesting a password reset email. Requires entering and confirming the new password.",
+                    "User Management Screen (Admin Only - if applicable): Allows administrators to view, modify, and manage user roles and permissions. This screen is only accessible to users with administrative privileges.",
+                    "Email Verification Screen (Optional): Displays a message indicating that the user's email has been successfully verified."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Content Sharing and Collaboration",
+        "features": [
+            {
+                "featureName": "Content Tagging and Categorization",
+                "flow": "1. **User Role:** Authenticated User (Student, Teacher, or Researcher)
+         **Action:** User navigates to the resource upload section (e.g., via a button or menu option labeled \"Upload Resource\").
+      2. **User Role:** Authenticated User
+         **Action:** User selects the file(s) to upload from their device or cloud storage.
+      3. **System:** The system initiates the file upload process.
+      4. **User Role:** Authenticated User
+         **Action:** User provides metadata for the resource (e.g., title, description, subject, course). The user is presented with options to add tags and select categories for the resource.
+      5. **User Role:** Authenticated User
+         **Action:** User adds tags by typing them into a tagging input field. The system may provide tag suggestions based on existing tags or a predefined vocabulary.
+      6. **User Role:** Authenticated User
+         **Action:** User selects one or more categories from a predefined category list (e.g., subject areas, course levels, resource types).
+      7. **User Role:** Authenticated User
+         **Action:** User sets access permissions for the resource.
+      8. **User Role:** Authenticated User
+         **Action:** User submits the resource upload form.
+      9. **System:** The system validates the input data and saves the resource to the database, along with its metadata, tags, categories, and access permissions.
+      10. **User Role:** Any User
+          **Action:** User navigates to the resource browsing/search section.
+      11. **User Role:** Any User
+          **Action:** User uses the search bar to search for resources by keywords, tags, or categories.
+      12. **System:** The system displays search results based on the user's query.
+      13. **User Role:** Any User
+          **Action:** User uses filter options to filter resources by tags, categories, resource type, university, or other relevant criteria.
+      14. **System:** The system updates the search results based on the selected filters.
+      15. **User Role:** Any User
+          **Action:** User selects a resource from the search results to view its details.
+      16. **System:** The system displays the resource details, including its tags and categories.","screens": ["Upload Screen: Includes input fields for resource title, description, subject, course, and a tagging input field with tag suggestions. Also includes a category selection dropdown or list.","Resource Browsing/Search Screen: Includes a search bar for keyword search and filter options for filtering resources by tags, categories, resource type, university, etc.","Resource Details Screen: Displays the resource details, including its title, description, tags, categories, and other metadata."
+            ]
+        },
+        {
+            "featureName": "Resource Uploading and Sharing",
+            "flow": "1. **User Role:** Authenticated User (Student, Teacher, or Researcher)\
+         **Action:** User navigates to the resource upload section (e.g., via a button or menu option labeled \\"Upload Resource\\").\
+      2. **User Role:** Authenticated User\
+         **Action:** User selects the file(s) to upload from their device or cloud storage.\
+      3. **System:** The system initiates the file upload process.\
+      4. **User Role:** Authenticated User\
+         **Action:** User provides metadata for the resource (e.g., title, description, subject, course, tags).  The user also selects the resource type (e.g., document, presentation, video, link).\
+      5. **User Role:** Authenticated User\
+         **Action:** User sets access permissions for the resource. Options may include: \\"Public\\" (visible to all users within the university network), \\"Specific Users/Groups\\" (visible only to selected users or groups), \\"Only Me\\" (private resource).\
+      6. **User Role:** Authenticated User\
+         **Action:** User submits the resource upload form.\
+      7. **System:** The system validates the input data and saves the resource to the database, along with its metadata and access permissions.\
+      8. **System:** The system generates a unique URL or link for the resource.\
+      9. **User Role:** Authenticated User\
+         **Action:** User can share the resource by:
+              a.  Sharing the generated URL directly with other users.
+              b.  Posting the resource to a specific course or group within the SSN platform.
+              c.  Sending the resource to specific users via direct message.
+      10. **System:** The system notifies the recipients (if applicable) that a new resource has been shared with them.\
+      11. **User Role:** User with access to the resource\
+          **Action:** User clicks on the shared link or accesses the resource through the platform.\
+      12. **System:** The system verifies the user's access permissions before displaying the resource.","screens": ["Upload Screen: Allows users to select files to upload, provide metadata (title, description, subject, course, tags), and select the resource type.","Permission Setting Screen: Allows users to define access permissions for the uploaded resource (e.g., public, specific users/groups, only me).",
+            "Sharing Screen (or Modal): Displays the generated URL for the resource and provides options for sharing it via direct message, posting to a course/group, or copying the link.",
+            "Resource Display Screen: Displays the uploaded resource and its associated metadata.  Includes options to download, comment, and rate the resource (if applicable)."
+        ]
+    }
+]
+}
+      ```
+      
+      Observation: I have defined the user flows and screens for 'Profile Creation and Management', 'User Authentication and Authorization', and 'Resource Uploading and Sharing' features. I need to define the user flow and screens for the 'Content Tagging and Categorization' feature.
+      Thoughts: The 'Content Tagging and Categorization' feature will allow users to tag and categorize shared resources, making it easier for other users to find relevant content. The flow should include steps for adding tags and categories to resources during the upload process, as well as searching and filtering resources by tags and categories. The screens should include a tagging/categorization input field on the upload screen, and search/filter options on the resource browsing screen.
+      Subtask identified: Define the user flow and screens for the 'Content Tagging and Categorization' feature. The flow should include steps for adding tags and categories to resources during the upload process, as well as searching and filtering resources by tags and categories. The screens should include a tagging/categorization input field on the upload screen, and search/filter options on the resource browsing screen.
+      Getting LLM to perform the following task: Define the user flow and screens for the 'Content Tagging and Categorization' feature. The flow should include steps for adding tags and categories to resources during the upload process, as well as searching and filtering resources by tags and categories. The screens should include a tagging/categorization input field on the upload screen, and search/filter options on the resource browsing screen.
+      > ```json
+      {
+"category": "Content Sharing and Collaboration",
+"features": [
+    {
+        "featureName": "Content Tagging and Categorization",
+        "flow": "1. **User Role:** Authenticated User (Student, Teacher, or Researcher)
+         **Action:** User navigates to the resource upload section (e.g., via a button or menu option labeled \"Upload Resource\").
+      2. **User Role:** Authenticated User
+         **Action:** User selects the file(s) to upload from their device or cloud storage.
+      3. **System:** The system initiates the file upload process.
+      4. **User Role:** Authenticated User
+         **Action:** User provides metadata for the resource (e.g., title, description, subject, course). The user is presented with options to add tags and select categories for the resource.
+      5. **User Role:** Authenticated User
+         **Action:** User adds tags by typing them into a tagging input field. The system may provide tag suggestions based on existing tags or a predefined vocabulary.
+      6. **User Role:** Authenticated User
+         **Action:** User selects one or more categories from a predefined category list (e.g., subject areas, course levels, resource types).
+      7. **User Role:** Authenticated User
+         **Action:** User sets access permissions for the resource.
+      8. **User Role:** Authenticated User
+         **Action:** User submits the resource upload form.
+      9. **System:** The system validates the input data and saves the resource to the database, along with its metadata, tags, categories, and access permissions.
+      10. **User Role:** Any User
+          **Action:** User navigates to the resource browsing/search section.
+      11. **User Role:** Any User
+          **Action:** User uses the search bar to search for resources by keywords, tags, or categories.
+      12. **System:** The system displays search results based on the user's query.
+      13. **User Role:** Any User
+          **Action:** User uses filter options to filter resources by tags, categories, resource type, university, or other relevant criteria.
+      14. **System:** The system updates the search results based on the selected filters.
+      15. **User Role:** Any User
+          **Action:** User selects a resource from the search results to view its details.
+      16. **System:** The system displays the resource details, including its tags and categories.","screens": ["Upload Screen: Includes input fields for resource title, description, subject, course, and a tagging input field with tag suggestions. Also includes a category selection dropdown or list.","Resource Browsing/Search Screen: Includes a search bar for keyword search and filter options for filtering resources by tags, categories, resource type, university, etc.",
+        "Resource Details Screen: Displays the resource details, including its title, description, tags, categories, and other metadata."
+    ]
+}
+]
+},
+{
+"category": "User Account and Profile",
+"features": [
+{
+    "featureName": "Profile Creation and Management",
+    "flow": "1. **User Role:** New User
+       **Action:** Upon initial login or registration, the user is directed to the Profile Creation Screen.
+    2. **User Role:** New User
+       **Action:** The user fills in required profile information (e.g., name, university, major, year of study, areas of interest, profile picture).
+    3. **User Role:** New User
+       **Action:** The user submits the profile creation form.
+    4. **System:** The system validates the input data.
+    5. **System:** If validation is successful, the system creates a user profile and saves it to the database.
+    6. **System:** The system redirects the user to their profile view screen.
+    7. **User Role:** Existing User
+       **Action:** The user navigates to their profile page (e.g., via a profile icon or menu option).
+    8. **User Role:** Existing User
+       **Action:** The user selects the 'Edit Profile' option.
+    9. **System:** The system displays the Profile Edit Screen, pre-populated with the user's current profile information.
+    10. **User Role:** Existing User
+        **Action:** The user modifies the profile information.
+    11. **User Role:** Existing User
+        **Action:** The user submits the updated profile information.
+    12. **System:** The system validates the updated data.
+    13. **System:** If validation is successful, the system updates the user's profile in the database.
+    14. **System:** The system redirects the user to their profile view screen, displaying the updated information.
+    15. **User Role:** Any User
+        **Action:** The user navigates to another user's profile (e.g., via search or a post).
+    16. **System:** The system displays the Profile View Screen for the selected user.","screens": ["Profile Creation Screen: Allows new users to input their profile information (name, university, major, interests, profile picture upload).","Profile Edit Screen: Allows existing users to modify their profile information. Pre-populated with current data.","Profile View Screen: Displays the user's profile information to themselves and other users. Includes options to follow/connect (if applicable)."
+]
+},
+{
+"featureName": "User Authentication and Authorization",
+"flow": "1. **User Role:** New User
+       **Action:** User navigates to the registration page.
+    2. **User Role:** New User
+       **Action:** User fills in the registration form with required information (e.g., email, password, name, user role). User roles include Student, Teacher, and Researcher.
+    3. **User Role:** New User
+       **Action:** User submits the registration form.
+    4. **System:** The system validates the input data.
+    5. **System:** If validation is successful, the system creates a new user account and sends a verification email (optional).
+    6. **User Role:** New User
+       **Action:** User clicks the verification link in the email (optional).
+    7. **System:** The system verifies the user's email address (optional).
+    8. **User Role:** Any User
+       **Action:** User navigates to the login page.
+    9. **User Role:** Any User
+       **Action:** User enters their email and password.
+    10. **User Role:** Any User
+        **Action:** User submits the login form.
+    11. **System:** The system authenticates the user's credentials.
+    12. **System:** If authentication is successful, the system creates a session and redirects the user to the home page or their profile page, based on their role.
+    13. **User Role:** Authenticated User
+        **Action:** User selects the logout option.
+    14. **System:** The system invalidates the user's session and redirects them to the login page.
+    15. **User Role:** User (forgot password)
+        **Action:** User clicks on the "Forgot Password" link on the login page.
+    16. **User Role:** User (forgot password)
+        **Action:** User enters their email address.
+    17. **User Role:** User (forgot password)
+        **Action:** User submits the password reset request.
+    18. **System:** The system sends a password reset email to the user.
+    19. **User Role:** User (forgot password)
+        **Action:** User clicks on the password reset link in the email.
+    20. **System:** The system redirects the user to the password reset page.
+    21. **User Role:** User (forgot password)
+        **Action:** User enters a new password and confirms it.
+    22. **User Role:** User (forgot password)
+        **Action:** User submits the new password.
+    23. **System:** The system validates the new password.
+    24. **System:** If validation is successful, the system updates the user's password and redirects them to the login page.
+    25. **Admin Role (if applicable):** Admin navigates to the user management section.
+    26. **Admin Role (if applicable):** Admin selects a user to manage.
+    27. **Admin Role (if applicable):** Admin can view and modify the user's role and permissions.
+    28. **System (if applicable):** The system updates the user's role and permissions in the database.","screens": ["Registration Screen: Allows new users to create an account by providing necessary information (email, password, name, role selection (Student, Teacher, Researcher)).","Login Screen: Allows existing users to log in using their email and password. Includes a "Forgot Password" link.","Password Reset Screen: Allows users to reset their password after requesting a password reset email. Requires entering and confirming the new password.","User Management Screen (Admin Only - if applicable): Allows administrators to view, modify, and manage user roles and permissions. This screen is only accessible to users with administrative privileges.","Email Verification Screen (Optional): Displays a message indicating that the user's email has been successfully verified."
+]
+]
+},
+"category": "Content Sharing and Collaboration",
+"features": [
+{
+"featureName": "Resource Uploading and Sharing",
+"flow": "1. **User Role:** Authenticated User (Student, Teacher, or Researcher)
+       **Action:** User navigates to the resource upload section (e.g., via a button or menu option labeled "Upload Resource").
+    2. **User Role:** Authenticated User
+       **Action:** User selects the file(s) to upload from their device or cloud storage.
+    3. **System:** The system initiates the file upload process.
+    4. **User Role:** Authenticated User
+       **Action:** User provides metadata for the resource (e.g., title, description, subject, course, tags).  The user also selects the resource type (e.g., document, presentation, video, link).
+    5. **User Role:** Authenticated User
+       **Action:** User sets access permissions for the resource. Options may include: "Public" (visible to all users within the university network),
+"Specific Users/Groups" (visible only to selected users or groups),
+"Only Me" (private resource).
+    6. **User Role:** Authenticated User
+       **Action:** User submits the resource upload form.
+    7. **System:** The system validates the input data and saves the resource to the database, along with its metadata and access permissions.
+    8. **System:** The system generates a unique URL or link for the resource.
+    9. **User Role:** Authenticated User
+       **Action:** User can share the resource by:
+            a.  Sharing the generated URL directly with other users.
+            b.  Posting the resource to a specific course or group within the SSN platform.
+            c.  Sending the resource to specific users via direct message.
+    10. **System:** The system notifies the recipients (if applicable) that a new resource has been shared with them.
+    11. **User Role:** User with access to the resource
+        **Action:** User clicks on the shared link or accesses the resource through the platform.
+    12. **System:** The system verifies the user's access permissions before displaying the resource.","screens": ["Upload Screen: Allows users to select files to upload, provide metadata (title, description, subject, course, tags), and select the resource type.","Permission Setting Screen: Allows users to define access permissions for the uploaded resource (e.g., public, specific users/groups, only me).","Sharing Screen (or Modal): Displays the generated URL for the resource and provides options for sharing it via direct message, posting to a course/group, or copying the link.","Resource Display Screen: Displays the uploaded resource and its associated metadata.  Includes options to download, comment, and rate the resource (if applicable)."
+]
+},
+{
+"featureName": "Content Tagging and Categorization",
+"flow": "1. **User Role:** Authenticated User (Student, Teacher, or Researcher)
+       **Action:** User navigates to the resource upload section (e.g., via a button or menu option labeled "Upload Resource").
+    2. **User Role:** Authenticated User
+       **Action:** User selects the file(s) to upload from their device or cloud storage.
+    3. **System:** The system initiates the file upload process.
+    4. **User Role:** Authenticated User
+       **Action:** User provides metadata for the resource (e.g., title, description, subject, course). The user is presented with options to add tags and select categories for the resource.
+    5. **User Role:** Authenticated User
+       **Action:** User adds tags by typing them into a tagging input field. The system may provide tag suggestions based on existing tags or a predefined vocabulary.
+    6. **User Role:** Authenticated User
+       **Action:** User selects one or more categories from a predefined category list (e.g., subject areas, course levels, resource types).
+    7. **User Role:** Authenticated User
+       **Action:** User sets access permissions for the resource.
+    8. **User Role:** Authenticated User
+       **Action:** User submits the resource upload form.
+    9. **System:** The system validates the input data and saves the resource to the database, along with its metadata, tags, categories, and access permissions.
+    10. **User Role:** Any User
+        **Action:** User navigates to the resource browsing/search section.
+    11. **User Role:** Any User
+        **Action:** User uses the search bar to search for resources by keywords, tags, or categories.
+    12. **System:** The system displays search results based on the user's query.
+    13. **User Role:** Any User
+        **Action:** User uses filter options to filter resources by tags, categories, resource type, university, or other relevant criteria.
+    14. **System:** The system updates the search results based on the selected filters.
+    15. **User Role:** Any User
+        **Action:** User selects a resource from the search results to view its details.
+    16. **System:** The system displays the resource details, including its tags and categories.","screens": ["Upload Screen: Includes input fields for resource title, description, subject, course, and a tagging input field with tag suggestions. Also includes a category selection dropdown or list.","Resource Browsing/Search Screen: Includes a search bar for keyword search and filter options for filtering resources by tags, categories, resource type, university, etc.","Resource Details Screen: Displays the resource details, including its title, description, tags, categories, and other metadata."
+]
+}
+]
+},
+{
+"category": "Collaboration and Communication",
+"features": [
+{
+"featureName": "Study Group Creation and Management",
+"flow": "1. **User Role:** Authenticated User (Student, Teacher, or Researcher)
+         **Action:** User navigates to the study group section (e.g., via a button or menu option labeled \\"Create Study Group\\").
+      2. **User Role:** Authenticated User
+         **Action:** User is directed to the Group Creation Screen.
+      3. **User Role:** Authenticated User
+         **Action:** User fills in the required information for the study group (e.g., group name, description, subject, course, privacy settings (public/private)).
+      4. **User Role:** Authenticated User
+         **Action:** User submits the group creation form.
+      5. **System:** The system validates the input data.
+      6. **System:** If validation is successful, the system creates the study group and assigns the creator as the group administrator.
+      7. **System:** The system redirects the user to the Group Management Screen.
+      8. **User Role:** Group Administrator
+         **Action:** User can manage the group settings, including:
+              a.  Editing the group name and description.
+              b.  Changing the group privacy settings.
+              c.  Adding or removing members.
+              d.  Assigning or removing administrator privileges.
+              e.  Disbanding the group.
+      9. **User Role:** Group Administrator
+         **Action:** User navigates to the Member Invitation Screen.
+      10. **User Role:** Group Administrator
+          **Action:** User invites members to the group by:
+              a.  Searching for users by name or email.
+              b.  Selecting users from a list of suggested contacts.
+              c.  Sending invitation requests to selected users.
+      11. **System:** The system sends notifications to the invited users.
+      12. **User Role:** Invited User
+          **Action:** User receives a notification and can accept or decline the invitation.
+      13. **System:** If the user accepts the invitation, they are added to the study group.
+      14. **User Role:** Any User (member of the group)
+          **Action:** User navigates to the Group View Screen.
+      15. **System:** The system displays the group information, including:
+              a.  Group name and description.
+              b.  List of members.
+              c.  Shared resources.
+              d.  Discussion forum (if applicable).
+      16. **User Role:** Group Administrator
+          **Action:** User chooses to disband the group.
+      17. **System:** The system prompts the user to confirm the disbanding action.
+      18. **User Role:** Group Administrator
+          **Action:** User confirms the disbanding action.
+      19. **System:** The system deletes the study group and notifies all members.","screens": ["Group Creation Screen: Allows users to create a new study group by providing a group name, description, subject, course, and privacy settings.","Group Management Screen: Allows group administrators to manage group settings, add/remove members, assign/remove admin privileges, and disband the group.","Member Invitation Screen: Allows group administrators to invite members to the group by searching for users or selecting from a list of suggested contacts.","Group View Screen: Displays the group information, including the group name, description, list of members, shared resources, and discussion forum (if applicable)."
+]
+}
+]
+},
+{
+"category": "Group Collaboration",
+"features": [
+{
+"featureName": "Study Group Creation and Management",
+"flow": "1. **User Role:** Authenticated User (Student, Teacher, or Researcher)
+             **Action:** User navigates to the study group section (e.g., via a button or menu option labeled \"Create Study Group\").
+          2. **User Role:** Authenticated User
+             **Action:** User is directed to the Group Creation Screen.
+          3. **User Role:** Authenticated User
+             **Action:** User fills in the required information for the study group (e.g., group name, description, subject, course, privacy settings (public/private)).
+          4. **User Role:** Authenticated User
+             **Action:** User submits the group creation form.
+          5. **System:** The system validates the input data.
+          6. **System:** If validation is successful, the system creates the study group and assigns the creator as the group administrator.
+          7. **System:** The system redirects the user to the Group Management Screen.
+          8. **User Role:** Group Administrator
+             **Action:** User can manage the group settings, including:
+                  a.  Editing the group name and description.
+                  b.  Changing the group privacy settings.
+                  c.  Adding or removing members.
+                  d.  Assigning or removing administrator privileges.
+                  e.  Disbanding the group.
+          9. **User Role:** Group Administrator
+             **Action:** User navigates to the Member Invitation Screen.
+          10. **User Role:** Group Administrator
+              **Action:** User invites members to the group by:
+                  a.  Searching for users by name or email.
+                  b.  Selecting users from a list of suggested contacts.
+                  c.  Sending invitation requests to selected users.
+          11. **System:** The system sends notifications to the invited users.
+          12. **User Role:** Invited User
+              **Action:** User receives a notification and can accept or decline the invitation.
+          13. **System:** If the user accepts the invitation, they are added to the study group.
+          14. **User Role:** Any User (member of the group)
+              **Action:** User navigates to the Group View Screen.
+          15. **System:** The system displays the group information, including:
+                  a.  Group name and description.
+                  b.  List of members.
+                  c.  Shared resources.
+                  d.  Discussion forum (if applicable).
+          16. **User Role:** Group Administrator
+              **Action:** User chooses to disband the group.
+          17. **System:** The system prompts the user to confirm the disbanding action.
+          18. **User Role:** Group Administrator
+              **Action:** User confirms the disbanding action.
+          19. **System:** The system deletes the study group and notifies all members.","screens": ["Group Creation Screen: Allows users to create a new study group by providing a group name, description, subject, course, and privacy settings.","Group Management Screen: Allows group administrators to manage group settings, add/remove members, assign/remove admin privileges, and disband the group.","Member Invitation Screen: Allows group administrators to invite members to the group by searching for users or selecting from a list of suggested contacts.","Group View Screen: Displays the group information, including the group name, description, list of members, shared resources, and discussion forum (if applicable)."
+]
+},
+{
+"featureName": "Collaborative Document Editing",
+"flow": "1. **User Role:** Authenticated User (Student, Teacher, or Researcher), member of a study group.
+             **Action:** User navigates to a study group's page or a dedicated document repository within the group.
+          2. **User Role:** Authenticated User
+             **Action:** User selects a document to edit or creates a new document.
+          3. **System:** If creating a new document, the system presents the user with a blank document or a selection of templates.
+          4. **User Role:** Authenticated User
+             **Action:** User begins editing the document. The system automatically saves changes and tracks revisions.
+          5. **System:** The system indicates which users are currently editing the document (e.g., with colored cursors or avatars).
+          6. **User Role:** Multiple Authenticated Users
+             **Action:** Multiple users can simultaneously edit different parts of the document. The system merges changes in real-time or near real-time.
+          7. **System:** The system provides conflict resolution mechanisms if simultaneous edits conflict (e.g., highlighting conflicting sections and allowing users to choose which version to keep).
+          8. **User Role:** Authenticated User
+             **Action:** User can view the document's revision history and revert to previous versions.
+          9. **System:** The system records all edits, including the user who made the edit and the timestamp.
+          10. **User Role:** Authenticated User
+              **Action:** User can add comments and suggestions to specific sections of the document.
+          11. **User Role:** Other Authenticated Users
+              **Action:** Other users can view and respond to comments.
+          12. **System:** The system sends notifications to users when changes are made to the document or when new comments are added.
+          13. **User Role:** Authenticated User
+              **Action:** User can download the document in various formats (e.g., .docx, .pdf, .txt). Permissions may be required.
+          14. **System:** The system saves the document and makes it accessible to authorized users within the study group.","screens": ["Study Group Page/Document Repository: Displays a list of documents available for collaborative editing within a specific study group.","Document Editing Screen: Allows users to collaboratively edit a document in real-time or near real-time, with features for conflict resolution, revision history, and commenting.","Revision History Screen: Displays a list of previous versions of the document, allowing users to view and revert to earlier versions.","Comment Section: Displays comments and suggestions related to specific sections of the document, allowing users to discuss and resolve issues."
+]
+},
+{
+"featureName": "Study Group Creation and Management",
+"flow": "1. **User Role:** Authenticated User (Student, Teacher, or Researcher)
+           **Action:** User navigates to the study group section (e.g., via a button or menu option labeled \"Create Study Group\").
+        2. **User Role:** Authenticated User
+           **Action:** User is directed to the Group Creation Screen.
+        3. **User Role:** Authenticated User
+           **Action:** User fills in the required information for the study group (e.g., group name, description, subject, course, privacy settings (public/private)).
+        4. **User Role:** Authenticated User
+           **Action:** User submits the group creation form.
+        5. **System:** The system validates the input data.
+        6. **System:** If validation is successful, the system creates the study group and assigns the creator as the group administrator.
+        7. **System:** The system redirects the user to the Group Management Screen.
+        8. **User Role:** Group Administrator
+           **Action:** User can manage the group settings, including:
+                a.  Editing the group name and description.
+                b.  Changing the group privacy settings.
+                c.  Adding or removing members.
+                d.  Assigning or removing administrator privileges.
+                e.  Disbanding the group.
+        9. **User Role:** Group Administrator
+           **Action:** User navigates to the Member Invitation Screen.
+        10. **User Role:** Group Administrator
+            **Action:** User invites members to the group by:
+                a.  Searching for users by name or email.
+                b.  Selecting users from a list of suggested contacts.
+                c.  Sending invitation requests to selected users.
+        11. **System:** The system sends notifications to the invited users.
+        12. **User Role:** Invited User
+            **Action:** User receives a notification and can accept or decline the invitation.
+        13. **System:** If the user accepts the invitation, they are added to the study group.
+        14. **User Role:** Any User (member of the group)
+            **Action:** User navigates to the Group View Screen.
+        15. **System:** The system displays the group information, including:
+                a.  Group name and description.
+                b.  List of members.
+                c.  Shared resources.
+                d.  Discussion forum (if applicable).
+        16. **User Role:** Group Administrator
+            **Action:** User chooses to disband the group.
+        17. **System:** The system prompts the user to confirm the disbanding action.
+        18. **User Role:** Group Administrator
+            **Action:** User confirms the disbanding action.
+        19. **System:** The system deletes the study group and notifies all members.","screens": ["Group Creation Screen: Allows users to create a new study group by providing a group name, description, subject, course, and privacy settings.","Group Management Screen: Allows group administrators to manage group settings, add/remove members, assign/remove admin privileges, and disband the group.","Member Invitation Screen: Allows group administrators to invite members to the group by searching for users or selecting from a list of suggested contacts.","Group View Screen: Displays the group information, including the group name, description, list of members, shared resources, and discussion forum (if applicable)."
+]
+},
+{
+"featureName": "Collaborative Document Editing",
+"flow": "1. **User Role:** Authenticated User (Student, Teacher, or Researcher), member of a study group.
+           **Action:** User navigates to a study group's page or a dedicated document repository within the group.
+        2. **User Role:** Authenticated User
+           **Action:** User selects a document to edit or creates a new document.
+        3. **System:** If creating a new document, the system presents the user with a blank document or a selection of templates.
+        4. **User Role:** Authenticated User
+           **Action:** User begins editing the document. The system automatically saves changes and tracks revisions.
+        5. **System:** The system indicates which users are currently editing the document (e.g., with colored cursors or avatars).
+        6. **User Role:** Multiple Authenticated Users
+           **Action:** Multiple users can simultaneously edit different parts of the document. The system merges changes in real-time or near real-time.
+        7. **System:** The system provides conflict resolution mechanisms if simultaneous edits conflict (e.g., highlighting conflicting sections and allowing users to choose which version to keep).
+        8. **User Role:** Authenticated User
+           **Action:** User can view the document's revision history and revert to previous versions.
+        9. **System:** The system records all edits, including the user who made the edit and the timestamp.
+        10. **User Role:** Authenticated User
+            **Action:** User can add comments and suggestions to specific sections of the document.
+        11. **User Role:** Other Authenticated Users
+            **Action:** Other users can view and respond to comments.
+        12. **System:** The system sends notifications to users when changes are made to the document or when new comments are added.
+        13. **User Role:** Authenticated User
+            **Action:** User can download the document in various formats (e.g., .docx, .pdf, .txt). Permissions may be required.
+        14. **System:** The system saves the document and makes it accessible to authorized users within the study group.","screens": ["Study Group Page/Document Repository: Displays a list of documents available for collaborative editing within a specific study group.","Document Editing Screen: Allows users to collaboratively edit a document in real-time or near real-time, with features for conflict resolution, revision history, and commenting.","Revision History Screen: Displays a list of previous versions of the document, allowing users to view and revert to earlier versions.","Comment Section: Displays comments and suggestions related to specific sections of the document, allowing users to discuss and resolve issues."
+]
+},
+{
+"featureName": "Event Scheduling and Reminders",
+"flow": "1. **User Role:** Authenticated User (Student, Teacher, or Researcher), member of a study group.
+             **Action:** User navigates to the study group page or a dedicated calendar/events section within the group.
+          2. **User Role:** Authenticated User
+             **Action:** User selects the option to create a new event (e.g., by clicking a \"Create Event\" button).
+          3. **System:** The system displays the Event Creation Screen.
+          4. **User Role:** Authenticated User
+             **Action:** User fills in the required information for the event, including:
+                  a.  Event title.
+                  b.  Date and time.
+                  c.  Location (physical or virtual).
+                  d.  Description.
+                  e.  List of invitees (members of the study group).
+                  f.  Option to set reminders (e.g.,
+1 hour before,
+1 day before).
+          5. **User Role:** Authenticated User
+             **Action:** User submits the event creation form.
+          6. **System:** The system validates the input data.
+          7. **System:** If validation is successful, the system creates the event and sends notifications to the invited users.
+          8. **User Role:** Invited User
+             **Action:** User receives a notification about the event invitation.
+          9. **User Role:** Invited User
+             **Action:** User can view the event details and RSVP (accept, decline, or maybe).
+          10. **System:** The system updates the event details with the RSVP responses.
+          11. **System:** The system sends reminder notifications to users who have accepted the invitation, according to their chosen reminder settings.
+          12. **User Role:** Any User (member of the group)
+              **Action:** User navigates to the Group Calendar/Events Screen.
+          13. **System:** The system displays a calendar view or a list of upcoming events for the study group.
+          14. **User Role:** Authenticated User (typically the event creator or group admin)
+              **Action:** User can edit or cancel the event.
+          15. **System:** If the event is edited or cancelled, the system sends notifications to all invited users.
+          16. **System:** The system stores the event details and makes them accessible to authorized users within the study group.","screens": ["Study Group Page/Calendar/Events Section: Displays a calendar view or a list of upcoming events for the study group.","Event Creation Screen: Allows users to create a new event by providing event details such as title, date, time, location, description, and invitees.","Event Details Screen: Displays the details of a specific event, including the title, date, time, location, description, list of attendees, and RSVP status.","RSVP Screen: Allows invited users to RSVP to an event (accept, decline, or maybe)."
+]
+},
+{
+"featureName": "Direct Messaging",
+"flow": "1. **User Role:** Authenticated User (Student, Teacher, or Researcher).
+         **Action:** User navigates to the messaging section of the application (e.g., via a message icon or a \\"Messages\\" link in the navigation bar).
+      2. **System:** The system displays a list of recent conversations or a \\"New Message\\" option.
+      3. **User Role:** Authenticated User
+         **Action:** User selects an existing conversation or initiates a new message.
+      4. **System:** If the user selects \\"New Message,\\" the system presents a screen to search for other users.
+      5. **User Role:** Authenticated User
+         **Action:** User searches for another user by name, username, or email.
+      6. **System:** The system displays a list of matching users.
+      7. **User Role:** Authenticated User
+         **Action:** User selects the recipient from the list.
+      8. **System:** The system opens a direct message window with the selected user.
+      9. **User Role:** Authenticated User
+         **Action:** User types a message in the text input field.
+      10. **User Role:** Authenticated User
+          **Action:** User sends the message.
+      11. **System:** The system transmits the message to the recipient and stores it in the conversation history.
+      12. **System:** The system sends a notification to the recipient.
+      13. **User Role:** Recipient
+          **Action:** Recipient receives a notification and navigates to the messaging section.
+      14. **System:** The system displays the new message in the recipient's conversation list.
+      15. **User Role:** Recipient
+          **Action:** Recipient opens the conversation and reads the message.
+      16. **User Role:** Recipient
+          **Action:** Recipient types a reply in the text input field.
+      17. **User Role:** Recipient
+          **Action:** Recipient sends the reply.
+      18. **System:** The system transmits the reply to the original sender and stores it in the conversation history.
+      19. **System:** The system sends a notification to the original sender.
+      20. **User Role:** Authenticated User
+          **Action:** User can optionally attach files or other media to the message (details of file types and size limits TBD).
+      21. **System:** The system handles file uploads and displays them in the message.
+      22. **User Role:** Authenticated User
+          **Action:** User can block another user to prevent further messages (details of blocking mechanism TBD).","screens": ["Messaging Section: Displays a list of recent conversations and a \\"New Message\\" option.","New Message Screen: Allows users to search for other users to start a direct message conversation.","Direct Message Window: Displays the conversation history between two users, with a text input field for sending new messages and options for attaching files.","User Search Screen: Allows users to search for other users by name, username or email."
+]
+}
+]
+},
+{
+"category": "Search & Discovery",
+"features": [
+{
+"featureName": "User and Content Search",
+"flow": "1. **User Role:** Authenticated/Unauthenticated User.\
+         **Action:** User navigates to any page on the platform and locates the search bar (prominently displayed in the header or navigation).
+      2. **User Role:** Authenticated/Unauthenticated User.\
+         **Action:** User enters a search query (keywords related to users, courses, materials, topics, etc.) into the search bar.
+      3. **System:** The system provides real-time search suggestions as the user types (optional, but recommended for usability).
+      4. **User Role:** Authenticated/Unauthenticated User.\
+         **Action:** User either selects a suggestion or submits the full search query by pressing Enter or clicking the search icon.
+      5. **System:** The system processes the search query and retrieves relevant results from the database, including users, courses, study materials, forum topics, and other content.
+      6. **System:** The system displays the search results on a dedicated \\"Search Results\\" page, categorized by type (e.g., Users, Courses, Materials, Forums).  The results are ranked by relevance (algorithm details TBD).
+      7. **User Role:** Authenticated/Unauthenticated User.\
+         **Action:** User browses the search results.
+      8. **User Role:** Authenticated/Unauthenticated User.\
+         **Action:** User can filter or sort the search results (e.g., by relevance, date, popularity, course, university).
+      9. **System:** The system applies the selected filters or sorting options and updates the search results display.
+      10. **User Role:** Authenticated/Unauthenticated User.\
+          **Action:** User clicks on a search result (e.g., a user profile, a course page, a study material document, a forum topic).
+      11. **System:** The system redirects the user to the corresponding page (User Profile, Course Details, Material Viewer, Forum Topic, etc.).
+      12. **System:** If no results are found, the system displays a \\"No Results Found\\" message with suggestions for refining the search query.","screens": ["Search Bar (Global Component): A text input field located in the header or navigation, available on all pages.","Search Results Page: Displays the search results, categorized by type, with filtering and sorting options.","User Profile Page: Displays the profile information of a user.","Course Details Page: Displays information about a specific course.","Material Viewer: Displays the content of a study material document (e.g., PDF, DOC).","Forum Topic Page: Displays a specific forum topic and its replies.","No Results Found Message: Displayed when the search query returns no results."
+]
+}
+]
+},
+{
+"category": "Communication",
+"features": [
+{
+"featureName": "Direct Messaging",
+"flow": "1. **User Role:** Authenticated User (Student, Teacher, or Researcher).\
+         **Action:** User navigates to the messaging section of the application (e.g., via a message icon or a \\"Messages\\" link in the navigation bar).\
+      2. **System:** The system displays a list of recent conversations or a \\"New Message\\" option.\
+      3. **User Role:** Authenticated User\
+         **Action:** User selects an existing conversation or initiates a new message.\
+      4. **System:** If the user selects \\"New Message,\\" the system presents a screen to search for other users.\
+      5. **User Role:** Authenticated User\
+         **Action:** User searches for another user by name, username, or email.\
+      6. **System:** The system displays a list of matching users.\
+      7. **User Role:** Authenticated User\
+         **Action:** User selects the recipient from the list.\
+      8. **System:** The system opens a direct message window with the selected user.\
+      9. **User Role:** Authenticated User\
+         **Action:** User types a message in the text input field.\
+      10. **User Role:** Authenticated User\
+          **Action:** User sends the message.\
+      11. **System:** The system transmits the message to the recipient and stores it in the conversation history.\
+      12. **System:** The system sends a notification to the recipient.\
+      13. **User Role:** Recipient\
+          **Action:** Recipient receives a notification and navigates to the messaging section.\
+      14. **System:** The system displays the new message in the recipient's conversation list.\
+      15. **User Role:** Recipient\
+          **Action:** Recipient opens the conversation and reads the message.\
+      16. **User Role:** Recipient\
+          **Action:** Recipient types a reply in the text input field.\
+      17. **User Role:** Recipient\
+          **Action:** Recipient sends the reply.\
+      18. **System:** The system transmits the reply to the original sender and stores it in the conversation history.\
+      19. **System:** The system sends a notification to the original sender.\
+      20. **User Role:** Authenticated User\
+          **Action:** User can optionally attach files or other media to the message (details of file types and size limits TBD).\
+      21. **System:** The system handles file uploads and displays them in the message.\
+      22. **User Role:** Authenticated User\
+          **Action:** User can block another user to prevent further messages (details of blocking mechanism TBD).",
+"screens": [
+"Messaging Section: Displays a list of recent conversations and a \\"New Message\\" option.",
+"New Message Screen: Allows users to search for other users to start a direct message conversation.",
+"Direct Message Window: Displays the conversation history between two users, with a text input field for sending new messages and options for attaching files.",
+"User Search Screen: Allows users to search for other users by name, username or email."
+]
+},
+{
+"featureName": "Discussion Forums",
+"flow": "1. **User Role:** Authenticated User with Forum Creation Permissions (e.g., Teacher, Moderator, Admin).
+         **Action:** User navigates to the Forums section and selects \\"Create Forum.\\" (Permission details TBD).
+      2. **System:** The system displays the \\"Create Forum\\" form.
+      3. **User Role:** Authenticated User with Forum Creation Permissions.
+         **Action:** User fills in the forum details (Forum Name, Description, Privacy Settings - Public/Private, relevant Courses/Subjects, etc.).
+      4. **User Role:** Authenticated User with Forum Creation Permissions.
+         **Action:** User submits the form.
+      5. **System:** The system validates the form data and creates the forum. The user is redirected to the new forum page.
+      6. **User Role:** Authenticated User (Student, Teacher, Researcher).
+         **Action:** User navigates to the Forums section and browses the list of available forums.
+      7. **System:** The system displays a list of forums, potentially filtered by course, subject, or other criteria.
+      8. **User Role:** Authenticated User.
+         **Action:** User selects a forum to view.
+      9. **System:** The system displays the forum page, showing a list of topics.
+      10. **User Role:** Authenticated User.
+          **Action:** User selects \\"Create Topic\\" to start a new discussion.
+      11. **System:** The system displays the \\"Create Topic\\" form.
+      12. **User Role:** Authenticated User.
+          **Action:** User enters the topic title and content.
+      13. **User Role:** Authenticated User.
+          **Action:** User submits the topic.
+      14. **System:** The system validates the data and creates the topic. The user is redirected to the new topic page.
+      15. **User Role:** Authenticated User.
+          **Action:** User views a topic.
+      16. **System:** The system displays the topic title, content, and replies.
+      17. **User Role:** Authenticated User.
+          **Action:** User enters a reply in the text input field.
+      18. **User Role:** Authenticated User.
+          **Action:** User submits the reply.
+      19. **System:** The system adds the reply to the topic and displays it.
+      20. **User Role:** Moderator (or Admin).
+          **Action:** Moderator views a forum or topic.
+      21. **System:** The system displays moderation options (e.g., edit, delete, pin topic, ban user).
+      22. **User Role:** Moderator.
+          **Action:** Moderator performs a moderation action.
+      23. **System:** The system executes the moderation action and updates the forum/topic accordingly.  Notifications are sent as appropriate (details TBD).","screens": ["Forums Section: Displays a list of available forums.","Create Forum Form: Allows authorized users to create new forums.","Forum Page: Displays a list of topics within a forum.","Create Topic Form: Allows users to create new topics within a forum.","Topic Page: Displays the topic title, content, and replies.","Moderation Options (Overlay/Menu): Provides moderation actions for moderators and admins."
+]
+}
+]
+},
+{
+"category": "Personalization",
+"features": [
+{
+"featureName": "Personalized Recommendations",
+"flow": "1. **System:** The system analyzes user data, including profile information (e.g., major, interests, enrolled courses), activity history (e.g., viewed materials, forum posts, followed users), and social connections (e.g., classmates, study groups).  The analysis is performed periodically (e.g., daily, weekly) or triggered by specific user actions (e.g., enrolling in a new course).
+      2. **System:** Based on the data analysis, the system generates personalized recommendations for courses, study materials, research opportunities, relevant users, and forum topics. Recommendation algorithms TBD (e.g., collaborative filtering, content-based filtering, hybrid approaches).
+      3. **User Role:** Authenticated User.\\
+         **Action:** User logs into the platform or navigates to the homepage or a dedicated \\"Recommendations\\" page.
+      4. **System:** The system displays the personalized recommendations in a designated section of the homepage or on the \\"Recommendations\\" page. Recommendations are grouped by type (e.g., \\"Recommended Courses,\\" \\"Recommended Study Materials,\\" \\"Recommended Users\\").
+      5. **User Role:** Authenticated User.\\
+         **Action:** User browses the recommendations.
+      6. **User Role:** Authenticated User.\\
+         **Action:** User can take various actions on the recommendations, such as:
+          *   Clicking on a recommendation to view details (e.g., course description, material preview, user profile).
+          *   Adding a recommended course to their watchlist or enrolling in it.
+          *   Saving a recommended study material for later viewing.
+          *   Following a recommended user.
+          *   Joining a recommended forum topic.
+          *   Dismissing a recommendation (with an option to provide feedback on why it was irrelevant).
+      7. **System:** The system records the user's actions on the recommendations and uses this feedback to improve the accuracy and relevance of future recommendations.  If a recommendation is dismissed, the system may ask for feedback (e.g., \\"Why was this recommendation not relevant to you?\\").
+      8. **System:** The system periodically updates the recommendations based on new data and user activity.","screens": ["Homepage (with Recommendations Section): Displays a section with personalized recommendations, grouped by type.","Recommendations Page: A dedicated page that displays all personalized recommendations, grouped by type, with filtering and sorting options.","Course Details Page: Displays detailed information about a recommended course.","Material Viewer: Displays a preview or the full content of a recommended study material.","User Profile Page: Displays the profile of a recommended user.","Forum Topic Page: Displays a recommended forum topic and its replies.","Recommendation Dismissal Feedback (Modal/Overlay): Allows users to provide feedback on why a recommendation was irrelevant."
+]
+}
+]
+},
+{
+"category": "Personalization",
+"features": [
+{
+"featureName": "Personalized Recommendations",
+"flow": "1. **System:** The system analyzes user data, including profile information (e.g., major, interests, enrolled courses), activity history (e.g., viewed materials, forum posts, followed users), and social connections (e.g., classmates, study groups).  The analysis is performed periodically (e.g., daily, weekly) or triggered by specific user actions (e.g., enrolling in a new course).
+      2. **System:** Based on the data analysis, the system generates personalized recommendations for courses, study materials, research opportunities, relevant users, and forum topics. Recommendation algorithms TBD (e.g., collaborative filtering, content-based filtering, hybrid approaches).
+      3. **User Role:** Authenticated User.\\\\
+         **Action:** User logs into the platform or navigates to the homepage or a dedicated \\\"Recommendations\\\" page.
+      4. **System:** The system displays the personalized recommendations in a designated section of the homepage or on the \\\"Recommendations\\\" page. Recommendations are grouped by type (e.g., \\\"Recommended Courses,\\\" \\\"Recommended Study Materials,\\\" \\\"Recommended Users\\\").
+      5. **User Role:** Authenticated User.\\\\
+         **Action:** User browses the recommendations.
+      6. **User Role:** Authenticated User.\\\\
+         **Action:** User can take various actions on the recommendations, such as:
+          *   Clicking on a recommendation to view details (e.g., course description, material preview, user profile).
+          *   Adding a recommended course to their watchlist or enrolling in it.
+          *   Saving a recommended study material for later viewing.
+          *   Following a recommended user.
+          *   Joining a recommended forum topic.
+          *   Dismissing a recommendation (with an option to provide feedback on why it was irrelevant).
+      7. **System:** The system records the user's actions on the recommendations and uses this feedback to improve the accuracy and relevance of future recommendations.  If a recommendation is dismissed, the system may ask for feedback (e.g., \\\"Why was this recommendation not relevant to you?\\\").
+      8. **System:** The system periodically updates the recommendations based on new data and user activity.","screens": ["Homepage (with Recommendations Section): Displays a section with personalized recommendations, grouped by type.","Recommendations Page: A dedicated page that displays all personalized recommendations, grouped by type, with filtering and sorting options.","Course Details Page: Displays detailed information about a recommended course.","Material Viewer: Displays a preview or the full content of a recommended study material.","User Profile Page: Displays the profile of a recommended user.","Forum Topic Page: Displays a recommended forum topic and its replies.","Recommendation Dismissal Feedback (Modal/Overlay): Allows users to provide feedback on why a recommendation was irrelevant."
+]
+}
+]
+},
+{
+"category": "User Management",
+"features": [
+{
+"featureName": "User Account Management",
+"flow": "1. **User Role:** Administrator/Moderator.\
+         **Action:** Administrator/Moderator logs into the platform with appropriate credentials.\
+      2. **System:** System authenticates the user and verifies their role.\
+      3. **User Role:** Administrator/Moderator.\
+         **Action:** Administrator/Moderator navigates to the User Management section (e.g., via a link in the admin dashboard).\
+      4. **System:** System displays a list of users, with options to filter, sort, and search.\
+      5. **User Role:** Administrator/Moderator.\
+         **Action:** Administrator/Moderator selects a user to manage or chooses to create a new user account.\
+      6a. **Scenario: Creating a new user account**\
+          *   **User Role:** Administrator/Moderator.\
+          *   **Action:** Administrator/Moderator clicks on \"Create User\" button.\
+          *   **System:** System displays a form to enter user details (e.g., name, email, role, university, password).\
+          *   **User Role:** Administrator/Moderator.\
+          *   **Action:** Administrator/Moderator fills in the user details and submits the form.\
+          *   **System:** System validates the input data. If valid, a new user account is created. If invalid, error messages are displayed.\
+          *   **System:** System sends a confirmation email to the new user (optional).\
+      6b. **Scenario: Editing an existing user account**\
+          *   **User Role:** Administrator/Moderator.\
+          *   **Action:** Administrator/Moderator selects a user from the list.\
+          *   **System:** System displays the user's profile and provides options to edit the user's information (e.g., name, email, role, university, status).\
+          *   **User Role:** Administrator/Moderator.\
+          *   **Action:** Administrator/Moderator modifies the user details and saves the changes.\
+          *   **System:** System validates the updated data. If valid, the user account is updated. If invalid, error messages are displayed.\
+      6c. **Scenario: Deleting a user account**\
+          *   **User Role:** Administrator/Moderator.\
+          *   **Action:** Administrator/Moderator selects a user from the list.\
+          *   **User Role:** Administrator/Moderator.\
+          *   **Action:** Administrator/Moderator clicks on the \"Delete User\" button.\
+          *   **System:** System displays a confirmation dialog asking to confirm the deletion.\
+          *   **User Role:** Administrator/Moderator.\
+          *   **Action:** Administrator/Moderator confirms the deletion.\
+          *   **System:** System deletes the user account and removes all associated data (or archives it, depending on the implementation).\
+      6d. **Scenario: Suspending/Activating a user account**\
+          *   **User Role:** Administrator/Moderator.\
+          *   **Action:** Administrator/Moderator selects a user from the list.\
+          *   **User Role:** Administrator/Moderator.\
+          *   **Action:** Administrator/Moderator toggles the user's status (e.g., \"Suspend\" or \"Activate\").\
+          *   **System:** System updates the user's status in the database. A suspended user cannot log in.\
+      7. **System:** System logs all user management actions for auditing purposes.",
+"screens": [
+"Admin Dashboard: Provides access to the User Management section.",
+"User Management Page: Displays a list of users with search, filter, and sort options.",
+"Create User Form: Allows administrators/moderators to create new user accounts.",
+"Edit User Profile: Allows administrators/moderators to edit existing user accounts.",
+"Confirmation Dialog (Delete User): Asks for confirmation before deleting a user account.",
+"User Details Page: Displays detailed information about a specific user."
+]
+}
+]
+},
+{
+"category": "Content Moderation",
+"features": [
+{
+"featureName": "Content Moderation",
+"flow": "1. **User Role:** User (Student, Teacher, Researcher).\
+     **Action:** User views content (e.g., study material, forum post, comment).\\
+  2. **User Role:** User (Student, Teacher, Researcher).\
+     **Action:** User flags content as inappropriate (e.g., offensive, spam, copyright infringement) by clicking a \"Report\" or \"Flag\" button.\\
+  3. **System:** System records the flagged content, the user who flagged it, and the reason for flagging (if provided).\\
+  4. **System:** System notifies moderators/administrators about the flagged content (e.g., via email, in-app notification, dashboard).\
+  5. **User Role:** Moderator/Administrator.\\
+     **Action:** Moderator/Administrator logs into the platform and navigates to the Content Moderation queue/dashboard.\\
+  6. **System:** System displays a list of flagged content, with details such as the content itself, the user who posted it, the number of flags, and the reasons for flagging.\\
+  7. **User Role:** Moderator/Administrator.\\
+     **Action:** Moderator/Administrator reviews the flagged content.\\
+  8a. **Scenario: Approving Content**\\
+      *   **User Role:** Moderator/Administrator.\\
+      *   **Action:** Moderator/Administrator determines that the content is appropriate and clicks the \"Approve\" button.\\
+      *   **System:** System removes the flagged status from the content. The content remains visible to all users.\\
+      *   **System:** System may notify the user who flagged the content that their report has been reviewed and the content was deemed appropriate (optional).\\
+  8b. **Scenario: Removing Content**\\
+      *   **User Role:** Moderator/Administrator.\\
+      *   **Action:** Moderator/Administrator determines that the content is inappropriate and clicks the \"Remove\" button.\\
+      *   **System:** System removes the content from the platform. The content is no longer visible to users.\\
+      *   **System:** System may notify the user who posted the content that their content has been removed and the reason for removal (optional).\\
+      *   **System:** System may issue a warning to the user who posted the content, depending on the severity of the violation (optional).\\
+  8c. **Scenario: Taking No Action (Insufficient Information/Dispute)**\\
+      *   **User Role:** Moderator/Administrator.\\
+      *   **Action:** Moderator/Administrator determines that there is insufficient information to take action or that the report is disputable. They may choose to \"Ignore\" or \"Escalate\" the report.\\
+      *   **System:** System may log the reason for not taking action. If escalated, the report may be forwarded to a higher-level administrator or a dedicated support team.\\
+  9. **System:** System logs all content moderation actions for auditing purposes.","screens": ["Content Display Page (e.g., Study Material Page, Forum Post Page): Displays the content and a \"Report\" or \"Flag\" button.",
+"Content Moderation Queue/Dashboard: Displays a list of flagged content for review by moderators/administrators.",
+"Flagged Content Details Page: Displays detailed information about a specific piece of flagged content, including the content itself, the user who posted it, the number of flags, and the reasons for flagging.",
+"User Profile Page (Moderator View): Allows moderators/administrators to view the profile of the user who posted the content.",
+"Warning Message (Optional): Displays a warning message to a user who has posted inappropriate content.",
+"Confirmation Dialog (Remove Content): Asks for confirmation before removing content."
+]
+}
+]
+}
+]

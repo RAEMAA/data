@@ -1,0 +1,868 @@
+[
+  [
+    [
+      {
+        "id": "P1-T1",
+        "taskName": "Design: Branch Registration and Administration",
+        "correspondingPhase": "Branch Management Setup",
+        "correspondingFeature": "Branch Registration and Administration",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-13",
+        "endTime": "2023-10-13",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Designer"
+      },
+      {
+        "id": "P1-T2",
+        "taskName": "Implementation: Branch Registration and Administration",
+        "correspondingPhase": "Branch Management Setup",
+        "correspondingFeature": "Branch Registration and Administration",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-14",
+        "endTime": "2023-10-15",
+        "dependencies": ["P1-T1"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P1-T3",
+        "taskName": "Testing: Branch Registration and Administration",
+        "correspondingPhase": "Branch Management Setup",
+        "correspondingFeature": "Branch Registration and Administration",
+        "priority": "Low",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-16",
+        "endTime": "2023-10-16",
+        "dependencies": ["P1-T2"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P1-T4",
+        "taskName": "Design: Location and Contact Details Management",
+        "correspondingPhase": "Branch Management Setup",
+        "correspondingFeature": "Location and Contact Details Management",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-13",
+        "endTime": "2023-10-13",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Designer"
+      },
+      {
+        "id": "P1-T5",
+        "taskName": "Implementation: Location and Contact Details Management",
+        "correspondingPhase": "Branch Management Setup",
+        "correspondingFeature": "Location and Contact Details Management",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-14",
+        "endTime": "2023-10-15",
+        "dependencies": ["P1-T4"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P1-T6",
+        "taskName": "Testing: Location and Contact Details Management",
+        "correspondingPhase": "Branch Management Setup",
+        "correspondingFeature": "Location and Contact Details Management",
+        "priority": "Low",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-16",
+        "endTime": "2023-10-16",
+        "dependencies": ["P1-T5"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P1-T7",
+        "taskName": "Design: Operational Hours Setup",
+        "correspondingPhase": "Branch Management Setup",
+        "correspondingFeature": "Operational Hours Setup",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-13",
+        "endTime": "2023-10-13",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Designer"
+      },
+      {
+        "id": "P1-T8",
+        "taskName": "Implementation: Operational Hours Setup",
+        "correspondingPhase": "Branch Management Setup",
+        "correspondingFeature": "Operational Hours Setup",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-14",
+        "endTime": "2023-10-15",
+        "dependencies": ["P1-T7"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P1-T9",
+        "taskName": "Testing: Operational Hours Setup",
+        "correspondingPhase": "Branch Management Setup",
+        "correspondingFeature": "Operational Hours Setup",
+        "priority": "Low",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-16",
+        "endTime": "2023-10-16",
+        "dependencies": ["P1-T8"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P1-T10",
+        "taskName": "Design: Staff Management and Roles",
+        "correspondingPhase": "Branch Management Setup",
+        "correspondingFeature": "Staff Management and Roles",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-13",
+        "endTime": "2023-10-13",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Designer"
+      },
+      {
+        "id": "P1-T11",
+        "taskName": "Implementation: Staff Management and Roles",
+        "correspondingPhase": "Branch Management Setup",
+        "correspondingFeature": "Staff Management and Roles",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-14",
+        "endTime": "2023-10-15",
+        "dependencies": ["P1-T10"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P1-T12",
+        "taskName": "Testing: Staff Management and Roles",
+        "correspondingPhase": "Branch Management Setup",
+        "correspondingFeature": "Staff Management and Roles",
+        "priority": "Low",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-16",
+        "endTime": "2023-10-16",
+        "dependencies": ["P1-T11"],
+        "responsiblePerson": "QA Engineer"
+      },
+      {
+        "id": "P1-T13",
+        "taskName": "Design: Branch-wise Performance Reporting",
+        "correspondingPhase": "Branch Management Setup",
+        "correspondingFeature": "Branch-wise Performance Reporting",
+        "priority": "High",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-13",
+        "endTime": "2023-10-13",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Designer"
+      },
+      {
+        "id": "P1-T14",
+        "taskName": "Implementation: Branch-wise Performance Reporting",
+        "correspondingPhase": "Branch Management Setup",
+        "correspondingFeature": "Branch-wise Performance Reporting",
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-10-14",
+        "endTime": "2023-10-15",
+        "dependencies": ["P1-T13"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P1-T15",
+        "taskName": "Testing: Branch-wise Performance Reporting",
+        "correspondingPhase": "Branch Management Setup",
+        "correspondingFeature": "Branch-wise Performance Reporting",
+        "priority": "Low",
+        "estimatedTime": "1 day",
+        "startTime": "2023-10-16",
+        "endTime": "2023-10-16",
+        "dependencies": ["P1-T14"],
+        "responsiblePerson": "QA Engineer"
+      }
+    ]
+  ],
+  [
+    "[\n  {\"id\": \"P2-T1\", \"taskName\": \"Design: User-friendly Menu Navigation\", \"correspondingPhase\": \"Online Ordering System\", \"correspondingFeature\": \"User-friendly Menu Navigation\", \"priority\": \"High\", \"estimatedTime\": \"1 day\", \"startTime\": \"2023-10-13\", \"endTime\": \"2023-10-13\", \"dependencies\": [], \"responsiblePerson\": \"UI/UX Designer\"},\n  {\"id\": \"P2-T2\", \"taskName\": \"Implementation: User-friendly Menu Navigation\", \"correspondingPhase\": \"Online Ordering System\", \"correspondingFeature\": \"User-friendly Menu Navigation\", \"priority\": \"High\", \"estimatedTime\": \"2 days\", \"startTime\": \"2023-10-14\", \"endTime\": \"2023-10-15\", \"dependencies\": [\"P2-T1\"], \"responsiblePerson\": \"Frontend Developer\"},\n  {\"id\": \"P2-T3\", \"taskName\": \"Testing: User-friendly Menu Navigation\", \"correspondingPhase\": \"Online Ordering System\", \"correspondingFeature\": \"User-friendly Menu Navigation\", \"priority\": \"High\", \"estimatedTime\": \"1 day\", \"startTime\": \"2023-10-16\", \"endTime\": \"2023-10-16\", \"dependencies\": [\"P2-T2\"], \"responsiblePerson\": \"QA Engineer\"},\n\n  {\"id\": \"P2-T4\", \"taskName\": \"Design: Order Customization Options\", \"correspondingPhase\": \"Online Ordering System\", \"correspondingFeature\": \"Order Customization Options\", \"priority\": \"High\", \"estimatedTime\": \"1 day\", \"startTime\": \"2023-10-13\", \"endTime\": \"2023-10-13\", \"dependencies\": [], \"responsiblePerson\": \"UI/UX Designer\"},\n  {\"id\": \"P2-T5\", \"taskName\": \"Implementation: Order Customization Options\", \"correspondingPhase\": \"Online Ordering System\", \"correspondingFeature\": \"Order Customization Options\", \"priority\": \"High\", \"estimatedTime\": \"2 days\", \"startTime\": \"2023-10-14\", \"endTime\": \"2023-10-15\", \"dependencies\": [\"P2-T4\"], \"responsiblePerson\": \"Frontend Developer\"},\n  {\"id\": \"P2-T6\", \"taskName\": \"Testing: Order Customization Options\", \"correspondingPhase\": \"Online Ordering System\", \"correspondingFeature\": \"Order Customization Options\", \"priority\": \"High\", \"estimatedTime\": \"1 day\", \"startTime\": \"2023-10-16\", \"endTime\": \"2023-10-16\", \"dependencies\": [\"P2-T5\"], \"responsiblePerson\": \"QA Engineer\"},\n\n  {\"id\": \"P2-T7\", \"taskName\": \"Design: Real-time Order Status Updates\", \"correspondingPhase\": \"Online Ordering System\", \"correspondingFeature\": \"Real-time Order Status Updates\", \"priority\": \"High\", \"estimatedTime\": \"1 day\", \"startTime\": \"2023-10-13\", \"endTime\": \"2023-10-13\", \"dependencies\": [], \"responsiblePerson\": \"UI/UX Designer\"},\n  {\"id\": \"P2-T8\", \"taskName\": \"Implementation: Real-time Order Status Updates\", \"correspondingPhase\": \"Online Ordering System\", \"correspondingFeature\": \"Real-time Order Status Updates\", \"priority\": \"High\", \"estimatedTime\": \"2 days\", \"startTime\": \"2023-10-14\", \"endTime\": \"2023-10-15\", \"dependencies\": [\"P2-T7\"], \"responsiblePerson\": \"Frontend Developer\"},\n  {\"id\": \"P2-T9\", \"taskName\": \"Testing: Real-time Order Status Updates\", \"correspondingPhase\": \"Online Ordering System\", \"correspondingFeature\": \"Real-time Order Status Updates\", \"priority\": \"High\", \"estimatedTime\": \"1 day\", \"startTime\": \"2023-10-16\", \"endTime\": \"2023-10-16\", \"dependencies\": [\"P2-T8\"], \"responsiblePerson\": \"QA Engineer\"},\n\n  {\"id\": \"P2-T10\", \"taskName\": \"Design: Multi-channel Ordering Integration (Web, Mobile App)\", \"correspondingPhase\": \"Online Ordering System\", \"correspondingFeature\": \"Multi-channel Ordering Integration (Web, Mobile App)\", \"priority\": \"Medium\", \"estimatedTime\": \"1 day\", \"startTime\": \"2023-10-13\", \"endTime\": \"2023-10-13\", \"dependencies\": [], \"responsiblePerson\": \"UI/UX Designer\"},\n  {\"id\": \"P2-T11\", \"taskName\": \"Implementation: Multi-channel Ordering Integration (Web, Mobile App)\", \"correspondingPhase\": \"Online Ordering System\", \"correspondingFeature\": \"Multi-channel Ordering Integration (Web, Mobile App)\", \"priority\": \"Medium\", \"estimatedTime\": \"2 days\", \"startTime\": \"2023-10-14\", \"endTime\": \"2023-10-15\", \"dependencies\": [\"P2-T10\"], \"responsiblePerson\": \"Frontend Developer\"},\n  {\"id\": \"P2-T12\", \"taskName\": \"Testing: Multi-channel Ordering Integration (Web, Mobile App)\", \"correspondingPhase\": \"Online Ordering System\", \"correspondingFeature\": \"Multi-channel Ordering Integration (Web, Mobile App)\", \"priority\": \"Medium\", \"estimatedTime\": \"1 day\", \"startTime\": \"2023-10-16\", \"endTime\": \"2023-10-16\", \"dependencies\": [\"P2-T11\"], \"responsiblePerson\": \"QA Engineer\"},\n\n  {\"id\": \"P2-T13\", \"taskName\": \"Design: Order History and Reordering\", \"correspondingPhase\": \"Online Ordering System\", \"correspondingFeature\": \"Order History and Reordering\", \"priority\": \"Medium\", \"estimatedTime\": \"1 day\", \"startTime\": \"2023-10-13\", \"endTime\": \"2023-10-13\", \"dependencies\": [], \"responsiblePerson\": \"UI/UX Designer\"},\n  {\"id\": \"P2-T14\", \"taskName\": \"Implementation: Order History and Reordering\", \"correspondingPhase\": \"Online Ordering System\", \"correspondingFeature\": \"Order History and Reordering\", \"priority\": \"Medium\", \"estimatedTime\": \"2 days\", \"startTime\": \"2023-10-14\", \"endTime\": \"2023-10-15\", \"dependencies\": [\"P2-T13\"], \"responsiblePerson\": \"Frontend Developer\"},\n  {\"id\": \"P2-T15\", \"taskName\": \"Testing: Order History and Reordering\", \"correspondingPhase\": \"Online Ordering System\", \"correspondingFeature\": \"Order History and Reordering\", \"priority\": \"Medium\", \"estimatedTime\": \"1 day\", \"startTime\": \"2023-10-16\", \"endTime\": \"2023-10-16\", \"dependencies\": [\"P2-T14\"], \"responsiblePerson\": \"QA Engineer\"}\n]"
+  ],
+  [
+    {
+      "id": "P3",
+      "phase": "Payment Integration",
+      "feature list": [
+        "Secure Payment Gateways Integration",
+        "Multiple Payment Options (Credit/Debit, Wallets, etc.)",
+        "Transaction History Tracking",
+        "Payment Refund and Dispute Resolution",
+        "Compliance with Financial Regulations"
+      ],
+      "estimatedTime": "2 weeks",
+      "startTime": "2023-11-10",
+      "endTime": "2023-11-24",
+      "dependencies": ["P2"],
+      "tasks": [
+        {
+          "id": "P3-T1",
+          "taskName": "Design Secure Payment Gateways Integration",
+          "correspondingPhase": "Payment Integration",
+          "correspondingFeature": "Secure Payment Gateways Integration",
+          "priority": "Medium",
+          "estimatedTime": "1 day",
+          "startTime": "2023-11-10",
+          "endTime": "2023-11-10",
+          "dependencies": [],
+          "responsiblePerson": "Designer"
+        },
+        {
+          "id": "P3-T2",
+          "taskName": "Implementation Secure Payment Gateways Integration",
+          "correspondingPhase": "Payment Integration",
+          "correspondingFeature": "Secure Payment Gateways Integration",
+          "priority": "High",
+          "estimatedTime": "3 days",
+          "startTime": "2023-11-11",
+          "endTime": "2023-11-13",
+          "dependencies": ["P3-T1"],
+          "responsiblePerson": "Developer"
+        },
+        {
+          "id": "P3-T3",
+          "taskName": "Testing Secure Payment Gateways Integration",
+          "correspondingPhase": "Payment Integration",
+          "correspondingFeature": "Secure Payment Gateways Integration",
+          "priority": "Medium",
+          "estimatedTime": "1 day",
+          "startTime": "2023-11-14",
+          "endTime": "2023-11-14",
+          "dependencies": ["P3-T2"],
+          "responsiblePerson": "QA"
+        },
+        {
+          "id": "P3-T4",
+          "taskName": "Design Multiple Payment Options (Credit/Debit, Wallets, etc.)",
+          "correspondingPhase": "Payment Integration",
+          "correspondingFeature": "Multiple Payment Options (Credit/Debit, Wallets, etc.)",
+          "priority": "Medium",
+          "estimatedTime": "1 day",
+          "startTime": "2023-11-10",
+          "endTime": "2023-11-10",
+          "dependencies": [],
+          "responsiblePerson": "Designer"
+        },
+        {
+          "id": "P3-T5",
+          "taskName": "Implementation Multiple Payment Options (Credit/Debit, Wallets, etc.)",
+          "correspondingPhase": "Payment Integration",
+          "correspondingFeature": "Multiple Payment Options (Credit/Debit, Wallets, etc.)",
+          "priority": "High",
+          "estimatedTime": "3 days",
+          "startTime": "2023-11-11",
+          "endTime": "2023-11-13",
+          "dependencies": ["P3-T4"],
+          "responsiblePerson": "Developer"
+        },
+        {
+          "id": "P3-T6",
+          "taskName": "Testing Multiple Payment Options (Credit/Debit, Wallets, etc.)",
+          "correspondingPhase": "Payment Integration",
+          "correspondingFeature": "Multiple Payment Options (Credit/Debit, Wallets, etc.)",
+          "priority": "Medium",
+          "estimatedTime": "1 day",
+          "startTime": "2023-11-14",
+          "endTime": "2023-11-14",
+          "dependencies": ["P3-T5"],
+          "responsiblePerson": "QA"
+        },
+        {
+          "id": "P3-T7",
+          "taskName": "Design Transaction History Tracking",
+          "correspondingPhase": "Payment Integration",
+          "correspondingFeature": "Transaction History Tracking",
+          "priority": "Medium",
+          "estimatedTime": "1 day",
+          "startTime": "2023-11-10",
+          "endTime": "2023-11-10",
+          "dependencies": [],
+          "responsiblePerson": "Designer"
+        },
+        {
+          "id": "P3-T8",
+          "taskName": "Implementation Transaction History Tracking",
+          "correspondingPhase": "Payment Integration",
+          "correspondingFeature": "Transaction History Tracking",
+          "priority": "High",
+          "estimatedTime": "3 days",
+          "startTime": "2023-11-11",
+          "endTime": "2023-11-13",
+          "dependencies": ["P3-T7"],
+          "responsiblePerson": "Developer"
+        },
+        {
+          "id": "P3-T9",
+          "taskName": "Testing Transaction History Tracking",
+          "correspondingPhase": "Payment Integration",
+          "correspondingFeature": "Transaction History Tracking",
+          "priority": "Medium",
+          "estimatedTime": "1 day",
+          "startTime": "2023-11-14",
+          "endTime": "2023-11-14",
+          "dependencies": ["P3-T8"],
+          "responsiblePerson": "QA"
+        },
+        {
+          "id": "P3-T10",
+          "taskName": "Design Payment Refund and Dispute Resolution",
+          "correspondingPhase": "Payment Integration",
+          "correspondingFeature": "Payment Refund and Dispute Resolution",
+          "priority": "Medium",
+          "estimatedTime": "1 day",
+          "startTime": "2023-11-10",
+          "endTime": "2023-11-10",
+          "dependencies": [],
+          "responsiblePerson": "Designer"
+        },
+        {
+          "id": "P3-T11",
+          "taskName": "Implementation Payment Refund and Dispute Resolution",
+          "correspondingPhase": "Payment Integration",
+          "correspondingFeature": "Payment Refund and Dispute Resolution",
+          "priority": "High",
+          "estimatedTime": "3 days",
+          "startTime": "2023-11-11",
+          "endTime": "2023-11-13",
+          "dependencies": ["P3-T10"],
+          "responsiblePerson": "Developer"
+        },
+        {
+          "id": "P3-T12",
+          "taskName": "Testing Payment Refund and Dispute Resolution",
+          "correspondingPhase": "Payment Integration",
+          "correspondingFeature": "Payment Refund and Dispute Resolution",
+          "priority": "Medium",
+          "estimatedTime": "1 day",
+          "startTime": "2023-11-14",
+          "endTime": "2023-11-14",
+          "dependencies": ["P3-T11"],
+          "responsiblePerson": "QA"
+        },
+        {
+          "id": "P3-T13",
+          "taskName": "Design Compliance with Financial Regulations",
+          "correspondingPhase": "Payment Integration",
+          "correspondingFeature": "Compliance with Financial Regulations",
+          "priority": "Medium",
+          "estimatedTime": "1 day",
+          "startTime": "2023-11-10",
+          "endTime": "2023-11-10",
+          "dependencies": [],
+          "responsiblePerson": "Designer"
+        },
+        {
+          "id": "P3-T14",
+          "taskName": "Implementation Compliance with Financial Regulations",
+          "correspondingPhase": "Payment Integration",
+          "correspondingFeature": "Compliance with Financial Regulations",
+          "priority": "High",
+          "estimatedTime": "3 days",
+          "startTime": "2023-11-11",
+          "endTime": "2023-11-13",
+          "dependencies": ["P3-T13"],
+          "responsiblePerson": "Developer"
+        },
+        {
+          "id": "P3-T15",
+          "taskName": "Testing Compliance with Financial Regulations",
+          "correspondingPhase": "Payment Integration",
+          "correspondingFeature": "Compliance with Financial Regulations",
+          "priority": "Medium",
+          "estimatedTime": "1 day",
+          "startTime": "2023-11-14",
+          "endTime": "2023-11-14",
+          "dependencies": ["P3-T14"],
+          "responsiblePerson": "QA"
+        }
+      ]
+    }
+  ],
+  [
+    [
+      {
+        "id": "P4-T1",
+        "taskName": "Design: Dynamic Discounts and Coupons",
+        "correspondingPhase": "Promotional & Menu Management",
+        "correspondingFeature": "Dynamic Discounts and Coupons",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-10",
+        "endTime": "2023-11-10",
+        "dependencies": [],
+        "responsiblePerson": "Designer"
+      },
+      {
+        "id": "P4-T2",
+        "taskName": "Implementation: Dynamic Discounts and Coupons",
+        "correspondingPhase": "Promotional & Menu Management",
+        "correspondingFeature": "Dynamic Discounts and Coupons",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-11-11",
+        "endTime": "2023-11-12",
+        "dependencies": ["P4-T1"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P4-T3",
+        "taskName": "Testing: Dynamic Discounts and Coupons",
+        "correspondingPhase": "Promotional & Menu Management",
+        "correspondingFeature": "Dynamic Discounts and Coupons",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-13",
+        "endTime": "2023-11-13",
+        "dependencies": ["P4-T2"],
+        "responsiblePerson": "QA"
+      },
+      {
+        "id": "P4-T4",
+        "taskName": "Design: Loyalty and Rewards Programs",
+        "correspondingPhase": "Promotional & Menu Management",
+        "correspondingFeature": "Loyalty and Rewards Programs",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-10",
+        "endTime": "2023-11-10",
+        "dependencies": [],
+        "responsiblePerson": "Designer"
+      },
+      {
+        "id": "P4-T5",
+        "taskName": "Implementation: Loyalty and Rewards Programs",
+        "correspondingPhase": "Promotional & Menu Management",
+        "correspondingFeature": "Loyalty and Rewards Programs",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-11-11",
+        "endTime": "2023-11-12",
+        "dependencies": ["P4-T4"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P4-T6",
+        "taskName": "Testing: Loyalty and Rewards Programs",
+        "correspondingPhase": "Promotional & Menu Management",
+        "correspondingFeature": "Loyalty and Rewards Programs",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-13",
+        "endTime": "2023-11-13",
+        "dependencies": ["P4-T5"],
+        "responsiblePerson": "QA"
+      },
+      {
+        "id": "P4-T7",
+        "taskName": "Design: Seasonal and Time-based Promotions",
+        "correspondingPhase": "Promotional & Menu Management",
+        "correspondingFeature": "Seasonal and Time-based Promotions",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-10",
+        "endTime": "2023-11-10",
+        "dependencies": [],
+        "responsiblePerson": "Designer"
+      },
+      {
+        "id": "P4-T8",
+        "taskName": "Implementation: Seasonal and Time-based Promotions",
+        "correspondingPhase": "Promotional & Menu Management",
+        "correspondingFeature": "Seasonal and Time-based Promotions",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-11-11",
+        "endTime": "2023-11-12",
+        "dependencies": ["P4-T7"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P4-T9",
+        "taskName": "Testing: Seasonal and Time-based Promotions",
+        "correspondingPhase": "Promotional & Menu Management",
+        "correspondingFeature": "Seasonal and Time-based Promotions",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-13",
+        "endTime": "2023-11-13",
+        "dependencies": ["P4-T8"],
+        "responsiblePerson": "QA"
+      },
+      {
+        "id": "P4-T10",
+        "taskName": "Design: Referral Programs",
+        "correspondingPhase": "Promotional & Menu Management",
+        "correspondingFeature": "Referral Programs",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-10",
+        "endTime": "2023-11-10",
+        "dependencies": [],
+        "responsiblePerson": "Designer"
+      },
+      {
+        "id": "P4-T11",
+        "taskName": "Implementation: Referral Programs",
+        "correspondingPhase": "Promotional & Menu Management",
+        "correspondingFeature": "Referral Programs",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-11-11",
+        "endTime": "2023-11-12",
+        "dependencies": ["P4-T10"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P4-T12",
+        "taskName": "Testing: Referral Programs",
+        "correspondingPhase": "Promotional & Menu Management",
+        "correspondingFeature": "Referral Programs",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-13",
+        "endTime": "2023-11-13",
+        "dependencies": ["P4-T11"],
+        "responsiblePerson": "QA"
+      },
+      {
+        "id": "P4-T13",
+        "taskName": "Design: Promotion Performance Analytics",
+        "correspondingPhase": "Promotional & Menu Management",
+        "correspondingFeature": "Promotion Performance Analytics",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-10",
+        "endTime": "2023-11-10",
+        "dependencies": [],
+        "responsiblePerson": "Designer"
+      },
+      {
+        "id": "P4-T14",
+        "taskName": "Implementation: Promotion Performance Analytics",
+        "correspondingPhase": "Promotional & Menu Management",
+        "correspondingFeature": "Promotion Performance Analytics",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-11-11",
+        "endTime": "2023-11-12",
+        "dependencies": ["P4-T13"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P4-T15",
+        "taskName": "Testing: Promotion Performance Analytics",
+        "correspondingPhase": "Promotional & Menu Management",
+        "correspondingFeature": "Promotion Performance Analytics",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-13",
+        "endTime": "2023-11-13",
+        "dependencies": ["P4-T14"],
+        "responsiblePerson": "QA"
+      },
+      {
+        "id": "P4-T16",
+        "taskName": "Design: Menu Items Catalog Management",
+        "correspondingPhase": "Promotional & Menu Management",
+        "correspondingFeature": "Menu Items Catalog Management",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-10",
+        "endTime": "2023-11-10",
+        "dependencies": [],
+        "responsiblePerson": "Designer"
+      },
+      {
+        "id": "P4-T17",
+        "taskName": "Implementation: Menu Items Catalog Management",
+        "correspondingPhase": "Promotional & Menu Management",
+        "correspondingFeature": "Menu Items Catalog Management",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-11-11",
+        "endTime": "2023-11-12",
+        "dependencies": ["P4-T16"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P4-T18",
+        "taskName": "Testing: Menu Items Catalog Management",
+        "correspondingPhase": "Promotional & Menu Management",
+        "correspondingFeature": "Menu Items Catalog Management",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-13",
+        "endTime": "2023-11-13",
+        "dependencies": ["P4-T17"],
+        "responsiblePerson": "QA"
+      },
+      {
+        "id": "P4-T19",
+        "taskName": "Design: Real-time Pricing Updates",
+        "correspondingPhase": "Promotional & Menu Management",
+        "correspondingFeature": "Real-time Pricing Updates",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-10",
+        "endTime": "2023-11-10",
+        "dependencies": [],
+        "responsiblePerson": "Designer"
+      },
+      {
+        "id": "P4-T20",
+        "taskName": "Implementation: Real-time Pricing Updates",
+        "correspondingPhase": "Promotional & Menu Management",
+        "correspondingFeature": "Real-time Pricing Updates",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-11-11",
+        "endTime": "2023-11-12",
+        "dependencies": ["P4-T19"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P4-T21",
+        "taskName": "Testing: Real-time Pricing Updates",
+        "correspondingPhase": "Promotional & Menu Management",
+        "correspondingFeature": "Real-time Pricing Updates",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-13",
+        "endTime": "2023-11-13",
+        "dependencies": ["P4-T20"],
+        "responsiblePerson": "QA"
+      },
+      {
+        "id": "P4-T22",
+        "taskName": "Design: Item Descriptions and Allergen Information",
+        "correspondingPhase": "Promotional & Menu Management",
+        "correspondingFeature": "Item Descriptions and Allergen Information",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-10",
+        "endTime": "2023-11-10",
+        "dependencies": [],
+        "responsiblePerson": "Designer"
+      },
+      {
+        "id": "P4-T23",
+        "taskName": "Implementation: Item Descriptions and Allergen Information",
+        "correspondingPhase": "Promotional & Menu Management",
+        "correspondingFeature": "Item Descriptions and Allergen Information",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-11-11",
+        "endTime": "2023-11-12",
+        "dependencies": ["P4-T22"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P4-T24",
+        "taskName": "Testing: Item Descriptions and Allergen Information",
+        "correspondingPhase": "Promotional & Menu Management",
+        "correspondingFeature": "Item Descriptions and Allergen Information",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-13",
+        "endTime": "2023-11-13",
+        "dependencies": ["P4-T23"],
+        "responsiblePerson": "QA"
+      },
+      {
+        "id": "P4-T25",
+        "taskName": "Design: Category-based Menu Organization",
+        "correspondingPhase": "Promotional & Menu Management",
+        "correspondingFeature": "Category-based Menu Organization",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-10",
+        "endTime": "2023-11-10",
+        "dependencies": [],
+        "responsiblePerson": "Designer"
+      },
+      {
+        "id": "P4-T26",
+        "taskName": "Implementation: Category-based Menu Organization",
+        "correspondingPhase": "Promotional & Menu Management",
+        "correspondingFeature": "Category-based Menu Organization",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-11-11",
+        "endTime": "2023-11-12",
+        "dependencies": ["P4-T25"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P4-T27",
+        "taskName": "Testing: Category-based Menu Organization",
+        "correspondingPhase": "Promotional & Menu Management",
+        "correspondingFeature": "Category-based Menu Organization",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-13",
+        "endTime": "2023-11-13",
+        "dependencies": ["P4-T26"],
+        "responsiblePerson": "QA"
+      },
+      {
+        "id": "P4-T28",
+        "taskName": "Design: Stock and Availability Management",
+        "correspondingPhase": "Promotional & Menu Management",
+        "correspondingFeature": "Stock and Availability Management",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-10",
+        "endTime": "2023-11-10",
+        "dependencies": [],
+        "responsiblePerson": "Designer"
+      },
+      {
+        "id": "P4-T29",
+        "taskName": "Implementation: Stock and Availability Management",
+        "correspondingPhase": "Promotional & Menu Management",
+        "correspondingFeature": "Stock and Availability Management",
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-11-11",
+        "endTime": "2023-11-12",
+        "dependencies": ["P4-T28"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P4-T30",
+        "taskName": "Testing: Stock and Availability Management",
+        "correspondingPhase": "Promotional & Menu Management",
+        "correspondingFeature": "Stock and Availability Management",
+        "priority": "Medium",
+        "estimatedTime": "1 day",
+        "startTime": "2023-11-13",
+        "endTime": "2023-11-13",
+        "dependencies": ["P4-T29"],
+        "responsiblePerson": "QA"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": "P5-T1",
+        "taskName": "Design Customer Feedback Implementation",
+        "correspondingPhase": "Customer Feedback Implementation",
+        "correspondingFeature": [
+          "Review and Rating System",
+          "Feedback Collection via Surveys",
+          "Real-time Issue Escalation",
+          "Sentiment Analysis Tools",
+          "Customer Support Chat Integration"
+        ],
+        "priority": "High",
+        "estimatedTime": "4 days",
+        "startTime": "2023-11-10",
+        "endTime": "2023-11-13",
+        "dependencies": [],
+        "responsiblePerson": "UI/UX Designer"
+      },
+      {
+        "id": "P5-T2",
+        "taskName": "Implement Customer Feedback Features",
+        "correspondingPhase": "Customer Feedback Implementation",
+        "correspondingFeature": [
+          "Review and Rating System",
+          "Feedback Collection via Surveys",
+          "Real-time Issue Escalation",
+          "Sentiment Analysis Tools",
+          "Customer Support Chat Integration"
+        ],
+        "priority": "High",
+        "estimatedTime": "6 days",
+        "startTime": "2023-11-14",
+        "endTime": "2023-11-19",
+        "dependencies": ["P5-T1"],
+        "responsiblePerson": "Developer"
+      },
+      {
+        "id": "P5-T3",
+        "taskName": "Test Customer Feedback Implementation",
+        "correspondingPhase": "Customer Feedback Implementation",
+        "correspondingFeature": [
+          "Review and Rating System",
+          "Feedback Collection via Surveys",
+          "Real-time Issue Escalation",
+          "Sentiment Analysis Tools",
+          "Customer Support Chat Integration"
+        ],
+        "priority": "Medium",
+        "estimatedTime": "4 days",
+        "startTime": "2023-11-20",
+        "endTime": "2023-11-23",
+        "dependencies": ["P5-T2"],
+        "responsiblePerson": "QA Engineer"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "id": "P6-T1",
+        "taskName": "Design Data Analytics and Reporting System",
+        "correspondingPhase": "Data Analytics and Reporting",
+        "correspondingFeature": [
+          "Sales and Revenue Analytics Dashboard",
+          "Customer Behavior Insights",
+          "Order Pattern and Trend Analysis",
+          "Reporting Tools for Managerial Decision Making",
+          "Data Export and Integration with BI Tools"
+        ],
+        "priority": "High",
+        "estimatedTime": "2 days",
+        "startTime": "2023-11-30",
+        "endTime": "2023-12-01",
+        "dependencies": ["P3", "P4"],
+        "responsiblePerson": "Lead Designer"
+      },
+      {
+        "id": "P6-T2",
+        "taskName": "Implement Data Analytics and Reporting System",
+        "correspondingPhase": "Data Analytics and Reporting",
+        "correspondingFeature": [
+          "Sales and Revenue Analytics Dashboard",
+          "Customer Behavior Insights",
+          "Order Pattern and Trend Analysis",
+          "Reporting Tools for Managerial Decision Making",
+          "Data Export and Integration with BI Tools"
+        ],
+        "priority": "High",
+        "estimatedTime": "8 days",
+        "startTime": "2023-12-02",
+        "endTime": "2023-12-09",
+        "dependencies": ["P6-T1"],
+        "responsiblePerson": "Senior Developer"
+      },
+      {
+        "id": "P6-T3",
+        "taskName": "Test Data Analytics and Reporting System",
+        "correspondingPhase": "Data Analytics and Reporting",
+        "correspondingFeature": [
+          "Sales and Revenue Analytics Dashboard",
+          "Customer Behavior Insights",
+          "Order Pattern and Trend Analysis",
+          "Reporting Tools for Managerial Decision Making",
+          "Data Export and Integration with BI Tools"
+        ],
+        "priority": "Medium",
+        "estimatedTime": "2 days",
+        "startTime": "2023-12-10",
+        "endTime": "2023-12-11",
+        "dependencies": ["P6-T2"],
+        "responsiblePerson": "QA Specialist"
+      }
+    ]
+  ]
+]

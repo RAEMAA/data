@@ -1,0 +1,807 @@
+[
+  [
+      {
+          "id": "P1-T1",
+          "taskName": "Design User Profile Creation and Management",
+          "correspondingPhase": "Phase 1: Foundation & Core",
+          "correspondingFeature": "User Profile Creation and Management",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-07-22",
+          "endTime": "2024-07-24",
+          "dependencies": [],
+          "responsiblePerson": "Designer"
+      },
+      {
+          "id": "P1-T2",
+          "taskName": "Implement User Profile Creation and Management",
+          "correspondingPhase": "Phase 1: Foundation & Core",
+          "correspondingFeature": "User Profile Creation and Management",
+          "priority": "High",
+          "estimationTime": "4 days",
+          "startTime": "2024-07-24",
+          "endTime": "2024-07-29",
+          "dependencies": [
+              "P1-T1"
+          ],
+          "responsiblePerson": "Developer"
+      },
+      {
+          "id": "P1-T3",
+          "taskName": "Test User Profile Creation and Management",
+          "correspondingPhase": "Phase 1: Foundation & Core",
+          "correspondingFeature": "User Profile Creation and Management",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-07-29",
+          "endTime": "2024-07-30",
+          "dependencies": [
+              "P1-T2"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P1-T4",
+          "taskName": "Design Personal Space Dashboard",
+          "correspondingPhase": "Phase 1: Foundation & Core",
+          "correspondingFeature": "Personal Space Dashboard",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-07-22",
+          "endTime": "2024-07-23",
+          "dependencies": [],
+          "responsiblePerson": "Designer"
+      },
+      {
+          "id": "P1-T5",
+          "taskName": "Implement Personal Space Dashboard",
+          "correspondingPhase": "Phase 1: Foundation & Core",
+          "correspondingFeature": "Personal Space Dashboard",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-07-30",
+          "endTime": "2024-08-02",
+          "dependencies": [
+              "P1-T4",
+              "P1-T2"
+          ],
+          "responsiblePerson": "Developer"
+      },
+      {
+          "id": "P1-T6",
+          "taskName": "Test Personal Space Dashboard",
+          "correspondingPhase": "Phase 1: Foundation & Core",
+          "correspondingFeature": "Personal Space Dashboard",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-02",
+          "endTime": "2024-08-05",
+          "dependencies": [
+              "P1-T5"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P1-T7",
+          "taskName": "Design Content Feed",
+          "correspondingPhase": "Phase 1: Foundation & Core",
+          "correspondingFeature": "Content Feed",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-07-23",
+          "endTime": "2024-07-24",
+          "dependencies": [],
+          "responsiblePerson": "Designer"
+      },
+      {
+          "id": "P1-T8",
+          "taskName": "Implement Content Feed",
+          "correspondingPhase": "Phase 1: Foundation & Core",
+          "correspondingFeature": "Content Feed",
+          "priority": "High",
+          "estimationTime": "4 days",
+          "startTime": "2024-08-05",
+          "endTime": "2024-08-09",
+          "dependencies": [
+              "P1-T7",
+              "P1-T2"
+          ],
+          "responsiblePerson": "Developer"
+      },
+      {
+          "id": "P1-T9",
+          "taskName": "Test Content Feed",
+          "correspondingPhase": "Phase 1: Foundation & Core",
+          "correspondingFeature": "Content Feed",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-09",
+          "endTime": "2024-08-12",
+          "dependencies": [
+              "P1-T8"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P1-T10",
+          "taskName": "Design Search Functionality",
+          "correspondingPhase": "Phase 1: Foundation & Core",
+          "correspondingFeature": "Search Functionality",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-07-24",
+          "endTime": "2024-07-25",
+          "dependencies": [],
+          "responsiblePerson": "Designer"
+      },
+      {
+          "id": "P1-T11",
+          "taskName": "Implement Search Functionality",
+          "correspondingPhase": "Phase 1: Foundation & Core",
+          "correspondingFeature": "Search Functionality",
+          "priority": "Medium",
+          "estimationTime": "3 days",
+          "startTime": "2024-08-12",
+          "endTime": "2024-08-15",
+          "dependencies": [
+              "P1-T10",
+              "P1-T2"
+          ],
+          "responsiblePerson": "Developer"
+      },
+      {
+          "id": "P1-T12",
+          "taskName": "Test Search Functionality",
+          "correspondingPhase": "Phase 1: Foundation & Core",
+          "correspondingFeature": "Search Functionality",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-15",
+          "endTime": "2024-08-16",
+          "dependencies": [
+              "P1-T11"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P1-T13",
+          "taskName": "Design Notifications",
+          "correspondingPhase": "Phase 1: Foundation & Core",
+          "correspondingFeature": "Notifications",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-07-25",
+          "endTime": "2024-07-26",
+          "dependencies": [],
+          "responsiblePerson": "Designer"
+      },
+      {
+          "id": "P1-T14",
+          "taskName": "Implement Notifications",
+          "correspondingPhase": "Phase 1: Foundation & Core",
+          "correspondingFeature": "Notifications",
+          "priority": "Medium",
+          "estimationTime": "3 days",
+          "startTime": "2024-08-16",
+          "endTime": "2024-08-19",
+          "dependencies": [
+              "P1-T13",
+              "P1-T2"
+          ],
+          "responsiblePerson": "Developer"
+      },
+      {
+          "id": "P1-T15",
+          "taskName": "Test Notifications",
+          "correspondingPhase": "Phase 1: Foundation & Core",
+          "correspondingFeature": "Notifications",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-19",
+          "endTime": "2024-08-20",
+          "dependencies": [
+              "P1-T14"
+          ],
+          "responsiblePerson": "QA Tester"
+      }
+  ],
+  [
+      {
+          "id": "P2-T1",
+          "taskName": "Design Dream Posting UI",
+          "correspondingPhase": "Phase 2: Content Sharing & Basic Interaction",
+          "correspondingFeature": "Dream Posting",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-19",
+          "endTime": "2024-08-20",
+          "dependencies": [],
+          "responsiblePerson": "Designer A"
+      },
+      {
+          "id": "P2-T2",
+          "taskName": "Implement Dream Posting Functionality",
+          "correspondingPhase": "Phase 2: Content Sharing & Basic Interaction",
+          "correspondingFeature": "Dream Posting",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-08-20",
+          "endTime": "2024-08-23",
+          "dependencies": [],
+          "responsiblePerson": "Developer B"
+      },
+      {
+          "id": "P2-T3",
+          "taskName": "Test Dream Posting Functionality",
+          "correspondingPhase": "Phase 2: Content Sharing & Basic Interaction",
+          "correspondingFeature": "Dream Posting",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-23",
+          "endTime": "2024-08-24",
+          "dependencies": [
+              "P2-T2"
+          ],
+          "responsiblePerson": "QA Engineer A"
+      },
+      {
+          "id": "P2-T4",
+          "taskName": "Design Mood Sharing UI",
+          "correspondingPhase": "Phase 2: Content Sharing & Basic Interaction",
+          "correspondingFeature": "Mood Sharing",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-24",
+          "endTime": "2024-08-25",
+          "dependencies": [],
+          "responsiblePerson": "Designer A"
+      },
+      {
+          "id": "P2-T5",
+          "taskName": "Implement Mood Sharing Functionality",
+          "correspondingPhase": "Phase 2: Content Sharing & Basic Interaction",
+          "correspondingFeature": "Mood Sharing",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-08-25",
+          "endTime": "2024-08-27",
+          "dependencies": [],
+          "responsiblePerson": "Developer C"
+      },
+      {
+          "id": "P2-T6",
+          "taskName": "Test Mood Sharing Functionality",
+          "correspondingPhase": "Phase 2: Content Sharing & Basic Interaction",
+          "correspondingFeature": "Mood Sharing",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-27",
+          "endTime": "2024-08-28",
+          "dependencies": [
+              "P2-T5"
+          ],
+          "responsiblePerson": "QA Engineer B"
+      },
+      {
+          "id": "P2-T7",
+          "taskName": "Design Opinion Sharing UI",
+          "correspondingPhase": "Phase 2: Content Sharing & Basic Interaction",
+          "correspondingFeature": "Opinion Sharing",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-28",
+          "endTime": "2024-08-29",
+          "dependencies": [],
+          "responsiblePerson": "Designer B"
+      },
+      {
+          "id": "P2-T8",
+          "taskName": "Implement Opinion Sharing Functionality",
+          "correspondingPhase": "Phase 2: Content Sharing & Basic Interaction",
+          "correspondingFeature": "Opinion Sharing",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-08-29",
+          "endTime": "2024-08-31",
+          "dependencies": [],
+          "responsiblePerson": "Developer A"
+      },
+      {
+          "id": "P2-T9",
+          "taskName": "Test Opinion Sharing Functionality",
+          "correspondingPhase": "Phase 2: Content Sharing & Basic Interaction",
+          "correspondingFeature": "Opinion Sharing",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-08-31",
+          "endTime": "2024-09-01",
+          "dependencies": [
+              "P2-T8"
+          ],
+          "responsiblePerson": "QA Engineer A"
+      },
+      {
+          "id": "P2-T10",
+          "taskName": "Design Idea Sharing UI",
+          "correspondingPhase": "Phase 2: Content Sharing & Basic Interaction",
+          "correspondingFeature": "Idea Sharing",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-01",
+          "endTime": "2024-09-02",
+          "dependencies": [],
+          "responsiblePerson": "Designer B"
+      },
+      {
+          "id": "P2-T11",
+          "taskName": "Implement Idea Sharing Functionality",
+          "correspondingPhase": "Phase 2: Content Sharing & Basic Interaction",
+          "correspondingFeature": "Idea Sharing",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-09-02",
+          "endTime": "2024-09-04",
+          "dependencies": [],
+          "responsiblePerson": "Developer B"
+      },
+      {
+          "id": "P2-T12",
+          "taskName": "Test Idea Sharing Functionality",
+          "correspondingPhase": "Phase 2: Content Sharing & Basic Interaction",
+          "correspondingFeature": "Idea Sharing",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-04",
+          "endTime": "2024-09-05",
+          "dependencies": [
+              "P2-T11"
+          ],
+          "responsiblePerson": "QA Engineer B"
+      },
+      {
+          "id": "P2-T13",
+          "taskName": "Design Commenting and Feedback UI",
+          "correspondingPhase": "Phase 2: Content Sharing & Basic Interaction",
+          "correspondingFeature": "Commenting and Feedback",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-05",
+          "endTime": "2024-09-06",
+          "dependencies": [],
+          "responsiblePerson": "Designer A"
+      },
+      {
+          "id": "P2-T14",
+          "taskName": "Implement Commenting and Feedback Functionality",
+          "correspondingPhase": "Phase 2: Content Sharing & Basic Interaction",
+          "correspondingFeature": "Commenting and Feedback",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-06",
+          "endTime": "2024-09-07",
+          "dependencies": [],
+          "responsiblePerson": "Developer C"
+      },
+      {
+          "id": "P2-T15",
+          "taskName": "Test Commenting and Feedback Functionality",
+          "correspondingPhase": "Phase 2: Content Sharing & Basic Interaction",
+          "correspondingFeature": "Commenting and Feedback",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-07",
+          "endTime": "2024-09-08",
+          "dependencies": [
+              "P2-T14"
+          ],
+          "responsiblePerson": "QA Engineer A"
+      }
+  ],
+  [
+      {
+          "id": "P3-T1",
+          "taskName": "Design Opinion Survey Creation",
+          "correspondingPhase": "Phase 3: Advanced Interaction & Support",
+          "correspondingFeature": "Opinion Survey Creation",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-09-09",
+          "endTime": "2024-09-10",
+          "dependencies": [],
+          "responsiblePerson": "Designer"
+      },
+      {
+          "id": "P3-T2",
+          "taskName": "Implement Opinion Survey Creation",
+          "correspondingPhase": "Phase 3: Advanced Interaction & Support",
+          "correspondingFeature": "Opinion Survey Creation",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-09-11",
+          "endTime": "2024-09-13",
+          "dependencies": [
+              "P3-T1"
+          ],
+          "responsiblePerson": "Developer"
+      },
+      {
+          "id": "P3-T3",
+          "taskName": "Test Opinion Survey Creation",
+          "correspondingPhase": "Phase 3: Advanced Interaction & Support",
+          "correspondingFeature": "Opinion Survey Creation",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-16",
+          "endTime": "2024-09-16",
+          "dependencies": [
+              "P3-T2"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P3-T4",
+          "taskName": "Design Opinion Survey Participation",
+          "correspondingPhase": "Phase 3: Advanced Interaction & Support",
+          "correspondingFeature": "Opinion Survey Participation",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-09-09",
+          "endTime": "2024-09-10",
+          "dependencies": [],
+          "responsiblePerson": "Designer"
+      },
+      {
+          "id": "P3-T5",
+          "taskName": "Implement Opinion Survey Participation",
+          "correspondingPhase": "Phase 3: Advanced Interaction & Support",
+          "correspondingFeature": "Opinion Survey Participation",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-09-11",
+          "endTime": "2024-09-13",
+          "dependencies": [
+              "P3-T4"
+          ],
+          "responsiblePerson": "Developer"
+      },
+      {
+          "id": "P3-T6",
+          "taskName": "Test Opinion Survey Participation",
+          "correspondingPhase": "Phase 3: Advanced Interaction & Support",
+          "correspondingFeature": "Opinion Survey Participation",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-16",
+          "endTime": "2024-09-16",
+          "dependencies": [
+              "P3-T5"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P3-T7",
+          "taskName": "Design Seeking Support/Solutions",
+          "correspondingPhase": "Phase 3: Advanced Interaction & Support",
+          "correspondingFeature": "Seeking Support/Solutions",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-17",
+          "endTime": "2024-09-17",
+          "dependencies": [],
+          "responsiblePerson": "Designer"
+      },
+      {
+          "id": "P3-T8",
+          "taskName": "Implement Seeking Support/Solutions",
+          "correspondingPhase": "Phase 3: Advanced Interaction & Support",
+          "correspondingFeature": "Seeking Support/Solutions",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-09-18",
+          "endTime": "2024-09-19",
+          "dependencies": [
+              "P3-T7"
+          ],
+          "responsiblePerson": "Developer"
+      },
+      {
+          "id": "P3-T9",
+          "taskName": "Test Seeking Support/Solutions",
+          "correspondingPhase": "Phase 3: Advanced Interaction & Support",
+          "correspondingFeature": "Seeking Support/Solutions",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-20",
+          "endTime": "2024-09-20",
+          "dependencies": [
+              "P3-T8"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P3-T10",
+          "taskName": "Design Offering Support/Solutions",
+          "correspondingPhase": "Phase 3: Advanced Interaction & Support",
+          "correspondingFeature": "Offering Support/Solutions",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-17",
+          "endTime": "2024-09-17",
+          "dependencies": [],
+          "responsiblePerson": "Designer"
+      },
+      {
+          "id": "P3-T11",
+          "taskName": "Implement Offering Support/Solutions",
+          "correspondingPhase": "Phase 3: Advanced Interaction & Support",
+          "correspondingFeature": "Offering Support/Solutions",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-09-18",
+          "endTime": "2024-09-19",
+          "dependencies": [
+              "P3-T10"
+          ],
+          "responsiblePerson": "Developer"
+      },
+      {
+          "id": "P3-T12",
+          "taskName": "Test Offering Support/Solutions",
+          "correspondingPhase": "Phase 3: Advanced Interaction & Support",
+          "correspondingFeature": "Offering Support/Solutions",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-20",
+          "endTime": "2024-09-20",
+          "dependencies": [
+              "P3-T11"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P3-T13",
+          "taskName": "Integration Testing",
+          "correspondingPhase": "Phase 3: Advanced Interaction & Support",
+          "correspondingFeature": "All Features",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-09-23",
+          "endTime": "2024-09-25",
+          "dependencies": [
+              "P3-T3",
+              "P3-T6",
+              "P3-T9",
+              "P3-T12"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P3-T14",
+          "taskName": "User Acceptance Testing",
+          "correspondingPhase": "Phase 3: Advanced Interaction & Support",
+          "correspondingFeature": "All Features",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-09-26",
+          "endTime": "2024-09-27",
+          "dependencies": [
+              "P3-T13"
+          ],
+          "responsiblePerson": "QA Tester"
+      },
+      {
+          "id": "P3-T15",
+          "taskName": "Deployment",
+          "correspondingPhase": "Phase 3: Advanced Interaction & Support",
+          "correspondingFeature": "All Features",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-09-28",
+          "endTime": "2024-09-28",
+          "dependencies": [
+              "P3-T14"
+          ],
+          "responsiblePerson": "DevOps"
+      }
+  ],
+  [
+      {
+          "id": "P4-T1",
+          "taskName": "Design Similar Dream Matching Algorithm",
+          "correspondingPhase": "Phase 4: Connection Features",
+          "correspondingFeature": "Similar Dream Matching",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-09-30",
+          "endTime": "2024-10-02",
+          "dependencies": [
+              "P3-T12"
+          ],
+          "responsiblePerson": "Alice"
+      },
+      {
+          "id": "P4-T2",
+          "taskName": "Implement Similar Dream Matching",
+          "correspondingPhase": "Phase 4: Connection Features",
+          "correspondingFeature": "Similar Dream Matching",
+          "priority": "High",
+          "estimationTime": "4 days",
+          "startTime": "2024-10-03",
+          "endTime": "2024-10-06",
+          "dependencies": [
+              "P4-T1"
+          ],
+          "responsiblePerson": "Bob"
+      },
+      {
+          "id": "P4-T3",
+          "taskName": "Test Similar Dream Matching",
+          "correspondingPhase": "Phase 4: Connection Features",
+          "correspondingFeature": "Similar Dream Matching",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-10-07",
+          "endTime": "2024-10-08",
+          "dependencies": [
+              "P4-T2"
+          ],
+          "responsiblePerson": "Charlie"
+      },
+      {
+          "id": "P4-T4",
+          "taskName": "Design Soulmate Connection Algorithm",
+          "correspondingPhase": "Phase 4: Connection Features",
+          "correspondingFeature": "Soulmate Connection",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-09-30",
+          "endTime": "2024-10-01",
+          "dependencies": [
+              "P3-T12"
+          ],
+          "responsiblePerson": "David"
+      },
+      {
+          "id": "P4-T5",
+          "taskName": "Implement Soulmate Connection",
+          "correspondingPhase": "Phase 4: Connection Features",
+          "correspondingFeature": "Soulmate Connection",
+          "priority": "Medium",
+          "estimationTime": "3 days",
+          "startTime": "2024-10-02",
+          "endTime": "2024-10-04",
+          "dependencies": [
+              "P4-T4"
+          ],
+          "responsiblePerson": "Eve"
+      },
+      {
+          "id": "P4-T6",
+          "taskName": "Test Soulmate Connection",
+          "correspondingPhase": "Phase 4: Connection Features",
+          "correspondingFeature": "Soulmate Connection",
+          "priority": "Medium",
+          "estimationTime": "1 day",
+          "startTime": "2024-10-05",
+          "endTime": "2024-10-05",
+          "dependencies": [
+              "P4-T5"
+          ],
+          "responsiblePerson": "Frank"
+      },
+      {
+          "id": "P4-T7",
+          "taskName": "Design Direct Messaging Interface",
+          "correspondingPhase": "Phase 4: Connection Features",
+          "correspondingFeature": "Direct Messaging",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-10-07",
+          "endTime": "2024-10-08",
+          "dependencies": [
+              "P3-T12"
+          ],
+          "responsiblePerson": "Grace"
+      },
+      {
+          "id": "P4-T8",
+          "taskName": "Implement Direct Messaging Functionality",
+          "correspondingPhase": "Phase 4: Connection Features",
+          "correspondingFeature": "Direct Messaging",
+          "priority": "High",
+          "estimationTime": "4 days",
+          "startTime": "2024-10-09",
+          "endTime": "2024-10-12",
+          "dependencies": [
+              "P4-T7"
+          ],
+          "responsiblePerson": "Heidi"
+      },
+      {
+          "id": "P4-T9",
+          "taskName": "Test Direct Messaging Functionality",
+          "correspondingPhase": "Phase 4: Connection Features",
+          "correspondingFeature": "Direct Messaging",
+          "priority": "High",
+          "estimationTime": "2 days",
+          "startTime": "2024-10-13",
+          "endTime": "2024-10-14",
+          "dependencies": [
+              "P4-T8"
+          ],
+          "responsiblePerson": "Ivan"
+      },
+      {
+          "id": "P4-T10",
+          "taskName": "Integrate Similar Dream Matching with User Interface",
+          "correspondingPhase": "Phase 4: Connection Features",
+          "correspondingFeature": "Similar Dream Matching",
+          "priority": "Medium",
+          "estimationTime": "2 days",
+          "startTime": "2024-10-09",
+          "endTime": "2024-10-10",
+          "dependencies": [
+              "P4-T3"
+          ],
+          "responsiblePerson": "Jack"
+      },
+      {
+          "id": "P4-T11",
+          "taskName": "Integrate Soulmate Connection with User Interface",
+          "correspondingPhase": "Phase 4: Connection Features",
+          "correspondingFeature": "Soulmate Connection",
+          "priority": "Low",
+          "estimationTime": "1 day",
+          "startTime": "2024-10-06",
+          "endTime": "2024-10-06",
+          "dependencies": [
+              "P4-T6"
+          ],
+          "responsiblePerson": "Kelly"
+      },
+      {
+          "id": "P4-T12",
+          "taskName": "Final Testing and Bug Fixing",
+          "correspondingPhase": "Phase 4: Connection Features",
+          "correspondingFeature": "Similar Dream Matching",
+          "priority": "High",
+          "estimationTime": "3 days",
+          "startTime": "2024-10-15",
+          "endTime": "2024-10-17",
+          "dependencies": [
+              "P4-T9",
+              "P4-T10",
+              "P4-T11"
+          ],
+          "responsiblePerson": "Laura"
+      },
+      {
+          "id": "P4-T13",
+          "taskName": "Deployment",
+          "correspondingPhase": "Phase 4: Connection Features",
+          "correspondingFeature": "Similar Dream Matching",
+          "priority": "High",
+          "estimationTime": "1 day",
+          "startTime": "2024-10-18",
+          "endTime": "2024-10-18",
+          "dependencies": [
+              "P4-T12"
+          ],
+          "responsiblePerson": "Mia"
+      },
+      {
+          "id": "P4-T14",
+          "taskName": "Documentation and User Guide Update",
+          "correspondingPhase": "Phase 4: Connection Features",
+          "correspondingFeature": "Similar Dream Matching",
+          "priority": "Low",
+          "estimationTime": "2 days",
+          "startTime": "2024-10-19",
+          "endTime": "2024-10-20",
+          "dependencies": [
+              "P4-T13"
+          ],
+          "responsiblePerson": "Nancy"
+      }
+  ]
+]

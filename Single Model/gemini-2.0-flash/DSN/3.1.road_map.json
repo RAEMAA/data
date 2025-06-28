@@ -1,0 +1,122 @@
+[
+    {
+        "id": "P1",
+        "phase": "Phase 1: Core User Profile & Content Sharing",
+        "feature list": [
+            "Personal space for sharing thoughts, dreams, emotions, and opinions",
+            "Profile customization options",
+            "Text-based posts",
+            "Privacy settings for posts (public, friends only, private)"
+        ],
+        "estimatedTime": "8 weeks",
+        "startTime": "2023-10-26",
+        "endTime": "2023-12-21",
+        "dependencies": []
+    },
+    {
+        "id": "P2",
+        "phase": "Phase 2: Community Interaction & Basic Search",
+        "feature list": [
+            "Following other users",
+            "Commenting on posts",
+            "Liking/reacting to posts",
+            "User search"
+        ],
+        "estimatedTime": "6 weeks",
+        "startTime": "2023-12-22",
+        "endTime": "2024-02-01",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P3",
+        "phase": "Phase 3: Multimedia & Dream Journaling",
+        "feature list": [
+            "Multimedia sharing (images, videos)",
+            "Dream journaling/logging feature",
+            "Option to categorize posts by emotion (joy, despair, etc.)"
+        ],
+        "estimatedTime": "5 weeks",
+        "startTime": "2023-12-22",
+        "endTime": "2024-01-26",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P4",
+        "phase": "Phase 4: Direct Messaging & Content Search",
+        "feature list": [
+            "Direct messaging",
+            "Content search (by keyword, emotion, etc.)"
+        ],
+        "estimatedTime": "7 weeks",
+        "startTime": "2024-02-02",
+        "endTime": "2024-03-22",
+        "dependencies": [
+            "P2"
+        ]
+    },
+    {
+        "id": "P5",
+        "phase": "Phase 5: Forums/Groups & Discovery",
+        "feature list": [
+            "Forums/groups based on shared interests or dreams",
+            "Discovery of similar dreams/ideas"
+        ],
+        "estimatedTime": "8 weeks",
+        "startTime": "2024-03-23",
+        "endTime": "2024-05-17",
+        "dependencies": [
+            "P2"
+        ]
+    },
+    {
+        "id": "P6",
+        "phase": "Phase 6: Feedback & Collaboration Tools",
+        "feature list": [
+            "Feedback requests on shared ideas",
+            "Collaboration tools (e.g., shared documents, project boards)",
+            "Idea rating/voting system"
+        ],
+        "estimatedTime": "9 weeks",
+        "startTime": "2024-05-18",
+        "endTime": "2024-07-19",
+        "dependencies": [
+            "P5"
+        ]
+    },
+    {
+        "id": "P7",
+        "phase": "Phase 7: Trending Topics & Global Connectivity",
+        "feature list": [
+            "Trending topics/dreams",
+            "Multilingual support",
+            "Time zone settings",
+            "Location-based features (optional)"
+        ],
+        "estimatedTime": "7 weeks",
+        "startTime": "2024-07-20",
+        "endTime": "2024-09-06",
+        "dependencies": [
+            "P5"
+        ]
+    },
+    {
+        "id": "P8",
+        "phase": "Phase 8: Support & Moderation",
+        "feature list": [
+            "Reporting inappropriate content",
+            "User blocking",
+            "Community guidelines",
+            "Moderation tools"
+        ],
+        "estimatedTime": "6 weeks",
+        "startTime": "2024-09-07",
+        "endTime": "2024-10-18",
+        "dependencies": [
+            "P2"
+        ]
+    }
+]

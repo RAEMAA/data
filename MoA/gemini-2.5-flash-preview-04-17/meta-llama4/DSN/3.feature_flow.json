@@ -1,0 +1,153 @@
+[
+  {
+    "category": "Customer Functionalities",
+    "features": [
+      {
+        "featureName": "browse menu",
+        "flow": "Customer opens website -> navigates to menu section -> views menu items with descriptions and prices -> filters or searches for specific dishes (optional) -> adds items to cart",
+        "screens": [
+          "Home Screen: Displays restaurant logo, navigation menu, and call-to-action buttons",
+          "Menu Screen: Lists menu items with images, names, descriptions, and prices",
+          "Menu Item Detail Screen: Provides detailed information about a specific menu item",
+          "Cart Screen: Displays selected items, quantities, and total cost"
+        ]
+      },
+      {
+        "featureName": "place food orders",
+        "flow": "Customer selects items from menu -> adds to cart -> views cart contents -> proceeds to checkout -> enters delivery address and contact information -> selects payment method -> confirms order",
+        "screens": [
+          "Cart Screen: Displays selected items, quantities, and total cost",
+          "Checkout Screen: Requests delivery address, contact information, and payment method",
+          "Order Confirmation Screen: Displays order summary and confirmation message"
+        ]
+      },
+      {
+        "featureName": "track and apply promotions",
+        "flow": "Customer logs in to account (if applicable) -> navigates to promotions section -> views available promotions -> selects promotion to apply -> applies promo code or discount",
+        "screens": [
+          "Promotions Screen: Lists available promotions with descriptions and terms",
+          "Promo Code Screen: Allows customer to enter promo code or apply discount"
+        ]
+      },
+      {
+        "featureName": "secure online payment integration",
+        "flow": "Customer selects payment method -> redirected to payment gateway (e.g., nganluong.vn) -> enters payment information -> completes payment transaction -> returns to website with payment confirmation",
+        "screens": [
+          "Payment Gateway Screen: Hosted by third-party payment provider",
+          "Payment Confirmation Screen: Displays payment result and order status"
+        ]
+      },
+      {
+        "featureName": "provide feedback",
+        "flow": "Customer navigates to feedback section -> fills out feedback form -> submits feedback -> receives confirmation message",
+        "screens": [
+          "Feedback Screen: Provides form for customer to input feedback and ratings"
+        ]
+      },
+      {
+        "featureName": "rate the restaurant",
+        "flow": "Customer navigates to rating section -> views rating form -> submits rating and review -> receives confirmation message",
+        "screens": [
+          "Rating Screen: Allows customer to rate restaurant and leave a review"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Website Functionalities",
+    "features": [
+      {
+        "featureName": "display regularly updated and accurate prices",
+        "flow": "Customer visits the website -> Customer navigates to the menu page -> System retrieves and displays the latest menu with accurate prices -> Customer can view prices for each dish",
+        "screens": [
+          "Home Screen: Display restaurant introduction and navigation links",
+          "Menu Screen: Display menu items with accurate and updated prices",
+          "Product Details Screen: Display detailed information about each menu item, including price"
+        ]
+      },
+      {
+        "featureName": "automatic order transfer to nearest branch",
+        "flow": "Customer places an order on the website -> System detects customer's location -> System determines the nearest branch -> System transfers the order to the nearest branch -> Branch staff receives and processes the order",
+        "screens": [
+          "Order Form Screen: Customer inputs order details",
+          "Order Confirmation Screen: Display order summary and confirmation button",
+          "Branch Selection Screen: Display nearest branch information and order transfer confirmation",
+          "Order Receipt Screen: Display order receipt and thank you message"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Management Functionalities",
+    "features": [
+      {
+        "featureName": "Efficient Handling of All Branches",
+        "flow": "The manager logs into the system, views a list of all branches, and can add, edit, or delete branch information. The manager can also assign staff to specific branches. Staff at each branch can view and update their branch's specific data, such as inventory and orders.",
+        "screens": [
+          "Branch List Screen: Displays a list of all branches with key information.",
+          "Add/Edit Branch Screen: Allows managers to add new branches or edit existing branch details.",
+          "Assign Staff Screen: Enables managers to assign staff members to specific branches.",
+          "Branch Dashboard: Provides an overview of each branch's performance and key metrics."
+        ]
+      },
+      {
+        "featureName": "Facilitate Menu Updates",
+        "flow": "The manager logs into the system, navigates to the menu management section, and can add, edit, or delete menu items. The system allows for uploading images and setting prices for each item. Menu updates are reflected across all branches and the customer-facing website.",
+        "screens": [
+          "Menu Management Screen: Lists all menu items with options to add, edit, or delete.",
+          "Add/Edit Menu Item Screen: Allows managers to input details of new or updated menu items, including images and pricing.",
+          "Menu Preview Screen: Displays how the menu will appear on the customer-facing website."
+        ]
+      },
+      {
+        "featureName": "Facilitate Promotion Updates",
+        "flow": "The manager logs into the system, navigates to the promotion management section, and can create, edit, or delete promotions. Promotions can be set with specific start and end dates, and can be applied to specific menu items or branches.",
+        "screens": [
+          "Promotion Management Screen: Lists all current and past promotions with options to create, edit, or delete.",
+          "Create/Edit Promotion Screen: Allows managers to set details of new or updated promotions, including dates and applicability.",
+          "Promotion Preview Screen: Shows how promotions will be displayed to customers."
+        ]
+      },
+      {
+        "featureName": "Robust Data Analysis Capabilities",
+        "flow": "The manager logs into the system, accesses the analytics dashboard, and views key performance indicators (KPIs) such as sales by branch, menu item popularity, and customer feedback trends. The system allows for generating reports based on selected criteria.",
+        "screens": [
+          "Analytics Dashboard: Displays key metrics and KPIs for the business.",
+          "Sales Report Screen: Allows managers to generate detailed sales reports by branch, date range, or menu item.",
+          "Customer Feedback Analysis Screen: Shows trends and insights from customer feedback and ratings."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Payment Integration",
+    "features": [
+      {
+        "featureName": "secure online payment integration",
+        "flow": "Customer places order, selects payment method, redirects to payment gateway (nganluong.vn), enters payment details, completes payment, receives payment confirmation, order status updates.",
+        "screens": [
+          "Order Summary: Displays order details and total cost",
+          "Payment Method Selection: Lists available payment methods, including online payment integration",
+          "Payment Gateway Redirect: Redirects customer to nganluong.vn for payment processing",
+          "Payment Confirmation: Displays payment confirmation and order receipt"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Delivery Service",
+    "features": [
+      {
+        "featureName": "broken rice delivery service",
+        "flow": "Customer places an order on the website; System automatically detects the customer's location and identifies the nearest branch; Customer selects delivery option and provides delivery address; System calculates delivery time and cost; Customer confirms order and proceeds to payment; System processes payment and sends order details to the nearest branch for preparation; Branch prepares order and hands it over to delivery personnel; Delivery personnel delivers the order to the customer; Customer receives order and can track delivery status in real-time. User roles involved: Customer, System, Branch Staff, Delivery Personnel.",
+        "screens": [
+          "Delivery Address Input Screen: For customer to input delivery address",
+          "Delivery Time and Cost Estimation Screen: Displays estimated delivery time and cost",
+          "Order Summary Screen: Summarizes order details before customer confirmation",
+          "Delivery Tracking Screen: Allows customer to track delivery status in real-time",
+          "Order Confirmation Screen: Confirms order details after payment processing"
+        ]
+      }
+    ]
+  }
+]

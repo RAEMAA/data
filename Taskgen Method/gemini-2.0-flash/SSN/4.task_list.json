@@ -1,0 +1,1366 @@
+[
+    [
+        {
+            "id": "P1-T1",
+            "taskName": "Design Faculty Profile UI",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Faculty Profiles",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-01-26",
+            "endTime": "2024-01-29",
+            "dependencies": [],
+            "responsiblePerson": "UI Designer"
+        },
+        {
+            "id": "P1-T2",
+            "taskName": "Implement Faculty Profile Backend",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Faculty Profiles",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-01-30",
+            "endTime": "2024-02-05",
+            "dependencies": [],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T3",
+            "taskName": "Develop Faculty Profile Frontend",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Faculty Profiles",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-02-06",
+            "endTime": "2024-02-09",
+            "dependencies": [
+                "P1-T1"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P1-T4",
+            "taskName": "Test Faculty Profile Functionality",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Faculty Profiles",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-02-12",
+            "endTime": "2024-02-14",
+            "dependencies": [
+                "P1-T2",
+                "P1-T3"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T5",
+            "taskName": "Deploy Faculty Profile Feature",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Faculty Profiles",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-02-15",
+            "endTime": "2024-02-16",
+            "dependencies": [
+                "P1-T4"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        },
+        {
+            "id": "P1-T6",
+            "taskName": "Design Course Catalog UI",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Course Catalog",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-01-26",
+            "endTime": "2024-01-29",
+            "dependencies": [],
+            "responsiblePerson": "UI Designer"
+        },
+        {
+            "id": "P1-T7",
+            "taskName": "Implement Course Catalog Backend",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Course Catalog",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-01-30",
+            "endTime": "2024-02-05",
+            "dependencies": [],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T8",
+            "taskName": "Develop Course Catalog Frontend",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Course Catalog",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-02-06",
+            "endTime": "2024-02-09",
+            "dependencies": [
+                "P1-T6"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P1-T9",
+            "taskName": "Test Course Catalog Functionality",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Course Catalog",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-02-12",
+            "endTime": "2024-02-14",
+            "dependencies": [
+                "P1-T7",
+                "P1-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T10",
+            "taskName": "Deploy Course Catalog Feature",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Course Catalog",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-02-15",
+            "endTime": "2024-02-16",
+            "dependencies": [
+                "P1-T9"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        },
+        {
+            "id": "P1-T11",
+            "taskName": "Design Discussion Forums UI",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Discussion Forums",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-01-26",
+            "endTime": "2024-01-29",
+            "dependencies": [],
+            "responsiblePerson": "UI Designer"
+        },
+        {
+            "id": "P1-T12",
+            "taskName": "Implement Discussion Forums Backend",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Discussion Forums",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-01-30",
+            "endTime": "2024-02-05",
+            "dependencies": [],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T13",
+            "taskName": "Develop Discussion Forums Frontend",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Discussion Forums",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-02-06",
+            "endTime": "2024-02-09",
+            "dependencies": [
+                "P1-T11"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P1-T14",
+            "taskName": "Test Discussion Forums Functionality",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Discussion Forums",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-02-12",
+            "endTime": "2024-02-14",
+            "dependencies": [
+                "P1-T12",
+                "P1-T13"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T15",
+            "taskName": "Deploy Discussion Forums Feature",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Discussion Forums",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-02-15",
+            "endTime": "2024-02-16",
+            "dependencies": [
+                "P1-T14"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        },
+        {
+            "id": "P1-T16",
+            "taskName": "Design Direct Messaging UI",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Direct Messaging",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-01-26",
+            "endTime": "2024-01-29",
+            "dependencies": [],
+            "responsiblePerson": "UI Designer"
+        },
+        {
+            "id": "P1-T17",
+            "taskName": "Implement Direct Messaging Backend",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Direct Messaging",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-01-30",
+            "endTime": "2024-02-05",
+            "dependencies": [],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T18",
+            "taskName": "Develop Direct Messaging Frontend",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Direct Messaging",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-02-06",
+            "endTime": "2024-02-09",
+            "dependencies": [
+                "P1-T16"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P1-T19",
+            "taskName": "Test Direct Messaging Functionality",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Direct Messaging",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-02-12",
+            "endTime": "2024-02-14",
+            "dependencies": [
+                "P1-T17",
+                "P1-T18"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T20",
+            "taskName": "Deploy Direct Messaging Feature",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Direct Messaging",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-02-15",
+            "endTime": "2024-02-16",
+            "dependencies": [
+                "P1-T19"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        },
+        {
+            "id": "P1-T21",
+            "taskName": "Design Announcements and Notifications UI",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Announcements and Notifications",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-01-26",
+            "endTime": "2024-01-29",
+            "dependencies": [],
+            "responsiblePerson": "UI Designer"
+        },
+        {
+            "id": "P1-T22",
+            "taskName": "Implement Announcements and Notifications Backend",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Announcements and Notifications",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-01-30",
+            "endTime": "2024-02-05",
+            "dependencies": [],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P1-T23",
+            "taskName": "Develop Announcements and Notifications Frontend",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Announcements and Notifications",
+            "priority": "High",
+            "estimationTime": "4 days",
+            "startTime": "2024-02-06",
+            "endTime": "2024-02-09",
+            "dependencies": [
+                "P1-T21"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P1-T24",
+            "taskName": "Test Announcements and Notifications Functionality",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Announcements and Notifications",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-02-12",
+            "endTime": "2024-02-14",
+            "dependencies": [
+                "P1-T22",
+                "P1-T23"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P1-T25",
+            "taskName": "Deploy Announcements and Notifications Feature",
+            "correspondingPhase": "Phase 1: Core Platform Development",
+            "correspondingFeature": "Announcements and Notifications",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-02-15",
+            "endTime": "2024-02-16",
+            "dependencies": [
+                "P1-T24"
+            ],
+            "responsiblePerson": "DevOps Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P2-T1",
+            "taskName": "Design Project Groups Feature UI",
+            "correspondingPhase": "Phase 2: Collaborative Features & Resource Enhancement",
+            "correspondingFeature": "Project Groups",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-03-25",
+            "endTime": "2024-03-27",
+            "dependencies": [],
+            "responsiblePerson": "UI Designer"
+        },
+        {
+            "id": "P2-T2",
+            "taskName": "Implement Project Groups Backend",
+            "correspondingPhase": "Phase 2: Collaborative Features & Resource Enhancement",
+            "correspondingFeature": "Project Groups",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-03-28",
+            "endTime": "2024-04-03",
+            "dependencies": [],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T3",
+            "taskName": "Implement Shared Document Functionality",
+            "correspondingPhase": "Phase 2: Collaborative Features & Resource Enhancement",
+            "correspondingFeature": "Project Groups",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-04-04",
+            "endTime": "2024-04-09",
+            "dependencies": [
+                "P2-T2"
+            ],
+            "responsiblePerson": "Full-stack Developer"
+        },
+        {
+            "id": "P2-T4",
+            "taskName": "Implement Communication Channels",
+            "correspondingPhase": "Phase 2: Collaborative Features & Resource Enhancement",
+            "correspondingFeature": "Project Groups",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-04-10",
+            "endTime": "2024-04-15",
+            "dependencies": [
+                "P2-T2"
+            ],
+            "responsiblePerson": "Full-stack Developer"
+        },
+        {
+            "id": "P2-T5",
+            "taskName": "Test Project Groups Functionality",
+            "correspondingPhase": "Phase 2: Collaborative Features & Resource Enhancement",
+            "correspondingFeature": "Project Groups",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-04-16",
+            "endTime": "2024-04-18",
+            "dependencies": [
+                "P2-T3",
+                "P2-T4"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T6",
+            "taskName": "Fix Bugs and Issues in Project Groups",
+            "correspondingPhase": "Phase 2: Collaborative Features & Resource Enhancement",
+            "correspondingFeature": "Project Groups",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-04-19",
+            "endTime": "2024-04-22",
+            "dependencies": [
+                "P2-T5"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T7",
+            "taskName": "Design Collaborative Document Editing UI",
+            "correspondingPhase": "Phase 2: Collaborative Features & Resource Enhancement",
+            "correspondingFeature": "Collaborative Document Editing",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-03-25",
+            "endTime": "2024-03-27",
+            "dependencies": [],
+            "responsiblePerson": "UI Designer"
+        },
+        {
+            "id": "P2-T8",
+            "taskName": "Implement Real-time Co-editing Backend",
+            "correspondingPhase": "Phase 2: Collaborative Features & Resource Enhancement",
+            "correspondingFeature": "Collaborative Document Editing",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-03-28",
+            "endTime": "2024-04-03",
+            "dependencies": [],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T9",
+            "taskName": "Integrate Document Version Control",
+            "correspondingPhase": "Phase 2: Collaborative Features & Resource Enhancement",
+            "correspondingFeature": "Collaborative Document Editing",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-04-04",
+            "endTime": "2024-04-09",
+            "dependencies": [
+                "P2-T8"
+            ],
+            "responsiblePerson": "Full-stack Developer"
+        },
+        {
+            "id": "P2-T10",
+            "taskName": "Implement User Access Control",
+            "correspondingPhase": "Phase 2: Collaborative Features & Resource Enhancement",
+            "correspondingFeature": "Collaborative Document Editing",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-04-10",
+            "endTime": "2024-04-12",
+            "dependencies": [
+                "P2-T8"
+            ],
+            "responsiblePerson": "Full-stack Developer"
+        },
+        {
+            "id": "P2-T11",
+            "taskName": "Test Collaborative Document Editing Functionality",
+            "correspondingPhase": "Phase 2: Collaborative Features & Resource Enhancement",
+            "correspondingFeature": "Collaborative Document Editing",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-04-16",
+            "endTime": "2024-04-18",
+            "dependencies": [
+                "P2-T9",
+                "P2-T10"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T12",
+            "taskName": "Fix Bugs and Issues in Collaborative Editing",
+            "correspondingPhase": "Phase 2: Collaborative Features & Resource Enhancement",
+            "correspondingFeature": "Collaborative Document Editing",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-04-19",
+            "endTime": "2024-04-22",
+            "dependencies": [
+                "P2-T11"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T13",
+            "taskName": "Design Virtual Whiteboard UI",
+            "correspondingPhase": "Phase 2: Collaborative Features & Resource Enhancement",
+            "correspondingFeature": "Brainstorming Tools",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-03-25",
+            "endTime": "2024-03-27",
+            "dependencies": [],
+            "responsiblePerson": "UI Designer"
+        },
+        {
+            "id": "P2-T14",
+            "taskName": "Implement Core Whiteboard Functionality",
+            "correspondingPhase": "Phase 2: Collaborative Features & Resource Enhancement",
+            "correspondingFeature": "Brainstorming Tools",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-03-28",
+            "endTime": "2024-04-03",
+            "dependencies": [],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T15",
+            "taskName": "Implement Real-time Collaboration Features",
+            "correspondingPhase": "Phase 2: Collaborative Features & Resource Enhancement",
+            "correspondingFeature": "Brainstorming Tools",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-04-04",
+            "endTime": "2024-04-09",
+            "dependencies": [
+                "P2-T14"
+            ],
+            "responsiblePerson": "Full-stack Developer"
+        },
+        {
+            "id": "P2-T16",
+            "taskName": "Integrate Mind-Mapping Tool",
+            "correspondingPhase": "Phase 2: Collaborative Features & Resource Enhancement",
+            "correspondingFeature": "Brainstorming Tools",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-04-10",
+            "endTime": "2024-04-15",
+            "dependencies": [
+                "P2-T14"
+            ],
+            "responsiblePerson": "Full-stack Developer"
+        },
+        {
+            "id": "P2-T17",
+            "taskName": "Test Brainstorming Tools Functionality",
+            "correspondingPhase": "Phase 2: Collaborative Features & Resource Enhancement",
+            "correspondingFeature": "Brainstorming Tools",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-04-16",
+            "endTime": "2024-04-18",
+            "dependencies": [
+                "P2-T15",
+                "P2-T16"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T18",
+            "taskName": "Fix Bugs and Issues in Brainstorming Tools",
+            "correspondingPhase": "Phase 2: Collaborative Features & Resource Enhancement",
+            "correspondingFeature": "Brainstorming Tools",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-04-19",
+            "endTime": "2024-04-22",
+            "dependencies": [
+                "P2-T17"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T19",
+            "taskName": "Design Code Editor UI",
+            "correspondingPhase": "Phase 2: Collaborative Features & Resource Enhancement",
+            "correspondingFeature": "Code Sharing and Collaboration",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-03-25",
+            "endTime": "2024-03-27",
+            "dependencies": [],
+            "responsiblePerson": "UI Designer"
+        },
+        {
+            "id": "P2-T20",
+            "taskName": "Implement Code Editor Backend",
+            "correspondingPhase": "Phase 2: Collaborative Features & Resource Enhancement",
+            "correspondingFeature": "Code Sharing and Collaboration",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-03-28",
+            "endTime": "2024-04-03",
+            "dependencies": [],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P2-T21",
+            "taskName": "Integrate Version Control System",
+            "correspondingPhase": "Phase 2: Collaborative Features & Resource Enhancement",
+            "correspondingFeature": "Code Sharing and Collaboration",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-04-04",
+            "endTime": "2024-04-09",
+            "dependencies": [
+                "P2-T20"
+            ],
+            "responsiblePerson": "Full-stack Developer"
+        },
+        {
+            "id": "P2-T22",
+            "taskName": "Implement Real-time Collaboration Features for Code Editing",
+            "correspondingPhase": "Phase 2: Collaborative Features & Resource Enhancement",
+            "correspondingFeature": "Code Sharing and Collaboration",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-04-10",
+            "endTime": "2024-04-15",
+            "dependencies": [
+                "P2-T20"
+            ],
+            "responsiblePerson": "Full-stack Developer"
+        },
+        {
+            "id": "P2-T23",
+            "taskName": "Test Code Sharing and Collaboration Functionality",
+            "correspondingPhase": "Phase 2: Collaborative Features & Resource Enhancement",
+            "correspondingFeature": "Code Sharing and Collaboration",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-04-16",
+            "endTime": "2024-04-18",
+            "dependencies": [
+                "P2-T21",
+                "P2-T22"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P2-T24",
+            "taskName": "Fix Bugs and Issues in Code Sharing and Collaboration",
+            "correspondingPhase": "Phase 2: Collaborative Features & Resource Enhancement",
+            "correspondingFeature": "Code Sharing and Collaboration",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-04-19",
+            "endTime": "2024-04-22",
+            "dependencies": [
+                "P2-T23"
+            ],
+            "responsiblePerson": "Backend Developer"
+        }
+    ],
+    [
+        {
+            "id": "P3-T1",
+            "taskName": "Design Peer Tutoring Platform UI/UX",
+            "correspondingPhase": "Phase 3: Peer Learning & Teacher/Researcher Tools",
+            "correspondingFeature": "Peer Tutoring Platform",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-06",
+            "endTime": "2024-05-08",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T2",
+            "taskName": "Implement Peer Tutoring Platform Backend",
+            "correspondingPhase": "Phase 3: Peer Learning & Teacher/Researcher Tools",
+            "correspondingFeature": "Peer Tutoring Platform",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-05-09",
+            "endTime": "2024-05-14",
+            "dependencies": [],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T3",
+            "taskName": "Test Peer Tutoring Platform Functionality",
+            "correspondingPhase": "Phase 3: Peer Learning & Teacher/Researcher Tools",
+            "correspondingFeature": "Peer Tutoring Platform",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-15",
+            "endTime": "2024-05-16",
+            "dependencies": [
+                "P3-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T4",
+            "taskName": "Design Study Partner Matching Algorithm",
+            "correspondingPhase": "Phase 3: Peer Learning & Teacher/Researcher Tools",
+            "correspondingFeature": "Study Partner Matching",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-05-06",
+            "endTime": "2024-05-09",
+            "dependencies": [],
+            "responsiblePerson": "Data Scientist"
+        },
+        {
+            "id": "P3-T5",
+            "taskName": "Implement Study Partner Matching Feature",
+            "correspondingPhase": "Phase 3: Peer Learning & Teacher/Researcher Tools",
+            "correspondingFeature": "Study Partner Matching",
+            "priority": "Medium",
+            "estimationTime": "5 days",
+            "startTime": "2024-05-10",
+            "endTime": "2024-05-15",
+            "dependencies": [
+                "P3-T4"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T6",
+            "taskName": "Test Study Partner Matching Accuracy",
+            "correspondingPhase": "Phase 3: Peer Learning & Teacher/Researcher Tools",
+            "correspondingFeature": "Study Partner Matching",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-16",
+            "endTime": "2024-05-17",
+            "dependencies": [
+                "P3-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T7",
+            "taskName": "Design Q&A Platform Interface",
+            "correspondingPhase": "Phase 3: Peer Learning & Teacher/Researcher Tools",
+            "correspondingFeature": "Q&A Platform",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-17",
+            "endTime": "2024-05-20",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T8",
+            "taskName": "Implement Q&A Platform Functionality",
+            "correspondingPhase": "Phase 3: Peer Learning & Teacher/Researcher Tools",
+            "correspondingFeature": "Q&A Platform",
+            "priority": "High",
+            "estimationTime": "5 days",
+            "startTime": "2024-05-21",
+            "endTime": "2024-05-24",
+            "dependencies": [],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T9",
+            "taskName": "Test Q&A Platform Usability",
+            "correspondingPhase": "Phase 3: Peer Learning & Teacher/Researcher Tools",
+            "correspondingFeature": "Q&A Platform",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-25",
+            "endTime": "2024-05-26",
+            "dependencies": [
+                "P3-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T10",
+            "taskName": "Design Feedback and Review System",
+            "correspondingPhase": "Phase 3: Peer Learning & Teacher/Researcher Tools",
+            "correspondingFeature": "Feedback and Review System",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-27",
+            "endTime": "2024-05-29",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T11",
+            "taskName": "Implement Feedback and Review System",
+            "correspondingPhase": "Phase 3: Peer Learning & Teacher/Researcher Tools",
+            "correspondingFeature": "Feedback and Review System",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-05-30",
+            "endTime": "2024-06-03",
+            "dependencies": [],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T12",
+            "taskName": "Test Feedback and Review System",
+            "correspondingPhase": "Phase 3: Peer Learning & Teacher/Researcher Tools",
+            "correspondingFeature": "Feedback and Review System",
+            "priority": "Medium",
+            "estimationTime": "2 days",
+            "startTime": "2024-06-04",
+            "endTime": "2024-06-05",
+            "dependencies": [
+                "P3-T11"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T13",
+            "taskName": "Design Office Hours Scheduling Interface",
+            "correspondingPhase": "Phase 3: Peer Learning & Teacher/Researcher Tools",
+            "correspondingFeature": "Office Hours Scheduling",
+            "priority": "Low",
+            "estimationTime": "2 days",
+            "startTime": "2024-06-06",
+            "endTime": "2024-06-07",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T14",
+            "taskName": "Implement Office Hours Scheduling",
+            "correspondingPhase": "Phase 3: Peer Learning & Teacher/Researcher Tools",
+            "correspondingFeature": "Office Hours Scheduling",
+            "priority": "Low",
+            "estimationTime": "3 days",
+            "startTime": "2024-06-08",
+            "endTime": "2024-06-11",
+            "dependencies": [],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T15",
+            "taskName": "Test Office Hours Scheduling",
+            "correspondingPhase": "Phase 3: Peer Learning & Teacher/Researcher Tools",
+            "correspondingFeature": "Office Hours Scheduling",
+            "priority": "Low",
+            "estimationTime": "1 day",
+            "startTime": "2024-06-12",
+            "endTime": "2024-06-12",
+            "dependencies": [
+                "P3-T14"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T16",
+            "taskName": "Design Research Collaboration Tools Interface",
+            "correspondingPhase": "Phase 3: Peer Learning & Teacher/Researcher Tools",
+            "correspondingFeature": "Research Collaboration Tools",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-06-13",
+            "endTime": "2024-06-17",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T17",
+            "taskName": "Implement Research Collaboration Tools",
+            "correspondingPhase": "Phase 3: Peer Learning & Teacher/Researcher Tools",
+            "correspondingFeature": "Research Collaboration Tools",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-06-18",
+            "endTime": "2024-06-20",
+            "dependencies": [],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T18",
+            "taskName": "Test Research Collaboration Tools",
+            "correspondingPhase": "Phase 3: Peer Learning & Teacher/Researcher Tools",
+            "correspondingFeature": "Research Collaboration Tools",
+            "priority": "Medium",
+            "estimationTime": "1 day",
+            "startTime": "2024-06-21",
+            "endTime": "2024-06-21",
+            "dependencies": [
+                "P3-T17"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P3-T19",
+            "taskName": "Design Mentorship Programs Interface",
+            "correspondingPhase": "Phase 3: Peer Learning & Teacher/Researcher Tools",
+            "correspondingFeature": "Mentorship Programs",
+            "priority": "Low",
+            "estimationTime": "2 days",
+            "startTime": "2024-05-06",
+            "endTime": "2024-05-07",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P3-T20",
+            "taskName": "Implement Mentorship Programs",
+            "correspondingPhase": "Phase 3: Peer Learning & Teacher/Researcher Tools",
+            "correspondingFeature": "Mentorship Programs",
+            "priority": "Low",
+            "estimationTime": "3 days",
+            "startTime": "2024-05-08",
+            "endTime": "2024-05-10",
+            "dependencies": [],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P3-T21",
+            "taskName": "Test Mentorship Programs",
+            "correspondingPhase": "Phase 3: Peer Learning & Teacher/Researcher Tools",
+            "correspondingFeature": "Mentorship Programs",
+            "priority": "Low",
+            "estimationTime": "1 day",
+            "startTime": "2024-05-13",
+            "endTime": "2024-05-13",
+            "dependencies": [
+                "P3-T20"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P4-T1",
+            "taskName": "Design Learning Paths Feature",
+            "correspondingPhase": "Phase 4: Advanced Course Features & Progress Tracking",
+            "correspondingFeature": "Learning Paths",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-06-24",
+            "endTime": "2024-06-26",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T2",
+            "taskName": "Implement Learning Paths Feature",
+            "correspondingPhase": "Phase 4: Advanced Course Features & Progress Tracking",
+            "correspondingFeature": "Learning Paths",
+            "priority": "High",
+            "estimationTime": "1 week",
+            "startTime": "2024-06-27",
+            "endTime": "2024-07-03",
+            "dependencies": [
+                "P4-T1"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P4-T3",
+            "taskName": "Test Learning Paths Feature",
+            "correspondingPhase": "Phase 4: Advanced Course Features & Progress Tracking",
+            "correspondingFeature": "Learning Paths",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-04",
+            "endTime": "2024-07-05",
+            "dependencies": [
+                "P4-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T4",
+            "taskName": "Design Assignment Submission and Grading Feature",
+            "correspondingPhase": "Phase 4: Advanced Course Features & Progress Tracking",
+            "correspondingFeature": "Assignment Submission and Grading",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-06-24",
+            "endTime": "2024-06-26",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T5",
+            "taskName": "Implement Assignment Submission and Grading Feature",
+            "correspondingPhase": "Phase 4: Advanced Course Features & Progress Tracking",
+            "correspondingFeature": "Assignment Submission and Grading",
+            "priority": "High",
+            "estimationTime": "1 week",
+            "startTime": "2024-06-27",
+            "endTime": "2024-07-03",
+            "dependencies": [
+                "P4-T4"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P4-T6",
+            "taskName": "Test Assignment Submission and Grading Feature",
+            "correspondingPhase": "Phase 4: Advanced Course Features & Progress Tracking",
+            "correspondingFeature": "Assignment Submission and Grading",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-04",
+            "endTime": "2024-07-05",
+            "dependencies": [
+                "P4-T5"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T7",
+            "taskName": "Design Progress Tracking Feature",
+            "correspondingPhase": "Phase 4: Advanced Course Features & Progress Tracking",
+            "correspondingFeature": "Progress Tracking",
+            "priority": "High",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-08",
+            "endTime": "2024-07-10",
+            "dependencies": [],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P4-T8",
+            "taskName": "Implement Progress Tracking Feature",
+            "correspondingPhase": "Phase 4: Advanced Course Features & Progress Tracking",
+            "correspondingFeature": "Progress Tracking",
+            "priority": "High",
+            "estimationTime": "1 week",
+            "startTime": "2024-07-11",
+            "endTime": "2024-07-17",
+            "dependencies": [
+                "P4-T7"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P4-T9",
+            "taskName": "Test Progress Tracking Feature",
+            "correspondingPhase": "Phase 4: Advanced Course Features & Progress Tracking",
+            "correspondingFeature": "Progress Tracking",
+            "priority": "High",
+            "estimationTime": "2 days",
+            "startTime": "2024-07-18",
+            "endTime": "2024-07-19",
+            "dependencies": [
+                "P4-T8"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P4-T10",
+            "taskName": "Integrate Learning Paths with Course Catalog",
+            "correspondingPhase": "Phase 4: Advanced Course Features & Progress Tracking",
+            "correspondingFeature": "Learning Paths",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-08",
+            "endTime": "2024-07-10",
+            "dependencies": [
+                "P4-T3"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P4-T11",
+            "taskName": "Integrate Assignment Submission with User Accounts",
+            "correspondingPhase": "Phase 4: Advanced Course Features & Progress Tracking",
+            "correspondingFeature": "Assignment Submission and Grading",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-07-08",
+            "endTime": "2024-07-10",
+            "dependencies": [
+                "P4-T6"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P4-T12",
+            "taskName": "Develop Progress Tracking Dashboards",
+            "correspondingPhase": "Phase 4: Advanced Course Features & Progress Tracking",
+            "correspondingFeature": "Progress Tracking",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-07-22",
+            "endTime": "2024-07-25",
+            "dependencies": [
+                "P4-T9"
+            ],
+            "responsiblePerson": "Software Engineer"
+        },
+        {
+            "id": "P4-T13",
+            "taskName": "Final Testing and Bug Fixes",
+            "correspondingPhase": "Phase 4: Advanced Course Features & Progress Tracking",
+            "correspondingFeature": "All",
+            "priority": "High",
+            "estimationTime": "1 day",
+            "startTime": "2024-07-26",
+            "endTime": "2024-07-26",
+            "dependencies": [
+                "P4-T10",
+                "P4-T11",
+                "P4-T12"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ],
+    [
+        {
+            "id": "P5-T1",
+            "taskName": "Design API Integration Architecture",
+            "correspondingPhase": "Phase 5: Platform Expansion & Refinement",
+            "correspondingFeature": "API Integrations",
+            "priority": "High",
+            "estimationTime": "1 week",
+            "startTime": "2024-07-29",
+            "endTime": "2024-08-02",
+            "dependencies": [
+                "P2",
+                "P3",
+                "P4"
+            ],
+            "responsiblePerson": "Software Architect"
+        },
+        {
+            "id": "P5-T2",
+            "taskName": "Implement API Endpoints",
+            "correspondingPhase": "Phase 5: Platform Expansion & Refinement",
+            "correspondingFeature": "API Integrations",
+            "priority": "High",
+            "estimationTime": "2 weeks",
+            "startTime": "2024-08-05",
+            "endTime": "2024-08-16",
+            "dependencies": [
+                "P5-T1"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P5-T3",
+            "taskName": "Test API Integrations",
+            "correspondingPhase": "Phase 5: Platform Expansion & Refinement",
+            "correspondingFeature": "API Integrations",
+            "priority": "High",
+            "estimationTime": "1 week",
+            "startTime": "2024-08-19",
+            "endTime": "2024-08-23",
+            "dependencies": [
+                "P5-T2"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T4",
+            "taskName": "Design Mobile App UI/UX",
+            "correspondingPhase": "Phase 5: Platform Expansion & Refinement",
+            "correspondingFeature": "Mobile App",
+            "priority": "High",
+            "estimationTime": "1 week",
+            "startTime": "2024-07-29",
+            "endTime": "2024-08-02",
+            "dependencies": [
+                "P2",
+                "P3",
+                "P4"
+            ],
+            "responsiblePerson": "UI/UX Designer"
+        },
+        {
+            "id": "P5-T5",
+            "taskName": "Develop iOS Mobile App",
+            "correspondingPhase": "Phase 5: Platform Expansion & Refinement",
+            "correspondingFeature": "Mobile App",
+            "priority": "High",
+            "estimationTime": "2 weeks",
+            "startTime": "2024-08-05",
+            "endTime": "2024-08-16",
+            "dependencies": [
+                "P5-T4"
+            ],
+            "responsiblePerson": "Mobile Developer"
+        },
+        {
+            "id": "P5-T6",
+            "taskName": "Develop Android Mobile App",
+            "correspondingPhase": "Phase 5: Platform Expansion & Refinement",
+            "correspondingFeature": "Mobile App",
+            "priority": "High",
+            "estimationTime": "2 weeks",
+            "startTime": "2024-08-05",
+            "endTime": "2024-08-16",
+            "dependencies": [
+                "P5-T4"
+            ],
+            "responsiblePerson": "Mobile Developer"
+        },
+        {
+            "id": "P5-T7",
+            "taskName": "Test Mobile App (iOS and Android)",
+            "correspondingPhase": "Phase 5: Platform Expansion & Refinement",
+            "correspondingFeature": "Mobile App",
+            "priority": "High",
+            "estimationTime": "1 week",
+            "startTime": "2024-08-19",
+            "endTime": "2024-08-23",
+            "dependencies": [
+                "P5-T5",
+                "P5-T6"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T8",
+            "taskName": "Design Accessibility Features",
+            "correspondingPhase": "Phase 5: Platform Expansion & Refinement",
+            "correspondingFeature": "Accessibility Features",
+            "priority": "Medium",
+            "estimationTime": "4 days",
+            "startTime": "2024-08-26",
+            "endTime": "2024-08-29",
+            "dependencies": [
+                "P2",
+                "P3",
+                "P4"
+            ],
+            "responsiblePerson": "Accessibility Specialist"
+        },
+        {
+            "id": "P5-T9",
+            "taskName": "Implement Accessibility Features",
+            "correspondingPhase": "Phase 5: Platform Expansion & Refinement",
+            "correspondingFeature": "Accessibility Features",
+            "priority": "Medium",
+            "estimationTime": "1 week",
+            "startTime": "2024-08-30",
+            "endTime": "2024-09-06",
+            "dependencies": [
+                "P5-T8"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P5-T10",
+            "taskName": "Test Accessibility Features",
+            "correspondingPhase": "Phase 5: Platform Expansion & Refinement",
+            "correspondingFeature": "Accessibility Features",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-09-09",
+            "endTime": "2024-09-11",
+            "dependencies": [
+                "P5-T9"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T11",
+            "taskName": "Design Multilingual Support Architecture",
+            "correspondingPhase": "Phase 5: Platform Expansion & Refinement",
+            "correspondingFeature": "Multilingual Support",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-08-26",
+            "endTime": "2024-08-28",
+            "dependencies": [
+                "P2",
+                "P3",
+                "P4"
+            ],
+            "responsiblePerson": "Software Architect"
+        },
+        {
+            "id": "P5-T12",
+            "taskName": "Implement Multilingual Support",
+            "correspondingPhase": "Phase 5: Platform Expansion & Refinement",
+            "correspondingFeature": "Multilingual Support",
+            "priority": "Medium",
+            "estimationTime": "1 week",
+            "startTime": "2024-08-29",
+            "endTime": "2024-09-05",
+            "dependencies": [
+                "P5-T11"
+            ],
+            "responsiblePerson": "Frontend Developer"
+        },
+        {
+            "id": "P5-T13",
+            "taskName": "Translate Platform Content",
+            "correspondingPhase": "Phase 5: Platform Expansion & Refinement",
+            "correspondingFeature": "Multilingual Support",
+            "priority": "Low",
+            "estimationTime": "1 week",
+            "startTime": "2024-09-06",
+            "endTime": "2024-09-13",
+            "dependencies": [
+                "P5-T12"
+            ],
+            "responsiblePerson": "Translator"
+        },
+        {
+            "id": "P5-T14",
+            "taskName": "Test Multilingual Support",
+            "correspondingPhase": "Phase 5: Platform Expansion & Refinement",
+            "correspondingFeature": "Multilingual Support",
+            "priority": "Medium",
+            "estimationTime": "3 days",
+            "startTime": "2024-09-16",
+            "endTime": "2024-09-18",
+            "dependencies": [
+                "P5-T13"
+            ],
+            "responsiblePerson": "QA Engineer"
+        },
+        {
+            "id": "P5-T15",
+            "taskName": "Design Resource Rating and Review System Enhancements",
+            "correspondingPhase": "Phase 5: Platform Expansion & Refinement",
+            "correspondingFeature": "Resource Ratings and Reviews",
+            "priority": "Low",
+            "estimationTime": "3 days",
+            "startTime": "2024-08-26",
+            "endTime": "2024-08-28",
+            "dependencies": [
+                "P2",
+                "P3",
+                "P4"
+            ],
+            "responsiblePerson": "Product Manager"
+        },
+        {
+            "id": "P5-T16",
+            "taskName": "Implement Resource Rating and Review Enhancements",
+            "correspondingPhase": "Phase 5: Platform Expansion & Refinement",
+            "correspondingFeature": "Resource Ratings and Reviews",
+            "priority": "Low",
+            "estimationTime": "1 week",
+            "startTime": "2024-08-29",
+            "endTime": "2024-09-05",
+            "dependencies": [
+                "P5-T15"
+            ],
+            "responsiblePerson": "Backend Developer"
+        },
+        {
+            "id": "P5-T17",
+            "taskName": "Test Resource Rating and Review Enhancements",
+            "correspondingPhase": "Phase 5: Platform Expansion & Refinement",
+            "correspondingFeature": "Resource Ratings and Reviews",
+            "priority": "Low",
+            "estimationTime": "3 days",
+            "startTime": "2024-09-06",
+            "endTime": "2024-09-10",
+            "dependencies": [
+                "P5-T16"
+            ],
+            "responsiblePerson": "QA Engineer"
+        }
+    ]
+]

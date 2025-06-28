@@ -1,0 +1,47 @@
+[
+  {
+    "category": "Piglet Management & Tracking",
+    "list_feature": [
+      "Record and update piglet growth details",
+      "Monitor and log feeding routines",
+      "Track temperature and environmental conditions",
+      "Update piglet health records",
+      "Record incidents of common diseases",
+      "Manage import/export statuses of piglets"
+    ]
+  },
+  {
+    "category": "User Management",
+    "list_feature": [
+      "Farm staff user roles and access controls",
+      "Farmer registration and profile management",
+      "User authentication and role-based permissions"
+    ]
+  },
+  {
+    "category": "Order & Exchange Management",
+    "list_feature": [
+      "Browse available pig varieties for farmers",
+      "Place orders for one or more piglets",
+      "Facilitate piglet exchanges between farmers"
+    ]
+  },
+  {
+    "category": "Communication & Care Guidance",
+    "list_feature": [
+      "Communication platform for post-purchase care",
+      "Provide feeding routine notifications",
+      "Send vaccination schedule reminders",
+      "Distribute care guidelines and best practices"
+    ]
+  },
+  {
+    "category": "Reporting & Analytics",
+    "list_feature": [
+      "Generate revenue statistics",
+      "Create monthly, quarterly, and annual reports",
+      "Update and view promotional offers",
+      "Maintain current farm performance data"
+    ]
+  }
+]

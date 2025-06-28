@@ -1,0 +1,138 @@
+[
+    {
+        "id": "P1",
+        "phase": "User Accounts (Basic)",
+        "feature_list": [
+            "User registration and authentication",
+            "User profile management"
+        ],
+        "estimatedTime": 7,
+        "startTime": "2023-11-20",
+        "endTime": "2023-11-28",
+        "dependencies": []
+    },
+    {
+        "id": "P2",
+        "phase": "Listing Management",
+        "feature_list": [
+            "Create sale listings (motorcycles, parts, accessories)",
+            "Create purchase listings",
+            "Edit/Delete listings",
+            "Add listing details (title, description, price, category, condition, photos, location)",
+            "Categorize listings"
+        ],
+        "estimatedTime": 10,
+        "startTime": "2023-11-29",
+        "endTime": "2023-12-12",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P5",
+        "phase": "Community Forum",
+        "feature_list": [
+            "Discussion boards/forums",
+            "Create posts/threads",
+            "Commenting and reply system",
+            "Categorize forum topics",
+            "Sharing experiences among users"
+        ],
+        "estimatedTime": 7,
+        "startTime": "2023-11-29",
+        "endTime": "2023-12-07",
+        "dependencies": [
+            "P1"
+        ]
+    },
+    {
+        "id": "P7",
+        "phase": "User Communication",
+        "feature_list": [
+            "Private messaging between users"
+        ],
+        "estimatedTime": 5,
+        "startTime": "2023-12-13",
+        "endTime": "2023-12-19",
+        "dependencies": [
+            "P1",
+            "P2"
+        ]
+    },
+    {
+        "id": "P6",
+        "phase": "Transaction Tracking",
+        "feature_list": [
+            "System to record successful transactions"
+        ],
+        "estimatedTime": 5,
+        "startTime": "2023-12-13",
+        "endTime": "2023-12-19",
+        "dependencies": [
+            "P2"
+        ]
+    },
+    {
+        "id": "P3",
+        "phase": "User Credibility (Core Logic)",
+        "feature_list": [
+            "Track successful transactions",
+            "Collect user feedback/ratings",
+            "Track total value of items exchanged",
+            "Calculate user credibility score",
+            "Prioritize listings based on credibility score"
+        ],
+        "estimatedTime": 10,
+        "startTime": "2023-12-20",
+        "endTime": "2024-01-03",
+        "dependencies": [
+            "P2",
+            "P6"
+        ]
+    },
+    {
+        "id": "P4",
+        "phase": "Search and Discovery",
+        "feature_list": [
+            "Search listings",
+            "Filter listings (e.g., by category, price, location)",
+            "Sort listings (including by credibility priority)"
+        ],
+        "estimatedTime": 8,
+        "startTime": "2024-01-04",
+        "endTime": "2024-01-15",
+        "dependencies": [
+            "P2",
+            "P3"
+        ]
+    },
+    {
+        "id": "P8",
+        "phase": "Credibility Display",
+        "feature_list": [
+            "Display user credibility level on profile"
+        ],
+        "estimatedTime": 3,
+        "startTime": "2024-01-04",
+        "endTime": "2024-01-08",
+        "dependencies": [
+            "P3"
+        ]
+    },
+    {
+        "id": "P9",
+        "phase": "Integration and Testing",
+        "feature_list": [],
+        "estimatedTime": 10,
+        "startTime": "2024-01-16",
+        "endTime": "2024-01-29",
+        "dependencies": [
+            "P3",
+            "P4",
+            "P5",
+            "P6",
+            "P7",
+            "P8"
+        ]
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "category": "Homepage",
+        "list_feature": [
+            "Company introduction",
+            "Spotlight on popular tour options",
+            "News and exclusive deals updates"
+        ]
+    },
+    {
+        "category": "Tour Packages",
+        "list_feature": [
+            "Categorization of tours (Special Tours, Japan Tours, Asia Tours, Europe Tours, Australia Tours, America Tours)",
+            "Detailed daily schedule for each tour",
+            "Trip highlights",
+            "Service details (accommodations, flights, meals)",
+            "Transparent pricing",
+            "Inclusions and exclusions",
+            "Captivating visuals",
+            "Guide information",
+            "Payment options",
+            "Cancellation policies"
+        ]
+    },
+    {
+        "category": "Informational Content",
+        "list_feature": [
+            "Travel articles",
+            "Cultural articles",
+            "Personal travel narratives"
+        ]
+    },
+    {
+        "category": "Customer Support",
+        "list_feature": [
+            "Visa consultation services",
+            "Contact form",
+            "Specialized hotlines",
+            "Email addresses",
+            "Office location details",
+            "Prominently displayed hotline numbers"
+        ]
+    },
+    {
+        "category": "Social Proof",
+        "list_feature": [
+            "Customer testimonials and reviews"
+        ]
+    }
+]

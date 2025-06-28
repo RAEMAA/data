@@ -1,0 +1,104 @@
+[
+  {
+    "id": "P1",
+    "phase": "Branch Coordination",
+    "feature_list": [
+      "Multi-branch management interface",
+      "Role-based access control for branch staff",
+      "Real-time inventory synchronization across branches",
+      "Inter-branch communication and task delegation tools"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-10-30",
+    "endTime": "2023-11-27",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Payment Gateways",
+    "feature_list": [
+      "Integrated credit/debit card processing",
+      "Mobile wallet payment support",
+      "PCI-DSS compliant transaction security",
+      "Multi-currency support with auto-conversion",
+      "Split payment routing for branch-specific transactions"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-10-30",
+    "endTime": "2023-11-27",
+    "dependencies": []
+  },
+  {
+    "id": "P3",
+    "phase": "Promotional Tools",
+    "feature_list": [
+      "Customizable discount code generator",
+      "Loyalty program management system",
+      "Seasonal campaign templates",
+      "Bulk SMS/email promotion module",
+      "Referral reward tracking system"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2023-11-27",
+    "endTime": "2023-12-18",
+    "dependencies": ["P2"]
+  },
+  {
+    "id": "P4",
+    "phase": "Analytics Modules",
+    "feature_list": [
+      "Branch performance comparison dashboards",
+      "Customer purchase pattern analysis",
+      "Real-time sales revenue tracking",
+      "Promotional campaign ROI calculator",
+      "Inventory turnover rate forecasting"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-11-27",
+    "endTime": "2023-12-25",
+    "dependencies": ["P1", "P2"]
+  },
+  {
+    "id": "P5",
+    "phase": "Online Ordering",
+    "feature_list": [
+      "Real-time order interface optimized for office workers",
+      "Geolocation-based automatic branch routing",
+      "Seamless integration with existing payment gateways",
+      "End-to-end order status tracking system",
+      "Promo code redemption integration with validation"
+    ],
+    "estimatedTime": "5 weeks",
+    "startTime": "2023-12-19",
+    "endTime": "2024-01-22",
+    "dependencies": ["P2", "P3"]
+  },
+  {
+    "id": "P6",
+    "phase": "Customer Feedback",
+    "feature_list": [
+      "Dual-rating system (star ratings + binary thumbs up/down)",
+      "AI-powered sentiment analysis for written feedback",
+      "Feedback categorization by product/service attributes",
+      "Automated review moderation alerts"
+    ],
+    "estimatedTime": "2 weeks",
+    "startTime": "2024-01-23",
+    "endTime": "2024-02-05",
+    "dependencies": ["P5"]
+  },
+  {
+    "id": "P7",
+    "phase": "Menu Management",
+    "feature_list": [
+      "Time-based scheduled price adjustments",
+      "Bulk menu item editing tools",
+      "Seasonal menu scheduling with approval workflows",
+      "Dynamic pricing integration with inventory levels"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2023-12-26",
+    "endTime": "2024-01-16",
+    "dependencies": ["P1", "P4"]
+  }
+]

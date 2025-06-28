@@ -1,0 +1,89 @@
+[
+  {
+    "id": "P1",
+    "phase": "Homepage & Overview Development",
+    "feature list": [
+      "Overview of company services",
+      "Latest news updates",
+      "Special deals highlights",
+      "Featured tours spotlight"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2023-10-11",
+    "endTime": "2023-11-01",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Tour Categorization & Listings Module",
+    "feature list": [
+      "Special Tours",
+      "Japan Tours",
+      "Asia Tours",
+      "Europe-Australia-America Tours"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2023-10-11",
+    "endTime": "2023-11-01",
+    "dependencies": []
+  },
+  {
+    "id": "P3",
+    "phase": "Visa Consultation & Support Module",
+    "feature list": [
+      "Visa consultation for multiple countries",
+      "Support for visa inquiries"
+    ],
+    "estimatedTime": "2 weeks",
+    "startTime": "2023-10-11",
+    "endTime": "2023-10-25",
+    "dependencies": []
+  },
+  {
+    "id": "P4",
+    "phase": "Cultural Articles & Customer Reviews",
+    "feature list": [
+      "Cultural articles",
+      "Stories of travel experiences",
+      "Genuine customer reviews",
+      "Personal testimonials from previous clients"
+    ],
+    "estimatedTime": "2 weeks",
+    "startTime": "2023-10-11",
+    "endTime": "2023-10-25",
+    "dependencies": []
+  },
+  {
+    "id": "P5",
+    "phase": "Contact Methods & Inquiry Options",
+    "feature list": [
+      "Online inquiry form",
+      "Dedicated hotlines for individual travelers, group tours, and visa consultations",
+      "Email contact information",
+      "Office address details",
+      "Prominently displayed hotline numbers"
+    ],
+    "estimatedTime": "1 week",
+    "startTime": "2023-10-11",
+    "endTime": "2023-10-18",
+    "dependencies": []
+  },
+  {
+    "id": "P6",
+    "phase": "Detailed Tour Information Pages",
+    "feature list": [
+      "Daily itineraries",
+      "Trip highlights",
+      "Service information covering accommodations, flight tickets, and meals",
+      "Comprehensive pricing details (inclusions and exclusions)",
+      "Supporting images",
+      "Guide information",
+      "Payment method policies",
+      "Cancellation policies"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-11-02",
+    "endTime": "2023-11-29",
+    "dependencies": ["P2"]
+  }
+]

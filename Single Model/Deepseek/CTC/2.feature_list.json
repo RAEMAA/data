@@ -1,0 +1,69 @@
+[
+  {
+    "category": "Online Ordering Platform",
+    "list_feature": [
+      "Meal selection and customization interface",
+      "Automatic order routing to nearest branch",
+      "Real-time order tracking for customers",
+      "Dedicated online ordering service for office workers (e.g., bulk/scheduled orders)",
+      "User account management with order history"
+    ]
+  },
+  {
+    "category": "Branch Operations Management",
+    "list_feature": [
+      "Centralized dashboard for multi-branch monitoring",
+      "Inventory management with real-time updates",
+      "Staff scheduling and performance tracking",
+      "Order distribution optimization across branches"
+    ]
+  },
+  {
+    "category": "Promotions & Discount Management",
+    "list_feature": [
+      "Promotional campaign tracking and analytics",
+      "Discount code application during checkout",
+      "Dynamic promo code generation and validation"
+    ]
+  },
+  {
+    "category": "Payment System Integration",
+    "list_feature": [
+      "Secure payment processing via NganLuong.vn",
+      "Support for multiple payment methods (e.g., credit cards, e-wallets)",
+      "Instant payment confirmation and digital receipts"
+    ]
+  },
+  {
+    "category": "Customer Feedback & Insights",
+    "list_feature": [
+      "Post-order rating and review submission",
+      "Customer feedback analysis dashboard",
+      "Branch-specific response management to reviews"
+    ]
+  },
+  {
+    "category": "Pricing Transparency & Updates",
+    "list_feature": [
+      "Automated price synchronization across branches and platforms",
+      "Transparent pricing display with no hidden fees",
+      "Regular price update notifications"
+    ]
+  },
+  {
+    "category": "Data Analytics & Business Strategy",
+    "list_feature": [
+      "Centralized sales and revenue reporting",
+      "Customer behavior and preference analytics",
+      "Operational efficiency metrics (e.g., order fulfillment time)"
+    ]
+  },
+  {
+    "category": "Security & Compliance",
+    "list_feature": [
+      "PCI-DSS compliant payment security",
+      "Data encryption for user and transaction protection",
+      "Regular security audits and vulnerability assessments"
+    ]
+  }
+]

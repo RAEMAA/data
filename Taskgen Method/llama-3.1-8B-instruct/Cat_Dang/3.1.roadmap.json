@@ -1,0 +1,57 @@
+[{
+    "id": "P1",
+    "phase": "Requirements Gathering",
+    "feature_list": [],
+    "estimatedTime": null,
+    "startTime": "2023-01-01",
+    "endTime": null,
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "System Design and Planning",
+    "feature_list": [
+      {"category": "User Interface", "list_feature": ["Drag-and-drop menu system for easy ordering"]},
+      {"category": "Waiter Experience", "list_feature": ["Streamlined order-taking process with minimal errors"]}
+    ],
+    "estimatedTime": null,
+    "startTime": "2023-01-02",
+    "endTime": null,
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P3",
+    "phase": "Development and Testing",
+    "feature_list": [
+      {"category": "Order Optimization", "list_feature": ["Integration with kitchen management system for seamless communication"]},
+      {"category": "Data Integration", "list_feature": ["Centralized repository for storing business information from all branches"]}
+    ],
+    "estimatedTime": null,
+    "startTime": "2023-01-15",
+    "endTime": null,
+    "dependencies": ["P2"]
+  },
+  {
+    "id": "P4",
+    "phase": "Implementation and Deployment",
+    "feature_list": [
+      {"category": "Security and Compliance", "list_feature": ["Robust access control and authentication mechanisms to ensure secure user management"]},
+      {"category": "Business Intelligence", "list_feature": ["Customizable reporting dashboards for real-time business insights and analytics"]}
+    ],
+    "estimatedTime": null,
+    "startTime": "2023-02-01",
+    "endTime": null,
+    "dependencies": ["P3"]
+  },
+  {
+    "id": "P5",
+    "phase": "Scalability and Maintenance",
+    "feature_list": [
+      {"category": "Scalability and Maintenance", "list_feature": ["Flexible architecture to accommodate growing business needs and expanding data volumes"]}
+    ],
+    "estimatedTime": null,
+    "startTime": "2023-03-01",
+    "endTime": null,
+    "dependencies": ["P4"]
+  }
+]

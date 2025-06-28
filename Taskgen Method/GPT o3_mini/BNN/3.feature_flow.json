@@ -1,0 +1,211 @@
+[
+  {
+    "category": "Farmer Registration",
+    "features": [
+      {
+        "category": "E-commerce Platform for Agricultural Products",
+        "features": [
+          {
+            "featureName": "User Registration",
+            "flow": "1. Visitor clicks on the Register button on the homepage. 2. The user fills in personal information along with bank account details. 3. The system initiates a bank authentication process. 4. The bank verifies the account and sends a confirmation. 5. The system confirms registration and sends a confirmation message (Role: Farmer).",
+            "screens": [
+              "Registration Screen: A form for entering personal and bank details.",
+              "Bank Verification Screen: Interface to display bank authentication prompts.",
+              "Confirmation Screen: Displays registration success and further login instructions."
+            ]
+          },
+          {
+            "featureName": "Post Produce",
+            "flow": "1. A logged-in farmer selects the 'Post Produce' option from the dashboard. 2. The farmer fills in produce details including product name, category, description, images, and pricing. 3. The system provides a preview of the produce listing. 4. The farmer confirms and submits the listing for publication (Role: Farmer).",
+            "screens": [
+              "Produce Posting Form: Screen for entering produce details and uploading images.",
+              "Preview Screen: Displays the complete produce information for review.",
+              "Submission Confirmation Screen: Notifies the user of successful posting."
+            ]
+          },
+          {
+            "featureName": "Buy Produce",
+            "flow": "1. A logged-in buyer browses the product catalog and selects a produce item to view details. 2. The buyer adds the selected produce to the shopping cart. 3. The buyer proceeds to checkout, entering shipping and payment information. 4. The system processes the online payment and confirms the order. 5. Order details are forwarded to the shipping service (Roles: Buyer and System).",
+            "screens": [
+              "Product Listing Screen: Displays available produce with brief product information.",
+              "Product Detail Screen: Provides comprehensive details including images, descriptions, and pricing.",
+              "Cart Screen: Lists selected items for purchase.",
+              "Checkout Screen: Collects shipping, billing, and payment information.",
+              "Order Confirmation Screen: Confirms order placement and provides additional instructions."
+            ]
+          }
+        ]
+      },
+      {
+        "featureName": "Secure bank account verification and validation",
+        "flow": "Step 1: Initiation - The farmer logs in or registers on www.hailua.com.vn. The system prompts the user to add a bank account for processing secure online transactions. [Role: Farmer]\nStep 2: Bank Account Entry - The farmer navigates to the Bank Account Entry Screen and inputs necessary details (account number, account holder name, bank branch details). [Role: Farmer]\nStep 3: Request Submission - Upon submitting the details, the system initiates a verification request by calling an external bank API and simultaneously triggers an OTP (one-time password) generation sent to the registered mobile number. [Roles: System, External Bank API]\nStep 4: OTP Verification - The farmer is redirected to the OTP Entry Screen. Here, the farmer enters the received OTP to verify ownership of the bank account information. [Role: Farmer]\nStep 5: Processing and Validation - The system validates the provided OTP. If the OTP is correct, verification is successful. If not, it presents an error and an option to resend the OTP. [Role: System]\nStep 6: Outcome Display - On successful verification, the system displays a Verification Success Screen confirming the bank account linkage. In the case of an error, the Verification Error Screen provides troubleshooting tips and retry options. [Role: System]\nStep 7: Audit Logging - Optionally, the system logs the verification process for audit and compliance purposes, accessible by administrators if needed. [Role: System/Admin]",
+        "screens": [
+          "Bank Account Entry Screen: Allows the farmer to input bank account details and initiate the verification process.",
+          "OTP Entry Screen: Provides a secure interface for entering the one-time password received via SMS or other channels.",
+          "Verification Loading Screen: Displays a progress indicator while the bank API processes the verification request.",
+          "Verification Success Screen: Informs the user of a successful bank account verification and confirms account linkage.",
+          "Verification Error Screen: Alerts the user of an error in verification and offers options to retry or request a new OTP."
+        ]
+      },
+      "{\"featureName\": \"Comprehensive profile management for farmers\", \"flow\": \"1. Registration Initiation: The farmer visits the registration page and inputs basic personal details and bank account information. (Role: Farmer)\\\n2. Bank Verification: The system verifies the provided bank details through an integrated API, then sends a verification code to the farmer’s contact. (Role: System)\\\n3. Account Activation: The farmer enters the verification code on the Email/OTP Verification Screen to activate the account. (Role: Farmer)\\\n4. Profile Setup: Once verified, the farmer is guided to a comprehensive Profile Setup Screen where they fill out detailed farm information, including location, produce types, certifications, and images. (Role: Farmer, System assists with form validations)\\\n5. Profile Review: The farmer reviews the entered information and can edit any details using the Edit Profile Screen. (Role: Farmer)\\\n6. Final Confirmation: After confirming the details, the system saves the profile data and provides a Save Confirmation Screen, indicating successful completion. (Role: System)\\\n7. Dashboard Access: The farmer is then redirected to the Profile Dashboard where they can view their comprehensive profile and access additional features such as posting new produce or updating information. (Role: Farmer)\", \"screens\": [\"Registration and Bank Linking Screen: Captures initial user details and bank account information to begin registration.\", \"Email/OTP Verification Screen: Provides instructions for entering a verification code sent via email or SMS.\", \"Profile Setup Screen: Allows farmers to input detailed information about their farm, produce, certifications, and upload necessary images.\", \"Profile Dashboard Screen: Displays an overview of the farmer’s profile, including key information and navigation options.\", \"Edit Profile Screen: Enables the farmer to update and modify any aspect of their profile details.\", \"Save Confirmation Screen: Confirms successful saving of profile information and informs the farmer of the update.\"]}"
+    ]
+  },
+  {
+    "category": "Produce Listings",
+    "features": [
+      {
+        "featureName": "Detailed listings incorporating sensor data",
+        "flow": "1. Farmer Login: The farmer logs into www.hailua.com.vn using bank account credentials. 2. Navigation to Create Listing: The farmer selects the Create Listing option from the dashboard. 3. Produce Details Input: The farmer fills out a form with produce name, description, price, and uploads images. 4. Sensor Integration Prompt: If the produce qualifies for sensor data verification, the system prompts the farmer to integrate sensor data. 5. Sensor Configuration: The farmer is directed to a Sensor Configuration Screen where they connect their sensor device and follow on-screen instructions for initial setup. 6. Sensor Calibration: The system provides a Sensor Calibration Screen guiding the farmer to correctly place the produce for sensor data capture (e.g., moisture, temperature), displaying real-time sensor readings. 7. Data Capture and Integration: Once calibrated, sensor readings are captured and integrated into the listing details. 8. Listing Preview: The farmer reviews the complete listing, including produce details and sensor data on a dedicated preview page. 9. Listing Submission: Upon confirmation, the listing is submitted, triggering a notification workflow for Quality Manager approval. 10. Quality Approval Workflow: A Quality Manager reviews the sensor data and overall listing quality on an approval dashboard. 11. Publication or Feedback: If approved, the listing is published; if rejected, feedback is provided and the farmer is prompted to modify the listing.",
+        "screens": [
+          "Listing Creation Screen: A form to enter produce details like name, description, price, and images.",
+          "Sensor Configuration Screen: Guides the farmer to connect and set up sensor devices with step-by-step instructions.",
+          "Sensor Calibration Screen: Provides live feedback and instructions to ensure accurate sensor data capture (e.g., moisture and temperature readings).",
+          "Listing Preview Screen: Displays a consolidated view of the produce details and the integrated sensor data for final verification.",
+          "Submission Confirmation Screen: Confirms successful submission and informs the user about pending quality approval.",
+          "Quality Approval Dashboard Screen: Enables Quality Managers to review sensor-integrated listings and either approve or request modifications."
+        ]
+      },
+      {
+        "featureName": "High-resolution images and descriptive content",
+        "flow": "1. Farmer Login: The farmer logs into www.hailua.com.vn using secure authentication (role: Farmer).\n2. Navigation to Create Listing: After login, the farmer clicks on the 'Create New Produce Listing' button.\n3. Listing Form Initiation: The system presents a form where the farmer can input produce details.\n4. Image Upload Step: The farmer is prompted to upload high-resolution images using an image uploader with drag-and-drop support. The system provides recommended resolution and file size tips, and validates the uploaded images (role: System).\n5. Descriptive Content Entry: The form presents fields for detailed content entry (e.g., produce type, quality, cultivation details, and price), where the farmer inputs text descriptions.\n6. Preview Listing: The farmer is shown a preview page that displays high-resolution images alongside the descriptive content as it will appear to buyers, with an option to revise if necessary.\n7. Listing Confirmation: The farmer confirms and submits the listing, while the system processes the information and registers the listing on the platform (role: System).\n8. Post-Submission Notification: The system displays a confirmation screen summarizing the listing and providing further recommendations such as sharing or editing later.",
+        "screens": [
+          "Login Screen: Allows farmers to log in securely using their credentials, initiating the listing creation process.",
+          "Dashboard/Main Menu: Provides navigation options and a clear call-to-action to create a new produce listing.",
+          "Listing Creation Form: A multi-section form where farmers input produce details including title, category, pricing, with dedicated sections for high-resolution image upload and descriptive content entry.",
+          "High-resolution Image Upload Modal: A dedicated modal for uploading, previewing, and editing images with instructions on resolution and acceptable file formats.",
+          "Descriptive Content Entry Screen: Integrated in the form offering ample space for text entry with relevant formatting options for detailed produce descriptions.",
+          "Preview Listing Screen: Displays the complete produce listing as it will appear online, including a high-resolution image gallery and the descriptive content, allowing the farmer to verify and revise if needed.",
+          "Confirmation Screen: Informs the user that the listing has been successfully submitted, summarizing the entered data and suggesting next steps."
+        ]
+      },
+      {
+        "featureName": "Real-time updates on produce quality",
+        "flow": "Step 1: Farmer Registration – The farmer visits the Registration Screen to create an account using personal and bank account information. Step 2: Account Verification – The system verifies the provided details (via email or SMS) to ensure authenticity. Step 3: Login – Upon successful verification, the farmer uses the Login Screen to sign in and access their dashboard. Step 4: Dashboard Navigation – Within the Dashboard Screen, the farmer selects the ‘Manage Produce Listings’ option to add or update listings. Step 5: Create Produce Listing – On the Produce Listing Screen, the farmer enters produce details including type, description, pricing, quantity, uploads images, and initial quality metrics. Step 6: Real-Time Quality Monitoring Setup – The farmer proceeds to the Quality Monitor Screen where they can integrate sensor data or manually input updates to continuously monitor produce quality. Step 7: Listing Confirmation – A Listing Confirmation Screen displays a success message and summarizes the produce listing, informing that real-time quality data will be updated as changes occur. Step 8: Real-Time Updates and Notifications – As quality data changes, the system continuously updates the listing and sends immediate notifications to interested buyers via the Notification Center Screen. Step 9: Buyer Interaction – Buyers access the Produce Detail Screen to view in-depth details of the produce along with live quality updates and purchase as desired.",
+        "screens": [
+          "Registration Screen: Allows farmers to create accounts using personal and banking details.",
+          "Login Screen: Provides secure access for registered users to sign in.",
+          "Dashboard Screen: Serves as the central hub for managing produce listings and accessing account settings.",
+          "Produce Listing Screen: Interface for entering produce details including descriptions, prices, images, and initial quality metrics.",
+          "Quality Monitor Screen: Dedicated interface that enables real-time monitoring and updating of produce quality via sensor integrations or manual inputs.",
+          "Listing Confirmation Screen: Displays confirmation of successfully created produce listings and next steps for monitoring quality.",
+          "Produce Detail Screen: Detailed view for buyers showcasing comprehensive produce information and live quality updates.",
+          "Notification Center Screen: Presents real-time alerts and notifications to buyers regarding changes in produce quality."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Online Payment Processing",
+    "features": [
+      {
+        "featureName": "Seamless integration with payment gateways",
+        "flow": "Step 1: Farmer logs into the platform using secure credentials. (User Role: Farmer)\n\nStep 2: Farmer browses produce listings and adds desired items to the shopping cart. (User Role: Farmer)\n\nStep 3: At checkout, the system summarizes the order and prompts the user to choose a payment method. (User Role: Farmer)\n\nStep 4: The Payment Options Screen displays various integrated gateways (e.g., bank transfer, mobile payment, credit card). The user selects a preferred payment option. (User Role: Farmer)\n\nStep 5: The system redirects the user to a secure Payment Processing Screen where payment details are captured. (User Role: Farmer, with backend interaction via Payment API)\n\nStep 6: The payment gateway processes the transaction, and the system waits for an acknowledgment. (User Role: Payment Gateway Service)\n\nStep 7: If the payment is successful, the system updates the order status, and the Payment Confirmation Screen displays transaction details and receipt. (User Role: Farmer and System Notifications)\n\nStep 8: In case of failure, the Payment Failure/Error Screen is displayed with actionable options to retry or seek help. (User Role: Farmer)\n\nStep 9: Concurrently, the System Administrator monitors all transactions via the Admin Payment Dashboard Screen to ensure reliability and intervene if necessary. (User Role: System Administrator)",
+        "screens": [
+          "Checkout Screen: Summarizes the order and shows the option to proceed to payment.",
+          "Payment Options Screen: Lists available payment methods integrated with payment gateways for user selection.",
+          "Payment Processing Screen: Provides a secure interface for entering payment details and interacting with the payment gateway.",
+          "Payment Confirmation Screen: Confirms successful transactions and displays order receipt and transaction details.",
+          "Payment Failure/Error Screen: Notifies users of transaction issues and provides options to retry or contact support.",
+          "Admin Payment Dashboard Screen: Enables system administrators to monitor payment transactions, view logs, and manage troubleshooting procedures."
+        ]
+      },
+      {
+        "featureName": "Support for multiple payment methods",
+        "flow": "1. User Authentication and Cart Checkout: The user (typically a farmer or rural consumer) logs in and adds desired produce to the cart.\n2. Initiate Payment: At checkout, the user chooses to proceed with payment.\n3. Payment Selection: The system presents a Payment Selection Screen listing multiple payment options such as Credit/Debit Card, Bank Transfer (integrated with local banks), Mobile Wallet (e.g., MoMo, VNPAY), and Cash on Delivery.\n4. Payment Details Entry: The user is guided to a dynamic Payment Details Screen to enter necessary details (e.g., card information, bank account number, or mobile payment QR code scanning).\n5. Validation and Error Handling: The system validates input; if errors occur (e.g., incorrect card number), an Error Handling Screen displays clear instructions to retry or choose another method.\n6. Transaction Processing: Upon successful validation, payment is processed with a loading indicator and confirmation messaging.\n7. Order Confirmation and Receipt: After a successful transaction, the user is directed to an Order Confirmation Screen that displays order details, a unique transaction ID, and delivery information.\n8. Notifications and Role-based Monitoring: Automated SMS/email notifications are sent to the user, while administrators monitor transactions via an Admin Dashboard for any anomalies.\n9. Post-transaction Review: Users can later review their transaction history through a dedicated screen in their profile, ensuring transparency and ease of reference.",
+        "screens": [
+          "Payment Selection Screen: Lists available payment options with icons and brief descriptions to aid user understanding.",
+          "Payment Details Screen: Dynamically displays input fields specific to the chosen payment type along with instructions for entry.",
+          "Error Handling Screen: Provides clear, user-friendly error messages with troubleshooting guidance and contact information for support.",
+          "Order Confirmation Screen: Summarizes transaction details including order summary, payment confirmation, and a unique transaction ID.",
+          "Admin Dashboard Screen: Exclusive to administrators for monitoring transactions, managing errors, and resolving issues.",
+          "User Transaction History Screen: Allows users to view past transactions, access digital receipts, and reprint invoices if needed."
+        ]
+      },
+      {
+        "featureName": "Robust security for transaction processing",
+        "flow": "Step 1: Payment Initiation - The buyer accesses the payment interface after selecting produce for purchase. (Role: Registered Buyer)\nStep 2: User Authentication - Before proceeding, the system requests multi-factor authentication (MFA) via OTP or biometric verification. (Role: Registered Buyer, System Security Module)\nStep 3: Bank Account Verification - The system securely communicates with the bank gateway to verify the buyer’s linked bank account details. (Role: System, Bank API)\nStep 4: Transaction Encryption - With verified credentials, the system initiates the secure processing of funds using end-to-end encryption protocols. (Role: Payment Processor, System Security)\nStep 5: Transaction Logging and Monitoring - Every step is logged and the system monitors for anomalies. Suspicious activities trigger alerts to administrators. (Role: System Security, Admin)\nStep 6: Confirmation and Receipt Generation - On successful transaction, the system displays a confirmation with a digital receipt. (Role: System, Registered Buyer)\nStep 7: Refund/Dispute Processing - If any issue arises, a secure support workflow is initiated, allowing buyers to file disputes or request refunds. (Role: Registered Buyer, Customer Support, System)",
+        "screens": [
+          "Payment Initiation Screen: Provides users with an interface to enter payment details and proceed to authentication.",
+          "Multi-Factor Authentication Screen: Prompts users for OTP, biometrics, or other verification methods to secure the transaction.",
+          "Bank Verification Screen: Displays the verification process with the bank, ensuring that linked accounts are valid.",
+          "Confirmation Screen: Shows transaction approval details, digital receipt, and security confirmation.",
+          "Security Alert & Notification Screen: Informs users and system administrators of any suspicious activities or alerts, with guidance on next steps.",
+          "Refund/Dispute Screen: Offers an interface for initiating and processing refund or dispute requests securely."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Shipping Services",
+    "features": [
+      {
+        "featureName": "Integrated shipping solutions",
+        "flow": "1. Seller Listing Initiation: Seller logs in and posts a produce listing. During the posting process, they choose to include integrated shipping options. (User role: Seller)\n2. Shipping Option Display: The system fetches data from partnered shipping providers and displays available shipping methods (e.g., standard, express) along with estimated fees and delivery times. (User role: System)\n3. Shipping Selection: Seller reviews and selects a preferred shipping option or configures specific requirements for the shipment (e.g., packaging, pickup times). (User role: Seller)\n4. Buyer Interaction: When a buyer views a produce listing, the shipping details are displayed along with the option to choose the shipping method during checkout. (User role: Buyer)\n5. Order Checkout: Buyer completes the purchase, with the chosen shipping option automatically applied. (User role: Buyer)\n6. Order Processing: Once payment is confirmed, the system forwards shipping details to the selected shipping provider. (User role: System and Shipping Provider)\n7. Shipment Tracking: Both seller and buyer receive a shipment tracking number and have access to a tracking interface on the platform for real-time updates. (User role: Seller, Buyer, and System)\n8. Exception Handling: In case of shipping delays or issues, customer support is alerted and can intervene to assist both seller and buyer. (User role: Support Team)",
+        "screens": [
+          "Dashboard Screen: Displays overall account information including active listings and shipment statuses for sellers and shipment tracking for buyers.",
+          "Shipping Options Screen: Lists available shipping providers with detailed cost, estimated delivery times, and service types for seller selection.",
+          "Listing Detail Screen: Shows produce details along with integrated shipping information such as provider options and tracking preview for buyers.",
+          "Checkout Screen: Provides a step in the purchase process where buyers review and confirm shipping details along with payment information.",
+          "Order Confirmation Screen: Confirms the order and displays shipment tracking numbers and estimated delivery dates.",
+          "Tracking Screen: Offers a dedicated view for real-time tracking updates and shipment progress for both buyers and sellers.",
+          "Customer Support Screen: Enables support staff to review shipping issues, intervene in delayed shipments, and communicate with users as needed."
+        ]
+      },
+      {
+        "featureName": "Real-time Tracking of Shipments",
+        "flow": "Step 1: Order Placement - The seller posts produce on www.hailua.com.vn and creates a shipment order. (Role: Seller).\nStep 2: Shipment Processing - Upon order confirmation, the system generates a shipment tracking request and notifies the logistics team. (Role: System & Logistics Coordinator).\nStep 3: Courier Assignment - The backend assigns a delivery partner based on availability and location. (Role: System & Delivery Partner).\nStep 4: Shipment Dispatch - The assigned courier picks up the produce from the seller’s designated location. The courier initiates the shipment process by activating the real-time tracking feature on their mobile device. (Role: Delivery Partner).\nStep 5: Real-time Tracking - The system collects GPS data from the courier’s mobile device. The information is updated on the tracking dashboard available to the seller, farmer, and customer. (Role: System, Seller, Farmer, Customer).\nStep 6: In-Transit Updates - As the shipment progresses, the courier updates delivery milestones (e.g., departure, midway stops, approaching destination). Automated notifications are generated. (Role: Delivery Partner & System).\nStep 7: Delivery Confirmation - Upon arrival at the destination, the delivery partner and recipient verify receipt of the produce. The system then updates the delivery status. (Role: Delivery Partner & Customer/Farmer).\nStep 8: Post-Delivery Feedback - The customer or farmer provides feedback on the shipment process, and the system logs the data for future improvements. (Role: Customer/Farmer & System)",
+        "screens": [
+          "Shipment Dashboard Screen - Displays real-time status and progress of the shipment with clear indicators (e.g., in transit, delayed, delivered).",
+          "Map Tracking Screen - Offers an interactive map pinpointing the current location of the shipment with route details.",
+          "Shipment Details Screen - Provides detailed information regarding the shipment including order specifics, estimated delivery time, courier contact, and other metadata.",
+          "Notification Screen - Lists real-time alerts and updates about shipment milestones and any potential delays.",
+          "Delivery Confirmation Screen - Allows the recipient and delivery partner to verify match details and confirm successful delivery.",
+          "Feedback Screen - Enables users to submit feedback regarding the shipping experience for quality assurance purposes."
+        ]
+      },
+      {
+        "featureName": "Flexible Delivery and Logistic Management",
+        "flow": "Step 1: Buyer selects desired produce and clicks on ‘Checkout’ to initiate the order. (Role: Buyer)\nStep 2: The system displays various delivery options tailored to the buyer’s location, including delivery time estimates, costs, and logistic partner details. (Role: System)\nStep 3: Buyer reviews and selects a preferred logistic option (e.g., standard, express) and confirms the order. (Role: Buyer)\nStep 4: Order details along with the selected logistic option are sent to the seller. (Role: System/Seller)\nStep 5: Seller reviews the order and either confirms the assigned logistic provider from the integrated list or manually initiates a logistic request. (Role: Seller)\nStep 6: The system notifies the chosen logistic provider with all necessary order, pickup, and delivery details. (Role: System, Logistic Provider)\nStep 7: Logistic Provider reviews the notification, accepts the logistics request, and may adjust the pickup time if needed using their mobile or web dashboard. (Role: Logistic Provider)\nStep 8: Upon confirmation, the logistic provider picks up the produce from the seller and updates the shipment status (e.g., pickup initiated, in transit) in real time. (Role: Logistic Provider, System)\nStep 9: Both buyer and seller can monitor the shipment progress via a tracking interface. (Role: Buyer, Seller)\nStep 10: Once delivered, the system captures the final delivery confirmation and prompts for feedback on the logistics service. (Role: Buyer, Seller, Logistic Provider)",
+        "screens": [
+          "Checkout Screen: Enables buyers to review their cart, enter shipping information, and proceed to select their delivery options.",
+          "Delivery Options Screen: Displays multiple logistic providers with their respective delivery times, costs, and service details.",
+          "Order Confirmation Screen: Summarizes the order and selected delivery method for final buyer verification before submission.",
+          "Seller Order Management Screen: Allows sellers to view new orders, review delivery selections, and assign logistic providers.",
+          "Logistic Assignment Screen: Facilitates the seller in selecting or confirming a logistic provider for order pickup and delivery.",
+          "Logistic Provider Dashboard: A dedicated portal for logistic providers to manage incoming delivery requests, update statuses, and communicate updates.",
+          "Shipment Tracking Screen: Provides real-time tracking information of the order for buyers and sellers, including status updates and estimated delivery time.",
+          "Admin Dashboard: Enables administrators to monitor overall logistic operations, manage exceptions, and review performance metrics."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Product Comparison",
+    "features": [
+      {
+        "featureName": "Side-by-side product comparisons",
+        "flow": "1. User Authentication: The user (farmer, seller, or buyer) logs into their account or registers if they are a new user via the Login/Registration Screen.\n2. Navigation: Once logged in, the user navigates to the Product Comparison section from the main menu on the homepage.\n3. Product Browsing: The user is presented with a Product Listing Screen that displays available produce with filtering and sorting options (e.g., by category, price, or popularity).\n4. Selection for Comparison: The user selects products for comparison by clicking the ‘Add to Compare’ button on each product card. Each selection is visually indicated (e.g., selection highlight or icon change).\n5. Review Comparison List: The user reviews the selected items in a temporary Product Comparison Panel (a modal or sidebar) where options to remove items are available.\n6. Initiate Comparison: Satisfied with the selections, the user clicks on the ‘Compare Now’ button.\n7. Comparison Display: The system processes the request and displays a Comparison Results Screen showing the selected products side-by-side. This screen includes details like descriptions, prices, quality ratings, images, and shipping options.\n8. Detailed Inspection: The user can click on any product within the comparison to view more detailed information on the Product Detail Screen.\n9. Follow-Up Actions: Based on the comparison, the user can decide to proceed to purchase, contact support, or return to the product list for further exploration. Role involvement is primarily the authenticated user; system components handle data retrieval, display, and session management.",
+        "screens": [
+          "Login/Registration Screen: Allows users to sign into the platform or register to gain access to full features including product comparison.",
+          "Product Listing Screen: Displays a comprehensive list of products with filtering options enabling users to browse and select items for comparison.",
+          "Product Comparison Panel: A temporary modal or sidebar where selected products are aggregated before final comparison, allowing for adjustments.",
+          "Comparison Results Screen: Provides a detailed side-by-side view of selected products showing critical attributes such as price, description, ratings, images, and shipping details.",
+          "Product Detail Screen: Offers an in-depth view of an individual product’s information post-comparison, helping users make informed decisions."
+        ]
+      },
+      "{\"featureName\": \"Filter options based on price, quality, and features\", \"flow\": \"Step 1: Visitor/Buyer accesses the website (www.hailua.com.vn) via a browser.\\\nStep 2: The user logs in or continues as a guest to view produce listings.\\\nStep 3: On the produce listing page, the user locates the filter panel integrated on the side or as a top component.\\\nStep 4: The user selects desired filter criteria by adjusting a price slider for the specific price range, checking boxes for quality options (e.g., organic, premium, standard), and selecting additional features (e.g., packaging, produce type) from dropdown menus or toggle buttons. (User Role: Buyer)\\\nStep 5: The buyer clicks the \\\"Apply Filters\\\" button, triggering a request to the backend server. (User Role: Buyer & System)\\\nStep 6: The system processes the filtering criteria, queries the database for matching produce, and returns a filtered list of products. (User Role: System)\\\nStep 7: The user is presented with an updated product listing. If the list is unsatisfactory, the user can modify the filters or click a \\\"Reset Filters\\\" button to return to the default view. (User Role: Buyer)\\\nStep 8: Additional actions include clicking on a product to view detailed information or further sorting the results.\\\nNote: An Admin role may oversee the configuration of filter options on the backend to ensure they align with the current product database.\", \"screens\": [\"Homepage/Listing Screen: Displays all produce listings with an integrated filter panel; serves as the starting point for browsing.\", \"Filter Panel: A dedicated component or modal that contains interactive elements (sliders, checkboxes, dropdown menus) for selecting price, quality, and feature filters.\", \"Filtered Results Screen: Shows the list of produce that match the applied filter criteria, including pagination or sorting options.\", \"Product Details Screen: Provides comprehensive details about a selected product from the filtered results, including images, descriptions, and pricing.\", \"Empty Results/Error Screen: Informs the user when no products match the selected criteria and offers suggestions to adjust filter settings.\"]}",
+      {
+        "featureName": "User reviews and ratings integration similar to major e-commerce platforms",
+        "flow": "Step 1: A prospective buyer navigates to the Product Details Screen to view detailed product information along with an aggregated review and rating summary. Step 2: If the user is not already logged in, the system redirects them to the Login Screen to authenticate using their bank account credentials. Step 3: Upon successful login, the user reviews existing customer feedback on the Product Details Screen. Step 4: The user selects the 'Add Review' option, which transitions them to the Review Submission Screen. Step 5: On the Review Submission Screen, the user enters the review text, selects a star rating (from 1 to 5), and optionally uploads images to support their review. Step 6: The system validates the review submission and prompts the user to confirm their entry. Step 7: Once confirmed, the review is submitted and queued for moderation. Step 8: An administrator reviews the pending review using the Admin Moderation Screen, approving or rejecting it based on compliance with review guidelines. Step 9: Upon approval, the newly submitted review is published and becomes visible on the Product Details Screen and the dedicated Review List Screen. Step 10: The user receives a Confirmation/Success Screen, notifying them that their review has been successfully posted.",
+        "screens": [
+          "Product Details Screen: Displays the product information, aggregated reviews, and overall star ratings to help users make informed decisions.",
+          "Login Screen: Facilitates user authentication using bank account credentials before accessing sensitive features.",
+          "Review List Screen: Presents a comprehensive list of all user reviews and ratings associated with the product.",
+          "Review Submission Screen: Provides an interface for users to write and submit detailed reviews, select star ratings, and optionally upload images.",
+          "Confirmation/Success Screen: Confirms to the user that their review has been successfully submitted.",
+          "Admin Moderation Screen: Enables administrators to review, approve, or reject new reviews to ensure quality and compliance."
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "category": "User Management",
+    "features": [
+      {
+        "featureName": "User registration and login",
+        "flow": "1. Visitor navigates to the landing page and selects 'Register' or 'Login'. (User: Visitor)\n2. On the registration screen, the user fills out required information (name, email, password) and submits the form. (User: Prospective User)\n3. The system sends an email verification link; the user opens the email and clicks the link, which redirects them to the verification confirmation page. (User: Prospective User)\n4. After verification, the user is redirected to the login screen. (User: Verified User)\n5. The user enters login credentials and on successful authentication is redirected to their dashboard/home page. (User: Logged-in User)\n6. In case of errors (e.g., incorrect password), proper error messages are displayed and options for password reset are provided. (User: Logged-in User)",
+        "screens": [
+          "Landing Page: Introduces SSN and provides options to register or login.",
+          "Registration Form: Collects user details for account creation including email, name, and password.",
+          "Email Verification Screen: Informs the user to verify their email and confirms successful verification when the link is clicked.",
+          "Login Screen: Allows users to log in using registered credentials and provides a password recovery option.",
+          "Dashboard/Home Page: Serves as the landing point post-login, offering navigation to various SSN features."
+        ]
+      },
+      {
+        "featureName": "User profile creation and customization",
+        "flow": "1. Once logged in, the user navigates to the profile management section from the dashboard. (User: Registered User)\n2. The user selects 'Create Profile' for first-time setup or 'Edit Profile' if making updates. (User: Registered User)\n3. The profile creation page prompts the user to fill in personal details such as bio, profile photo, academic background, and research interests. (User: Profile Owner)\n4. The user customizes visual elements such as layout themes and privacy settings. (User: Profile Owner)\n5. After filling out the required information, the user previews the profile, makes adjustments if necessary, and submits the profile. (User: Profile Owner)\n6. The system confirms the successful creation or update of the profile and displays the finalized profile to the user. (User: Profile Owner)",
+        "screens": [
+          "Profile Management Dashboard: Provides access to profile creation and customization options.",
+          "Profile Creation/Editing Form: A form-based interface where users enter and update personal details, add a profile picture, and input academic information.",
+          "Customization Editor: Allows users to set visual preferences and privacy configurations for their public profile.",
+          "Profile Preview Screen: Displays how the profile will look to other SSN members prior to final submission.",
+          "Confirmation Screen: Confirms successful profile creation or update with a success message and options to further customize or navigate elsewhere."
+        ]
+      },
+      {
+        "featureName": "Multi-network membership management (ability to join multiple institution networks)",
+        "flow": "1. After logging in, the user accesses the 'My Networks' section via the dashboard. (User: Registered User)\n2. The user views a list of current institution networks and an option to 'Join New Network'. (User: Profile Owner)\n3. Upon clicking 'Join New Network', the user is presented with a searchable list or directory of institutional networks (initially Vietnamese universities), with filter options based on location, disciplines, or rankings. (User: Prospective Network Member)\n4. The user selects a desired network and is shown a brief overview or profile of that institution. (User: Prospective Network Member)\n5. The user confirms the desire to join by clicking a 'Join' button; if required, the network administrator reviews and approves the membership request. (User: Prospective Network Member; System/Network Admin: Membership Approval)\n6. Once approved (or immediately if no approval is needed), the network membership is activated, and the user can switch between networks in their profile settings. (User: Network Member)\n7. The system sends notifications regarding membership status changes, requests, or confirmations. (User: Network Member)",
+        "screens": [
+          "My Networks Screen: Lists all networks the user is currently a member of, with options to manage or view details.",
+          "Network Directory/Search Screen: Provides a searchable and filterable list of available institution networks.",
+          "Network Overview Screen: Displays detailed information regarding an institution network including mission, available resources, and guidelines for joining.",
+          "Join Network Confirmation Dialog: A confirmation interface where users verify their action to join a selected network.",
+          "Membership Status Notification Screen: Shows notifications about membership approval, rejections, or successful additions of networks."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Network and Community Management",
+    "features": [
+      {
+        "featureName": "Institution-specific networks (starting with Vietnamese universities)",
+        "flow": "1. User Authentication: A student, teacher, or researcher logs in or signs up via the authentication screen. (User Role: All)\n2. Network Listing: After authentication, the user is directed to a dashboard displaying a list of institution-specific networks, starting with major Vietnamese universities. (User Role: All)\n3. Network Selection: The user selects a specific university network to join. A confirmation prompt or information modal may appear detailing the network’s focus and guidelines. (User Role: All)\n4. Join Confirmation: Upon confirmation, the system registers the user as a member of the selected institution's network and redirects them to the network’s home page. (User Role: All)\n5. Network Interaction: Within the network, users can view posts, share academic resources, and engage in discussions related to the institution. Educators and network moderators also have the ability to post official announcements or moderate content. (User Role: Students, Teachers, Researchers, Administrators)\n6. Content Management: Administrators and designated moderators manage content, enforce guidelines, and update network details periodically. (User Role: Administrators/Moderators)",
+        "screens": [
+          "Login Screen: Interface for user authentication including login and sign-up options.",
+          "Dashboard/Institution Networks List Screen: Displays available institution-specific networks with key details and join options.",
+          "Institution Network Home Screen: Main feed for the selected university network displaying posts, resources, and discussions.",
+          "Content Interaction Screen: Allows users to view posts in detail, comment, and interact with shared content.",
+          "Admin/Network Management Screen: Provides tools for moderators and administrators to manage content and network settings."
+        ]
+      },
+      {
+        "featureName": "Option for users to join and interact in multiple networks",
+        "flow": "1. Multi-network Overview: After login, users are presented with an extended list of available networks beyond their default institution. (User Role: All)\n2. Network Exploration: Users can browse, search, and filter networks by institution, type, or category. (User Role: All)\n3. Join Process: When a user finds an interesting network, they click on a 'Join' button. A confirmation step ensures the user understands the network’s focus and policies. (User Role: All)\n4. Aggregated Dashboard: Once a user joins multiple networks, the system offers an aggregated view that allows switching between networks seamlessly or viewing a consolidated feed with posts and notifications from all networks. (User Role: All)\n5. Network-specific Interaction: Users can choose to switch to a specific network to interact more deeply, post content, or engage with community discussions unique to that network. (User Role: All)",
+        "screens": [
+          "Network Selection Screen: Enables users to browse, search, and filter through a list of available networks.",
+          "Multi-network Dashboard Screen: Aggregated feed that presents posts, notifications, and activities from all the networks a user has joined.",
+          "Network Details Screen: Provides in-depth information about a selected network, including recent posts, rules, and community guidelines.",
+          "Notification Screen: Displays consolidated notifications and updates from all joined networks."
+        ]
+      },
+      {
+        "featureName": "Future network expansion support for high schools and elementary schools",
+        "flow": "1. Announcement and Onboarding: The administration announces the upcoming expansion to include high schools and elementary schools. This is displayed via an announcement screen. (User Role: All)\n2. Expanded Network Listing: New network categories for high schools and elementary schools are added to the network listing, clearly marked and differentiated from university networks. (User Role: All)\n3. Selection and Enrollment: Users, including younger students and educators from these institutions, can select and join the appropriate network. A guided enrollment process may include additional age-appropriate consent or parental verification steps where necessary. (User Role: Students, Teachers, Administrators)\n4. Tailored Feed and Interaction: Upon joining, the user is directed to a community feed that includes content specifically curated for high school or elementary education contexts. Moderation settings are adjusted to suit younger audiences. (User Role: Students, Teachers)\n5. Continuous Support and Monitoring: Administrators monitor the new networks actively to ensure the content is appropriate and that community guidelines are followed. (User Role: Administrators)",
+        "screens": [
+          "Announcement Screen: Displays news about the network expansion and key changes to the platform.",
+          "New Networks Enrollment Screen: Lists high school and elementary school networks separately from university networks, with detailed descriptions.",
+          "Registration/Signup Screen for New Networks: A tailored sign-up interface designed for younger users and educators including additional verification steps if required.",
+          "Network Community Feed Screen: Shows content and interactions specific to the high school or elementary school networks with moderated content."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Educational Content Sharing",
+    "features": [
+      {
+        "featureName": "Upload and share educational materials (study resources, course materials)",
+        "flow": "1. User Authentication: The student, researcher, or educator logs in to the SSN platform. (User Role: Student/Researcher/Teacher) 2. Dashboard Access: The user navigates to the Dashboard where the 'Upload Materials' option is clearly visible. 3. Initiate Upload: The user clicks the 'Upload Material' button, accessing the upload form. 4. Fill Upload Form: The user enters required details such as Title, Description, Subject Category, and attaches relevant files (documents, images, videos). (User Role: Content Creator) 5. Preview Submission: The user reviews the preview screen to ensure content accuracy and proper formatting. 6. Confirm and Publish: The user submits the content, which is then saved and shared with the chosen network(s). 7. Post-Upload Notification: The system displays a confirmation message and, optionally, sends an email or in-app notification confirming the successful upload.",
+        "screens": [
+          "Login Screen: Allows users to securely log into the SSN platform.",
+          "Dashboard Screen: Displays a central hub with navigation options including 'Upload Materials'.",
+          "Upload Material Screen: A form where users can enter the title, description, select subject, and attach files.",
+          "Content Preview Screen: Provides a preview of the upload, showing how the content will appear once published.",
+          "Confirmation Screen: Informs the user that the material has been successfully uploaded and shared."
+        ]
+      },
+      {
+        "featureName": "Categorization of content by subjects (e.g., Algebra A1, Method of Report Writing)",
+        "flow": "1. User Login: Any user (student, researcher, or educator) logs in to the platform. (User Role: All Users) 2. Access Exploration Section: The user navigates to the 'Explore' or 'Library' section from the Dashboard. 3. Select Subject Categories: The user is presented with a list of subject categories (e.g., Algebra A1, Method of Report Writing) and selects one of interest. 4. Filter and View Content: After selecting a subject, the system filters and displays a list of relevant educational materials. 5. Detailed Exploration: The user clicks on individual items for a detailed view, including author information, upload date, and additional metadata. 6. Optional Interaction: The user can rate, comment, or share the selected content with their network.",
+        "screens": [
+          "Dashboard Screen: Provides navigation to the exploration or library section.",
+          "Subject Categories Screen: Lists all available subject categories for content filtering.",
+          "Filter/Category Selection Screen: Allows users to apply additional filters to narrow down search results.",
+          "Content Listing Screen: Displays a list of materials under the selected subject category.",
+          "Content Detail Screen: Shows detailed information about a selected educational material, including options for interaction."
+        ]
+      },
+      {
+        "featureName": "Ability to share personal academic journeys and professional experiences",
+        "flow": "1. User Login: The user (student, researcher, or educator) logs in to SSN. (User Role: All Users) 2. Navigate to Profile/Journal Section: The user accesses a dedicated area on their profile for sharing experiences. 3. Initiate Post Creation: The user clicks on a 'Share Your Journey' or 'Create Post' button. 4. Compose Content: The user writes their story or experience, optionally adding multimedia such as images or videos to enhance the post. 5. Preview Post: The user reviews a preview of their post for formatting, correctness, and overall presentation. 6. Publish Post: After confirming the content, the user publishes the post, making it available to their network and/or the public area of SSN. 7. Notification and Engagement: Once published, the system confirms success and the post appears on the public feed and the user’s profile for others to view and interact with.",
+        "screens": [
+          "Dashboard Screen: Serves as the central navigation hub from where users can access their profile or post creation page.",
+          "Profile/Journal Screen: Displays the user’s personal space for academic journeys and experiences.",
+          "Post Creation Screen: A rich text editor interface where users can write, format text, and attach multimedia files.",
+          "Post Preview Screen: Allows users to preview their content as it will appear to others before final submission.",
+          "Post Confirmation Screen: Notifies users that their post has been successfully published and displays the live post."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Rating and Recommendations",
+    "features": [
+      {
+        "featureName": "Student ratings and reviews for educators",
+        "flow": "1. Student logs into the SSN platform using their credentials. (User Role: Student) \n2. From the dashboard, the student navigates to the Educators section and selects an educator’s profile to view detailed information including current ratings and reviews. (User Role: Student) \n3. The educator’s profile displays an option called 'Rate & Review'. The student clicks this button, which opens the rating and review form. (User Role: Student) \n4. The student selects a star rating (typically from 1 to 5 stars) and writes a detailed review in the provided text field. (User Role: Student) \n5. The student submits the review. The system validates the input and updates the educator’s overall rating. (User Role: System, Student) \n6. Upon successful submission, the student is shown a confirmation page or notification, and the new rating immediately appears on the educator’s profile. (User Role: System) \n7. Optionally, moderators may review submitted content to ensure compliance with community guidelines. (User Role: Moderator)",
+        "screens": [
+          "Educator Profile Screen: Displays detailed information about the educator along with current ratings and reviews.",
+          "Rating & Review Form Screen: Provides an interface for students to select a star rating and write a review.",
+          "Review Submission Confirmation Screen: Confirms to the student that the review has been successfully submitted.",
+          "Moderation Review Screen (Admin/Moderator): Allows moderators to view and approve flagged or new reviews if necessary."
+        ]
+      },
+      {
+        "featureName": "Course rating and recommendation system",
+        "flow": "1. Student logs into the SSN platform. (User Role: Student) \n2. Student accesses the Courses section from the main menu or dashboard. (User Role: Student) \n3. The student browses through the list of courses and selects a specific course to view detailed information, including previous ratings and reviews. (User Role: Student) \n4. On the course detail page, the student clicks on a 'Rate this Course' button which opens up a review and rating form. (User Role: Student) \n5. The student provides a star rating, writes an optional detailed review, and may also suggest recommendations on related courses or improvements. (User Role: Student) \n6. After submitting the review, the course’s overall rating is updated, and the system may display personalized recommendations based on the student’s rating and previous interactions. (User Role: System, Student) \n7. The system aggregates data from multiple reviews to generate new course recommendations, which are then displayed on the student’s personalized dashboard. (User Role: System)",
+        "screens": [
+          "Course Listing Screen: Displays a list of available courses, allowing users to select a course of interest.",
+          "Course Detail Screen: Shows in-depth information about the course, including existing ratings, reviews, and curriculum details.",
+          "Rating & Review Form Screen: Provides a form for students to submit their ratings and personal recommendations for the course.",
+          "Submission Confirmation Screen: Confirms successful submission and informs the student that the course rating has been updated.",
+          "Personalized Recommendation Screen: Displays courses recommended to the student based on their reviews and interactions."
+        ]
+      },
+      {
+        "featureName": "Recommendations on educational paths based on shared experiences and materials",
+        "flow": "1. User logs into the SSN platform. (User Role: Student/Researcher/Teacher) \n2. User navigates to the 'Educational Paths' or 'Recommendations' section from the main menu. (User Role: Student/Researcher/Teacher) \n3. The system presents a landing page that aggregates recommendations based on shared experiences, educational materials, and peer reviews. (User Role: System) \n4. User can filter or sort recommendations based on academic disciplines, institution, or level of education. (User Role: Student/Researcher/Teacher) \n5. User selects a recommended educational path to view details including success stories, required materials, and related course offerings. (User Role: Student/Researcher/Teacher) \n6. The user may provide feedback or indicate personal alignment with the recommended path, which further refines future suggestions. (User Role: Student/Researcher/Teacher) \n7. The system periodically updates and refines recommendation algorithms based on aggregated user input and emerging educational trends. (User Role: System)",
+        "screens": [
+          "Educational Paths Landing Screen: Introduces the section with an overview of available recommended paths and highlighted success stories.",
+          "Recommendation Filter & Sort Screen: Allows users to filter recommendations by discipline, institution, and education level.",
+          "Recommendation Detail Screen: Provides comprehensive details about a selected educational path including shared experiences and materials.",
+          "Feedback & Alignment Screen: Enables users to provide feedback or express how well the recommendation fits their interests.",
+          "Algorithm Update Notification Screen: Optionally notifies users when new recommendations are generated based on their input."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Collaboration and Networking",
+    "features": [
+      {
+        "featureName": "Facilitation of communication between students, researchers, and teachers",
+        "flow": "Step 1: All users (students, researchers, and teachers) log into their SSN account. Step 2: Users navigate to the Communication Hub via the dashboard menu. Step 3: The system displays a list of available contacts organized by role, interests, or university affiliation. Step 4: The user selects a contact to initiate a conversation; the system opens a dedicated chat window. Step 5: Within the chat, the user can send text messages, multimedia attachments, or shared study resources. Step 6: The recipient receives notifications and can reply in real time; conversation history is stored for later reference. Step 7: Users can search and filter previous conversations or group chats that may have been initiated. (User Roles: Students, Researchers, Teachers)",
+        "screens": [
+          "Login/Registration Screen: Allows users to authenticate or sign up for an SSN account.",
+          "Dashboard Screen: Presents an overview of notifications, recent messages, and quick access to communication features.",
+          "Contacts/Chat List Screen: Displays a list of contacts and ongoing conversations, with filters based on role or interest.",
+          "Chat Box Screen: The main messaging interface where real-time communication, file sharing, and multimedia interactions occur.",
+          "Conversation History Screen: Provides access to stored conversations with search and filter options for past messages."
+        ]
+      },
+      {
+        "featureName": "Platforms for researchers and teachers to share professional experiences",
+        "flow": "Step 1: Researchers and teachers log into their SSN account and navigate to the 'Professional Sharing' section from their dashboard. Step 2: They click on the 'Create Post' button to draft a new article or share a case study, which may include text, images, or video content. Step 3: The submitted post is either published directly or sent to a moderation queue (if required by platform policy) before it becomes public. Step 4: Once published, the post is visible to all users including students who can view, like, comment, and share it. Step 5: Authors can edit or update their posts, and the system provides options to tag related subjects, universities, or research areas.\n(User Roles: Researchers, Teachers, and viewing access for Students)",
+        "screens": [
+          "Login/Registration Screen: For secure sign in and account management by researchers and teachers.",
+          "Dashboard Screen: Showcases the latest posts and updates in the Professional Sharing section.",
+          "Post Creation Screen: Provides tools for writing, formatting, and attaching multimedia to professional experience posts.",
+          "Post Detail Screen: Displays a detailed view of each post along with comments, likes, and sharing options.",
+          "Moderation Review Screen: (Optional) An interface for administrators to review flagged or submitted posts before publication.",
+          "Interaction Screen: Enables users to like, comment, and share posts, fostering engagement and discussion."
+        ]
+      },
+      {
+        "featureName": "Tools to help researchers find student collaborators",
+        "flow": "Step 1: Researchers log into SSN and navigate to the 'Collaborator Finder' module from the main dashboard. Step 2: The module provides filtering options such as academic interests, study subjects, and university affiliation to refine the search for potential student collaborators. Step 3: The system returns a list of eligible student profiles who have indicated interests in collaboration, shared study materials, or exhibited research alignment. Step 4: Researchers review individual student profiles to assess academic history, shared content, and relevant experiences. Step 5: Upon identifying a suitable candidate, the researcher sends a collaboration request directly through the platform; the student receives an alert and can review the proposal. Step 6: If the student accepts the request, the system automatically creates a dedicated collaboration chat room for further discussion and project planning. (User Roles: Researchers initiating the search, Students receiving collaboration requests)",
+        "screens": [
+          "Login/Registration Screen: Ensures authenticated access for researchers and students.",
+          "Dashboard Screen: Offers an overview of available tools, notifications, and collaboration options.",
+          "Collaborator Finder Screen: Provides advanced search filters and displays a list of student profiles matching the criteria.",
+          "Student Profile Screen: Presents detailed academic and personal information of individual students, along with shared work.",
+          "Collaboration Request Screen: Allows researchers to compose and send a formal request for collaboration, and for students to review and respond.",
+          "Collaboration Chat Screen: A dedicated communication interface for the researcher and student to discuss and plan their collaborative efforts."
+        ]
+      }
+    ]
+  }
+]

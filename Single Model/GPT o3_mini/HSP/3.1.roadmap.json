@@ -1,0 +1,72 @@
+[
+  {
+    "id": "P1",
+    "phase": "Phase 1: User Management",
+    "feature list": [
+      "Farm staff user roles and access controls",
+      "Farmer registration and profile management",
+      "User authentication and role-based permissions"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-10-11",
+    "endTime": "2023-11-07",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Phase 2: Piglet Management & Tracking",
+    "feature list": [
+      "Record and update piglet growth details",
+      "Monitor and log feeding routines",
+      "Track temperature and environmental conditions",
+      "Update piglet health records",
+      "Record incidents of common diseases",
+      "Manage import/export statuses of piglets"
+    ],
+    "estimatedTime": "6 weeks",
+    "startTime": "2023-10-11",
+    "endTime": "2023-11-22",
+    "dependencies": []
+  },
+  {
+    "id": "P3",
+    "phase": "Phase 3: Order & Exchange Management",
+    "feature list": [
+      "Browse available pig varieties for farmers",
+      "Place orders for one or more piglets",
+      "Facilitate piglet exchanges between farmers"
+    ],
+    "estimatedTime": "5 weeks",
+    "startTime": "2023-11-08",
+    "endTime": "2023-12-13",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P4",
+    "phase": "Phase 4: Communication & Care Guidance",
+    "feature list": [
+      "Communication platform for post-purchase care",
+      "Provide feeding routine notifications",
+      "Send vaccination schedule reminders",
+      "Distribute care guidelines and best practices"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-12-14",
+    "endTime": "2024-01-10",
+    "dependencies": ["P3"]
+  },
+  {
+    "id": "P5",
+    "phase": "Phase 5: Reporting & Analytics",
+    "feature list": [
+      "Generate revenue statistics",
+      "Create monthly, quarterly, and annual reports",
+      "Update and view promotional offers",
+      "Maintain current farm performance data"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2024-01-11",
+    "endTime": "2024-02-01",
+    "dependencies": ["P1", "P2", "P3"]
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "category": "User Management",
+    "list_feature": [
+      "Farmer registration with bank account verification",
+      "Customer registration and login",
+      "User profile management for both farmers and customers"
+    ]
+  },
+  {
+    "category": "Product Listing",
+    "list_feature": [
+      "Create and manage product listings (rice, fruits, fish, etc.)",
+      "Input detailed product descriptions and pricing information",
+      "Upload and manage product images",
+      "Categorize products for easier discovery"
+    ]
+  },
+  {
+    "category": "Product Discovery",
+    "list_feature": [
+      "Browse product catalog",
+      "Robust search functionality (by product type, price, etc.)",
+      "Product comparison features",
+      "Individual product detail pages"
+    ]
+  },
+  {
+    "category": "Transaction Processing",
+    "list_feature": [
+      "Online ordering system for purchasing products",
+      "Payment processing integration for secure transactions",
+      "Order history and tracking for buyers and sellers"
+    ]
+  },
+  {
+    "category": "Shipping Integration",
+    "list_feature": [
+      "Interface to arrange shipping for purchased items",
+      "Integration with shipping providers to schedule and track deliveries"
+    ]
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "category": "Branch Coordination",
+    "list_feature": [
+      "Multi-branch management interface",
+      "Role-based access control for branch staff",
+      "Real-time inventory synchronization across branches",
+      "Inter-branch communication and task delegation tools"
+    ]
+  },
+  {
+    "category": "Payment Gateways",
+    "list_feature": [
+      "Integrated credit/debit card processing",
+      "Mobile wallet payment support",
+      "PCI-DSS compliant transaction security",
+      "Multi-currency support with auto-conversion",
+      "Split payment routing for branch-specific transactions"
+    ]
+  },
+  {
+    "category": "Promotional Tools",
+    "list_feature": [
+      "Customizable discount code generator",
+      "Loyalty program management system",
+      "Seasonal campaign templates",
+      "Bulk SMS/email promotion module",
+      "Referral reward tracking system"
+    ]
+  },
+  {
+    "category": "Analytics Modules",
+    "list_feature": [
+      "Branch performance comparison dashboards",
+      "Customer purchase pattern analysis",
+      "Real-time sales revenue tracking",
+      "Promotional campaign ROI calculator",
+      "Inventory turnover rate forecasting"
+    ]
+  },
+  {
+    "category": "Online Ordering",
+    "list_feature": [
+      "Real-time order interface optimized for office workers",
+      "Geolocation-based automatic branch routing",
+      "Seamless integration with existing payment gateways",
+      "End-to-end order status tracking system",
+      "Promo code redemption integration with validation"
+    ]
+  },
+  {
+    "category": "Customer Feedback",
+    "list_feature": [
+      "Dual-rating system (star ratings + binary thumbs up/down)",
+      "AI-powered sentiment analysis for written feedback",
+      "Feedback categorization by product/service attributes",
+      "Automated review moderation alerts"
+    ]
+  },
+  {
+    "category": "Menu Management",
+    "list_feature": [
+      "Time-based scheduled price adjustments",
+      "Bulk menu item editing tools",
+      "Seasonal menu scheduling with approval workflows",
+      "Dynamic pricing integration with inventory levels"
+    ]
+  }
+]

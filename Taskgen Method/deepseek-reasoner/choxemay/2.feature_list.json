@@ -1,0 +1,27 @@
+[
+  {
+    "category": "Marketplace listing types",
+    "list_feature": ["Motorcycles", "Parts", "Accessories"]
+  },
+  {
+    "category": "Credibility calculation parameters",
+    "list_feature": [
+      "Transaction history count",
+      "Peer feedback score",
+      "Monetary value of completed transactions"
+    ]
+  },
+  {
+    "category": "Visibility prioritization logic",
+    "list_feature": ["Credibility tier prioritization"]
+  },
+  {
+    "category": "Forum capabilities for pricing trend discussions",
+    "list_feature": [
+      "Dedicated threads for regional pricing trends",
+      "Real-time pricing dashboards",
+      "Historical price fluctuation analysis tools",
+      "Collaborative pricing strategy workshops"
+    ]
+  }
+]

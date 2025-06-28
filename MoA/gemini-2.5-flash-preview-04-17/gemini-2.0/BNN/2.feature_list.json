@@ -1,0 +1,42 @@
+[
+    {
+        "feature_category": "User Management",
+        "features": [
+            "Farmer Registration (including Bank Account Requirement)"
+        ]
+    },
+    {
+        "feature_category": "Product Management",
+        "features": [
+            "Product Listing (details, images, prices)"
+        ]
+    },
+    {
+        "feature_category": "Browsing and Search",
+        "features": [
+            "Product Browsing",
+            "Product Searching",
+            "Product Comparison"
+        ]
+    },
+    {
+        "feature_category": "Ordering and Purchasing",
+        "features": [
+            "Product Selection",
+            "Product Purchase"
+        ]
+    },
+    {
+        "feature_category": "Payment",
+        "features": [
+            "Online Payment (for Customers)",
+            "Payment Receiving (for Farmers)"
+        ]
+    },
+    {
+        "feature_category": "Shipping",
+        "features": [
+            "Shipping Arrangement"
+        ]
+    }
+]

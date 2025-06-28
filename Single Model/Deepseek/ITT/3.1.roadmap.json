@@ -1,0 +1,83 @@
+[
+  {
+    "id": "P1",
+    "phase": "Core Structure & Tour Categorization",
+    "feature list": [
+      "Curated tour selections",
+      "Distinct categories: Special Tours, Japan Tours, Asia Tours, Europe-Australia-America Tours"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2023-10-11",
+    "endTime": "2023-11-01",
+    "dependencies": []
+  },
+  {
+    "id": "P2",
+    "phase": "Tour-Specific Content Development",
+    "feature list": [
+      "Daily itineraries with schedules",
+      "Key attractions highlighted per tour",
+      "Logistical specifics (accommodations, flights, meals)",
+      "Transparent pricing with inclusions/exclusions",
+      "Visual galleries for tours",
+      "Tour guide profiles"
+    ],
+    "estimatedTime": "4 weeks",
+    "startTime": "2023-11-01",
+    "endTime": "2023-11-29",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P3",
+    "phase": "Booking System & Policy Integration",
+    "feature list": [
+      "Clear payment guidelines",
+      "Cancellation policies",
+      "Terms and conditions for bookings"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2023-11-29",
+    "endTime": "2023-12-20",
+    "dependencies": ["P2"]
+  },
+  {
+    "id": "P4",
+    "phase": "Visa Assistance & Contact Channels Setup",
+    "feature list": [
+      "Comprehensive visa guidance for various destinations",
+      "Online contact forms",
+      "Dedicated hotlines (individual, group, visa inquiries)",
+      "Email support",
+      "Office address information"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2023-11-01",
+    "endTime": "2023-11-22",
+    "dependencies": ["P1"]
+  },
+  {
+    "id": "P5",
+    "phase": "Promotions & Trust-Building Features",
+    "feature list": [
+      "Regular updates on promotions and special offers",
+      "Authentic client testimonials",
+      "User reviews to build trust"
+    ],
+    "estimatedTime": "2 weeks",
+    "startTime": "2023-11-29",
+    "endTime": "2023-12-13",
+    "dependencies": ["P1", "P2"]
+  },
+  {
+    "id": "P6",
+    "phase": "Cultural & Travel Insights Content Creation",
+    "feature list": [
+      "Articles on cultural exploration",
+      "Firsthand travel narratives and stories"
+    ],
+    "estimatedTime": "3 weeks",
+    "startTime": "2023-11-01",
+    "endTime": "2023-11-22",
+    "dependencies": ["P1"]
+  }
+]
